@@ -8,6 +8,7 @@ _Hello WindTerm :rose:, hello world!_
 # Download
 
 Windows Binary: https://github.com/kingToolbox/WindTerm/releases
+
 (The binary of Macos and Linux will be committed later)
 
 # Screenshots
@@ -81,8 +82,27 @@ Split views:
 The hardware used for generating the data in these benchmarks was
 
     windows 10 - 2.3 GHz Intel Core i5 and 8GB memory.
+    MacOs 10.13 - 2.3 GHz Intel Core i5 and 8GB memory.
 
-All tests are performed on WSL(Ubuntu 18.04.2). And no color scheme used in windterm. Color scheme will result in approximately 2% loss and more memory usage.
+**WindTerm, rxvt, putty, xterm** tests are performed on WSL(Ubuntu 18.04.2). 
+
+**Iterm2, kitty, Alacritty** tests are performed on MacOS shell, 
+
+    For WindTerm: No color scheme used in windterm. Color scheme will result in approximately 2% loss and more memory usage.
+
+    For Alacritty: Can not find how to set the scrollback lines limit, so every test use its default setting and no memory usage measured.
+
+The version of terminals:
+
+    windterm      v0.8
+    rxvt-unicode: v9.2.2
+    putty:        v0.71
+    xterm:        v3.30
+    iterm2:       v3.3.6
+    alacritty:    v0.3.3
+    kitty:        v0.14.6
+
+**All test data is for reference only.**
 
 - 97.6MB random text (102,401,504 bytes, 1,329,878 lines, generated and tested by [random_test.sh](https://github.com/kingToolbox/WindTerm/blob/master/benchmark/urandom_test.sh))
 
@@ -106,6 +126,14 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | Putty | 1,350,000 | 4.8 | 734.9 |
 | xterm | 1,350,000 | 2.3 | 3328.4 |
 
+3. Shell:
+
+| | Lines of scrollback | Data Rate(MB/sec) | Memory Usage(MB) |
+| --- | --- | --- | --- |
+| iterm2 | unlimited | - (Take too long time) | more than 1300 |
+| kitty | unlimited | 17.2 | 2655 |
+| Alacritty | Limited scrollback | 41.4 | - |
+
 - time seq 1 n
 
 1. n = 1,000,000, scrollback = 1,000,000 Lines
@@ -116,6 +144,9 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | rxvt | 5.082 | 633.3 |
 | putty | 4.161 | 551.1 |
 | xterm | 40.421 | 2500.7 |
+| iterm2 | 2.116 | 146.3 |
+| Kitty | 2.535 | 2376.5 |
+| Alacritty | 1.215 | Not measured, use its default scrollback setting |
 
 2. n = 2,000,000, scrollback = 2,000,000 Lines
 
@@ -125,6 +156,9 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | rxvt | 10.896 | 1266.6 |
 | putty | 16.045 | 1102.6 |
 | xterm | 68.154 | 5005.5 |
+| iterm2 | 4.181 | 383.2 |
+| Kitty | 5.620 | 4749.9 |
+| Alacritty | 2.448 | Not measured, use its default scrollback setting |
 
 3. n = 5,000,000 scrollback = 5,000,000 Lines
 
@@ -134,6 +168,9 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | rxvt | 27.533 | 3166.2 |
 | putty | 45.911 | 2757.1 |
 | xterm | - | Out of memmory |
+| iterm2 | 10.805 | 1048.3 |
+| Kitty | - | Out of memory |
+| Alacritty | 6.172 | Not measured, use its default scrollback setting |
 
 4. n = 10,000,000 scrollback = 10,000,000 Lines
 
@@ -143,6 +180,9 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | rxvt | - | Out of memory |
 | putty | - | Out of memory |
 | xterm | - | Out of memmory |
+| iterm2 | 20.468 | 2231.3 |
+| Kitty | - | Out of memory |
+| Alacritty | 12.332 | Not measured, use its default scrollback setting |
 
 5. n = 10,000,000 scrollback = 30 Lines
 
@@ -152,6 +192,9 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | rxvt | 9.687 | **0.1** |
 | putty | 95.382 | 0.4 |
 | xterm | 286.510 | **0.1** |
+| iterm2 | 25.448 | 7.4 |
+| Kitty | 16.104 | 0.5 |
+| Alacritty | 12.221 | Not measured, use its default scrollback setting |
 
 # Latency
 

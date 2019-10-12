@@ -5,12 +5,25 @@ _Hello WindTerm :rose:, hello world!_
 
 **We're just beginning!**
 
+# Download
+
+Windows Binary: https://github.com/kingToolbox/WindTerm/releases
+(The binary of Macos and Linux will be committed later)
+
 # Screenshots
+
+WSL:
+
 ![WSL](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WSL.png)
+
+Split views:
+
 ![SplitView](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/SplitView.png)
 
+
 # Features
-- Support telnet and SSH.
+- Telnet and SSH v2 protocols implemented.
+- Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Support color schemes like vscode.
 - Support folding, outlining, split views.
 - Support unicode, true-color, mouse protocol, etc.

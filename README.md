@@ -1,5 +1,5 @@
 # WindTerm
-A whole new generation terminal emulator.
+A whole new generation terminal.
 
 _Hello WindTerm :rose:, hello world!_
 

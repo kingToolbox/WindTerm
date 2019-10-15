@@ -1,9 +1,56 @@
 # WindTerm
-A whole new generation terminal.
+A whole new generation Telnet/SSH client.
 
 _Hello WindTerm :rose:, hello world!_
 
 **We're just beginning!**
+
+# Roadmap
+
+**Release cycle:**
+
+  4-6 weeks.
+
+**Next release (for reference only):**
+- Fix bugs, make windterm stable enough for daily use.
+- Session Manager.
+- Reflow text when resized.
+- Support IME.
+- Timestamp.
+- Connection status report.
+
+**Todo list:**
+- Protocols:
+  - Serial
+  - Rlogin
+- SSH:
+  - Auto login
+  - Authentication: public-key, gssapi-with-mic
+  - X11 forwarding
+  - Port forwarding (Tunnel)
+- UI:
+  - Session dialog
+  - Config dialog
+- Terminal:
+  - Auto complete
+  - Cmd, powershell, wsl
+  - Linux bash
+  - MacOs bash
+- Session:
+  - Keep alive
+  - Proxy
+  - Chat mode
+  - Log and log viewer
+- File transfer:
+  - Integrate ftp, sftp, scp client
+  - Xmodem, Ymodem, Zmodem
+  - sz, rz
+- Script, macro and plugin stystem
+- More ...
+
+# Issues and feature requests
+
+Any issues and feature requests are welcome. Please click [issues](https://github.com/kingToolbox/WindTerm/issues) to commit an issue.
 
 # Download
 

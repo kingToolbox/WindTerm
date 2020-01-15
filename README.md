@@ -73,6 +73,7 @@ Split views:
 - Support unicode, true-color, mouse protocol, etc.
 - Support auto wrap mode.
 - Support SSH auto login with password.
+- Support SSH auto execution when session authenticated.
 - Support searching and previewing.
 - Session dialog and session tree.
 - Restore last sessions and layouts when restart. 

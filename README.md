@@ -1,5 +1,5 @@
 # WindTerm
-A whole new generation Telnet/SSH client.
+An innovative fast SSH/Telnet/Serial/Shell client. 
 
 _Hello WindTerm :rose:, hello world!_
 
@@ -12,32 +12,28 @@ _Hello WindTerm :rose:, hello world!_
   4-6 weeks.
 
 **Next release (for reference only):**
-- Fix bugs, make windterm stable enough for daily use.
-- Session Manager.
-- Reflow text when resized.
 - Support IME.
-- Timestamp.
-- Connection status report.
+- Raw serial, raw tcp with hex view.
+- Send window.
+- More UI.
+- Auto login with public key
+- Authentication: public-key, gssapi-with-mic
+- Cmd, powershell on windows 7, wsl on windows 10
+- Keep alive
 
 **Todo list:**
 - Protocols:
-  - Serial
   - Rlogin
 - SSH:
-  - Auto login
-  - Authentication: public-key, gssapi-with-mic
   - X11 forwarding
   - Port forwarding (Tunnel)
 - UI:
-  - Session dialog
   - Config dialog
 - Terminal:
   - Auto complete
-  - Cmd, powershell, wsl
   - Linux bash
   - MacOs bash
 - Session:
-  - Keep alive
   - Proxy
   - Chat mode
   - Log and log viewer
@@ -70,12 +66,15 @@ Split views:
 
 
 # Features
-- Telnet and SSH v2 protocols implemented.
+- SSH v2, Telnet, Serial, Shell protocols implemented.
 - Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Support color schemes like vscode.
-- Support folding, outlining, split views.
+- Support time stamp, folding, outlining, split views.
 - Support unicode, true-color, mouse protocol, etc.
+- Support auto wrap mode.
+- Support SSH auto login with password.
 - Support searching and previewing.
+- Session dialog and session tree.
 - Restore last sessions and layouts when restart. 
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.

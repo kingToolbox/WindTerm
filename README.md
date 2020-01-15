@@ -255,4 +255,4 @@ DIGEdit is the text component of WindTerm.
 |GVim | 0.9 | 10.4 | 2.8 | 1.2 |
 
 # License
-Free for personal use. Currently limited to a maximum of 16 sessions.
+Completely FREE for personal, schools and students use without limitations.

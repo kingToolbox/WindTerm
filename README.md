@@ -19,7 +19,6 @@ _Hello WindTerm :rose:, hello world!_
 - Auto login with public key
 - Authentication: public-key, gssapi-with-mic
 - Cmd, powershell on windows 7, wsl on windows 10
-- Keep alive
 
 **Todo list:**
 - Protocols:

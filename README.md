@@ -5,6 +5,10 @@ _Hello WindTerm :rose:, hello world!_
 
 **We're just beginning!**
 
+# Introduction
+
+See [Intro Videos](https://kingtoolbox.github.io)
+
 # Roadmap
 
 **Release cycle:**

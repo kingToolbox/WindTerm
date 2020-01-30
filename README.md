@@ -3,7 +3,7 @@ An innovative fast SSH/Telnet/Serial/Shell client.
 
 _Hello WindTerm :rose:, hello world!_
 
-**We're just beginning! If you want a high performance text editor, you can try [WindEdit](https://api.github.com/repos/kingToolbox/DIGEdit/).**
+**We're just beginning! If you want a high performance text editor, you can try [WindEdit](https://www.github.com/kingToolbox/DIGEdit/).**
 
 # Introduction
 

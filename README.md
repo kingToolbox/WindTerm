@@ -15,21 +15,21 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
   4-6 weeks.
 
-**Next release (for reference only):**
-- Support IME.
-- Raw serial, raw tcp with hex view.
-- Send window.
-- More UI.
-- Auto login with public key
-- Authentication: public-key, gssapi-with-mic
+**Next release (Middle of March，for reference only):**
+- Address Bar.
+- Quick command bar.
+- Session icon and group color.
+- Color schemes.
+- Preset fonts.
+- Dark GUI.
+- Bracketed paste.
 - Cmd, powershell on windows 7, wsl on windows 10
+- X11 Forwarding.
+- Port forwarding (Tunnel).
 
 **Todo list:**
 - Protocols:
   - Rlogin
-- SSH:
-  - X11 forwarding
-  - Port forwarding (Tunnel)
 - UI:
   - Config dialog
 - Terminal:
@@ -69,15 +69,16 @@ Split views:
 
 
 # Features
-- SSH v2, Telnet, Serial, Shell protocols implemented.
+- SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented.
 - Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Support color schemes like vscode.
 - Support time stamp, folding, outlining, split views.
 - Support unicode, true-color, mouse protocol, etc.
 - Support auto wrap mode.
-- Support SSH auto login with password.
+- Support SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic.
 - Support SSH auto execution when session authenticated.
 - Support searching and previewing.
+- Command sender.
 - Session dialog and session tree.
 - Restore last sessions and layouts when restart. 
 - Protocols and terms can be customed.

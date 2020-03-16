@@ -13,17 +13,14 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
 **Release cycle:**
 
-  4-6 weeks.
+  2-3 weeks.
 
 **Next release (Middle of March，for reference only):**
-- Address Bar.
 - Quick command bar.
 - Session icon and group color.
 - Color schemes.
 - Preset fonts.
 - Dark GUI.
-- Bracketed paste.
-- Cmd, powershell on windows 7, wsl on windows 10
 - X11 Forwarding.
 - Port forwarding (Tunnel).
 

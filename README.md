@@ -15,20 +15,19 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
   2-3 weeks.
 
-**Next release (Middle of March，for reference only):**
-- Quick command bar.
-- Session icon and group color.
-- Color schemes.
-- Preset fonts.
-- Dark GUI.
-- X11 Forwarding.
-- Port forwarding (Tunnel).
+**Next release (Late April，for reference only):**
+- Two modes: local mode(Supports vim key bindings), remote mode
+- Command pallete
 
 **Todo list:**
 - Protocols:
   - Rlogin
+  - SSH
+    - X11 Forwarding
+    - Port forwarding (Tunnel)
 - UI:
   - Config dialog
+  - Quick command bar.
 - Terminal:
   - Auto complete
   - Linux bash
@@ -39,8 +38,7 @@ See [Intro Videos](https://kingtoolbox.github.io)
   - Log and log viewer
 - File transfer:
   - Integrate ftp, sftp, scp client
-  - Xmodem, Ymodem, Zmodem
-  - sz, rz
+  - Xmodem, Ymodem, Zmodem(sz, rz)
 - Script, macro and plugin stystem
 - More ...
 
@@ -77,6 +75,7 @@ Split views:
 - Support searching and previewing.
 - Command sender.
 - Session dialog and session tree.
+- Rename and duplicate session.
 - Restore last sessions and layouts when restart. 
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.

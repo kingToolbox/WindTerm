@@ -15,15 +15,14 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
   2-3 weeks.
 
-**Next release (Late April，for reference only):**
-- Two modes: local mode(Supports vim key bindings), remote mode
-- Command pallete
+**Next release (Late May，for reference only):**
+- Integrate ftp, sftp, scp client
+- X11 Forwarding
 
 **Todo list:**
 - Protocols:
   - Rlogin
   - SSH
-    - X11 Forwarding
     - Port forwarding (Tunnel)
 - UI:
   - Config dialog
@@ -37,7 +36,6 @@ See [Intro Videos](https://kingtoolbox.github.io)
   - Chat mode
   - Log and log viewer
 - File transfer:
-  - Integrate ftp, sftp, scp client
   - Xmodem, Ymodem, Zmodem(sz, rz)
 - Script, macro and plugin stystem
 - More ...
@@ -64,6 +62,9 @@ Split views:
 
 
 # Features
+- **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**)
+- **Command palette.**
+- **Command sender.**
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented.
 - Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Support color schemes like vscode.
@@ -73,7 +74,6 @@ Split views:
 - Support SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic.
 - Support SSH auto execution when session authenticated.
 - Support searching and previewing.
-- Command sender.
 - Session dialog and session tree.
 - Rename and duplicate session.
 - Restore last sessions and layouts when restart. 

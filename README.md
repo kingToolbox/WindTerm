@@ -15,20 +15,20 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
   2-3 weeks.
 
-**Next release (Late May，for reference only):**
-- Integrate ftp, sftp, scp client
-- X11 Forwarding
+**Next release (Late June，for reference only):**
+- Auto complete
 
 **Todo list:**
 - Protocols:
   - Rlogin
   - SSH
+    - X11 Forwarding
     - Port forwarding (Tunnel)
 - UI:
   - Config dialog
+  - Local filer for cmd, powershell
   - Quick command bar.
 - Terminal:
-  - Auto complete
   - Linux bash
   - MacOs bash
 - Session:
@@ -36,6 +36,7 @@ See [Intro Videos](https://kingtoolbox.github.io)
   - Chat mode
   - Log and log viewer
 - File transfer:
+  - ftp, ftps
   - Xmodem, Ymodem, Zmodem(sz, rz)
 - Script, macro and plugin stystem
 - More ...
@@ -65,6 +66,7 @@ Split views:
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**)
 - **Command palette.**
 - **Command sender.**
+- **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.**
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented.
 - Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Support color schemes like vscode.

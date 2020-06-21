@@ -1,5 +1,5 @@
 # WindTerm
-An innovative fast SSH/Telnet/Serial/Shell client. 
+An innovative fast SSH/Telnet/Serial/Shell/sftp client. 
 
 _Hello WindTerm :rose:, hello world!_
 
@@ -9,47 +9,15 @@ _Hello WindTerm :rose:, hello world!_
 
 See [Intro Videos](https://kingtoolbox.github.io)
 
-# Roadmap
-
-**Release cycle:**
-
-  2-3 weeks.
-
-**Next release (Late June，for reference only):**
-- Auto complete
-
-**Todo list:**
-- Protocols:
-  - Rlogin
-  - SSH
-    - X11 Forwarding
-    - Port forwarding (Tunnel)
-- UI:
-  - Config dialog
-  - Local filer for cmd, powershell
-  - Quick command bar.
-- Terminal:
-  - Linux bash
-  - MacOs bash
-- Session:
-  - Proxy
-  - Chat mode
-  - Log and log viewer
-- File transfer:
-  - ftp, ftps
-  - Xmodem, Ymodem, Zmodem(sz, rz)
-- Script, macro and plugin stystem
-- More ...
-
-# Issues and feature requests
-
-Any issues and feature requests are welcome. Please click [issues](https://github.com/kingToolbox/WindTerm/issues) to commit an issue.
-
 # Download
 
 Windows Binary: https://github.com/kingToolbox/WindTerm/releases
 
 (The binary of Macos and Linux will be committed later)
+
+# Issues and feature requests
+
+Any issues and feature requests are welcome. Please click [issues](https://github.com/kingToolbox/WindTerm/issues) to commit an issue.
 
 # Screenshots
 
@@ -61,12 +29,11 @@ Split views:
 
 ![SplitView](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/SplitView.png)
 
-
 # Features
+- **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.**
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**)
 - **Command palette.**
 - **Command sender.**
-- **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.**
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented.
 - Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Support color schemes like vscode.
@@ -82,49 +49,6 @@ Split views:
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.
 - High performance, low memory, low latency.
-
-# Shortcuts
-
-| Shortcut | Action |
-| --- | --- |
-| Alt+C | Copy |
-| Alt+D | Show command palette |
-| Alt+F | Find |
-| Alt+F3 | Find next |
-| Alt+Shift+F3 | Find previous |
-| Alt+F4 | Exit |
-| Alt+M, Alt+F | Toggle full screen |
-| Alt+M, Alt+H | Toggle hex view |
-| Alt+N | New session |
-| Alt+O | Open session |
-| Alt+S | Save text |
-| Alt+T, Alt+B | Toggle margin blank |
-| Alt+T, Alt+F | Toggle margin fold |
-| Alt+T, Alt+N | Toggle margin number |
-| Alt+T, Alt+S | Toggle margin symbol |
-| Alt+V | Paste |
-| Alt+W, Alt+D | Close active dock |
-| Alt+W, Alt+G | Close active group |
-| Alt+W, Alt+H | Split horizontally |
-| Alt+W, Alt+L | Show outline pane |
-| Alt+W, Alt+V | Split vertically |
-| Alt+X | Copy and paste |
-| Alt+- | Zoom in |
-| Alt++ | Zoom out |
-| Alt+\[ | Activate next view |
-| Alt+] | Activate previous view |
-| Ctrl+. | Jump to next fold |
-| Ctrl+, | Jump to previous fold |
-| Ctrl+Shift+A | Select all text |
-| Ctrl+Shift+T | Reopen closed session |
-| Ctrl+Shift+W | Close current session |
-| Ctrl+Shift+- | Select current fold text |
-| Shift+Del | Copy |
-| Shift+End | Jump to document end |
-| Shift+Home | Jump to document home |
-| Shift+Ins | Paste |
-| Shift+PgDown | Jump to next page |
-| Shift+PgUp | Jump to previous page |
 
 # Performance
 
@@ -255,6 +179,81 @@ DIGEdit is the text component of WindTerm.
 |DIGEdit| 1.9 | 7.6 | 2.9 | 0.8 |
 |Windows Notepad | 0.9 | 16.5 | 7.8 | 1.8 |
 |GVim | 0.9 | 10.4 | 2.8 | 1.2 |
+
+# Shortcuts
+
+| Shortcut | Action |
+| --- | --- |
+| Alt+C | Copy |
+| Alt+D | Show command palette |
+| Alt+F | Find |
+| Alt+F3 | Find next |
+| Alt+Shift+F3 | Find previous |
+| Alt+F4 | Exit |
+| Alt+M, Alt+F | Toggle full screen |
+| Alt+M, Alt+H | Toggle hex view |
+| Alt+N | New session |
+| Alt+O | Open session |
+| Alt+S | Save text |
+| Alt+T, Alt+B | Toggle margin blank |
+| Alt+T, Alt+F | Toggle margin fold |
+| Alt+T, Alt+N | Toggle margin number |
+| Alt+T, Alt+S | Toggle margin symbol |
+| Alt+V | Paste |
+| Alt+W, Alt+D | Close active dock |
+| Alt+W, Alt+G | Close active group |
+| Alt+W, Alt+H | Split horizontally |
+| Alt+W, Alt+L | Show outline pane |
+| Alt+W, Alt+V | Split vertically |
+| Alt+X | Copy and paste |
+| Alt+- | Zoom in |
+| Alt++ | Zoom out |
+| Alt+\[ | Activate next view |
+| Alt+] | Activate previous view |
+| Ctrl+. | Jump to next fold |
+| Ctrl+, | Jump to previous fold |
+| Ctrl+Shift+A | Select all text |
+| Ctrl+Shift+T | Reopen closed session |
+| Ctrl+Shift+W | Close current session |
+| Ctrl+Shift+- | Select current fold text |
+| Shift+Del | Copy |
+| Shift+End | Jump to document end |
+| Shift+Home | Jump to document home |
+| Shift+Ins | Paste |
+| Shift+PgDown | Jump to next page |
+| Shift+PgUp | Jump to previous page |
+
+# Roadmap
+
+**Release cycle:**
+
+  2-3 weeks.
+
+**Next release (Late June，for reference only):**
+- Auto complete
+
+**Todo list:**
+- Protocols:
+  - Rlogin
+  - SSH
+    - X11 Forwarding
+    - Port forwarding (Tunnel)
+- UI:
+  - Config dialog
+  - Local filer for cmd, powershell
+  - Quick command bar.
+- Terminal:
+  - Linux bash
+  - MacOs bash
+- Session:
+  - Proxy
+  - Chat mode
+  - Log and log viewer
+- File transfer:
+  - ftp, ftps
+  - Xmodem, Ymodem, Zmodem(sz, rz)
+- Script, macro and plugin stystem
+- More ...
 
 # License
 Completely FREE for personal, schools and students use without limitations.

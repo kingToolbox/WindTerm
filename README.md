@@ -21,9 +21,9 @@ Any issues and feature requests are welcome. Please click [issues](https://githu
 
 # Screenshots
 
-WSL:
+Main Window:
 
-![WSL](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WSL.png)
+![MainWindow](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WindTerm.png)
 
 Split views:
 

@@ -30,6 +30,7 @@ Split views:
 ![SplitView](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/SplitView.png)
 
 # Features
+- **Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters.**
 - **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.**
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**)
 - **Command palette.**
@@ -256,7 +257,9 @@ DIGEdit is the text component of WindTerm.
 
   2-3 weeks.
 
-**Next release (Late June，for reference only):**
+**Next release (Early July，for reference only):**
+- X11 forwarding
+- Port forwarding (Tunnel)
 - Auto complete
 
 **Todo list:**
@@ -283,6 +286,4 @@ DIGEdit is the text component of WindTerm.
 - More ...
 
 # License
-Completely FREE for personal, schools and students use without limitations.
-
-For testing in commercial environment, only short-term testing within 30 days is allowed. Not allowed if more than 30 days.
+Completely FREE for commercial and non-commercial use without limitations.

@@ -5,6 +5,9 @@ _Hello WindTerm :rose:, hello world!_
 
 **We're just beginning! If you want a high performance text editor, you can try [WindEdit](https://www.github.com/kingToolbox/DIGEdit/).**
 
+# License
+**Completely FREE for commercial and non-commercial use without limitations.**
+
 # Introduction
 
 See [Intro Videos](https://kingtoolbox.github.io)
@@ -284,6 +287,3 @@ DIGEdit is the text component of WindTerm.
   - Xmodem, Ymodem, Zmodem(sz, rz)
 - Script, macro and plugin stystem
 - More ...
-
-# License
-Completely FREE for commercial and non-commercial use without limitations.

@@ -73,6 +73,7 @@ typedef struct {
 #define ONIG_CHECK_NULL_RETURN_VAL(p,val)  if (ONIG_IS_NULL(p)) return (val)
 
 #define enclen(enc,p)      ONIGENC_MBC_ENC_LEN(enc,p)
+#define enclen_se(it,enc,p)   ONIGENC_MBC_ENC_LEN_SE(it,enc,p)
 
 /* character types bit flag */
 #define BIT_CTYPE_NEWLINE  (1<< ONIGENC_CTYPE_NEWLINE)
@@ -107,7 +108,7 @@ typedef struct {
 #define USE_CRNL_AS_LINE_TERMINATOR
 #define USE_UNICODE_PROPERTIES
 /* #define USE_UNICODE_CASE_FOLD_TURKISH_AZERI */
-/* #define USE_UNICODE_ALL_LINE_TERMINATORS */  /* see Unicode.org UTS #18 */
+#define USE_UNICODE_ALL_LINE_TERMINATORS  /* see Unicode.org UTS #18 */
 
 
 #define ONIG_ENCODING_INIT_DEFAULT           ONIG_ENCODING_ASCII
@@ -119,22 +120,29 @@ ONIG_EXTERN int onigenc_apply_all_case_fold_with_map P_((int map_size, const Oni
 ONIG_EXTERN int onigenc_get_case_fold_codes_by_str_with_map P_((int map_size, const OnigPairCaseFoldCodes map[], int ess_tsett_flag, OnigCaseFoldType flag, const OnigUChar* p, const OnigUChar* end, OnigCaseFoldCodeItem items[]));
 ONIG_EXTERN int onigenc_not_support_get_ctype_code_range P_((OnigCtype ctype, OnigCodePoint* sb_out, const OnigCodePoint* ranges[]));
 ONIG_EXTERN int onigenc_is_mbc_newline_0x0a P_((const UChar* p, const UChar* end));
+ONIG_EXTERN int onigenc_is_mbc_newline_0x0a_se P_((OnigIterator* it, OnigPosition p, OnigPosition end));
 
 
 /* methods for single byte encoding */
 ONIG_EXTERN int onigenc_ascii_mbc_case_fold P_((OnigCaseFoldType flag, const UChar** p, const UChar* end, UChar* lower));
+ONIG_EXTERN int onigenc_ascii_mbc_case_fold_se P_((OnigIterator* it, OnigCaseFoldType flag, OnigPosition* p, OnigPosition end, UChar* lower));
 ONIG_EXTERN int onigenc_single_byte_mbc_enc_len P_((const UChar* p));
+ONIG_EXTERN int onigenc_single_byte_mbc_enc_len_se P_((OnigIterator* it, OnigPosition p));
 ONIG_EXTERN OnigCodePoint onigenc_single_byte_mbc_to_code P_((const UChar* p, const UChar* end));
+ONIG_EXTERN OnigCodePoint onigenc_single_byte_mbc_to_code_se P_((OnigIterator* it, OnigPosition p, OnigPosition end));
 ONIG_EXTERN int onigenc_single_byte_code_to_mbclen P_((OnigCodePoint code));
 ONIG_EXTERN int onigenc_single_byte_code_to_mbc P_((OnigCodePoint code, UChar *buf));
 ONIG_EXTERN UChar* onigenc_single_byte_left_adjust_char_head P_((const UChar* start, const UChar* s));
+ONIG_EXTERN OnigPosition onigenc_single_byte_left_adjust_char_head_se P_((OnigIterator* it, OnigPosition start, OnigPosition s));
 ONIG_EXTERN int onigenc_always_true_is_allowed_reverse_match P_((const UChar* s, const UChar* end));
 ONIG_EXTERN int onigenc_always_false_is_allowed_reverse_match P_((const UChar* s, const UChar* end));
 ONIG_EXTERN int onigenc_ascii_is_code_ctype P_((OnigCodePoint code, unsigned int ctype));
 
 /* methods for multi byte encoding */
 ONIG_EXTERN OnigCodePoint onigenc_mbn_mbc_to_code P_((OnigEncoding enc, const UChar* p, const UChar* end));
+ONIG_EXTERN OnigCodePoint onigenc_mbn_mbc_to_code_se P_((OnigIterator* it, OnigEncoding enc, OnigPosition p, OnigPosition end));
 ONIG_EXTERN int onigenc_mbn_mbc_case_fold P_((OnigEncoding enc, OnigCaseFoldType flag, const UChar** p, const UChar* end, UChar* lower));
+ONIG_EXTERN int onigenc_mbn_mbc_case_fold_se P_((OnigIterator* it, OnigEncoding enc, OnigCaseFoldType flag, OnigPosition* p, OnigPosition end, UChar* lower));
 ONIG_EXTERN int onigenc_mb2_code_to_mbclen P_((OnigCodePoint code));
 ONIG_EXTERN int onigenc_mb2_code_to_mbc P_((OnigEncoding enc, OnigCodePoint code, UChar *buf));
 ONIG_EXTERN int onigenc_minimum_property_name_to_ctype P_((OnigEncoding enc, UChar* p, UChar* end));
@@ -146,11 +154,13 @@ ONIG_EXTERN int onigenc_mb4_is_code_ctype P_((OnigEncoding enc, OnigCodePoint co
 
 
 /* in enc/unicode.c */
+ONIG_EXTERN const OnigCodePoint* onigenc_unicode_code_script P_((OnigCodePoint code));
 ONIG_EXTERN int onigenc_unicode_is_code_ctype P_((OnigCodePoint code, unsigned int ctype));
 ONIG_EXTERN int onigenc_utf16_32_get_ctype_code_range P_((OnigCtype ctype, OnigCodePoint *sb_out, const OnigCodePoint* ranges[]));
 ONIG_EXTERN int onigenc_unicode_ctype_code_range P_((int ctype, const OnigCodePoint* ranges[]));
 ONIG_EXTERN int onigenc_unicode_get_case_fold_codes_by_str P_((OnigEncoding enc, OnigCaseFoldType flag, const OnigUChar* p, const OnigUChar* end, OnigCaseFoldCodeItem items[]));
 ONIG_EXTERN int onigenc_unicode_mbc_case_fold P_((OnigEncoding enc, OnigCaseFoldType flag, const UChar** pp, const UChar* end, UChar* fold));
+ONIG_EXTERN int onigenc_unicode_mbc_case_fold_se P_((OnigIterator* it, OnigEncoding enc, OnigCaseFoldType flag, OnigPosition* pp, OnigPosition end, UChar* fold));
 ONIG_EXTERN int onigenc_unicode_apply_all_case_fold P_((OnigCaseFoldType flag, OnigApplyAllCaseFoldFunc f, void* arg));
 
 

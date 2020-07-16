@@ -33,7 +33,7 @@ static OnigRegion* region;
 
 static void xx(char* pattern, char* str, int from, int to, int mem, int not)
 {
-  int r;
+  OnigPosition r;
 
 #ifdef POSIX_TEST
   regex_t reg;
@@ -89,6 +89,7 @@ static void xx(char* pattern, char* str, int from, int to, int mem, int not)
   regex_t* reg;
   OnigErrorInfo einfo;
   OnigSyntaxType syn = *ONIG_SYNTAX_DEFAULT;
+  OnigIterator it = {onig_default_charat, str};
 
   /* ONIG_OPTION_OFF(syn.options, ONIG_OPTION_ASCII_RANGE); */
 
@@ -102,8 +103,8 @@ static void xx(char* pattern, char* str, int from, int to, int mem, int not)
     return ;
   }
 
-  r = onig_search(reg, (UChar* )str, (UChar* )(str + SLEN(str)),
-		  (UChar* )str, (UChar* )(str + SLEN(str)),
+  r = onig_search(&it, reg, 0, SLEN(str),
+		  0, SLEN(str),
 		  region, ONIG_OPTION_NONE);
   if (r < ONIG_MISMATCH) {
     char s[ONIG_MAX_ERROR_MESSAGE_LEN];

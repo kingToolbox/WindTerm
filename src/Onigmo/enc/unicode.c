@@ -108,6 +108,7 @@ typedef struct {
 
 #define numberof(array) (int)(sizeof(array) / sizeof((array)[0]))
 #define CODE_RANGES_NUM numberof(CodeRanges)
+#define CODE_SCRIPTS_NUM numberof(CodeScripts)
 
 extern int
 onigenc_unicode_is_code_ctype(OnigCodePoint code, unsigned int ctype)
@@ -146,6 +147,17 @@ onigenc_utf16_32_get_ctype_code_range(OnigCtype ctype, OnigCodePoint* sb_out,
 {
   *sb_out = 0x00;
   return onigenc_unicode_ctype_code_range(ctype, ranges);
+}
+
+extern const OnigCodePoint*
+onigenc_unicode_code_script(OnigCodePoint code)
+{
+	for (int ctype = 0; ctype < CODE_SCRIPTS_NUM; ctype++) {
+		if (onig_is_in_code_range((UChar*) CodeScripts[ctype], code)) {
+			return CodeScripts[ctype];
+		}
+	}
+	return 0;
 }
 
 #include "st.h"
@@ -220,12 +232,19 @@ static struct st_hash_type type_code3_hash = {
   code3_hash,
 };
 
-
-static st_table* FoldTable;    /* fold-1, fold-2, fold-3 */
-static st_table* Unfold1Table;
-static st_table* Unfold2Table;
-static st_table* Unfold3Table;
-static int CaseFoldInited = 0;
+#ifdef USE_SHARED_UNICODE_TABLE
+	st_table* FoldTable;    /* fold-1, fold-2, fold-3 */
+	st_table* Unfold1Table;
+	st_table* Unfold2Table;
+	st_table* Unfold3Table;
+	int CaseFoldInited = 0;
+#else
+	static st_table* FoldTable;    /* fold-1, fold-2, fold-3 */
+	static st_table* Unfold1Table;
+	static st_table* Unfold2Table;
+	static st_table* Unfold3Table;
+	static int CaseFoldInited = 0;
+#endif //USE_SHARED_UNICODE_TABLE
 
 static int init_case_fold_table(void)
 {
@@ -334,6 +353,59 @@ onigenc_unicode_mbc_case_fold(OnigEncoding enc,
 
   for (i = 0; i < len; i++) {
     *fold++ = *p++;
+  }
+  return len;
+}
+
+extern int
+onigenc_unicode_mbc_case_fold_se(OnigIterator* it, OnigEncoding enc,
+    OnigCaseFoldType flag ARG_UNUSED, OnigPosition* pp, OnigPosition end,
+    UChar* fold)
+{
+  CodePointList3 *to;
+  OnigCodePoint code;
+  int i, len, rlen;
+  OnigPosition p = *pp;
+
+  if (CaseFoldInited == 0) init_case_fold_table();
+
+  code = ONIGENC_MBC_TO_CODE_SE(it, enc, p, end);
+  len = enclen_se(it, enc, p);
+  *pp += len;
+
+#ifdef USE_UNICODE_CASE_FOLD_TURKISH_AZERI
+  if ((flag & ONIGENC_CASE_FOLD_TURKISH_AZERI) != 0) {
+    if (code == 0x0049) {
+      return ONIGENC_CODE_TO_MBC(enc, 0x0131, fold);
+    }
+    else if (code == 0x0130) {
+      return ONIGENC_CODE_TO_MBC(enc, 0x0069, fold);
+    }
+  }
+#endif
+
+  if (onig_st_lookup(FoldTable, (st_data_t )code, (void* )&to) != 0) {
+    if (to->n == 1) {
+      return ONIGENC_CODE_TO_MBC(enc, to->code[0], fold);
+    }
+#if 0
+    /* NO NEEDS TO CHECK */
+    else if ((flag & INTERNAL_ONIGENC_CASE_FOLD_MULTI_CHAR) != 0) {
+#else
+    else {
+#endif
+      rlen = 0;
+      for (i = 0; i < to->n; i++) {
+	len = ONIGENC_CODE_TO_MBC(enc, to->code[i], fold);
+	fold += len;
+	rlen += len;
+      }
+      return rlen;
+    }
+  }
+
+  for (i = 0; i < len; i++) {
+    *fold++ = ONIG_CHARAT(p++);
   }
   return len;
 }

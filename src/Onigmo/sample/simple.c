@@ -7,14 +7,15 @@
 
 extern int main(int argc, char* argv[])
 {
-  int r;
-  unsigned char *start, *range, *end;
+  OnigPosition r;
+  OnigPosition start, range, end;
   regex_t* reg;
   OnigErrorInfo einfo;
   OnigRegion *region;
 
   static UChar* pattern = (UChar* )"a(.*)b|[e-f]+";
   static UChar* str     = (UChar* )"zzzzaffffffffb";
+  OnigIterator it = {onig_default_charat, str};
 
   r = onig_new(&reg, pattern, pattern + strlen((char* )pattern),
 	ONIG_OPTION_DEFAULT, ONIG_ENCODING_ASCII, ONIG_SYNTAX_DEFAULT, &einfo);
@@ -27,16 +28,16 @@ extern int main(int argc, char* argv[])
 
   region = onig_region_new();
 
-  end   = str + strlen((char* )str);
-  start = str;
+  end   = strlen((char* )str);
+  start = 0;
   range = end;
-  r = onig_search(reg, str, end, start, range, region, ONIG_OPTION_NONE);
+  r = onig_search(&it, reg, 0, end, start, range, region, ONIG_OPTION_NONE);
   if (r >= 0) {
     int i;
 
     fprintf(stderr, "match at %d\n", r);
     for (i = 0; i < region->num_regs; i++) {
-      fprintf(stderr, "%d: (%ld-%ld)\n", i, region->beg[i], region->end[i]);
+      fprintf(stderr, "%d: (%ld-%ld)\n", i, (int)region->beg[i], (int)region->end[i]);
     }
   }
   else if (r == ONIG_MISMATCH) {

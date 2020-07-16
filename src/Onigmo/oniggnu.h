@@ -68,9 +68,9 @@ void re_free_pattern P_((struct re_pattern_buffer*));
 ONIG_EXTERN
 int re_adjust_startpos P_((struct re_pattern_buffer*, const char*, int, int, int));
 ONIG_EXTERN
-int re_search P_((struct re_pattern_buffer*, const char*, int, int, int, struct re_registers*));
+int re_search P_((OnigIterator* it, struct re_pattern_buffer*, OnigPosition, OnigPosition, OnigPosition, OnigPosition, struct re_registers*));
 ONIG_EXTERN
-int re_match P_((struct re_pattern_buffer*, const char *, int, int, struct re_registers*));
+int re_match P_((OnigIterator* it, struct re_pattern_buffer*, OnigPosition, OnigPosition, OnigPosition, struct re_registers*));
 ONIG_EXTERN
 void re_set_casetable P_((const char*));
 ONIG_EXTERN

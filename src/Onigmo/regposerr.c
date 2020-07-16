@@ -27,7 +27,9 @@
  * SUCH DAMAGE.
  */
 
-#include "config.h"
+#define regex_t   onig_regex_t
+#include "regint.h"
+#undef regex_t
 #include "onigposix.h"
 
 #ifdef HAVE_STRING_H

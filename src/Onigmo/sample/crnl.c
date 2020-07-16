@@ -9,12 +9,12 @@
 #include <string.h>
 #include "oniguruma.h"
 
-/* #define USE_UNICODE_ALL_LINE_TERMINATORS */
+#define USE_UNICODE_ALL_LINE_TERMINATORS 
 
 static int nfail = 0;
 
-static void result(int no, int from, int to,
-		   int expected_from, int expected_to)
+static void result(int no, OnigPosition from, OnigPosition to,
+		   OnigPosition expected_from, OnigPosition expected_to)
 {
   fprintf(stderr, "%3d: ", no);
   if (from == expected_from && to == expected_to) {
@@ -22,7 +22,7 @@ static void result(int no, int from, int to,
   }
   else {
     fprintf(stderr, "Fail: expected: (%d-%d), result: (%d-%d)\n",
-	    expected_from, expected_to, from, to);
+	    (int)expected_from, (int)expected_to, (int)from, (int)to);
 
     nfail++;
   }
@@ -32,12 +32,13 @@ static int
 x0(int no, char* pattern_arg, char* str_arg,
    int start_offset, int expected_from, int expected_to, int backward)
 {
-  int r;
-  unsigned char *start, *range, *end;
+  OnigPosition r;
+  OnigPosition start, range, end;
   regex_t* reg;
   OnigErrorInfo einfo;
   OnigRegion *region;
   UChar *pattern, *str;
+  OnigIterator it = {onig_default_charat, str_arg};
 
   pattern = (UChar* )pattern_arg;
   str     = (UChar* )str_arg;
@@ -53,16 +54,16 @@ x0(int no, char* pattern_arg, char* str_arg,
 
   region = onig_region_new();
 
-  end   = str + strlen((char* )str);
+  end   = strlen((char* )str);
   if (backward) {
     start = end + start_offset;
-    range = str;
+    range = 0;
   }
   else {
-    start = str + start_offset;
+    start = start_offset;
     range = end;
   }
-  r = onig_search(reg, str, end, start, range, region, ONIG_OPTION_NONE);
+  r = onig_search(&it, reg, 0, end, start, range, region, ONIG_OPTION_NONE);
   if (r >= 0 || r == ONIG_MISMATCH) {
     result(no, region->beg[0], region->end[0], expected_from, expected_to);
   }

@@ -5791,9 +5791,13 @@ onig_compile(regex_t* reg, const UChar* pattern, const UChar* pattern_end,
     scan_env.mem_nodes_dynamic = (Node** )NULL;
   }
 
+  if (IS_WHOLEWORD(reg->options))
+	  r = add_opcode(reg, OP_WORD_BEGIN);
   r = compile_tree(root, reg);
   if (r == 0) {
-    r = add_opcode(reg, OP_END);
+	  if (IS_WHOLEWORD(reg->options))
+		  r = add_opcode(reg, OP_WORD_END);
+	  r = add_opcode(reg, OP_END);
 #ifdef USE_SUBEXP_CALL
     if (scan_env.num_call > 0) {
       r = unset_addr_list_fix(&uslist, reg);
@@ -5994,6 +5998,10 @@ onig_end(void)
 
 #ifdef USE_PARSE_TREE_NODE_RECYCLE
   onig_free_node_list();
+#endif
+
+#ifdef USE_SHARED_UNICODE_TABLE
+  onig_free_shared_unicode_table();
 #endif
 
   onig_inited = 0;

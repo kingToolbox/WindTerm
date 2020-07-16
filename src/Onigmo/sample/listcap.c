@@ -20,18 +20,19 @@ node_callback(int group, OnigPosition beg, OnigPosition end, int level,
   for (i = 0; i < level * 2; i++)
     fputc(' ', stderr);
 
-  fprintf(stderr, "%d: (%ld-%ld)\n", group, beg, end);
+  fprintf(stderr, "%d: (%ld-%ld)\n", group, (int)beg, (int)end);
   return 0;
 }
 
 extern int ex(unsigned char* str, unsigned char* pattern,
               OnigSyntaxType* syntax)
 {
-  int r;
-  unsigned char *start, *range, *end;
+  OnigPosition r;
+  OnigPosition start, range, end;
   regex_t* reg;
   OnigErrorInfo einfo;
   OnigRegion *region;
+  OnigIterator it = {onig_default_charat, str};
 
   r = onig_new(&reg, pattern, pattern + strlen((char* )pattern),
 	       ONIG_OPTION_DEFAULT, ONIG_ENCODING_ASCII, syntax, &einfo);
@@ -48,16 +49,16 @@ extern int ex(unsigned char* str, unsigned char* pattern,
 
   region = onig_region_new();
 
-  end   = str + strlen((char* )str);
-  start = str;
+  end   = strlen((char* )str);
+  start = 0;
   range = end;
-  r = onig_search(reg, str, end, start, range, region, ONIG_OPTION_NONE);
+  r = onig_search(&it, reg, 0, end, start, range, region, ONIG_OPTION_NONE);
   if (r >= 0) {
     int i;
 
-    fprintf(stderr, "match at %d\n", r);
+    fprintf(stderr, "match at %d\n", (int)r);
     for (i = 0; i < region->num_regs; i++) {
-      fprintf(stderr, "%d: (%ld-%ld)\n", i, region->beg[i], region->end[i]);
+      fprintf(stderr, "%d: (%ld-%ld)\n", i, (long)region->beg[i], (long)region->end[i]);
     }
     fprintf(stderr, "\n");
 

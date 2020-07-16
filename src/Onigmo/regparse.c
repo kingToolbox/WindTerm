@@ -35,7 +35,6 @@
 
 #define CASE_FOLD_IS_APPLIED_INSIDE_NEGATIVE_CCLASS
 
-
 OnigSyntaxType OnigSyntaxRuby = {
   (( SYN_GNU_REGEX_OP | ONIG_SYN_OP_QMARK_NON_GREEDY |
      ONIG_SYN_OP_ESC_OCTAL3 | ONIG_SYN_OP_ESC_X_HEX2 |
@@ -64,7 +63,7 @@ OnigSyntaxType OnigSyntaxRuby = {
       ONIG_SYN_FIXED_INTERVAL_IS_GREEDY_ONLY |
       ONIG_SYN_WARN_CC_OP_NOT_ESCAPED |
       ONIG_SYN_WARN_REDUNDANT_NESTED_REPEAT )
-  , ( ONIG_OPTION_ASCII_RANGE | ONIG_OPTION_POSIX_BRACKET_ALL_RANGE |
+  , ( /*ONIG_OPTION_ASCII_RANGE |*/ ONIG_OPTION_POSIX_BRACKET_ALL_RANGE |
       ONIG_OPTION_WORD_BOUND_ALL_RANGE )
   ,
   {
@@ -5341,6 +5340,51 @@ onig_free_shared_cclass_table(void)
 
 #endif /* USE_SHARED_CCLASS_TABLE */
 
+#ifdef USE_SHARED_UNICODE_TABLE
+
+extern st_table* FoldTable;    /* fold-1, fold-2, fold-3 */
+extern st_table* Unfold1Table;
+extern st_table* Unfold2Table;
+extern st_table* Unfold3Table;
+extern int CaseFoldInited;
+
+static int
+i_free_shared_unicode_table(st_str_end_key* key, Node* node, void* arg ARG_UNUSED)
+{
+	if (IS_NOT_NULL(key)) xfree(key);
+	return ST_DELETE;
+}
+
+extern int
+onig_free_shared_unicode_table(void)
+{
+	THREAD_ATOMIC_START;
+	if (IS_NOT_NULL(FoldTable)) {
+		onig_st_free_table(FoldTable);
+		FoldTable = NULL;
+	}
+
+	if (IS_NOT_NULL(Unfold1Table)) {
+		onig_st_free_table(Unfold1Table);
+		Unfold1Table = NULL;
+	}
+
+	if (IS_NOT_NULL(Unfold2Table)) {
+		onig_st_free_table(Unfold2Table);
+		Unfold2Table = NULL;
+	}
+
+	if (IS_NOT_NULL(Unfold3Table)) {
+		onig_st_free_table(Unfold3Table);
+		Unfold3Table = NULL;
+	}
+	CaseFoldInited = 0;
+	
+	THREAD_ATOMIC_END;
+	return 0;
+}
+
+#endif // USE_SHARED_UNICODE_TABLE
 
 #ifndef CASE_FOLD_IS_APPLIED_INSIDE_NEGATIVE_CCLASS
 static int

@@ -62,20 +62,20 @@ re_adjust_startpos(regex_t* reg, const char* string, int size,
 }
 
 extern int
-re_match(regex_t* reg, const char* str, int size, int pos,
+re_match(OnigIterator* it, regex_t* reg, OnigPosition str, OnigPosition size, OnigPosition pos,
 	 struct re_registers* regs)
 {
-  return (int )onig_match(reg, (UChar* )str, (UChar* )(str + size),
-		    (UChar* )(str + pos), regs, ONIG_OPTION_NONE);
+  return (int )onig_match(it, reg, str, (str + size),
+		    (str + pos), regs, ONIG_OPTION_NONE);
 }
 
 extern int
-re_search(regex_t* bufp, const char* string, int size, int startpos, int range,
+re_search(OnigIterator* it, regex_t* bufp, OnigPosition str, OnigPosition size, OnigPosition startpos, OnigPosition range,
 	  struct re_registers* regs)
 {
-  return (int )onig_search(bufp, (UChar* )string, (UChar* )(string + size),
-		     (UChar* )(string + startpos),
-		     (UChar* )(string + startpos + range),
+  return (int )onig_search(it, bufp, str, (str + size),
+		     (str + startpos),
+		     (str + startpos + range),
 		     regs, ONIG_OPTION_NONE);
 }
 

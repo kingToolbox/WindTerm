@@ -75,10 +75,32 @@ gb18030_mbc_enc_len(const UChar* p)
   return 2;
 }
 
+static int
+gb18030_mbc_enc_len_se(OnigIterator* it, OnigPosition p)
+{
+  UChar c0, c1;
+
+  c0 = ONIG_CHARAT(p);
+  if (GB18030_MAP[c0] != CM)
+    return 1;
+  c1 = ONIG_CHARAT(p+1);
+  if (GB18030_MAP[c1] == C4)
+    return 4;
+  if (GB18030_MAP[c1] == C1)
+    return 1; /* illegal sequence */
+  return 2;
+}
+
 static OnigCodePoint
 gb18030_mbc_to_code(const UChar* p, const UChar* end)
 {
   return onigenc_mbn_mbc_to_code(ONIG_ENCODING_GB18030, p, end);
+}
+
+static OnigCodePoint
+gb18030_mbc_to_code_se(OnigIterator* it, OnigPosition p, OnigPosition end)
+{
+  return onigenc_mbn_mbc_to_code_se(it, ONIG_ENCODING_GB18030, p, end);
 }
 
 static int
@@ -92,6 +114,14 @@ gb18030_mbc_case_fold(OnigCaseFoldType flag, const UChar** pp, const UChar* end,
                       UChar* lower)
 {
   return onigenc_mbn_mbc_case_fold(ONIG_ENCODING_GB18030, flag,
+                                   pp, end, lower);
+}
+
+static int
+gb18030_mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag, OnigPosition* pp, OnigPosition end,
+                      UChar* lower)
+{
+  return onigenc_mbn_mbc_case_fold_se(it, ONIG_ENCODING_GB18030, flag,
                                    pp, end, lower);
 }
 
@@ -469,6 +499,333 @@ gb18030_left_adjust_char_head(const UChar* start, const UChar* s)
   return (UChar* )s;  /* never come here. (escape warning) */
 }
 
+static OnigPosition
+gb18030_left_adjust_char_head_se(OnigIterator* it, OnigPosition start, OnigPosition s)
+{
+  OnigPosition p;
+  UChar c;
+  enum state state = S_START;
+
+  DEBUG_GB18030(("----------------\n"));
+  for (p = s; p >= start; p--) {
+    c = ONIG_CHARAT(p);
+    DEBUG_GB18030(("state %d --(%02x)-->\n", state, c));
+    switch (state) {
+    case S_START:
+      switch (GB18030_MAP[c]) {
+      case C1:
+	return s;
+      case C2:
+	state = S_one_C2; /* C2 */
+	break;
+      case C4:
+	state = S_one_C4; /* C4 */
+	break;
+      case CM:
+	state = S_one_CM; /* CM */
+	break;
+      }
+      break;
+    case S_one_C2: /* C2 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return s;
+      case CM:
+	state = S_odd_CM_one_CX; /* CM C2 */
+	break;
+      }
+      break;
+    case S_one_C4: /* C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return s;
+      case CM:
+	state = S_one_CMC4;
+	break;
+      }
+      break;
+    case S_one_CM: /* CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+	return s;
+      case C4:
+	state = S_odd_C4CM;
+	break;
+      case CM:
+	state = S_odd_CM_one_CX; /* CM CM */
+	break;
+      }
+      break;
+
+    case S_odd_CM_one_CX: /* CM C2 */ /* CM CM */ /* CM CM CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 1);
+      case CM:
+	state = S_even_CM_one_CX;
+	break;
+      }
+      break;
+    case S_even_CM_one_CX: /* CM CM C2 */ /* CM CM CM */ /* CM CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return s;
+      case CM:
+	state = S_odd_CM_one_CX;
+	break;
+      }
+      break;
+
+    case S_one_CMC4: /* CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+	return (s - 1);
+      case C4:
+	state = S_one_C4_odd_CMC4; /* C4 CM C4 */
+	break;
+      case CM:
+	state = S_even_CM_one_CX; /* CM CM C4 */
+	break;
+      }
+      break;
+    case S_odd_CMC4: /* CM C4 CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+	return (s - 1);
+      case C4:
+	state = S_one_C4_odd_CMC4;
+	break;
+      case CM:
+	state = S_odd_CM_odd_CMC4;
+	break;
+      }
+      break;
+    case S_one_C4_odd_CMC4: /* C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 1);
+      case CM:
+	state = S_even_CMC4; /* CM C4 CM C4 */
+	break;
+      }
+      break;
+    case S_even_CMC4: /* CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+	return (s - 3);
+      case C4:
+	state = S_one_C4_even_CMC4;
+	break;
+      case CM:
+	state = S_odd_CM_even_CMC4;
+	break;
+      }
+      break;
+    case S_one_C4_even_CMC4: /* C4 CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 3);
+      case CM:
+	state = S_odd_CMC4;
+	break;
+      }
+      break;
+
+    case S_odd_CM_odd_CMC4: /* CM CM C4 CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 3);
+      case CM:
+	state = S_even_CM_odd_CMC4;
+	break;
+      }
+      break;
+    case S_even_CM_odd_CMC4: /* CM CM CM C4 CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 1);
+      case CM:
+	state = S_odd_CM_odd_CMC4;
+	break;
+      }
+      break;
+
+    case S_odd_CM_even_CMC4: /* CM CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 1);
+      case CM:
+	state = S_even_CM_even_CMC4;
+	break;
+      }
+      break;
+    case S_even_CM_even_CMC4: /* CM CM CM C4 CM C4 */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 3);
+      case CM:
+	state = S_odd_CM_even_CMC4;
+	break;
+      }
+      break;
+
+    case S_odd_C4CM: /* C4 CM */  /* C4 CM C4 CM C4 CM*/
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return s;
+      case CM:
+	state = S_one_CM_odd_C4CM; /* CM C4 CM */
+	break;
+      }
+      break;
+    case S_one_CM_odd_C4CM: /* CM C4 CM */ /* CM C4 CM C4 CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+	return (s - 2); /* |CM C4 CM */
+      case C4:
+	state = S_even_C4CM;
+	break;
+      case CM:
+	state = S_even_CM_odd_C4CM;
+	break;
+      }
+      break;
+    case S_even_C4CM: /* C4 CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 2);  /* C4|CM C4 CM */
+      case CM:
+	state = S_one_CM_even_C4CM;
+	break;
+      }
+      break;
+    case S_one_CM_even_C4CM: /* CM C4 CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+	return (s - 0);  /*|CM C4 CM C4|CM */
+      case C4:
+	state = S_odd_C4CM;
+	break;
+      case CM:
+	state = S_even_CM_even_C4CM;
+	break;
+      }
+      break;
+
+    case S_even_CM_odd_C4CM: /* CM CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 0); /* |CM CM|C4|CM */
+      case CM:
+	state = S_odd_CM_odd_C4CM;
+	break;
+      }
+      break;
+    case S_odd_CM_odd_C4CM: /* CM CM CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 2); /* |CM CM|CM C4 CM */
+      case CM:
+	state = S_even_CM_odd_C4CM;
+	break;
+      }
+      break;
+
+    case S_even_CM_even_C4CM: /* CM CM C4 CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 2); /* |CM CM|C4|CM C4 CM */
+      case CM:
+	state = S_odd_CM_even_C4CM;
+	break;
+      }
+      break;
+    case S_odd_CM_even_C4CM: /* CM CM CM C4 CM C4 CM */
+      switch (GB18030_MAP[c]) {
+      case C1:
+      case C2:
+      case C4:
+	return (s - 0);  /* |CM CM|CM C4 CM C4|CM */
+      case CM:
+	state = S_even_CM_even_C4CM;
+	break;
+      }
+      break;
+    }
+  }
+
+  DEBUG_GB18030(("state %d\n", state));
+  switch (state) {
+  case S_START:             return (s - 0);
+  case S_one_C2:            return (s - 0);
+  case S_one_C4:            return (s - 0);
+  case S_one_CM:            return (s - 0);
+
+  case S_odd_CM_one_CX:     return (s - 1);
+  case S_even_CM_one_CX:    return (s - 0);
+
+  case S_one_CMC4:          return (s - 1);
+  case S_odd_CMC4:          return (s - 1);
+  case S_one_C4_odd_CMC4:   return (s - 1);
+  case S_even_CMC4:         return (s - 3);
+  case S_one_C4_even_CMC4:  return (s - 3);
+
+  case S_odd_CM_odd_CMC4:   return (s - 3);
+  case S_even_CM_odd_CMC4:  return (s - 1);
+
+  case S_odd_CM_even_CMC4:  return (s - 1);
+  case S_even_CM_even_CMC4: return (s - 3);
+
+  case S_odd_C4CM:          return (s - 0);
+  case S_one_CM_odd_C4CM:   return (s - 2);
+  case S_even_C4CM:         return (s - 2);
+  case S_one_CM_even_C4CM:  return (s - 0);
+
+  case S_even_CM_odd_C4CM:  return (s - 0);
+  case S_odd_CM_odd_C4CM:   return (s - 2);
+  case S_even_CM_even_C4CM: return (s - 2);
+  case S_odd_CM_even_C4CM:  return (s - 0);
+  }
+
+  return s;  /* never come here. (escape warning) */
+}
+
 static int
 gb18030_is_allowed_reverse_match(const UChar* s, const UChar* end ARG_UNUSED)
 {
@@ -477,20 +834,25 @@ gb18030_is_allowed_reverse_match(const UChar* s, const UChar* end ARG_UNUSED)
 
 OnigEncodingType OnigEncodingGB18030 = {
   gb18030_mbc_enc_len,
+  gb18030_mbc_enc_len_se,
   "GB18030",   /* name */
   4,          /* max enc length */
   1,          /* min enc length */
   onigenc_is_mbc_newline_0x0a,
+  onigenc_is_mbc_newline_0x0a_se,
   gb18030_mbc_to_code,
+  gb18030_mbc_to_code_se,
   onigenc_mb4_code_to_mbclen,
   gb18030_code_to_mbc,
   gb18030_mbc_case_fold,
+  gb18030_mbc_case_fold_se,
   onigenc_ascii_apply_all_case_fold,
   onigenc_ascii_get_case_fold_codes_by_str,
   onigenc_minimum_property_name_to_ctype,
   gb18030_is_code_ctype,
   onigenc_not_support_get_ctype_code_range,
   gb18030_left_adjust_char_head,
+  gb18030_left_adjust_char_head_se,
   gb18030_is_allowed_reverse_match,
   ONIGENC_FLAG_NONE,
 };

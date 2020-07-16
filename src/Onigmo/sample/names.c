@@ -19,21 +19,22 @@ name_callback(const UChar* name, const UChar* name_end,
     ref = onig_name_to_backref_number(reg, name, name_end, region);
     s = (ref == gn ? "*" : "");
     fprintf(stderr, "%s (%d): ", name, gn);
-    fprintf(stderr, "(%ld-%ld) %s\n", region->beg[gn], region->end[gn], s);
+    fprintf(stderr, "(%ld-%ld) %s\n", (int)region->beg[gn], (int)region->end[gn], s);
   }
   return 0;  /* 0: continue */
 }
 
 extern int main(int argc, char* argv[])
 {
-  int r;
-  unsigned char *start, *range, *end;
+  OnigPosition r;
+  OnigPosition start, range, end;
   regex_t* reg;
   OnigErrorInfo einfo;
   OnigRegion *region;
 
   static UChar* pattern = (UChar* )"(?<foo>a*)(?<bar>b*)(?<foo>c*)";
   static UChar* str = (UChar* )"aaabbbbcc";
+  OnigIterator it = {onig_default_charat, str};
 
   r = onig_new(&reg, pattern, pattern + strlen((char* )pattern),
 	ONIG_OPTION_DEFAULT, ONIG_ENCODING_ASCII, ONIG_SYNTAX_DEFAULT, &einfo);
@@ -48,10 +49,10 @@ extern int main(int argc, char* argv[])
 
   region = onig_region_new();
 
-  end   = str + strlen((char* )str);
-  start = str;
+  end   = strlen((char* )str);
+  start = 0;
   range = end;
-  r = onig_search(reg, str, end, start, range, region, ONIG_OPTION_NONE);
+  r = onig_search(&it, reg, 0, end, start, range, region, ONIG_OPTION_NONE);
   if (r >= 0) {
     fprintf(stderr, "match at %d\n\n", r);
     r = onig_foreach_name(reg, name_callback, (void* )region);

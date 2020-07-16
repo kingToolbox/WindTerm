@@ -54,10 +54,22 @@ euctw_mbc_enc_len(const UChar* p)
   return EncLen_EUCTW[*p];
 }
 
+static int
+euctw_mbc_enc_len_se(OnigIterator* it, OnigPosition p)
+{
+  return EncLen_EUCTW[ONIG_CHARAT(p)];
+}
+
 static OnigCodePoint
 euctw_mbc_to_code(const UChar* p, const UChar* end)
 {
   return onigenc_mbn_mbc_to_code(ONIG_ENCODING_EUC_TW, p, end);
+}
+
+static OnigCodePoint
+euctw_mbc_to_code_se(OnigIterator* it, OnigPosition p, OnigPosition end)
+{
+  return onigenc_mbn_mbc_to_code_se(it, ONIG_ENCODING_EUC_TW, p, end);
 }
 
 static int
@@ -71,6 +83,14 @@ euctw_mbc_case_fold(OnigCaseFoldType flag, const UChar** pp, const UChar* end,
                     UChar* lower)
 {
   return onigenc_mbn_mbc_case_fold(ONIG_ENCODING_EUC_TW, flag,
+                                   pp, end, lower);
+}
+
+static int
+euctw_mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag, OnigPosition* pp, OnigPosition end,
+                    UChar* lower)
+{
+  return onigenc_mbn_mbc_case_fold_se(it, ONIG_ENCODING_EUC_TW, flag,
                                    pp, end, lower);
 }
 
@@ -101,6 +121,25 @@ euctw_left_adjust_char_head(const UChar* start, const UChar* s)
   return (UChar* )(p + ((s - p) & ~1));
 }
 
+static OnigPosition
+euctw_left_adjust_char_head_se(OnigIterator* it, OnigPosition start, OnigPosition s)
+{
+  /* Assumed in this encoding,
+     mb-trail bytes don't mix with single bytes.
+  */
+  OnigPosition p;
+  int len;
+
+  if (s <= start) return s;
+  p = s;
+
+  while (!euctw_islead(ONIG_CHARAT(p)) && p > start) p--;
+  len = enclen_se(it, ONIG_ENCODING_EUC_TW, p);
+  if (p + len > s) return p;
+  p += len;
+  return (p + ((s - p) & ~1));
+}
+
 static int
 euctw_is_allowed_reverse_match(const UChar* s, const UChar* end ARG_UNUSED)
 {
@@ -111,20 +150,25 @@ euctw_is_allowed_reverse_match(const UChar* s, const UChar* end ARG_UNUSED)
 
 OnigEncodingType OnigEncodingEUC_TW = {
   euctw_mbc_enc_len,
+  euctw_mbc_enc_len_se,
   "EUC-TW",   /* name */
   4,          /* max enc length */
   1,          /* min enc length */
   onigenc_is_mbc_newline_0x0a,
+  onigenc_is_mbc_newline_0x0a_se,
   euctw_mbc_to_code,
+  euctw_mbc_to_code_se,
   onigenc_mb4_code_to_mbclen,
   euctw_code_to_mbc,
   euctw_mbc_case_fold,
+  euctw_mbc_case_fold_se,
   onigenc_ascii_apply_all_case_fold,
   onigenc_ascii_get_case_fold_codes_by_str,
   onigenc_minimum_property_name_to_ctype,
   euctw_is_code_ctype,
   onigenc_not_support_get_ctype_code_range,
   euctw_left_adjust_char_head,
+  euctw_left_adjust_char_head_se,
   euctw_is_allowed_reverse_match,
   ONIGENC_FLAG_NONE,
 };

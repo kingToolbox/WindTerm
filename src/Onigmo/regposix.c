@@ -48,6 +48,18 @@
   } \
 } while(0)
 
+/* #define ENC_STRING_LEN_SE(enc,s,len)    len = strlen(s) */
+#define ENC_STRING_LEN_SE(enc,s,len) do { \
+  if (ONIGENC_MBC_MINLEN(enc) == 1) { \
+    OnigPosition tmps = s; \
+    while (ONIG_CHARAT(tmps) != 0) tmps++; \
+    len = tmps - s; \
+  } \
+  else { \
+    len = onigenc_str_bytelen_null_se(it, enc, s); \
+  } \
+} while(0)
+
 typedef struct {
   int onig_err;
   int posix_err;
@@ -163,12 +175,12 @@ regcomp(regex_t* reg, const char* pattern, int posix_options)
   return 0;
 }
 
-extern int
-regexec(regex_t* reg, const char* str, size_t nmatch,
+extern OnigPosition
+regexec(OnigIterator* it, regex_t* reg, OnigPosition str, size_t nmatch,
 	regmatch_t pmatch[], int posix_options)
 {
-  int r, i, len;
-  UChar* end;
+  OnigPosition r, i, len;
+  OnigPosition end;
   regmatch_t* pm;
   OnigOptionType options;
 
@@ -190,9 +202,9 @@ regexec(regex_t* reg, const char* str, size_t nmatch,
     pm = pmatch;
   }
 
-  ENC_STRING_LEN(ONIG_C(reg)->enc, str, len);
-  end = (UChar* )(str + len);
-  r = (int )onig_search(ONIG_C(reg), (UChar* )str, end, (UChar* )str, end,
+  ENC_STRING_LEN_SE(ONIG_C(reg)->enc, str, len);
+  end = str + len;
+  r = onig_search(it, ONIG_C(reg), str, end, str, end,
 		  (OnigRegion* )pm, options);
 
   if (r >= 0) {
@@ -207,7 +219,7 @@ regexec(regex_t* reg, const char* str, size_t nmatch,
       pmatch[i].rm_so = pmatch[i].rm_eo = ONIG_REGION_NOTPOS;
   }
   else {
-    r = onig2posix_error_code(r);
+    r = onig2posix_error_code((int)r);
   }
 
   if (pm != pmatch && pm != NULL)

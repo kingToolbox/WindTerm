@@ -36,6 +36,12 @@ utf32be_mbc_enc_len(const UChar* p ARG_UNUSED)
 }
 
 static int
+utf32be_mbc_enc_len_se(OnigIterator* it ARG_UNUSED, OnigPosition p ARG_UNUSED)
+{
+  return 4;
+}
+
+static int
 utf32be_is_mbc_newline(const UChar* p, const UChar* end)
 {
   if (p + 3 < end) {
@@ -53,10 +59,37 @@ utf32be_is_mbc_newline(const UChar* p, const UChar* end)
   return 0;
 }
 
+static int
+utf32be_is_mbc_newline_se(OnigIterator* it, OnigPosition p, OnigPosition end)
+{
+  if (p + 3 < end) {
+	const UChar c2 = ONIG_CHARAT(p+2);
+    const UChar c3 = ONIG_CHARAT(p+3);
+
+    if (c3 == 0x0a && c2 == 0 && ONIG_CHARAT(p+1) == 0 && ONIG_CHARAT(p) == 0)
+      return 1;
+#ifdef USE_UNICODE_ALL_LINE_TERMINATORS
+    if ((c3 == 0x0b || c3 == 0x0c || c3 == 0x0d || c3 == 0x85)
+	&& c2 == 0 && ONIG_CHARAT(p+1) == 0 && ONIG_CHARAT(p) == 0x00)
+      return 1;
+    if (c2 == 0x20 && (c3 == 0x29 || c3 == 0x28)
+	&& ONIG_CHARAT(p+1) == 0 && ONIG_CHARAT(p) == 0)
+      return 1;
+#endif
+  }
+  return 0;
+}
+
 static OnigCodePoint
 utf32be_mbc_to_code(const UChar* p, const UChar* end ARG_UNUSED)
 {
   return (OnigCodePoint )(((p[0] * 256 + p[1]) * 256 + p[2]) * 256 + p[3]);
+}
+
+static OnigCodePoint
+utf32be_mbc_to_code_se(OnigIterator* it, OnigPosition p, OnigPosition end ARG_UNUSED)
+{
+  return (OnigCodePoint )(((ONIG_CHARAT(p) * 256 + ONIG_CHARAT(p+1)) * 256 + ONIG_CHARAT(p+2)) * 256 + ONIG_CHARAT(p+3));
 }
 
 static int
@@ -108,6 +141,38 @@ utf32be_mbc_case_fold(OnigCaseFoldType flag,
 					 fold);
 }
 
+static int
+utf32be_mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag,
+		      OnigPosition* pp, OnigPosition end, UChar* fold)
+{
+  OnigPosition p = *pp;
+  const UChar c3 = ONIG_CHARAT(p+3);
+
+  if (ONIGENC_IS_ASCII_CODE(c3) && ONIG_CHARAT(p+2) == 0 && ONIG_CHARAT(p+1) == 0 && ONIG_CHARAT(p) == 0) {
+    *fold++ = 0;
+    *fold++ = 0;
+
+#ifdef USE_UNICODE_CASE_FOLD_TURKISH_AZERI
+    if ((flag & ONIGENC_CASE_FOLD_TURKISH_AZERI) != 0) {
+      if (c3 == 0x49) {
+	*fold++ = 0x01;
+	*fold   = 0x31;
+	(*pp) += 4;
+	return 4;
+      }
+    }
+#endif
+
+    *fold++ = 0;
+    *fold   = ONIGENC_ASCII_CODE_TO_LOWER_CASE(c3);
+    *pp += 4;
+    return 4;
+  }
+  else
+    return onigenc_unicode_mbc_case_fold_se(it, ONIG_ENCODING_UTF32_BE, flag, pp, end,
+					 fold);
+}
+
 #if 0
 static int
 utf32be_is_mbc_ambiguous(OnigCaseFoldType flag, const UChar** pp, const UChar* end)
@@ -152,6 +217,17 @@ utf32be_left_adjust_char_head(const UChar* start, const UChar* s)
   return (UChar* )(s - rem);
 }
 
+static OnigPosition
+utf32be_left_adjust_char_head_se(OnigIterator* it, OnigPosition start, OnigPosition s)
+{
+  int rem;
+
+  if (s <= start) return s;
+
+  rem = (int )((s - start) % 4);
+  return (s - rem);
+}
+
 static int
 utf32be_get_case_fold_codes_by_str(OnigCaseFoldType flag,
     const OnigUChar* p, const OnigUChar* end, OnigCaseFoldCodeItem items[])
@@ -162,20 +238,25 @@ utf32be_get_case_fold_codes_by_str(OnigCaseFoldType flag,
 
 OnigEncodingType OnigEncodingUTF32_BE = {
   utf32be_mbc_enc_len,
+  utf32be_mbc_enc_len_se,
   "UTF-32BE",   /* name */
   4,            /* max byte length */
   4,            /* min byte length */
   utf32be_is_mbc_newline,
+  utf32be_is_mbc_newline_se,
   utf32be_mbc_to_code,
+  utf32be_mbc_to_code_se,
   utf32be_code_to_mbclen,
   utf32be_code_to_mbc,
   utf32be_mbc_case_fold,
+  utf32be_mbc_case_fold_se,
   onigenc_unicode_apply_all_case_fold,
   utf32be_get_case_fold_codes_by_str,
   onigenc_unicode_property_name_to_ctype,
   onigenc_unicode_is_code_ctype,
   onigenc_utf16_32_get_ctype_code_range,
   utf32be_left_adjust_char_head,
+  utf32be_left_adjust_char_head_se,
   onigenc_always_false_is_allowed_reverse_match,
   ONIGENC_FLAG_UNICODE,
 };

@@ -2,6 +2,10 @@
  * posix.c
  */
 #include <stdio.h>
+#define regex_t   onig_regex_t
+#include "regint.h"
+#undef regex_t
+
 #include "onigposix.h"
 
 typedef unsigned char  UChar;
@@ -11,8 +15,9 @@ static int x(regex_t* reg, unsigned char* pattern, unsigned char* str)
   int r, i;
   char buf[200];
   regmatch_t pmatch[20];
+  OnigIterator it = {onig_default_charat, str};
 
-  r = regexec(reg, (char* )str, reg->re_nsub + 1, pmatch, 0);
+  r = (int)regexec(&it, reg, 0, reg->re_nsub + 1, pmatch, 0);
   if (r != 0 && r != REG_NOMATCH) {
     regerror(r, reg, buf, sizeof(buf));
     fprintf(stderr, "ERROR: %s\n", buf);

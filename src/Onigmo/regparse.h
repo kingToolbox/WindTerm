@@ -347,6 +347,10 @@ extern int    onig_names_free P_((regex_t* reg));
 extern int    onig_parse_make_tree P_((Node** root, const UChar* pattern, const UChar* end, regex_t* reg, ScanEnv* env));
 extern int    onig_free_shared_cclass_table P_((void));
 
+#ifdef USE_SHARED_UNICODE_TABLE
+extern int    onig_free_shared_unicode_table P_((void));
+#endif //USE_SHARED_UNICODE_TABLE
+
 #ifdef ONIG_DEBUG
 #ifdef USE_NAMED_GROUP
 extern int onig_print_names(FILE*, regex_t*);

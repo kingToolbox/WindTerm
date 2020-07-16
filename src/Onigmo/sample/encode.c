@@ -5,24 +5,24 @@
 #include "oniguruma.h"
 
 static int
-search(regex_t* reg, unsigned char* str, unsigned char* end)
+search(OnigIterator* it, regex_t* reg, OnigPosition str, OnigPosition end)
 {
-  int r;
-  unsigned char *start, *range;
+  OnigPosition r;
+  OnigPosition start, range;
   OnigRegion *region;
 
   region = onig_region_new();
 
   start = str;
   range = end;
-  r = onig_search(reg, str, end, start, range, region, ONIG_OPTION_NONE);
+  r = onig_search(it, reg, str, end, start, range, region, ONIG_OPTION_NONE);
   if (r >= 0) {
     int i;
 
-    fprintf(stderr, "match at %d  (%s)\n", r,
+    fprintf(stderr, "match at %d  (%s)\n", (int)r,
             ONIGENC_NAME(onig_get_encoding(reg)));
     for (i = 0; i < region->num_regs; i++) {
-      fprintf(stderr, "%d: (%ld-%ld)\n", i, region->beg[i], region->end[i]);
+      fprintf(stderr, "%d: (%ld-%ld)\n", i, (int)region->beg[i], (int)region->end[i]);
     }
   }
   else if (r == ONIG_MISMATCH) {
@@ -45,13 +45,15 @@ static int
 exec(OnigEncoding enc, OnigOptionType options,
      char* apattern, char* astr)
 {
-  int r;
-  unsigned char *end;
+  OnigPosition r;
+  OnigPosition end;
   regex_t* reg;
   OnigErrorInfo einfo;
   UChar* pattern = (UChar* )apattern;
   UChar* str     = (UChar* )astr;
+  OnigIterator it = {onig_default_charat, str};
 
+  onig_init();
   r = onig_new(&reg, pattern,
                pattern + onigenc_str_bytelen_null(enc, pattern),
                options, enc, ONIG_SYNTAX_DEFAULT, &einfo);
@@ -62,8 +64,8 @@ exec(OnigEncoding enc, OnigOptionType options,
     return -1;
   }
 
-  end   = str + onigenc_str_bytelen_null(enc, str);
-  r = search(reg, str, end);
+  end   = onigenc_str_bytelen_null(enc, str);
+  r = search(&it, reg, 0, end);
 
   onig_free(reg);
   onig_end();
@@ -84,13 +86,14 @@ static int
 exec_deluxe(OnigEncoding pattern_enc, OnigEncoding str_enc,
             OnigOptionType options, char* apattern, char* astr)
 {
-  int r;
-  unsigned char *end;
+  OnigPosition r;
+  OnigPosition end;
   regex_t* reg;
   OnigCompileInfo ci;
   OnigErrorInfo einfo;
   UChar* pattern = (UChar* )apattern;
   UChar* str     = (UChar* )astr;
+  OnigIterator it = {onig_default_charat, str};
 
   ci.num_of_elements = 5;
   ci.pattern_enc = pattern_enc;
@@ -109,8 +112,8 @@ exec_deluxe(OnigEncoding pattern_enc, OnigEncoding str_enc,
     return -1;
   }
 
-  end = str + onigenc_str_bytelen_null(str_enc, str);
-  r = search(reg, str, end);
+  end = onigenc_str_bytelen_null(str_enc, str);
+  r = search(&it, reg, 0, end);
 
   onig_free(reg);
   onig_end();

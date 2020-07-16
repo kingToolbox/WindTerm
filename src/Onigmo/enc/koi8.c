@@ -115,6 +115,17 @@ koi8_mbc_case_fold(OnigCaseFoldType flag ARG_UNUSED,
   return 1;
 }
 
+static int
+koi8_mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag ARG_UNUSED,
+	   OnigPosition* pp, OnigPosition end ARG_UNUSED, UChar* lower)
+{
+  const UChar c = ONIG_CHARAT(*pp);
+
+  *lower = ENC_KOI8_TO_LOWER_CASE(c);
+  (*pp)++;
+  return 1;
+}
+
 #if 0
 static int
 koi8_is_mbc_ambiguous(OnigAmbigType flag, const OnigUChar** pp, const OnigUChar* end)
@@ -232,20 +243,25 @@ koi8_get_case_fold_codes_by_str(OnigCaseFoldType flag,
 
 OnigEncodingType OnigEncodingKOI8 = {
   onigenc_single_byte_mbc_enc_len,
+  onigenc_single_byte_mbc_enc_len_se,
   "KOI8",        /* name */
   1,             /* max enc length */
   1,             /* min enc length */
   onigenc_is_mbc_newline_0x0a,
+  onigenc_is_mbc_newline_0x0a_se,
   onigenc_single_byte_mbc_to_code,
+  onigenc_single_byte_mbc_to_code_se,
   onigenc_single_byte_code_to_mbclen,
   onigenc_single_byte_code_to_mbc,
   koi8_mbc_case_fold,
+  koi8_mbc_case_fold_se,
   koi8_apply_all_case_fold,
   koi8_get_case_fold_codes_by_str,
   onigenc_minimum_property_name_to_ctype,
   koi8_is_code_ctype,
   onigenc_not_support_get_ctype_code_range,
   onigenc_single_byte_left_adjust_char_head,
+  onigenc_single_byte_left_adjust_char_head_se,
   onigenc_always_true_is_allowed_reverse_match,
   ONIGENC_FLAG_NONE,
 };

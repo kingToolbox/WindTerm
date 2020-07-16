@@ -175,6 +175,12 @@ mbc_enc_len(const UChar* p)
 }
 
 static int
+mbc_enc_len_se(OnigIterator* it, OnigPosition p)
+{
+  return EncLen_SJIS[ONIG_CHARAT(p)];
+}
+
+static int
 code_to_mbclen(OnigCodePoint code)
 {
   if (code < 256) {
@@ -207,6 +213,25 @@ mbc_to_code(const UChar* p, const UChar* end)
   for (i = 1; i < len; i++) {
     if (p >= end) break;
     c = *p++;
+    n <<= 8;  n += c;
+  }
+  return n;
+}
+
+static OnigCodePoint
+mbc_to_code_se(OnigIterator* it, OnigPosition p, OnigPosition end)
+{
+  int c, i, len;
+  OnigCodePoint n;
+
+  len = mbc_enc_len_se(it, p);
+  c = ONIG_CHARAT(p++);
+  n = c;
+  if (len == 1) return n;
+
+  for (i = 1; i < len; i++) {
+    if (p >= end) break;
+    c = ONIG_CHARAT(p++);
     n <<= 8;  n += c;
   }
   return n;
@@ -309,7 +334,7 @@ get_case_fold_codes_by_str(OnigCaseFoldType flag,
 
 static int
 mbc_case_fold(OnigCaseFoldType flag ARG_UNUSED,
-	      const UChar** pp, const UChar* end ARG_UNUSED, UChar* lower)
+	      const UChar** pp, const UChar* end, UChar* lower)
 {
   const UChar* p = *pp;
 
@@ -323,6 +348,28 @@ mbc_case_fold(OnigCaseFoldType flag ARG_UNUSED,
     int len;
 
     code = get_lower_case(mbc_to_code(p, end));
+    len = code_to_mbc(code, lower);
+    (*pp) += len;
+    return len; /* return byte length of converted char to lower */
+  }
+}
+
+static int
+mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag ARG_UNUSED,
+	      OnigPosition* pp, OnigPosition end, UChar* lower)
+{
+  const UChar c = ONIG_CHARAT(*pp);
+
+  if (ONIGENC_IS_MBC_ASCII_SE(c)) {
+    *lower = ONIGENC_ASCII_CODE_TO_LOWER_CASE(c);
+    (*pp)++;
+    return 1;
+  }
+  else {
+    OnigCodePoint code;
+    int len;
+
+    code = get_lower_case(mbc_to_code_se(it, *pp, end));
     len = code_to_mbc(code, lower);
     (*pp) += len;
     return len; /* return byte length of converted char to lower */
@@ -375,6 +422,29 @@ left_adjust_char_head(const UChar* start, const UChar* s)
   if (p + len > s) return (UChar* )p;
   p += len;
   return (UChar* )(p + ((s - p) & ~1));
+}
+
+static OnigPosition
+left_adjust_char_head_se(OnigIterator* it, OnigPosition start, OnigPosition s)
+{
+  OnigPosition p;
+  int len;
+
+  if (s <= start) return s;
+  p = s;
+
+  if (SJIS_ISMB_TRAIL(ONIG_CHARAT(p))) {
+    while (p > start) {
+      if (! SJIS_ISMB_FIRST(ONIG_CHARAT(--p))) {
+	p++;
+	break;
+      }
+    }
+  }
+  len = mbc_enc_len_se(it, p);
+  if (p + len > s) return p;
+  p += len;
+  return (p + ((s - p) & ~1));
 }
 
 static int
@@ -531,40 +601,50 @@ get_ctype_code_range(OnigCtype ctype, OnigCodePoint* sb_out,
 #ifdef ENC_CP932
 OnigEncodingType OnigEncodingCP932 = {
   mbc_enc_len,
+  mbc_enc_len_se,
   "CP932",       /* name */
   2,             /* max byte length */
   1,             /* min byte length */
   onigenc_is_mbc_newline_0x0a,
+  onigenc_is_mbc_newline_0x0a_se,
   mbc_to_code,
+  mbc_to_code_se,
   code_to_mbclen,
   code_to_mbc,
   mbc_case_fold,
+  mbc_case_fold_se,
   apply_all_case_fold,
   get_case_fold_codes_by_str,
   property_name_to_ctype,
   is_code_ctype,
   get_ctype_code_range,
   left_adjust_char_head,
+  left_adjust_char_head_se,
   is_allowed_reverse_match,
   ONIGENC_FLAG_NONE,
 };
 #else
 OnigEncodingType OnigEncodingSJIS = {
   mbc_enc_len,
+  mbc_enc_len_se,
   "Shift_JIS",   /* name */
   2,             /* max byte length */
   1,             /* min byte length */
   onigenc_is_mbc_newline_0x0a,
+  onigenc_is_mbc_newline_0x0a_se,
   mbc_to_code,
+  mbc_to_code_se,
   code_to_mbclen,
   code_to_mbc,
   mbc_case_fold,
+  mbc_case_fold_se,
   apply_all_case_fold,
   get_case_fold_codes_by_str,
   property_name_to_ctype,
   is_code_ctype,
   get_ctype_code_range,
   left_adjust_char_head,
+  left_adjust_char_head_se,
   is_allowed_reverse_match,
   ONIGENC_FLAG_NONE,
 };

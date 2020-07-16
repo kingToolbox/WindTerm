@@ -46,6 +46,22 @@ OnigSyntaxType OnigSyntaxASIS = {
   }
 };
 
+OnigSyntaxType OnigSyntaxWildChar = {
+  ONIG_SYN_OP_VARIABLE_META_CHARACTERS
+  , 0
+  , 0
+  , ONIG_OPTION_SINGLELINE 
+  ,
+  {
+  	  (OnigCodePoint )'\\'                       /* esc */
+  	, (OnigCodePoint )'?'						 /* anychar '.'  */
+  	, (OnigCodePoint )ONIG_INEFFECTIVE_META_CHAR /* anytime '*'  */
+  	, (OnigCodePoint )ONIG_INEFFECTIVE_META_CHAR /* zero or one time '?' */
+  	, (OnigCodePoint )ONIG_INEFFECTIVE_META_CHAR /* one or more time '+' */
+  	, (OnigCodePoint )'*'						 /* anychar anytime */
+  }
+};
+
 OnigSyntaxType OnigSyntaxPosixBasic = {
   ( SYN_POSIX_COMMON_OP | ONIG_SYN_OP_ESC_LPAREN_SUBEXP |
     ONIG_SYN_OP_ESC_BRACE_INTERVAL )

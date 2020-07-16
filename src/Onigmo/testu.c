@@ -57,7 +57,7 @@ static void uconv(char* from, char* to, int len)
 
 static void xx(char* pattern, char* str, int from, int to, int mem, int not)
 {
-  int r;
+  OnigPosition r;
   char cpat[4000], cstr[4000];
 
 #ifdef POSIX_TEST
@@ -118,6 +118,7 @@ static void xx(char* pattern, char* str, int from, int to, int mem, int not)
   OnigCompileInfo ci;
   OnigErrorInfo einfo;
   OnigSyntaxType syn = *ONIG_SYNTAX_DEFAULT;
+  OnigIterator it = {onig_default_charat, str};
 
   /* ONIG_OPTION_OFF(syn.options, ONIG_OPTION_ASCII_RANGE); */
 
@@ -148,8 +149,8 @@ static void xx(char* pattern, char* str, int from, int to, int mem, int not)
     return ;
   }
 
-  r = onig_search(reg, (UChar* )str, (UChar* )(str + ulen(str)),
-		  (UChar* )str, (UChar* )(str + ulen(str)),
+  r = onig_search(&it, reg, 0, ulen(str),
+		  0, ulen(str),
 		  region, ONIG_OPTION_NONE);
   if (r < ONIG_MISMATCH) {
     char s[ONIG_MAX_ERROR_MESSAGE_LEN];

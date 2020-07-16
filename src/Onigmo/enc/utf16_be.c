@@ -55,6 +55,12 @@ utf16be_mbc_enc_len(const UChar* p)
 }
 
 static int
+utf16be_mbc_enc_len_se(OnigIterator* it, OnigPosition p)
+{
+  return EncLen_UTF16[ONIG_CHARAT(p)];
+}
+
+static int
 utf16be_is_mbc_newline(const UChar* p, const UChar* end)
 {
   if (p + 1 < end) {
@@ -65,6 +71,26 @@ utf16be_is_mbc_newline(const UChar* p, const UChar* end)
 	&& *p == 0x00)
       return 1;
     if (*p == 0x20 && (*(p+1) == 0x29 || *(p+1) == 0x28))
+      return 1;
+#endif
+  }
+  return 0;
+}
+
+static int
+utf16be_is_mbc_newline_se(OnigIterator* it, OnigPosition p, OnigPosition end)
+{
+  if (p + 1 < end) {
+    const UChar c0 = ONIG_CHARAT(p);
+    const UChar c1 = ONIG_CHARAT(p+1);
+
+    if (c1 == 0x0a && c0 == 0x00)
+      return 1;
+#ifdef USE_UNICODE_ALL_LINE_TERMINATORS
+    if ((c1 == 0x0b || c1 == 0x0c || c1 == 0x0d || c1 == 0x85)
+	&& c0 == 0x00)
+      return 1;
+    if (c0 == 0x20 && (c1 == 0x29 || c1 == 0x28))
       return 1;
 #endif
   }
@@ -83,6 +109,24 @@ utf16be_mbc_to_code(const UChar* p, const UChar* end ARG_UNUSED)
   }
   else {
     code = p[0] * 256 + p[1];
+  }
+  return code;
+}
+
+static OnigCodePoint
+utf16be_mbc_to_code_se(OnigIterator* it, OnigPosition p, OnigPosition end ARG_UNUSED)
+{
+  OnigCodePoint code;
+  const UChar c0 = ONIG_CHARAT(p);
+  const UChar c1 = ONIG_CHARAT(p+1);
+
+  if (UTF16_IS_SURROGATE_FIRST(c0)) {
+    code = ((((c0 - 0xd8) << 2) + ((c1 & 0xc0) >> 6) + 1) << 16)
+         + ((((c1 & 0x3f) << 2) + (ONIG_CHARAT(p+2) - 0xdc)) << 8)
+         + ONIG_CHARAT(p+3);
+  }
+  else {
+    code = c0 * 256 + c1;
   }
   return code;
 }
@@ -145,6 +189,35 @@ utf16be_mbc_case_fold(OnigCaseFoldType flag,
 					 pp, end, fold);
 }
 
+static int
+utf16be_mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag,
+		      OnigPosition* pp, OnigPosition end, UChar* fold)
+{
+  const UChar c0 = ONIG_CHARAT(*pp);
+  const UChar c1 = ONIG_CHARAT(*pp+1);
+
+  if (ONIGENC_IS_ASCII_CODE(c1) && c0 == 0) {
+#ifdef USE_UNICODE_CASE_FOLD_TURKISH_AZERI
+    if ((flag & ONIGENC_CASE_FOLD_TURKISH_AZERI) != 0) {
+      if (c1 == 0x49) {
+	*fold++ = 0x01;
+	*fold   = 0x31;
+	(*pp) += 2;
+	return 2;
+      }
+    }
+#endif
+
+    *fold++ = 0;
+    *fold   = ONIGENC_ASCII_CODE_TO_LOWER_CASE(c1);
+    *pp += 2;
+    return 2;
+  }
+  else
+    return onigenc_unicode_mbc_case_fold_se(it, ONIG_ENCODING_UTF16_BE, flag,
+					 pp, end, fold);
+}
+
 #if 0
 static int
 utf16be_is_mbc_ambiguous(OnigCaseFoldType flag, const UChar** pp, const UChar* end)
@@ -194,6 +267,21 @@ utf16be_left_adjust_char_head(const UChar* start, const UChar* s)
   return (UChar* )s;
 }
 
+static OnigPosition
+utf16be_left_adjust_char_head_se(OnigIterator* it, OnigPosition start, OnigPosition s)
+{
+  if (s <= start) return s;
+
+  if ((s - start) % 2 == 1) {
+    s--;
+  }
+
+  if (UTF16_IS_SURROGATE_SECOND(ONIG_CHARAT(s)) && s > start + 1)
+    s -= 2;
+
+  return s;
+}
+
 static int
 utf16be_get_case_fold_codes_by_str(OnigCaseFoldType flag,
     const OnigUChar* p, const OnigUChar* end, OnigCaseFoldCodeItem items[])
@@ -204,20 +292,25 @@ utf16be_get_case_fold_codes_by_str(OnigCaseFoldType flag,
 
 OnigEncodingType OnigEncodingUTF16_BE = {
   utf16be_mbc_enc_len,
+  utf16be_mbc_enc_len_se,
   "UTF-16BE",   /* name */
   4,            /* max byte length */
   2,            /* min byte length */
   utf16be_is_mbc_newline,
+  utf16be_is_mbc_newline_se,
   utf16be_mbc_to_code,
+  utf16be_mbc_to_code_se,
   utf16be_code_to_mbclen,
   utf16be_code_to_mbc,
   utf16be_mbc_case_fold,
+  utf16be_mbc_case_fold_se,
   onigenc_unicode_apply_all_case_fold,
   utf16be_get_case_fold_codes_by_str,
   onigenc_unicode_property_name_to_ctype,
   onigenc_unicode_is_code_ctype,
   onigenc_utf16_32_get_ctype_code_range,
   utf16be_left_adjust_char_head,
+  utf16be_left_adjust_char_head_se,
   onigenc_always_false_is_allowed_reverse_match,
   ONIGENC_FLAG_UNICODE,
 };

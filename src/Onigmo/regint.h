@@ -76,6 +76,8 @@
 #define USE_SHARED_CCLASS_TABLE
 #define USE_SUNDAY_QUICK_SEARCH
 
+#define USE_SHARED_UNICODE_TABLE
+
 #define INIT_MATCH_STACK_SIZE                     160
 #define DEFAULT_MATCH_STACK_LIMIT_SIZE              0 /* unlimited */
 
@@ -336,6 +338,7 @@ typedef unsigned int  BitStatusType;
 #define IS_POSIX_BRACKET_ALL_RANGE(option)  ((option) & ONIG_OPTION_POSIX_BRACKET_ALL_RANGE)
 #define IS_WORD_BOUND_ALL_RANGE(option)     ((option) & ONIG_OPTION_WORD_BOUND_ALL_RANGE)
 #define IS_NEWLINE_CRLF(option)   ((option) & ONIG_OPTION_NEWLINE_CRLF)
+#define IS_WHOLEWORD(option)   ((option) & SE_ONIG_OPTION_WHOLEWORD)
 
 /* OP_SET_OPTION is required for these options.
 #define IS_DYNAMIC_OPTION(option) \
@@ -743,19 +746,19 @@ typedef struct {
   BBuf*  mbuf;   /* multi-byte info or NULL */
 } CClassNode;
 
-typedef intptr_t OnigStackIndex;
+typedef OnigPosition OnigStackIndex;
 
 typedef struct _OnigStackType {
   unsigned int type;
   union {
     struct {
       UChar *pcode;      /* byte code position */
-      UChar *pstr;       /* string position */
-      UChar *pstr_prev;  /* previous char position of pstr */
+      OnigPosition pstr;       /* string position */
+      OnigPosition pstr_prev;  /* previous char position of pstr */
 #ifdef USE_COMBINATION_EXPLOSION_CHECK
       unsigned int state_check;
 #endif
-      UChar *pkeep;      /* keep pattern position */
+      OnigPosition pkeep;      /* keep pattern position */
     } state;
     struct {
       int   count;       /* for OP_REPEAT_INC, OP_REPEAT_INC_NG */
@@ -767,20 +770,20 @@ typedef struct _OnigStackType {
     } repeat_inc;
     struct {
       int num;           /* memory num */
-      UChar *pstr;       /* start/end position */
+      OnigPosition pstr;       /* start/end position */
       /* Following information is set, if this stack type is MEM-START */
       OnigStackIndex start;  /* prev. info (for backtrack  "(...)*" ) */
       OnigStackIndex end;    /* prev. info (for backtrack  "(...)*" ) */
     } mem;
     struct {
       int num;           /* null check id */
-      UChar *pstr;       /* start position */
+      OnigPosition pstr;       /* start position */
     } null_check;
 #ifdef USE_SUBEXP_CALL
     struct {
       UChar *ret_addr;   /* byte code position */
       int    num;        /* null check id */
-      UChar *pstr;       /* string position */
+      OnigPosition pstr;       /* string position */
     } call_frame;
 #endif
   } u;
@@ -791,11 +794,11 @@ typedef struct {
   size_t stack_n;
   OnigOptionType options;
   OnigRegion*    region;
-  const UChar* start;   /* search start position */
-  const UChar* gpos;    /* global position (for \G: BEGIN_POSITION) */
+  OnigPosition start;   /* search start position */
+  OnigPosition gpos;    /* global position (for \G: BEGIN_POSITION) */
 #ifdef USE_FIND_LONGEST_SEARCH_ALL_OF_RANGE
   OnigPosition best_len;  /* for ONIG_OPTION_FIND_LONGEST */
-  UChar* best_s;
+  OnigPosition best_s;
 #endif
 #ifdef USE_COMBINATION_EXPLOSION_CHECK
   void* state_check_buff;

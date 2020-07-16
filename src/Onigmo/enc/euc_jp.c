@@ -148,6 +148,12 @@ mbc_enc_len(const UChar* p)
   return EncLen_EUCJP[*p];
 }
 
+static int
+mbc_enc_len_se(OnigIterator* it, OnigPosition p)
+{
+  return EncLen_EUCJP[ONIG_CHARAT(p)];
+}
+
 static OnigCodePoint
 mbc_to_code(const UChar* p, const UChar* end)
 {
@@ -161,6 +167,24 @@ mbc_to_code(const UChar* p, const UChar* end)
   for (i = 1; i < len; i++) {
     if (p >= end) break;
     c = *p++;
+    n <<= 8;  n += c;
+  }
+  return n;
+}
+
+static OnigCodePoint
+mbc_to_code_se(OnigIterator* it, OnigPosition p, OnigPosition end)
+{
+  int c, i, len;
+  OnigCodePoint n;
+
+  len = mbc_enc_len_se(it, p);
+  n = (OnigCodePoint )ONIG_CHARAT(p++);
+  if (len == 1) return n;
+
+  for (i = 1; i < len; i++) {
+    if (p >= end) break;
+    c = ONIG_CHARAT(p++);
     n <<= 8;  n += c;
   }
   return n;
@@ -310,6 +334,28 @@ mbc_case_fold(OnigCaseFoldType flag ARG_UNUSED,
   }
 }
 
+static int
+mbc_case_fold_se(OnigIterator* it, OnigCaseFoldType flag ARG_UNUSED,
+	      OnigPosition* pp, OnigPosition end ARG_UNUSED, UChar* lower)
+{
+  const UChar c = ONIG_CHARAT(*pp);
+
+  if (ONIGENC_IS_MBC_ASCII_SE(c)) {
+    *lower = ONIGENC_ASCII_CODE_TO_LOWER_CASE(c);
+    (*pp)++;
+    return 1;
+  }
+  else {
+    OnigCodePoint code;
+    int len;
+
+    code = get_lower_case(mbc_to_code_se(it, *pp, end));
+    len = code_to_mbc(code, lower);
+    (*pp) += len;
+    return len; /* return byte length of converted char to lower */
+  }
+}
+
 static UChar*
 left_adjust_char_head(const UChar* start, const UChar* s)
 {
@@ -327,6 +373,25 @@ left_adjust_char_head(const UChar* start, const UChar* s)
   if (p + len > s) return (UChar* )p;
   p += len;
   return (UChar* )(p + ((s - p) & ~1));
+}
+
+static OnigPosition
+left_adjust_char_head_se(OnigIterator* it, OnigPosition start, OnigPosition s)
+{
+  /* In this encoding
+     mb-trail bytes doesn't mix with single bytes.
+  */
+  OnigPosition p;
+  int len;
+
+  if (s <= start) return s;
+  p = s;
+
+  while (!eucjp_islead(ONIG_CHARAT(p)) && p > start) p--;
+  len = mbc_enc_len_se(it, p);
+  if (p + len > s) return p;
+  p += len;
+  return (p + ((s - p) & ~1));
 }
 
 static int
@@ -512,20 +577,25 @@ get_ctype_code_range(OnigCtype ctype, OnigCodePoint* sb_out,
 
 OnigEncodingType OnigEncodingEUC_JP = {
   mbc_enc_len,
+  mbc_enc_len_se,
   "EUC-JP",   /* name */
   3,          /* max enc length */
   1,          /* min enc length */
   onigenc_is_mbc_newline_0x0a,
+  onigenc_is_mbc_newline_0x0a_se,
   mbc_to_code,
+  mbc_to_code_se,
   code_to_mbclen,
   code_to_mbc,
   mbc_case_fold,
+  mbc_case_fold_se,
   apply_all_case_fold,
   get_case_fold_codes_by_str,
   property_name_to_ctype,
   is_code_ctype,
   get_ctype_code_range,
   left_adjust_char_head,
+  left_adjust_char_head_se,
   is_allowed_reverse_match,
   ONIGENC_FLAG_NONE,
 };

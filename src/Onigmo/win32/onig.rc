@@ -1,0 +1,94 @@
+/**********************************************************************
+  onig.rc - Onigmo (Oniguruma-mod) (regular expression library)
+**********************************************************************/
+/*-
+ * Copyright (c) 2011-2012  K.Takata  <kentkt AT csc DOT jp>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+
+#include <windows.h>
+#include "oniguruma.h"
+
+#define TOSTR_(a)	#a
+#define ONIG_VERSION_TOSTR_(a,b,c)	\
+	TOSTR_(a) "." TOSTR_(b) "." TOSTR_(c)
+#define ONIG_VERSION_STRING	\
+	ONIG_VERSION_TOSTR_(ONIGURUMA_VERSION_MAJOR, ONIGURUMA_VERSION_MINOR, ONIGURUMA_VERSION_TEENY)
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION ONIGURUMA_VERSION_MAJOR,ONIGURUMA_VERSION_MINOR,ONIGURUMA_VERSION_TEENY,0
+ PRODUCTVERSION ONIGURUMA_VERSION_MAJOR,ONIGURUMA_VERSION_MINOR,ONIGURUMA_VERSION_TEENY,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", " \0"
+            VALUE "FileDescription", "Onigmo (Oniguruma-mod) (regular expression library)\0"
+            VALUE "FileVersion", ONIG_VERSION_STRING "\0"
+            VALUE "InternalName", "onig.dll\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002-2009 K.Kosako, 2011-2012 K.Takata\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "onig.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Onigmo (Oniguruma-mod)\0"
+            VALUE "ProductVersion", ONIG_VERSION_STRING "\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
+
+
+
+#endif    // English resources
+/////////////////////////////////////////////////////////////////////////////

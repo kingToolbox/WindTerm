@@ -1,0 +1,15 @@
+# ignore UCD files
+Blocks.txt
+CaseFolding.txt
+DerivedAge.txt
+DerivedCoreProperties.txt
+PropList.txt
+PropertyAliases.txt
+PropertyValueAliases.txt
+Scripts.txt
+UnicodeData.txt
+
+# ignore generated files
+casefold.h
+name2ctype.h
+name2ctype.kwd

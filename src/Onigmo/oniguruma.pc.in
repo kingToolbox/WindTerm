@@ -1,0 +1,14 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+
+Name: oniguruma
+Description: Regular expression library
+Version: @PACKAGE_VERSION@
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}
+

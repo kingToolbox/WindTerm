@@ -1,0 +1,78 @@
+#!/bin/sh
+# Copyright (C) 2006  K.Kosako (sndgk393 AT ybb DOT ne DOT jp)
+
+ONIG_VERSION=@PACKAGE_VERSION@
+
+show_usage()
+{
+  cat <<EOF
+Usage: onig-config [OPTION]
+
+  Values for OPTION are:
+  --prefix[=DIR]       change prefix to DIR
+  --prefix             print prefix
+  --exec-prefix[=DIR]  change exec_prefix to DIR
+  --exec-prefix        print exec_prefix
+  --cflags             print C compiler flags
+  --libs               print library information
+  --version            print oniguruma version
+  --help               print this help
+
+EOF
+
+  exit 1
+}
+
+if test $# -eq 0; then
+  show_usage
+fi
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+is_set_exec_prefix=no
+
+while test $# -gt 0; do
+  case "$1" in
+  -*=*) val=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'`
+     ;;
+  *) val=
+     ;;
+  esac
+
+  case $1 in
+    --prefix=*)
+      prefix=$val
+      if test $is_set_exec_prefix = no ; then
+        exec_prefix=$val
+      fi
+      ;;
+    --prefix)
+      echo $prefix
+      ;;
+    --exec-prefix=*)
+      exec_prefix=$val
+      is_set_exec_prefix=yes
+      ;;
+    --exec-prefix)
+      echo $exec_prefix
+      ;;
+    --cflags)
+      if test @includedir@ != /usr/include ; then
+        show_includedir=-I@includedir@
+      fi
+      echo $show_includedir
+      ;;
+    --libs)
+      echo -L@libdir@ -lonig
+      ;;
+    --version)
+      echo $ONIG_VERSION
+      ;;
+    *)
+      show_usage
+      ;;
+  esac
+  shift
+done
+
+# END

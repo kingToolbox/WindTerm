@@ -1,0 +1,28 @@
+; see: http://editorconfig.org/
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[**.[ch]]
+indent_style = tab
+indent_size = 2
+tab_width = 8
+
+[**.py]
+indent_style = space
+indent_size = 4
+
+[**.rb]
+indent_style = space
+indent_size = 2
+tab_width = 8
+
+[win32/*]
+end_of_line = crlf
+
+[win32/*.py]
+end_of_line = lf

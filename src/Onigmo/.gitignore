@@ -1,0 +1,66 @@
+# ignore dot-files, binary files and backup files
+.*
+*.o
+*.lo
+*.so
+*.a
+*.la
+*.obj
+*.def
+*.dll
+*.exe
+*.exp
+*.lib
+*.pyc
+*.bak
+*.BAK
+*~
+*.swp
+*.orig
+*.rej
+*.RES
+*.res
+
+# don't want to ignore
+!.gitignore
+!.editorconfig
+
+# working dirs
+.deps
+.libs
+
+# autotools generated files
+/autom4te.cache
+/config.h
+/config.log
+/config.status
+/libtool
+/onig-config
+/oniguruma.pc
+/Makefile
+/sample/Makefile
+/stamp-h1
+
+# generated executable files
+/enc/mktable
+/sample/crnl
+/sample/encode
+/sample/listcap
+/sample/names
+/sample/posix
+/sample/simple
+/sample/sql
+/sample/syntax
+/testc
+/testcu
+/testp
+
+# tag files
+tags
+TAGS
+
+# GNU global files
+GPATH
+GRTAGS
+GSYMS
+GTAGS

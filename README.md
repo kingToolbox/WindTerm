@@ -7,6 +7,7 @@ _Hello WindTerm :rose:, hello world!_
 
 # License
 **Completely FREE for commercial and non-commercial use without limitations.**
+**All source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**
 
 # Introduction
 
@@ -46,6 +47,9 @@ Split views:
 - Support auto wrap mode.
 - Support SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic.
 - Support SSH auto execution when session authenticated.
+- Supports session logging.
+- Supports X11 forwarding.
+- Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding.
 - Support searching and previewing.
 - Session dialog and session tree.
 - Rename and duplicate session.
@@ -260,17 +264,17 @@ DIGEdit is the text component of WindTerm.
 
   2-3 weeks.
 
-**Next release (Early July，for reference only):**
-- X11 forwarding
-- Port forwarding (Tunnel)
+**Next release (Late July，for reference only):**
+- Agent Forwarding
+- SSH ProxyCommand
 - Auto complete
 
 **Todo list:**
 - Protocols:
   - Rlogin
   - SSH
-    - X11 Forwarding
-    - Port forwarding (Tunnel)
+    - Agent Forwarding
+    - ProxyCommand
 - UI:
   - Config dialog
   - Local filer for cmd, powershell

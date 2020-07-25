@@ -34,29 +34,29 @@ Split views:
 ![SplitView](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/SplitView.png)
 
 # Features
-- **Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters.**
-- **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.**
-- **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**)
-- **Command palette.**
-- **Command sender.**
-- SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented.
+- **Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters.** [Intro Video](https://kingtoolbox.github.io/2020/06/28/pair/)
+- **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.** [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
+- **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
+- **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
+- **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
+- SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
 - Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
-- Support color schemes like vscode.
+- Support color schemes like vscode. [Intro Video](https://kingtoolbox.github.io/2020/01/23/highlight/)
 - Support time stamp, folding, outlining, split views.
 - Support unicode, true-color, mouse protocol, etc.
-- Support auto wrap mode.
-- Support SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic.
+- Support auto wrap mode. [Intro Video](https://kingtoolbox.github.io/2020/01/22/auto-wrap/)
+- Support SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
 - Support SSH auto execution when session authenticated.
-- Supports session logging.
-- Supports X11 forwarding.
-- Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding.
-- Support searching and previewing.
+- Supports session logging. [Intro Video](https://kingtoolbox.github.io/2020/07/21/logging/)
+- Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
+- Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
+- Support searching and previewing. [Intro Video](https://kingtoolbox.github.io/2020/01/22/search-and-mark/)
 - Session dialog and session tree.
-- Rename and duplicate session.
-- Restore last sessions and layouts when restart. 
+- Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
+- Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.
-- High performance, low memory, low latency.
+- High performance, low memory, low latency. [Intro Video](https://kingtoolbox.github.io/2020/01/23/windterm-putty-performance/)
 
 # Sftp Performance
 

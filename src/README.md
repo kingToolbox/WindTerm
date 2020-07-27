@@ -8,6 +8,10 @@ Below is a list of (some) WindTerm components in alphabetical order, along with 
 
 A quick circular buffer template class.
 
+## Cryptographic.h/cpp
+
+A very safe encryption class using the PBKDF2-algorithm as defined in RFC 8018. WindTerm uses this class together with the user's master password to protect user data, including passwords, private keys and so on.
+
 ## Onigmo
 
 An improved version based on Onigmo 5.13.5. In particular, **the addition of iterator makes it possible to match gap buffer or nonadjacent memory blocks.** Please refer to the sample files for how to use.

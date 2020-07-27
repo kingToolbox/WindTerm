@@ -12,6 +12,10 @@ A quick circular buffer template class.
 
 An improved version based on Onigmo 5.13.5. In particular, **the addition of iterator makes it possible to match gap buffer or nonadjacent memory blocks.** Please refer to the sample files for how to use.
 
+## ScopeGuard.h
+
+A class of which the sole purpose is to run the function f in its destructor. This is useful for guaranteeing your cleanup code is executed.
+
 ## Spin.h
 
 A high-performance spin mutex and locker.

@@ -1,5 +1,5 @@
 # WindTerm
-An innovative fast SSH/Telnet/Serial/Shell/sftp client. 
+A professional SSH/Telnet/Serial/Shell/Sftp client for DevOps.
 
 _Hello WindTerm :rose:, hello world!_
 
@@ -29,6 +29,10 @@ Main Window:
 
 ![MainWindow](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WindTerm.png)
 
+Quick Bar:
+
+![QuickBar](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/QuickBar.png)
+
 Split views:
 
 ![SplitView](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/SplitView.png)
@@ -39,18 +43,21 @@ Split views:
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
+- **Quick Bar.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/quickbar/)
+- **Paste Dialog.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/paste_dialog/)
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
-- Support vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
-- Support color schemes like vscode. [Intro Video](https://kingtoolbox.github.io/2020/01/23/highlight/)
-- Support time stamp, folding, outlining, split views.
-- Support unicode, true-color, mouse protocol, etc.
-- Support auto wrap mode. [Intro Video](https://kingtoolbox.github.io/2020/01/22/auto-wrap/)
-- Support SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
-- Support SSH auto execution when session authenticated.
+- Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
+- Supports color schemes like vscode. [Intro Video](https://kingtoolbox.github.io/2020/01/23/highlight/)
+- Supports time stamp, folding, outlining, split views.
+- Supports unicode, true-color, mouse protocol, etc.
+- Supports auto wrap mode. [Intro Video](https://kingtoolbox.github.io/2020/01/22/auto-wrap/)
+- Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
 - Supports session logging. [Intro Video](https://kingtoolbox.github.io/2020/07/21/logging/)
+- Supports SSH auto execution when session authenticated.
+- Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
 - Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
-- Support searching and previewing. [Intro Video](https://kingtoolbox.github.io/2020/01/22/search-and-mark/)
+- Supports searching and previewing. [Intro Video](https://kingtoolbox.github.io/2020/01/22/search-and-mark/)
 - Session dialog and session tree.
 - Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
 - Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
@@ -262,30 +269,27 @@ DIGEdit is the text component of WindTerm.
 
 **Release cycle:**
 
-  2-3 weeks.
+  2-4 weeks.
 
-**Next release (Late July，for reference only):**
-- Agent Forwarding
-- SSH ProxyCommand
+**Next release (Early September，for reference only):**
 - Auto complete
+- External tools
 
 **Todo list:**
 - Protocols:
   - Rlogin
   - SSH
-    - Agent Forwarding
     - ProxyCommand
 - UI:
   - Config dialog
   - Local filer for cmd, powershell
-  - Quick command bar.
 - Terminal:
   - Linux bash
   - MacOs bash
 - Session:
   - Proxy
   - Chat mode
-  - Log and log viewer
+  - Log viewer
 - File transfer:
   - ftp, ftps
   - Xmodem, Ymodem, Zmodem(sz, rz)

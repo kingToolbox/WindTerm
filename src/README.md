@@ -16,6 +16,10 @@ A very safe encryption class using the PBKDF2-algorithm as defined in RFC 8018. 
 
 An improved version based on Onigmo 5.13.5. In particular, **the addition of iterator makes it possible to match gap buffer or nonadjacent memory blocks.** Please refer to the sample files for how to use.
 
+## Pty
+
+An improved version based on ptyqt[https://github.com/kafeg/ptyqt]. **Almost all the code was rewritten to make the pty more robust and stable.**
+
 ## ScopeGuard.h
 
 A class of which the sole purpose is to run the function f in its destructor. This is useful for guaranteeing your cleanup code is executed.

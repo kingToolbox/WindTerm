@@ -18,7 +18,7 @@ An improved version based on Onigmo 5.13.5. In particular, **the addition of ite
 
 ## Pty
 
-An improved version based on ptyqt[https://github.com/kafeg/ptyqt]. **Almost all the code was rewritten to make the pty more robust and stable.**
+An improved version based on [ptyqt](https://github.com/kafeg/ptyqt). **Almost all the code was rewritten to make the pty more robust and stable.**
 
 ## ScopeGuard.h
 
@@ -27,3 +27,7 @@ A class of which the sole purpose is to run the function f in its destructor. Th
 ## Spin.h
 
 A high-performance spin mutex and locker.
+
+## Protocol/TelentProtocol.h/cpp
+
+An implementation of Telnet protocol.

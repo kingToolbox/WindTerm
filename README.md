@@ -7,7 +7,7 @@ _Hello WindTerm :rose:, hello world!_
 
 # License
 **Completely FREE for commercial and non-commercial use without limitations.**
-**All source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**
+**All released source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**
 
 # Introduction
 

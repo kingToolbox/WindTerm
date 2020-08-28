@@ -19,6 +19,12 @@ Windows Binary: https://github.com/kingToolbox/WindTerm/releases
 
 (The binary of Macos and Linux will be committed later)
 
+# Source Code
+
+WindTerm is a **partial** open source project, and the source will be gradually opened.
+
+Open source code includes, but is not limited to, the classes that can be used independently, such as functional, algorithms, gui widgets, etc., as well as functional libraries, such as network, protocols, etc., as well as all types that require open source according to the license.
+
 # Issues and feature requests
 
 Any issues and feature requests are welcome. Please click [issues](https://github.com/kingToolbox/WindTerm/issues) to commit an issue.

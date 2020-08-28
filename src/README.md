@@ -36,6 +36,10 @@ A high-performance spin mutex and locker.
 
 A high-performance thread local storage.
 
+## Widgets/PopupWidget.h/cpp
+
+A popup widget.
+
 ## Widgets/Scrollbar.h/cpp
 
 A scrollbar supports 64-bit ranges.

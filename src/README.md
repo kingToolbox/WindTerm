@@ -31,3 +31,7 @@ A high-performance spin mutex and locker.
 ## Protocol/TelentProtocol.h/cpp
 
 An implementation of Telnet protocol.
+
+## Utility/ThreadLocal.h/cpp
+
+A high-performance thread local storage.

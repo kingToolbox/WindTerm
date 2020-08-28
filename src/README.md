@@ -1,6 +1,6 @@
-**All source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**
-
 **Important: WindTerm is a partial open source project, and the source will be gradually opened.**
+
+**All released source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**
 
 # Components
 

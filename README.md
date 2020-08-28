@@ -23,7 +23,7 @@ Windows Binary: https://github.com/kingToolbox/WindTerm/releases
 
 WindTerm is a **partial** open source project, and the source will be gradually opened.
 
-Open source code includes, but is not limited to, the classes that can be used independently, such as functional, algorithms, gui widgets, etc., as well as functional libraries, such as network, protocol, etc., as well as all types that require open source according to the license.
+Open source code includes, but is not limited to, the classes that can be used independently, such as functional, algorithms, gui widgets, etc., as well as functional libraries, such as network, protocols, etc., as well as all types that require open source according to the license.
 
 # Issues and feature requests
 

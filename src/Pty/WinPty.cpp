@@ -54,7 +54,18 @@ bool WinPty::createProcess(QString command, const QString &arguments,
 			errorString = tr("Winpty-agent.exe or winpty.dll not found!.");
 			break;
 		}
+		command = command.trimmed();
+
+		if (command.startsWith("\"") && command.endsWith("\"")) {
+			command.remove(command.length() - 1, 1);
+			command.remove(0, 1);
+		}
+
 		QString commandWithArguments = command;
+
+		if (commandWithArguments.contains(' ')) {
+			commandWithArguments.prepend("\"").append("\"");
+		}
 
 		if (arguments.isEmpty() == false) {
 			commandWithArguments.append(" ").append(arguments);

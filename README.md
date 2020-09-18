@@ -35,17 +35,22 @@ Main Window:
 
 ![MainWindow](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WindTerm.png)
 
-Quick Bar:
-
-![QuickBar](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/QuickBar.png)
-
 Split views:
 
 ![SplitView](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/SplitView.png)
 
+DigeWhite Theme:
+
+![DigeWhite Theme](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WindTerm_DigeWhite_Theme.png)
+
+
 # Features
+- **Supports changing the UI theme.** [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
+- **Supports setting the tab color.** [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
+- **Supports closing tabs to the right.**
 - **Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters.** [Intro Video](https://kingtoolbox.github.io/2020/06/28/pair/)
 - **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.** [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
+- **Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.**
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
@@ -277,8 +282,9 @@ DIGEdit is the text component of WindTerm.
 
   2-4 weeks.
 
-**Next release (Early September，for reference only):**
-- Auto complete
+**Next release (Early October，for reference only):**
+- **Linux Version**
+- Linux bash
 - External tools
 
 **Todo list:**
@@ -288,11 +294,10 @@ DIGEdit is the text component of WindTerm.
     - ProxyCommand
 - UI:
   - Config dialog
-  - Local filer for cmd, powershell
 - Terminal:
-  - Linux bash
   - MacOs bash
 - Session:
+  - Auto Complete
   - Proxy
   - Chat mode
   - Log viewer

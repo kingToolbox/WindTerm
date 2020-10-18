@@ -722,7 +722,6 @@ fail:
     return SSH_AUTH_ERROR;
 }
 
-#ifndef _WIN32
 static int ssh_userauth_agent_publickey(ssh_session session,
                                         const char *username,
                                         ssh_key pubkey)
@@ -959,7 +958,6 @@ int ssh_userauth_agent(ssh_session session,
     session->agent_state = NULL;
     return rc;
 }
-#endif
 
 enum ssh_auth_auto_state_e {
     SSH_AUTH_AUTO_STATE_NONE = 0,
@@ -1037,7 +1035,6 @@ int ssh_userauth_publickey_auto(ssh_session session,
     }
     state = session->auth.auto_state;
     if (state->state == SSH_AUTH_AUTO_STATE_NONE) {
-#ifndef _WIN32
         /* Try authentication with ssh-agent first */
         rc = ssh_userauth_agent(session, username);
         if (rc == SSH_AUTH_SUCCESS ||
@@ -1045,7 +1042,6 @@ int ssh_userauth_publickey_auto(ssh_session session,
             rc == SSH_AUTH_AGAIN ) {
             return rc;
         }
-#endif
         state->state = SSH_AUTH_AUTO_STATE_PUBKEY;
     }
     if (state->it == NULL) {
@@ -1295,7 +1291,6 @@ fail:
     return SSH_AUTH_ERROR;
 }
 
-#ifndef _WIN32
 /* LEGACY */
 int ssh_userauth_agent_pubkey(ssh_session session,
                               const char *username,
@@ -1323,7 +1318,6 @@ int ssh_userauth_agent_pubkey(ssh_session session,
 
     return rc;
 }
-#endif /* _WIN32 */
 
 ssh_kbdint ssh_kbdint_new(void) {
     ssh_kbdint kbd;

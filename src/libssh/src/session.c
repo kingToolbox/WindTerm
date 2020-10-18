@@ -97,12 +97,10 @@ ssh_session ssh_new(void)
     ssh_set_blocking(session, 1);
     session->maxchannel = FIRST_CHANNEL;
 
-#ifndef _WIN32
     session->agent = ssh_agent_new(session);
     if (session->agent == NULL) {
         goto err;
     }
-#endif /* _WIN32 */
 
     /* OPTIONS */
     session->opts.StrictHostKeyChecking = 1;
@@ -242,9 +240,7 @@ void ssh_free(ssh_session session)
   crypto_free(session->current_crypto);
   crypto_free(session->next_crypto);
 
-#ifndef _WIN32
   ssh_agent_free(session->agent);
-#endif /* _WIN32 */
 
   ssh_key_free(session->srv.dsa_key);
   session->srv.dsa_key = NULL;
@@ -292,9 +288,7 @@ void ssh_free(ssh_session session)
     }
     ssh_list_free(session->out_queue);
 
-#ifndef _WIN32
   ssh_agent_state_free (session->agent_state);
-#endif
   session->agent_state = NULL;
 
   SAFE_FREE(session->auth.auto_state);

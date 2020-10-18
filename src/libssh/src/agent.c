@@ -33,7 +33,6 @@
  *    the agent returns the signed data
  */
 
-#ifndef _WIN32
 
 #include "config.h"
 
@@ -46,9 +45,6 @@
 #include <unistd.h>
 #endif
 
-#include <netinet/in.h>
-#include <arpa/inet.h>
-
 #include "libssh/agent.h"
 #include "libssh/priv.h"
 #include "libssh/socket.h"
@@ -58,11 +54,21 @@
 #include "libssh/pki.h"
 #include "libssh/bytearray.h"
 
+#ifndef _WIN32
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#else
+#include <Windows.h>
+#endif
+
+#define AGENT_MSG_MAXLEN 256 * 1024
+
 /* macro to check for "agent failure" message */
 #define agent_failed(x) \
   (((x) == SSH_AGENT_FAILURE) || ((x) == SSH_COM_AGENT2_FAILURE) || \
    ((x) == SSH2_AGENT_FAILURE))
 
+#ifndef _WIN32
 static size_t atomicio(struct ssh_agent_struct *agent, void *buf, size_t n, int do_read) {
   char *b = buf;
   size_t pos = 0;
@@ -122,6 +128,7 @@ static size_t atomicio(struct ssh_agent_struct *agent, void *buf, size_t n, int 
       return pos;
     }
 }
+#endif
 
 ssh_agent ssh_agent_new(struct ssh_session_struct *session) {
   ssh_agent agent = NULL;
@@ -133,12 +140,16 @@ ssh_agent ssh_agent_new(struct ssh_session_struct *session) {
   ZERO_STRUCTP(agent);
 
   agent->count = 0;
+
+#ifndef _WIN32
   agent->sock = ssh_socket_new(session);
   if (agent->sock == NULL) {
     SAFE_FREE(agent);
     return NULL;
   }
   agent->channel = NULL;
+#endif
+
   return agent;
 }
 
@@ -165,6 +176,7 @@ int ssh_set_agent_channel(ssh_session session, ssh_channel channel){
   return SSH_OK;
 }
 
+#ifndef _WIN32
 /** @brief sets the SSH agent socket.
  * The SSH agent will be used to authenticate this client using
  * the given socket to communicate with the ssh-agent. The caller
@@ -192,20 +204,24 @@ void ssh_agent_close(struct ssh_agent_struct *agent) {
 
   ssh_socket_close(agent->sock);
 }
+#endif
 
 void ssh_agent_free(ssh_agent agent) {
   if (agent) {
     if (agent->ident) {
       SSH_BUFFER_FREE(agent->ident);
     }
+#ifndef _WIN32
     if (agent->sock) {
       ssh_agent_close(agent);
       ssh_socket_free(agent->sock);
     }
+#endif
     SAFE_FREE(agent);
   }
 }
 
+#ifndef _WIN32
 static int agent_connect(ssh_session session) {
   const char *auth_sock = NULL;
 
@@ -227,6 +243,7 @@ static int agent_connect(ssh_session session) {
 
   return -1;
 }
+#endif
 
 #if 0
 static int agent_decode_reply(struct ssh_session_struct *session, int type) {
@@ -247,6 +264,8 @@ static int agent_decode_reply(struct ssh_session_struct *session, int type) {
   return -1;
 }
 #endif
+
+#ifndef _WIN32
 
 static int agent_talk(struct ssh_session_struct *session,
     struct ssh_buffer_struct *request, struct ssh_buffer_struct *reply) {
@@ -280,7 +299,7 @@ static int agent_talk(struct ssh_session_struct *session,
   }
 
   len = PULL_BE_U32(payload, 0);
-  if (len > 256 * 1024) {
+  if (len > AGENT_MSG_MAXLEN) {
     ssh_set_error(session, SSH_FATAL,
         "Authentication response too long: %u", len);
     return -1;
@@ -306,6 +325,78 @@ static int agent_talk(struct ssh_session_struct *session,
 
   return 0;
 }
+
+#else
+
+#define AGENT_COPYDATA_ID 0x804e50ba;
+
+static int agent_talk(struct ssh_session_struct *session,
+    struct ssh_buffer_struct *request, struct ssh_buffer_struct *reply) {
+  HWND hwnd = FindWindow("Pageant", "Pageant");
+  if (hwnd == NULL) {
+    ssh_set_error(session, SSH_FATAL,
+        "Pageant message window not found: %u", GetLastError());
+    return -1;
+  }
+
+  char map_name[39];
+  sprintf(map_name, "libssh_agent_%08x_%016zx",
+      GetCurrentProcessId(), (size_t)session->agent);
+
+  HANDLE hmap = CreateFileMapping(NULL, NULL, PAGE_READWRITE,
+      0, AGENT_MSG_MAXLEN + sizeof(uint32_t), map_name);
+  if (hmap == NULL) {
+    ssh_set_error(session, SSH_FATAL,
+        "Failed to create file mapping: %u", GetLastError());
+    return -1;
+  }
+
+  char *buf = MapViewOfFile(hmap, FILE_MAP_ALL_ACCESS, 0, 0, 0);
+  if (buf == NULL) {
+    ssh_set_error(session, SSH_FATAL,
+        "Failed to map the file mapping into memory: %u", GetLastError());
+    CloseHandle(hmap);
+    return -1;
+  }
+
+  uint32_t len = ssh_buffer_get_len(request);
+  SSH_LOG(SSH_LOG_TRACE, "Request length: %u", len);
+  PUSH_BE_U32(buf, 0, len);
+  memcpy(buf + sizeof(uint32_t), ssh_buffer_get(request), len);
+
+  COPYDATASTRUCT data;
+  data.dwData = AGENT_COPYDATA_ID;
+  data.cbData = strlen(map_name) + 1;
+  data.lpData = map_name;
+  if (SendMessage(hwnd, WM_COPYDATA, 0, (LPARAM)&data) < 0) {
+    ssh_set_error(session, SSH_FATAL, "Pageant returned an error");
+    UnmapViewOfFile(buf);
+    CloseHandle(hmap);
+    return -1;
+  }
+
+  len = PULL_BE_U32(buf, 0);
+  if (len > AGENT_MSG_MAXLEN) {
+    ssh_set_error(session, SSH_FATAL,
+        "Authentication response too long: %u", len);
+    UnmapViewOfFile(buf);
+    CloseHandle(hmap);
+    return -1;
+  }
+  SSH_LOG(SSH_LOG_TRACE, "Response length: %u", len);
+
+  int rc = ssh_buffer_add_data(reply, buf + sizeof(uint32_t), len);
+  UnmapViewOfFile(buf);
+  CloseHandle(hmap);
+  if (rc < 0) {
+    SSH_LOG(SSH_LOG_WARN, "Not enough space");
+    return -1;
+  }
+
+  return 0;
+}
+
+#endif /* _WIN32 */
 
 uint32_t ssh_agent_get_ident_count(struct ssh_session_struct *session)
 {
@@ -459,6 +550,7 @@ int ssh_agent_is_running(ssh_session session) {
     return 0;
   }
 
+#ifndef _WIN32
   if (ssh_socket_is_open(session->agent->sock)) {
     return 1;
   } else {
@@ -470,6 +562,10 @@ int ssh_agent_is_running(ssh_session session) {
   }
 
   return 0;
+#else
+  HWND hwnd = FindWindow("Pageant", "Pageant");
+  return hwnd != NULL;
+#endif
 }
 
 ssh_string ssh_agent_sign_data(ssh_session session,
@@ -591,4 +687,3 @@ ssh_string ssh_agent_sign_data(ssh_session session,
     return sig_blob;
 }
 
-#endif /* _WIN32 */

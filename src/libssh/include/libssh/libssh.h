@@ -730,7 +730,9 @@ LIBSSH_API int ssh_select(ssh_channel *channels, ssh_channel *outchannels, socke
     fd_set *readfds, struct timeval *timeout);
 LIBSSH_API int ssh_service_request(ssh_session session, const char *service);
 LIBSSH_API int ssh_set_agent_channel(ssh_session session, ssh_channel channel);
+#ifndef _WIN32
 LIBSSH_API int ssh_set_agent_socket(ssh_session session, socket_t fd);
+#endif
 LIBSSH_API void ssh_set_blocking(ssh_session session, int blocking);
 LIBSSH_API void ssh_set_counters(ssh_session session, ssh_counter scounter,
                                  ssh_counter rcounter);
@@ -749,10 +751,8 @@ LIBSSH_API int ssh_userauth_try_publickey(ssh_session session,
 LIBSSH_API int ssh_userauth_publickey(ssh_session session,
                                       const char *username,
                                       const ssh_key privkey);
-#ifndef _WIN32
 LIBSSH_API int ssh_userauth_agent(ssh_session session,
                                   const char *username);
-#endif
 LIBSSH_API int ssh_userauth_publickey_auto(ssh_session session,
                                            const char *username,
                                            const char *passphrase);

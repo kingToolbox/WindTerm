@@ -2372,7 +2372,6 @@ end:
     return sig_blob;
 }
 
-#ifndef _WIN32
 ssh_string ssh_pki_do_sign_agent(ssh_session session,
                                  struct ssh_buffer_struct *buf,
                                  const ssh_key pubkey)
@@ -2422,7 +2421,6 @@ ssh_string ssh_pki_do_sign_agent(ssh_session session,
 
     return sig_blob;
 }
-#endif /* _WIN32 */
 
 #ifdef WITH_SERVER
 ssh_string ssh_srv_pki_do_sign_sessionid(ssh_session session,

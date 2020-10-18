@@ -34,10 +34,8 @@ typedef struct ssh_public_key_struct* ssh_public_key;
 LIBSSH_API int ssh_auth_list(ssh_session session);
 LIBSSH_API int ssh_userauth_offer_pubkey(ssh_session session, const char *username, int type, ssh_string publickey);
 LIBSSH_API int ssh_userauth_pubkey(ssh_session session, const char *username, ssh_string publickey, ssh_private_key privatekey);
-#ifndef _WIN32
 LIBSSH_API int ssh_userauth_agent_pubkey(ssh_session session, const char *username,
     ssh_public_key publickey);
-#endif
 LIBSSH_API int ssh_userauth_autopubkey(ssh_session session, const char *passphrase);
 LIBSSH_API int ssh_userauth_privatekey_file(ssh_session session, const char *username,
     const char *filename, const char *passphrase);

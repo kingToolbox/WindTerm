@@ -82,7 +82,7 @@ The hardware used for generating the data in these benchmarks was
 
     windows 10 - 2.3 GHz Intel Core i5 and 8GB memory.
 
-**WindTerm 1.2, FileZilla 3.48.1, WinSCP 5.17.2 (Build 10278)** tests are performed on WSL(Ubuntu 18.04.2). 
+**WindTerm1.7, WindTerm 1.2, FileZilla 3.48.1, WinSCP 5.17.2 (Build 10278)** tests are performed on WSL(Ubuntu 18.04.2). 
 
 **All test data is for reference only.**
 
@@ -90,8 +90,9 @@ The hardware used for generating the data in these benchmarks was
 
 | | Download Time | Download Rate | Upload Time | Upload Rate |
 | --- | --- | --- | --- | --- |
-| WindTerm (Use high speed transfer) | **22s** | **234.3 MB/s** | **21s** | **245.5 MB/s** |
-| WindTerm | 37s | 139.3 MB/s | 43s | 119.9 MB/s |
+| WindTerm 1.7 (Use high speed transfer) | **24s** | **211.6 MB/s** | **21s** | **240.3 MB/s** |
+| WindTerm 1.7 | **24s** | **210.3 MB/s** | **21s** | **239.4 MB/s** |
+| WindTerm 1.2 | 37s | 139.3 MB/s | 43s | 119.9 MB/s |
 | FileZilla | 32s | 161.1 MB/s | 30s | 171.8 MB/s |
 | WinSCP | 81s | 63.7 MB/s | 91s | 56.7 MB/s |
 
@@ -99,7 +100,8 @@ The hardware used for generating the data in these benchmarks was
 
 | | Download Time | Download Rate | Upload Time | Upload Rate |
 | --- | --- | --- | --- | --- |
-| WindTerm | **32s** | **3.4 MB/s** | **10s** | **10.7 MB/s** |
+| WindTerm 1.7 | **27s** | **3.8 MB/s** | 13s | 8.1 MB/s |
+| WindTerm 1.2 | 32s | 3.4 MB/s | **10s** | **10.7 MB/s** |
 | FileZilla | 48s | 2.2 MB/s | 35s | 3.1 MB/s |
 | WinSCP | 42s | 2.6 MB/s | 12s | 8.9 MB/s |
 
@@ -110,7 +112,7 @@ The hardware used for generating the data in these benchmarks was
     windows 10 - 2.3 GHz Intel Core i5 and 8GB memory.
     MacOs 10.13 - 2.3 GHz Intel Core i5 and 8GB memory.
 
-**WindTerm, rxvt, putty, xterm** tests are performed on WSL(Ubuntu 18.04.2). 
+**WindTerm 1.7, rxvt, putty, xterm** tests are performed on WSL(Ubuntu 18.04.2). 
 
 **Iterm2, kitty, Alacritty** tests are performed on MacOS shell, 
 
@@ -120,7 +122,7 @@ The hardware used for generating the data in these benchmarks was
 
 The version of terminals:
 
-    windterm      v0.8
+    windterm      v1.7
     rxvt-unicode: v9.2.2
     putty:        v0.71
     xterm:        v3.30
@@ -138,7 +140,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Lines of scrollback | Data Rate(MB/sec) | Memory Usage(MB) |
 | --- | --- | --- | --- |
-| WindTerm | unlimited | **51.6** | **98.5** |
+| WindTerm | unlimited | **43.6** | **107.9** |
 | rxvt | 1,350,000 | 37.8 | 842.2 | 
 | Putty | 1,350,000 | 4.9 | 733.4 |
 | xterm | 1,350,000 | 2.2 | 3328.4 |
@@ -147,7 +149,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Lines of scrollback | Data Rate(MB/sec) | Memory Usage(MB) |
 | --- | --- | --- | --- |
-| WindTerm | unlimited | **50.5** | **98.1** |
+| WindTerm | unlimited | **42.4** | **110.0** |
 | rxvt | 1,350,000 | 40.2 | 842.2 | 
 | Putty | 1,350,000 | 4.8 | 734.9 |
 | xterm | 1,350,000 | 2.3 | 3328.4 |
@@ -166,19 +168,19 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **1.141** | **10.6** |
+| WindTerm | 1.302 | **18.2** |
 | rxvt | 5.082 | 633.3 |
 | putty | 4.161 | 551.1 |
 | xterm | 40.421 | 2500.7 |
 | iterm2 | 2.116 | 146.3 |
 | Kitty | 2.535 | 2376.5 |
-| Alacritty | 1.215 | Not measured, use its default scrollback setting |
+| Alacritty | **1.215** | Not measured, use its default scrollback setting |
 
 2. n = 2,000,000, scrollback = 2,000,000 Lines
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **2.053** | **16.0** |
+| WindTerm | **2.405** | **32.3** |
 | rxvt | 10.896 | 1266.6 |
 | putty | 16.045 | 1102.6 |
 | xterm | 68.154 | 5005.5 |
@@ -190,7 +192,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **4.839** | **38.7** |
+| WindTerm | **5.704** | **69.5** |
 | rxvt | 27.533 | 3166.2 |
 | putty | 45.911 | 2757.1 |
 | xterm | - | Out of memmory |
@@ -202,7 +204,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **9.576** | **78.6** |
+| WindTerm | **11.255** | **132.3** |
 | rxvt | - | Out of memory |
 | putty | - | Out of memory |
 | xterm | - | Out of memmory |
@@ -214,7 +216,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **9.514** | 2.2 |
+| WindTerm | 10.546 | 0.8 |
 | rxvt | 9.687 | **0.1** |
 | putty | 95.382 | 0.4 |
 | xterm | 286.510 | **0.1** |

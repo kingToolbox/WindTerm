@@ -45,3 +45,7 @@ A popup widget.
 ## Widgets/Scrollbar.h/cpp
 
 A scrollbar supports 64-bit ranges.
+
+## Widgets/Splitter.h/cpp
+
+A convenient splitter for showing and hiding widgets.

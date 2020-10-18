@@ -520,7 +520,44 @@ int ssh_options_set(ssh_session session, enum ssh_options_e type,
                 }
             }
             break;
+        case SSH_OPTIONS_PROXY_HOST:
+            v = value;
+            if (v == NULL || v[0] == '\0') {
+                ssh_set_error_invalid(session);
+                return -1;
+            } else {
+                q = strdup(value);
+                if (q == NULL) {
+                    ssh_set_error_oom(session);
+                    return -1;
+                }
+                p = strchr(q, '@');
+
+                SAFE_FREE(session->opts.proxy_host);
+
+                if (p) {
+                    *p = '\0';
+                    session->opts.proxy_host = strdup(p + 1);
+                    if (session->opts.proxy_host == NULL) {
+                        SAFE_FREE(q);
+                        ssh_set_error_oom(session);
+                        return -1;
+                    }
+
+                    SAFE_FREE(session->opts.username);
+                    session->opts.username = strdup(q);
+                    SAFE_FREE(q);
+                    if (session->opts.username == NULL) {
+                        ssh_set_error_oom(session);
+                        return -1;
+                    }
+                } else {
+                    session->opts.proxy_host = q;
+                }
+            }
+            break;
         case SSH_OPTIONS_PORT:
+        case SSH_OPTIONS_PROXY_PORT:
             if (value == NULL) {
                 ssh_set_error_invalid(session);
                 return -1;
@@ -531,10 +568,15 @@ int ssh_options_set(ssh_session session, enum ssh_options_e type,
                     return -1;
                 }
 
-                session->opts.port = *x & 0xffffU;
+                if (type == SSH_OPTIONS_PORT) {
+                    session->opts.port = *x & 0xffffU;
+                } else if (type == SSH_OPTIONS_PROXY_PORT) {
+                    session->opts.proxy_port = *x & 0xffffU;
+                }
             }
             break;
         case SSH_OPTIONS_PORT_STR:
+        case SSH_OPTIONS_PROXY_PORT_STR:
             v = value;
             if (v == NULL || v[0] == '\0') {
                 ssh_set_error_invalid(session);
@@ -555,7 +597,11 @@ int ssh_options_set(ssh_session session, enum ssh_options_e type,
                     return -1;
                 }
 
-                session->opts.port = i & 0xffffU;
+                if (type == SSH_OPTIONS_PORT_STR) {
+                    session->opts.port = i & 0xffffU;
+                } else if (type == SSH_OPTIONS_PROXY_PORT_STR) {
+                    session->opts.proxy_port = i & 0xffffU;
+                }
             }
             break;
         case SSH_OPTIONS_FD:
@@ -1027,6 +1073,16 @@ int ssh_options_set(ssh_session session, enum ssh_options_e type,
                     return -1;
                 }
                 session->opts.rekey_time = (*x) * 1000;
+            }
+            break;
+        case SSH_OPTIONS_EXTERNAL_CALLBACKS:
+            if (value == NULL) {
+                session->socket_external_callbacks.send = NULL;
+                session->socket_external_callbacks.userdata = NULL;
+            } else {
+                ssh_socket_external_callbacks external_callbacks = (ssh_socket_external_callbacks) value;
+                session->socket_external_callbacks.send = external_callbacks->send;
+                session->socket_external_callbacks.userdata = external_callbacks->userdata;
             }
             break;
         default:

@@ -88,6 +88,7 @@ struct ssh_socket_struct {
   ssh_buffer in_buffer;
   ssh_session session;
   ssh_socket_callbacks callbacks;
+  ssh_socket_external_callbacks external_callbacks;
   ssh_poll_handle poll_handle;
 #ifndef _WIN32
   pid_t proxy_pid;
@@ -212,6 +213,11 @@ void ssh_socket_reset(ssh_socket s)
 void ssh_socket_set_callbacks(ssh_socket s, ssh_socket_callbacks callbacks)
 {
     s->callbacks = callbacks;
+}
+
+void ssh_socket_set_external_callbacks(ssh_socket s, ssh_socket_external_callbacks external_callbacks)
+{
+    s->external_callbacks = external_callbacks;
 }
 
 /**
@@ -577,7 +583,11 @@ static ssize_t ssh_socket_unbuffered_write(ssh_socket s,
     }
 
     if (s->fd_is_socket) {
-        w = send(s->fd, buffer, len, flags);
+        if (s->external_callbacks->send != NULL) {
+            w = s->external_callbacks->send(buffer, len, s->external_callbacks->userdata);
+        } else {
+            w = send(s->fd, buffer, len, flags);
+        }
     } else {
         w = write(s->fd, buffer, len);
     }

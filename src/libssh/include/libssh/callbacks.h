@@ -400,6 +400,17 @@ struct ssh_socket_callbacks_struct {
 };
 typedef struct ssh_socket_callbacks_struct *ssh_socket_callbacks;
 
+struct ssh_socket_external_callbacks_struct {
+  /**
+   * User-provided data. User is free to set anything he wants here
+   */
+  void *userdata;
+  /** This function will be called each time data need send.
+   */
+  ssh_callback_data send;
+};
+typedef struct ssh_socket_external_callbacks_struct *ssh_socket_external_callbacks;
+
 #define SSH_SOCKET_FLOW_WRITEWILLBLOCK 1
 #define SSH_SOCKET_FLOW_WRITEWONTBLOCK 2
 

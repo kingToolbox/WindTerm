@@ -200,6 +200,7 @@ struct ssh_session_struct {
     struct ssh_packet_callbacks_struct default_packet_callbacks;
     struct ssh_list *packet_callbacks;
     struct ssh_socket_callbacks_struct socket_callbacks;
+    struct ssh_socket_external_callbacks_struct socket_external_callbacks;
     ssh_poll_ctx default_poll_ctx;
     /* options */
 #ifdef WITH_PCAP
@@ -209,6 +210,7 @@ struct ssh_session_struct {
         struct ssh_list *identity;
         char *username;
         char *host;
+		char *proxy_host;
         char *bindaddr; /* bind the client to an ip addr */
         char *sshdir;
         char *knownhosts;
@@ -220,6 +222,7 @@ struct ssh_session_struct {
         unsigned long timeout; /* seconds */
         unsigned long timeout_usec;
         unsigned int port;
+		unsigned int proxy_port;
         socket_t fd;
         int StrictHostKeyChecking;
         char compressionlevel;

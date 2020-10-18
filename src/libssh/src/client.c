@@ -571,6 +571,8 @@ int ssh_connect(ssh_session session)
     session->socket_callbacks.exception = ssh_socket_exception_callback;
     session->socket_callbacks.userdata = session;
 
+    ssh_socket_set_external_callbacks(session->socket, &session->socket_external_callbacks);
+
     if (session->opts.fd != SSH_INVALID_SOCKET) {
         session->session_state = SSH_SESSION_STATE_SOCKET_CONNECTED;
         ssh_socket_set_fd(session->socket, session->opts.fd);
@@ -581,10 +583,17 @@ int ssh_connect(ssh_session session)
                 session->opts.ProxyCommand);
 #endif
     } else {
-        ret = ssh_socket_connect(session->socket,
-                                 session->opts.host,
-                                 session->opts.port > 0 ? session->opts.port : 22,
-                                 session->opts.bindaddr);
+		if (session->opts.proxy_host != NULL) {
+          ret = ssh_socket_connect(session->socket,
+                                   session->opts.proxy_host,
+                                   session->opts.proxy_port > 0 ? session->opts.proxy_port : 22,
+                                   session->opts.bindaddr);
+		} else {
+          ret = ssh_socket_connect(session->socket,
+                                   session->opts.host,
+                                   session->opts.port > 0 ? session->opts.port : 22,
+                                   session->opts.bindaddr);
+		}
     }
     if (ret == SSH_ERROR) {
         return SSH_ERROR;

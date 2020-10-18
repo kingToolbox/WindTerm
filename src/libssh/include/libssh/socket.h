@@ -60,6 +60,7 @@ int ssh_socket_set_nonblocking(socket_t fd);
 int ssh_socket_set_blocking(socket_t fd);
 
 void ssh_socket_set_callbacks(ssh_socket s, ssh_socket_callbacks callbacks);
+void ssh_socket_set_external_callbacks(ssh_socket s, ssh_socket_external_callbacks external_callbacks);
 int ssh_socket_pollcallback(struct ssh_poll_handle_struct *p, socket_t fd, int revents, void *v_s);
 struct ssh_poll_handle_struct * ssh_socket_get_poll_handle(ssh_socket s);
 

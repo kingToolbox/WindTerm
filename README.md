@@ -45,7 +45,7 @@ DigeWhite Theme:
 
 # Features
 
-## SSH, Telnet, Tcp, Serial
+### SSH, Telnet, Tcp, Serial
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
 - Supports SSH auto execution when session authenticated.
 - Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
@@ -54,7 +54,7 @@ DigeWhite Theme:
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
 - Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on. [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
 - Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.
-## GUI
+### GUI
 - Session dialog and session tree.
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
@@ -69,18 +69,18 @@ DigeWhite Theme:
 - Supports changing the UI theme. [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
 - Supports setting the tab color. [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
 - Supports closing tabs to the right.
-## Term
+### Term
 - Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Supports unicode, true-color, mouse protocol, etc.
 - Supports auto wrap mode. [Intro Video](https://kingtoolbox.github.io/2020/01/22/auto-wrap/)
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.
-## Session
+### Session
 - **Supports HTTP and SOCKS5 proxy.** [Intro Video](https://kingtoolbox.github.io/2020/10/17/proxy/)
 - Supports manual and automated session logging. [Intro Video](https://kingtoolbox.github.io/tags/logging/)
 - Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
 - Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
-## Performance
+### Performance
 - High performance, low memory, low latency. [Intro Video](https://kingtoolbox.github.io/2020/01/23/windterm-putty-performance/)
 
 # Sftp Performance

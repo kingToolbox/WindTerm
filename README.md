@@ -31,7 +31,7 @@ Any issues and feature requests are welcome. Please click [issues](https://githu
 
 # Screenshots
 
-Main Window:
+Main Window (zsh):
 
 ![MainWindow](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WindTerm.png)
 
@@ -43,37 +43,44 @@ DigeWhite Theme:
 
 ![DigeWhite Theme](https://github.com/kingToolbox/WindTerm/blob/master/images/screenshots/WindTerm_DigeWhite_Theme.png)
 
-
 # Features
-- **Supports changing the UI theme.** [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
-- **Supports setting the tab color.** [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
-- **Supports closing tabs to the right.**
-- **Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters.** [Intro Video](https://kingtoolbox.github.io/2020/06/28/pair/)
-- **Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on.** [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
-- **Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.**
-- **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
+
+## SSH, Telnet, Tcp, Serial
+- SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
+- Supports SSH auto execution when session authenticated.
+- Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
+- Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
+- Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
+- Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
+- Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on. [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
+- Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.
+## GUI
+- Session dialog and session tree.
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
 - **Quick Bar.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/quickbar/)
 - **Paste Dialog.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/paste_dialog/)
-- SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
-- Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
-- Supports color schemes like vscode. [Intro Video](https://kingtoolbox.github.io/2020/01/23/highlight/)
+- **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
 - Supports time stamp, folding, outlining, split views.
+- **Supports powerline in Linux and PowerShell, e.g. Oh-My-Zsh, Oh-My-Posh.** [Intro Image](https://github.com/kingToolbox/WindTerm#screenshots)
+- Supports color schemes like vscode. [Intro Video](https://kingtoolbox.github.io/2020/01/23/highlight/)
+- Supports searching and previewing. [Intro Video](https://kingtoolbox.github.io/2020/01/22/search-and-mark/)
+- Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters. [Intro Video](https://kingtoolbox.github.io/2020/06/28/pair/)
+- Supports changing the UI theme. [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
+- Supports setting the tab color. [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
+- Supports closing tabs to the right.
+## Term
+- Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Supports unicode, true-color, mouse protocol, etc.
 - Supports auto wrap mode. [Intro Video](https://kingtoolbox.github.io/2020/01/22/auto-wrap/)
-- Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
-- Supports session logging. [Intro Video](https://kingtoolbox.github.io/2020/07/21/logging/)
-- Supports SSH auto execution when session authenticated.
-- Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
-- Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
-- Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
-- Supports searching and previewing. [Intro Video](https://kingtoolbox.github.io/2020/01/22/search-and-mark/)
-- Session dialog and session tree.
-- Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
-- Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.
+## Session
+- **Supports HTTP and SOCKS5 proxy.** [Intro Video](https://kingtoolbox.github.io/2020/10/17/proxy/)
+- Supports manual and automated session logging. [Intro Video](https://kingtoolbox.github.io/tags/logging/)
+- Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
+- Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
+## Performance
 - High performance, low memory, low latency. [Intro Video](https://kingtoolbox.github.io/2020/01/23/windterm-putty-performance/)
 
 # Sftp Performance
@@ -226,12 +233,12 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 # Latency
 
-Considering the network influence on the latency, the following data is from [DIGEdit](https://github.com/kingToolbox/digedit).
+Considering the network influence on the latency, the following data is from [WindEdit](https://github.com/kingToolbox/digedit).
 DIGEdit is the text component of WindTerm.
 
 |   | Min | Max | Avg | SD |
 | --- | --- | --- | --- | --- |
-|DIGEdit| 1.9 | 7.6 | 2.9 | 0.8 |
+|WindEdit| 1.9 | 7.6 | 2.9 | 0.8 |
 |Windows Notepad | 0.9 | 16.5 | 7.8 | 1.8 |
 |GVim | 0.9 | 10.4 | 2.8 | 1.2 |
 
@@ -284,9 +291,11 @@ DIGEdit is the text component of WindTerm.
 
   2-4 weeks.
 
-**Next release (Early October，for reference only):**
+**Next release (Early November，for reference only):**
 - **Linux Version**
 - Linux bash
+- Windows Opacity
+- Xmodem, Ymodem, Zmodem(sz, rz)
 - External tools
 
 **Todo list:**
@@ -300,11 +309,9 @@ DIGEdit is the text component of WindTerm.
   - MacOs bash
 - Session:
   - Auto Complete
-  - Proxy
   - Chat mode
   - Log viewer
 - File transfer:
   - ftp, ftps
-  - Xmodem, Ymodem, Zmodem(sz, rz)
 - Script, macro and plugin stystem
 - More ...

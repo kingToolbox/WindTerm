@@ -1,0 +1,431 @@
+/**
+@page libssh_tutor_sftp Chapter 5: The SFTP subsystem
+@section sftp_subsystem The SFTP subsystem
+
+SFTP stands for "Secure File Transfer Protocol". It enables you to safely
+transfer files between the local and the remote computer. It reminds a lot
+of the old FTP protocol.
+
+SFTP is a rich protocol. It lets you do over the network almost everything
+that you can do with local files:
+  - send files
+  - modify only a portion of a file
+  - receive files
+  - receive only a portion of a file
+  - get file owner and group
+  - get file permissions
+  - set file owner and group
+  - set file permissions
+  - remove files
+  - rename files
+  - create a directory
+  - remove a directory
+  - retrieve the list of files in a directory
+  - get the target of a symbolic link
+  - create symbolic links
+  - get information about mounted filesystems.
+
+The current implemented version of the SFTP protocol is version 3. All functions
+aren't implemented yet, but the most important are.
+
+
+@subsection sftp_session Opening and closing a SFTP session
+
+Unlike with remote shells and remote commands, when you use the SFTP subsystem,
+you don't handle directly the SSH channels. Instead, you open a "SFTP session".
+
+The function sftp_new() creates a new SFTP session. The function sftp_init()
+initializes it. The function sftp_free() deletes it.
+
+As you see, all the SFTP-related functions start with the "sftp_" prefix
+instead of the usual "ssh_" prefix.
+
+The example below shows how to use these functions:
+
+@code
+#include <libssh/sftp.h>
+
+int sftp_helloworld(ssh_session session)
+{
+  sftp_session sftp;
+  int rc;
+
+  sftp = sftp_new(session);
+  if (sftp == NULL)
+  {
+    fprintf(stderr, "Error allocating SFTP session: %s\n",
+            ssh_get_error(session));
+    return SSH_ERROR;
+  }
+
+  rc = sftp_init(sftp);
+  if (rc != SSH_OK)
+  {
+    fprintf(stderr, "Error initializing SFTP session: code %d.\n",
+            sftp_get_error(sftp));
+    sftp_free(sftp);
+    return rc;
+  }
+
+  ...
+
+  sftp_free(sftp);
+  return SSH_OK;
+}
+@endcode
+
+
+@subsection sftp_errors Analyzing SFTP errors
+
+In case of a problem, the function sftp_get_error() returns a SFTP-specific
+error number, in addition to the regular SSH error number returned by
+ssh_get_error_number().
+
+Possible errors are:
+  - SSH_FX_OK: no error
+  - SSH_FX_EOF: end-of-file encountered
+  - SSH_FX_NO_SUCH_FILE: file does not exist
+  - SSH_FX_PERMISSION_DENIED: permission denied
+  - SSH_FX_FAILURE: generic failure
+  - SSH_FX_BAD_MESSAGE: garbage received from server
+  - SSH_FX_NO_CONNECTION: no connection has been set up
+  - SSH_FX_CONNECTION_LOST: there was a connection, but we lost it
+  - SSH_FX_OP_UNSUPPORTED: operation not supported by libssh yet
+  - SSH_FX_INVALID_HANDLE: invalid file handle
+  - SSH_FX_NO_SUCH_PATH: no such file or directory path exists
+  - SSH_FX_FILE_ALREADY_EXISTS: an attempt to create an already existing file or directory has been made
+  - SSH_FX_WRITE_PROTECT: write-protected filesystem
+  - SSH_FX_NO_MEDIA: no media was in remote drive
+
+
+@subsection sftp_mkdir Creating a directory
+
+The function sftp_mkdir() takes the "SFTP session" we just created as
+its first argument. It also needs the name of the file to create, and the
+desired permissions. The permissions are the same as for the usual mkdir()
+function. To get a comprehensive list of the available permissions, use the
+"man 2 stat" command. The desired permissions are combined with the remote
+user's mask to determine the effective permissions.
+
+The code below creates a directory named "helloworld" in the current directory that
+can be read and written only by its owner:
+
+@code
+#include <libssh/sftp.h>
+#include <sys/stat.h>
+
+int sftp_helloworld(ssh_session session, sftp_session sftp)
+{
+  int rc;
+
+  rc = sftp_mkdir(sftp, "helloworld", S_IRWXU);
+  if (rc != SSH_OK)
+  {
+    if (sftp_get_error(sftp) != SSH_FX_FILE_ALREADY_EXISTS)
+    {
+      fprintf(stderr, "Can't create directory: %s\n",
+              ssh_get_error(session));
+        return rc;
+    }
+  }
+
+  ...
+
+  return SSH_OK;
+}
+@endcode
+
+Unlike its equivalent in the SCP subsystem, this function does NOT change the
+current directory to the newly created subdirectory.
+
+
+@subsection sftp_write Copying a file to the remote computer
+
+You handle the contents of a remote file just like you would do with a
+local file: you open the file in a given mode, move the file pointer in it,
+read or write data, and close the file.
+
+The sftp_open() function is very similar to the regular open() function,
+excepted that it returns a file handle of type sftp_file. This file handle
+is then used by the other file manipulation functions and remains valid
+until you close the remote file with sftp_close().
+
+The example below creates a new file named "helloworld.txt" in the
+newly created "helloworld" directory. If the file already exists, it will
+be truncated. It then writes the famous "Hello, World!" sentence to the
+file, followed by a new line character. Finally, the file is closed:
+
+@code
+#include <libssh/sftp.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int sftp_helloworld(ssh_session session, sftp_session sftp)
+{
+  int access_type = O_WRONLY | O_CREAT | O_TRUNC;
+  sftp_file file;
+  const char *helloworld = "Hello, World!\n";
+  int length = strlen(helloworld);
+  int rc, nwritten;
+
+  ...
+
+  file = sftp_open(sftp, "helloworld/helloworld.txt",
+                   access_type, S_IRWXU);
+  if (file == NULL)
+  {
+    fprintf(stderr, "Can't open file for writing: %s\n",
+            ssh_get_error(session));
+    return SSH_ERROR;
+  }
+
+  nwritten = sftp_write(file, helloworld, length);
+  if (nwritten != length)
+  {
+    fprintf(stderr, "Can't write data to file: %s\n",
+            ssh_get_error(session));
+    sftp_close(file);
+    return SSH_ERROR;
+  }
+
+  rc = sftp_close(file);
+  if (rc != SSH_OK)
+  {
+    fprintf(stderr, "Can't close the written file: %s\n",
+            ssh_get_error(session));
+    return rc;
+  }
+
+  return SSH_OK;
+}
+@endcode
+
+
+@subsection sftp_read Reading a file from the remote computer
+
+The nice thing with reading a file over the network through SFTP is that it
+can be done both in a synchronous way or an asynchronous way. If you read the file
+asynchronously, your program can do something else while it waits for the
+results to come.
+
+Synchronous read is done with sftp_read().
+
+Files are normally transferred in chunks. A good chunk size is 16 KB. The following
+example transfers the remote file "/etc/profile" in 16 KB chunks. For each chunk we
+request, sftp_read blocks till the data has been received:
+
+@code
+// Good chunk size
+#define MAX_XFER_BUF_SIZE 16384
+
+int sftp_read_sync(ssh_session session, sftp_session sftp)
+{
+  int access_type;
+  sftp_file file;
+  char buffer[MAX_XFER_BUF_SIZE];
+  int nbytes, nwritten, rc;
+  int fd;
+
+  access_type = O_RDONLY;
+  file = sftp_open(sftp, "/etc/profile",
+                   access_type, 0);
+  if (file == NULL) {
+      fprintf(stderr, "Can't open file for reading: %s\n",
+              ssh_get_error(session));
+      return SSH_ERROR;
+  }
+
+  fd = open("/path/to/profile", O_CREAT);
+  if (fd < 0) {
+      fprintf(stderr, "Can't open file for writing: %s\n",
+              strerror(errno));
+      return SSH_ERROR;
+  }
+
+  for (;;) {
+      nbytes = sftp_read(file, buffer, sizeof(buffer));
+      if (nbytes == 0) {
+          break; // EOF
+      } else if (nbytes < 0) {
+          fprintf(stderr, "Error while reading file: %s\n",
+                  ssh_get_error(session));
+          sftp_close(file);
+          return SSH_ERROR;
+      }
+
+      nwritten = write(fd, buffer, nbytes);
+      if (nwritten != nbytes) {
+          fprintf(stderr, "Error writing: %s\n",
+                  strerror(errno));
+          sftp_close(file);
+          return SSH_ERROR;
+      }
+  }
+
+  rc = sftp_close(file);
+  if (rc != SSH_OK) {
+      fprintf(stderr, "Can't close the read file: %s\n",
+              ssh_get_error(session));
+      return rc;
+  }
+
+  return SSH_OK;
+}
+@endcode
+
+Asynchronous read is done in two steps, first sftp_async_read_begin(), which
+returns a "request handle", and then sftp_async_read(), which uses that request handle.
+If the file has been opened in nonblocking mode, then sftp_async_read()
+might return SSH_AGAIN, which means that the request hasn't completed yet
+and that the function should be called again later on. Otherwise,
+sftp_async_read() waits for the data to come. To open a file in nonblocking mode,
+call sftp_file_set_nonblocking() right after you opened it. Default is blocking mode.
+
+The example below reads a very big file in asynchronous, nonblocking, mode. Each
+time the data is not ready yet, a counter is incremented.
+
+@code
+// Good chunk size
+#define MAX_XFER_BUF_SIZE 16384
+
+int sftp_read_async(ssh_session session, sftp_session sftp)
+{
+  int access_type;
+  sftp_file file;
+  char buffer[MAX_XFER_BUF_SIZE];
+  int async_request;
+  int nbytes;
+  long counter;
+  int rc;
+
+  access_type = O_RDONLY;
+  file = sftp_open(sftp, "some_very_big_file",
+                   access_type, 0);
+  if (file == NULL) {
+    fprintf(stderr, "Can't open file for reading: %s\n",
+                     ssh_get_error(session));
+    return SSH_ERROR;
+  }
+  sftp_file_set_nonblocking(file);
+
+  async_request = sftp_async_read_begin(file, sizeof(buffer));
+  counter = 0L;
+  usleep(10000);
+  if (async_request >= 0) {
+    nbytes = sftp_async_read(file, buffer, sizeof(buffer),
+                             async_request);
+  } else {
+      nbytes = -1;
+  }
+
+  while (nbytes > 0 || nbytes == SSH_AGAIN) {
+    if (nbytes > 0) {
+      write(1, buffer, nbytes);
+      async_request = sftp_async_read_begin(file, sizeof(buffer));
+    } else {
+        counter++;
+    }
+    usleep(10000);
+
+    if (async_request >= 0) {
+      nbytes = sftp_async_read(file, buffer, sizeof(buffer),
+                               async_request);
+    } else {
+        nbytes = -1;
+    }
+  }
+
+  if (nbytes < 0) {
+    fprintf(stderr, "Error while reading file: %s\n",
+            ssh_get_error(session));
+    sftp_close(file);
+    return SSH_ERROR;
+  }
+
+  printf("The counter has reached value: %ld\n", counter);
+
+  rc = sftp_close(file);
+  if (rc != SSH_OK) {
+    fprintf(stderr, "Can't close the read file: %s\n",
+            ssh_get_error(session));
+    return rc;
+  }
+
+  return SSH_OK;
+}
+@endcode
+
+@subsection sftp_ls Listing the contents of a directory
+
+The functions sftp_opendir(), sftp_readdir(), sftp_dir_eof(),
+and sftp_closedir() enable to list the contents of a directory.
+They use a new handle_type, "sftp_dir", which gives access to the
+directory being read.
+
+In addition, sftp_readdir() returns a "sftp_attributes" which is a pointer
+to a structure with information about a directory entry:
+  - name: the name of the file or directory
+  - size: its size in bytes
+  - etc.
+
+sftp_readdir() might return NULL under two conditions:
+  - when the end of the directory has been met
+  - when an error occurred
+
+To tell the difference, call sftp_dir_eof().
+
+The attributes must be freed with sftp_attributes_free() when no longer
+needed.
+
+The following example reads the contents of some remote directory:
+
+@code
+int sftp_list_dir(ssh_session session, sftp_session sftp)
+{
+  sftp_dir dir;
+  sftp_attributes attributes;
+  int rc;
+
+  dir = sftp_opendir(sftp, "/var/log");
+  if (!dir)
+  {
+    fprintf(stderr, "Directory not opened: %s\n",
+            ssh_get_error(session));
+    return SSH_ERROR;
+  }
+
+  printf("Name                       Size Perms    Owner\tGroup\n");
+
+  while ((attributes = sftp_readdir(sftp, dir)) != NULL)
+  {
+    printf("%-20s %10llu %.8o %s(%d)\t%s(%d)\n",
+     attributes->name,
+     (long long unsigned int) attributes->size,
+     attributes->permissions,
+     attributes->owner,
+     attributes->uid,
+     attributes->group,
+     attributes->gid);
+
+     sftp_attributes_free(attributes);
+  }
+
+  if (!sftp_dir_eof(dir))
+  {
+    fprintf(stderr, "Can't list directory: %s\n",
+            ssh_get_error(session));
+    sftp_closedir(dir);
+    return SSH_ERROR;
+  }
+
+  rc = sftp_closedir(dir);
+  if (rc != SSH_OK)
+  {
+    fprintf(stderr, "Can't close directory: %s\n",
+            ssh_get_error(session));
+    return rc;
+  }
+}
+@endcode
+
+*/

@@ -1,0 +1,230 @@
+/**
+@page libssh_tutor_forwarding Chapter 7: Forwarding connections (tunnel)
+@section forwarding_connections Forwarding connections
+
+Port forwarding comes in SSH protocol in two different flavours:
+direct or reverse port forwarding. Direct port forwarding is also
+named local port forwarding, and reverse port forwarding is also called
+remote port forwarding. SSH also allows X11 tunnels.
+
+
+
+@subsection forwarding_direct Direct port forwarding
+
+Direct port forwarding is from client to server. The client opens a tunnel,
+and forwards whatever data to the server. Then, the server connects to an
+end point. The end point can reside on another machine or on the SSH
+server itself.
+
+Example of use of direct port forwarding:
+@verbatim
+Mail client application   Google Mail
+         |                    ^
+     5555 (arbitrary)         |
+         |                143 (IMAP2)
+         V                    |
+    SSH client   =====>   SSH server
+
+Legend:
+--P-->: port connections through port P
+=====>: SSH tunnel
+@endverbatim
+A mail client connects to port 5555 of a client. An encrypted tunnel is
+established to the server. The server connects to port 143 of Google Mail (the
+end point). Now the local mail client can retrieve mail.
+
+
+@subsection forwarding_reverse Reverse port forwarding
+
+The reverse forwarding is slightly different. It goes from server to client,
+even though the client has the initiative of establishing the tunnel.
+Once the tunnel is established, the server will listen on a port. Whenever
+a connection to this port is made, the server forwards the data to the client.
+
+Example of use of reverse port forwarding:
+@verbatim
+ Local mail server    Mail client application
+         ^                     |
+         |               5555 (arbitrary)
+     143 (IMAP2)               |
+         |                     V
+    SSH client   <=====   SSH server
+
+Legend:
+--P-->: port connections through port P
+=====>: SSH tunnel
+@endverbatim
+In this example, the SSH client establishes the tunnel,
+but it is used to forward the connections established at
+the server to the client.
+
+
+@subsection forwarding_x11 X11 tunnels
+
+X11 tunnels allow a remote application to display locally.
+
+Example of use of X11 tunnels:
+@verbatim
+   Local display     Graphical application
+   (X11 server)          (X11 client)
+         ^                     |
+         |                     V
+    SSH client   <=====   SSH server
+
+Legend:
+----->: X11 connection through X11 display number
+=====>: SSH tunnel
+@endverbatim
+The SSH tunnel is established by the client.
+
+How to establish X11 tunnels with libssh has already been described in
+this tutorial.
+
+@see x11
+
+
+@subsection libssh_direct Doing direct port forwarding with libssh
+
+To do direct port forwarding, call function ssh_channel_open_forward():
+  - you need a separate channel for the tunnel as first parameter;
+  - second and third parameters are the remote endpoint;
+  - fourth and fifth parameters are sent to the remote server
+    so that they can be logged on that server.
+
+If you don't plan to forward the data you will receive to any local port,
+just put fake values like "localhost" and 5555 as your local host and port.
+
+The example below shows how to open a direct channel that would be
+used to retrieve google's home page from the remote SSH server.
+
+@code
+int direct_forwarding(ssh_session session)
+{
+  ssh_channel forwarding_channel;
+  int rc;
+  char *http_get = "GET / HTTP/1.1\nHost: www.google.com\n\n";
+  int nbytes, nwritten;
+
+  forwarding_channel = ssh_channel_new(session);
+  if (forwarding_channel == NULL) {
+      return rc;
+  }
+
+  rc = ssh_channel_open_forward(forwarding_channel,
+                                "www.google.com", 80,
+                                "localhost", 5555);
+  if (rc != SSH_OK)
+  {
+    ssh_channel_free(forwarding_channel);
+    return rc;
+  }
+
+  nbytes = strlen(http_get);
+  nwritten = ssh_channel_write(forwarding_channel,
+                           http_get,
+                           nbytes);
+  if (nbytes != nwritten)
+  {
+    ssh_channel_free(forwarding_channel);
+    return SSH_ERROR;
+  }
+
+  ...
+
+  ssh_channel_free(forwarding_channel);
+  return SSH_OK;
+}
+@endcode
+
+The data sent by Google can be retrieved for example with ssh_select()
+and ssh_channel_read(). Goggle's home page can then be displayed on the
+local SSH client, saved into a local file, made available on a local port,
+or whatever use you have for it.
+
+
+@subsection libssh_reverse Doing reverse port forwarding with libssh
+
+To do reverse port forwarding, call ssh_channel_listen_forward(),
+then ssh_channel_accept_forward().
+
+When you call ssh_channel_listen_forward(), you can let the remote server
+chose the non-privileged port it should listen to. Otherwise, you can chose
+your own privileged or non-privileged port. Beware that you should have
+administrative privileges on the remote server to open a privileged port
+(port number < 1024).
+
+Below is an example of a very rough web server waiting for connections on port
+8080 of remote SSH server. The incoming connections are passed to the
+local libssh application, which handles them:
+
+@code
+int web_server(ssh_session session)
+{
+  int rc;
+  ssh_channel channel;
+  char buffer[256];
+  int nbytes, nwritten;
+  int port = 0;
+  char *helloworld = ""
+"HTTP/1.1 200 OK\n"
+"Content-Type: text/html\n"
+"Content-Length: 113\n"
+"\n"
+"<html>\n"
+"  <head>\n"
+"    <title>Hello, World!</title>\n"
+"  </head>\n"
+"  <body>\n"
+"    <h1>Hello, World!</h1>\n"
+"  </body>\n"
+"</html>\n";
+
+  rc = ssh_channel_listen_forward(session, NULL, 8080, NULL);
+  if (rc != SSH_OK)
+  {
+    fprintf(stderr, "Error opening remote port: %s\n",
+            ssh_get_error(session));
+    return rc;
+  }
+
+  channel = ssh_channel_accept_forward(session, 60000, &port);
+  if (channel == NULL)
+  {
+    fprintf(stderr, "Error waiting for incoming connection: %s\n",
+            ssh_get_error(session));
+    return SSH_ERROR;
+  }
+
+  while (1)
+  {
+    nbytes = ssh_channel_read(channel, buffer, sizeof(buffer), 0);
+    if (nbytes < 0)
+    {
+      fprintf(stderr, "Error reading incoming data: %s\n",
+              ssh_get_error(session));
+      ssh_channel_send_eof(channel);
+      ssh_channel_free(channel);
+      return SSH_ERROR;
+    }
+    if (strncmp(buffer, "GET /", 5)) continue;
+
+    nbytes = strlen(helloworld);
+    nwritten = ssh_channel_write(channel, helloworld, nbytes);
+    if (nwritten != nbytes)
+    {
+      fprintf(stderr, "Error sending answer: %s\n",
+              ssh_get_error(session));
+      ssh_channel_send_eof(channel);
+      ssh_channel_free(channel);
+      return SSH_ERROR;
+    }
+    printf("Sent answer\n");
+  }
+
+  ssh_channel_send_eof(channel);
+  ssh_channel_free(channel);
+  return SSH_OK;
+}
+@endcode
+
+*/

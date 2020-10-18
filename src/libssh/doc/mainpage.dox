@@ -1,0 +1,252 @@
+/**
+
+@mainpage
+
+This is the online reference for developing with the libssh library. It
+documents the libssh C API and the C++ wrapper.
+
+@section main-linking Linking
+
+We created a small howto how to link libssh against your application, read
+@subpage libssh_linking.
+
+@section main-tutorial Tutorial
+
+You should start by reading @subpage libssh_tutorial, then reading the documentation of
+the interesting functions as you go.
+
+@section main-features Features
+
+The libssh library provides:
+
+ - <strong>Key Exchange Methods</strong>: <i>curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521</i>, diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+ - <strong>Public Key Algorithms</strong>: ssh-ed25519, ecdsa-sha2-nistp256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp521, ssh-rsa, rsa-sha2-512, rsa-sha2-256,ssh-dss
+ - <strong>Ciphers</strong>: <i>aes256-ctr, aes192-ctr, aes128-ctr</i>, aes256-cbc (rijndael-cbc@lysator.liu.se), aes192-cbc, aes128-cbc, 3des-cbc, blowfish-cbc, none
+ - <strong>Compression Schemes</strong>: zlib, <i>zlib@openssh.com</i>, none
+ - <strong>MAC hashes</strong>: hmac-sha1, hmac-sha2-256, hmac-sha2-512, hmac-md5, none
+ - <strong>Authentication</strong>: none, password, public-key, keyboard-interactive, <i>gssapi-with-mic</i>
+ - <strong>Channels</strong>: shell, exec (incl. SCP wrapper), direct-tcpip, subsystem, <i>auth-agent-req@openssh.com</i>
+ - <strong>Global Requests</strong>: tcpip-forward, forwarded-tcpip
+ - <strong>Channel Requests</strong>: x11, pty, <i>exit-status, signal, exit-signal, keepalive@openssh.com, auth-agent-req@openssh.com</i>
+ - <strong>Subsystems</strong>: sftp(version 3), <i>OpenSSH Extensions</i>
+ - <strong>SFTP</strong>: <i>statvfs@openssh.com, fstatvfs@openssh.com</i>
+ - <strong>Thread-safe</strong>: Just don't share sessions
+ - <strong>Non-blocking</strong>: it can be used both blocking and non-blocking
+ - <strong>Your sockets</strong>: the app hands over the socket, or uses libssh sockets
+ - <b>OpenSSL</b> or <b>gcrypt</b>: builds with either
+
+@section main-additional-features Additional Features
+
+ - Client <b>and</b> server support
+ - SSHv2 and SSHv1 protocol support
+ - Supports <a href="https://test.libssh.org/" target="_blank">Linux, UNIX, BSD, Solaris, OS/2 and Windows</a>
+ - Automated test cases with nightly <a href="https://test.libssh.org/" target="_blank">tests</a>
+ - Event model based on poll(2), or a poll(2)-emulation.
+
+@section main-copyright Copyright Policy
+
+libssh is a project with distributed copyright ownership, which means we prefer
+the copyright on parts of libssh to be held by individuals rather than
+corporations if possible. There are historical legal reasons for this, but one
+of the best ways to explain it is that it’s much easier to work with
+individuals who have ownership than corporate legal departments if we ever need
+to make reasonable compromises with people using and working with libssh.
+
+We track the ownership of every part of libssh via git, our source code control
+system, so we know the provenance of every piece of code that is committed to
+libssh.
+
+So if possible, if you’re doing libssh changes on behalf of a company who
+normally owns all the work you do please get them to assign personal copyright
+ownership of your changes to you as an individual, that makes things very easy
+for us to work with and avoids bringing corporate legal departments into the
+picture.
+
+If you can’t do this we can still accept patches from you owned by your
+employer under a standard employment contract with corporate copyright
+ownership. It just requires a simple set-up process first.
+
+We use a process very similar to the way things are done in the Linux Kernel
+community, so it should be very easy to get a sign off from your corporate
+legal department. The only changes we’ve made are to accommodate the license we
+use, which is LGPLv2 (or later) whereas the Linux kernel uses GPLv2.
+
+The process is called signing.
+
+How to sign your work
+----------------------
+
+Once you have permission to contribute to libssh from your employer, simply
+email a copy of the following text from your corporate email address to:
+
+contributing@libssh.org
+
+@verbatim
+libssh Developer's Certificate of Origin. Version 1.0
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the appropriate
+    version of the GNU General Public License; or
+
+(b) The contribution is based upon previous work that, to the best of
+    my knowledge, is covered under an appropriate open source license
+    and I have the right under that license to submit that work with
+    modifications, whether created in whole or in part by me, under
+    the GNU General Public License, in the appropriate version; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a) or (b) and I have not modified it.
+
+(d) I understand and agree that this project and the contribution are
+    public and that a record of the contribution (including all
+    metadata and personal information I submit with it, including my
+    sign-off) is maintained indefinitely and may be redistributed
+    consistent with the libssh Team's policies and the requirements of
+    the GNU GPL where they are relevant.
+
+(e) I am granting this work to this project under the terms of the
+    GNU Lesser General Public License as published by the
+    Free Software Foundation; either version 2.1 of
+    the License, or (at the option of the project) any later version.
+
+https://www.gnu.org/licenses/lgpl-2.1.html
+@endverbatim
+
+We will maintain a copy of that email as a record that you have the rights to
+contribute code to libssh under the required licenses whilst working for the
+company where the email came from.
+
+Then when sending in a patch via the normal mechanisms described above, add a
+line that states:
+
+@verbatim
+   Signed-off-by: Random J Developer <random@developer.example.org>
+@endverbatim
+
+using your real name and the email address you sent the original email you used
+to send the libssh Developer’s Certificate of Origin to us (sorry, no
+pseudonyms or anonymous contributions.)
+
+That’s it! Such code can then quite happily contain changes that have copyright
+messages such as:
+
+@verbatim
+   (c) Example Corporation.
+@endverbatim
+
+and can be merged into the libssh codebase in the same way as patches from any
+other individual. You don’t need to send in a copy of the libssh Developer’s
+Certificate of Origin for each patch, or inside each patch. Just the sign-off
+message is all that is required once we’ve received the initial email.
+
+Have fun and happy libssh hacking!
+
+The libssh Team
+
+@section main-rfc Internet standard
+
+@subsection main-rfc-secsh Secure Shell (SSH)
+
+The following RFC documents described SSH-2 protcol as an Internet standard.
+
+ - <a href="https://tools.ietf.org/html/rfc4250" target="_blank">RFC 4250</a>,
+    The Secure Shell (SSH) Protocol Assigned Numbers
+ - <a href="https://tools.ietf.org/html/rfc4251" target="_blank">RFC 4251</a>,
+    The Secure Shell (SSH) Protocol Architecture
+ - <a href="https://tools.ietf.org/html/rfc4252" target="_blank">RFC 4252</a>,
+    The Secure Shell (SSH) Authentication Protocol
+ - <a href="https://tools.ietf.org/html/rfc4253" target="_blank">RFC 4253</a>,
+    The Secure Shell (SSH) Transport Layer Protocol
+ - <a href="https://tools.ietf.org/html/rfc4254" target="_blank">RFC 4254</a>,
+    The Secure Shell (SSH) Connection Protocol
+ - <a href="https://tools.ietf.org/html/rfc4255" target="_blank">RFC 4255</a>,
+    Using DNS to Securely Publish Secure Shell (SSH) Key Fingerprints
+    (not implemented in libssh)
+ - <a href="https://tools.ietf.org/html/rfc4256" target="_blank">RFC 4256</a>,
+    Generic Message Exchange Authentication for the Secure Shell Protocol (SSH)
+ - <a href="https://tools.ietf.org/html/rfc4335" target="_blank">RFC 4335</a>,
+    The Secure Shell (SSH) Session Channel Break Extension
+ - <a href="https://tools.ietf.org/html/rfc4344" target="_blank">RFC 4344</a>,
+    The Secure Shell (SSH) Transport Layer Encryption Modes
+ - <a href="https://tools.ietf.org/html/rfc4345" target="_blank">RFC 4345</a>,
+    Improved Arcfour Modes for the Secure Shell (SSH) Transport Layer Protocol
+
+It was later modified and expanded by the following RFCs.
+
+ - <a href="https://tools.ietf.org/html/rfc4419" target="_blank">RFC 4419</a>,
+    Diffie-Hellman Group Exchange for the Secure Shell (SSH) Transport Layer
+    Protocol
+ - <a href="https://tools.ietf.org/html/rfc4432" target="_blank">RFC 4432</a>,
+    RSA Key Exchange for the Secure Shell (SSH) Transport Layer Protocol
+    (not implemented in libssh)
+ - <a href="https://tools.ietf.org/html/rfc4462" target="_blank">RFC 4462</a>,
+    Generic Security Service Application Program Interface (GSS-API)
+    Authentication and Key Exchange for the Secure Shell (SSH) Protocol
+    (only the authentication implemented in libssh)
+ - <a href="https://tools.ietf.org/html/rfc4716" target="_blank">RFC 4716</a>,
+    The Secure Shell (SSH) Public Key File Format
+    (not implemented in libssh)
+ - <a href="https://tools.ietf.org/html/rfc5647" target="_blank">RFC 5647</a>,
+    AES Galois Counter Mode for the Secure Shell Transport Layer Protocol
+    (the algorithm negotiation implemented according to openssh.com)
+ - <a href="https://tools.ietf.org/html/rfc5656" target="_blank">RFC 5656</a>,
+    Elliptic Curve Algorithm Integration in the Secure Shell Transport Layer
+ - <a href="https://tools.ietf.org/html/rfc6594" target="_blank">RFC 6594</a>,
+    Use of the SHA-256 Algorithm with RSA, DSA, and ECDSA in SSHFP Resource Records
+    (not implemented in libssh)
+ - <a href="https://tools.ietf.org/html/rfc6668" target="_blank">RFC 6668</a>,
+    SHA-2 Data Integrity Verification for the Secure Shell (SSH) Transport Layer Protocol
+ - <a href="https://tools.ietf.org/html/rfc7479" target="_blank">RFC 7479</a>,
+    Using Ed25519 in SSHFP Resource Records
+    (not implemented in libssh)
+ - <a href="https://tools.ietf.org/html/rfc8160" target="_blank">RFC 8160</a>,
+    IUTF8 Terminal Mode in Secure Shell (SSH)
+    (not handled in libssh)
+ - <a href="https://tools.ietf.org/html/rfc8270" target="_blank">RFC 8270</a>,
+    Increase the Secure Shell Minimum Recommended Diffie-Hellman Modulus Size to 2048 Bits
+ - <a href="https://tools.ietf.org/html/rfc8308" target="_blank">RFC 8308</a>,
+    Extension Negotiation in the Secure Shell (SSH) Protocol
+    (only the "server-sig-algs" extension implemented)
+ - <a href="https://tools.ietf.org/html/rfc8332" target="_blank">RFC 8332</a>,
+    Use of RSA Keys with SHA-256 and SHA-512 in the Secure Shell (SSH) Protocol
+
+There are also drafts that are being currently developed and followed.
+
+ - <a href="https://tools.ietf.org/html/draft-ietf-curdle-ssh-kex-sha2-10" target="_blank">draft-ietf-curdle-ssh-kex-sha2-10</a>
+    Key Exchange (KEX) Method Updates and Recommendations for Secure Shell (SSH)
+ - <a href="https://tools.ietf.org/html/draft-miller-ssh-agent-03" target="_blank">draft-miller-ssh-agent-03</a>
+    SSH Agent Protocol
+ - <a href="https://tools.ietf.org/html/draft-ietf-curdle-ssh-curves-12" target="_blank">draft-ietf-curdle-ssh-curves-12</a>
+    Secure Shell (SSH) Key Exchange Method using Curve25519 and Curve448
+
+Interesting cryptography documents:
+
+ - <a href="https://www.cryptsoft.com/pkcs11doc/" target="_blank">PKCS #11</a>, PKCS #11 reference documents, describing interface with smartcards.
+
+@subsection main-rfc-sftp Secure Shell File Transfer Protocol (SFTP)
+
+The protocol is not an Internet standard but it is still widely implemented.
+OpenSSH and most other implementation implement Version 3 of the protocol. We
+do the same in libssh.
+
+ - <a href="https://tools.ietf.org/html/draft-ietf-secsh-filexfer-02" target="_blank">
+   draft-ietf-secsh-filexfer-02.txt</a>,
+   SSH File Transfer Protocol
+
+@subsection main-rfc-extensions Secure Shell Extensions
+
+The OpenSSH project has defined some extensions to the protocol. We support some of
+them like the statvfs calls in SFTP or the ssh-agent.
+
+ - <a href="https://api.libssh.org/rfc/PROTOCOL" target="_blank">
+    OpenSSH's deviations and extensions</a>
+ - <a href="https://api.libssh.org/rfc/PROTOCOL.certkeys" target="_blank">
+    OpenSSH's pubkey certificate authentication</a>
+ - <a href="https://api.libssh.org/rfc/PROTOCOL.chacha20poly1305" target="_blank">
+    chacha20-poly1305@openssh.com authenticated encryption mode</a>
+ - <a href="https://api.libssh.org/rfc/PROTOCOL.key" target="_blank">
+    OpenSSH private key format (openssh-key-v1)</a>
+
+*/

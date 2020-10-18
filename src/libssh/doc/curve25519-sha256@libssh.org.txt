@@ -1,0 +1,119 @@
+curve25519-sha256@libssh.org.txt        Aris Adamantiadis <aris@badcode.be>
+                                                                  21/9/2013
+
+1. Introduction
+
+This document describes the key exchange methode curve25519-sha256@libssh.org
+for SSH version 2 protocol. It is provided as an alternative to the existing
+key exchange mechanisms based on either Diffie-Hellman or Elliptic Curve Diffie-
+Hellman [RFC5656].
+The reason is the following : During summer of 2013, revelations from ex-
+consultant at NSA Edward Snowden gave proof that NSA willingly inserts backdoors
+into softwares, hardware components and published standards. While it is still
+believed that the mathematics behind ECC cryptography are still sound and solid,
+some people (including Bruce Schneier [SCHNEIER]), showed their lack of confidence
+in NIST-published curves such as nistp256, nistp384, nistp521, for which constant
+parameters (including the generator point) are defined without explanation. It
+is also believed that NSA had a word to say in their definition. These curves
+are not the most secure or fastest possible for their key sizes [DJB], and
+researchers think it is possible that NSA have ways of cracking NIST curves.
+It is also interesting to note that SSH belongs to the list of protocols the NSA
+claims to be able to eavesdrop. Having a secure replacement would make passive
+attacks much harder if such a backdoor exists.
+
+However an alternative exists in the form of Curve25519. This algorithm has been
+proposed in 2006 by DJB [Curve25519]. Its main strengths are its speed, its
+constant-time run time (and resistance against side-channel attacks), and its
+lack of nebulous hard-coded constants.
+
+The reference version being used in this document is the one described in
+[Curve25519] as implemented in the library NaCl [NaCl].
+This document does not attempt to provide alternatives to the ecdsa-sha1-*
+authentication keys.
+
+2. Key exchange
+
+The key exchange procedure is very similar to the one described chapter 4 of
+[RFC5656]. Public ephemeral keys are transmitted over SSH encapsulated into
+standard SSH strings.
+
+The following is an overview of the key exchange process:
+
+Client                                                            Server
+------                                                            ------
+Generate ephemeral key pair.
+SSH_MSG_KEX_ECDH_INIT          -------->                      
+                                            Verify that client public key 
+                                            length is 32 bytes.
+                                             Generate ephemeral key pair.
+                                                   Compute shared secret.
+                                         Generate and sign exchange hash.
+                               <--------           SSH_MSG_KEX_ECDH_REPLY
+Verify that server public key length is 32 bytes.
+* Verify host keys belong to server.
+Compute shared secret.
+Generate exchange hash.
+Verify server's signature.
+
+*   Optional but strongly recommanded as this protects against MITM attacks.
+
+This is implemented using the same messages as described in RFC5656 chapter 4
+
+3. Method Name
+
+The name of this key exchange method is "curve25519-sha256@libssh.org".
+
+4. Implementation considerations
+
+The whole method is based on the curve25519 scalar multiplication. In this
+method, a private key is a scalar of 256 bits, and a public key is a point
+of 256 bits.
+
+4.1. Private key generation
+
+A 32 bytes private key should be generated for each new connection,
+ using a secure PRNG. The following actions must be done on the private key:
+     mysecret[0] &= 248;
+     mysecret[31] &= 127;
+     mysecret[31] |= 64;
+In order to keep the key valid. However, many cryptographic libraries will do
+this automatically.
+It should be noted that, in opposition to NIST curves, no special validation
+should be done to ensure the result is a valid and secure private key.
+
+4.2 Public key generation
+
+The 32 bytes public key of either a client or a server must be generated using
+the 32 bytes private key and a common generator base. This base is defined as 9
+followed by all zeroes:
+     const unsigned char basepoint[32] = {9};
+
+The public key is calculated using the cryptographic scalar multiplication:
+     const unsigned char privkey[32];
+     unsigned char pubkey[32];
+     crypto_scalarmult (pubkey, privkey, basepoint);
+However some cryptographic libraries may provide a combined function:
+     crypto_scalarmult_base (pubkey, privkey);
+
+It should be noted that, in opposition to NIST curves, no special validation
+should be done to ensure the received public keys are valid curves point. The
+Curve25519 algorithm ensure that every possible public key maps to a valid
+ECC Point.
+
+4.3 Shared secret generation
+
+The shared secret, k, is defined in SSH specifications to be a big integer.
+This number is calculated using the following procedure:
+
+     X is the 32 bytes point obtained by the scalar multiplication of the other
+     side's public key and the local private key scalar.
+
+     The whole 32 bytes of the number X are then converted into a big integer k.
+     This conversion follows the network byte order. This step differs from 
+     RFC5656.
+
+[RFC5656]    https://tools.ietf.org/html/rfc5656
+[SCHNEIER]   https://www.schneier.com/blog/archives/2013/09/the_nsa_is_brea.html#c1675929
+[DJB]        https://cr.yp.to/talks/2013.05.31/slides-dan+tanja-20130531-4x3.pdf
+[Curve25519] "Curve25519: new Diffie-Hellman speed records."
+             https://cr.yp.to/ecdh/curve25519-20060209.pdf

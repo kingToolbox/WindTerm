@@ -1,0 +1,4 @@
+auth        required    @PAM_WRAPPER_MODULE_DIR@/pam_matrix.so passdb=@CMAKE_CURRENT_BINARY_DIR@/etc/pam_matrix_passdb
+account     required    @PAM_WRAPPER_MODULE_DIR@/pam_matrix.so passdb=@CMAKE_CURRENT_BINARY_DIR@/etc/pam_matrix_passdb
+password    required    @PAM_WRAPPER_MODULE_DIR@/pam_matrix.so passdb=@CMAKE_CURRENT_BINARY_DIR@/etc/pam_matrix_passdb
+session     required    @PAM_WRAPPER_MODULE_DIR@/pam_matrix.so passdb=@CMAKE_CURRENT_BINARY_DIR@/etc/pam_matrix_passdb

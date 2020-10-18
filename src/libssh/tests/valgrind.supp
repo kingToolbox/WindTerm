@@ -1,0 +1,149 @@
+### GLIBC
+{
+   glibc_regcomp
+   Memcheck:Leak
+   fun:*alloc
+   ...
+   fun:regcomp
+}
+{
+   glibc_getaddrinfo_leak
+   Memcheck:Leak
+   fun:malloc
+   fun:make_request
+   fun:__check_pf
+   fun:getaddrinfo
+   fun:getai
+   fun:ssh_connect_host_nonblocking
+}
+
+{
+   glibc_dlopen_getdelim_selinux
+   Memcheck:Leak
+   fun:malloc
+   fun:getdelim
+   obj:/lib64/libselinux.so.1
+   fun:call_init
+   fun:_dl_init
+   obj:/lib64/ld-2.15.so
+}
+
+{
+   glibc_dlopen_alloc
+   Memcheck:Leak
+   fun:calloc
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+}
+
+### VALGRIND
+{
+    valgrind_exit_free_bug
+    Memcheck:Free
+    fun:free
+    fun:__libc_freeres
+    fun:_vgnU_freeres
+    fun:__run_exit_handlers
+    fun:exit
+}
+
+
+### OPENSSL
+{
+   openssl_crypto_value8
+   Memcheck:Value8
+   fun:*
+   obj:/lib*/libcrypto.so*
+}
+
+{
+   openssl_crypto_value4
+   Memcheck:Value4
+   fun:*
+   obj:/lib*/libcrypto.so*
+}
+
+{
+   openssl_crypto_cond
+   Memcheck:Cond
+   fun:*
+   obj:/lib*/libcrypto.so*
+}
+
+{
+   openssl_BN_cond
+   Memcheck:Cond
+   fun:BN_*
+}
+
+{
+   openssl_bn_value8
+   Memcheck:Value8
+   fun:bn_*
+}
+
+{
+   openssl_bn_value4
+   Memcheck:Value4
+   fun:bn_*
+}
+
+{
+   openssl_AES_cond
+   Memcheck:Cond
+   fun:AES_*
+}
+
+{
+   openssl_DES_cond
+   Memcheck:Cond
+   fun:DES_*
+}
+
+{
+   openssl_DES_value8
+   Memcheck:Value8
+   fun:DES_*
+}
+
+{
+   openssl_DES_value4
+   Memcheck:Value4
+   fun:DES_*
+}
+
+{
+   openssl_BF_cond
+   Memcheck:Cond
+   fun:BF_*
+}
+
+{
+   openssl_SHA1_cond
+   Memcheck:Cond
+   fun:SHA1_*
+}
+
+{
+   openssl_CRYPTO_leak
+   Memcheck:Leak
+   fun:*alloc
+   fun:CRYPTO_*
+}
+{
+   openssl_CRYPTO_leak
+   Memcheck:Cond
+   fun:OPENSSL_cleanse
+}
+{
+   openssl_FIPS_dlopen_leak
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dlerror_run
+   fun:dlopen*
+   obj:/lib64/libcrypto.so*
+   fun:FIPS_module_mode_set
+   fun:FIPS_mode_set
+   fun:OPENSSL_init_library
+}

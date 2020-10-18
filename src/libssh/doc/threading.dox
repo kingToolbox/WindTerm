@@ -1,0 +1,52 @@
+/**
+@page libssh_tutor_threads Chapter 8: Threads with libssh
+@section threads_with_libssh How to use libssh with threads
+
+libssh may be used in multithreaded applications, but under several conditions :
+ - Your system must support libpthread or, in Windows environment,
+   CriticalSection based mutex control.
+ - Since version 0.8.0, threads initialization is called automatically in the
+   library constructor if libssh is dynamically linked. This means it is no
+   longer necessary to call ssh_init()/ssh_finalize().
+ - If libssh is statically linked, threading must be initialized by calling
+   ssh_init() before using any of libssh provided functions. This initialization
+   must be done outside of any threading context. Don't forget to call
+   ssh_finalize() to avoid memory leak
+ - At all times, you may use different sessions inside threads, make parallel
+   connections, read/write on different sessions and so on. You *cannot* use a
+   single session (or channels for a single session) in several threads at the same
+   time. This will most likely lead to internal state corruption. This limitation is
+   being worked out and will maybe disappear later.
+
+@subsection threads_init Initialization of threads
+
+Since version 0.8.0, it is no longer necessary to call ssh_init()/ssh_finalize()
+if libssh is dynamically linked.
+
+If libssh is statically linked, call ssh_init() before using any of libssh
+provided functions.
+
+@subsection threads_pthread Using libpthread with libssh
+
+Since version 0.8.0, libpthread is the default threads library used by libssh.
+
+To use libpthread, simply link it to you application.
+
+If you are using libssh statically linked, don't forget to call ssh_init()
+before using any of libssh provided functions (and ssh_finalize() in  the end).
+
+@subsection threads_other Using another threading library
+
+Since version 0.8.0, libssh does not support custom threading libraries.
+The change makes sense since the newer versions for libcrypto (OpenSSL) and
+libgcrypt don't support custom threading libraries.
+
+The default used threading library is libpthread.
+Alternatively, in Windows environment, CriticalSection based mutex control can
+be used.
+
+If your system does not support libpthread nor CriticalSection based mutex
+control, unfortunately, you cannot use libssh in multithreaded scenarios.
+
+Good luck !
+*/

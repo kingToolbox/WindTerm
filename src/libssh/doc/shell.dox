@@ -1,0 +1,361 @@
+/**
+@page libssh_tutor_shell Chapter 3: Opening a remote shell
+@section opening_shell Opening a remote shell
+
+We already mentioned that a single SSH connection can be shared
+between several "channels". Channels can be used for different purposes.
+
+This chapter shows how to open one of these channels, and how to use it to
+start a command interpreter on a remote computer.
+
+
+@subsection open_channel Opening and closing a channel
+
+The ssh_channel_new() function creates a channel. It returns the channel as
+a variable of type ssh_channel.
+
+Once you have this channel, you open a SSH session that uses it with
+ssh_channel_open_session().
+
+Once you don't need the channel anymore, you can send an end-of-file
+to it with ssh_channel_close(). At this point, you can destroy the channel
+with ssh_channel_free().
+
+The code sample below achieves these tasks:
+
+@code
+int shell_session(ssh_session session)
+{
+  ssh_channel channel;
+  int rc;
+
+  channel = ssh_channel_new(session);
+  if (channel == NULL)
+    return SSH_ERROR;
+
+  rc = ssh_channel_open_session(channel);
+  if (rc != SSH_OK)
+  {
+    ssh_channel_free(channel);
+    return rc;
+  }
+
+  ...
+
+  ssh_channel_close(channel);
+  ssh_channel_send_eof(channel);
+  ssh_channel_free(channel);
+
+  return SSH_OK;
+}
+@endcode
+
+
+@subsection interactive Interactive and non-interactive sessions
+
+A "shell" is a command interpreter. It is said to be "interactive"
+if there is a human user typing the commands, one after the
+other. The contrary, a non-interactive shell, is similar to
+the execution of commands in the background: there is no attached
+terminal.
+
+If you plan using an interactive shell, you need to create a
+pseud-terminal on the remote side. A remote terminal is usually referred
+to as a "pty", for "pseudo-teletype". The remote processes won't see the
+difference with a real text-oriented terminal.
+
+If needed, you request the pty with the function ssh_channel_request_pty().
+Then you define its dimensions (number of rows and columns)
+with ssh_channel_change_pty_size().
+
+Be your session interactive or not, the next step is to request a
+shell with ssh_channel_request_shell().
+
+@code
+int interactive_shell_session(ssh_channel channel)
+{
+  int rc;
+
+  rc = ssh_channel_request_pty(channel);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_change_pty_size(channel, 80, 24);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_request_shell(channel);
+  if (rc != SSH_OK) return rc;
+
+  ...
+
+  return rc;
+}
+@endcode
+
+
+@subsection read_data Displaying the data sent by the remote computer
+
+In your program, you will usually need to receive all the data "displayed"
+into the remote pty. You will usually analyse, log, or display this data.
+
+ssh_channel_read() and ssh_channel_read_nonblocking() are the simplest
+way to read data from a channel. If you only need to read from a single
+channel, they should be enough.
+
+The example below shows how to wait for remote data using ssh_channel_read():
+
+@code
+int interactive_shell_session(ssh_channel channel)
+{
+  int rc;
+  char buffer[256];
+  int nbytes;
+
+  rc = ssh_channel_request_pty(channel);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_change_pty_size(channel, 80, 24);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_request_shell(channel);
+  if (rc != SSH_OK) return rc;
+
+  while (ssh_channel_is_open(channel) &&
+         !ssh_channel_is_eof(channel))
+  {
+    nbytes = ssh_channel_read(channel, buffer, sizeof(buffer), 0);
+    if (nbytes < 0)
+      return SSH_ERROR;
+
+    if (nbytes > 0)
+      write(1, buffer, nbytes);
+  }
+
+  return rc;
+}
+@endcode
+
+Unlike ssh_channel_read(), ssh_channel_read_nonblocking() never waits for
+remote data to be ready. It returns immediately.
+
+If you plan to use ssh_channel_read_nonblocking() repeatedly in a loop,
+you should use a "passive wait" function like usleep(3) in the same
+loop. Otherwise, your program will consume all the CPU time, and your
+computer might become unresponsive.
+
+
+@subsection write_data Sending user input to the remote computer
+
+User's input is sent to the remote site with ssh_channel_write().
+
+The following example shows how to combine a nonblocking read from a SSH
+channel with a nonblocking read from the keyboard. The local input is then
+sent to the remote computer:
+
+@code
+/* Under Linux, this function determines whether a key has been pressed.
+   Under Windows, it is a standard function, so you need not redefine it.
+*/
+int kbhit()
+{
+    struct timeval tv = { 0L, 0L };
+    fd_set fds;
+
+    FD_ZERO(&fds);
+    FD_SET(0, &fds);
+
+    return select(1, &fds, NULL, NULL, &tv);
+}
+
+/* A very simple terminal emulator:
+   - print data received from the remote computer
+   - send keyboard input to the remote computer
+*/
+int interactive_shell_session(ssh_channel channel)
+{
+  /* Session and terminal initialization skipped */
+  ...
+
+  char buffer[256];
+  int nbytes, nwritten;
+
+  while (ssh_channel_is_open(channel) &&
+         !ssh_channel_is_eof(channel))
+  {
+    nbytes = ssh_channel_read_nonblocking(channel, buffer, sizeof(buffer), 0);
+    if (nbytes < 0) return SSH_ERROR;
+    if (nbytes > 0)
+    {
+      nwritten = write(1, buffer, nbytes);
+      if (nwritten != nbytes) return SSH_ERROR;
+
+    if (!kbhit())
+    {
+      usleep(50000L); // 0.05 second
+      continue;
+    }
+
+    nbytes = read(0, buffer, sizeof(buffer));
+    if (nbytes < 0) return SSH_ERROR;
+    if (nbytes > 0)
+    {
+      nwritten = ssh_channel_write(channel, buffer, nbytes);
+      if (nwritten != nbytes) return SSH_ERROR;
+    }
+  }
+
+  return rc;
+}
+@endcode
+
+Of course, this is a poor terminal emulator, since the echo from the keys
+pressed should not be done locally, but should be done by the remote side.
+Also, user's input should not be sent once "Enter" key is pressed, but
+immediately after each key is pressed. This can be accomplished
+by setting the local terminal to "raw" mode with the cfmakeraw(3) function.
+cfmakeraw() is a standard function under Linux, on other systems you can
+recode it with:
+
+@code
+static void cfmakeraw(struct termios *termios_p)
+{
+    termios_p->c_iflag &= ~(IGNBRK|BRKINT|PARMRK|ISTRIP|INLCR|IGNCR|ICRNL|IXON);
+    termios_p->c_oflag &= ~OPOST;
+    termios_p->c_lflag &= ~(ECHO|ECHONL|ICANON|ISIG|IEXTEN);
+    termios_p->c_cflag &= ~(CSIZE|PARENB);
+    termios_p->c_cflag |= CS8;
+}
+@endcode
+
+If you are not using a local terminal, but some kind of graphical
+environment, the solution to this kind of "echo" problems will be different.
+
+
+@subsection select_loop A more elaborate way to get the remote data
+
+*** Warning: ssh_select() and ssh_channel_select() are not relevant anymore,
+    since libssh is about to provide an easier system for asynchronous
+    communications. This subsection should be removed then. ***
+
+ssh_channel_read() and ssh_channel_read_nonblocking() functions are simple,
+but they are not adapted when you expect data from more than one SSH channel,
+or from other file descriptors. Last example showed how getting data from
+the standard input (the keyboard) at the same time as data from the SSH
+channel was complicated. The functions ssh_select() and ssh_channel_select()
+provide a more elegant way to wait for data coming from many sources.
+
+The functions ssh_select() and ssh_channel_select() remind of the standard
+UNIX select(2) function. The idea is to wait for "something" to happen:
+incoming data to be read, outgoing data to block, or an exception to
+occur. Both these functions do a "passive wait", i.e. you can safely use
+them repeatedly in a loop, it will not consume exaggerate processor time
+and make your computer unresponsive. It is quite common to use these
+functions in your application's main loop.
+
+The difference between ssh_select() and ssh_channel_select() is that
+ssh_channel_select() is simpler, but allows you only to watch SSH channels.
+ssh_select() is more complete and enables watching regular file descriptors
+as well, in the same function call.
+
+Below is an example of a function that waits both for remote SSH data to come,
+as well as standard input from the keyboard:
+
+@code
+int interactive_shell_session(ssh_session session, ssh_channel channel)
+{
+  /* Session and terminal initialization skipped */
+  ...
+
+  char buffer[256];
+  int nbytes, nwritten;
+
+  while (ssh_channel_is_open(channel) &&
+         !ssh_channel_is_eof(channel))
+  {
+    struct timeval timeout;
+    ssh_channel in_channels[2], out_channels[2];
+    fd_set fds;
+    int maxfd;
+
+    timeout.tv_sec = 30;
+    timeout.tv_usec = 0;
+    in_channels[0] = channel;
+    in_channels[1] = NULL;
+    FD_ZERO(&fds);
+    FD_SET(0, &fds);
+    FD_SET(ssh_get_fd(session), &fds);
+    maxfd = ssh_get_fd(session) + 1;
+
+    ssh_select(in_channels, out_channels, maxfd, &fds, &timeout);
+
+    if (out_channels[0] != NULL)
+    {
+      nbytes = ssh_channel_read(channel, buffer, sizeof(buffer), 0);
+      if (nbytes < 0) return SSH_ERROR;
+      if (nbytes > 0)
+      {
+        nwritten = write(1, buffer, nbytes);
+        if (nwritten != nbytes) return SSH_ERROR;
+      }
+    }
+
+    if (FD_ISSET(0, &fds))
+    {
+      nbytes = read(0, buffer, sizeof(buffer));
+      if (nbytes < 0) return SSH_ERROR;
+      if (nbytes > 0)
+      {
+        nwritten = ssh_channel_write(channel, buffer, nbytes);
+        if (nbytes != nwritten) return SSH_ERROR;
+      }
+    }
+  }
+
+  return rc;
+}
+@endcode
+
+
+@subsection x11 Using graphical applications on the remote side
+
+If your remote application is graphical, you can forward the X11 protocol to
+your local computer.
+
+To do that, you first declare that you accept X11 connections with
+ssh_channel_accept_x11(). Then you create the forwarding tunnel for
+the X11 protocol with ssh_channel_request_x11().
+
+The following code performs channel initialization and shell session
+opening, and handles a parallel X11 connection:
+
+@code
+int interactive_shell_session(ssh_channel channel)
+{
+  int rc;
+  ssh_channel x11channel;
+
+  rc = ssh_channel_request_pty(channel);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_change_pty_size(channel, 80, 24);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_request_x11(channel, 0, NULL, NULL, 0);
+  if (rc != SSH_OK) return rc;
+
+  rc = ssh_channel_request_shell(channel);
+  if (rc != SSH_OK) return rc;
+
+  /* Read the data sent by the remote computer here */
+  ...
+}
+@endcode
+
+Don't forget to set the $DISPLAY environment variable on the remote
+side, or the remote applications won't try using the X11 tunnel:
+
+@code
+$ export DISPLAY=:0
+$ xclock &
+@endcode
+
+*/

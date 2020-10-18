@@ -1,0 +1,600 @@
+ChangeLog
+==========
+
+version 0.9.5 (released 2020-XX-XX)
+  * CVE-2020-16135: Avoid null pointer dereference in sftpserver (T232)
+  * Improve handling of library initialization (T222)
+  * Fix parsing of subsecond times in SFTP (T219)
+  * Make the documentation reproducible
+  * Remove deprecated API usage in OpenSSL
+  * Fix regression of ssh_channel_poll_timeout() returning SSH_AGAIN
+  * Define version in one place (T226)
+  * Prevent invalid free when using different C runtimes than OpenSSL (T229)
+  * Compatibility improvements to testsuite
+
+version 0.9.4 (released 2020-04-09)
+  * Fixed CVE-2020-1730 - Possible DoS in client and server when handling
+    AES-CTR keys with OpenSSL
+  * Added diffie-hellman-group14-sha256
+  * Fixed serveral possible memory leaks
+
+version 0.9.3 (released 2019-12-10)
+  * Fixed CVE-2019-14889 - SCP: Unsanitized location leads to command execution
+  * SSH-01-003 Client: Missing NULL check leads to crash in erroneous state
+  * SSH-01-006 General: Various unchecked Null-derefs cause DOS
+  * SSH-01-007 PKI Gcrypt: Potential UAF/double free with RSA pubkeys
+  * SSH-01-010 SSH: Deprecated hash function in fingerprinting
+  * SSH-01-013 Conf-Parsing: Recursive wildcards in hostnames lead to DOS
+  * SSH-01-014 Conf-Parsing: Integer underflow leads to OOB array access
+  * SSH-01-001 State Machine: Initial machine states should be set explicitly
+  * SSH-01-002 Kex: Differently bound macros used to iterate same array
+  * SSH-01-005 Code-Quality: Integer sign confusion during assignments
+  * SSH-01-008 SCP: Protocol Injection via unescaped File Names
+  * SSH-01-009 SSH: Update documentation which RFCs are implemented
+  * SSH-01-012 PKI: Information leak via uninitialized stack buffer
+
+version 0.9.2 (released 2019-11-07)
+  * Fixed libssh-config.cmake
+  * Fixed issues with rsa algorithm negotiation (T191)
+  * Fixed detection of OpenSSL ed25519 support (T197)
+
+version 0.9.1 (released 2019-10-25)
+  * Added support for Ed25519 via OpenSSL
+  * Added support for X25519 via OpenSSL
+  * Added support for localuser in Match keyword
+  * Fixed Match keyword to be case sensitive
+  * Fixed compilation with LibreSSL
+  * Fixed error report of channel open (T75)
+  * Fixed sftp documentation (T137)
+  * Fixed known_hosts parsing (T156)
+  * Fixed build issue with MinGW (T157)
+  * Fixed build with gcc 9 (T164)
+  * Fixed deprecation issues (T165)
+  * Fixed known_hosts directory creation (T166)
+
+version 0.9.0 (released 2019-06-28)
+  * Added support for AES-GCM
+  * Added improved rekeying support
+  * Added performance improvements
+  * Disabled blowfish support by default
+  * Fixed several ssh config parsing issues
+  * Added support for DH Group Exchange KEX
+  * Added support for Encrypt-then-MAC mode
+  * Added support for parsing server side configuration file
+  * Added support for ECDSA/Ed25519 certificates
+  * Added FIPS 140-2 compatibility
+  * Improved known_hosts parsing
+  * Improved documentation
+  * Improved OpenSSL API usage for KEX, DH, and signatures
+
+version 0.8.7 (released 2019-02-25)
+  * Fixed handling extension flags in the server implementation
+  * Fixed exporting ed25519 private keys
+  * Fixed corner cases for rsa-sha2 signatures
+  * Fixed some issues with connector
+
+version 0.8.6 (released 2018-12-24)
+  * Fixed compilation issues with different OpenSSL versions
+  * Fixed StrictHostKeyChecking in new knownhosts API
+  * Fixed ssh_send_keepalive() with packet filter
+  * Fixed possible crash with knownhosts options
+  * Fixed issus with rekeying
+  * Fixed strong ECDSA keys
+  * Fixed some issues with rsa-sha2 extentions
+  * Fixed access violation in ssh_init() (static linking)
+  * Fixed ssh_channel_close() handling
+
+version 0.8.5 (released 2018-10-29)
+  * Added support to get known_hosts locations with ssh_options_get()
+  * Fixed preferred algorithm for known hosts negotiations
+  * Fixed KEX with some server implementations (e.g. Cisco)
+  * Fixed issues with MSVC
+  * Fixed keyboard-interactive auth in server mode
+    (regression from CVE-2018-10933)
+  * Fixed gssapi auth in server mode (regression from CVE-2018-10933)
+  * Fixed socket fd handling with proxy command
+  * Fixed a memory leak with OpenSSL
+
+version 0.8.4 (released 2018-10-16)
+  * Fixed CVE-2018-10933
+  * Fixed building without globbing support
+  * Fixed possible memory leaks
+  * Avoid SIGPIPE on sockets
+
+version 0.8.3 (released 2018-09-21)
+  * Added support for rsa-sha2
+  * Added support to parse private keys in openssh container format
+    (other than ed25519)
+  * Added support for diffie-hellman-group18-sha512 and
+    diffie-hellman-group16-sha512
+  * Added ssh_get_fingerprint_hash()
+  * Added ssh_pki_export_privkey_base64()
+  * Added support for Match keyword in config file
+  * Improved performance and reduced memory footprint for sftp
+  * Fixed ecdsa publickey auth
+  * Fixed reading a closed channel
+  * Added support to announce posix-rename@openssh.com and
+    hardlink@openssh.com in the sftp server
+
+version 0.8.2 (released 2018-08-30)
+  * Added sha256 fingerprints for pubkeys
+  * Improved compiler flag detection
+  * Fixed race condition in reading sftp messages
+  * Fixed doxygen generation and added modern style
+  * Fixed library initialization on Windows
+  * Fixed __bounded__ attribute detection
+  * Fixed a bug in the options parser
+  * Fixed documentation for new knwon_hosts API
+
+version 0.8.1 (released 2018-08-13)
+  * Fixed version number in the header
+  * Fixed version number in pkg-config and cmake config
+  * Fixed library initialization
+  * Fixed attribute detection
+
+version 0.8.0 (released 2018-08-10)
+  * Removed support for deprecated SSHv1 protocol
+  * Added new connector API for clients
+  * Added new known_hosts parsing API
+  * Added support for OpenSSL 1.1
+  * Added support for chacha20-poly1305 cipher
+  * Added crypto backend for mbedtls crypto library
+  * Added ECDSA support with gcrypt backend
+  * Added advanced client and server testing using cwrap.org
+  * Added support for curve25519-sha256 alias
+  * Added support for global known_hosts file
+  * Added support for symbol versioning
+  * Improved ssh_config parsing
+  * Improved threading support
+
+version 0.7.5 (released 2017-04-13)
+  * Fixed a memory allocation issue with buffers
+  * Fixed PKI on Windows
+  * Fixed some SSHv1 functions
+  * Fixed config hostname expansion
+
+version 0.7.4 (released 2017-02-03)
+  * Added id_ed25519 to the default identity list
+  * Fixed sftp EOF packet handling
+  * Fixed ssh_send_banner() to confirm with RFC 4253
+  * Fixed some memory leaks
+
+version 0.7.3 (released 2016-01-23)
+  * Fixed CVE-2016-0739
+  * Fixed ssh-agent on big endian
+  * Fixed some documentation issues
+
+version 0.7.2 (released 2015-09-15)
+  * Fixed OpenSSL detection on Windows
+  * Fixed return status for ssh_userauth_agent()
+  * Fixed KEX to prefer hmac-sha2-256
+  * Fixed sftp packet handling
+  * Fixed return values of ssh_key_is_(public|private)
+  * Fixed bug in global success reply
+
+version 0.7.1 (released 2015-06-30)
+  * Fixed SSH_AUTH_PARTIAL auth with auto public key
+  * Fixed memory leak in session options
+  * Fixed allocation of ed25519 public keys
+  * Fixed channel exit-status and exit-signal
+  * Reintroduce ssh_forward_listen()
+
+version 0.7.0 (released 2015-05-11)
+  * Added support for ed25519 keys
+  * Added SHA2 algorithms for HMAC
+  * Added improved and more secure buffer handling code
+  * Added callback for auth_none_function
+  * Added support for ECDSA private key signing
+  * Added more tests
+  * Fixed a lot of bugs
+  * Improved API documentation
+
+version 0.6.5 (released 2015-04-29)
+  * Fixed CVE-2015-3146
+  * Fixed port handling in config file
+  * Fixed the build with libgcrypt
+  * Fixed SFTP endian issues (rlo #179)
+  * Fixed uninitilized sig variable (rlo #167)
+  * Fixed polling issues which could result in a hang
+  * Fixed handling of EINTR in ssh_poll() (rlo #186)
+  * Fixed C99 issues with __func__
+  * Fixed some memory leaks
+  * Improved macro detection on Windows
+
+version 0.6.4 (released 2014-12-19)
+  * Fixed CVE-2014-8132.
+  * Added SHA-2 for session ID signing with ECDSA keys.
+  * Added support for ECDSA host keys.
+  * Added support for more ECDSA hostkey algorithms.
+  * Added ssh_pki_key_ecdsa_name() API.
+  * Fixed setting the bindfd only after successful listen.
+  * Fixed issues with user created sockets.
+  * Fixed several issues in libssh C++ wrapper.
+  * Fixed several documentation issues.
+  * Fixed channel exit-signal request.
+  * Fixed X11 request screen number in messages.
+  * Fixed several memory leaks.
+
+version 0.6.3 (released 2014-03-04)
+  * Fixed CVE-2014-0017.
+  * Fixed memory leak with ecdsa signatures.
+
+version 0.6.2 (released 2014-03-04)
+  * security: fix for vulnerability CVE-2014-0017
+
+version 0.6.1 (released 2014-02-08)
+  * Added support for libgcrypt 1.6.
+  * Added ssh_channel_accept_forward().
+  * Added known_hosts heuristic during connection (#138).
+  * Added getters for session cipher names.
+  * Fixed decrypt of zero length buffer.
+  * Fixed padding in RSA signature blobs.
+  * Fixed DSA signature extraction.
+  * Fixed some memory leaks.
+  * Fixed read of non-connected socket.
+  * Fixed thread dectection.
+
+version 0.6.0 (released 2014-01-08)
+  * Added new publicy key API.
+  * Added new userauth API.
+  * Added ssh_get_publickey_hash() function.
+  * Added ssh_get_poll_flags() function.
+  * Added gssapi-mic userauth.
+  * Added GSSAPIServerIdentity option.
+  * Added GSSAPIClientIdentity option.
+  * Added GSSAPIDelegateCredentials option.
+  * Added new callback based server API.
+  * Added Elliptic Curve DSA (ECDSA) support (with OpenSSL).
+  * Added Elliptic Curve Diffie Hellman (ECDH) support.
+  * Added Curve25519 for ECDH key exchange.
+  * Added improved logging system.
+  * Added SSH-agent forwarding.
+  * Added key-reexchange.
+  * Added more unit tests.
+  * Improved documentation.
+  * Fixed timeout handling.
+
+version 0.5.5 (released 2013-07-26)
+  * BUG 103: Fix ProxyCommand parsing.
+  * Fix setting -D_FORTIFY_SOURCE=2.
+  * Fix pollset error return if emtpy.
+  * Fix NULL pointer checks in channel functions.
+  * Several bugfixes.
+
+version 0.5.4 (released 2013-01-22)
+  * CVE-2013-0176 - NULL dereference leads to denial of service
+  * Fixed several NULL pointer dereferences in SSHv1.
+  * Fixed a free crash bug in options parsing.
+
+version 0.5.3 (released 2012-11-20)
+  * CVE-2012-4559 Fixed multiple double free() flaws.
+  * CVE-2012-4560 Fixed multiple buffer overflow flaws.
+  * CVE-2012-4561 Fixed multiple invalid free() flaws.
+  * BUG #84 - Fix bug in sftp_mkdir not returning on error.
+  * BUG #85 - Fixed a possible channel infinite loop if the connection dropped.
+  * BUG #88 - Added missing channel request_state and set it to accepted.
+  * BUG #89 - Reset error state to no error on successful SSHv1 authentiction.
+  * Fixed a possible use after free in ssh_free().
+  * Fixed multiple possible NULL pointer dereferences.
+  * Fixed multiple memory leaks in error paths.
+  * Fixed timeout handling.
+  * Fixed regression in pre-connected socket setting.
+  * Handle all unknown global messages.
+
+version 0.5.2 (released 2011-09-17)
+  * Increased window size x10.
+  * Fixed SSHv1.
+  * Fixed bugged lists.
+  * Fixed use-after-free + inconsistent callbacks call in poll.
+  * Fixed scp documentation.
+  * Fixed possible infinite loop in channel_read().
+  * Fixed handling of short reads of sftp_async_read().
+  * Fixed handling request service timeout in blocking mode.
+  * Fixed ssh_auth_list() documentation.
+  * Fixed incorrect return values in ssh_channel_write().
+  * Fixed an infinite loop in the termination callback.
+  * Fixed handling of SSH_AGAIN in channel_open().
+  * Fixed "status -5 inflating zlib packet"
+
+version 0.5.1 (released 2011-08-09)
+  * Added checks for NULL pointers in string.c.
+  * Set the channel max packet size to 32768.
+  * Don't (de)compress empty buffers.
+  * Fixed ssh_scp_write so it works when doing recursive copy.
+  * Fixed another source of endless wait.
+  * Fixed an endless loop in case of a channel_open error.
+  * Fixed session timeout handling.
+  * Fixed ssh_channel_from_local() loop.
+  * Fixed permissions of scp example when we copy a file.
+  * Workaround ssh_get_user_home_dir on LDAP users.
+  * Added pkg-config support for libssh_threads.
+  * Fixed compilation without server and sftp modes.
+  * Fix static .lib overwriting on Windows.
+
+version 0.5.0 (released 2011-06-01)
+  * Added ssh_ prefix to all functions.
+  * Added complete Windows support.
+  * Added improved server support.
+  * Added unit tests for a lot of functions.
+  * Added asynchronous service request.
+  * Added a multiplatform ssh_getpass() function.
+  * Added a tutorial.
+  * Added a lot of documentation.
+  * Fixed a lot of bugs.
+  * Fixed several memory leaks.
+
+version 0.4.8 (released 2011-01-15)
+  * Fixed memory leaks in session signing.
+  * Fixed memory leak in ssh_print_hexa.
+  * Fixed problem with ssh_connect w/ timeout and fd > 1024.
+  * Fixed some warnings on OS/2.
+  * Fixed installation path for OS/2.
+
+version 0.4.7 (released 2010-12-28)
+  * Fixed a possible memory leak in ssh_get_user_home().
+  * Fixed a memory leak in sftp_xstat.
+  * Fixed uninitialized fd->revents member.
+  * Fixed timout value in ssh_channel_accept().
+  * Fixed length checks in ssh_analyze_banner().
+  * Fixed a possible data overread and crash bug.
+  * Fixed setting max_fd which breaks ssh_select().
+  * Fixed some pedantic build warnings.
+  * Fixed a memory leak with session->bindaddr.
+
+version 0.4.6 (released 2010-09-03)
+  * Added a cleanup function to free the ws2_32 library.
+  * Fixed build with gcc 3.4.
+  * Fixed the Windows build on Vista and newer.
+  * Fixed the usage of WSAPoll() on Windows.
+  * Fixed "@deprecated" in doxygen
+  * Fixed some mingw warnings.
+  * Fixed handling of opened channels.
+  * Fixed keepalive problem on older openssh servers.
+  * Fixed testing for big endian on Windows.
+  * Fixed the Windows preprocessor macros and defines.
+
+version 0.4.5 (released 2010-07-13)
+  * Added option to bind a client to an ip address.
+  * Fixed the ssh socket polling function.
+  * Fixed Windows related bugs in bsd_poll().
+  * Fixed serveral build warnings.
+
+version 0.4.4 (released 2010-06-01)
+  * Fixed a bug in the expand function for escape sequences.
+  * Fixed a bug in the tilde expand function.
+  * Fixed a bug in setting the options.
+
+version 0.4.3 (released 2010-05-18)
+  * Added global/keepalive responses.
+  * Added runtime detection of WSAPoll().
+  * Added a select(2) based poll-emulation if poll(2) is not available.
+  * Added a function to expand an escaped string.
+  * Added a function to expand the tilde from a path.
+  * Added a proxycommand support.
+  * Added ssh_privatekey_type public function
+  * Added the possibility to define _OPENSSL_DIR and _ZLIB_DIR.
+  * Fixed sftp_chown.
+  * Fixed sftp_rename on protocol version 3.
+  * Fixed a blocking bug in channel_poll.
+  * Fixed config parsing wich has overwritten user specified values.
+  * Fixed hashed [host]:port format in knownhosts
+  * Fixed Windows build.
+  * Fixed doublefree happening after a negociation error.
+  * Fixed aes*-ctr with <= OpenSSL 0.9.7b.
+  * Fixed some documentation.
+  * Fixed exec example which has broken read usage.
+  * Fixed broken algorithm choice for server.
+  * Fixed a typo that we don't export all symbols.
+  * Removed the unneeded dependency to doxygen.
+  * Build examples only on the Linux plattform.
+
+version 0.4.2 (released 2010-03-15)
+  * Added owner and group information in sftp attributes.
+  * Added missing SSH_OPTIONS_FD option.
+  * Added printout of owner and group in the sftp example.
+  * Added a prepend function for ssh_list.
+  * Added send back replies to openssh's keepalives.
+  * Fixed documentation in scp code
+  * Fixed longname parsing, this only workings with readdir.
+  * Fixed and added support for several identity files.
+  * Fixed sftp_parse_longname() on Windows.
+  * Fixed a race condition bug in ssh_scp_close()
+  * Remove config support for SSHv1 Cipher variable.
+  * Rename ssh_list_add to ssh_list_append.
+  * Rename ssh_list_get_head to ssh_list_pop_head
+
+version 0.4.1 (released 2010-02-13)
+  * Added support for aes128-ctr, aes192-ctr and aes256-ctr encryption.
+  * Added an example for exec.
+  * Added private key type detection feature in privatekey_from_file().
+  * Fixed zlib compression fallback.
+  * Fixed kex bug that client preference should be prioritary
+  * Fixed known_hosts file set by the user.
+  * Fixed a memleak in channel_accept().
+  * Fixed underflow when leave_function() are unbalanced
+  * Fixed memory corruption in handle_channel_request_open().
+  * Fixed closing of a file handle case of errors in privatekey_from_file().
+  * Fixed ssh_get_user_home_dir() to be thread safe.
+  * Fixed the doxygen documentation.
+
+version 0.4.0 (released 2009-12-10)
+  * Added scp support.
+  * Added support for sending signals (RFC 4254, section 6.9).
+  * Added MSVC support.
+  * Added support for ~/.ssh/config.
+  * Added sftp extension support.
+  * Added X11 forwarding support for client.
+  * Added forward listening.
+  * Added support for openssh extensions (statvfs, fstatvfs).
+  * Added a cleaned up interface for setting options.
+  * Added a generic way to handle sockets asynchronously.
+  * Added logging of the sftp flags used to open a file.
+  * Added full poll() support and poll-emulation for win32.
+  * Added missing 64bit functions in sftp.
+  * Added support for ~/ and SSH_DIR/ in filenames instead of %s/.
+  * Fixed Fix channel_get_exit_status bug.
+  * Fixed calltrace logging to make it optional.
+  * Fixed compilation on Solaris.
+  * Fixed resolving of ip addresses.
+  * Fixed libssh compilation without server support.
+  * Fixed possible memory corruptions (ticket #14).
+
+version 0.3.4 (released 2009-09-14)
+  * Added ssh_basename and ssh_dirname.
+  * Added a portable ssh_mkdir function.
+  * Added a sftp_tell64() function.
+  * Added missing NULL pointer checks to crypt_set_algorithms_server.
+  * Fixed ssh_write_knownhost if ~/.ssh doesn't exist.
+  * Fixed a possible integer overflow in buffer_get_data().
+  * Fixed possible security bug in packet_decrypt().
+  * Fixed a possible stack overflow in agent code.
+
+version 0.3.3 (released 2009-08-18)
+  * Fixed double free pointer crash in dsa_public_to_string.
+  * Fixed channel_get_exit_status bug.
+  * Fixed ssh_finalize which didn't clear the flag.
+  * Fixed memory leak introduced by previous bugfix.
+  * Fixed channel_poll broken when delayed EOF recvd.
+  * Fixed stupid "can't parse known host key" bug.
+  * Fixed possible memory corruption (ticket #14).
+
+version 0.3.2 (released 2009-08-05)
+  * Added ssh_init() function.
+  * Added sftp_readlink() function.
+  * Added sftp_symlink() function.
+  * Fixed ssh_write_knownhost().
+  * Fixed compilation on Solaris.
+  * Fixed SSHv1 compilation.
+
+version 0.3.1 (released 2009-07-14)
+  * Added return code SSH_SERVER_FILE_NOT_FOUND.
+  * Fixed compilation of SSHv1.
+  * Fixed several memory leaks.
+  * Fixed possible infinite loops.
+  * Fixed a possible crash bug.
+  * Fixed build warnings.
+  * Fixed cmake on BSD.
+version 0.3.1 (released 2009-07-14)
+  * Added return code SSH_SERVER_FILE_NOT_FOUND.
+  * Fixed compilation of SSHv1.
+  * Fixed several memory leaks.
+  * Fixed possible infinite loops.
+  * Fixed a possible crash bug.
+  * Fixed build warnings.
+  * Fixed cmake on BSD.
+
+version 0.3 (released 2009-05-21)
+  * Added support for ssh-agent authentication.
+  * Added POSIX like sftp implementation.
+  * Added error checking to all functions.
+  * Added const to arguments where it was needed.
+  * Added a channel_get_exit_status() function.
+  * Added a channel_read_buffer() function, channel_read() is now
+    a POSIX like function.
+  * Added a more generic auth callback function.
+  * Added printf attribute checking for log and error functions.
+  * Added runtime function tracer support.
+  * Added NSIS build support with CPack.
+  * Added openssh hashed host support.
+  * Added API documentation for all public functions.
+  * Added asynchronous SFTP read function.
+  * Added a ssh_bind_set_fd() function.
+  * Fixed known_hosts parsing.
+  * Fixed a lot of build warnings.
+  * Fixed the Windows build.
+  * Fixed a lot of memory leaks.
+  * Fixed a double free corruption in the server support.
+  * Fixed the "ssh_accept:" bug in server support.
+  * Fixed important channel bugs.
+  * Refactored the socket handling.
+  * Switched to CMake build system.
+  * Improved performance.
+
+version 0.2 (released 2007-11-29)
+  * General cleanup
+  * More comprehensive API
+  * Up-to-date Doxygen documentation of each public function
+  * Basic server-based support
+  * Libgcrypt support (alternative to openssl and its license)
+  * SSH1 support (disabled by default)
+  * Added 3des-cbc
+  * A lot of bugfixes
+
+version 0.11-dev
+  * Server implementation development.
+  * Small bug corrected when connecting to sun ssh servers.
+  * Channel wierdness corrected (writing huge data packets)
+  * Channel_read_nonblocking added
+  * Channel bug where stderr wasn't correctly read fixed.
+  * Added sftp_file_set_nonblocking(), which is nonblocking SFTP IO
+  * Connect_status callback.
+  * Priv.h contains the internal functions, libssh.h the public interface
+  * Options_set_timeout (thx marcelo) really working.
+  * Tcp tunneling through channel_open_forward.
+  * Channel_request_exec()
+  * Channel_request_env()
+  * Ssh_get_pubkey_hash()
+  * Ssh_is_server_known()
+  * Ssh_write_known_host()
+  * Options_set_ssh_dir
+  * How could this happen ! there weren't any channel_close !
+  * Nasty channel_free bug resolved.
+  * Removed the unsigned long all around the code. use only u8,u32 & u64.
+  * It now compiles and runs under amd64 !
+  * Channel_request_pty_size
+  * Channel_change_pty_size
+  * Options_copy()
+  * Ported the doc to an HTML file.
+  * Small bugfix in packet.c
+  * Prefixed error constants with SSH_
+  * Sftp_stat, sftp_lstat, sftp_fstat. thanks Michel Bardiaux for the patch.
+  * Again channel number mismatch fixed.
+  * Fixed a bug in ssh_select making the select fail when a signal has been
+    caught.
+  * Keyboard-interactive authentication working.
+
+version 0.1 (released 2004-03-05)
+  * Begining of sftp subsystem implementation.
+  * Some cleanup into channels implementation
+  * Now every channel functions is called by its CHANNEL handler.
+  * Added channel_poll() and channel_read().
+  * Changed the client so it uses the new channel_poll and channel_read interface
+  * Small use-after-free bug with channels resolved
+  * Changed stupidities in lot of function names.
+  * Removed a debug output file opened by default.
+  * Added API.txt, the libssh programmer handbook.
+  * Various bug fixes from Nick Zitzmann.
+  * Developed a cryptographic structure for handling protocols.
+  * An autoconf script which took me half of a day to set up.
+  * A ssh_select wrapper has been written.
+
+version 0.0.4 (released 2003-10-10)
+  * Some terminal code (eof handling) added
+  * Channels bugfix (it still needs some tweaking though)
+  * Zlib support
+  * Added a wrapper.c file. The goal is to provide a similar API to every
+    cryptographic functions. bignums and sha/md5 are wrapped now.
+  * More work than it first looks.
+  * Support for other crypto libs planed (lighter libs)
+  * Fixed stupid select() bug.
+  * Libssh now compiles and links with openssl 0.9.6
+  * RSA pubkey authentication code now works !
+
+version 0.0.3 (released 2003-09-15)
+  * Added install target in makefile
+  * Some cleanup in headers files and source code
+  * Change default banner and project name to libssh.
+  * New file auth.c to support more and more authentication ways
+  * Bugfix(read offbyone) in send_kex
+  * A base64 parser. don't read the source, it's awful. pure 0xbadc0de.
+  * Changed the client filename to "ssh". logic isn't it ?
+  * Dss publickey authentication ! still need to wait for the rsa one
+  * Bugfix in packet.c
+  * New misc.c contains misc functions
+
+version 0.0.2 (released 2003-09-03)
+  * Initial release.
+  * Client supports both ssh and dss hostkey verification, but doesn't compare them to openssh's files. (~/.ssh/known_hosts)
+  * The only supported authentication method is password.
+  * Compiles on linux and openbsd. freebsd and netbsd should work, too
+  * Lot of work which hasn't been discussed here.

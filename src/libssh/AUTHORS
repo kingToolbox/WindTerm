@@ -1,0 +1,15 @@
+Author(s):
+Aris Adamantiadis <aris@0xbadc0de.be> (project initiator)
+
+Andreas Schneider <asn@cryptomilk.org> (developer)
+
+Nick Zitzmann <seiryu (at) comcast (dot) net> (mostly client SFTP stuff)
+
+Norbert Kiesel <nkiesel (at) tbdnetworks (dot) com> (getaddrinfo and other patches)
+
+Jean-Philippe Garcia Ballester <giga (at) le-pec (dot) org> (Port to libgcrypt and configure.in voodoo, debian packaging)
+
+Contributor(s):
+
+Laurent Bigonville <bigon (at) bigon (dot) be> (debian packaging)
+

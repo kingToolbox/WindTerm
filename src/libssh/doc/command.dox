@@ -1,0 +1,94 @@
+/**
+@page libssh_tutor_command Chapter 4: Passing a remote command
+@section remote_command Passing a remote command
+
+Previous chapter has shown how to open a full shell session, with an attached
+terminal or not. If you only need to execute a command on the remote end,
+you don't need all that complexity.
+
+The method described here is suited for executing only one remote command.
+If you need to issue several commands in a row, you should consider using
+a non-interactive remote shell, as explained in previous chapter.
+
+@see shell
+
+
+@subsection exec_remote Executing a remote command
+
+The first steps for executing a remote command are identical to those
+for opening remote shells. You first need a SSH channel, and then
+a SSH session that uses this channel:
+
+@code
+int show_remote_files(ssh_session session)
+{
+  ssh_channel channel;
+  int rc;
+
+  channel = ssh_channel_new(session);
+  if (channel == NULL) return SSH_ERROR;
+
+  rc = ssh_channel_open_session(channel);
+  if (rc != SSH_OK)
+  {
+    ssh_channel_free(channel);
+    return rc;
+  }
+@endcode
+
+Once a session is open, you can start the remote command with
+ssh_channel_request_exec():
+
+@code
+  rc = ssh_channel_request_exec(channel, "ls -l");
+  if (rc != SSH_OK)
+  {
+    ssh_channel_close(channel);
+    ssh_channel_free(channel);
+    return rc;
+  }
+@endcode
+
+If the remote command displays data, you get them with ssh_channel_read().
+This function returns the number of bytes read. If there is no more
+data to read on the channel, this function returns 0, and you can go to next step.
+If an error has been encountered, it returns a negative value:
+
+@code
+  char buffer[256];
+  int nbytes;
+
+  nbytes = ssh_channel_read(channel, buffer, sizeof(buffer), 0);
+  while (nbytes > 0)
+  {
+    if (fwrite(buffer, 1, nbytes, stdout) != nbytes)
+    {
+      ssh_channel_close(channel);
+      ssh_channel_free(channel);
+      return SSH_ERROR;
+    }
+    nbytes = ssh_channel_read(channel, buffer, sizeof(buffer), 0);
+  }
+
+  if (nbytes < 0)
+  {
+    ssh_channel_close(channel);
+    ssh_channel_free(channel);
+    return SSH_ERROR;
+  }
+@endcode
+
+Once you read the result of the remote command, you send an
+end-of-file to the channel, close it, and free the memory
+that it used:
+
+@code
+  ssh_channel_send_eof(channel);
+  ssh_channel_close(channel);
+  ssh_channel_free(channel);
+
+  return SSH_OK;
+}
+@endcode
+
+*/

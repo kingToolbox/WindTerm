@@ -1,0 +1,375 @@
+Coding conventions in the libssh tree
+======================================
+
+===========
+Quick Start
+===========
+
+Coding style guidelines are about reducing the number of unnecessary
+reformatting patches and making things easier for developers to work together.
+
+You don't have to like them or even agree with them, but once put in place we
+all have to abide by them (or vote to change them).  However, coding style
+should never outweigh coding itself and so the guidelines described here are
+hopefully easy enough to follow as they are very common and supported by tools
+and editors.
+
+The basic style for C code, is the Linux kernel coding style (See
+Documentation/CodingStyle in the kernel source tree). This closely matches what
+libssh developers use already anyways, with a few exceptions as mentioned
+below.
+
+But to save you the trouble of reading the Linux kernel style guide, here
+are the highlights.
+
+* Maximum Line Width is 80 Characters
+  The reason is not about people with low-res screens but rather sticking
+  to 80 columns prevents you from easily nesting more than one level of
+  if statements or other code blocks.
+
+* Use 4 Spaces to Indent
+
+* No Trailing Whitespace
+  Clean up your files before committing.
+
+* Follow the K&R guidelines.  We won't go through all of them here. Do you
+  have a copy of "The C Programming Language" anyways right?
+
+
+=============
+Editor Hints
+=============
+
+Emacs
+------
+Add the follow to your $HOME/.emacs file:
+
+  (add-hook 'c-mode-hook
+    (lambda ()
+        (c-set-style "linux")
+        (c-toggle-auto-state)))
+
+
+Vim
+----
+
+For the basic vi editor included with all variants of \*nix, add the
+following to $HOME/.vimrc:
+
+    set ts=4 sw=4 et cindent
+
+You can use the Vim gitmodline plugin to store this in the git config:
+
+    https://git.cryptomilk.org/projects/vim-gitmodeline.git/
+
+For Vim, the following settings in $HOME/.vimrc will also deal with
+displaying trailing whitespace:
+
+    if has("syntax") && (&t_Co > 2 || has("gui_running"))
+        syntax on
+        function! ActivateInvisibleCharIndicator()
+            syntax match TrailingSpace "[ \t]\+$" display containedin=ALL
+            highlight TrailingSpace ctermbg=Red
+        endf
+        autocmd BufNewFile,BufRead * call ActivateInvisibleCharIndicator()
+    endif
+    " Show tabs, trailing whitespace, and continued lines visually
+    set list listchars=tab:»·,trail:·,extends:…
+
+    " highlight overly long lines same as TODOs.
+    set textwidth=80
+    autocmd BufNewFile,BufRead *.c,*.h exec 'match Todo /\%>' . &textwidth . 'v.\+/'
+
+
+==========================
+FAQ & Statement Reference
+==========================
+
+Comments
+---------
+
+Comments should always use the standard C syntax.  C++ style comments are not
+currently allowed.
+
+The lines before a comment should be empty. If the comment directly belongs to
+the following code, there should be no empty line after the comment, except if
+the comment contains a summary of multiple following code blocks.
+
+This is good:
+
+    ...
+    int i;
+
+    /*
+     * This is a multi line comment,
+     * which explains the logical steps we have to do:
+     *
+     * 1. We need to set i=5, because...
+     * 2. We need to call complex_fn1
+     */
+
+    /* This is a one line comment about i = 5. */
+    i = 5;
+
+    /*
+     * This is a multi line comment,
+     * explaining the call to complex_fn1()
+     */
+    ret = complex_fn1();
+    if (ret != 0) {
+    ...
+
+    /**
+     * @brief This is a doxygen comment.
+     *
+     * This is a more detailed explanation of
+     * this simple function.
+     *
+     * @param[in]   param1     The parameter value of the function.
+     *
+     * @param[out]  result1    The result value of the function.
+     *
+     * @return              0 on success and -1 on error.
+     */
+    int example(int param1, int *result1);
+
+This is bad:
+
+    ...
+    int i;
+    /*
+     * This is a multi line comment,
+     * which explains the logical steps we have to do:
+     *
+     * 1. We need to set i=5, because...
+     * 2. We need to call complex_fn1
+     */
+    /* This is a one line comment about i = 5. */
+    i = 5;
+    /*
+     * This is a multi line comment,
+     * explaining the call to complex_fn1()
+     */
+    ret = complex_fn1();
+    if (ret != 0) {
+    ...
+
+    /*This is a one line comment.*/
+
+    /* This is a multi line comment,
+       with some more words...*/
+
+    /*
+     * This is a multi line comment,
+     * with some more words...*/
+
+Indention & Whitespace & 80 columns
+------------------------------------
+
+To avoid confusion, indentations have to be 4 spaces. Do not use tabs!.  When
+wrapping parameters for function calls, align the parameter list with the first
+parameter on the previous line.  For example,
+
+    var1 = foo(arg1,
+               arg2,
+               arg3);
+
+The previous example is intended to illustrate alignment of function
+parameters across lines and not as encourage for gratuitous line
+splitting.  Never split a line before columns 70 - 79 unless you
+have a really good reason.  Be smart about formatting.
+
+
+If, switch, & Code blocks
+--------------------------
+
+Always follow an 'if' keyword with a space but don't include additional
+spaces following or preceding the parentheses in the conditional.
+This is good:
+
+    if (x == 1)
+
+This is bad:
+
+    if ( x == 1 )
+
+or
+
+    if (x==1)
+
+Yes we have a lot of code that uses the second and third form and we are trying
+to clean it up without being overly intrusive.
+
+Note that this is a rule about parentheses following keywords and not
+functions.  Don't insert a space between the name and left parentheses when
+invoking functions.
+
+Braces for code blocks used by for, if, switch, while, do..while, etc.  should
+begin on the same line as the statement keyword and end on a line of their own.
+You should always include braces, even if the block only contains one
+statement.  NOTE: Functions are different and the beginning left brace should
+be located in the first column on the next line.
+
+If the beginning statement has to be broken across lines due to length, the
+beginning brace should be on a line of its own.
+
+The exception to the ending rule is when the closing brace is followed by
+another language keyword such as else or the closing while in a do..while loop.
+
+Good examples:
+
+    if (x == 1) {
+        printf("good\n");
+    }
+
+    for (x = 1; x < 10; x++) {
+        print("%d\n", x);
+    }
+
+    for (really_really_really_really_long_var_name = 0;
+         really_really_really_really_long_var_name < 10;
+         really_really_really_really_long_var_name++)
+    {
+        print("%d\n", really_really_really_really_long_var_name);
+    }
+
+    do {
+        printf("also good\n");
+    } while (1);
+
+Bad examples:
+
+    while (1)
+    {
+        print("I'm in a loop!\n"); }
+
+    for (x=1;
+         x<10;
+         x++)
+    {
+        print("no good\n");
+    }
+
+    if (i < 10)
+        print("I should be in braces.\n");
+
+
+Goto
+-----
+
+While many people have been academically taught that "goto"s are fundamentally
+evil, they can greatly enhance readability and reduce memory leaks when used as
+the single exit point from a function. But in no libssh world what so ever is a
+goto outside of a function or block of code a good idea.
+
+Good Examples:
+
+    int function foo(int y)
+    {
+        int *z = NULL;
+        int rc = 0;
+
+        if (y < 10) {
+            z = malloc(sizeof(int)*y);
+            if (z == NULL) {
+                rc = 1;
+                goto done;
+            }
+        }
+
+        print("Allocated %d elements.\n", y);
+
+    done:
+        if (z != NULL) {
+            free(z);
+        }
+
+        return rc;
+    }
+
+Initialize pointers
+-------------------
+
+All pointer variables MUST be initialized to NULL. History has
+demonstrated that uninitialized pointer variables have lead to various
+bugs and security issues.
+
+Pointers MUST be initialized even if the assignment directly follows
+the declaration, like pointer2 in the example below, because the
+instructions sequence may change over time.
+
+Good Example:
+
+    char *pointer1 = NULL;
+    char *pointer2 = NULL;
+
+    pointer2 = some_func2();
+
+    ...
+
+    pointer1 = some_func1();
+
+Typedefs
+---------
+
+libssh tries to avoid "typedef struct { .. } x_t;" so we do always try to use
+"struct x { .. };". We know there are still such typedefs in the code, but for
+new code, please don't do that anymore.
+
+Make use of helper variables
+-----------------------------
+
+Please try to avoid passing function calls as function parameters in new code.
+This makes the code much easier to read and it's also easier to use the "step"
+command within gdb.
+
+Good Example:
+
+    char *name;
+
+    name = get_some_name();
+    if (name == NULL) {
+        ...
+    }
+
+    rc = some_function_my_name(name);
+    ...
+
+
+Bad Example:
+
+    rc = some_function_my_name(get_some_name());
+    ...
+
+Please try to avoid passing function return values to if- or while-conditions.
+The reason for this is better handling of code under a debugger.
+
+Good example:
+
+    x = malloc(sizeof(short) * 10);
+    if (x == NULL) {
+        fprintf(stderr, "Unable to alloc memory!\n");
+    }
+
+Bad example:
+
+    if ((x = malloc(sizeof(short)*10)) == NULL ) {
+        fprintf(stderr, "Unable to alloc memory!\n");
+    }
+
+There are exceptions to this rule. One example is walking a data structure in
+an iterator style:
+
+    while ((opt = poptGetNextOpt(pc)) != -1) {
+        ... do something with opt ...
+    }
+
+But in general, please try to avoid this pattern.
+
+
+Control-Flow changing macros
+-----------------------------
+
+Macros like STATUS_NOT_OK_RETURN that change control flow (return/goto/etc)
+from within the macro are considered bad, because they look like function calls
+that never change control flow. Please do not introduce them.

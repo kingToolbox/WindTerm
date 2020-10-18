@@ -1,0 +1,49 @@
+/**
+@page libssh_tutorial The Tutorial
+@section introduction Introduction
+
+libssh is a C library that enables you to write a program that uses the
+SSH protocol. With it, you can remotely execute programs, transfer
+files, or use a secure and transparent tunnel for your remote programs.
+The SSH protocol is encrypted, ensures data integrity, and provides strong
+means of authenticating both the server of the client. The library hides
+a lot of technical details from the SSH protocol, but this does not
+mean that you should not try to know about and understand these details.
+
+libssh is a Free Software / Open Source project. The libssh library
+is distributed under LGPL license. The libssh project has nothing to do with
+"libssh2", which is a completely different and independent project.
+
+libssh can run on top of either libgcrypt or libcrypto,
+two general-purpose cryptographic libraries.
+
+This tutorial concentrates for its main part on the "client" side of libssh.
+To learn how to accept incoming SSH connections (how to write a SSH server),
+you'll have to jump to the end of this document.
+
+This tutorial describes libssh version 0.5.0. This version is a little different
+from the 0.4.X series. However, the examples should work with
+little changes on versions like 0.4.2 and later.
+
+
+Table of contents:
+
+@subpage libssh_tutor_guided_tour
+
+@subpage libssh_tutor_authentication
+
+@subpage libssh_tutor_shell
+
+@subpage libssh_tutor_command
+
+@subpage libssh_tutor_sftp
+
+@subpage libssh_tutor_scp
+
+@subpage libssh_tutor_forwarding
+
+@subpage libssh_tutor_threads
+
+@subpage libssh_tutor_todo
+
+*/

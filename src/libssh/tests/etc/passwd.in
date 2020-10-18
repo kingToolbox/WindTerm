@@ -1,0 +1,6 @@
+bob:x:5000:9000:bob gecos:@HOMEDIR@/bob:/bin/sh
+alice:x:5001:9000:alice gecos:@HOMEDIR@/alice:/bin/sh
+sshd:x:65530:65531:sshd:@HOMEDIR@:/sbin/nologin
+nobody:x:65533:65534:nobody gecos:@HOMEDIR@:/bin/false
+root:x:65534:65532:root gecos:@HOMEDIR@:/bin/false
+@LOCAL_USER@:x:@LOCAL_UID@:9000:local user:@HOMEDIR@:/bin/false

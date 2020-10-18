@@ -1,0 +1,11 @@
+mbedTLS and libssh in multithreaded applications
+==================================================
+
+To use libssh with mbedTLS in a multithreaded application, mbedTLS has to be
+built with threading support enabled.
+
+If threading support is not available and multi threading is used, ssh_init
+will fail.
+
+More information about building mbedTLS with threading support can be found
+in the mbedTLS documentation.

@@ -1,0 +1,120 @@
+# How to build from source
+
+## Requirements
+
+### Common requirements
+
+In order to build libssh, you need to install several components:
+
+- A C compiler
+- [CMake](https://www.cmake.org) >= 2.6.0.
+- [openssl](https://www.openssl.org) >= 0.9.8
+or
+- [gcrypt](https://www.gnu.org/directory/Security/libgcrypt.html) >= 1.4
+- [libz](https://www.zlib.net) >= 1.2
+
+optional:
+- [cmocka](https://cmocka.org/) >= 1.1.0
+- [socket_wrapper](https://cwrap.org/) >= 1.1.5
+- [nss_wrapper](https://cwrap.org/) >= 1.1.2
+- [uid_wrapper](https://cwrap.org/) >= 1.2.0
+- [pam_wrapper](https://cwrap.org/) >= 1.0.1
+
+Note that these version numbers are version we know works correctly. If you
+build and run libssh successfully with an older version, please let us know.
+
+For Windows use vcpkg:
+
+https://github.com/Microsoft/vcpkg
+
+which you can use to install openssl and zlib. libssh itself is also part of
+vcpkg!
+
+## Building
+First, you need to configure the compilation, using CMake. Go inside the
+`build` dir. Create it if it doesn't exist.
+
+GNU/Linux, MacOS X, MSYS/MinGW:
+
+    cmake -DUNIT_TESTING=ON -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug ..
+    make
+
+On Windows you should choose a makefile gernerator with -G or use
+
+    cmake-gui.exe ..
+
+To enable additional client tests against a local OpenSSH server, add the
+compile option -DCLIENT_TESTING=ON. These tests require an OpenSSH
+server package and some wrapper libraries (see optional requirements) to
+be installed.
+
+If you're interested in server testing, then a OpenSSH client should be
+installed on the system and if possible also dropbear. Once that is done
+enable server support with -DWITH_SERVER=ON and enable testing of it with
+-DSERVER_TESTING=ON.
+
+## Testing build
+
+    make test
+
+### CMake standard options
+Here is a list of the most interesting options provided out of the box by
+CMake.
+
+- CMAKE_BUILD_TYPE:     The type of build (can be Debug Release MinSizeRel
+                        RelWithDebInfo)
+- CMAKE_INSTALL_PREFIX: The prefix to use when running make install (Default
+                        to /usr/local on GNU/Linux and MacOS X)
+- CMAKE_C_COMPILER:     The path to the C compiler
+- CMAKE_CXX_COMPILER:   The path to the C++ compiler
+
+### CMake options defined for libssh
+
+Options are defined in the following files:
+
+- DefineOptions.cmake
+
+They can be changed with the -D option:
+
+`cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug -DWITH_ZLIB=OFF ..`
+
+### Browsing/editing CMake options
+
+In addition to passing options on the command line, you can browse and edit
+CMake options using `cmakesetup` (Windows), `cmake-gui` or `ccmake` (GNU/Linux
+and MacOS X).
+
+- Go to the build dir
+- On Windows: run `cmakesetup`
+- On GNU/Linux and MacOS X: run `ccmake ..`
+
+### Useful Windows options:
+
+If you have installed OpenSSL or ZLIB in non standard directories, maybe you
+want to set:
+
+OPENSSL_ROOT_DIR
+
+and
+
+ZLIB_ROOT_DIR
+
+## Installing
+
+If you want to install libssh after compilation run:
+
+    make install
+
+## Running
+
+The libssh binary can be found in the `build/src` directory.
+You can use `build/examples/samplessh` which is a sample client to
+test libssh on UNIX.
+
+## About this document
+
+This document is written using [Markdown][] syntax, making it possible to
+provide usable information in both plain text and HTML format. Whenever
+modifying this document please use [Markdown][] syntax.
+
+[markdown]: https://www.daringfireball.net/projects/markdown

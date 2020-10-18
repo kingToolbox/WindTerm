@@ -1,0 +1,375 @@
+/**
+@page libssh_tutor_authentication Chapter 2: A deeper insight on authentication
+@section authentication_details A deeper insight on authentication
+
+In our guided tour, we merely mentioned that the user needed to authenticate.
+We didn't explain much in detail how that was supposed to happen.
+This chapter explains better the four authentication methods: with public keys,
+with a password, with challenges and responses (keyboard-interactive), and with
+no authentication at all.
+
+If your software is supposed to connect to an arbitrary server, then you
+might need to support all authentication methods. If your software will
+connect only to a given server, then it might be enough for your software
+to support only the authentication methods used by that server. If you are
+the administrator of the server, it might be your call to choose those
+authentication methods.
+
+It is not the purpose of this document to review in detail the advantages
+and drawbacks of each authentication method. You are therefore invited
+to read the abundant documentation on this topic to fully understand the
+advantages and security risks linked to each method.
+
+
+@subsection pubkeys Authenticating with public keys
+
+libssh is fully compatible with the openssh public and private keys. You
+can either use the automatic public key authentication method provided by
+libssh, or roll your own using the public key functions.
+
+The process of authenticating by public key to a server is the following:
+ - you scan a list of files that contain public keys. each key is sent to
+   the SSH server, until the server acknowledges a key (a key it knows can be
+   used to authenticate the user).
+ - then, you retrieve the private key for this key and send a message
+   proving that you know that private key.
+
+The function ssh_userauth_autopubkey() does this using the available keys in
+"~/.ssh/".  The return values are the following:
+ - SSH_AUTH_ERROR: some serious error happened during authentication
+ - SSH_AUTH_DENIED: no key matched
+ - SSH_AUTH_SUCCESS: you are now authenticated
+ - SSH_AUTH_PARTIAL: some key matched but you still have to provide an other
+                     mean of authentication (like a password).
+
+The ssh_userauth_publickey_auto() function also tries to authenticate using the
+SSH agent, if you have one running, or the "none" method otherwise.
+
+If you wish to authenticate with public key by your own, follow these steps:
+ - Retrieve the public key with ssh_pki_import_pubkey_file().
+ - Offer the public key to the SSH server using ssh_userauth_try_publickey().
+   If the return value is SSH_AUTH_SUCCESS, the SSH server accepts to
+   authenticate using the public key and you can go to the next step.
+ - Retrieve the private key, using the ssh_pki_import_privkey_file() function.
+   If a passphrase is needed, either the passphrase specified as argument or
+   a callback will be used.
+ - Authenticate using ssh_userauth_publickey() with your private key.
+ - Do not forget cleaning up memory using ssh_key_free().
+
+Here is a minimalistic example of public key authentication:
+
+@code
+int authenticate_pubkey(ssh_session session)
+{
+  int rc;
+
+  rc = ssh_userauth_publickey_auto(session, NULL, NULL);
+
+  if (rc == SSH_AUTH_ERROR)
+  {
+     fprintf(stderr, "Authentication failed: %s\n",
+       ssh_get_error(session));
+     return SSH_AUTH_ERROR;
+  }
+
+  return rc;
+}
+@endcode
+
+@see ssh_userauth_publickey_auto()
+@see ssh_userauth_try_publickey()
+@see ssh_userauth_publickey()
+@see ssh_pki_import_pubkey_file()
+@see ssh_pki_import_privkey_file()
+@see ssh_key_free()
+
+
+@subsection password Authenticating with a password
+
+The function ssh_userauth_password() serves the purpose of authenticating
+using a password. It will return SSH_AUTH_SUCCESS if the password worked,
+or one of other constants otherwise. It's your work to ask the password
+and to deallocate it in a secure manner.
+
+If your server complains that the password is wrong, but you can still
+authenticate using openssh's client (issuing password), it's probably
+because openssh only accept keyboard-interactive. Switch to
+keyboard-interactive authentication, or try to configure plain text passwords
+on the SSH server.
+
+Here is a small example of password authentication:
+
+@code
+int authenticate_password(ssh_session session)
+{
+  char *password;
+  int rc;
+
+  password = getpass("Enter your password: ");
+  rc = ssh_userauth_password(session, NULL, password);
+  if (rc == SSH_AUTH_ERROR)
+  {
+     fprintf(stderr, "Authentication failed: %s\n",
+       ssh_get_error(session));
+     return SSH_AUTH_ERROR;
+  }
+
+  return rc;
+}
+@endcode
+
+@see ssh_userauth_password
+
+
+@subsection keyb_int The keyboard-interactive authentication method
+
+The keyboard-interactive method is, as its name tells, interactive. The
+server will issue one or more challenges that the user has to answer,
+until the server takes an authentication decision.
+
+ssh_userauth_kbdint() is the the main keyboard-interactive function.
+It will return SSH_AUTH_SUCCESS,SSH_AUTH_DENIED, SSH_AUTH_PARTIAL,
+SSH_AUTH_ERROR, or SSH_AUTH_INFO, depending on the result of the request.
+
+The keyboard-interactive authentication method of SSH2 is a feature that
+permits the server to ask a certain number of questions in an interactive
+manner to the client, until it decides to accept or deny the login.
+
+To begin, you call ssh_userauth_kbdint() (just set user and submethods to
+NULL) and store the answer.
+
+If the answer is SSH_AUTH_INFO, it means that the server has sent a few
+questions that you should ask the user. You can retrieve these questions
+with the following functions: ssh_userauth_kbdint_getnprompts(),
+ssh_userauth_kbdint_getname(), ssh_userauth_kbdint_getinstruction(), and
+ssh_userauth_kbdint_getprompt().
+
+Set the answer for each question in the challenge using
+ssh_userauth_kbdint_setanswer().
+
+Then, call again ssh_userauth_kbdint() and start the process again until
+these functions returns something else than SSH_AUTH_INFO.
+
+Here are a few remarks:
+ - Even the first call can return SSH_AUTH_DENIED or SSH_AUTH_SUCCESS.
+ - The server can send an empty question set (this is the default behavior
+   on my system) after you have sent the answers to the first questions.
+   You must still parse the answer, it might contain some
+   message from the server saying hello or such things. Just call
+   ssh_userauth_kbdint() until needed.
+ - The meaning of "name", "prompt", "instruction" may be a little
+   confusing. An explanation is given in the RFC section that follows.
+
+Here is a little note about how to use the information from
+keyboard-interactive authentication, coming from the RFC itself (rfc4256):
+
+@verbatim
+
+  3.3 User Interface Upon receiving a request message, the client SHOULD
+  prompt the user as follows: A command line interface (CLI) client SHOULD
+  print the name and instruction (if non-empty), adding newlines. Then for
+  each prompt in turn, the client SHOULD display the prompt and read the
+  user input.
+
+  A graphical user interface (GUI) client has many choices on how to prompt
+  the user. One possibility is to use the name field (possibly prefixed
+  with the application's name) as the title of a dialog window in which
+  the prompt(s) are presented. In that dialog window, the instruction field
+  would be a text message, and the prompts would be labels for text entry
+  fields. All fields SHOULD be presented to the user, for example an
+  implementation SHOULD NOT discard the name field because its windows lack
+  titles; it SHOULD instead find another way to display this information. If
+  prompts are presented in a dialog window, then the client SHOULD NOT
+  present each prompt in a separate window.
+
+  All clients MUST properly handle an instruction field with embedded
+  newlines. They SHOULD also be able to display at least 30 characters for
+  the name and prompts. If the server presents names or prompts longer than 30
+  characters, the client MAY truncate these fields to the length it can
+  display. If the client does truncate any fields, there MUST be an obvious
+  indication that such truncation has occurred.
+
+  The instruction field SHOULD NOT be truncated. Clients SHOULD use control
+  character filtering as discussed in [SSH-ARCH] to avoid attacks by
+  including terminal control characters in the fields to be displayed.
+
+  For each prompt, the corresponding echo field indicates whether or not
+  the user input should be echoed as characters are typed. Clients SHOULD
+  correctly echo/mask user input for each prompt independently of other
+  prompts in the request message. If a client does not honor the echo field
+  for whatever reason, then the client MUST err on the side of
+  masking input. A GUI client might like to have a checkbox toggling
+  echo/mask. Clients SHOULD NOT add any additional characters to the prompt
+  such as ": " (colon-space); the server is responsible for supplying all
+  text to be displayed to the user. Clients MUST also accept empty responses
+  from the user and pass them on as empty strings.
+@endverbatim
+
+The following example shows how to perform keyboard-interactive authentication:
+
+@code
+int authenticate_kbdint(ssh_session session)
+{
+  int rc;
+
+  rc = ssh_userauth_kbdint(session, NULL, NULL);
+  while (rc == SSH_AUTH_INFO)
+  {
+    const char *name, *instruction;
+    int nprompts, iprompt;
+
+    name = ssh_userauth_kbdint_getname(session);
+    instruction = ssh_userauth_kbdint_getinstruction(session);
+    nprompts = ssh_userauth_kbdint_getnprompts(session);
+
+    if (strlen(name) > 0)
+      printf("%s\n", name);
+    if (strlen(instruction) > 0)
+      printf("%s\n", instruction);
+    for (iprompt = 0; iprompt < nprompts; iprompt++)
+    {
+      const char *prompt;
+      char echo;
+
+      prompt = ssh_userauth_kbdint_getprompt(session, iprompt, &echo);
+      if (echo)
+      {
+        char buffer[128], *ptr;
+
+        printf("%s", prompt);
+        if (fgets(buffer, sizeof(buffer), stdin) == NULL)
+          return SSH_AUTH_ERROR;
+        buffer[sizeof(buffer) - 1] = '\0';
+        if ((ptr = strchr(buffer, '\n')) != NULL)
+          *ptr = '\0';
+        if (ssh_userauth_kbdint_setanswer(session, iprompt, buffer) < 0)
+          return SSH_AUTH_ERROR;
+        memset(buffer, 0, strlen(buffer));
+      }
+      else
+      {
+        char *ptr;
+
+        ptr = getpass(prompt);
+        if (ssh_userauth_kbdint_setanswer(session, iprompt, ptr) < 0)
+          return SSH_AUTH_ERROR;
+      }
+    }
+    rc = ssh_userauth_kbdint(session, NULL, NULL);
+  }
+  return rc;
+}
+@endcode
+
+@see ssh_userauth_kbdint()
+@see ssh_userauth_kbdint_getnprompts()
+@see ssh_userauth_kbdint_getname()
+@see ssh_userauth_kbdint_getinstruction()
+@see ssh_userauth_kbdint_getprompt()
+@see ssh_userauth_kbdint_setanswer()
+
+
+@subsection none Authenticating with "none" method
+
+The primary purpose of the "none" method is to get authenticated **without**
+any credential. Don't do that, use one of the other authentication methods,
+unless you really want to grant anonymous access.
+
+If the account has no password, and if the server is configured to let you
+pass, ssh_userauth_none() might answer SSH_AUTH_SUCCESS.
+
+The following example shows how to perform "none" authentication:
+
+@code
+int authenticate_none(ssh_session session)
+{
+  int rc;
+
+  rc = ssh_userauth_none(session, NULL);
+  return rc;
+}
+@endcode
+
+@subsection auth_list Getting the list of supported authentications
+
+You are not meant to choose a given authentication method, you can
+let the server tell you which methods are available. Once you know them,
+you try them one after the other.
+
+The following example shows how to get the list of available authentication
+methods with ssh_userauth_list() and how to use the result:
+
+@code
+int test_several_auth_methods(ssh_session session)
+{
+  int method, rc;
+
+  rc = ssh_userauth_none(session, NULL);
+  if (rc == SSH_AUTH_SUCCESS || rc == SSH_AUTH_ERROR) {
+      return rc;
+  }
+
+  method = ssh_userauth_list(session, NULL);
+
+  if (method & SSH_AUTH_METHOD_NONE)
+  { // For the source code of function authenticate_none(),
+    // refer to the corresponding example
+    rc = authenticate_none(session);
+    if (rc == SSH_AUTH_SUCCESS) return rc;
+  }
+  if (method & SSH_AUTH_METHOD_PUBLICKEY)
+  { // For the source code of function authenticate_pubkey(),
+    // refer to the corresponding example
+    rc = authenticate_pubkey(session);
+    if (rc == SSH_AUTH_SUCCESS) return rc;
+  }
+  if (method & SSH_AUTH_METHOD_INTERACTIVE)
+  { // For the source code of function authenticate_kbdint(),
+    // refer to the corresponding example
+    rc = authenticate_kbdint(session);
+    if (rc == SSH_AUTH_SUCCESS) return rc;
+  }
+  if (method & SSH_AUTH_METHOD_PASSWORD)
+  { // For the source code of function authenticate_password(),
+    // refer to the corresponding example
+    rc = authenticate_password(session);
+    if (rc == SSH_AUTH_SUCCESS) return rc;
+  }
+  return SSH_AUTH_ERROR;
+}
+@endcode
+
+
+@subsection banner Getting the banner
+
+The SSH server might send a banner, which you can retrieve with
+ssh_get_issue_banner(), then display to the user.
+
+The following example shows how to retrieve and dispose the issue banner:
+
+@code
+int display_banner(ssh_session session)
+{
+  int rc;
+  char *banner;
+
+/*
+ *** Does not work without calling ssh_userauth_none() first ***
+ *** That will be fixed ***
+*/
+  rc = ssh_userauth_none(session, NULL);
+  if (rc == SSH_AUTH_ERROR)
+    return rc;
+
+  banner = ssh_get_issue_banner(session);
+  if (banner)
+  {
+    printf("%s\n", banner);
+    free(banner);
+  }
+
+  return rc;
+}
+@endcode
+
+*/

@@ -6,6 +6,10 @@
 
 Below is a list of (some) WindTerm components in alphabetical order, along with a brief description of each.
 
+## Libssh
+
+An improved version based on libssh 0.95. Add support for pageant, external socket, and hmac-md5-96, hmac-sha1-96-etm@openssh.com, hmac-sha1-96, hmac-md5-96-etm@openssh.com. 
+
 ## Onigmo
 
 An improved version based on Onigmo 5.13.5. In particular, **the addition of iterator makes it possible to match gap buffer or nonadjacent memory blocks.** Please refer to the sample files for how to use.

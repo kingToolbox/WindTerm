@@ -253,7 +253,7 @@ static int match_hashed_host(const char *host, const char *sourcehash)
   }
   size = sizeof(buffer);
   hmac_update(mac, host, strlen(host));
-  hmac_final(mac, buffer, &size);
+  hmac_final(mac, buffer, &size, SSH_HMAC_SHA1);
 
   if (size == ssh_buffer_get_len(hash) &&
       memcmp(buffer, ssh_buffer_get(hash), size) == 0) {

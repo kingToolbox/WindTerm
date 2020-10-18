@@ -64,7 +64,7 @@ static int hash_hostname(const char *name,
     }
 
     hmac_update(mac_ctx, name, strlen(name));
-    hmac_final(mac_ctx, *hash, hash_size);
+    hmac_final(mac_ctx, *hash, hash_size, SSH_HMAC_SHA1);
 
     return SSH_OK;
 }

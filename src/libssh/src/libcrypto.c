@@ -431,6 +431,7 @@ HMACCTX hmac_init(const void *key, int len, enum ssh_hmac_e type) {
 
   switch(type) {
     case SSH_HMAC_SHA1:
+    case SSH_HMAC_SHA1_96:
       HMAC_Init_ex(ctx, key, len, EVP_sha1(), NULL);
       break;
     case SSH_HMAC_SHA256:
@@ -440,6 +441,7 @@ HMACCTX hmac_init(const void *key, int len, enum ssh_hmac_e type) {
       HMAC_Init_ex(ctx, key, len, EVP_sha512(), NULL);
       break;
     case SSH_HMAC_MD5:
+    case SSH_HMAC_MD5_96:
       HMAC_Init_ex(ctx, key, len, EVP_md5(), NULL);
       break;
     default:
@@ -454,8 +456,15 @@ void hmac_update(HMACCTX ctx, const void *data, unsigned long len) {
   HMAC_Update(ctx, data, len);
 }
 
-void hmac_final(HMACCTX ctx, unsigned char *hashmacbuf, unsigned int *len) {
+void hmac_final(HMACCTX ctx, unsigned char *hashmacbuf, unsigned int *len, enum ssh_hmac_e type) {
   HMAC_Final(ctx,hashmacbuf,len);
+
+  switch (type) {
+    case SSH_HMAC_SHA1_96:
+    case SSH_HMAC_MD5_96:
+      *len = hmac_digest_len(type);
+      break;
+  }
 
 #if OPENSSL_VERSION_NUMBER > 0x10100000L
   HMAC_CTX_free(ctx);

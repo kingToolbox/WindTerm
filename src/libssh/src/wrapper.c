@@ -55,17 +55,24 @@
 #include "libssh/ecdh.h"
 #include "libssh/curve25519.h"
 
+#define SHA_96_DIGEST_LEN 12
+#define MD5_96_DIGEST_LEN 12
+
 static struct ssh_hmac_struct ssh_hmac_tab[] = {
   { "hmac-sha1",                     SSH_HMAC_SHA1,          false },
+  { "hmac-sha1-96",                  SSH_HMAC_SHA1_96,       false },
   { "hmac-sha2-256",                 SSH_HMAC_SHA256,        false },
   { "hmac-sha2-512",                 SSH_HMAC_SHA512,        false },
   { "hmac-md5",                      SSH_HMAC_MD5,           false },
+  { "hmac-md5-96",                   SSH_HMAC_MD5_96,        false },
   { "aead-poly1305",                 SSH_HMAC_AEAD_POLY1305, false },
   { "aead-gcm",                      SSH_HMAC_AEAD_GCM,      false },
   { "hmac-sha1-etm@openssh.com",     SSH_HMAC_SHA1,          true  },
+  { "hmac-sha1-96-etm@openssh.com",  SSH_HMAC_SHA1_96,       true  },
   { "hmac-sha2-256-etm@openssh.com", SSH_HMAC_SHA256,        true  },
   { "hmac-sha2-512-etm@openssh.com", SSH_HMAC_SHA512,        true  },
   { "hmac-md5-etm@openssh.com",      SSH_HMAC_MD5,           true  },
+  { "hmac-md5-96-etm@openssh.com",   SSH_HMAC_MD5_96,        true  },
   { NULL,                            0,                      false }
 };
 
@@ -77,11 +84,36 @@ size_t hmac_digest_len(enum ssh_hmac_e type) {
   switch(type) {
     case SSH_HMAC_SHA1:
       return SHA_DIGEST_LEN;
+    case SSH_HMAC_SHA1_96:
+      return SHA_96_DIGEST_LEN;
     case SSH_HMAC_SHA256:
       return SHA256_DIGEST_LEN;
     case SSH_HMAC_SHA512:
       return SHA512_DIGEST_LEN;
     case SSH_HMAC_MD5:
+      return MD5_DIGEST_LEN;
+    case SSH_HMAC_MD5_96:
+      return MD5_96_DIGEST_LEN;
+    case SSH_HMAC_AEAD_POLY1305:
+      return POLY1305_TAGLEN;
+    case SSH_HMAC_AEAD_GCM:
+      return AES_GCM_TAGLEN;
+    default:
+      return 0;
+  }
+}
+
+size_t hmac_key_len(enum ssh_hmac_e type) {
+    switch (type) {
+    case SSH_HMAC_SHA1:
+    case SSH_HMAC_SHA1_96:
+      return SHA_DIGEST_LEN;
+    case SSH_HMAC_SHA256:
+      return SHA256_DIGEST_LEN;
+    case SSH_HMAC_SHA512:
+      return SHA512_DIGEST_LEN;
+    case SSH_HMAC_MD5:
+    case SSH_HMAC_MD5_96:
       return MD5_DIGEST_LEN;
     case SSH_HMAC_AEAD_POLY1305:
       return POLY1305_TAGLEN;

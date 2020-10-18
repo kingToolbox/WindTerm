@@ -177,7 +177,7 @@ unsigned char *ssh_packet_encrypt(ssh_session session, void *data, uint32_t len)
             crypto->hmacbuf, session->send_seq);
       memcpy(data, out, len);
   } else {
-      ctx = hmac_init(crypto->encryptMAC, hmac_digest_len(type), type);
+      ctx = hmac_init(crypto->encryptMAC, hmac_key_len(type), type);
       if (ctx == NULL) {
         SAFE_FREE(out);
         return NULL;
@@ -186,7 +186,7 @@ unsigned char *ssh_packet_encrypt(ssh_session session, void *data, uint32_t len)
       if (!etm) {
           hmac_update(ctx, (unsigned char *)&seq, sizeof(uint32_t));
           hmac_update(ctx, data, len);
-          hmac_final(ctx, crypto->hmacbuf, &finallen);
+          hmac_final(ctx, crypto->hmacbuf, &finallen, type);
       }
 
       cipher->encrypt(cipher, (uint8_t*)data + etm_packet_offset, out, len - etm_packet_offset);
@@ -196,7 +196,7 @@ unsigned char *ssh_packet_encrypt(ssh_session session, void *data, uint32_t len)
           PUSH_BE_U32(data, 0, len - etm_packet_offset);
           hmac_update(ctx, (unsigned char *)&seq, sizeof(uint32_t));
           hmac_update(ctx, data, len);
-          hmac_final(ctx, crypto->hmacbuf, &finallen);
+          hmac_final(ctx, crypto->hmacbuf, &finallen, type);
       }
 #ifdef DEBUG_CRYPTO
       ssh_log_hexdump("mac: ", data, len);
@@ -259,7 +259,7 @@ int ssh_packet_hmac_verify(ssh_session session,
       return SSH_ERROR;
   }
 
-  ctx = hmac_init(crypto->decryptMAC, hmac_digest_len(type), type);
+  ctx = hmac_init(crypto->decryptMAC, hmac_key_len(type), type);
   if (ctx == NULL) {
     return -1;
   }
@@ -268,7 +268,7 @@ int ssh_packet_hmac_verify(ssh_session session,
 
   hmac_update(ctx, (unsigned char *) &seq, sizeof(uint32_t));
   hmac_update(ctx, data, len);
-  hmac_final(ctx, hmacbuf, &hmaclen);
+  hmac_final(ctx, hmacbuf, &hmaclen, type);
 
 #ifdef DEBUG_CRYPTO
   ssh_log_hexdump("received mac",mac,hmaclen);

@@ -216,8 +216,8 @@ static const char *default_methods[] = {
   PUBLIC_KEY_ALGORITHMS,
   AES BLOWFISH DES,
   AES BLOWFISH DES,
-  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1",
-  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1",
+  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96",
+  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96",
   "none",
   "none",
   "",
@@ -231,8 +231,8 @@ static const char *supported_methods[] = {
   PUBLIC_KEY_ALGORITHMS,
   CHACHA20 AES BLOWFISH DES_SUPPORTED,
   CHACHA20 AES BLOWFISH DES_SUPPORTED,
-  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1",
-  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1",
+  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96",
+  "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96",
   ZLIB,
   ZLIB,
   "",
@@ -1317,13 +1317,13 @@ int ssh_generate_session_keys(ssh_session session)
     if (session->client) {
         enckey_cli_to_srv_len = crypto->out_cipher->keysize / 8;
         enckey_srv_to_cli_len = crypto->in_cipher->keysize / 8;
-        intkey_cli_to_srv_len = hmac_digest_len(crypto->out_hmac);
-        intkey_srv_to_cli_len = hmac_digest_len(crypto->in_hmac);
+		intkey_cli_to_srv_len = hmac_key_len(crypto->out_hmac);
+		intkey_srv_to_cli_len = hmac_key_len(crypto->in_hmac);
     } else {
         enckey_cli_to_srv_len = crypto->in_cipher->keysize / 8;
         enckey_srv_to_cli_len = crypto->out_cipher->keysize / 8;
-        intkey_cli_to_srv_len = hmac_digest_len(crypto->in_hmac);
-        intkey_srv_to_cli_len = hmac_digest_len(crypto->out_hmac);
+		intkey_cli_to_srv_len = hmac_key_len(crypto->in_hmac);
+		intkey_srv_to_cli_len = hmac_key_len(crypto->out_hmac);
     }
 
     IV_cli_to_srv = malloc(IV_len);

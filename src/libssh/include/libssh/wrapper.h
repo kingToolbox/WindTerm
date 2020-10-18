@@ -38,9 +38,11 @@ enum ssh_kdf_digest {
 
 enum ssh_hmac_e {
   SSH_HMAC_SHA1 = 1,
+  SSH_HMAC_SHA1_96,
   SSH_HMAC_SHA256,
   SSH_HMAC_SHA512,
   SSH_HMAC_MD5,
+  SSH_HMAC_MD5_96,
   SSH_HMAC_AEAD_POLY1305,
   SSH_HMAC_AEAD_GCM
 };
@@ -97,8 +99,9 @@ void evp_final(EVPCTX ctx, unsigned char *md, unsigned int *mdlen);
 
 HMACCTX hmac_init(const void *key,int len, enum ssh_hmac_e type);
 void hmac_update(HMACCTX c, const void *data, unsigned long len);
-void hmac_final(HMACCTX ctx,unsigned char *hashmacbuf,unsigned int *len);
+void hmac_final(HMACCTX ctx,unsigned char *hashmacbuf,unsigned int *len, enum ssh_hmac_e type);
 size_t hmac_digest_len(enum ssh_hmac_e type);
+size_t hmac_key_len(enum ssh_hmac_e type);
 
 int ssh_kdf(struct ssh_crypto_struct *crypto,
             unsigned char *key, size_t key_len,

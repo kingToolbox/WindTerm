@@ -89,7 +89,16 @@ The hardware used for generating the data in these benchmarks was
 
     windows 10 - 2.3 GHz Intel Core i5 and 8GB memory.
 
-**WindTerm1.7, WindTerm 1.2, FileZilla 3.48.1, WinSCP 5.17.2 (Build 10278)** tests are performed on WSL(Ubuntu 18.04.2). 
+**WindTerm1.72, WindTerm 1.2, FileZilla 3.48.1, WinSCP 5.17.2 (Build 10278)** tests are performed on WSL(Ubuntu 18.04.2). 
+
+The version of clients:
+
+| Application | Version | Release Date |
+| --- | --- | --- |
+| windterm | v1.72 | 2020-10-25 |
+| windterm | v1.2 | 2020-06-15 |
+| FileZilla | v3.48.1 | 2020-05-19 |
+| WinScp | v5.17.2 (Build 10278) | 2020-03-09 |
 
 **All test data is for reference only.**
 
@@ -97,8 +106,8 @@ The hardware used for generating the data in these benchmarks was
 
 | | Download Time | Download Rate | Upload Time | Upload Rate |
 | --- | --- | --- | --- | --- |
-| WindTerm 1.7 (Use high speed transfer) | **24s** | **211.6 MB/s** | **21s** | **240.3 MB/s** |
-| WindTerm 1.7 | **24s** | **210.3 MB/s** | **21s** | **239.4 MB/s** |
+| WindTerm 1.72 (Use high speed transfer) | **23s** | **216.3 MB/s** | **20s** | **247.0 MB/s** |
+| WindTerm 1.72 | **23s** | **214.7 MB/s** | **20s** | **244.0 MB/s** |
 | WindTerm 1.2 | 37s | 139.3 MB/s | 43s | 119.9 MB/s |
 | FileZilla | 32s | 161.1 MB/s | 30s | 171.8 MB/s |
 | WinSCP | 81s | 63.7 MB/s | 91s | 56.7 MB/s |
@@ -107,7 +116,7 @@ The hardware used for generating the data in these benchmarks was
 
 | | Download Time | Download Rate | Upload Time | Upload Rate |
 | --- | --- | --- | --- | --- |
-| WindTerm 1.7 | **27s** | **3.8 MB/s** | 13s | 8.1 MB/s |
+| WindTerm 1.7 | **26s** | **3.9 MB/s** | 13s | 8.1 MB/s |
 | WindTerm 1.2 | 32s | 3.4 MB/s | **10s** | **10.7 MB/s** |
 | FileZilla | 48s | 2.2 MB/s | 35s | 3.1 MB/s |
 | WinSCP | 42s | 2.6 MB/s | 12s | 8.9 MB/s |
@@ -119,23 +128,28 @@ The hardware used for generating the data in these benchmarks was
     windows 10 - 2.3 GHz Intel Core i5 and 8GB memory.
     MacOs 10.13 - 2.3 GHz Intel Core i5 and 8GB memory.
 
-**WindTerm 1.7, rxvt, putty, xterm** tests are performed on WSL(Ubuntu 18.04.2). 
+**WindTerm 1.72, rxvt, putty, xterm, Windows Terminal** tests are performed on WSL(Ubuntu 18.04.2). 
 
 **Iterm2, kitty, Alacritty** tests are performed on MacOS shell, 
 
     For WindTerm: No color scheme used in windterm. Color scheme will result in approximately 2% loss and more memory usage.
 
-    For Alacritty: Can not find how to set the scrollback lines limit, so every test use its default setting and no memory usage measured.
+    For Alacritty: Only supports up to 100,000 scrollback lines, so every test use "history: 100000" setting and no memory usage measured.
+
+    For Windows Terminal: Only supports up to 65,535 scrollback lines, so every test use "historySize: 65535" setting and no memory usage measured. 
 
 The version of terminals:
 
-    windterm      v1.7
-    rxvt-unicode: v9.2.2
-    putty:        v0.71
-    xterm:        v3.30
-    iterm2:       v3.3.6
-    alacritty:    v0.3.3
-    kitty:        v0.14.6
+| Application | Version | Release Date |
+| --- | --- | --- |
+| windterm | v1.72 | 2020-10-25 |
+| rxvt-unicode | v9.2.2 | 2016-05-14 |
+| putty | v0.71 | 2019-03-16 |
+| xterm | v3.30 | 2017-06-20 |
+| iterm2 | v3.3.6 | 2019-10-09 |
+| alacritty | v0.5.0 | 2020-07-21 |
+| kitty | v0.14.6 | 2019-09-25 |
+| Windows Terminal | v1.3.2651.0 | 2020-09-22 |
 
 **All test data is for reference only.**
 
@@ -147,19 +161,21 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Lines of scrollback | Data Rate(MB/sec) | Memory Usage(MB) |
 | --- | --- | --- | --- |
-| WindTerm | unlimited | **43.6** | **107.9** |
+| WindTerm | unlimited | **52.1** | **106.6** |
 | rxvt | 1,350,000 | 37.8 | 842.2 | 
 | Putty | 1,350,000 | 4.9 | 733.4 |
 | xterm | 1,350,000 | 2.2 | 3328.4 |
+| Windows Terminal + telnet.exe | 65,535 | 0.1 | Not measured, use 65,535 scrollback lines setting |
 
 2. SSH:
 
 | | Lines of scrollback | Data Rate(MB/sec) | Memory Usage(MB) |
 | --- | --- | --- | --- |
-| WindTerm | unlimited | **42.4** | **110.0** |
+| WindTerm | unlimited | **41.8** | **108.5** |
 | rxvt | 1,350,000 | 40.2 | 842.2 | 
 | Putty | 1,350,000 | 4.8 | 734.9 |
 | xterm | 1,350,000 | 2.3 | 3328.4 |
+| Windows Terminal + ssh.exe | 65,535 | 2.1 | Not measured, use 65,535 scrollback lines setting |
 
 3. Shell:
 
@@ -167,7 +183,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | --- | --- | --- | --- |
 | iterm2 | unlimited | - (Take too long time) | more than 1300 |
 | kitty | unlimited | 17.2 | 2655 |
-| Alacritty | Limited scrollback | 41.4 | - |
+| Alacritty | 100,000 | 41.3 | - |
 
 - time seq 1 n
 
@@ -175,61 +191,66 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | 1.302 | **18.2** |
+| WindTerm | 1.236 | **16.1** |
 | rxvt | 5.082 | 633.3 |
 | putty | 4.161 | 551.1 |
 | xterm | 40.421 | 2500.7 |
 | iterm2 | 2.116 | 146.3 |
 | Kitty | 2.535 | 2376.5 |
-| Alacritty | **1.215** | Not measured, use its default scrollback setting |
+| Alacritty | **1.162** | Not measured, use 100,000 scrollback lines setting |
+| Windows Terminal + ssh.exe | 23.246 | Not measured, use 65,535 scrollback lines setting |
 
 2. n = 2,000,000, scrollback = 2,000,000 Lines
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **2.405** | **32.3** |
+| WindTerm | 2.332 | **24.1** |
 | rxvt | 10.896 | 1266.6 |
 | putty | 16.045 | 1102.6 |
 | xterm | 68.154 | 5005.5 |
 | iterm2 | 4.181 | 383.2 |
 | Kitty | 5.620 | 4749.9 |
-| Alacritty | 2.448 | Not measured, use its default scrollback setting |
+| Alacritty | **2.322** | Not measured, use 100,000 scrollback lines setting |
+| Windows Terminal + ssh.exe | 50.381 | Not measured, use 65,535 scrollback lines setting |
 
 3. n = 5,000,000 scrollback = 5,000,000 Lines
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **5.704** | **69.5** |
+| WindTerm | **5.520** | **68.2** |
 | rxvt | 27.533 | 3166.2 |
 | putty | 45.911 | 2757.1 |
 | xterm | - | Out of memmory |
 | iterm2 | 10.805 | 1048.3 |
 | Kitty | - | Out of memory |
-| Alacritty | 6.172 | Not measured, use its default scrollback setting |
+| Alacritty | 5.799 | Not measured, use 100,000 scrollback lines setting |
+| Windows Terminal + ssh.exe | 130.371 | Not measured, use 65,535 scrollback lines setting |
 
 4. n = 10,000,000 scrollback = 10,000,000 Lines
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | **11.255** | **132.3** |
+| WindTerm | **10.674** | **133.3** |
 | rxvt | - | Out of memory |
 | putty | - | Out of memory |
 | xterm | - | Out of memmory |
 | iterm2 | 20.468 | 2231.3 |
 | Kitty | - | Out of memory |
-| Alacritty | 12.332 | Not measured, use its default scrollback setting |
+| Alacritty | 11.598 | Not measured, use 100,000 scrollback lines setting |
+| Windows Terminal + ssh.exe | 264.739 | Not measured, use 65,535 scrollback lines setting |
 
 5. n = 10,000,000 scrollback = 30 Lines
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | 10.546 | 0.8 |
-| rxvt | 9.687 | **0.1** |
+| WindTerm | 10.167 | 0.7 |
+| rxvt | **9.687** | **0.1** |
 | putty | 95.382 | 0.4 |
 | xterm | 286.510 | **0.1** |
 | iterm2 | 25.448 | 7.4 |
 | Kitty | 16.104 | 0.5 |
-| Alacritty | 12.221 | Not measured, use its default scrollback setting |
+| Alacritty | 11.798 | Not measured, use zero scrollback lines setting |
+| Windows Terminal + ssh.exe | 261.096 | Not measured, use zero scrollback lines setting |
 
 # Latency
 

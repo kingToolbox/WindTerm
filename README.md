@@ -204,13 +204,13 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 
 | | Time(sec) | Memory Usage(MB) |
 | --- | --- | --- |
-| WindTerm | 2.332 | **24.1** |
+| WindTerm | **2.287** | **24.1** |
 | rxvt | 10.896 | 1266.6 |
 | putty | 16.045 | 1102.6 |
 | xterm | 68.154 | 5005.5 |
 | iterm2 | 4.181 | 383.2 |
 | Kitty | 5.620 | 4749.9 |
-| Alacritty | **2.322** | Not measured, use 100,000 scrollback lines setting |
+| Alacritty | 2.322 | Not measured, use 100,000 scrollback lines setting |
 | Windows Terminal + ssh.exe | 50.381 | Not measured, use 65,535 scrollback lines setting |
 
 3. n = 5,000,000 scrollback = 5,000,000 Lines

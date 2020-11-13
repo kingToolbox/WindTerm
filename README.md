@@ -70,9 +70,9 @@ DigeWhite Theme:
 - Supports changing the UI theme. [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
 - Supports setting the tab color. [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
 - Supports closing tabs to the right.
-- Supports setting the windows transparency.
+- Supports setting the windows transparency. [Intro video](https://kingtoolbox.github.io/2020/11/13/windows-opacity/)
 - Supports select-to-copy and middle-click-to-paste.
-- Supports searching text online with Google, Bing, Github, Stackoverflow, Wikipedia and DuckDuckGo.
+- Supports searching text online with Google, Bing, Github, Stackoverflow, Wikipedia and DuckDuckGo. [Intro video](https://kingtoolbox.github.io/2020/11/13/search-online/)
 ### Term
 - Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Supports unicode, emojis, true-color, mouse protocol, etc.

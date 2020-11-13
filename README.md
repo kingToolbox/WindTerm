@@ -45,7 +45,7 @@ DigeWhite Theme:
 
 # Features
 
-### SSH, Telnet, Tcp, Serial
+### SSH, Telnet, Tcp, Shell, Serial
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
 - Supports SSH auto execution when session authenticated.
 - Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
@@ -54,6 +54,7 @@ DigeWhite Theme:
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
 - Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on. [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
 - Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.
+- Supports Cmd, PowerShell and Cmd, PowerShell as administrator.
 ### GUI
 - Session dialog and session tree.
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
@@ -69,9 +70,12 @@ DigeWhite Theme:
 - Supports changing the UI theme. [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
 - Supports setting the tab color. [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
 - Supports closing tabs to the right.
+- Supports setting the windows transparency.
+- Supports select-to-copy and middle-click-to-paste.
+- Supports searching text online with Google, Bing, Github, Stackoverflow, Wikipedia and DuckDuckGo.
 ### Term
 - Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
-- Supports unicode, true-color, mouse protocol, etc.
+- Supports unicode, emojis, true-color, mouse protocol, etc.
 - Supports auto wrap mode. [Intro Video](https://kingtoolbox.github.io/2020/01/22/auto-wrap/)
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.
@@ -312,16 +316,16 @@ DIGEdit is the text component of WindTerm.
 
   2-4 weeks.
 
-**Next release (Early November，for reference only):**
+**Next release (Late November，for reference only):**
 - **Linux Version**
-- Linux bash
-- Windows Opacity
+- **Linux Shells**
 - Xmodem, Ymodem, Zmodem(sz, rz)
 - External tools
 
 **Todo list:**
 - Protocols:
   - Rlogin
+  - Mosh
   - SSH
     - ProxyCommand
 - UI:

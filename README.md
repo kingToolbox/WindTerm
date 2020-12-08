@@ -15,9 +15,9 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
 # Download
 
-Windows Binary: https://github.com/kingToolbox/WindTerm/releases
+**Linux binary** and **Windows binary**: https://github.com/kingToolbox/WindTerm/releases
 
-(The binary of Macos and Linux will be committed later)
+(The binary of Macos will be committed later)
 
 # Source Code
 

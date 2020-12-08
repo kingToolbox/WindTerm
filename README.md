@@ -27,7 +27,11 @@ Open source code includes, but is not limited to, the classes that can be used i
 
 # Issues and feature requests
 
-Any issues and feature requests are welcome. Please click [issues](https://github.com/kingToolbox/WindTerm/issues) to commit an issue.
+Any issues and feature requests are welcome.
+
+Please click [issues](https://github.com/kingToolbox/WindTerm/issues) to commit an issue or a feature request.
+
+Please click [Discussion](https://github.com/kingToolbox/WindTerm/discussions) to discuss anything about SSH, SFtp, Shell(Linux shell, Windows cmd and powershell), Telnet, Serial and WindTerm.
 
 # Screenshots
 

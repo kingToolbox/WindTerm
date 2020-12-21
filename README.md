@@ -58,7 +58,8 @@ DigeWhite Theme:
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
 - Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on. [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
 - Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.
-- Supports Cmd, PowerShell and Cmd, PowerShell as administrator.
+- Supports Windows Cmd, PowerShell and Cmd, PowerShell as administrator.
+- Supports Linux bash, zsh, powershell core and so on.
 ### GUI
 - Session dialog and session tree.
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
@@ -77,6 +78,7 @@ DigeWhite Theme:
 - Supports setting the windows transparency. [Intro video](https://kingtoolbox.github.io/2020/11/13/windows-opacity/)
 - Supports select-to-copy and middle-click-to-paste.
 - Supports searching text online with Google, Bing, Github, Stackoverflow, Wikipedia and DuckDuckGo. [Intro video](https://kingtoolbox.github.io/2020/11/13/search-online/)
+- Supports hiding mouse cursor while typing.
 ### Term
 - Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Supports unicode, emojis, true-color, mouse protocol, etc.
@@ -260,6 +262,53 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | Alacritty | 11.798 | Not measured, use zero scrollback lines setting |
 | Windows Terminal + ssh.exe | 261.096 | Not measured, use zero scrollback lines setting |
 
+# Linux Terminal Performance
+
+The hardware used for generating the data in these benchmarks was
+
+    Debian 10 Vm - 4cpu and 4GB memory.
+
+    For WindTerm: No color scheme used in windterm. Color scheme will result in approximately 2% loss and more memory usage.
+
+    For other terminals: No memory usage measured because most of them write the history to disk or only support a limited number of lines in memory..
+
+The version of terminals:
+
+| Application | Version | Release Date |
+| --- | --- | --- |
+| Windterm | v1.9 | 2020-12-22 |
+| Gnome | v3.30.2 | 2018-10-22 |
+| Mate Terminal | v1.20.2 | 2019-02-11 |
+| Konsole | v18.04.0 | 2019-04-12 |
+| Xfce4 Terminal | v0.8.7.4 | 2018-5-15 |
+| QTerminal | v0.14.1 | 2019-01-26 |
+
+**All test data is for reference only.**
+
+- 97.6MB random text (102,401,504 bytes, 1,329,878 lines, generated and tested by [random_test.sh](https://github.com/kingToolbox/WindTerm/blob/master/benchmark/urandom_test.sh))
+
+In all cases, three runs were made to warm system caches. The reported numbers are the median of five runs. 
+
+| | Cost Time |
+| --- | --- |
+| WindTerm | **1.976s** |
+| Gnome Terminal  | 9.781s |
+| Mate Terminal  | 9.841s |
+| Konsole | 25.050s |
+| xfce4 Terminal | 10.520s |
+| QTerminal | 20.763s |
+
+- time seq 1 n (scrollback lines: unlimited)
+
+| n | 1,000,000 | 2,000,000 | 5,000,000 | 10,000,000 | 10,000,000<br>(scrollback lines: 100) |
+| --- | --- | --- | --- | --- | --- |
+| WindTerm | 0.846s (18.6MB) | **1.574s** (26.6MB) | **4.046s** (56.4MB) | **8.232s** (102.2MB) | **7.748s** (3.4MB) | 
+| Gnome Terminal  | 0.920s | 2.152s | 5.271s | 11.111s | 13.109s |
+| Mate Terminal  | **0.822s** | 1.698s | 5.943s | 10.920s | 12.290s |
+| Konsole | 1.612s | 3.199s | 8.157s | 16.029s | 15.650s |
+| xfce4 Terminal | 0.870s | 2.160s | 5.866s | 12.089s | 13.304s |
+| QTerminal | 9.272s | 18.391s | 45.999s | 104.277s | 17.208s |
+
 # Latency
 
 Considering the network influence on the latency, the following data is from [WindEdit](https://github.com/kingToolbox/digedit).
@@ -275,7 +324,6 @@ DIGEdit is the text component of WindTerm.
 
 | Shortcut | Action |
 | --- | --- |
-| Alt+C | Copy |
 | Alt+D | Show command palette |
 | Alt+F | Find |
 | Alt+F3 | Find next |
@@ -290,13 +338,11 @@ DIGEdit is the text component of WindTerm.
 | Alt+T, Alt+F | Toggle margin fold |
 | Alt+T, Alt+N | Toggle margin number |
 | Alt+T, Alt+S | Toggle margin symbol |
-| Alt+V | Paste |
 | Alt+W, Alt+D | Close active dock |
 | Alt+W, Alt+G | Close active group |
 | Alt+W, Alt+H | Split horizontally |
 | Alt+W, Alt+L | Show outline pane |
 | Alt+W, Alt+V | Split vertically |
-| Alt+X | Copy and paste |
 | Alt+- | Zoom in |
 | Alt++ | Zoom out |
 | Alt+\[ | Activate next view |
@@ -307,6 +353,9 @@ DIGEdit is the text component of WindTerm.
 | Ctrl+Shift+T | Reopen closed session |
 | Ctrl+Shift+W | Close current session |
 | Ctrl+Shift+- | Select current fold text |
+| Ctrl+Shift+C | Copy |
+| Ctrl+Shift+V | Paste |
+| Ctrl+Shift+X | Copy and paste |
 | Shift+Del | Copy |
 | Shift+End | Jump to document end |
 | Shift+Home | Jump to document home |
@@ -320,20 +369,21 @@ DIGEdit is the text component of WindTerm.
 
   2-4 weeks.
 
-**Next release (Late November，for reference only):**
-- **Linux Version**
-- **Linux Shells**
-- Xmodem, Ymodem, Zmodem(sz, rz)
+**Next release (Mid January，for reference only):**
+- Mosh
+- Git Bash
+- SSH
+  - x11 (Linux Version)
+  - ProxyCommand
+- Shell Pane
 - External tools
-
-**Todo list:**
-- Protocols:
-  - Rlogin
-  - Mosh
-  - SSH
-    - ProxyCommand
 - UI:
   - Config dialog
+
+**Todo list:**
+- Xmodem, Ymodem, Zmodem(sz, rz)
+- Protocols:
+  - Rlogin
 - Terminal:
   - MacOs bash
 - Session:

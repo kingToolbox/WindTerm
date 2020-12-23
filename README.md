@@ -232,7 +232,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | WindTerm | **5.520** | **68.2** |
 | rxvt | 27.533 | 3166.2 |
 | putty | 45.911 | 2757.1 |
-| xterm | - | Out of memmory |
+| xterm | - | Out of memory |
 | iterm2 | 10.805 | 1048.3 |
 | Kitty | - | Out of memory |
 | Alacritty | 5.799 | Not measured, use 100,000 scrollback lines setting |
@@ -245,7 +245,7 @@ In all cases, three runs were made to warm system caches. The reported numbers a
 | WindTerm | **10.674** | **133.3** |
 | rxvt | - | Out of memory |
 | putty | - | Out of memory |
-| xterm | - | Out of memmory |
+| xterm | - | Out of memory |
 | iterm2 | 20.468 | 2231.3 |
 | Kitty | - | Out of memory |
 | Alacritty | 11.598 | Not measured, use 100,000 scrollback lines setting |

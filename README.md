@@ -342,7 +342,6 @@ DIGEdit is the text component of WindTerm.
 - New memory allocator and manager and 
 - Search in sessions.
 - Xmodem, Ymodem, Zmodem(sz, rz)
-- New 
 
 **Featurs of version 2.x:**
 - Shell Pane

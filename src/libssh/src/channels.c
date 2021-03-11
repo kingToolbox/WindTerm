@@ -2922,6 +2922,12 @@ int ssh_channel_read_timeout(ssh_channel channel,
                                       timeout_ms,
                                       ssh_channel_read_termination,
                                       &ctx);
+
+  if (rc == SSH_AGAIN && ssh_is_blocking(session)) {
+	  ssh_set_error(session, SSH_FATAL, "Handle packets timeout.");
+	  return rc;
+  }
+
   if (rc == SSH_ERROR){
     return rc;
   }

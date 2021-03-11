@@ -339,7 +339,7 @@ DIGEdit is the text component of WindTerm.
   3-4 weeks.
   
 **Features of version 2.1 (Early April，for reference only):**
-- New memory allocator and manager and 
+- New memory allocator and manager and garbage collector.
 - Search in sessions.
 - Xmodem, Ymodem, Zmodem(sz, rz)
 

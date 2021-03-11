@@ -30,6 +30,10 @@ A quick circular buffer template class.
 
 A very safe encryption class using the PBKDF2-algorithm as defined in RFC 8018. WindTerm uses this class together with the user's master password to protect user data, including passwords, private keys and so on.
 
+## Utility/MemoryPointer.h
+
+A smart memory pointer.
+
 ## Utility/ScopeGuard.h
 
 A class of which the sole purpose is to run the function f in its destructor. This is useful for guaranteeing your cleanup code is executed.

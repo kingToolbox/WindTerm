@@ -52,6 +52,7 @@ DigeWhite Theme:
 ### SSH, Telnet, Tcp, Shell, Serial
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
 - Supports SSH auto execution when session authenticated.
+- Supports SSH ProxyCommand or ProxyJump. [Intro Video](https://kingtoolbox.github.io/2021/03/11/proxycommand/)
 - Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
 - Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
 - Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
@@ -62,6 +63,7 @@ DigeWhite Theme:
 - Supports Linux bash, zsh, powershell core and so on.
 ### GUI
 - Session dialog and session tree.
+- **Enhanced protection of the session username and password.** [Intro Video](https://kingtoolbox.github.io/2021/03/11/protection-username-password/)
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
 - **Quick Bar.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/quickbar/)
@@ -74,6 +76,7 @@ DigeWhite Theme:
 - Supports highlighting the opening and closing delimiter, such as (), [], {} and the customed delimiters. [Intro Video](https://kingtoolbox.github.io/2020/06/28/pair/)
 - Supports changing the UI theme. [Intro Video](https://kingtoolbox.github.io/2020/09/18/theme/)
 - Supports setting the tab color. [Intro Video](https://kingtoolbox.github.io/2020/09/18/tabbar-change-tabcolor/)
+- Supports searching over the opened tabs. [Intro Video](https://kingtoolbox.github.io/2021/03/11/tabbar-search-tab/)
 - Supports closing tabs to the right.
 - Supports setting the windows transparency. [Intro video](https://kingtoolbox.github.io/2020/11/13/windows-opacity/)
 - Supports select-to-copy and middle-click-to-paste.
@@ -86,7 +89,8 @@ DigeWhite Theme:
 - Protocols and terms can be customed.
 - All vttest tests have passed except Tektronix 4014.
 ### Session
-- **Supports HTTP and SOCKS5 proxy.** [Intro Video](https://kingtoolbox.github.io/2020/10/17/proxy/)
+- **Supports HTTP and SOCKS5 proxy.** [Intro Video](https://kingtoolbox.github.io/2021/03/11/proxy-http-socks5/)
+- **Supports Jump Server proxy.** [Intro Video](https://kingtoolbox.github.io/2021/03/11/proxy-jump-server/)
 - Supports manual and automated session logging. [Intro Video](https://kingtoolbox.github.io/tags/logging/)
 - Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
 - Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
@@ -326,67 +330,27 @@ DIGEdit is the text component of WindTerm.
 
 # Shortcuts
 
-| Shortcut | Action |
-| --- | --- |
-| Alt+D | Show command palette |
-| Alt+F | Find |
-| Alt+F3 | Find next |
-| Alt+Shift+F3 | Find previous |
-| Alt+F4 | Exit |
-| Alt+M, Alt+F | Toggle full screen |
-| Alt+M, Alt+H | Toggle hex view |
-| Alt+N | New session |
-| Alt+O | Open session |
-| Alt+S | Save text |
-| Alt+T, Alt+B | Toggle margin blank |
-| Alt+T, Alt+F | Toggle margin fold |
-| Alt+T, Alt+N | Toggle margin number |
-| Alt+T, Alt+S | Toggle margin symbol |
-| Alt+W, Alt+D | Close active dock |
-| Alt+W, Alt+G | Close active group |
-| Alt+W, Alt+H | Split horizontally |
-| Alt+W, Alt+L | Show outline pane |
-| Alt+W, Alt+V | Split vertically |
-| Alt+- | Zoom in |
-| Alt++ | Zoom out |
-| Alt+\[ | Activate next view |
-| Alt+] | Activate previous view |
-| Ctrl+. | Jump to next fold |
-| Ctrl+, | Jump to previous fold |
-| Ctrl+Shift+A | Select all text |
-| Ctrl+Shift+T | Reopen closed session |
-| Ctrl+Shift+W | Close current session |
-| Ctrl+Shift+- | Select current fold text |
-| Ctrl+Shift+C | Copy |
-| Ctrl+Shift+V | Paste |
-| Ctrl+Shift+X | Copy and paste |
-| Shift+Del | Copy |
-| Shift+End | Jump to document end |
-| Shift+Home | Jump to document home |
-| Shift+Ins | Paste |
-| Shift+PgDown | Jump to next page |
-| Shift+PgUp | Jump to previous page |
+[Shortcut Keys List](https://kingtoolbox.github.io/tags/keyboard/)
 
 # Roadmap
 
 **Release cycle:**
 
-  2-4 weeks.
+  3-4 weeks.
+  
+**Features of version 2.1 (Early April，for reference only):**
+- New memory allocator and manager and 
+- Search in sessions.
+- Xmodem, Ymodem, Zmodem(sz, rz)
+- New 
 
-**Next release (Mid January，for reference only):**
-- Mosh
-- Git Bash
-- SSH
-  - x11 (Linux Version)
-  - ProxyCommand
+**Featurs of version 2.x:**
 - Shell Pane
 - External tools
 - UI:
   - Config dialog
-
-**Todo list:**
-- Xmodem, Ymodem, Zmodem(sz, rz)
 - Protocols:
+  - Mosh
   - Rlogin
 - Terminal:
   - MacOs bash

@@ -1,9 +1,9 @@
 # WindTerm
-A professional SSH/Telnet/Serial/Shell/Sftp client for DevOps.
+A Quicker and better SSH/Telnet/Serial/Shell/Sftp client for DevOps.
 
 _Hello WindTerm :rose:, hello world!_
 
-**We're just beginning! If you want a high performance text editor, you can try [WindEdit](https://www.github.com/kingToolbox/DIGEdit/).**
+**We're just beginning! If you want a high performance text editor, you can try [WindEdit](https://www.github.com/kingToolbox/WindEdit/).**
 
 # License
 **Completely FREE for commercial and non-commercial use without limitations.**
@@ -15,9 +15,7 @@ See [Intro Videos](https://kingtoolbox.github.io)
 
 # Download
 
-**Linux binary** and **Windows binary**: https://github.com/kingToolbox/WindTerm/releases
-
-(The binary of Macos will be committed later)
+**Linux binary**, **MacOS binary** and **Windows binary**: https://github.com/kingToolbox/WindTerm/releases
 
 # Source Code
 
@@ -57,15 +55,20 @@ DigeWhite Theme:
 - Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
 - Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
+- Supports XModem, YModem and ZModem. [Intro Video](https://kingtoolbox.github.io/tags/modem/)
 - Integrated sftp, scp client, supports download, upload, remove, rename, make new file/directory and so on. [Intro Video](https://kingtoolbox.github.io/tags/transfer/)
 - Integrated local file manager, supports move to, copy to, copy from, remove, rename, make new file/directory and so on.
 - Supports Windows Cmd, PowerShell and Cmd, PowerShell as administrator.
 - Supports Linux bash, zsh, powershell core and so on.
+- Supports MacOS bash, zsh, powershell core and so on.
 ### GUI
 - Session dialog and session tree.
+- **Focus Mode.** [Intro Video](https://kingtoolbox.github.io/2021/06/28/ui_focus_mode/)
+- **Sync Input.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/sync-input/)
 - **Enhanced protection of the session username and password.** [Intro Video](https://kingtoolbox.github.io/2021/03/11/protection-username-password/)
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
+- **Explorer Pane.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/explorer/)
 - **Quick Bar.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/quickbar/)
 - **Paste Dialog.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/paste_dialog/)
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
@@ -79,9 +82,10 @@ DigeWhite Theme:
 - Supports searching over the opened tabs. [Intro Video](https://kingtoolbox.github.io/2021/03/11/tabbar-search-tab/)
 - Supports closing tabs to the right.
 - Supports setting the windows transparency. [Intro video](https://kingtoolbox.github.io/2020/11/13/windows-opacity/)
-- Supports select-to-copy and middle-click-to-paste.
+- Supports select-to-copy, right-click-to-paste or middle-click-to-paste.
 - Supports searching text online with Google, Bing, Github, Stackoverflow, Wikipedia and DuckDuckGo. [Intro video](https://kingtoolbox.github.io/2020/11/13/search-online/)
 - Supports hiding mouse cursor while typing.
+- **Supports locking screen.** [Intro video](https://kingtoolbox.github.io/2021/04/23/lock-screen/)
 ### Term
 - Supports vt100, vt220, vt340, vt420, vt520, xterm, xterm-256-colors.
 - Supports unicode, emojis, true-color, mouse protocol, etc.
@@ -338,10 +342,13 @@ DIGEdit is the text component of WindTerm.
 
   3-4 weeks.
   
-**Features of version 2.1 (Early April，for reference only):**
-- New memory allocator and manager and garbage collector.
-- Search in sessions.
-- Xmodem, Ymodem, Zmodem(sz, rz)
+**Features of version 2.2 (Mid-August，for reference only):**
+- SSH ControlMaster
+- SSH Agent Forwaring
+- Global Settings Dialog Box
+- Multilingual User Interface
+- New memory allocator and manager and garbage collector. (Postponed to v2.3)
+- Search in sessions. (Postponed to v2.3)
 
 **Featurs of version 2.x:**
 - Shell Pane
@@ -351,8 +358,6 @@ DIGEdit is the text component of WindTerm.
 - Protocols:
   - Mosh
   - Rlogin
-- Terminal:
-  - MacOs bash
 - Session:
   - Auto Complete
   - Chat mode

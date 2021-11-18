@@ -50,6 +50,7 @@ DigeWhite Theme:
 ### SSH, Telnet, Tcp, Shell, Serial
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
 - Supports SSH auto execution when session authenticated.
+- Supports SSH ControlMaster.
 - Supports SSH ProxyCommand or ProxyJump. [Intro Video](https://kingtoolbox.github.io/2021/03/11/proxycommand/)
 - Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
 - Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
@@ -62,6 +63,7 @@ DigeWhite Theme:
 - Supports Linux bash, zsh, powershell core and so on.
 - Supports MacOS bash, zsh, powershell core and so on.
 ### GUI
+- **Supports Multilingual User Interface.**
 - Session dialog and session tree.
 - **Focus Mode.** [Intro Video](https://kingtoolbox.github.io/2021/06/28/ui_focus_mode/)
 - **Sync Input.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/sync-input/)
@@ -69,6 +71,7 @@ DigeWhite Theme:
 - **Command palette.** [Intro Video](https://kingtoolbox.github.io/tags/command-palette/)
 - **Command sender.** [Intro Video](https://kingtoolbox.github.io/tags/sender/)
 - **Explorer Pane.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/explorer/)
+- **Shell Pane.**
 - **Quick Bar.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/quickbar/)
 - **Paste Dialog.** [Intro Video](https://kingtoolbox.github.io/2020/08/22/paste_dialog/)
 - **Local and remote modes with vim keybindings. (Using Shift+Enter key to switch between remote and local mode**) [Intro Video](https://kingtoolbox.github.io/2020/06/21/keyboard-modes/)
@@ -98,6 +101,7 @@ DigeWhite Theme:
 - Supports manual and automated session logging. [Intro Video](https://kingtoolbox.github.io/tags/logging/)
 - Rename and duplicate session. [Intro Video](https://kingtoolbox.github.io/tags/tabbar/)
 - Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
+- Supports opening a specific session or set of sessions on startup.
 ### Performance
 - High performance, low memory, low latency. [Intro Video](https://kingtoolbox.github.io/2020/01/23/windterm-putty-performance/)
 
@@ -340,21 +344,23 @@ DIGEdit is the text component of WindTerm.
 
 **Release cycle:**
 
-  3-4 weeks.
+  4-8 weeks.
   
-**Features of version 2.2 (Mid-August，for reference only):**
-- SSH ControlMaster
-- SSH Agent Forwaring
-- Global Settings Dialog Box
-- Multilingual User Interface
-- New memory allocator and manager and garbage collector. (Postponed to v2.3)
-- Search in sessions. (Postponed to v2.3)
+**Prerelease cycle:**
+
+  1~2 weeks
+
+**Features of version 2.3 (Mid-December，for reference only):**
+- Automatic Completion
+- Command Snippet [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488)
+- Move Caret By Mouse issue [#239](https://github.com/kingToolbox/WindTerm/issues/239)
+- Free Type Mode
+- SSH Agent Forwaring (Postponed to a later version )
+- New memory allocator and manager and garbage collector. (Postponed to a later version )
+- Search in sessions. (Postponed to a later version )
 
 **Featurs of version 2.x:**
-- Shell Pane
 - External tools
-- UI:
-  - Config dialog
 - Protocols:
   - Mosh
   - Rlogin
@@ -366,3 +372,11 @@ DIGEdit is the text component of WindTerm.
   - ftp, ftps
 - Script, macro and plugin stystem
 - More ...
+
+**Release Schedule:**
+Version | Level | Target | Status | Timeline
+------------ | ------------- | -------------- | ---------- | -----------
+v0.x | Basic | Basic framework and basic features, but complete a high-performance text editor ([WindEdit](https://github.com/kingToolbox/WindEdit))  as the base, and be able to use them normally.  | Finished | Long long ago ~ Sprint of 2020
+v1.x | Manual | Perfect features and can be used by most developers in their daily work | Finished | Spring of 2020 ~ Winter of 2020 
+**v2.x** | **Semi automatic** | **Through triggers, macros, events, notifications and so on, developers can be assisted to complete some operations.** | **Developing** | **Spring of 2021 ~ Summer of 2022**
+v3.x | Fully automatic | Through plugins, scripts, machine learning and so on, automatically operating with achieving non-attended | Planning | Summer of 2022 ~ Winter of 2023

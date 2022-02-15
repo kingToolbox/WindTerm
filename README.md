@@ -63,7 +63,9 @@ DigeWhite Theme:
 - Supports Linux bash, zsh, powershell core and so on.
 - Supports MacOS bash, zsh, powershell core and so on.
 ### GUI
+- **Supports Windows, MacOS and Linux.**
 - **Supports Multilingual User Interface.**
+- Supports Unicode 13.
 - Session dialog and session tree.
 - **Focus Mode.** [Intro Video](https://kingtoolbox.github.io/2021/06/28/ui_focus_mode/)
 - **Sync Input.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/sync-input/)
@@ -350,16 +352,21 @@ DIGEdit is the text component of WindTerm.
 
   1~2 weeks
 
-**Features of version 2.3 (Mid-December，for reference only):**
-- Automatic Completion
-- Command Snippet [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488)
-- Move Caret By Mouse issue [#239](https://github.com/kingToolbox/WindTerm/issues/239)
-- Free Type Mode
+# Roadmap of v2.4 (Mid-March, for reference only)
+- **Dynamic memory compression**
+- **Improved Filer**
+- **Improved XServer**
+- **Improved SSH tunnels**
+- **Move Caret By Mouse** #239 
+- **Free Type Mode**
+- Automatic Completion (Postponed to a later version )
+- Command Snippet [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488) (Postponed to a later version )
+- SSH GSSAPI Authentication (Postponed to a later version )
 - SSH Agent Forwaring (Postponed to a later version )
 - New memory allocator and manager and garbage collector. (Postponed to a later version )
 - Search in sessions. (Postponed to a later version )
 
-**Featurs of version 2.x:**
+**Roadmap of version 2.x:**
 - External tools
 - Protocols:
   - Mosh

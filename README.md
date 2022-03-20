@@ -356,7 +356,7 @@ DIGEdit is the text component of WindTerm.
 - **Dynamic memory compression**
 - **Improved Filer**
 - **Improved XServer**
-- **Improved SSH tunnels**
+- **Improved SSH tunnels** 
 - **Move Caret By Mouse** #239 
 - **Free Type Mode**
 - Automatic Completion (Postponed to a later version )
@@ -365,6 +365,8 @@ DIGEdit is the text component of WindTerm.
 - SSH Agent Forwaring (Postponed to a later version )
 - New memory allocator and manager and garbage collector. (Postponed to a later version )
 - Search in sessions. (Postponed to a later version )
+
+Download: [WindTerm 2.4.0 Prerelease 1](https://github.com/kingToolbox/WindTerm/releases/tag/2.4-prerelease) (2022-3-20)
 
 **Roadmap of version 2.x:**
 - External tools

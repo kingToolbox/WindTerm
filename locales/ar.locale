@@ -1,0 +1,3513 @@
+{
+ "language": "Arabic - عربي",
+ "layoutDirection": "RightToLeft",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "أدوات $(المخطط)"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 غير معتمد من قبل%3."
+ },{
+  "en": "%1 copied",
+  "tr": "تم نسخ%1"
+ },{
+  "en": "%1 downloaded",
+  "tr": "تم تنزيل%1"
+ },{
+  "en": "%1 File",
+  "tr": "ملف%1"
+ },{
+  "en": "%1 item failed",
+  "tr": "فشل%1 عنصر"
+ },{
+  "en": "%1 items",
+  "tr": "%1 عنصر"
+ },{
+  "en": "%1 items failed",
+  "tr": "فشل%1 عنصر"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 عنصر / ثانية"
+ },{
+  "en": "%1 of %2",
+  "tr": "٪1 من 2"
+ },{
+  "en": "%1 removed",
+  "tr": "تمت إزالة%1"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 هذا%2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "تم تحميل%1"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1 /%2 سرعة:%3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1:%2 محاولات كلمة مرور فاشلة."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> تغير </b> و <b> إعادة تحميل </b> ، التراجع <b> غير </b> مسموح به للملف الكبير."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> <b> تغير </b> و <b> أعيد تحميل </b> ، التراجع مسموح به."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> <b> تغير </b> ، هل تريد إعادة تحميله؟"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> تم <b> نقله أو حذفه </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "تم الضغط على(%1). في انتظار المزيد من المفاتيح"
+ },{
+  "en": "1 Char",
+  "tr": "1 شار"
+ },{
+  "en": "16 Columns",
+  "tr": "16 عمودًا"
+ },{
+  "en": "2 Chars",
+  "tr": "2 حرف"
+ },{
+  "en": "24 Columns",
+  "tr": "24 عمودًا"
+ },{
+  "en": "32 Columns",
+  "tr": "32 عمودًا"
+ },{
+  "en": "4 Chars",
+  "tr": "4 حرف"
+ },{
+  "en": "8 Chars",
+  "tr": "8 حرف"
+ },{
+  "en": "8 Columns",
+  "tr": "8 أعمدة"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "تُستخدم كلمة المرور الرئيسية لحماية المعلومات الحساسة مثل كلمات مرور SSH."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "يجب أن يكون الاسم أقل من 255 حرفًا ولا يمكن أن يحتوي على أي من الأحرف التالية: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "تم تعديل ملف بعيد. \n هل تريد إعادة تحميل هذا الملف إلى الملقم؟"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "جلسة محددة أو مجموعة من الجلسات"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "اسم الشهر المختصر"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "اسم يوم من أيام الأسبوع المختصر"
+ },{
+  "en": "Accept local connections only",
+  "tr": "قبول الاتصالات المحلية فقط"
+ },{
+  "en": "Accessed",
+  "tr": "تم الوصول إليه"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "تنشيط علامات إقحام متعددة"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "تنشيط التحديد التالي"
+ },{
+  "en": "Activate Next View",
+  "tr": "تنشيط العرض التالي"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "تنشيط التحديد السابق"
+ },{
+  "en": "Activate Previous View",
+  "tr": "تنشيط العرض السابق"
+ },{
+  "en": "Activate the left tab",
+  "tr": "تنشيط علامة التبويب اليسرى"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "قم بتنشيط علامة التبويب المحددة مسبقًا"
+ },{
+  "en": "Activate the right tab",
+  "tr": "تنشيط علامة التبويب الصحيحة"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "قم بتنشيط علامة التبويب بعد الإغلاق"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "تنشيط علامة التبويب بعد التمرير"
+ },{
+  "en": "Add",
+  "tr": "أضف)"
+ },{
+  "en": "Add All",
+  "tr": "إضافة الكل"
+ },{
+  "en": "Add Command",
+  "tr": "أضف الأمر"
+ },{
+  "en": "Add Group",
+  "tr": "أضف مجموعة"
+ },{
+  "en": "Add Sender",
+  "tr": "إضافة مرسل"
+ },{
+  "en": "Add Tab",
+  "tr": "إضافة علامة تبويب"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "اضبط صفوف وأعمدة النافذة"
+ },{
+  "en": "Advanced Sort",
+  "tr": "فرز متقدم"
+ },{
+  "en": "Agent",
+  "tr": "وكيلات"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "فشلت مصادقة الوكيل ، يرجى تجربة طريقة أخرى"
+ },{
+  "en": "All",
+  "tr": "الكل"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "سيتم حذف كافة جلسات العمل%1. \n هل تريد متابعة استيراد الجلسات؟"
+ },{
+  "en": "All session output",
+  "tr": "إخراج كل الجلسة"
+ },{
+  "en": "All Sessions",
+  "tr": "جميع الجلسات"
+ },{
+  "en": "All tabs",
+  "tr": "كل علامات التبويب"
+ },{
+  "en": "Alternate column background color",
+  "tr": "لون خلفية العمود البديل"
+ },{
+  "en": "Alternate line background color",
+  "tr": "لون خلفية الخط البديل"
+ },{
+  "en": "Always On Top",
+  "tr": "دائما في المقدمة"
+ },{
+  "en": "Always on top",
+  "tr": "دائما في القمة"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "حدث خطأ أثناء محاولة القراءة من عملية%1."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "حدث خطأ أثناء محاولة الكتابة إلى عملية%1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "حدث خطأ غير معروف في عملية%1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI إلى OEM"
+ },{
+  "en": "Answer back",
+  "tr": "الرد"
+ },{
+  "en": "Any",
+  "tr": "أي"
+ },{
+  "en": "Anything Palette",
+  "tr": "لوحة أي شيء"
+ },{
+  "en": "Anywhere",
+  "tr": "في أى مكان"
+ },{
+  "en": "Appearance",
+  "tr": "مظهر خارجي"
+ },{
+  "en": "Append",
+  "tr": "ألحق"
+ },{
+  "en": "Append log file",
+  "tr": "إلحاق ملف السجل"
+ },{
+  "en": "Application",
+  "tr": "تطبيق"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "هل أنت متأكد من أنك تريد حذف%1 عنصر محدد؟"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "هل تريد بالتأكيد حذف العنصر <b>%1 </b>؟"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "هل أنت متأكد أنك تريد إعادة تحميل الملف الحالي وفقدان التغييرات التي تم إجراؤها في WindEdit؟"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "هل أنت متأكد أنك تريد إيقاف المرسل الحالي؟"
+ },{
+  "en": "Arguments",
+  "tr": "الحجج"
+ },{
+  "en": "At Caret",
+  "tr": "عند علامة الإقحام"
+ },{
+  "en": "At End",
+  "tr": "في النهاية"
+ },{
+  "en": "At Start",
+  "tr": "في البداية"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "محاولة مصادقة gssapi-with-mic"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "محاولة المصادقة التفاعلية باستخدام لوحة المفاتيح"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "محاولة مصادقة المسابقة"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "محاولة مصادقة كلمة المرور"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "محاولة مصادقة المفتاح العام"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "محاولة مصادقة وكيل ssh"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "تمت المصادقة عليه بنجاح جزئي ، يرجى تجربة طريقة أخرى."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "المصادقة بواسطة%1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "المصادقة بواسطة%1 و%2"
+ },{
+  "en": "Authentication",
+  "tr": "المصادقة"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "تم رفض المصادقة ، يرجى المحاولة مرة أخرى."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "فشل المصادقة. حاول مرة اخرى."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "الإغلاق التلقائي لعلامات HTML / XML"
+ },{
+  "en": "Auto login",
+  "tr": "تسجيل تلقائى"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "فشل تسجيل الدخول التلقائي ، يرجى المحاولة مرة أخرى."
+ },{
+  "en": "Auto login next time",
+  "tr": "تسجيل الدخول التلقائي في المرة القادمة"
+ },{
+  "en": "Automatic",
+  "tr": "تلقائي"
+ },{
+  "en": "automatic",
+  "tr": "تلقائي"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "طرق المصادقة التلقائية"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "نسخ التحديد تلقائيًا"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "اكتشاف المسافة البادئة تلقائيًا"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "قطع الحشو تلقائيًا"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "محدِّد الخلفية"
+ },{
+  "en": "Backspace",
+  "tr": "مسافة للخلف"
+ },{
+  "en": "Backspace sends",
+  "tr": "يرسل Backspace"
+ },{
+  "en": "Backward",
+  "tr": "الى الوراء"
+ },{
+  "en": "Bars",
+  "tr": "الحانات"
+ },{
+  "en": "Baud Rate",
+  "tr": "معدل الباود"
+ },{
+  "en": "Beep When Finished",
+  "tr": "صفير عند الانتهاء"
+ },{
+  "en": "Binary",
+  "tr": "الثنائية"
+ },{
+  "en": "Binary base",
+  "tr": "قاعدة ثنائية"
+ },{
+  "en": "Binary columns",
+  "tr": "الأعمدة الثنائية"
+ },{
+  "en": "Binary devision columns",
+  "tr": "أعمدة الانحراف الثنائي"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "أحرف مجمعة ثنائية"
+ },{
+  "en": "Black",
+  "tr": "أسود"
+ },{
+  "en": "Blink",
+  "tr": "وميض"
+ },{
+  "en": "blinking block",
+  "tr": "كتلة وامضة"
+ },{
+  "en": "blinking line",
+  "tr": "خط وامض"
+ },{
+  "en": "blinking rectangle",
+  "tr": "مستطيل وامض"
+ },{
+  "en": "blinking underLine",
+  "tr": "وامض تحت الخط"
+ },{
+  "en": "Block",
+  "tr": "حاجز"
+ },{
+  "en": "block",
+  "tr": "منع"
+ },{
+  "en": "Bold",
+  "tr": "عريض"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "يشير الكتابة الغامقة إلى خطوط ذات عرض ثابت"
+ },{
+  "en": "Bottom Docks",
+  "tr": "الاحواض السفلية"
+ },{
+  "en": "Bottom Group",
+  "tr": "المجموعة السفلية"
+ },{
+  "en": "Browse",
+  "tr": "تصفح"
+ },{
+  "en": "Browse Directory",
+  "tr": "تصفح الدليل"
+ },{
+  "en": "Browse File",
+  "tr": "ملف الاستعراض"
+ },{
+  "en": "Browser",
+  "tr": "المستعرض"
+ },{
+  "en": "Build",
+  "tr": "بناء"
+ },{
+  "en": "By",
+  "tr": "بواسطة"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "حساب"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "لا يمكن العثور على البرنامج المناسب لفتح الملف: \n%1 \n حاول استخدام المحرر الافتراضي لفتحه."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "لا يمكن عمل الدليل%1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "لا يمكن عمل الملف%1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "لا يمكن عمل الارتباط%1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "لا يمكن إزالة الدليل%1."
+ },{
+  "en": "Cancel",
+  "tr": "يلغي"
+ },{
+  "en": "Cancel Build",
+  "tr": "إلغاء البناء"
+ },{
+  "en": "Cancel Selection",
+  "tr": "إلغاء التحديد"
+ },{
+  "en": "Caret",
+  "tr": "علامة الإقحام"
+ },{
+  "en": "Caret Style",
+  "tr": "نمط علامة الإقحام"
+ },{
+  "en": "Carriage Return",
+  "tr": "إرجاع"
+ },{
+  "en": "Case Sensitive",
+  "tr": "حساسية الموضوع"
+ },{
+  "en": "Cdup",
+  "tr": "قرص مضغوط"
+ },{
+  "en": "Change Master Password",
+  "tr": "تغيير كلمة المرور الرئيسية"
+ },{
+  "en": "Change master password",
+  "tr": "تغيير كلمة السر الرئيسية"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "فشل تغيير كلمة المرور الرئيسية."
+ },{
+  "en": "Change the tab title",
+  "tr": "تغيير عنوان علامة التبويب"
+ },{
+  "en": "Changed",
+  "tr": "تغير"
+ },{
+  "en": "Channel",
+  "tr": "قناة"
+ },{
+  "en": "Char",
+  "tr": "حرف"
+ },{
+  "en": "Char Left",
+  "tr": "حرف يسار"
+ },{
+  "en": "Char Right",
+  "tr": "شار الحق"
+ },{
+  "en": "Character spacing",
+  "tr": "تباعد الأحرف"
+ },{
+  "en": "character width",
+  "tr": "عرض الحرف"
+ },{
+  "en": "Charset",
+  "tr": "محارف"
+ },{
+  "en": "Choose a default editor",
+  "tr": "اختر محررًا افتراضيًا"
+ },{
+  "en": "Ciphers",
+  "tr": "الأصفار"
+ },{
+  "en": "Ciphers order",
+  "tr": "ترتيب Ciphers"
+ },{
+  "en": "Clear",
+  "tr": "واضح"
+ },{
+  "en": "Clear All",
+  "tr": "مسح الكل"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "مسح عناوين URL الأخيرة"
+ },{
+  "en": "Clear Screen",
+  "tr": "شاشة واضحة"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "مسح Scrollback"
+ },{
+  "en": "Clear Sender",
+  "tr": "مسح المرسل"
+ },{
+  "en": "Click event",
+  "tr": "انقر فوق حدث"
+ },{
+  "en": "Close",
+  "tr": "قريب"
+ },{
+  "en": "Close All Views",
+  "tr": "إغلاق كافة طرق العرض"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "إغلاق كافة طرق العرض لكن نشطة"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "إغلاق كافة طرق العرض جهة اليمين"
+ },{
+  "en": "Close And Exit",
+  "tr": "أغلق واخرج"
+ },{
+  "en": "Close Channel",
+  "tr": "إغلاق القناة"
+ },{
+  "en": "Close Dock",
+  "tr": "إغلاق Dock"
+ },{
+  "en": "Close Group",
+  "tr": "إغلاق المجموعة"
+ },{
+  "en": "Close Session",
+  "tr": "اغلق الموسم"
+ },{
+  "en": "Close Tab",
+  "tr": "إغلاق علامة التبويب"
+ },{
+  "en": "Close tab",
+  "tr": "إغلاق علامة التبويب"
+ },{
+  "en": "Close View",
+  "tr": "عرض وثيق"
+ },{
+  "en": "Close Window",
+  "tr": "إغلاق النافذة"
+ },{
+  "en": "Color",
+  "tr": "اللون"
+ },{
+  "en": "Column Edit",
+  "tr": "تحرير العمود"
+ },{
+  "en": "Column Marker",
+  "tr": "العمود ماركر"
+ },{
+  "en": "Columns",
+  "tr": "الأعمدة"
+ },{
+  "en": "columns",
+  "tr": "الأعمدة"
+ },{
+  "en": "Command",
+  "tr": "القيادة"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "لوحة القيادة"
+ },{
+  "en": "Comment",
+  "tr": "تعليق"
+ },{
+  "en": "Comment Selection",
+  "tr": "تحديد التعليق"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "تحديد التعليق(وضع الحظر)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "تحديد التعليق(وضع الخط)"
+ },{
+  "en": "Complete Word",
+  "tr": "كلمة كاملة"
+ },{
+  "en": "Config",
+  "tr": "التكوين"
+ },{
+  "en": "Confirm Password",
+  "tr": "تأكيد كلمة المرور"
+ },{
+  "en": "Confirm password",
+  "tr": "تأكيد كلمة المرور"
+ },{
+  "en": "Connect",
+  "tr": "الاتصال"
+ },{
+  "en": "Connection",
+  "tr": "اتصال"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "مفهوم"
+ },{
+  "en": "Continue",
+  "tr": "يكمل"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "تحويل CRLF و LF إلى CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "تحويل علامة التبويب إلى مسافات"
+ },{
+  "en": "copied",
+  "tr": "نسخ"
+ },{
+  "en": "Copy",
+  "tr": "ينسخ"
+ },{
+  "en": "copy",
+  "tr": "ينسخ"
+ },{
+  "en": "Copy And Paste",
+  "tr": "نسخ ولصق"
+ },{
+  "en": "Copy File Name",
+  "tr": "نسخ اسم الملف"
+ },{
+  "en": "Copy File Path",
+  "tr": "نسخ مسار الملف"
+ },{
+  "en": "Copy from",
+  "tr": "نسخ من"
+ },{
+  "en": "Copy names",
+  "tr": "نسخ الأسماء"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "نسخ الأسماء إلى المحطة الطرفية"
+ },{
+  "en": "Copy Output",
+  "tr": "إخراج النسخ"
+ },{
+  "en": "Copy paths",
+  "tr": "نسخ المسارات"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "نسخ المسارات إلى المحطة الطرفية"
+ },{
+  "en": "Copy Session Name",
+  "tr": "نسخ اسم الجلسة"
+ },{
+  "en": "Copy Session Url",
+  "tr": "نسخ عنوان URL للجلسة"
+ },{
+  "en": "Copy to",
+  "tr": "نسخ إلى"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "نسخ إلى المحطة الطرفية"
+ },{
+  "en": "Count",
+  "tr": "عدد"
+ },{
+  "en": "Create Directory",
+  "tr": "إنشاء دليل"
+ },{
+  "en": "Create File",
+  "tr": "إنشاء ملف"
+ },{
+  "en": "Create Link",
+  "tr": "إنشاء رابط"
+ },{
+  "en": "Created",
+  "tr": "خلقت"
+ },{
+  "en": "Critical",
+  "tr": "حرج"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "الجلسة الحالية"
+ },{
+  "en": "Custom",
+  "tr": "مخصص"
+ },{
+  "en": "Custom Opacity",
+  "tr": "التعتيم المخصص"
+ },{
+  "en": "Customize",
+  "tr": "تخصيص"
+ },{
+  "en": "Cut",
+  "tr": "قص"
+ },{
+  "en": "Dark Cyan",
+  "tr": "سماوي غامق"
+ },{
+  "en": "Data",
+  "tr": "البيانات"
+ },{
+  "en": "Data Bits",
+  "tr": "بتات البيانات"
+ },{
+  "en": "Datetime format",
+  "tr": "تنسيق التاريخ والوقت"
+ },{
+  "en": "Day of month",
+  "tr": "يوم الشهر"
+ },{
+  "en": "Debug Mode",
+  "tr": "وضع التصحيح"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "إنقاص المسافة البادئة للسطر"
+ },{
+  "en": "Deep Pink",
+  "tr": "ديب بينك"
+ },{
+  "en": "default",
+  "tr": "إفتراضي"
+ },{
+  "en": "Default editor",
+  "tr": "محرر افتراضي"
+ },{
+  "en": "Default Font",
+  "tr": "الخط الافتراضي"
+ },{
+  "en": "Default line ending",
+  "tr": "نهاية السطر الافتراضي"
+ },{
+  "en": "Delete",
+  "tr": "تم الحذف)"
+ },{
+  "en": "Delete sends",
+  "tr": "حذف يرسل"
+ },{
+  "en": "deleted",
+  "tr": "تم الحذف"
+ },{
+  "en": "DemiBold",
+  "tr": "ديميبولد"
+ },{
+  "en": "Destination Host",
+  "tr": "مضيف الوجهة"
+ },{
+  "en": "Destination Port",
+  "tr": "ميناء الوجهة"
+ },{
+  "en": "Dir",
+  "tr": "دير"
+ },{
+  "en": "dir",
+  "tr": "دير"
+ },{
+  "en": "Directory",
+  "tr": "الدليل"
+ },{
+  "en": "Directory Link",
+  "tr": "ارتباط الدليل"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "تعطيل خوارزمية Nagle(خيار TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "فصل الجلسة"
+ },{
+  "en": "Disk",
+  "tr": "القرص"
+ },{
+  "en": "Do not echo characters",
+  "tr": "لا تردد الأحرف"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "هل تريد إغلاق الجلسة الحالية؟"
+ },{
+  "en": "Document",
+  "tr": "وثيقة"
+ },{
+  "en": "Don't show this message again",
+  "tr": "لا تظهر هذه الرسالة مرة أخرى"
+ },{
+  "en": "Double click",
+  "tr": "انقر نقرًا مزدوجًا"
+ },{
+  "en": "Double click event",
+  "tr": "انقر نقرًا مزدوجًا فوق حدث"
+ },{
+  "en": "Download",
+  "tr": "تنزيل"
+ },{
+  "en": "download",
+  "tr": "تحميل"
+ },{
+  "en": "Download directory",
+  "tr": "تنزيل الدليل"
+ },{
+  "en": "downloaded",
+  "tr": "تم تنزيله"
+ },{
+  "en": "Drop Selection",
+  "tr": "اختيار الإسقاط"
+ },{
+  "en": "Duplicate",
+  "tr": "ينسخ"
+ },{
+  "en": "Duplicate Command",
+  "tr": "أمر مكرر"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "عرض مكرر"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "إعادة توجيه ديناميكي"
+ },{
+  "en": "Echo every character entered",
+  "tr": "صدى كل حرف دخلت"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "صدى كل حرف عند التحرير"
+ },{
+  "en": "Echo random characters",
+  "tr": "صدى الأحرف العشوائية"
+ },{
+  "en": "Edit",
+  "tr": "تحرير"
+ },{
+  "en": "Editor",
+  "tr": "محرر"
+ },{
+  "en": "editor",
+  "tr": "محرر"
+ },{
+  "en": "Editor Settings",
+  "tr": "إعدادات المحرر"
+ },{
+  "en": "Elapsed",
+  "tr": "انقضى"
+ },{
+  "en": "Elide left",
+  "tr": "غادر Elide"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide الأوسط"
+ },{
+  "en": "Elide right",
+  "tr": "Elide الحق"
+ },{
+  "en": "Empty",
+  "tr": "فارغة"
+ },{
+  "en": "Enable command mode",
+  "tr": "تمكين وضع الأمر"
+ },{
+  "en": "Enable local mode",
+  "tr": "تمكين الوضع المحلي"
+ },{
+  "en": "Enable SFTP",
+  "tr": "تمكين SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "تمكين TCP keepalives(خيار SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "تمكين المساحات الافتراضية"
+ },{
+  "en": "End Of Document",
+  "tr": "نهاية المستند"
+ },{
+  "en": "End Of Line",
+  "tr": "نهاية السطر"
+ },{
+  "en": "End Of Pair",
+  "tr": "نهاية الزوج"
+ },{
+  "en": "Engine",
+  "tr": "محرك"
+ },{
+  "en": "Environment Variable",
+  "tr": "متغيرات البيئة"
+ },{
+  "en": "Environment variables",
+  "tr": "متغيرات البيئة"
+ },{
+  "en": "Error",
+  "tr": "خطأ"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "تبديل علامة الإقحام والمرساة"
+ },{
+  "en": "Execute",
+  "tr": "تنفيذ"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "تنفيذ الأمر بعد المصادقة"
+ },{
+  "en": "Execute command after start",
+  "tr": "تنفيذ الأمر بعد البدء"
+ },{
+  "en": "Execute File",
+  "tr": "تنفيذ الملف"
+ },{
+  "en": "Exit",
+  "tr": "خروج"
+ },{
+  "en": "Expand",
+  "tr": "وسعت"
+ },{
+  "en": "Expand Snippet",
+  "tr": "توسيع المقتطف"
+ },{
+  "en": "Explorer",
+  "tr": "إكسبلورر"
+ },{
+  "en": "External Tools",
+  "tr": "الأدوات الخارجية"
+ },{
+  "en": "External X display",
+  "tr": "شاشة X خارجية"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "المزيد من الإضاءة"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "فشل إنشاء ملف مؤقت: \n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "فشل في فتح الدليل:%1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "فشل استرداد بصمة المضيف!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "فشل تحميل الملف:%1 ، \n قد يكون الملف غير موجود أو ليس لديه إذن بفتحه."
+ },{
+  "en": "Fast",
+  "tr": "بسرعة"
+ },{
+  "en": "Favorites",
+  "tr": "المفضلة"
+ },{
+  "en": "Features",
+  "tr": "سمات"
+ },{
+  "en": "File",
+  "tr": "ملف"
+ },{
+  "en": "file",
+  "tr": "ملف"
+ },{
+  "en": "File Link",
+  "tr": "رابط الملف"
+ },{
+  "en": "File Name",
+  "tr": "اسم الملف"
+ },{
+  "en": "File name",
+  "tr": "اسم الملف"
+ },{
+  "en": "File Path",
+  "tr": "مسار الملف"
+ },{
+  "en": "Filer",
+  "tr": "المصنف"
+ },{
+  "en": "filer",
+  "tr": "الملف"
+ },{
+  "en": "Filter",
+  "tr": "منقي"
+ },{
+  "en": "Find",
+  "tr": "بحث"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "بحث عن الكل"
+ },{
+  "en": "Find in Files",
+  "tr": "البحث في الملفات"
+ },{
+  "en": "Find Next",
+  "tr": "بحث عن التالي"
+ },{
+  "en": "Find Next Selection",
+  "tr": "البحث عن التحديد التالي"
+ },{
+  "en": "Find Previous",
+  "tr": "بحث عن السابق"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "البحث عن التحديد السابق"
+ },{
+  "en": "Fingerprint",
+  "tr": "بصمة"
+ },{
+  "en": "First nine tabs",
+  "tr": "أول تسع علامات تبويب"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "تعويم"
+ },{
+  "en": "Flow Control",
+  "tr": "التحكم في التدفق"
+ },{
+  "en": "Focus Mode",
+  "tr": "وضع التركيز"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "إعدادات وضع التركيز"
+ },{
+  "en": "Fold",
+  "tr": "أضعاف"
+ },{
+  "en": "Fold All",
+  "tr": "أضعاف الكل"
+ },{
+  "en": "Fold Category",
+  "tr": "فئة الطية"
+ },{
+  "en": "Fold Inside",
+  "tr": "أضعاف الداخل"
+ },{
+  "en": "Folds",
+  "tr": "طيات"
+ },{
+  "en": "Font",
+  "tr": "الخط"
+ },{
+  "en": "Font family",
+  "tr": "خط العائلة"
+ },{
+  "en": "Font size",
+  "tr": "حجم الخط"
+ },{
+  "en": "Font weight",
+  "tr": "وزن الخط"
+ },{
+  "en": "Forest Green",
+  "tr": "غابة خضراء"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "تحديد التنسيق"
+ },{
+  "en": "Found",
+  "tr": "وجد"
+ },{
+  "en": "Full month name",
+  "tr": "اسم الشهر بالكامل"
+ },{
+  "en": "Full Screen",
+  "tr": "ملء الشاشة"
+ },{
+  "en": "Full screen",
+  "tr": "شاشة كاملة"
+ },{
+  "en": "Full weekday name",
+  "tr": "الاسم الكامل ليوم الأسبوع"
+ },{
+  "en": "Go Backward",
+  "tr": "الرجوع للخلف"
+ },{
+  "en": "Go Forward",
+  "tr": "تقدم للأمام"
+ },{
+  "en": "Go to",
+  "tr": "اذهب إلى"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "انتقل إلى الرمز في العرض الحالي"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod"
+ },{
+  "en": "Goto",
+  "tr": "غوتو"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "الانتقال إلى شريط العنوان"
+ },{
+  "en": "Goto File",
+  "tr": "ملف الانتقال"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "الانتقال إلى رأس طية"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "الانتقال إلى رأس الطية التالية"
+ },{
+  "en": "Goto Position",
+  "tr": "موقف الانتقال"
+ },{
+  "en": "Goto Session",
+  "tr": "جلسة الانتقال"
+ },{
+  "en": "Goto Symbol",
+  "tr": "رمز الانتقال"
+ },{
+  "en": "Group",
+  "tr": "مجموعة"
+ },{
+  "en": "Group %1",
+  "tr": "مجموعة 1"
+ },{
+  "en": "Groups",
+  "tr": "مجموعات"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi مع ميكروفون"
+ },{
+  "en": "Hard Reset",
+  "tr": "إعادة ضبط المصنع"
+ },{
+  "en": "Help",
+  "tr": "مساعدة"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "قاعدة سداسية"
+ },{
+  "en": "Hex Columns",
+  "tr": "الأعمدة السداسية"
+ },{
+  "en": "Hex Edit",
+  "tr": "تحرير Hex"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "حرف مجموعة Hex"
+ },{
+  "en": "Hidden",
+  "tr": "مختفي"
+ },{
+  "en": "Hide",
+  "tr": "إخفاء"
+ },{
+  "en": "Hide All",
+  "tr": "إخفاء الكل"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "إخفاء المؤشر عند الكتابة"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "اخفي النص"
+ },{
+  "en": "Highlight",
+  "tr": "تسليط الضوء"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "خط علامة التحديد"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "تسليط الضوء على مطابقة الزوج"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "تسليط الضوء على خط الإقحام"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "تمييز كلمة الإقحام"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "تسليط الضوء على الطية الحالية"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "تسليط الضوء على الزوج الحالي"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "تسليط الضوء على البحث المتزايد"
+ },{
+  "en": "History",
+  "tr": "تاريخ"
+ },{
+  "en": "Home Of Line",
+  "tr": "الصفحة الرئيسية للخط"
+ },{
+  "en": "Host",
+  "tr": "مضيف"
+ },{
+  "en": "Host address",
+  "tr": "عنوان المضيف"
+ },{
+  "en": "Host Based",
+  "tr": "المضيف القائم"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "ساعات 12 تنسيق"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "ساعات 24 تنسيق"
+ },{
+  "en": "Http proxy",
+  "tr": "وكيل Http"
+ },{
+  "en": "Huge File",
+  "tr": "ملف ضخم"
+ },{
+  "en": "Icon",
+  "tr": "أيقونة"
+ },{
+  "en": "Identity file",
+  "tr": "ملف الهوية"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "ملف الهوية للمصادقة"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "إذا قمت بإنشاء كلمة مرور رئيسية ، فسيُطلب منك إدخالها عندما يقوم WindTerm باسترداد المعلومات المحفوظة المحمية بواسطة كلمة المرور الرئيسية."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "إذا نسيت كلمة مرورك الرئيسية ، فلن تتمكن من الوصول إلى أي من المعلومات المحمية بواسطتها."
+ },{
+  "en": "Import",
+  "tr": "استيراد"
+ },{
+  "en": "Import sessions",
+  "tr": "جلسات الاستيراد"
+ },{
+  "en": "In Selection",
+  "tr": "في الاختيار"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "زيادة المسافة البادئة للسطر"
+ },{
+  "en": "Incremental",
+  "tr": "تدريجي"
+ },{
+  "en": "Indent",
+  "tr": "مسافة بادئة"
+ },{
+  "en": "Indent guide style",
+  "tr": "نمط دليل المسافة البادئة"
+ },{
+  "en": "Indent Guides",
+  "tr": "أدلة المسافة البادئة"
+ },{
+  "en": "Indent size",
+  "tr": "حجم المسافة البادئة"
+ },{
+  "en": "Indentation",
+  "tr": "المسافة الفارغة"
+ },{
+  "en": "Indian Red",
+  "tr": "الأحمر الهندي"
+ },{
+  "en": "Information",
+  "tr": "معلومة"
+ },{
+  "en": "Insert",
+  "tr": "إدراج"
+ },{
+  "en": "Insert File",
+  "tr": "إدراج ملف"
+ },{
+  "en": "Insert Lines",
+  "tr": "إدراج الأسطر"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "إدراج علامة التبويب عند الضغط على مفتاح TAB"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "إدخال مسافة بيضاء وحذفها يتبع علامات الجدولة"
+ },{
+  "en": "Inserting file",
+  "tr": "إدخال ملف"
+ },{
+  "en": "Internal X display",
+  "tr": "شاشة X داخلية"
+ },{
+  "en": "Interval",
+  "tr": "الفاصل الزمني"
+ },{
+  "en": "Invert Selection",
+  "tr": "عكس التحديد"
+ },{
+  "en": "item failed",
+  "tr": "فشل العنصر"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "العناصر التي فشلت"
+ },{
+  "en": "Join Channel A",
+  "tr": "الانضمام إلى القناة أ"
+ },{
+  "en": "Join Channel B",
+  "tr": "الانضمام إلى القناة ب"
+ },{
+  "en": "Join Channel C",
+  "tr": "الانضمام إلى القناة ج"
+ },{
+  "en": "Join Channel D",
+  "tr": "الانضمام إلى القناة D"
+ },{
+  "en": "Join Lines",
+  "tr": "الانضمام إلى الخطوط"
+ },{
+  "en": "Joined",
+  "tr": "انضم"
+ },{
+  "en": "Jump Server",
+  "tr": "القفز الخادم"
+ },{
+  "en": "Jump server",
+  "tr": "الانتقال إلى الخادم"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "خوادم Jump"
+ },{
+  "en": "Key Exchange",
+  "tr": "تبادل المفاتيح"
+ },{
+  "en": "Key exchange order",
+  "tr": "أمر تبادل المفتاح"
+ },{
+  "en": "Key re-exchange",
+  "tr": "مفتاح إعادة الصرف"
+ },{
+  "en": "Keyboard",
+  "tr": "لوحة المفاتيح"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "لوحة المفاتيح التفاعلية"
+ },{
+  "en": "Kit Bar",
+  "tr": "كيت بار"
+ },{
+  "en": "Known",
+  "tr": "معروف"
+ },{
+  "en": "Label",
+  "tr": "ملصق"
+ },{
+  "en": "Language",
+  "tr": "اللغة"
+ },{
+  "en": "Last sessions",
+  "tr": "الجلسات الأخيرة"
+ },{
+  "en": "Layout",
+  "tr": "تخطيط"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "الفراغات البادئة والزائدة"
+ },{
+  "en": "Leading Blanks",
+  "tr": "الفراغات الرائدة"
+ },{
+  "en": "Leading position",
+  "tr": "مكانة رائدة"
+ },{
+  "en": "Leave All Channels",
+  "tr": "ترك كافة القنوات"
+ },{
+  "en": "Leave all channels",
+  "tr": "اترك كل القنوات"
+ },{
+  "en": "Leave Channel",
+  "tr": "مغادرة القناة"
+ },{
+  "en": "Left Docks",
+  "tr": "أحواض يسرى"
+ },{
+  "en": "Left Group",
+  "tr": "المجموعة اليسرى"
+ },{
+  "en": "Light",
+  "tr": "ضوء"
+ },{
+  "en": "Line",
+  "tr": "خط"
+ },{
+  "en": "line",
+  "tr": "خط"
+ },{
+  "en": "line at a time",
+  "tr": "خط في وقت واحد"
+ },{
+  "en": "Line Down",
+  "tr": "الخط السفلي"
+ },{
+  "en": "Line Ending",
+  "tr": "نهاية الخط"
+ },{
+  "en": "Line Endings",
+  "tr": "نهايات الخط"
+ },{
+  "en": "Line Feed",
+  "tr": "سطر تغذية"
+ },{
+  "en": "line height",
+  "tr": "ارتفاع خط"
+ },{
+  "en": "Line marker",
+  "tr": "علامة الخط"
+ },{
+  "en": "Line spacing",
+  "tr": "تباعد الأسطر"
+ },{
+  "en": "Line Up",
+  "tr": "اصطفاف"
+ },{
+  "en": "lines at a time",
+  "tr": "خطوط في وقت واحد"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "خطوط التمرير للخلف"
+ },{
+  "en": "Link",
+  "tr": "رابط"
+ },{
+  "en": "Link to",
+  "tr": "رابط ل"
+ },{
+  "en": "List Tab",
+  "tr": "علامة تبويب القائمة"
+ },{
+  "en": "Listen Port",
+  "tr": "منفذ الاستماع"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "الشحن المحلي"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "تحديد موقع الرسالة"
+ },{
+  "en": "Location",
+  "tr": "موقع"
+ },{
+  "en": "Lock Screen",
+  "tr": "اقفل الشاشة"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "مهلة قفل الشاشة"
+ },{
+  "en": "Lock Selection",
+  "tr": "تحديد القفل"
+ },{
+  "en": "Log",
+  "tr": "السجل"
+ },{
+  "en": "Log all session output",
+  "tr": "تسجيل جميع مخرجات الجلسة"
+ },{
+  "en": "Log content pattern",
+  "tr": "نمط محتوى السجل"
+ },{
+  "en": "Log Dialog",
+  "tr": "حوار السجل"
+ },{
+  "en": "Log file",
+  "tr": "ملف السجل"
+ },{
+  "en": "Log file name",
+  "tr": "اسم ملف السجل"
+ },{
+  "en": "Log maximum size",
+  "tr": "الحد الأقصى لحجم السجل"
+ },{
+  "en": "Log nothing",
+  "tr": "تسجيل أي شيء"
+ },{
+  "en": "Log option",
+  "tr": "خيار السجل"
+ },{
+  "en": "Log options",
+  "tr": "خيارات السجل"
+ },{
+  "en": "Log pattern",
+  "tr": "نمط السجل"
+ },{
+  "en": "Log printable output",
+  "tr": "إخراج السجل القابل للطباعة"
+ },{
+  "en": "Log type",
+  "tr": "نوع السجل"
+ },{
+  "en": "Log types",
+  "tr": "أنواع السجل"
+ },{
+  "en": "Logging",
+  "tr": "تسجيل"
+ },{
+  "en": "Login",
+  "tr": "تسجيل الدخول"
+ },{
+  "en": "Login Wizard",
+  "tr": "معالج تسجيل الدخول"
+ },{
+  "en": "Long Time/Date",
+  "tr": "وقت طويل / تاريخ"
+ },{
+  "en": "Look both guide",
+  "tr": "انظر كلا الدليل"
+ },{
+  "en": "Look forward guide",
+  "tr": "دليل نتطلع"
+ },{
+  "en": "MAC Hashes",
+  "tr": "تجزئة MAC"
+ },{
+  "en": "MAC hashes order",
+  "tr": "ترتيب تجزئة MAC"
+ },{
+  "en": "Margin Blank",
+  "tr": "هامش فارغ"
+ },{
+  "en": "Margin Fold",
+  "tr": "طية الهامش"
+ },{
+  "en": "Margin Number",
+  "tr": "رقم الهامش"
+ },{
+  "en": "Margin Symbol",
+  "tr": "رمز الهامش"
+ },{
+  "en": "Margin Text",
+  "tr": "نص الهامش"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "الطابع الزمني للهامش"
+ },{
+  "en": "Margins",
+  "tr": "الهوامش"
+ },{
+  "en": "Marker style",
+  "tr": "نمط العلامة"
+ },{
+  "en": "Master Password",
+  "tr": "كلمة السر الرئيسية"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "الحد الأقصى للبيانات قبل إعادة المفتاح(ميغا بايت)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "أقصى وقت قبل إعادة المفتاح(بالدقائق)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "أقصى مهلة للاتصال"
+ },{
+  "en": "MB",
+  "tr": "ميغا بايت"
+ },{
+  "en": "Medium",
+  "tr": "واسطة"
+ },{
+  "en": "Medium Orchid",
+  "tr": "الأوركيد المتوسطة"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "أزرق إردواز متوسط ​​"
+ },{
+  "en": "Menu Bar",
+  "tr": "شريط القوائم"
+ },{
+  "en": "Merge To Group",
+  "tr": "دمج إلى مجموعة"
+ },{
+  "en": "Middle click",
+  "tr": "النقر الأوسط"
+ },{
+  "en": "Middle click event",
+  "tr": "حدث النقر الأوسط"
+ },{
+  "en": "Milliseconds",
+  "tr": "مللي ثانية"
+ },{
+  "en": "Minutes",
+  "tr": "دقائق"
+ },{
+  "en": "minutes",
+  "tr": "الدقائق"
+ },{
+  "en": "Mismatched",
+  "tr": "غير متطابق"
+ },{
+  "en": "Mode",
+  "tr": "الوضع"
+ },{
+  "en": "Modem waiting",
+  "tr": "مودم ينتظر"
+ },{
+  "en": "Modes",
+  "tr": "أساليب"
+ },{
+  "en": "Modified",
+  "tr": "المعدل"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "تعديل"
+ },{
+  "en": "Modify Lines",
+  "tr": "تعديل الخطوط"
+ },{
+  "en": "Month",
+  "tr": "الشهر"
+ },{
+  "en": "More",
+  "tr": "المزيد"
+ },{
+  "en": "Mouse Actions",
+  "tr": "إجراءات الماوس"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "تتبع الماوس"
+ },{
+  "en": "Move Down",
+  "tr": "تحرك لأسفل"
+ },{
+  "en": "Move event",
+  "tr": "نقل الحدث"
+ },{
+  "en": "Move to",
+  "tr": "الانتقال إلى"
+ },{
+  "en": "Move To Group",
+  "tr": "نقل إلى مجموعة"
+ },{
+  "en": "Move Up",
+  "tr": "تحرك"
+ },{
+  "en": "Multiple Caret",
+  "tr": "علامة الإقحام المتعددة"
+ },{
+  "en": "Name",
+  "tr": "اسم"
+ },{
+  "en": "nesting groups",
+  "tr": "مجموعات التعشيش"
+ },{
+  "en": "Never",
+  "tr": "أبدا"
+ },{
+  "en": "New directory",
+  "tr": "دليل جديد"
+ },{
+  "en": "New File",
+  "tr": "ملف جديد"
+ },{
+  "en": "New file",
+  "tr": "ملف جديد"
+ },{
+  "en": "New Line",
+  "tr": "خط جديد"
+ },{
+  "en": "New link",
+  "tr": "رابط جديد"
+ },{
+  "en": "New password",
+  "tr": "كلمة مرور جديدة"
+ },{
+  "en": "New Session",
+  "tr": "دورة جديدة"
+ },{
+  "en": "New Window",
+  "tr": "نافذة جديدة"
+ },{
+  "en": "Next Char",
+  "tr": "التالي Char"
+ },{
+  "en": "Next Fold",
+  "tr": "الطية التالية"
+ },{
+  "en": "Next Indentation",
+  "tr": "المسافة البادئة التالية"
+ },{
+  "en": "Next Line",
+  "tr": "الخط التالي"
+ },{
+  "en": "Next Message",
+  "tr": "الرسالة التالية"
+ },{
+  "en": "Next Page",
+  "tr": "الصفحة التالية"
+ },{
+  "en": "Next Pair",
+  "tr": "الزوج التالي"
+ },{
+  "en": "Next Paragraph",
+  "tr": "الفقرة التالية"
+ },{
+  "en": "Next Scope",
+  "tr": "النطاق التالي"
+ },{
+  "en": "Next Segment End",
+  "tr": "نهاية الجزء التالي"
+ },{
+  "en": "Next Segment Start",
+  "tr": "بداية الشريحة التالية"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "الصفحة التالية المتعثرة"
+ },{
+  "en": "Next Word",
+  "tr": "الكلمة التالية"
+ },{
+  "en": "Next Word End",
+  "tr": "نهاية الكلمة التالية"
+ },{
+  "en": "Next Word Part",
+  "tr": "جزء الكلمة التالية"
+ },{
+  "en": "No",
+  "tr": "لا"
+ },{
+  "en": "No action",
+  "tr": "لا رد فعل"
+ },{
+  "en": "No Dirs",
+  "tr": "لا ضحك"
+ },{
+  "en": "No elide",
+  "tr": "لا مهرة"
+ },{
+  "en": "No file opened",
+  "tr": "لم يتم فتح ملف"
+ },{
+  "en": "No filer available",
+  "tr": "لا يوجد ملف متاح"
+ },{
+  "en": "No Files",
+  "tr": "لا ملفات"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "لم يتم تحديد ملفات لنقلها."
+ },{
+  "en": "No item opened",
+  "tr": "لم يتم فتح أي عنصر"
+ },{
+  "en": "No outline available",
+  "tr": "لا يوجد مخطط تفصيلي متاح"
+ },{
+  "en": "No proxy",
+  "tr": "لا يوجد وكيل"
+ },{
+  "en": "No session",
+  "tr": "لا توجد جلسة"
+ },{
+  "en": "No session available",
+  "tr": "لا توجد جلسة متاحة"
+ },{
+  "en": "No session opened",
+  "tr": "لم يتم فتح جلسة"
+ },{
+  "en": "No Sessions",
+  "tr": "لا جلسات"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "لا توجد طرق مصادقة مدعومة متاحة."
+ },{
+  "en": "No transfer available",
+  "tr": "لا يوجد تحويل متاح"
+ },{
+  "en": "No wrap",
+  "tr": "لا التفاف"
+ },{
+  "en": "No X display",
+  "tr": "لا يوجد عرض X"
+ },{
+  "en": "None",
+  "tr": "لا أحد"
+ },{
+  "en": "None tabs",
+  "tr": "لا توجد علامات تبويب"
+ },{
+  "en": "Normal",
+  "tr": "طبيعي"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "حاليا"
+ },{
+  "en": "Nowhere",
+  "tr": "لا مكان"
+ },{
+  "en": "Octal",
+  "tr": "أوكتال"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM إلى ANSI"
+ },{
+  "en": "Off",
+  "tr": "اطفء"
+ },{
+  "en": "off",
+  "tr": "إيقاف"
+ },{
+  "en": "Ok",
+  "tr": "نعم"
+ },{
+  "en": "Old",
+  "tr": "قديم"
+ },{
+  "en": "Old password",
+  "tr": "كلمة سر قديمة"
+ },{
+  "en": "Olive",
+  "tr": "الزيتون"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "يتم فتح جلسة واحدة أو أكثر ، \n هل تريد إغلاق النافذة الحالية؟"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "يمكن إعادة تحميل ملف القرص فقط!"
+ },{
+  "en": "Only indentation",
+  "tr": "المسافة البادئة فقط"
+ },{
+  "en": "Opaque",
+  "tr": "مبهمة"
+ },{
+  "en": "Open",
+  "tr": "فتح"
+ },{
+  "en": "open",
+  "tr": "افتح"
+ },{
+  "en": "Open directory after created",
+  "tr": "افتح الدليل بعد إنشائه"
+ },{
+  "en": "Open directory after download",
+  "tr": "افتح الدليل بعد التنزيل"
+ },{
+  "en": "Open File",
+  "tr": "فتح ملف"
+ },{
+  "en": "Open file",
+  "tr": "افتح الملف"
+ },{
+  "en": "Open file after created",
+  "tr": "فتح الملف بعد إنشائه"
+ },{
+  "en": "Open file failed!",
+  "tr": "فشل فتح الملف!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "فشل فتح خادم القفز!"
+ },{
+  "en": "Open Log File",
+  "tr": "فتح ملف السجل"
+ },{
+  "en": "Open Log Folder",
+  "tr": "فتح مجلد السجل"
+ },{
+  "en": "Open Recent",
+  "tr": "فتح الأحدث"
+ },{
+  "en": "Open Selection",
+  "tr": "فتح التحديد"
+ },{
+  "en": "Open Session",
+  "tr": "جلسة مفتوحة"
+ },{
+  "en": "Open session failed!",
+  "tr": "فشل فتح الجلسة!"
+ },{
+  "en": "Open target directory",
+  "tr": "فتح الدليل الهدف"
+ },{
+  "en": "Open with default editor",
+  "tr": "فتح باستخدام المحرر الافتراضي"
+ },{
+  "en": "Opened",
+  "tr": "افتتح"
+ },{
+  "en": "Openssh sessions",
+  "tr": "جلسات الافتتاح"
+ },{
+  "en": "Others",
+  "tr": "آحرون"
+ },{
+  "en": "Outline",
+  "tr": "الخطوط العريضة"
+ },{
+  "en": "Output",
+  "tr": "انتاج |"
+ },{
+  "en": "Overtype",
+  "tr": "كتابة فوقية"
+ },{
+  "en": "Overwrite",
+  "tr": "الكتابة فوق"
+ },{
+  "en": "Overwrite log file",
+  "tr": "الكتابة فوق ملف السجل"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "الكتابة عندما يكون الملف المصدر أحدث"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "الكتابة فوق عندما يكون الملف المصدر أحدث أو أطول"
+ },{
+  "en": "Owner",
+  "tr": "صاحب"
+ },{
+  "en": "Packet padding char",
+  "tr": "شار الحزم"
+ },{
+  "en": "Packet size",
+  "tr": "حجم الحزمة"
+ },{
+  "en": "Page",
+  "tr": "الصفحة"
+ },{
+  "en": "page",
+  "tr": "صفحة"
+ },{
+  "en": "Pair",
+  "tr": "زوج"
+ },{
+  "en": "Panes",
+  "tr": "الأجزاء"
+ },{
+  "en": "Paragraph",
+  "tr": "فقرة"
+ },{
+  "en": "Parity",
+  "tr": "التكافؤ"
+ },{
+  "en": "Passphrase",
+  "tr": "عبارة المرور"
+ },{
+  "en": "Password",
+  "tr": "كلمه السر"
+ },{
+  "en": "Password quality meter",
+  "tr": "مقياس جودة كلمة المرور"
+ },{
+  "en": "Paste",
+  "tr": "معجون"
+ },{
+  "en": "Paste Dialog",
+  "tr": "مربع الحوار لصق"
+ },{
+  "en": "Paste text",
+  "tr": "لصق النص"
+ },{
+  "en": "Pause",
+  "tr": "وقفة"
+ },{
+  "en": "Paused",
+  "tr": "متوقف مؤقتًا"
+ },{
+  "en": "Pausing",
+  "tr": "توقف"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "إجراء بحث DNS مع الوكيل"
+ },{
+  "en": "Period",
+  "tr": "فترة"
+ },{
+  "en": "Permissions",
+  "tr": "أذونات"
+ },{
+  "en": "pixels",
+  "tr": "بكسل"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "الرجاء إدخال اسم جديد لهذا الرأي"
+ },{
+  "en": "Please input master password",
+  "tr": "الرجاء إدخال كلمة المرور الرئيسية"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "الرجاء إدخال كلمة المرور الرئيسية ، فارغة أو إلغاء للتعطيل"
+ },{
+  "en": "Please input new group",
+  "tr": "الرجاء إدخال مجموعة جديدة"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "يرجى التأكد من تذكر كلمة المرور الرئيسية التي قمت بتعيينها."
+ },{
+  "en": "Port",
+  "tr": "ميناء"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "تفضيل خطوط النسق"
+ },{
+  "en": "Preferences",
+  "tr": "التفضيلات"
+ },{
+  "en": "Preserve",
+  "tr": "يحفظ"
+ },{
+  "en": "Preview All",
+  "tr": "معاينة الكل"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "معاينة الرمز"
+ },{
+  "en": "Previous Char",
+  "tr": "الحرف السابق"
+ },{
+  "en": "Previous Fold",
+  "tr": "الطية السابقة"
+ },{
+  "en": "Previous Indentation",
+  "tr": "المسافة البادئة السابقة"
+ },{
+  "en": "Previous Line",
+  "tr": "السطر السابق"
+ },{
+  "en": "Previous Message",
+  "tr": "الرسالة السابقة"
+ },{
+  "en": "Previous Page",
+  "tr": "الصفحة السابقة"
+ },{
+  "en": "Previous Pair",
+  "tr": "الزوج السابق"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "الفقرة السابقة"
+ },{
+  "en": "Previous Scope",
+  "tr": "النطاق(S) السابق"
+ },{
+  "en": "Previous Segment End",
+  "tr": "نهاية الجزء السابق"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "بداية الشريحة السابقة"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "الصفحة السابقة المتعثرة"
+ },{
+  "en": "Previous Word",
+  "tr": "الكلمة السابقة"
+ },{
+  "en": "Previous Word End",
+  "tr": "نهاية الكلمة السابقة"
+ },{
+  "en": "Previous Word Part",
+  "tr": "جزء الكلمة السابق"
+ },{
+  "en": "Printable output",
+  "tr": "الإخراج القابل للطباعة"
+ },{
+  "en": "Process",
+  "tr": "معالجة"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "تعطلت العملية%1."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "فشل بدء العملية%1."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "انتهت مهلة العملية%1."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "البرنامج [الحجج]"
+ },{
+  "en": "Project",
+  "tr": "مشروع"
+ },{
+  "en": "Properties",
+  "tr": "خصائص"
+ },{
+  "en": "Property",
+  "tr": "ملكية"
+ },{
+  "en": "Protocol",
+  "tr": "بروتوكول"
+ },{
+  "en": "Proxy",
+  "tr": "الوكيل"
+ },{
+  "en": "Proxy Host",
+  "tr": "مضيف الوكيل"
+ },{
+  "en": "Proxy Port",
+  "tr": "منفذ الوكيل"
+ },{
+  "en": "Proxy Settings",
+  "tr": "إعدادات الوكيل"
+ },{
+  "en": "Proxy Type",
+  "tr": "نوع الوكيل"
+ },{
+  "en": "Public Key",
+  "tr": "المفتاح العمومي"
+ },{
+  "en": "Public Keys",
+  "tr": "مفاتيح عمومية"
+ },{
+  "en": "Public keys order",
+  "tr": "ترتيب المفاتيح العامة"
+ },{
+  "en": "Putty sessions",
+  "tr": "جلسات المعجون"
+ },{
+  "en": "Query URL",
+  "tr": "URL الاستعلام"
+ },{
+  "en": "Question",
+  "tr": "سؤال"
+ },{
+  "en": "Quick",
+  "tr": "بسرعة"
+ },{
+  "en": "Quick Bar",
+  "tr": "شريط سريع"
+ },{
+  "en": "Quick Commands",
+  "tr": "أوامر سريعة"
+ },{
+  "en": "Read Only",
+  "tr": "قراءة فقط"
+ },{
+  "en": "Ready",
+  "tr": "مستعد"
+ },{
+  "en": "Real guide",
+  "tr": "دليل حقيقي"
+ },{
+  "en": "Receive XModem",
+  "tr": "تلقي XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "تلقي YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "تلقي ZModem"
+ },{
+  "en": "received",
+  "tr": "تم الاستلام"
+ },{
+  "en": "Recent",
+  "tr": "حديث"
+ },{
+  "en": "Recent Sessions",
+  "tr": "الجلسات الأخيرة"
+ },{
+  "en": "Reconnect Session",
+  "tr": "إعادة الاتصال بجلسة"
+ },{
+  "en": "Rectangle",
+  "tr": "مستطيل"
+ },{
+  "en": "rectangle",
+  "tr": "مستطيل"
+ },{
+  "en": "Red",
+  "tr": "أحمر"
+ },{
+  "en": "Redo",
+  "tr": "إعادة"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "إعادة إجراء%1"
+ },{
+  "en": "Refresh",
+  "tr": "تحديث"
+ },{
+  "en": "Regular Expression",
+  "tr": "تعبير عادي"
+ },{
+  "en": "Reload",
+  "tr": "إعادة تحميل"
+ },{
+  "en": "Reload File",
+  "tr": "إعادة تحميل الملف"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "إعادة التحميل مع الترميز"
+ },{
+  "en": "Remote forwarding",
+  "tr": "إعادة التوجيه عن بعد"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "مسار بعيد"
+ },{
+  "en": "Remove",
+  "tr": "إزالة"
+ },{
+  "en": "remove",
+  "tr": "إزالة"
+ },{
+  "en": "Remove All",
+  "tr": "إزالة الكل"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "إزالة الأسطر الفارغة"
+ },{
+  "en": "Remove Command",
+  "tr": "قم بإزالة الأمر"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "إزالة الخطوط المكررة"
+ },{
+  "en": "Remove Group",
+  "tr": "إزالة المجموعة"
+ },{
+  "en": "Remove items",
+  "tr": "إزالة العناصر"
+ },{
+  "en": "Remove Sender",
+  "tr": "إزالة المرسل"
+ },{
+  "en": "Removing",
+  "tr": "إزالة"
+ },{
+  "en": "Rename",
+  "tr": "إعادة تسمية"
+ },{
+  "en": "Rename Group",
+  "tr": "إعادة تسمية المجموعة"
+ },{
+  "en": "Rename tab",
+  "tr": "إعادة تسمية علامة التبويب"
+ },{
+  "en": "Rename View",
+  "tr": "إعادة تسمية العرض"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "إعادة فتح المنظر المغلق"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "كرر الأمر الأخير"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "تكرار التنفيذ"
+ },{
+  "en": "Replace",
+  "tr": "استبدال"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "استبدال الكل"
+ },{
+  "en": "Replace in Files",
+  "tr": "استبدال في الملفات"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "يتطلب إعادة التشغيل ليصبح ساري المفعول"
+ },{
+  "en": "Reset",
+  "tr": "إعادة تعيين"
+ },{
+  "en": "Reset Character Set",
+  "tr": "إعادة تعيين مجموعة الأحرف"
+ },{
+  "en": "Reset Zoom",
+  "tr": "إعادة تعيين التكبير"
+ },{
+  "en": "Resume",
+  "tr": "سيرة ذاتية"
+ },{
+  "en": "Resuming",
+  "tr": "استئناف"
+ },{
+  "en": "Right click",
+  "tr": "انقر بزر الماوس الأيمن"
+ },{
+  "en": "Right click event",
+  "tr": "انقر بزر الماوس الأيمن فوق الحدث"
+ },{
+  "en": "Right Docks",
+  "tr": "الاحواض اليمنى"
+ },{
+  "en": "Right Group",
+  "tr": "المجموعة الصحيحة"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "لف عجلة الماوس للتمرير"
+ },{
+  "en": "Rows",
+  "tr": "صفوف"
+ },{
+  "en": "Royal Blue",
+  "tr": "أزرق ملكي"
+ },{
+  "en": "Run Tool",
+  "tr": "أداة التشغيل"
+ },{
+  "en": "Save",
+  "tr": "يحفظ"
+ },{
+  "en": "Save All",
+  "tr": "حفظ الكل"
+ },{
+  "en": "Save As",
+  "tr": "حفظ باسم"
+ },{
+  "en": "Save Copy As",
+  "tr": "حفظ نسخة باسم"
+ },{
+  "en": "Save file failed!",
+  "tr": "فشل حفظ الملف!"
+ },{
+  "en": "Save Selection As",
+  "tr": "حفظ التحديد باسم"
+ },{
+  "en": "Save Session",
+  "tr": "حفظ الجلسة"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "المصادقة التلقائية المحفوظة"
+ },{
+  "en": "Scheme Tools",
+  "tr": "أدوات المخطط"
+ },{
+  "en": "Scope",
+  "tr": "النطاق"
+ },{
+  "en": "Screen Locked",
+  "tr": "الشاشة مقفلة"
+ },{
+  "en": "Scroll Left",
+  "tr": "انتقل إلى اليسار"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "تمرير الخط لأسفل"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "تمرير الخط"
+ },{
+  "en": "Scroll Right",
+  "tr": "انتقل إلى اليمين"
+ },{
+  "en": "Search",
+  "tr": "بحث"
+ },{
+  "en": "Search engine",
+  "tr": "محرك البحث"
+ },{
+  "en": "Search Engine",
+  "tr": "محرك البحث"
+ },{
+  "en": "Search Engines",
+  "tr": "محركات البحث"
+ },{
+  "en": "Search Online",
+  "tr": "البحث عبر الإنترنت"
+ },{
+  "en": "Search or enter address",
+  "tr": "ابحث أو أدخل العنوان"
+ },{
+  "en": "Searching",
+  "tr": "يبحث"
+ },{
+  "en": "Seconds",
+  "tr": "ثواني"
+ },{
+  "en": "seconds",
+  "tr": "ثواني"
+ },{
+  "en": "Security",
+  "tr": "حماية"
+ },{
+  "en": "Segment",
+  "tr": "قطاع"
+ },{
+  "en": "Select",
+  "tr": "حدد"
+ },{
+  "en": "Select All",
+  "tr": "حدد الكل"
+ },{
+  "en": "Select Column To",
+  "tr": "حدد العمود إلى"
+ },{
+  "en": "Select copy folder",
+  "tr": "حدد مجلد النسخ"
+ },{
+  "en": "Select copy items",
+  "tr": "حدد نسخ العناصر"
+ },{
+  "en": "Select directory to receive",
+  "tr": "حدد الدليل للاستلام"
+ },{
+  "en": "Select download folder",
+  "tr": "حدد مجلد التنزيل"
+ },{
+  "en": "Select files to send",
+  "tr": "حدد الملفات لإرسالها"
+ },{
+  "en": "Select Fold",
+  "tr": "حدد طية"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "حدد المقتطف للخلف"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "حدد Snippet Forward"
+ },{
+  "en": "Select To",
+  "tr": "حدد إلى"
+ },{
+  "en": "Select upload items",
+  "tr": "حدد تحميل العناصر"
+ },{
+  "en": "Selected position",
+  "tr": "الموقف المحدد"
+ },{
+  "en": "Selected Sessions",
+  "tr": "الجلسات المختارة"
+ },{
+  "en": "Selection",
+  "tr": "اختيار"
+ },{
+  "en": "Send",
+  "tr": "يرسل"
+ },{
+  "en": "Send line By line",
+  "tr": "إرسال سطر بسطر"
+ },{
+  "en": "Send Text",
+  "tr": "ارسل رسالة"
+ },{
+  "en": "Send XModem",
+  "tr": "إرسال XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "إرسال YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "إرسال ZModem"
+ },{
+  "en": "Sender",
+  "tr": "مرسل"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "فشل إرسال%1:%2"
+ },{
+  "en": "Sending: %1",
+  "tr": "إرسال:%1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "يرسل حزمة فارغة للحفاظ على الجلسة حية"
+ },{
+  "en": "sent",
+  "tr": "أرسلت"
+ },{
+  "en": "Serial",
+  "tr": "مسلسلات)"
+ },{
+  "en": "Server",
+  "tr": "الخادم"
+ },{
+  "en": "Session",
+  "tr": "حصة"
+ },{
+  "en": "session",
+  "tr": "حصة"
+ },{
+  "en": "Session Group",
+  "tr": "مجموعة الجلسة"
+ },{
+  "en": "Session Log",
+  "tr": "سجل الجلسة"
+ },{
+  "en": "Session name",
+  "tr": "اسم الجلسة"
+ },{
+  "en": "Session Settings",
+  "tr": "إعدادات الجلسة"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "الجلسات في جميع النوافذ"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "الجلسات في المجموعة الحالية"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "الجلسات في النافذة الحالية"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "الجلسات في المجموعة%1"
+ },{
+  "en": "Set default editor",
+  "tr": "تعيين المحرر الافتراضي"
+ },{
+  "en": "Set Tab Color",
+  "tr": "تعيين لون علامة التبويب"
+ },{
+  "en": "Settings",
+  "tr": "إعدادات"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "الشكل"
+ },{
+  "en": "Shell",
+  "tr": "صدفة"
+ },{
+  "en": "Shell sessions",
+  "tr": "جلسات شل"
+ },{
+  "en": "Shell Sessions",
+  "tr": "جلسات شل"
+ },{
+  "en": "Short Time/Date",
+  "tr": "وقت قصير / تاريخ"
+ },{
+  "en": "Show",
+  "tr": "تبين"
+ },{
+  "en": "Show All",
+  "tr": "إظهار الكل"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "إظهار كافة المحررين المفتوحة والحديثة"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "إظهار كل المحطات المفتوحة والحديثة"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "إظهار وتشغيل الإجراءات"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "إظهار مربع حوار تأكيد إغلاق علامة التبويب"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "إظهار مربع حوار تأكيد إغلاق النافذة"
+ },{
+  "en": "Show column markers",
+  "tr": "إظهار علامات العمود"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "إظهار الأوامر بالترتيب الأبجدي"
+ },{
+  "en": "Show current %1 property",
+  "tr": "إظهار خاصية%1 الحالية"
+ },{
+  "en": "Show group commands in order",
+  "tr": "إظهار أوامر المجموعة بالترتيب"
+ },{
+  "en": "Show group title",
+  "tr": "إظهار عنوان المجموعة"
+ },{
+  "en": "Show hidden items",
+  "tr": "إظهار العناصر المخفية"
+ },{
+  "en": "Show in %1",
+  "tr": "إظهار في%1"
+ },{
+  "en": "Show In Line End",
+  "tr": "إظهار في نهاية الخط"
+ },{
+  "en": "Show In Line Start",
+  "tr": "إظهار في سطر البداية"
+ },{
+  "en": "Show In Selection",
+  "tr": "إظهار في التحديد"
+ },{
+  "en": "Show indent guide",
+  "tr": "إظهار دليل المسافة البادئة"
+ },{
+  "en": "Show line endings",
+  "tr": "إظهار نهايات الأسطر"
+ },{
+  "en": "Show menu",
+  "tr": "قائمة العرض"
+ },{
+  "en": "Show More Tools",
+  "tr": "إظهار المزيد من الأدوات"
+ },{
+  "en": "Show multiple groups",
+  "tr": "إظهار مجموعات متعددة"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "إظهار مربع حوار اللصق على الشاشة البديلة"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "إظهار مربع حوار اللصق على الشاشة الرئيسية"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "إظهار المسافات وعلامات التبويب"
+ },{
+  "en": "Show Tabs",
+  "tr": "إظهار علامات التبويب"
+ },{
+  "en": "Show Text",
+  "tr": "إظهار النص"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "إظهار رقم علامة التبويب في علامات التبويب"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "إظهار مربع الحوار هذا عند بدء وضع التركيز"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "إظهار رموز الالتفاف"
+ },{
+  "en": "Shrink",
+  "tr": "إنكمش"
+ },{
+  "en": "Size",
+  "tr": "مقاس"
+ },{
+  "en": "Skip",
+  "tr": "يتخطى"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "وكيل الجوارب الإصدار 5"
+ },{
+  "en": "Soft Reset",
+  "tr": "إعادة تعيين ناعمة"
+ },{
+  "en": "Sort",
+  "tr": "فرز"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "خطوط الفرز غير حساسة لحالة الأحرف"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "خطوط الفرز الحساسة لحالة الأحرف"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "ترتيب الأسطر بترتيب عشوائي"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "ترتيب الأسطر عكسيًا"
+ },{
+  "en": "spaces",
+  "tr": "المساحات"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "مسافات إلى علامات تبويب"
+ },{
+  "en": "Spacing",
+  "tr": "تباعد"
+ },{
+  "en": "Special",
+  "tr": "مميز"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "حدد البروتوكول عند سحب الملفات وإفلاتها"
+ },{
+  "en": "Speed",
+  "tr": "سرعة"
+ },{
+  "en": "Split",
+  "tr": "انقسام"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "تقسيم المجموعة أفقيًا"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "تقسيم المجموعة عموديًا"
+ },{
+  "en": "Split Lines",
+  "tr": "خطوط مقسمة"
+ },{
+  "en": "Split Selection",
+  "tr": "تحديد الانقسام"
+ },{
+  "en": "Split To Group",
+  "tr": "تقسيم إلى مجموعة"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "انقسام العرض أفقيًا"
+ },{
+  "en": "Split View Vertically",
+  "tr": "عرض تقسيم رأسي"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "بدء"
+ },{
+  "en": "Start Of Document",
+  "tr": "بداية المستند"
+ },{
+  "en": "Start Of Line",
+  "tr": "بداية الخط"
+ },{
+  "en": "Start Of Pair",
+  "tr": "بداية الزوج"
+ },{
+  "en": "Startup",
+  "tr": "بدء"
+ },{
+  "en": "Stash",
+  "tr": "خبأ"
+ },{
+  "en": "Status Bar",
+  "tr": "شريط الحالة"
+ },{
+  "en": "Stdin",
+  "tr": "ستدين"
+ },{
+  "en": "Stdout",
+  "tr": "ستدوت"
+ },{
+  "en": "Steel Blue",
+  "tr": "أزرق فولاذي"
+ },{
+  "en": "Sticky",
+  "tr": "مثبت"
+ },{
+  "en": "Stop",
+  "tr": "قف"
+ },{
+  "en": "Stop Bits",
+  "tr": "بت التوقف"
+ },{
+  "en": "Stop loading",
+  "tr": "توقف عن التحميل"
+ },{
+  "en": "Stop sender",
+  "tr": "توقف المرسل"
+ },{
+  "en": "Stop Tools",
+  "tr": "أدوات التوقف"
+ },{
+  "en": "Stop watching this file",
+  "tr": "توقف عن مشاهدة هذا الملف"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "تبديل الدفق والعمود"
+ },{
+  "en": "switch to tab",
+  "tr": "التبديل إلى علامة التبويب"
+ },{
+  "en": "Symbols",
+  "tr": "الرموز"
+ },{
+  "en": "Sync channel",
+  "tr": "قناة المزامنة"
+ },{
+  "en": "Sync Edit",
+  "tr": "تحرير المزامنة"
+ },{
+  "en": "Sync Input",
+  "tr": "مزامنة الإدخال"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "مزامنة الإدخال في القناة%1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "مخططات بناء الجملة"
+ },{
+  "en": "System",
+  "tr": "النظام"
+ },{
+  "en": "Tab",
+  "tr": "فاتورة غير مدفوعة"
+ },{
+  "en": "Tab Color",
+  "tr": "لون علامة التبويب"
+ },{
+  "en": "Tab Features",
+  "tr": "ميزات علامة التبويب"
+ },{
+  "en": "Tab Group",
+  "tr": "مجموعة علامات التبويب"
+ },{
+  "en": "Tab Index",
+  "tr": "فهرس علامات التبويب"
+ },{
+  "en": "Tab size",
+  "tr": "حجم علامة التبويب"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "وضع حذف نص الجدولة"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "راديو مصغر لعلامة التبويب"
+ },{
+  "en": "Tab Title",
+  "tr": "عنوان الجدولة"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "خطوط Tabify المحددة"
+ },{
+  "en": "Tabs",
+  "tr": "نوافذ التبويب"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "علامات التبويب إلى المسافات"
+ },{
+  "en": "Target",
+  "tr": "استهداف"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "المجلد الهدف"
+ },{
+  "en": "Targets",
+  "tr": "الأهداف"
+ },{
+  "en": "TCP connection options",
+  "tr": "خيارات اتصال TCP"
+ },{
+  "en": "Teal",
+  "tr": "البط البري"
+ },{
+  "en": "Term",
+  "tr": "مصطلح"
+ },{
+  "en": "Terminal",
+  "tr": "صالة"
+ },{
+  "en": "terminal",
+  "tr": "طرفية"
+ },{
+  "en": "Terminal Settings",
+  "tr": "إعدادات المحطة الطرفية"
+ },{
+  "en": "Text",
+  "tr": "نص"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "نص:%1 سطر ،%2 حرف"
+ },{
+  "en": "The % sign",
+  "tr": "الإشارة"
+ },{
+  "en": "The actual text to log",
+  "tr": "النص الفعلي لتسجيل الدخول"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "المجلد الوجهة هو مجلد فرعي للمجلد المصدر: \n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "تم تعديل المستند. \n هل تريد حفظ التغييرات؟"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "مجموعة المفاتيح(%1) ليست أمرًا."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "لم يتم الكشف عن lrzsz. الرجاء تثبيت lrzsz أولاً."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "تم تغيير كلمة المرور الرئيسية."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "تأكيد كلمة المرور غير متطابق."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "ألغى الخادم الإرسال."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "الجلسة <b> غير متصلة </b> ، اضغط على <b> Enter </b> لإعادة الاتصال."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "تم إلغاء النقل لأن الحزمة ليست%1 ضمن حد إعادة المحاولة."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "تم إلغاء النقل لأن رقم تسلسل الحزمة كان خاطئًا."
+ },{
+  "en": "Theme",
+  "tr": "الموضوع"
+ },{
+  "en": "Thin",
+  "tr": "رقيقة"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "عتبة الملف الضخم"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "تنسيق الوقت"
+ },{
+  "en": "Time left",
+  "tr": "الوقت المتبقي"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "الطابع الزمني للأسطر"
+ },{
+  "en": "To Inverse Case",
+  "tr": "لعكس الحالة"
+ },{
+  "en": "To Line End",
+  "tr": "إلى نهاية السطر"
+ },{
+  "en": "To Line Start",
+  "tr": "لبدء الخط"
+ },{
+  "en": "To Lower Case",
+  "tr": "إلى الأحرف الصغيرة"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "إلى MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "إلى حالة العنوان"
+ },{
+  "en": "To Unix LF",
+  "tr": "إلى Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "إلى الحالة الكبيرة"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "إلى Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "إلى Word End"
+ },{
+  "en": "To Word Start",
+  "tr": "لبدء Word"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "تبديل الطية"
+ },{
+  "en": "Tool",
+  "tr": "أداة"
+ },{
+  "en": "Toolbar",
+  "tr": "شريط الأدوات"
+ },{
+  "en": "Top Group",
+  "tr": "أعلى مجموعة"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "تحديد مسار النص في الشجرة"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "تحديد مسار الشجرة في النص"
+ },{
+  "en": "Tracking Events",
+  "tr": "أحداث التتبع"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "زائدة الفراغات"
+ },{
+  "en": "Trailing position",
+  "tr": "موقف زائدة"
+ },{
+  "en": "Transfer",
+  "tr": "تحويل"
+ },{
+  "en": "Transfer Bar",
+  "tr": "شريط النقل"
+ },{
+  "en": "Transfer Binary",
+  "tr": "تحويل ثنائي"
+ },{
+  "en": "Transfer complete",
+  "tr": "نقل كامل"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "نقل غير مكتمل"
+ },{
+  "en": "Translucent",
+  "tr": "شفافة"
+ },{
+  "en": "Transparent",
+  "tr": "شفاف"
+ },{
+  "en": "Transpose",
+  "tr": "تبديل"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "قطع مسافة بيضاء زائدة عند الحفظ"
+ },{
+  "en": "Trust this host",
+  "tr": "ثق بهذا المضيف"
+ },{
+  "en": "Tunnels",
+  "tr": "الأنفاق"
+ },{
+  "en": "Type",
+  "tr": "نوع"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "نوع '؟' للحصول على مساعدة بشأن الإجراءات التي يمكنك كتابتها هنا"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "اختيار Uncomment"
+ },{
+  "en": "Underline",
+  "tr": "تسطير"
+ },{
+  "en": "underLine",
+  "tr": "السطر"
+ },{
+  "en": "Undo",
+  "tr": "تراجع"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "تراجع عن إجراءات%1"
+ },{
+  "en": "Unfold",
+  "tr": "تتكشف"
+ },{
+  "en": "Unfold All",
+  "tr": "تتكشف الكل"
+ },{
+  "en": "Unfold Category",
+  "tr": "تتكشف الفئة"
+ },{
+  "en": "Unfold Inside",
+  "tr": "تتكشف من الداخل"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "توحيد نهايات الأسطر عند الحفظ"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "يونيكسبيتي"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: يجب أن يكون مسار ملف shell مطلقًا"
+ },{
+  "en": "Unknown",
+  "tr": "مجهول"
+ },{
+  "en": "unknown",
+  "tr": "غير معروف"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Untabify الخطوط المحددة"
+ },{
+  "en": "Untitled",
+  "tr": "بدون عنوان"
+ },{
+  "en": "Untrust this host",
+  "tr": "غير موثوق به هذا المضيف"
+ },{
+  "en": "upload",
+  "tr": "تحميل"
+ },{
+  "en": "Upload command",
+  "tr": "أمر التحميل"
+ },{
+  "en": "Upload directory",
+  "tr": "تحميل الدليل"
+ },{
+  "en": "Upload file",
+  "tr": "رفع ملف"
+ },{
+  "en": "Upload to current folder",
+  "tr": "تحميل إلى المجلد الحالي"
+ },{
+  "en": "uploaded",
+  "tr": "تم الرفع"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL مع٪ q بدلاً من الاستعلام"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "استخدم لون الخلفية لمحو الشاشة"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "استخدام النقل عالي السرعة"
+ },{
+  "en": "Use system line ending",
+  "tr": "استخدام خط نهاية النظام"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "استخدم هذا كإعداد افتراضي ولا تسأل مرة أخرى"
+ },{
+  "en": "User",
+  "tr": "مستخدم"
+ },{
+  "en": "Username echo mode",
+  "tr": "وضع صدى اسم المستخدم"
+ },{
+  "en": "Value",
+  "tr": "قيمة"
+ },{
+  "en": "Variable",
+  "tr": "عامل"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "التحقق من بصمة الخادم"
+ },{
+  "en": "View",
+  "tr": "عرض"
+ },{
+  "en": "Virtual Space",
+  "tr": "الفضاء الافتراضي"
+ },{
+  "en": "Waiting",
+  "tr": "انتظار"
+ },{
+  "en": "Warning",
+  "tr": "تحذير"
+ },{
+  "en": "Wheel event",
+  "tr": "حدث عجلة"
+ },{
+  "en": "When destination file exists",
+  "tr": "عند وجود ملف الوجهة"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "عند لصق خطوط متعددة"
+ },{
+  "en": "When remote title is changed",
+  "tr": "عندما يتم تغيير العنوان البعيد"
+ },{
+  "en": "When session is authenticated",
+  "tr": "عندما تتم مصادقة الجلسة"
+ },{
+  "en": "When session is authenticating",
+  "tr": "عندما تتم المصادقة على الجلسة"
+ },{
+  "en": "When window is resized",
+  "tr": "عندما يتم تغيير حجم النافذة"
+ },{
+  "en": "Where",
+  "tr": "أين"
+ },{
+  "en": "White Spaces",
+  "tr": "المساحات البيضاء"
+ },{
+  "en": "Whole Line",
+  "tr": "خط كامل"
+ },{
+  "en": "Whole Word",
+  "tr": "الكلمة بالكامل"
+ },{
+  "en": "Widgets",
+  "tr": "الحاجيات"
+ },{
+  "en": "Width",
+  "tr": "العرض"
+ },{
+  "en": "Window",
+  "tr": "نافذة او شباك"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "حافة النافذة"
+ },{
+  "en": "Window Opacity",
+  "tr": "تعتيم النافذة"
+ },{
+  "en": "Window opacity",
+  "tr": "تعتيم النافذة"
+ },{
+  "en": "Windows Manager",
+  "tr": "مدير Windows"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "لم يتم العثور على Winpty-agent.exe أو winpty.dll !."
+ },{
+  "en": "Word",
+  "tr": "كلمة"
+ },{
+  "en": "Word Separators",
+  "tr": "فواصل الكلمات"
+ },{
+  "en": "Word Wrap",
+  "tr": "التفاف الكلمات"
+ },{
+  "en": "Working directory",
+  "tr": "دليل العمل"
+ },{
+  "en": "Wrap",
+  "tr": "لف"
+ },{
+  "en": "Wrap by character",
+  "tr": "التفاف بالحرف"
+ },{
+  "en": "Wrap by word",
+  "tr": "التفاف بالكلمة"
+ },{
+  "en": "Wrap column",
+  "tr": "عمود الالتفاف"
+ },{
+  "en": "Wrap mode",
+  "tr": "وضع الالتفاف"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "رموز الالتفاف"
+ },{
+  "en": "Wrong master password.",
+  "tr": "كلمة مرور رئيسية خاطئة."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z Modem"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "لا يستطيع مودم X/Y/Z إرسال مجلدات أو ملفات أكبر من 4 غيغابايت:%1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "بروتوكول المصادقة X11"
+ },{
+  "en": "X11 display",
+  "tr": "شاشة X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "السنة مكونة من رقمين"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "السنة بأربعة أرقام"
+ },{
+  "en": "Yes",
+  "tr": "نعم"
+ },{
+  "en": "Zero",
+  "tr": "صفر"
+ },{
+  "en": "Zoom",
+  "tr": "تكبير"
+ },{
+  "en": "Zoom In",
+  "tr": "تكبير"
+ },{
+  "en": "Zoom level",
+  "tr": "مستوى التكبير"
+ },{
+  "en": "Zoom Out",
+  "tr": "تصغير"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[تعطل في%1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[فارغة]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[خطأ:%1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[انتهى في%1s ، رمز الخروج%2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[انتهى في%1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[قائمة المجموعة فارغة]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[قائمة التنقل فارغة]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[لا يوجد محرك بحث]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[أحدث عناوين url فارغة]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[قائمة الإعادة فارغة]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[قائمة النظام فارغة]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[قائمة السمات فارغة]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[قائمة شريط الأدوات فارغة]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[قائمة التراجع فارغة]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[إلغاء المستخدم]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[user @] اسم المضيف"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[قائمة Windows فارغة]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

@@ -1,0 +1,3513 @@
+{
+ "language": "Dutch - Nederlands",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Schema) Hulpmiddelen"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 wordt niet ondersteund door %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 gekopieerd"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 gedownload"
+ },{
+  "en": "%1 File",
+  "tr": "%1 bestand"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 item mislukt"
+ },{
+  "en": "%1 items",
+  "tr": "%1 items"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 items zijn mislukt"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 artikelen/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 van de 2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 verwijderd"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 deze %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 geüpload"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 Snelheid: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 mislukte wachtwoordpogingen."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br>Is <b>gewijzigd</b> en <b>opnieuw geladen</b>, ongedaan maken is <b>NIET</b> toegestaan ​​voor grote bestanden."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br>Is <b>gewijzigd</b> en <b>opnieuw geladen</b>, ongedaan maken is toegestaan."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br>Is <b>gewijzigd</b>, wil je het opnieuw laden?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br>Is <b>verplaatst of verwijderd</b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) is ingedrukt. Wachten op meer sleutels"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 kolommen"
+ },{
+  "en": "2 Chars",
+  "tr": "2 tekens"
+ },{
+  "en": "24 Columns",
+  "tr": "24 kolommen"
+ },{
+  "en": "32 Columns",
+  "tr": "32 kolommen"
+ },{
+  "en": "4 Chars",
+  "tr": "4 tekens"
+ },{
+  "en": "8 Chars",
+  "tr": "8 tekens"
+ },{
+  "en": "8 Columns",
+  "tr": "8 kolommen"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Een hoofdwachtwoord wordt gebruikt om gevoelige informatie zoals SSH-wachtwoorden te beschermen."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Een naam mag niet langer zijn dan 255 tekens en mag geen van de volgende tekens bevatten: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Een extern bestand is gewijzigd.\nWilt u dit bestand weer uploaden naar de server?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Een specifieke sessie of set van sessies"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Afgekorte maandnaam"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Afgekorte naam van de weekdag"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Alleen lokale verbindingen accepteren"
+ },{
+  "en": "Accessed",
+  "tr": "Betreden"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Activeer meerdere carets"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Activeer volgende selectie"
+ },{
+  "en": "Activate Next View",
+  "tr": "Activeer volgende weergave"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Activeer vorige selectie"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Activeer vorige weergave"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Activeer het linker tabblad"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Activeer het eerder geselecteerde tabblad"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Activeer het rechter tabblad"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Activeer het tabblad na het sluiten"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Activeer het tabblad na zweven"
+ },{
+  "en": "Add",
+  "tr": "Voeg een ... toe)"
+ },{
+  "en": "Add All",
+  "tr": "Alles toevoegen"
+ },{
+  "en": "Add Command",
+  "tr": "Opdracht toevoegen"
+ },{
+  "en": "Add Group",
+  "tr": "Groep toevoegen"
+ },{
+  "en": "Add Sender",
+  "tr": "Afzender toevoegen"
+ },{
+  "en": "Add Tab",
+  "tr": "Tabblad toevoegen"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Pas de vensterrijen en -kolommen aan"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Geavanceerd sorteren"
+ },{
+  "en": "Agent",
+  "tr": "Tussenpersoon"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Agentverificatie mislukt, probeer een andere methode"
+ },{
+  "en": "All",
+  "tr": "Alle"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Alle %1 sessies worden verwijderd.\nWilt u doorgaan met het importeren van sessies?"
+ },{
+  "en": "All session output",
+  "tr": "Alle sessie-output"
+ },{
+  "en": "All Sessions",
+  "tr": "Alle Sessies"
+ },{
+  "en": "All tabs",
+  "tr": "Alle tabbladen"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Alternatieve kolom achtergrondkleur"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Alternatieve lijn achtergrondkleur"
+ },{
+  "en": "Always On Top",
+  "tr": "Altijd bovenaan"
+ },{
+  "en": "Always on top",
+  "tr": "Altijd bovenop"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Er is een fout opgetreden bij het lezen van het %1-proces."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Er is een fout opgetreden bij het schrijven naar het %1-proces."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Er is een onbekende fout opgetreden in proces %1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI naar OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Antwoord terug"
+ },{
+  "en": "Any",
+  "tr": "Ieder"
+ },{
+  "en": "Anything Palette",
+  "tr": "Alles Palet"
+ },{
+  "en": "Anywhere",
+  "tr": "Overal"
+ },{
+  "en": "Appearance",
+  "tr": "Verschijning"
+ },{
+  "en": "Append",
+  "tr": "Toevoegen"
+ },{
+  "en": "Append log file",
+  "tr": "Logbestand toevoegen"
+ },{
+  "en": "Application",
+  "tr": "Sollicitatie"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Weet u zeker dat u %1 geselecteerde items wilt verwijderen?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Weet u zeker dat u item <b>%1</b> wilt verwijderen?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Weet u zeker dat u het huidige bestand opnieuw wilt laden en de wijzigingen die in WindEditE zijn aangebracht, wilt kwijtraken?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Weet u zeker dat u de huidige afzender wilt stoppen?"
+ },{
+  "en": "Arguments",
+  "tr": "Argumenten"
+ },{
+  "en": "At Caret",
+  "tr": "Bij Caret"
+ },{
+  "en": "At End",
+  "tr": "Aan het einde"
+ },{
+  "en": "At Start",
+  "tr": "Bij Start"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Probeer gssapi-met-mic authenticatie"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Poging tot toetsenbord-interactieve authenticatie"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Poging verkiezing authenticatie"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Poging tot wachtwoordverificatie"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Poging tot authenticatie met openbare sleutel"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Poging tot ssh-agent authenticatie"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Geverifieerd met gedeeltelijk succes, probeer een andere methode."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Authenticatie door %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Verificatie door %1 en %2"
+ },{
+  "en": "Authentication",
+  "tr": "authenticatie"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Verificatie geweigerd, probeer het opnieuw."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Verificatie mislukt, probeer het opnieuw."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "HTML/XML-tags automatisch sluiten"
+ },{
+  "en": "Auto login",
+  "tr": "Automatische login"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Automatisch inloggen mislukt, probeer het opnieuw."
+ },{
+  "en": "Auto login next time",
+  "tr": "Volgende keer automatisch inloggen"
+ },{
+  "en": "Automatic",
+  "tr": "automatisch"
+ },{
+  "en": "automatic",
+  "tr": "automatisch"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Automatische authenticatiemethoden"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Selectie automatisch kopiëren"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Inspringing automatisch detecteren"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "De opvulling automatisch bijsnijden"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Achtergrondmarkering"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace stuurt"
+ },{
+  "en": "Backward",
+  "tr": "achteruit"
+ },{
+  "en": "Bars",
+  "tr": "Bars"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baudrate"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Piep wanneer klaar"
+ },{
+  "en": "Binary",
+  "tr": "binair"
+ },{
+  "en": "Binary base",
+  "tr": "Binaire basis"
+ },{
+  "en": "Binary columns",
+  "tr": "Binaire kolommen"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Kolommen met binaire indeling"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Binair gegroepeerde tekens"
+ },{
+  "en": "Black",
+  "tr": "zwart"
+ },{
+  "en": "Blink",
+  "tr": "Knipperen"
+ },{
+  "en": "blinking block",
+  "tr": "knipperend blok"
+ },{
+  "en": "blinking line",
+  "tr": "knipperende lijn"
+ },{
+  "en": "blinking rectangle",
+  "tr": "knipperende rechthoek"
+ },{
+  "en": "blinking underLine",
+  "tr": "knipperende onderlijn"
+ },{
+  "en": "Block",
+  "tr": "Blok"
+ },{
+  "en": "block",
+  "tr": "blok"
+ },{
+  "en": "Bold",
+  "tr": "Stoutmoedig"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Vetgedrukte letters geven lettertypen met vaste breedte aan"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Bodemdokken"
+ },{
+  "en": "Bottom Group",
+  "tr": "Onderste groep"
+ },{
+  "en": "Browse",
+  "tr": "Bladeren"
+ },{
+  "en": "Browse Directory",
+  "tr": "Door directory bladeren"
+ },{
+  "en": "Browse File",
+  "tr": "Bestand zoeken"
+ },{
+  "en": "Browser",
+  "tr": "Browser"
+ },{
+  "en": "Build",
+  "tr": "Bouw"
+ },{
+  "en": "By",
+  "tr": "Door"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Berekenen"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Kan geen geschikt programma vinden om het bestand te openen:\n%1\nProbeer de standaardeditor te gebruiken om het te openen."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Kan map %1 niet maken."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Kan bestand %1 niet maken."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Kan link %1 niet maken."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Kan de map %1 niet verwijderen."
+ },{
+  "en": "Cancel",
+  "tr": "Annuleren"
+ },{
+  "en": "Cancel Build",
+  "tr": "Annuleer Build"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Selectie annuleren"
+ },{
+  "en": "Caret",
+  "tr": "Caret"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret-stijl"
+ },{
+  "en": "Carriage Return",
+  "tr": "Koets Retour"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Hoofdlettergevoelig"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Hoofdwachtwoord wijzigen"
+ },{
+  "en": "Change master password",
+  "tr": "Hoofdwachtwoord wijzigen"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Wijzigen van het hoofdwachtwoord is mislukt."
+ },{
+  "en": "Change the tab title",
+  "tr": "Wijzig de tabtitel"
+ },{
+  "en": "Changed",
+  "tr": "Gewijzigd"
+ },{
+  "en": "Channel",
+  "tr": "Kanaal"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char Links"
+ },{
+  "en": "Char Right",
+  "tr": "Char Rechts"
+ },{
+  "en": "Character spacing",
+  "tr": "Tekenafstand"
+ },{
+  "en": "character width",
+  "tr": "tekenbreedte"
+ },{
+  "en": "Charset",
+  "tr": "Tekenset"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Kies een standaardeditor"
+ },{
+  "en": "Ciphers",
+  "tr": "cijfers"
+ },{
+  "en": "Ciphers order",
+  "tr": "Coderingsvolgorde"
+ },{
+  "en": "Clear",
+  "tr": "Duidelijk"
+ },{
+  "en": "Clear All",
+  "tr": "Alles wissen"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Recente URL's wissen"
+ },{
+  "en": "Clear Screen",
+  "tr": "Scherm wissen"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Terugscrollen wissen"
+ },{
+  "en": "Clear Sender",
+  "tr": "Afzender wissen"
+ },{
+  "en": "Click event",
+  "tr": "Klik evenement"
+ },{
+  "en": "Close",
+  "tr": "Dichtbij"
+ },{
+  "en": "Close All Views",
+  "tr": "Sluit alle weergaven"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Sluit alle weergaven behalve actief"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Sluit alle weergaven naar rechts"
+ },{
+  "en": "Close And Exit",
+  "tr": "Sluiten en afsluiten"
+ },{
+  "en": "Close Channel",
+  "tr": "Kanaal sluiten"
+ },{
+  "en": "Close Dock",
+  "tr": "Sluit Dock"
+ },{
+  "en": "Close Group",
+  "tr": "Groep sluiten"
+ },{
+  "en": "Close Session",
+  "tr": "Sessie sluiten"
+ },{
+  "en": "Close Tab",
+  "tr": "Sluit Tab"
+ },{
+  "en": "Close tab",
+  "tr": "Sluit Tab"
+ },{
+  "en": "Close View",
+  "tr": "Sluiten"
+ },{
+  "en": "Close Window",
+  "tr": "Venster sluiten"
+ },{
+  "en": "Color",
+  "tr": "Kleur"
+ },{
+  "en": "Column Edit",
+  "tr": "Kolom bewerken"
+ },{
+  "en": "Column Marker",
+  "tr": "Kolommarkering"
+ },{
+  "en": "Columns",
+  "tr": "Kolommen"
+ },{
+  "en": "columns",
+  "tr": "kolommen"
+ },{
+  "en": "Command",
+  "tr": "Commando"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Opdrachtenpalet"
+ },{
+  "en": "Comment",
+  "tr": "Opmerking"
+ },{
+  "en": "Comment Selection",
+  "tr": "Commentaar Selectie"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Opmerking Selectie(Blokmodus)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Commentaarselectie(Lijnmodus)"
+ },{
+  "en": "Complete Word",
+  "tr": "Compleet woord"
+ },{
+  "en": "Config",
+  "tr": "Configuratie"
+ },{
+  "en": "Confirm Password",
+  "tr": "bevestig wachtwoord"
+ },{
+  "en": "Confirm password",
+  "tr": "Bevestig wachtwoord"
+ },{
+  "en": "Connect",
+  "tr": "Aansluiten"
+ },{
+  "en": "Connection",
+  "tr": "Verbinding"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Context"
+ },{
+  "en": "Continue",
+  "tr": "Doorgaan met"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Converteer CRLF en LF naar CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Tabblad converteren naar spaties"
+ },{
+  "en": "copied",
+  "tr": "gekopieerd"
+ },{
+  "en": "Copy",
+  "tr": "Kopiëren"
+ },{
+  "en": "copy",
+  "tr": "kopiëren"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Kopiëren en plakken"
+ },{
+  "en": "Copy File Name",
+  "tr": "Bestandsnaam kopiëren"
+ },{
+  "en": "Copy File Path",
+  "tr": "Bestandspad kopiëren"
+ },{
+  "en": "Copy from",
+  "tr": "Kopiëren van"
+ },{
+  "en": "Copy names",
+  "tr": "Namen kopiëren"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Kopieer namen naar terminal"
+ },{
+  "en": "Copy Output",
+  "tr": "Uitvoer kopiëren"
+ },{
+  "en": "Copy paths",
+  "tr": "Paden kopiëren"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Kopieer paden naar terminal"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Sessienaam kopiëren"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Sessie-URL kopiëren"
+ },{
+  "en": "Copy to",
+  "tr": "Kopiëren naar"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Kopiëren naar terminal"
+ },{
+  "en": "Count",
+  "tr": "Graaf"
+ },{
+  "en": "Create Directory",
+  "tr": "Map maken"
+ },{
+  "en": "Create File",
+  "tr": "Bestand maken"
+ },{
+  "en": "Create Link",
+  "tr": "Link maken"
+ },{
+  "en": "Created",
+  "tr": "Gemaakt"
+ },{
+  "en": "Critical",
+  "tr": "Kritiek"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Huidige sessie"
+ },{
+  "en": "Custom",
+  "tr": "Aangepast"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Aangepaste dekking"
+ },{
+  "en": "Customize",
+  "tr": "Aanpassen"
+ },{
+  "en": "Cut",
+  "tr": "Knippen"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Donker Cyaan"
+ },{
+  "en": "Data",
+  "tr": "Gegevens"
+ },{
+  "en": "Data Bits",
+  "tr": "Gegevensbits"
+ },{
+  "en": "Datetime format",
+  "tr": "Datum/tijd-formaat"
+ },{
+  "en": "Day of month",
+  "tr": "Dag van de maand"
+ },{
+  "en": "Debug Mode",
+  "tr": "Foutopsporingsmodus"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Regelinspringing verkleinen"
+ },{
+  "en": "Deep Pink",
+  "tr": "Diep roze"
+ },{
+  "en": "default",
+  "tr": "standaard"
+ },{
+  "en": "Default editor",
+  "tr": "Standaardeditor"
+ },{
+  "en": "Default Font",
+  "tr": "Standaardlettertype"
+ },{
+  "en": "Default line ending",
+  "tr": "Standaard regeleinde"
+ },{
+  "en": "Delete",
+  "tr": "Verwijderen"
+ },{
+  "en": "Delete sends",
+  "tr": "Verstuurd verwijderen"
+ },{
+  "en": "deleted",
+  "tr": "verwijderd"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Bestemmingshost"
+ },{
+  "en": "Destination Port",
+  "tr": "Bestemmingspoort"
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Directory"
+ },{
+  "en": "Directory Link",
+  "tr": "Directorylink"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Schakel het algoritme van Nagle uit(optie TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Sessie verbreken"
+ },{
+  "en": "Disk",
+  "tr": "Schijf"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Geen tekens herhalen"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Wilt u de huidige sessie sluiten?"
+ },{
+  "en": "Document",
+  "tr": "Document"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Dit bericht niet meer weergeven"
+ },{
+  "en": "Double click",
+  "tr": "Dubbelklik"
+ },{
+  "en": "Double click event",
+  "tr": "Dubbelklik evenement"
+ },{
+  "en": "Download",
+  "tr": "Downloaden"
+ },{
+  "en": "download",
+  "tr": "downloaden"
+ },{
+  "en": "Download directory",
+  "tr": "Map downloaden"
+ },{
+  "en": "downloaded",
+  "tr": "gedownload"
+ },{
+  "en": "Drop Selection",
+  "tr": "Selectie laten vallen"
+ },{
+  "en": "Duplicate",
+  "tr": "Duplicaat"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Dubbele opdracht"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Dubbele weergave"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dynamisch doorsturen"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Echo elk ingevoerd teken"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Echo elk karakter tijdens het bewerken"
+ },{
+  "en": "Echo random characters",
+  "tr": "Echo willekeurige tekens"
+ },{
+  "en": "Edit",
+  "tr": "Bewerken"
+ },{
+  "en": "Editor",
+  "tr": "Editor"
+ },{
+  "en": "editor",
+  "tr": "editor"
+ },{
+  "en": "Editor Settings",
+  "tr": "Editor-instellingen"
+ },{
+  "en": "Elapsed",
+  "tr": "verstreken"
+ },{
+  "en": "Elide left",
+  "tr": "Elimineer links"
+ },{
+  "en": "Elide middle",
+  "tr": "midden weglaten"
+ },{
+  "en": "Elide right",
+  "tr": "Elimineer rechts"
+ },{
+  "en": "Empty",
+  "tr": "Leeg"
+ },{
+  "en": "Enable command mode",
+  "tr": "Opdrachtmodus inschakelen"
+ },{
+  "en": "Enable local mode",
+  "tr": "Lokale modus inschakelen"
+ },{
+  "en": "Enable SFTP",
+  "tr": "SFTP(S) inschakelen"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Schakel TCP keepalives in(SO_KEEPALIVE optie)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Virtuele ruimten inschakelen"
+ },{
+  "en": "End Of Document",
+  "tr": "Einde van document"
+ },{
+  "en": "End Of Line",
+  "tr": "Einde van lijn"
+ },{
+  "en": "End Of Pair",
+  "tr": "Einde van paar"
+ },{
+  "en": "Engine",
+  "tr": "Motor"
+ },{
+  "en": "Environment Variable",
+  "tr": "Omgevingsvariabele"
+ },{
+  "en": "Environment variables",
+  "tr": "Omgevingsvariabelen"
+ },{
+  "en": "Error",
+  "tr": "Fout"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Wissel caret en anker"
+ },{
+  "en": "Execute",
+  "tr": "Uitvoeren"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Commando uitvoeren na authenticatie"
+ },{
+  "en": "Execute command after start",
+  "tr": "Commando uitvoeren na start"
+ },{
+  "en": "Execute File",
+  "tr": "Bestand uitvoeren"
+ },{
+  "en": "Exit",
+  "tr": "Afsluiten"
+ },{
+  "en": "Expand",
+  "tr": "Uitbreiden"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Vouw fragment(X) uit"
+ },{
+  "en": "Explorer",
+  "tr": "Ontdekkingsreiziger"
+ },{
+  "en": "External Tools",
+  "tr": "Externe hulpmiddelen"
+ },{
+  "en": "External X display",
+  "tr": "Extern X-display"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "Extra licht"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Kan tijdelijk bestand niet maken:\n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Kan map niet openen: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Kan hostvingerafdruk niet ophalen!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Kan bestand niet uploaden: %1,\nHet bestand bestaat mogelijk niet of heeft geen toestemming om het te openen."
+ },{
+  "en": "Fast",
+  "tr": "Snel"
+ },{
+  "en": "Favorites",
+  "tr": "Favorieten"
+ },{
+  "en": "Features",
+  "tr": "Functies"
+ },{
+  "en": "File",
+  "tr": "Bestand"
+ },{
+  "en": "file",
+  "tr": "het dossier"
+ },{
+  "en": "File Link",
+  "tr": "Bestandslink"
+ },{
+  "en": "File Name",
+  "tr": "Bestandsnaam"
+ },{
+  "en": "File name",
+  "tr": "Bestandsnaam"
+ },{
+  "en": "File Path",
+  "tr": "Bestandspad"
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "filer"
+ },{
+  "en": "Filter",
+  "tr": "Filter"
+ },{
+  "en": "Find",
+  "tr": "Zoek"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Alles zoeken"
+ },{
+  "en": "Find in Files",
+  "tr": "Zoek in Bestanden"
+ },{
+  "en": "Find Next",
+  "tr": "Volgende zoeken"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Volgende selectie zoeken"
+ },{
+  "en": "Find Previous",
+  "tr": "Zoek vorige"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Zoek vorige selectie"
+ },{
+  "en": "Fingerprint",
+  "tr": "Vingerafdruk"
+ },{
+  "en": "First nine tabs",
+  "tr": "Eerste negen tabbladen"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Vlotter"
+ },{
+  "en": "Flow Control",
+  "tr": "Stroomregeling"
+ },{
+  "en": "Focus Mode",
+  "tr": "Focus modus"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Instellingen scherpstelmodus"
+ },{
+  "en": "Fold",
+  "tr": "Vouw"
+ },{
+  "en": "Fold All",
+  "tr": "Alles vouwen"
+ },{
+  "en": "Fold Category",
+  "tr": "Vouwcategorie"
+ },{
+  "en": "Fold Inside",
+  "tr": "Vouw naar binnen"
+ },{
+  "en": "Folds",
+  "tr": "Vouwen"
+ },{
+  "en": "Font",
+  "tr": "Lettertype"
+ },{
+  "en": "Font family",
+  "tr": "Lettertypefamilie"
+ },{
+  "en": "Font size",
+  "tr": "Lettergrootte"
+ },{
+  "en": "Font weight",
+  "tr": "Lettergewicht"
+ },{
+  "en": "Forest Green",
+  "tr": "Bosgroen"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Formaatselectie"
+ },{
+  "en": "Found",
+  "tr": "Gevonden"
+ },{
+  "en": "Full month name",
+  "tr": "Naam volledige maand"
+ },{
+  "en": "Full Screen",
+  "tr": "Volledig scherm"
+ },{
+  "en": "Full screen",
+  "tr": "Volledig scherm"
+ },{
+  "en": "Full weekday name",
+  "tr": "Volledige naam van de weekdag"
+ },{
+  "en": "Go Backward",
+  "tr": "Ga achteruit"
+ },{
+  "en": "Go Forward",
+  "tr": "Ga vooruit"
+ },{
+  "en": "Go to",
+  "tr": "Ga naar"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Ga naar symbool in huidige weergave"
+ },{
+  "en": "Goldenrod",
+  "tr": "Guldenroede"
+ },{
+  "en": "Goto",
+  "tr": "Ga naar"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Ga naar adresbalk"
+ },{
+  "en": "Goto File",
+  "tr": "Ga naar bestand"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Ga naar vouwkop"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Ga naar volgende vouwkop"
+ },{
+  "en": "Goto Position",
+  "tr": "Ga naar positie"
+ },{
+  "en": "Goto Session",
+  "tr": "Ga naar Sessie"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Ga naar symbool"
+ },{
+  "en": "Group",
+  "tr": "Groep"
+ },{
+  "en": "Group %1",
+  "tr": "Groep 1"
+ },{
+  "en": "Groups",
+  "tr": "Groepen"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi met microfoon"
+ },{
+  "en": "Hard Reset",
+  "tr": "Harde reset"
+ },{
+  "en": "Help",
+  "tr": "Hulp"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Hex-basis"
+ },{
+  "en": "Hex Columns",
+  "tr": "Hex-kolommen"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex-bewerking"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex-groepstekens"
+ },{
+  "en": "Hidden",
+  "tr": "Verborgen"
+ },{
+  "en": "Hide",
+  "tr": "Verbergen"
+ },{
+  "en": "Hide All",
+  "tr": "Alles verbergen"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Cursor verbergen tijdens typen"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Tekst verbergen"
+ },{
+  "en": "Highlight",
+  "tr": "Markeer"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Markeer Caret-lijn"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Markeer overeenkomend paar"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Markeer de caret-lijn"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Markeer het caret-woord"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Markeer de huidige vouw"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Markeer het huidige paar"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Markeer de incrementele zoekopdracht"
+ },{
+  "en": "History",
+  "tr": "Geschiedenis"
+ },{
+  "en": "Home Of Line",
+  "tr": "Huis van lijn"
+ },{
+  "en": "Host",
+  "tr": "Gastheer"
+ },{
+  "en": "Host address",
+  "tr": "Hostadres"
+ },{
+  "en": "Host Based",
+  "tr": "Hostgebaseerd"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Uren in 12 formaat"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Uren in 24-formaat"
+ },{
+  "en": "Http proxy",
+  "tr": "Http-proxy"
+ },{
+  "en": "Huge File",
+  "tr": "Enorm bestand"
+ },{
+  "en": "Icon",
+  "tr": "Icoon"
+ },{
+  "en": "Identity file",
+  "tr": "Identiteitsbestand"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Identiteitsbestand voor authenticatie"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Als u een hoofdwachtwoord aanmaakt, wordt u gevraagd dit in te voeren wanneer WindTerm opgeslagen informatie ophaalt die wordt beschermd door het hoofdwachtwoord."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Als u uw hoofdwachtwoord vergeet, heeft u geen toegang meer tot de informatie die hierdoor wordt beschermd."
+ },{
+  "en": "Import",
+  "tr": "Importeren"
+ },{
+  "en": "Import sessions",
+  "tr": "Sessies importeren"
+ },{
+  "en": "In Selection",
+  "tr": "In selectie"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Regelinspringing vergroten"
+ },{
+  "en": "Incremental",
+  "tr": "Toenemend"
+ },{
+  "en": "Indent",
+  "tr": "Inspringen"
+ },{
+  "en": "Indent guide style",
+  "tr": "Gidsstijl inspringen"
+ },{
+  "en": "Indent Guides",
+  "tr": "Hulplijnen inspringen"
+ },{
+  "en": "Indent size",
+  "tr": "Inspringgrootte"
+ },{
+  "en": "Indentation",
+  "tr": "inspringen"
+ },{
+  "en": "Indian Red",
+  "tr": "Indiaas Rood"
+ },{
+  "en": "Information",
+  "tr": "Informatie"
+ },{
+  "en": "Insert",
+  "tr": "Invoegen"
+ },{
+  "en": "Insert File",
+  "tr": "Bestand invoegen"
+ },{
+  "en": "Insert Lines",
+  "tr": "Lijnen invoegen"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Tabblad invoegen bij indrukken van de TAB-toets"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Witruimte invoegen en verwijderen volgt tabstops"
+ },{
+  "en": "Inserting file",
+  "tr": "Bestand invoegen"
+ },{
+  "en": "Internal X display",
+  "tr": "Intern X-display"
+ },{
+  "en": "Interval",
+  "tr": "Interval"
+ },{
+  "en": "Invert Selection",
+  "tr": "Selectie omkeren"
+ },{
+  "en": "item failed",
+  "tr": "item mislukt"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "items mislukt"
+ },{
+  "en": "Join Channel A",
+  "tr": "Word lid van kanaal A"
+ },{
+  "en": "Join Channel B",
+  "tr": "Word lid van kanaal B"
+ },{
+  "en": "Join Channel C",
+  "tr": "Word lid van kanaal C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Word lid van kanaal D"
+ },{
+  "en": "Join Lines",
+  "tr": "Lijnen samenvoegen"
+ },{
+  "en": "Joined",
+  "tr": "lid geworden"
+ },{
+  "en": "Jump Server",
+  "tr": "Jump-server"
+ },{
+  "en": "Jump server",
+  "tr": "Jump-server"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Jumpservers"
+ },{
+  "en": "Key Exchange",
+  "tr": "Sleuteluitwisseling"
+ },{
+  "en": "Key exchange order",
+  "tr": "Sleutelwisselopdracht"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Sleutel opnieuw uitwisselen"
+ },{
+  "en": "Keyboard",
+  "tr": "Toetsenbord"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Toetsenbord interactief"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Bar"
+ },{
+  "en": "Known",
+  "tr": "Bekend"
+ },{
+  "en": "Label",
+  "tr": "Label"
+ },{
+  "en": "Language",
+  "tr": "Taal"
+ },{
+  "en": "Last sessions",
+  "tr": "Laatste sessies"
+ },{
+  "en": "Layout",
+  "tr": "Lay-out"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Leading en Trailing Blanks"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Toonaangevende blanco's"
+ },{
+  "en": "Leading position",
+  "tr": "Leidende positie"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Alle kanalen verlaten"
+ },{
+  "en": "Leave all channels",
+  "tr": "Alle kanalen verlaten"
+ },{
+  "en": "Leave Channel",
+  "tr": "Kanaal verlaten"
+ },{
+  "en": "Left Docks",
+  "tr": "Links dokken"
+ },{
+  "en": "Left Group",
+  "tr": "Linker groep"
+ },{
+  "en": "Light",
+  "tr": "Licht"
+ },{
+  "en": "Line",
+  "tr": "Lijn"
+ },{
+  "en": "line",
+  "tr": "lijn"
+ },{
+  "en": "line at a time",
+  "tr": "lijn per keer"
+ },{
+  "en": "Line Down",
+  "tr": "Lijn omlaag"
+ },{
+  "en": "Line Ending",
+  "tr": "Regel einde"
+ },{
+  "en": "Line Endings",
+  "tr": "Regeleinden"
+ },{
+  "en": "Line Feed",
+  "tr": "Regelinvoer"
+ },{
+  "en": "line height",
+  "tr": "lijnhoogte"
+ },{
+  "en": "Line marker",
+  "tr": "Lijnmarkering"
+ },{
+  "en": "Line spacing",
+  "tr": "Regelafstand"
+ },{
+  "en": "Line Up",
+  "tr": "Line-up"
+ },{
+  "en": "lines at a time",
+  "tr": "lijnen tegelijk"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Regels voor terugbladeren"
+ },{
+  "en": "Link",
+  "tr": "Link"
+ },{
+  "en": "Link to",
+  "tr": "Link naar"
+ },{
+  "en": "List Tab",
+  "tr": "Tabblad Lijst"
+ },{
+  "en": "Listen Port",
+  "tr": "Luisterpoort"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Lokaal doorsturen"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Zoek bericht"
+ },{
+  "en": "Location",
+  "tr": "Plaats"
+ },{
+  "en": "Lock Screen",
+  "tr": "Vergrendel scherm"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Time-out vergrendelscherm"
+ },{
+  "en": "Lock Selection",
+  "tr": "Selectie vergrendelen"
+ },{
+  "en": "Log",
+  "tr": "Logboek"
+ },{
+  "en": "Log all session output",
+  "tr": "Log alle sessie-output"
+ },{
+  "en": "Log content pattern",
+  "tr": "Inhoudspatroon loggen"
+ },{
+  "en": "Log Dialog",
+  "tr": "Dialoogvenster Logboek"
+ },{
+  "en": "Log file",
+  "tr": "Logbestand"
+ },{
+  "en": "Log file name",
+  "tr": "Logbestandsnaam"
+ },{
+  "en": "Log maximum size",
+  "tr": "Maximale loggrootte"
+ },{
+  "en": "Log nothing",
+  "tr": "Log niets"
+ },{
+  "en": "Log option",
+  "tr": "Log optie"
+ },{
+  "en": "Log options",
+  "tr": "Log opties"
+ },{
+  "en": "Log pattern",
+  "tr": "Logpatroon"
+ },{
+  "en": "Log printable output",
+  "tr": "Log afdrukbare uitvoer"
+ },{
+  "en": "Log type",
+  "tr": "Logtype:"
+ },{
+  "en": "Log types",
+  "tr": "Logtypes"
+ },{
+  "en": "Logging",
+  "tr": "Loggen"
+ },{
+  "en": "Login",
+  "tr": "Log in"
+ },{
+  "en": "Login Wizard",
+  "tr": "Inlogwizard"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Lange tijd/datum"
+ },{
+  "en": "Look both guide",
+  "tr": "Kijk beide gids"
+ },{
+  "en": "Look forward guide",
+  "tr": "Kijk vooruit gids"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC-hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC hashes bestelling"
+ },{
+  "en": "Margin Blank",
+  "tr": "Marge leeg"
+ },{
+  "en": "Margin Fold",
+  "tr": "Margevouw"
+ },{
+  "en": "Margin Number",
+  "tr": "Margenummer"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Margesymbool"
+ },{
+  "en": "Margin Text",
+  "tr": "Margetekst"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Marge Tijdstempel"
+ },{
+  "en": "Margins",
+  "tr": "Marges"
+ },{
+  "en": "Marker style",
+  "tr": "Markeringsstijl"
+ },{
+  "en": "Master Password",
+  "tr": "Master wachtwoord"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Max. gegevens vóór rekey(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Max tijd voor rekey(minuten)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Maximale time-out voor verbinding"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Medium"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Middelgrote Orchidee"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Medium leisteenblauw"
+ },{
+  "en": "Menu Bar",
+  "tr": "Menubalk"
+ },{
+  "en": "Merge To Group",
+  "tr": "Samenvoegen tot groep"
+ },{
+  "en": "Middle click",
+  "tr": "Middenklik"
+ },{
+  "en": "Middle click event",
+  "tr": "Middenklikgebeurtenis"
+ },{
+  "en": "Milliseconds",
+  "tr": "Milliseconden"
+ },{
+  "en": "Minutes",
+  "tr": "Minuten"
+ },{
+  "en": "minutes",
+  "tr": "minuten"
+ },{
+  "en": "Mismatched",
+  "tr": "niet-overeenkomend"
+ },{
+  "en": "Mode",
+  "tr": "Modus"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modem aan het wachten"
+ },{
+  "en": "Modes",
+  "tr": "Modi"
+ },{
+  "en": "Modified",
+  "tr": "Gewijzigd"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Wijzigen"
+ },{
+  "en": "Modify Lines",
+  "tr": "Regels wijzigen"
+ },{
+  "en": "Month",
+  "tr": "Maand"
+ },{
+  "en": "More",
+  "tr": "Meer"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Muisacties"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Muis volgen"
+ },{
+  "en": "Move Down",
+  "tr": "Naar beneden verplaatsen"
+ },{
+  "en": "Move event",
+  "tr": "Gebeurtenis verplaatsen"
+ },{
+  "en": "Move to",
+  "tr": "Verplaatsen naar"
+ },{
+  "en": "Move To Group",
+  "tr": "Verplaatsen naar groep"
+ },{
+  "en": "Move Up",
+  "tr": "Omhoog gaan"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Meerdere Caret"
+ },{
+  "en": "Name",
+  "tr": "Naam"
+ },{
+  "en": "nesting groups",
+  "tr": "nesten van groepen"
+ },{
+  "en": "Never",
+  "tr": "Nooit"
+ },{
+  "en": "New directory",
+  "tr": "Nieuwe map"
+ },{
+  "en": "New File",
+  "tr": "Nieuw bestand"
+ },{
+  "en": "New file",
+  "tr": "Nieuw bestand"
+ },{
+  "en": "New Line",
+  "tr": "Nieuwe regel"
+ },{
+  "en": "New link",
+  "tr": "Nieuwe link"
+ },{
+  "en": "New password",
+  "tr": "Nieuw paswoord"
+ },{
+  "en": "New Session",
+  "tr": "Nieuwe sessie"
+ },{
+  "en": "New Window",
+  "tr": "Nieuw venster"
+ },{
+  "en": "Next Char",
+  "tr": "Volgende Char"
+ },{
+  "en": "Next Fold",
+  "tr": "Volgende vouw"
+ },{
+  "en": "Next Indentation",
+  "tr": "Volgende inspringing"
+ },{
+  "en": "Next Line",
+  "tr": "Volgende regel"
+ },{
+  "en": "Next Message",
+  "tr": "Volgend bericht"
+ },{
+  "en": "Next Page",
+  "tr": "Volgende pagina"
+ },{
+  "en": "Next Pair",
+  "tr": "Volgende paar"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Volgende alinea"
+ },{
+  "en": "Next Scope",
+  "tr": "Volgende bereik"
+ },{
+  "en": "Next Segment End",
+  "tr": "Einde volgend segment"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Volgende segment start"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Volgende gestotterde pagina"
+ },{
+  "en": "Next Word",
+  "tr": "Volgend woord"
+ },{
+  "en": "Next Word End",
+  "tr": "Volgend woordeinde"
+ },{
+  "en": "Next Word Part",
+  "tr": "Volgend woorddeel"
+ },{
+  "en": "No",
+  "tr": "Nee"
+ },{
+  "en": "No action",
+  "tr": "Geen actie"
+ },{
+  "en": "No Dirs",
+  "tr": "Geen Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Geen elide"
+ },{
+  "en": "No file opened",
+  "tr": "Geen bestand geopend"
+ },{
+  "en": "No filer available",
+  "tr": "Geen filer beschikbaar"
+ },{
+  "en": "No Files",
+  "tr": "Geen bestanden"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Geen bestanden geselecteerd om over te zetten."
+ },{
+  "en": "No item opened",
+  "tr": "Geen item geopend"
+ },{
+  "en": "No outline available",
+  "tr": "Geen overzicht beschikbaar"
+ },{
+  "en": "No proxy",
+  "tr": "Geen proxy"
+ },{
+  "en": "No session",
+  "tr": "Geen sessie"
+ },{
+  "en": "No session available",
+  "tr": "Geen sessie beschikbaar"
+ },{
+  "en": "No session opened",
+  "tr": "Geen sessie geopend"
+ },{
+  "en": "No Sessions",
+  "tr": "Geen sessies"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Geen ondersteunde verificatiemethoden beschikbaar."
+ },{
+  "en": "No transfer available",
+  "tr": "Geen overboeking beschikbaar"
+ },{
+  "en": "No wrap",
+  "tr": "Geen omslag"
+ },{
+  "en": "No X display",
+  "tr": "Geen X-weergave"
+ },{
+  "en": "None",
+  "tr": "Geen"
+ },{
+  "en": "None tabs",
+  "tr": "Geen tabbladen"
+ },{
+  "en": "Normal",
+  "tr": "normaal"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "nutsvoorzieningen"
+ },{
+  "en": "Nowhere",
+  "tr": "Nergens"
+ },{
+  "en": "Octal",
+  "tr": "Octaal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM naar ANSI"
+ },{
+  "en": "Off",
+  "tr": "Uit"
+ },{
+  "en": "off",
+  "tr": "uit"
+ },{
+  "en": "Ok",
+  "tr": "OK"
+ },{
+  "en": "Old",
+  "tr": "Oud"
+ },{
+  "en": "Old password",
+  "tr": "Oud Wachtwoord"
+ },{
+  "en": "Olive",
+  "tr": "Olijf"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Er worden een of meer sessies geopend, \nWilt u het huidige venster sluiten?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Alleen schijfbestanden kunnen opnieuw worden geladen!"
+ },{
+  "en": "Only indentation",
+  "tr": "Alleen inspringen"
+ },{
+  "en": "Opaque",
+  "tr": "Ondoorzichtig"
+ },{
+  "en": "Open",
+  "tr": "Openen"
+ },{
+  "en": "open",
+  "tr": "open"
+ },{
+  "en": "Open directory after created",
+  "tr": "Open map na aangemaakt"
+ },{
+  "en": "Open directory after download",
+  "tr": "Map openen na download"
+ },{
+  "en": "Open File",
+  "tr": "Bestand openen"
+ },{
+  "en": "Open file",
+  "tr": "Open bestand"
+ },{
+  "en": "Open file after created",
+  "tr": "Bestand openen nadat het is gemaakt"
+ },{
+  "en": "Open file failed!",
+  "tr": "Bestand openen mislukt!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Open jump-server mislukt!"
+ },{
+  "en": "Open Log File",
+  "tr": "Logbestand openen"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Logmap openen"
+ },{
+  "en": "Open Recent",
+  "tr": "Recente openen"
+ },{
+  "en": "Open Selection",
+  "tr": "Selectie openen"
+ },{
+  "en": "Open Session",
+  "tr": "Open Sessie"
+ },{
+  "en": "Open session failed!",
+  "tr": "Open sessie mislukt!"
+ },{
+  "en": "Open target directory",
+  "tr": "Doelmap openen"
+ },{
+  "en": "Open with default editor",
+  "tr": "Openen met standaardeditor"
+ },{
+  "en": "Opened",
+  "tr": "geopend"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh-sessies"
+ },{
+  "en": "Others",
+  "tr": "anderen"
+ },{
+  "en": "Outline",
+  "tr": "Overzicht"
+ },{
+  "en": "Output",
+  "tr": "Uitgang:"
+ },{
+  "en": "Overtype",
+  "tr": "Overtypen"
+ },{
+  "en": "Overwrite",
+  "tr": "overschrijven"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Logbestand overschrijven"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Overschrijven wanneer bronbestand nieuwer"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Overschrijven wanneer het bronbestand nieuwer of langer is"
+ },{
+  "en": "Owner",
+  "tr": "Eigenaar"
+ },{
+  "en": "Packet padding char",
+  "tr": "Pakketopvulling char"
+ },{
+  "en": "Packet size",
+  "tr": "Pakketgrootte:"
+ },{
+  "en": "Page",
+  "tr": "Pagina"
+ },{
+  "en": "page",
+  "tr": "bladzijde"
+ },{
+  "en": "Pair",
+  "tr": "Paar"
+ },{
+  "en": "Panes",
+  "tr": "Ruiten"
+ },{
+  "en": "Paragraph",
+  "tr": "Paragraaf"
+ },{
+  "en": "Parity",
+  "tr": "Pariteit"
+ },{
+  "en": "Passphrase",
+  "tr": "Wachtwoordzin"
+ },{
+  "en": "Password",
+  "tr": "Wachtwoord"
+ },{
+  "en": "Password quality meter",
+  "tr": "Wachtwoordkwaliteitsmeter"
+ },{
+  "en": "Paste",
+  "tr": "Plakken"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Dialoogvenster plakken"
+ },{
+  "en": "Paste text",
+  "tr": "Tekst plakken"
+ },{
+  "en": "Pause",
+  "tr": "Pauze"
+ },{
+  "en": "Paused",
+  "tr": "Gepauzeerd"
+ },{
+  "en": "Pausing",
+  "tr": "Pauzeren"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "DNS-lookup uitvoeren met proxy"
+ },{
+  "en": "Period",
+  "tr": "Periode"
+ },{
+  "en": "Permissions",
+  "tr": "Rechten"
+ },{
+  "en": "pixels",
+  "tr": "pixels"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Voer een nieuwe naam in voor deze weergave"
+ },{
+  "en": "Please input master password",
+  "tr": "Voer het hoofdwachtwoord in"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Voer het hoofdwachtwoord in, leeg of annuleer om uit te schakelen"
+ },{
+  "en": "Please input new group",
+  "tr": "Voer een nieuwe groep in"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Zorg ervoor dat u het hoofdwachtwoord onthoudt dat u hebt ingesteld."
+ },{
+  "en": "Port",
+  "tr": "Haven"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Geef de voorkeur aan themalettertypen"
+ },{
+  "en": "Preferences",
+  "tr": "Voorkeuren"
+ },{
+  "en": "Preserve",
+  "tr": "Beschermen"
+ },{
+  "en": "Preview All",
+  "tr": "Bekijk alles"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Voorbeeldsymbool"
+ },{
+  "en": "Previous Char",
+  "tr": "Vorige Char"
+ },{
+  "en": "Previous Fold",
+  "tr": "Vorige vouw"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Vorige inspringing"
+ },{
+  "en": "Previous Line",
+  "tr": "Vorige regel"
+ },{
+  "en": "Previous Message",
+  "tr": "Vorig bericht"
+ },{
+  "en": "Previous Page",
+  "tr": "Vorige pagina"
+ },{
+  "en": "Previous Pair",
+  "tr": "Vorig paar"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Vorige alinea"
+ },{
+  "en": "Previous Scope",
+  "tr": "Vorige toepassingsgebied"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Einde vorig segment"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Begin vorig segment"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Vorige gestotterde pagina"
+ },{
+  "en": "Previous Word",
+  "tr": "Vorig woord"
+ },{
+  "en": "Previous Word End",
+  "tr": "Vorig woordeinde"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Vorig woorddeel"
+ },{
+  "en": "Printable output",
+  "tr": "Afdrukbare uitvoer"
+ },{
+  "en": "Process",
+  "tr": "Proces"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Proces %1 is vastgelopen."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Proces %1 kan niet worden gestart."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Verwerking %1 time-out."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Programma [Argumenten]"
+ },{
+  "en": "Project",
+  "tr": "Project"
+ },{
+  "en": "Properties",
+  "tr": "Eigenschappen"
+ },{
+  "en": "Property",
+  "tr": "Eigendom"
+ },{
+  "en": "Protocol",
+  "tr": "Protocol"
+ },{
+  "en": "Proxy",
+  "tr": "Volmacht"
+ },{
+  "en": "Proxy Host",
+  "tr": "Proxy host"
+ },{
+  "en": "Proxy Port",
+  "tr": "Proxy-poort"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Proxy instellingen"
+ },{
+  "en": "Proxy Type",
+  "tr": "Proxytype"
+ },{
+  "en": "Public Key",
+  "tr": "Publieke sleutel"
+ },{
+  "en": "Public Keys",
+  "tr": "Openbare sleutels"
+ },{
+  "en": "Public keys order",
+  "tr": "Bestelling openbare sleutels"
+ },{
+  "en": "Putty sessions",
+  "tr": "Putty sessies"
+ },{
+  "en": "Query URL",
+  "tr": "Query-URL"
+ },{
+  "en": "Question",
+  "tr": "Vraag"
+ },{
+  "en": "Quick",
+  "tr": "Snel"
+ },{
+  "en": "Quick Bar",
+  "tr": "Snelle balk"
+ },{
+  "en": "Quick Commands",
+  "tr": "Snelle opdrachten"
+ },{
+  "en": "Read Only",
+  "tr": "Alleen lezen"
+ },{
+  "en": "Ready",
+  "tr": "Klaar"
+ },{
+  "en": "Real guide",
+  "tr": "Echte gids"
+ },{
+  "en": "Receive XModem",
+  "tr": "Ontvang XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Ontvang YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Ontvang ZModem"
+ },{
+  "en": "received",
+  "tr": "ontvangen"
+ },{
+  "en": "Recent",
+  "tr": "recente"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Recente sessies"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Sessie opnieuw verbinden"
+ },{
+  "en": "Rectangle",
+  "tr": "Rechthoek"
+ },{
+  "en": "rectangle",
+  "tr": "rechthoek"
+ },{
+  "en": "Red",
+  "tr": "Rood"
+ },{
+  "en": "Redo",
+  "tr": "Opnieuw"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "%1 acties opnieuw uitvoeren"
+ },{
+  "en": "Refresh",
+  "tr": "Vernieuwen"
+ },{
+  "en": "Regular Expression",
+  "tr": "Reguliere expressie"
+ },{
+  "en": "Reload",
+  "tr": "Herladen"
+ },{
+  "en": "Reload File",
+  "tr": "Bestand opnieuw laden"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Herladen met codering"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Doorsturen op afstand"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Extern pad"
+ },{
+  "en": "Remove",
+  "tr": "Verwijderen"
+ },{
+  "en": "remove",
+  "tr": "verwijderen"
+ },{
+  "en": "Remove All",
+  "tr": "Alles verwijderen"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Lege regels verwijderen"
+ },{
+  "en": "Remove Command",
+  "tr": "Opdracht verwijderen"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Verwijder dubbele regels"
+ },{
+  "en": "Remove Group",
+  "tr": "Groep verwijderen"
+ },{
+  "en": "Remove items",
+  "tr": "Verwijder items"
+ },{
+  "en": "Remove Sender",
+  "tr": "Afzender verwijderen"
+ },{
+  "en": "Removing",
+  "tr": "Verwijderen"
+ },{
+  "en": "Rename",
+  "tr": "Hernoemen"
+ },{
+  "en": "Rename Group",
+  "tr": "Groep hernoemen"
+ },{
+  "en": "Rename tab",
+  "tr": "Tabblad hernoemen"
+ },{
+  "en": "Rename View",
+  "tr": "Weergave hernoemen"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Gesloten weergave opnieuw openen"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Herhaal laatste opdracht"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Herhaaldelijk uitvoeren"
+ },{
+  "en": "Replace",
+  "tr": "Vervang"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Alles vervangen"
+ },{
+  "en": "Replace in Files",
+  "tr": "Vervangen in Bestanden"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Vereist een herstart om effect te krijgen"
+ },{
+  "en": "Reset",
+  "tr": "Resetten"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Tekenset resetten"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Zoom resetten"
+ },{
+  "en": "Resume",
+  "tr": "Hervat"
+ },{
+  "en": "Resuming",
+  "tr": "hervatten"
+ },{
+  "en": "Right click",
+  "tr": "Klik met de rechtermuisknop"
+ },{
+  "en": "Right click event",
+  "tr": "Rechtsklikgebeurtenis"
+ },{
+  "en": "Right Docks",
+  "tr": "Rechts dokken"
+ },{
+  "en": "Right Group",
+  "tr": "Juiste groep"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Rol het muiswiel om te scrollen"
+ },{
+  "en": "Rows",
+  "tr": "Rijen"
+ },{
+  "en": "Royal Blue",
+  "tr": "Koningsblauw"
+ },{
+  "en": "Run Tool",
+  "tr": "Hulpprogramma uitvoeren"
+ },{
+  "en": "Save",
+  "tr": "Opslaan"
+ },{
+  "en": "Save All",
+  "tr": "Alles opslaan"
+ },{
+  "en": "Save As",
+  "tr": "Opslaan als"
+ },{
+  "en": "Save Copy As",
+  "tr": "Kopie opslaan als"
+ },{
+  "en": "Save file failed!",
+  "tr": "Bestand opslaan mislukt!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Selectie opslaan als"
+ },{
+  "en": "Save Session",
+  "tr": "Sessie opslaan"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Opgeslagen automatische authenticatie"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Schema Tools"
+ },{
+  "en": "Scope",
+  "tr": "Toepassingsgebied"
+ },{
+  "en": "Screen Locked",
+  "tr": "Scherm vergrendeld"
+ },{
+  "en": "Scroll Left",
+  "tr": "Scroll naar links"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Scroll naar beneden"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Scroll line-up"
+ },{
+  "en": "Scroll Right",
+  "tr": "Scroll naar rechts"
+ },{
+  "en": "Search",
+  "tr": "Zoeken"
+ },{
+  "en": "Search engine",
+  "tr": "Zoekmachines)"
+ },{
+  "en": "Search Engine",
+  "tr": "Zoekmachine"
+ },{
+  "en": "Search Engines",
+  "tr": "Zoekmachines"
+ },{
+  "en": "Search Online",
+  "tr": "Online zoeken"
+ },{
+  "en": "Search or enter address",
+  "tr": "Adres zoeken of invoeren"
+ },{
+  "en": "Searching",
+  "tr": "Zoeken"
+ },{
+  "en": "Seconds",
+  "tr": "Seconden"
+ },{
+  "en": "seconds",
+  "tr": "seconden"
+ },{
+  "en": "Security",
+  "tr": "Veiligheid"
+ },{
+  "en": "Segment",
+  "tr": "Segment"
+ },{
+  "en": "Select",
+  "tr": "Selecteer"
+ },{
+  "en": "Select All",
+  "tr": "Alles selecteren"
+ },{
+  "en": "Select Column To",
+  "tr": "Selecteer Kolom Naar"
+ },{
+  "en": "Select copy folder",
+  "tr": "Selecteer kopieermap"
+ },{
+  "en": "Select copy items",
+  "tr": "Selecteer kopieeritems"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Selecteer map om te ontvangen"
+ },{
+  "en": "Select download folder",
+  "tr": "Selecteer downloadmap"
+ },{
+  "en": "Select files to send",
+  "tr": "Selecteer bestanden om te verzenden"
+ },{
+  "en": "Select Fold",
+  "tr": "Selecteer Vouw"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Selecteer Fragment Achterwaarts"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Selecteer Fragment Doorsturen"
+ },{
+  "en": "Select To",
+  "tr": "Selecteer Aan"
+ },{
+  "en": "Select upload items",
+  "tr": "Selecteer uploaditems"
+ },{
+  "en": "Selected position",
+  "tr": "Geselecteerde positie"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Geselecteerde sessies"
+ },{
+  "en": "Selection",
+  "tr": "Selectie"
+ },{
+  "en": "Send",
+  "tr": "Versturen"
+ },{
+  "en": "Send line By line",
+  "tr": "Stuur regel Per regel"
+ },{
+  "en": "Send Text",
+  "tr": "Tekst verzenden"
+ },{
+  "en": "Send XModem",
+  "tr": "Stuur XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Stuur YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Stuur ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Afzender"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Verzenden van %1 mislukt: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Verzenden: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Verzendt null-pakket om sessie levend te houden"
+ },{
+  "en": "sent",
+  "tr": "verstuurd"
+ },{
+  "en": "Serial",
+  "tr": "Serieel"
+ },{
+  "en": "Server",
+  "tr": "Server"
+ },{
+  "en": "Session",
+  "tr": "Sessie"
+ },{
+  "en": "session",
+  "tr": "sessie"
+ },{
+  "en": "Session Group",
+  "tr": "Sessie Groep"
+ },{
+  "en": "Session Log",
+  "tr": "Sessielogboek"
+ },{
+  "en": "Session name",
+  "tr": "Sessienaam"
+ },{
+  "en": "Session Settings",
+  "tr": "Sessie-instellingen"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Sessies in alle vensters"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Sessies in huidige groep"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Sessies in huidig ​​venster"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Sessies in groep %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Standaardeditor instellen"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Tabkleur instellen"
+ },{
+  "en": "Settings",
+  "tr": "Instellingen"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Vorm"
+ },{
+  "en": "Shell",
+  "tr": "Schelp"
+ },{
+  "en": "Shell sessions",
+  "tr": "Shell-sessies"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Shell-sessies"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Korte tijd/datum"
+ },{
+  "en": "Show",
+  "tr": "Laten zien"
+ },{
+  "en": "Show All",
+  "tr": "Toon alles"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Toon alle geopende en recente editors"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Toon alle geopende en recente terminals"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Acties tonen en uitvoeren"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Dialoogvenster voor bevestiging van tabblad sluiten weergeven"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Bevestigingsvenster voor sluiten van venster weergeven"
+ },{
+  "en": "Show column markers",
+  "tr": "Kolommarkeringen weergeven"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Toon opdrachten in alfabetische volgorde"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Toon huidige %1 eigenschap"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Toon groepscommando's in volgorde"
+ },{
+  "en": "Show group title",
+  "tr": "Toon groepstitel"
+ },{
+  "en": "Show hidden items",
+  "tr": "Verborgen items weergeven"
+ },{
+  "en": "Show in %1",
+  "tr": "Weergeven in %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Toon in regeleinde"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Show In Line Start"
+ },{
+  "en": "Show In Selection",
+  "tr": "Toon in selectie"
+ },{
+  "en": "Show indent guide",
+  "tr": "Inspringgids weergeven"
+ },{
+  "en": "Show line endings",
+  "tr": "Toon regeleindes"
+ },{
+  "en": "Show menu",
+  "tr": "Laat het menu zien"
+ },{
+  "en": "Show More Tools",
+  "tr": "Toon meer tools"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Toon meerdere groepen"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Toon plakdialoogvenster op het alternatieve scherm"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Toon plakdialoog op het hoofdscherm"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Toon spaties en tabs"
+ },{
+  "en": "Show Tabs",
+  "tr": "Tabbladen tonen"
+ },{
+  "en": "Show Text",
+  "tr": "Toon tekst"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Toon het tabnummer op tabs"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Toon dit dialoogvenster wanneer de focusmodus start"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Wikkelsymbolen weergeven"
+ },{
+  "en": "Shrink",
+  "tr": "Krimpen"
+ },{
+  "en": "Size",
+  "tr": "Maat"
+ },{
+  "en": "Skip",
+  "tr": "Overslaan"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Sokken v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "Zachte reset"
+ },{
+  "en": "Sort",
+  "tr": "Sorteren"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Regels sorteren, hoofdletterongevoelig"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Sorteerregels Hoofdlettergevoelig"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Sorteer regels in willekeurige volgorde"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Regels in omgekeerde volgorde sorteren"
+ },{
+  "en": "spaces",
+  "tr": "spaties"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Spaties naar tabbladen"
+ },{
+  "en": "Spacing",
+  "tr": "Spatiëring"
+ },{
+  "en": "Special",
+  "tr": "Speciaal"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Specificeer het protocol bij het slepen en neerzetten van bestanden"
+ },{
+  "en": "Speed",
+  "tr": "Snelheid"
+ },{
+  "en": "Split",
+  "tr": "Splitsen"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Groep horizontaal splitsen"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Groep verticaal splitsen"
+ },{
+  "en": "Split Lines",
+  "tr": "Gesplitste lijnen"
+ },{
+  "en": "Split Selection",
+  "tr": "Selectie splitsen"
+ },{
+  "en": "Split To Group",
+  "tr": "Splitsen naar groep"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Horizontaal gesplitste weergave"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Weergave verticaal splitsen"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Begin"
+ },{
+  "en": "Start Of Document",
+  "tr": "Begin van document"
+ },{
+  "en": "Start Of Line",
+  "tr": "Begin van lijn"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Begin van paar"
+ },{
+  "en": "Startup",
+  "tr": "Beginnen"
+ },{
+  "en": "Stash",
+  "tr": "Stash"
+ },{
+  "en": "Status Bar",
+  "tr": "Statusbalk"
+ },{
+  "en": "Stdin",
+  "tr": "standaard"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Staalblauw"
+ },{
+  "en": "Sticky",
+  "tr": "Kleverig"
+ },{
+  "en": "Stop",
+  "tr": "Stop"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stopbits"
+ },{
+  "en": "Stop loading",
+  "tr": "Stop met laden"
+ },{
+  "en": "Stop sender",
+  "tr": "Stop afzender"
+ },{
+  "en": "Stop Tools",
+  "tr": "Hulpprogramma's stoppen"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Stop met kijken naar dit bestand"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Schakel stream en kolom"
+ },{
+  "en": "switch to tab",
+  "tr": "overschakelen naar tabblad"
+ },{
+  "en": "Symbols",
+  "tr": "Symbolen"
+ },{
+  "en": "Sync channel",
+  "tr": "Kanaal synchroniseren"
+ },{
+  "en": "Sync Edit",
+  "tr": "Synchronisatie bewerken"
+ },{
+  "en": "Sync Input",
+  "tr": "Invoer synchroniseren"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Ingang synchroniseren in kanaal %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Syntaxisschema's"
+ },{
+  "en": "System",
+  "tr": "Systeem"
+ },{
+  "en": "Tab",
+  "tr": "Tab"
+ },{
+  "en": "Tab Color",
+  "tr": "Tabkleur"
+ },{
+  "en": "Tab Features",
+  "tr": "Tabblad Functies"
+ },{
+  "en": "Tab Group",
+  "tr": "Tabgroep"
+ },{
+  "en": "Tab Index",
+  "tr": "Tabbladindex"
+ },{
+  "en": "Tab size",
+  "tr": "Tabbladgrootte"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Tabtekst verwijderen modus"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Tab miniatuur radio"
+ },{
+  "en": "Tab Title",
+  "tr": "Tabtitel"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify geselecteerde regels"
+ },{
+  "en": "Tabs",
+  "tr": "Tabbladen"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Tabs naar Spaces"
+ },{
+  "en": "Target",
+  "tr": "Doelwit"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Doelmap"
+ },{
+  "en": "Targets",
+  "tr": "doelen"
+ },{
+  "en": "TCP connection options",
+  "tr": "Opties voor TCP-verbinding"
+ },{
+  "en": "Teal",
+  "tr": "Blauwgroen"
+ },{
+  "en": "Term",
+  "tr": "Termijn"
+ },{
+  "en": "Terminal",
+  "tr": "Terminal"
+ },{
+  "en": "terminal",
+  "tr": "terminal"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Terminal-instellingen"
+ },{
+  "en": "Text",
+  "tr": "Tekst"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Tekst: %1 regels, %2 tekens"
+ },{
+  "en": "The % sign",
+  "tr": "Het teken"
+ },{
+  "en": "The actual text to log",
+  "tr": "De eigenlijke tekst om in te loggen"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "De doelmap is een submap van de bronmap:\n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Het document is aangepast.\nWilt u uw wijzigingen opslaan?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "De toetsencombinatie(%1) is geen opdracht."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "De lrzsz wordt niet gedetecteerd. Installeer eerst lrzsz."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Het hoofdwachtwoord is gewijzigd."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "De wachtwoordbevestiging komt niet overeen."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "De server heeft de verzending geannuleerd."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "De sessie is <b>ontkoppeld</b>, druk op <b>Enter</b> om opnieuw verbinding te maken."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "De overdracht is geannuleerd omdat een pakket niet %1 binnen de limiet voor opnieuw proberen viel."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "De overdracht is geannuleerd omdat het pakketvolgnummer onjuist was."
+ },{
+  "en": "Theme",
+  "tr": "Thema"
+ },{
+  "en": "Thin",
+  "tr": "Dun"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Drempel voor enorm bestand"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Tijdnotatie"
+ },{
+  "en": "Time left",
+  "tr": "Tijd over"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Tijdstempel van lijnen"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Omgekeerde Case"
+ },{
+  "en": "To Line End",
+  "tr": "Naar regeleinde"
+ },{
+  "en": "To Line Start",
+  "tr": "Naar startlijn"
+ },{
+  "en": "To Lower Case",
+  "tr": "Naar kleine letters"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Naar MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "Naar titel Case"
+ },{
+  "en": "To Unix LF",
+  "tr": "Naar Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "Naar hoofdletters"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Naar Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Naar woordeinde"
+ },{
+  "en": "To Word Start",
+  "tr": "Naar Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Toggle Vouwen"
+ },{
+  "en": "Tool",
+  "tr": "Gereedschap"
+ },{
+  "en": "Toolbar",
+  "tr": "Werkbalk"
+ },{
+  "en": "Top Group",
+  "tr": "Topgroep"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Tekstselectie bijhouden in boom"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Volg boomselectie in tekst"
+ },{
+  "en": "Tracking Events",
+  "tr": "Gebeurtenissen bijhouden"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Achterliggende spaties"
+ },{
+  "en": "Trailing position",
+  "tr": "Achterliggende positie"
+ },{
+  "en": "Transfer",
+  "tr": "Overdracht"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Overdrachtbalk"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Binaire overdracht"
+ },{
+  "en": "Transfer complete",
+  "tr": "Overdracht voltooid"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Overdracht onvolledig"
+ },{
+  "en": "Translucent",
+  "tr": "Doorschijnend"
+ },{
+  "en": "Transparent",
+  "tr": "Transparant"
+ },{
+  "en": "Transpose",
+  "tr": "Transponeren"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Achterliggende witruimte bijsnijden bij opslaan"
+ },{
+  "en": "Trust this host",
+  "tr": "Vertrouw deze gastheer"
+ },{
+  "en": "Tunnels",
+  "tr": "Tunnels"
+ },{
+  "en": "Type",
+  "tr": "Type"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Typ '?' om hulp te krijgen bij de acties die u hier kunt typen"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Uncomment Selectie"
+ },{
+  "en": "Underline",
+  "tr": "Onderstrepen"
+ },{
+  "en": "underLine",
+  "tr": "onderstrepen"
+ },{
+  "en": "Undo",
+  "tr": "Ongedaan maken"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "%1 acties ongedaan maken"
+ },{
+  "en": "Unfold",
+  "tr": "Uitvouwen"
+ },{
+  "en": "Unfold All",
+  "tr": "Alles uitvouwen"
+ },{
+  "en": "Unfold Category",
+  "tr": "Categorie uitvouwen"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Binnenuitvouwen"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Verenig regeleinden bij opslaan"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: pad naar shell-bestand moet absoluut zijn"
+ },{
+  "en": "Unknown",
+  "tr": "Onbekend"
+ },{
+  "en": "unknown",
+  "tr": "onbekend"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Geselecteerde regels deactiveren"
+ },{
+  "en": "Untitled",
+  "tr": "Ongetiteld"
+ },{
+  "en": "Untrust this host",
+  "tr": "Deze host niet vertrouwen"
+ },{
+  "en": "upload",
+  "tr": "uploaden"
+ },{
+  "en": "Upload command",
+  "tr": "Upload commando"
+ },{
+  "en": "Upload directory",
+  "tr": "Upload map"
+ },{
+  "en": "Upload file",
+  "tr": "Upload bestand"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Uploaden naar huidige map"
+ },{
+  "en": "uploaded",
+  "tr": "geüpload"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL met %q in plaats van query"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Gebruik achtergrondkleur om scherm(U) te wissen"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Snelle overdracht gebruiken"
+ },{
+  "en": "Use system line ending",
+  "tr": "Gebruik systeemregeleinde"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Gebruik dit als standaard en vraag niet opnieuw"
+ },{
+  "en": "User",
+  "tr": "Gebruiker"
+ },{
+  "en": "Username echo mode",
+  "tr": "Echo-modus gebruikersnaam"
+ },{
+  "en": "Value",
+  "tr": "Waarde"
+ },{
+  "en": "Variable",
+  "tr": "Variabele"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "De vingerafdruk van de server verifiëren"
+ },{
+  "en": "View",
+  "tr": "Bekijk"
+ },{
+  "en": "Virtual Space",
+  "tr": "Virtuele ruimte"
+ },{
+  "en": "Waiting",
+  "tr": "Aan het wachten"
+ },{
+  "en": "Warning",
+  "tr": "Waarschuwing"
+ },{
+  "en": "Wheel event",
+  "tr": "Wielgebeurtenis"
+ },{
+  "en": "When destination file exists",
+  "tr": "Als het doelbestand bestaat"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Bij het plakken van meerdere regels"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Wanneer de titel op afstand wordt gewijzigd"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Wanneer de sessie is geverifieerd"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Wanneer de sessie wordt geverifieerd"
+ },{
+  "en": "When window is resized",
+  "tr": "Wanneer het formaat van het venster wordt gewijzigd"
+ },{
+  "en": "Where",
+  "tr": "Waar"
+ },{
+  "en": "White Spaces",
+  "tr": "Witruimten"
+ },{
+  "en": "Whole Line",
+  "tr": "Hele lijn"
+ },{
+  "en": "Whole Word",
+  "tr": "Hele wereld"
+ },{
+  "en": "Widgets",
+  "tr": "Widgets"
+ },{
+  "en": "Width",
+  "tr": "Breedte"
+ },{
+  "en": "Window",
+  "tr": "Raam"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Raamrand"
+ },{
+  "en": "Window Opacity",
+  "tr": "Vensterdekking"
+ },{
+  "en": "Window opacity",
+  "tr": "Vensterdekking"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows-beheer"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe of winpty.dll niet gevonden!."
+ },{
+  "en": "Word",
+  "tr": "Woord"
+ },{
+  "en": "Word Separators",
+  "tr": "Woordscheidingstekens"
+ },{
+  "en": "Word Wrap",
+  "tr": "Woordterugloop"
+ },{
+  "en": "Working directory",
+  "tr": "Werkmap"
+ },{
+  "en": "Wrap",
+  "tr": "Wrap"
+ },{
+  "en": "Wrap by character",
+  "tr": "Wikkel op karakter"
+ },{
+  "en": "Wrap by word",
+  "tr": "Wikkel per woord"
+ },{
+  "en": "Wrap column",
+  "tr": "Wikkelkolom"
+ },{
+  "en": "Wrap mode",
+  "tr": "Wikkelmodus"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Wikkelsymbolen"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Verkeerd hoofdwachtwoord."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z-modem"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z-modem kan geen mappen of bestanden groter dan 4 GB verzenden: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 authenticatieprotocol"
+ },{
+  "en": "X11 display",
+  "tr": "X11-weergave"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Jaar in 2 cijfers"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Jaar in 4 cijfers"
+ },{
+  "en": "Yes",
+  "tr": "Ja"
+ },{
+  "en": "Zero",
+  "tr": "Nul"
+ },{
+  "en": "Zoom",
+  "tr": "Zoom"
+ },{
+  "en": "Zoom In",
+  "tr": "Inzoomen"
+ },{
+  "en": "Zoom level",
+  "tr": "Zoomniveau"
+ },{
+  "en": "Zoom Out",
+  "tr": "Uitzoomen"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Gecrasht in %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Leeg]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Fout: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Klaar in %1s, afsluitcode %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Voltooid in %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Groepslijst is leeg]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Navigatielijst is leeg]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Geen zoekmachine]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Recente URL's zijn leeg]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Redo-lijst is leeg]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Schemalijst is leeg]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Themalijst is leeg]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Werkbalklijst is leeg]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Undo-lijst is leeg]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Gebruiker geannuleerd]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[gebruiker@]hostnaam"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows-lijst is leeg]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

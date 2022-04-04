@@ -1,0 +1,3513 @@
+{
+ "language": "Chinese (Traditional) - 正體中文 (繁體)",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(方案)工具"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%3 不支持 %1 %2。"
+ },{
+  "en": "%1 copied",
+  "tr": "%1 已復制"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 已下載"
+ },{
+  "en": "%1 File",
+  "tr": "%1 文件"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 項失敗"
+ },{
+  "en": "%1 items",
+  "tr": "%1 項"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 項失敗"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 項/秒"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 共 %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 已刪除"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 這個 %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 已上傳"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 速度：%3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 次密碼嘗試失敗。"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br>已<b>更改</b>並<b>重新加載</b>，對於大文件，<b>不允許</b>撤消。"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br>已<b>更改</b>並<b>重新加載</b>，允許撤消。"
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br>已<b>更改</b>，要重新加載嗎？"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br>已<b>移動或刪除</b>。"
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) 被按下。等待更多鑰匙"
+ },{
+  "en": "1 Char",
+  "tr": "1 字符"
+ },{
+  "en": "16 Columns",
+  "tr": "16 列"
+ },{
+  "en": "2 Chars",
+  "tr": "2 字符"
+ },{
+  "en": "24 Columns",
+  "tr": "24 列"
+ },{
+  "en": "32 Columns",
+  "tr": "32 列"
+ },{
+  "en": "4 Chars",
+  "tr": "4 字符"
+ },{
+  "en": "8 Chars",
+  "tr": "8 字符"
+ },{
+  "en": "8 Columns",
+  "tr": "8 列"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "主密碼用於保護敏感信息，如 SSH 密碼。"
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "名稱應少於 255 個字符且不能包含以下任何字符：/ NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "遠程文件已被修改。\n是否要將此文件上傳回服務器？"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "一個特定的會話或一組會話（S）"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "縮寫的月份名稱"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "縮寫的工作日名稱"
+ },{
+  "en": "Accept local connections only",
+  "tr": "僅接受本地連接"
+ },{
+  "en": "Accessed",
+  "tr": "已訪問"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "激活多個插入符號"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "激活下一個選擇"
+ },{
+  "en": "Activate Next View",
+  "tr": "激活下一個視圖"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "激活上一個選擇"
+ },{
+  "en": "Activate Previous View",
+  "tr": "激活上一個視圖"
+ },{
+  "en": "Activate the left tab",
+  "tr": "激活左側選項卡"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "激活之前選擇的選項卡"
+ },{
+  "en": "Activate the right tab",
+  "tr": "激活右側選項卡"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "關閉後激活選項卡（C）"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "懸停後激活選項卡（H）"
+ },{
+  "en": "Add",
+  "tr": "添加"
+ },{
+  "en": "Add All",
+  "tr": "添加全部"
+ },{
+  "en": "Add Command",
+  "tr": "添加命令"
+ },{
+  "en": "Add Group",
+  "tr": "添加組"
+ },{
+  "en": "Add Sender",
+  "tr": "添加發件人"
+ },{
+  "en": "Add Tab",
+  "tr": "添加標籤"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "調整窗口行列"
+ },{
+  "en": "Advanced Sort",
+  "tr": "高級排序"
+ },{
+  "en": "Agent",
+  "tr": "代理人"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "代理身份驗證失敗，請嘗試其他方法"
+ },{
+  "en": "All",
+  "tr": "全部"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "將刪除所有 %1 個會話。\n是否繼續導入會話？"
+ },{
+  "en": "All session output",
+  "tr": "所有會話輸出"
+ },{
+  "en": "All Sessions",
+  "tr": "所有會話"
+ },{
+  "en": "All tabs",
+  "tr": "所有標籤"
+ },{
+  "en": "Alternate column background color",
+  "tr": "備用列背景顏色"
+ },{
+  "en": "Alternate line background color",
+  "tr": "交替線背景色"
+ },{
+  "en": "Always On Top",
+  "tr": "永遠在最前面"
+ },{
+  "en": "Always on top",
+  "tr": "總在最前面"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "嘗試從 %1 進程讀取時出錯。"
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "嘗試寫入 %1 進程時出錯。"
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "%1 進程中出現未知錯誤。"
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI 到 OEM"
+ },{
+  "en": "Answer back",
+  "tr": "回复"
+ },{
+  "en": "Any",
+  "tr": "任何"
+ },{
+  "en": "Anything Palette",
+  "tr": "任何調色板（A）"
+ },{
+  "en": "Anywhere",
+  "tr": "任何地方"
+ },{
+  "en": "Appearance",
+  "tr": "外貌"
+ },{
+  "en": "Append",
+  "tr": "附加"
+ },{
+  "en": "Append log file",
+  "tr": "附加日誌文件"
+ },{
+  "en": "Application",
+  "tr": "應用"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "您確定要刪除 %1 個選定的項目嗎？"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "您確定要刪除項目 <b>%1</b> 嗎？"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "您確定要重新加載當前文件並丟失在 WindEdit 中所做的更改嗎？"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "您確定要停止當前的發件人嗎？"
+ },{
+  "en": "Arguments",
+  "tr": "參數"
+ },{
+  "en": "At Caret",
+  "tr": "在插入符號 "
+ },{
+  "en": "At End",
+  "tr": "結束"
+ },{
+  "en": "At Start",
+  "tr": "開始時"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "嘗試 gssapi-with-mic 身份驗證（G）"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "嘗試鍵盤交互認證"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "嘗試選美認證"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "嘗試密碼認證"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "嘗試公鑰認證"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "嘗試 ssh-agent 身份驗證"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "驗證部分成功，請嘗試其他方法。"
+ },{
+  "en": "Authenticating by %1",
+  "tr": "由 %1 進行身份驗證"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "由 %1 和 %2 進行身份驗證"
+ },{
+  "en": "Authentication",
+  "tr": "驗證"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "身份驗證被拒絕，請重試。"
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "身份驗證失敗，請重試。"
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "自動關閉 HTML/XML 標籤"
+ },{
+  "en": "Auto login",
+  "tr": "自動登錄"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "自動登錄失敗，請重試。"
+ },{
+  "en": "Auto login next time",
+  "tr": "下次自動登錄"
+ },{
+  "en": "Automatic",
+  "tr": "自動的"
+ },{
+  "en": "automatic",
+  "tr": "自動的"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "自動身份驗證方法"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "自動複製選擇"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "自動檢測縮進"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "自動修剪內邊距"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "背景標記"
+ },{
+  "en": "Backspace",
+  "tr": "退格"
+ },{
+  "en": "Backspace sends",
+  "tr": "退格發送"
+ },{
+  "en": "Backward",
+  "tr": "落後"
+ },{
+  "en": "Bars",
+  "tr": "酒吧"
+ },{
+  "en": "Baud Rate",
+  "tr": "波特率"
+ },{
+  "en": "Beep When Finished",
+  "tr": "完成時發出嗶聲"
+ },{
+  "en": "Binary",
+  "tr": "二進制"
+ },{
+  "en": "Binary base",
+  "tr": "二元基"
+ },{
+  "en": "Binary columns",
+  "tr": "二元列"
+ },{
+  "en": "Binary devision columns",
+  "tr": "二元除法列"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "二進制分組字符"
+ },{
+  "en": "Black",
+  "tr": "黑色的"
+ },{
+  "en": "Blink",
+  "tr": "眨眼"
+ },{
+  "en": "blinking block",
+  "tr": "閃爍塊"
+ },{
+  "en": "blinking line",
+  "tr": "閃爍的線"
+ },{
+  "en": "blinking rectangle",
+  "tr": "閃爍的矩形"
+ },{
+  "en": "blinking underLine",
+  "tr": "閃爍的下劃線"
+ },{
+  "en": "Block",
+  "tr": "堵塞"
+ },{
+  "en": "block",
+  "tr": "堵塞"
+ },{
+  "en": "Bold",
+  "tr": "膽大"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "粗體表示固定寬度字體"
+ },{
+  "en": "Bottom Docks",
+  "tr": "底部碼頭"
+ },{
+  "en": "Bottom Group",
+  "tr": "底組"
+ },{
+  "en": "Browse",
+  "tr": "瀏覽"
+ },{
+  "en": "Browse Directory",
+  "tr": "瀏覽目錄"
+ },{
+  "en": "Browse File",
+  "tr": "瀏覽文件"
+ },{
+  "en": "Browser",
+  "tr": "瀏覽器"
+ },{
+  "en": "Build",
+  "tr": "構建"
+ },{
+  "en": "By",
+  "tr": "經過"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "計算"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "找不到合適的程序打開文件:\n%1\n嘗試使用默認編輯器打開它。"
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "無法創建目錄 %1。"
+ },{
+  "en": "Can not make file %1.",
+  "tr": "無法製作文件 %1。"
+ },{
+  "en": "Can not make link %1.",
+  "tr": "無法建立鏈接 %1。"
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "無法刪除目錄 %1。"
+ },{
+  "en": "Cancel",
+  "tr": "取消"
+ },{
+  "en": "Cancel Build",
+  "tr": "取消構建"
+ },{
+  "en": "Cancel Selection",
+  "tr": "取消選擇"
+ },{
+  "en": "Caret",
+  "tr": "插入符號"
+ },{
+  "en": "Caret Style",
+  "tr": "插入符號樣式"
+ },{
+  "en": "Carriage Return",
+  "tr": "回車"
+ },{
+  "en": "Case Sensitive",
+  "tr": "區分大小寫"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "更改主密碼"
+ },{
+  "en": "Change master password",
+  "tr": "更改主密碼"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "更改主密碼失敗。"
+ },{
+  "en": "Change the tab title",
+  "tr": "更改標籤標題"
+ },{
+  "en": "Changed",
+  "tr": "改變了"
+ },{
+  "en": "Channel",
+  "tr": "渠道"
+ },{
+  "en": "Char",
+  "tr": "字符"
+ },{
+  "en": "Char Left",
+  "tr": "左字符"
+ },{
+  "en": "Char Right",
+  "tr": "字符右 "
+ },{
+  "en": "Character spacing",
+  "tr": "字符間距"
+ },{
+  "en": "character width",
+  "tr": "字符寬度"
+ },{
+  "en": "Charset",
+  "tr": "字符集"
+ },{
+  "en": "Choose a default editor",
+  "tr": "選擇默認編輯器"
+ },{
+  "en": "Ciphers",
+  "tr": "密碼"
+ },{
+  "en": "Ciphers order",
+  "tr": "密碼順序"
+ },{
+  "en": "Clear",
+  "tr": "清除"
+ },{
+  "en": "Clear All",
+  "tr": "全部清除"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "清除最近的 URL"
+ },{
+  "en": "Clear Screen",
+  "tr": "清屏"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "清除回滾"
+ },{
+  "en": "Clear Sender",
+  "tr": "清除發件人"
+ },{
+  "en": "Click event",
+  "tr": "點擊事件"
+ },{
+  "en": "Close",
+  "tr": "關閉"
+ },{
+  "en": "Close All Views",
+  "tr": "關閉所有視圖"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "關閉所有視圖但活動（A）"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "關閉右側的所有視圖 "
+ },{
+  "en": "Close And Exit",
+  "tr": "關閉並退出"
+ },{
+  "en": "Close Channel",
+  "tr": "關閉通道"
+ },{
+  "en": "Close Dock",
+  "tr": "關閉碼頭"
+ },{
+  "en": "Close Group",
+  "tr": "關閉群組"
+ },{
+  "en": "Close Session",
+  "tr": "關閉會話"
+ },{
+  "en": "Close Tab",
+  "tr": "關閉標籤"
+ },{
+  "en": "Close tab",
+  "tr": "關閉標籤"
+ },{
+  "en": "Close View",
+  "tr": "關閉視圖"
+ },{
+  "en": "Close Window",
+  "tr": "關閉窗口"
+ },{
+  "en": "Color",
+  "tr": "顏色"
+ },{
+  "en": "Column Edit",
+  "tr": "列編輯"
+ },{
+  "en": "Column Marker",
+  "tr": "列標記"
+ },{
+  "en": "Columns",
+  "tr": "列"
+ },{
+  "en": "columns",
+  "tr": "列"
+ },{
+  "en": "Command",
+  "tr": "命令"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "命令面板"
+ },{
+  "en": "Comment",
+  "tr": "評論"
+ },{
+  "en": "Comment Selection",
+  "tr": "評論選擇"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "註釋選擇（塊模式）"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "註釋選擇（行模式）"
+ },{
+  "en": "Complete Word",
+  "tr": "完整字"
+ },{
+  "en": "Config",
+  "tr": "配置"
+ },{
+  "en": "Confirm Password",
+  "tr": "確認密碼"
+ },{
+  "en": "Confirm password",
+  "tr": "確認密碼"
+ },{
+  "en": "Connect",
+  "tr": "連接"
+ },{
+  "en": "Connection",
+  "tr": "聯繫"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "語境"
+ },{
+  "en": "Continue",
+  "tr": "繼續"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "將 CRLF 和 LF 轉換為 CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "將製表符轉換為空格（C）"
+ },{
+  "en": "copied",
+  "tr": "複製的"
+ },{
+  "en": "Copy",
+  "tr": "複製"
+ },{
+  "en": "copy",
+  "tr": "複製"
+ },{
+  "en": "Copy And Paste",
+  "tr": "複製粘貼"
+ },{
+  "en": "Copy File Name",
+  "tr": "複製文件名"
+ },{
+  "en": "Copy File Path",
+  "tr": "複製文件路徑"
+ },{
+  "en": "Copy from",
+  "tr": "複製自"
+ },{
+  "en": "Copy names",
+  "tr": "複製名稱"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "將名稱複製到終端（C）"
+ },{
+  "en": "Copy Output",
+  "tr": "複製輸出"
+ },{
+  "en": "Copy paths",
+  "tr": "複製路徑"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "複製路徑到終端"
+ },{
+  "en": "Copy Session Name",
+  "tr": "複製會話名稱"
+ },{
+  "en": "Copy Session Url",
+  "tr": "複製會話 URL"
+ },{
+  "en": "Copy to",
+  "tr": "複製到"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "複製到終端"
+ },{
+  "en": "Count",
+  "tr": "數數"
+ },{
+  "en": "Create Directory",
+  "tr": "創建目錄"
+ },{
+  "en": "Create File",
+  "tr": "創建文件"
+ },{
+  "en": "Create Link",
+  "tr": "創建鏈接"
+ },{
+  "en": "Created",
+  "tr": "已創建"
+ },{
+  "en": "Critical",
+  "tr": "危急"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "當前會話"
+ },{
+  "en": "Custom",
+  "tr": "風俗"
+ },{
+  "en": "Custom Opacity",
+  "tr": "自定義不透明度"
+ },{
+  "en": "Customize",
+  "tr": "定制"
+ },{
+  "en": "Cut",
+  "tr": "剪切"
+ },{
+  "en": "Dark Cyan",
+  "tr": "深青色"
+ },{
+  "en": "Data",
+  "tr": "數據"
+ },{
+  "en": "Data Bits",
+  "tr": "數據位"
+ },{
+  "en": "Datetime format",
+  "tr": "日期時間格式"
+ },{
+  "en": "Day of month",
+  "tr": "每月第 天"
+ },{
+  "en": "Debug Mode",
+  "tr": "調試模式"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "減少行縮進"
+ },{
+  "en": "Deep Pink",
+  "tr": "深粉色"
+ },{
+  "en": "default",
+  "tr": "默認"
+ },{
+  "en": "Default editor",
+  "tr": "默認編輯器"
+ },{
+  "en": "Default Font",
+  "tr": "默認字體"
+ },{
+  "en": "Default line ending",
+  "tr": "默認行尾"
+ },{
+  "en": "Delete",
+  "tr": "刪除"
+ },{
+  "en": "Delete sends",
+  "tr": "刪除發送"
+ },{
+  "en": "deleted",
+  "tr": "已刪除"
+ },{
+  "en": "DemiBold",
+  "tr": "半粗體"
+ },{
+  "en": "Destination Host",
+  "tr": "目標主機"
+ },{
+  "en": "Destination Port",
+  "tr": "目的港"
+ },{
+  "en": "Dir",
+  "tr": "目錄"
+ },{
+  "en": "dir",
+  "tr": "目錄"
+ },{
+  "en": "Directory",
+  "tr": "目錄"
+ },{
+  "en": "Directory Link",
+  "tr": "目錄鏈接"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "禁用 Nagle 算法（TCP_NODELAY 選項）"
+ },{
+  "en": "Disconnect Session",
+  "tr": "斷開會話"
+ },{
+  "en": "Disk",
+  "tr": "磁盤"
+ },{
+  "en": "Do not echo characters",
+  "tr": "不回顯字符"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "是否要關閉當前會話？"
+ },{
+  "en": "Document",
+  "tr": "文檔"
+ },{
+  "en": "Don't show this message again",
+  "tr": "不再顯示此消息"
+ },{
+  "en": "Double click",
+  "tr": "雙擊"
+ },{
+  "en": "Double click event",
+  "tr": "雙擊事件"
+ },{
+  "en": "Download",
+  "tr": "下載"
+ },{
+  "en": "download",
+  "tr": "下載"
+ },{
+  "en": "Download directory",
+  "tr": "下載目錄"
+ },{
+  "en": "downloaded",
+  "tr": "已下載"
+ },{
+  "en": "Drop Selection",
+  "tr": "刪除選擇"
+ },{
+  "en": "Duplicate",
+  "tr": "複製"
+ },{
+  "en": "Duplicate Command",
+  "tr": "重複命令"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "重複視圖"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "動態轉發"
+ },{
+  "en": "Echo every character entered",
+  "tr": "回顯輸入的每個字符"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "編輯時回顯每個字符"
+ },{
+  "en": "Echo random characters",
+  "tr": "回顯隨機字符"
+ },{
+  "en": "Edit",
+  "tr": "編輯"
+ },{
+  "en": "Editor",
+  "tr": "編輯"
+ },{
+  "en": "editor",
+  "tr": "編輯"
+ },{
+  "en": "Editor Settings",
+  "tr": "編輯器設置"
+ },{
+  "en": "Elapsed",
+  "tr": "過去"
+ },{
+  "en": "Elide left",
+  "tr": "伊萊德左"
+ },{
+  "en": "Elide middle",
+  "tr": "省略中間"
+ },{
+  "en": "Elide right",
+  "tr": "向右滑動"
+ },{
+  "en": "Empty",
+  "tr": "空的"
+ },{
+  "en": "Enable command mode",
+  "tr": "啟用命令模式"
+ },{
+  "en": "Enable local mode",
+  "tr": "啟用本地模式"
+ },{
+  "en": "Enable SFTP",
+  "tr": "啟用 SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "啟用 TCP keepalive（SO_KEEPALIVE 選項）"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "啟用虛擬空間"
+ },{
+  "en": "End Of Document",
+  "tr": "文件結束"
+ },{
+  "en": "End Of Line",
+  "tr": "行尾"
+ },{
+  "en": "End Of Pair",
+  "tr": "對結束"
+ },{
+  "en": "Engine",
+  "tr": "引擎"
+ },{
+  "en": "Environment Variable",
+  "tr": "環境變量"
+ },{
+  "en": "Environment variables",
+  "tr": "環境變量"
+ },{
+  "en": "Error",
+  "tr": "錯誤"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "交換脫字符和錨（X）"
+ },{
+  "en": "Execute",
+  "tr": "執行"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "認證後執行命令"
+ },{
+  "en": "Execute command after start",
+  "tr": "啟動後執行命令"
+ },{
+  "en": "Execute File",
+  "tr": "執行文件"
+ },{
+  "en": "Exit",
+  "tr": "退出"
+ },{
+  "en": "Expand",
+  "tr": "擴張"
+ },{
+  "en": "Expand Snippet",
+  "tr": "展開片段"
+ },{
+  "en": "Explorer",
+  "tr": "探險家"
+ },{
+  "en": "External Tools",
+  "tr": "外部工具"
+ },{
+  "en": "External X display",
+  "tr": "外置X顯示"
+ },{
+  "en": "ExtraBold",
+  "tr": "加粗"
+ },{
+  "en": "ExtraLight",
+  "tr": "超輕"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "無法創建臨時文件:\n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "無法打開目錄: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "獲取主機指紋失敗！"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "無法上載文件: %1，\n該文件可能不存在或沒有打開它的權限。"
+ },{
+  "en": "Fast",
+  "tr": "快速地"
+ },{
+  "en": "Favorites",
+  "tr": "收藏夾"
+ },{
+  "en": "Features",
+  "tr": "特徵"
+ },{
+  "en": "File",
+  "tr": "文件"
+ },{
+  "en": "file",
+  "tr": "文件"
+ },{
+  "en": "File Link",
+  "tr": "文件鏈接"
+ },{
+  "en": "File Name",
+  "tr": "文件名"
+ },{
+  "en": "File name",
+  "tr": "文檔名稱"
+ },{
+  "en": "File Path",
+  "tr": "文件路徑"
+ },{
+  "en": "Filer",
+  "tr": "檔案員"
+ },{
+  "en": "filer",
+  "tr": "檔案員"
+ },{
+  "en": "Filter",
+  "tr": "篩選"
+ },{
+  "en": "Find",
+  "tr": "查找"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "查找全部"
+ },{
+  "en": "Find in Files",
+  "tr": "在文件中查找 "
+ },{
+  "en": "Find Next",
+  "tr": "查找下一個"
+ },{
+  "en": "Find Next Selection",
+  "tr": "查找下一個選擇"
+ },{
+  "en": "Find Previous",
+  "tr": "查找上一個"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "查找上一個選擇"
+ },{
+  "en": "Fingerprint",
+  "tr": "指紋"
+ },{
+  "en": "First nine tabs",
+  "tr": "前九個標籤"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "浮動"
+ },{
+  "en": "Flow Control",
+  "tr": "流量控制"
+ },{
+  "en": "Focus Mode",
+  "tr": "對焦模式"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "對焦模式設置"
+ },{
+  "en": "Fold",
+  "tr": "折疊"
+ },{
+  "en": "Fold All",
+  "tr": "全部折疊"
+ },{
+  "en": "Fold Category",
+  "tr": "折疊類別"
+ },{
+  "en": "Fold Inside",
+  "tr": "向內折疊"
+ },{
+  "en": "Folds",
+  "tr": "折疊"
+ },{
+  "en": "Font",
+  "tr": "字體"
+ },{
+  "en": "Font family",
+  "tr": "字體系列"
+ },{
+  "en": "Font size",
+  "tr": "字體大小"
+ },{
+  "en": "Font weight",
+  "tr": "字體粗細"
+ },{
+  "en": "Forest Green",
+  "tr": "森林綠"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "格式選擇"
+ },{
+  "en": "Found",
+  "tr": "成立"
+ },{
+  "en": "Full month name",
+  "tr": "完整的月份名稱"
+ },{
+  "en": "Full Screen",
+  "tr": "全屏"
+ },{
+  "en": "Full screen",
+  "tr": "全屏"
+ },{
+  "en": "Full weekday name",
+  "tr": "完整的工作日名稱"
+ },{
+  "en": "Go Backward",
+  "tr": "倒退"
+ },{
+  "en": "Go Forward",
+  "tr": "前進"
+ },{
+  "en": "Go to",
+  "tr": "去"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "轉到當前視圖中的符號"
+ },{
+  "en": "Goldenrod",
+  "tr": "金黃"
+ },{
+  "en": "Goto",
+  "tr": "轉到"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "轉到地址欄"
+ },{
+  "en": "Goto File",
+  "tr": "轉到文件"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "轉到折疊頁眉"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "轉到下一個折疊頁眉"
+ },{
+  "en": "Goto Position",
+  "tr": "轉到位置"
+ },{
+  "en": "Goto Session",
+  "tr": "轉到會話"
+ },{
+  "en": "Goto Symbol",
+  "tr": "轉到符號"
+ },{
+  "en": "Group",
+  "tr": "團體"
+ },{
+  "en": "Group %1",
+  "tr": "組 %1"
+ },{
+  "en": "Groups",
+  "tr": "團體"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "帶麥克風的 Gssapi"
+ },{
+  "en": "Hard Reset",
+  "tr": "硬重置"
+ },{
+  "en": "Help",
+  "tr": "幫助"
+ },{
+  "en": "Hex",
+  "tr": "十六進制"
+ },{
+  "en": "Hex Base",
+  "tr": "六角底座"
+ },{
+  "en": "Hex Columns",
+  "tr": "十六進制列"
+ },{
+  "en": "Hex Edit",
+  "tr": "十六進制編輯"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "十六進制組字符"
+ },{
+  "en": "Hidden",
+  "tr": "隱"
+ },{
+  "en": "Hide",
+  "tr": "隱藏"
+ },{
+  "en": "Hide All",
+  "tr": "全部隱藏"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "鍵入時隱藏光標"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "隱藏文本"
+ },{
+  "en": "Highlight",
+  "tr": "強調"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "突出顯示插入行"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "高光匹配對"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "突出顯示插入符號行 "
+ },{
+  "en": "Highlight the caret word",
+  "tr": "突出顯示插入符 "
+ },{
+  "en": "Highlight the current fold",
+  "tr": "突出顯示當前折疊"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "突出顯示當前貨幣對"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "突出顯示增量搜索"
+ },{
+  "en": "History",
+  "tr": "歷史"
+ },{
+  "en": "Home Of Line",
+  "tr": "線之家"
+ },{
+  "en": "Host",
+  "tr": "主持人"
+ },{
+  "en": "Host address",
+  "tr": "主機地址"
+ },{
+  "en": "Host Based",
+  "tr": "基於主機"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "12 小時格式"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "24 小時格式"
+ },{
+  "en": "Http proxy",
+  "tr": "Http代理"
+ },{
+  "en": "Huge File",
+  "tr": "巨大的文件"
+ },{
+  "en": "Icon",
+  "tr": "圖標"
+ },{
+  "en": "Identity file",
+  "tr": "身份文件"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "身份驗證文件（I）"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "如果您創建主密碼，當 WindTerm 檢索受主密碼保護的已保存信息時，您將被要求輸入該密碼。"
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "如果您忘記了主密碼，您將無法訪問受其保護的任何信息。"
+ },{
+  "en": "Import",
+  "tr": "導入（I）"
+ },{
+  "en": "Import sessions",
+  "tr": "導入會話"
+ },{
+  "en": "In Selection",
+  "tr": "在選擇"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "增加行縮進"
+ },{
+  "en": "Incremental",
+  "tr": "增加的"
+ },{
+  "en": "Indent",
+  "tr": "縮進"
+ },{
+  "en": "Indent guide style",
+  "tr": "縮進指南樣式"
+ },{
+  "en": "Indent Guides",
+  "tr": "縮進指南"
+ },{
+  "en": "Indent size",
+  "tr": "縮進尺寸"
+ },{
+  "en": "Indentation",
+  "tr": "縮進"
+ },{
+  "en": "Indian Red",
+  "tr": "印度紅"
+ },{
+  "en": "Information",
+  "tr": "信息"
+ },{
+  "en": "Insert",
+  "tr": "插入"
+ },{
+  "en": "Insert File",
+  "tr": "插入文件"
+ },{
+  "en": "Insert Lines",
+  "tr": "插入行"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "按 T​​AB 鍵時插入製表符 "
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "在製表位後插入和刪除空格（I）"
+ },{
+  "en": "Inserting file",
+  "tr": "插入文件"
+ },{
+  "en": "Internal X display",
+  "tr": "內部 X 顯示 "
+ },{
+  "en": "Interval",
+  "tr": "間隔"
+ },{
+  "en": "Invert Selection",
+  "tr": "反轉選擇"
+ },{
+  "en": "item failed",
+  "tr": "項目失敗"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "項目失敗"
+ },{
+  "en": "Join Channel A",
+  "tr": "加入頻道A"
+ },{
+  "en": "Join Channel B",
+  "tr": "加入頻道B"
+ },{
+  "en": "Join Channel C",
+  "tr": "加入頻道C"
+ },{
+  "en": "Join Channel D",
+  "tr": "加入頻道 D"
+ },{
+  "en": "Join Lines",
+  "tr": "連接線"
+ },{
+  "en": "Joined",
+  "tr": "加入"
+ },{
+  "en": "Jump Server",
+  "tr": "跳轉服務器"
+ },{
+  "en": "Jump server",
+  "tr": "跳轉服務器"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "跳轉服務器"
+ },{
+  "en": "Key Exchange",
+  "tr": "密鑰交換"
+ },{
+  "en": "Key exchange order",
+  "tr": "密鑰交換指令"
+ },{
+  "en": "Key re-exchange",
+  "tr": "密鑰重新交換"
+ },{
+  "en": "Keyboard",
+  "tr": "鍵盤"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "鍵盤互動"
+ },{
+  "en": "Kit Bar",
+  "tr": "工具條"
+ },{
+  "en": "Known",
+  "tr": "已知"
+ },{
+  "en": "Label",
+  "tr": "標籤"
+ },{
+  "en": "Language",
+  "tr": "語言"
+ },{
+  "en": "Last sessions",
+  "tr": "上次會議"
+ },{
+  "en": "Layout",
+  "tr": "佈局"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "前導和尾隨空格"
+ },{
+  "en": "Leading Blanks",
+  "tr": "前導空格"
+ },{
+  "en": "Leading position",
+  "tr": "領先地位"
+ },{
+  "en": "Leave All Channels",
+  "tr": "離開所有頻道"
+ },{
+  "en": "Leave all channels",
+  "tr": "離開所有頻道"
+ },{
+  "en": "Leave Channel",
+  "tr": "離開頻道"
+ },{
+  "en": "Left Docks",
+  "tr": "左碼頭"
+ },{
+  "en": "Left Group",
+  "tr": "左組"
+ },{
+  "en": "Light",
+  "tr": "光"
+ },{
+  "en": "Line",
+  "tr": "線"
+ },{
+  "en": "line",
+  "tr": "線"
+ },{
+  "en": "line at a time",
+  "tr": "一次排隊"
+ },{
+  "en": "Line Down",
+  "tr": "線下"
+ },{
+  "en": "Line Ending",
+  "tr": "行尾"
+ },{
+  "en": "Line Endings",
+  "tr": "行尾（E）"
+ },{
+  "en": "Line Feed",
+  "tr": "換行"
+ },{
+  "en": "line height",
+  "tr": "行高"
+ },{
+  "en": "Line marker",
+  "tr": "線標記"
+ },{
+  "en": "Line spacing",
+  "tr": "行距"
+ },{
+  "en": "Line Up",
+  "tr": "排隊"
+ },{
+  "en": "lines at a time",
+  "tr": "一行一行"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "回滾行"
+ },{
+  "en": "Link",
+  "tr": "鏈接"
+ },{
+  "en": "Link to",
+  "tr": "鏈接到"
+ },{
+  "en": "List Tab",
+  "tr": "列表選項卡"
+ },{
+  "en": "Listen Port",
+  "tr": "監聽端口"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "本地轉發"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "定位消息"
+ },{
+  "en": "Location",
+  "tr": "地點"
+ },{
+  "en": "Lock Screen",
+  "tr": "鎖屏"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "鎖屏超時"
+ },{
+  "en": "Lock Selection",
+  "tr": "鎖定選擇"
+ },{
+  "en": "Log",
+  "tr": "日誌"
+ },{
+  "en": "Log all session output",
+  "tr": "記錄所有會話輸出"
+ },{
+  "en": "Log content pattern",
+  "tr": "日誌內容模式"
+ },{
+  "en": "Log Dialog",
+  "tr": "日誌對話框"
+ },{
+  "en": "Log file",
+  "tr": "日誌文件"
+ },{
+  "en": "Log file name",
+  "tr": "日誌文件名"
+ },{
+  "en": "Log maximum size",
+  "tr": "日誌最大大小"
+ },{
+  "en": "Log nothing",
+  "tr": "不記錄（N）"
+ },{
+  "en": "Log option",
+  "tr": "日誌選項"
+ },{
+  "en": "Log options",
+  "tr": "日誌選項"
+ },{
+  "en": "Log pattern",
+  "tr": "日誌模式"
+ },{
+  "en": "Log printable output",
+  "tr": "日誌可打印輸出"
+ },{
+  "en": "Log type",
+  "tr": "日誌類型"
+ },{
+  "en": "Log types",
+  "tr": "日誌類型"
+ },{
+  "en": "Logging",
+  "tr": "日誌記錄"
+ },{
+  "en": "Login",
+  "tr": "登錄"
+ },{
+  "en": "Login Wizard",
+  "tr": "登錄嚮導"
+ },{
+  "en": "Long Time/Date",
+  "tr": "長時間/日期"
+ },{
+  "en": "Look both guide",
+  "tr": "看看這兩個指南"
+ },{
+  "en": "Look forward guide",
+  "tr": "期待指導"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC 哈希"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC 哈希順序"
+ },{
+  "en": "Margin Blank",
+  "tr": "邊距空白"
+ },{
+  "en": "Margin Fold",
+  "tr": "邊距折疊"
+ },{
+  "en": "Margin Number",
+  "tr": "保證金編號"
+ },{
+  "en": "Margin Symbol",
+  "tr": "保證金符號"
+ },{
+  "en": "Margin Text",
+  "tr": "邊距文字"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "保證金時間戳"
+ },{
+  "en": "Margins",
+  "tr": "邊距"
+ },{
+  "en": "Marker style",
+  "tr": "標記樣式"
+ },{
+  "en": "Master Password",
+  "tr": "主密碼"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "重新加密前的最大數據 (MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "重新加密前的最長時間（分鐘）"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "最大連接超時"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "中等的"
+ },{
+  "en": "Medium Orchid",
+  "tr": "中蘭花"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "中石板藍"
+ },{
+  "en": "Menu Bar",
+  "tr": "菜單欄"
+ },{
+  "en": "Merge To Group",
+  "tr": "合併到組"
+ },{
+  "en": "Middle click",
+  "tr": "中鍵（M）"
+ },{
+  "en": "Middle click event",
+  "tr": "中點擊事件"
+ },{
+  "en": "Milliseconds",
+  "tr": "毫秒"
+ },{
+  "en": "Minutes",
+  "tr": "分鐘"
+ },{
+  "en": "minutes",
+  "tr": "分鐘"
+ },{
+  "en": "Mismatched",
+  "tr": "不匹配"
+ },{
+  "en": "Mode",
+  "tr": "模式"
+ },{
+  "en": "Modem waiting",
+  "tr": "調製解調器等待"
+ },{
+  "en": "Modes",
+  "tr": "模式"
+ },{
+  "en": "Modified",
+  "tr": "修改的"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "修改"
+ },{
+  "en": "Modify Lines",
+  "tr": "修改線"
+ },{
+  "en": "Month",
+  "tr": "月"
+ },{
+  "en": "More",
+  "tr": "更多"
+ },{
+  "en": "Mouse Actions",
+  "tr": "鼠標操作"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "鼠標追踪"
+ },{
+  "en": "Move Down",
+  "tr": "下移"
+ },{
+  "en": "Move event",
+  "tr": "移動事件"
+ },{
+  "en": "Move to",
+  "tr": "搬去"
+ },{
+  "en": "Move To Group",
+  "tr": "移至組"
+ },{
+  "en": "Move Up",
+  "tr": "提升"
+ },{
+  "en": "Multiple Caret",
+  "tr": "多個插入符號 "
+ },{
+  "en": "Name",
+  "tr": "姓名"
+ },{
+  "en": "nesting groups",
+  "tr": "嵌套組"
+ },{
+  "en": "Never",
+  "tr": "絕不"
+ },{
+  "en": "New directory",
+  "tr": "新建目錄"
+ },{
+  "en": "New File",
+  "tr": "新建文件"
+ },{
+  "en": "New file",
+  "tr": "新文件"
+ },{
+  "en": "New Line",
+  "tr": "換行"
+ },{
+  "en": "New link",
+  "tr": "新鏈接"
+ },{
+  "en": "New password",
+  "tr": "新密碼"
+ },{
+  "en": "New Session",
+  "tr": "新會話"
+ },{
+  "en": "New Window",
+  "tr": "新窗口"
+ },{
+  "en": "Next Char",
+  "tr": "下一個字符"
+ },{
+  "en": "Next Fold",
+  "tr": "下折"
+ },{
+  "en": "Next Indentation",
+  "tr": "下一個縮進（I）"
+ },{
+  "en": "Next Line",
+  "tr": "下一行"
+ },{
+  "en": "Next Message",
+  "tr": "下一條消息"
+ },{
+  "en": "Next Page",
+  "tr": "下一頁"
+ },{
+  "en": "Next Pair",
+  "tr": "下一對"
+ },{
+  "en": "Next Paragraph",
+  "tr": "下一段"
+ },{
+  "en": "Next Scope",
+  "tr": "下一個範圍"
+ },{
+  "en": "Next Segment End",
+  "tr": "下一段結束"
+ },{
+  "en": "Next Segment Start",
+  "tr": "下一段開始"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "下一個斷斷續續的頁面"
+ },{
+  "en": "Next Word",
+  "tr": "下一個字"
+ },{
+  "en": "Next Word End",
+  "tr": "下一個字尾"
+ },{
+  "en": "Next Word Part",
+  "tr": "下一個詞部分"
+ },{
+  "en": "No",
+  "tr": "不"
+ },{
+  "en": "No action",
+  "tr": "無動作"
+ },{
+  "en": "No Dirs",
+  "tr": "沒有目錄"
+ },{
+  "en": "No elide",
+  "tr": "沒有省略"
+ },{
+  "en": "No file opened",
+  "tr": "沒有打開文件"
+ },{
+  "en": "No filer available",
+  "tr": "沒有可用的文件管理器"
+ },{
+  "en": "No Files",
+  "tr": "沒有文件"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "沒有選擇要傳輸的文件。"
+ },{
+  "en": "No item opened",
+  "tr": "沒有打開的項目"
+ },{
+  "en": "No outline available",
+  "tr": "沒有可用的大綱"
+ },{
+  "en": "No proxy",
+  "tr": "無代理"
+ },{
+  "en": "No session",
+  "tr": "無會話"
+ },{
+  "en": "No session available",
+  "tr": "沒有可用的會話"
+ },{
+  "en": "No session opened",
+  "tr": "沒有打開會話"
+ },{
+  "en": "No Sessions",
+  "tr": "沒有會話"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "沒有可用的受支持的身份驗證方法。"
+ },{
+  "en": "No transfer available",
+  "tr": "不可轉讓"
+ },{
+  "en": "No wrap",
+  "tr": "沒有包裹"
+ },{
+  "en": "No X display",
+  "tr": "無X顯示"
+ },{
+  "en": "None",
+  "tr": "沒有任何"
+ },{
+  "en": "None tabs",
+  "tr": "無標籤"
+ },{
+  "en": "Normal",
+  "tr": "普通的"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "現在"
+ },{
+  "en": "Nowhere",
+  "tr": "無處"
+ },{
+  "en": "Octal",
+  "tr": "八進制"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM 到 ANSI"
+ },{
+  "en": "Off",
+  "tr": "離開"
+ },{
+  "en": "off",
+  "tr": "離開"
+ },{
+  "en": "Ok",
+  "tr": "好的"
+ },{
+  "en": "Old",
+  "tr": "老的"
+ },{
+  "en": "Old password",
+  "tr": "舊密碼"
+ },{
+  "en": "Olive",
+  "tr": "橄欖"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "一個或多個會話正在打開，\n是否要關閉當前窗口？"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "只能重新加載磁盤文件！"
+ },{
+  "en": "Only indentation",
+  "tr": "僅縮進"
+ },{
+  "en": "Opaque",
+  "tr": "不透明"
+ },{
+  "en": "Open",
+  "tr": "打開"
+ },{
+  "en": "open",
+  "tr": "打開"
+ },{
+  "en": "Open directory after created",
+  "tr": "創建後打開目錄"
+ },{
+  "en": "Open directory after download",
+  "tr": "下載後打開目錄"
+ },{
+  "en": "Open File",
+  "tr": "打開文件"
+ },{
+  "en": "Open file",
+  "tr": "打開文件"
+ },{
+  "en": "Open file after created",
+  "tr": "創建後打開文件"
+ },{
+  "en": "Open file failed!",
+  "tr": "打開文件失敗！"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "打開跳轉服務器失敗！"
+ },{
+  "en": "Open Log File",
+  "tr": "打開日誌文件"
+ },{
+  "en": "Open Log Folder",
+  "tr": "打開日誌文件夾"
+ },{
+  "en": "Open Recent",
+  "tr": "最近打開"
+ },{
+  "en": "Open Selection",
+  "tr": "打開選擇"
+ },{
+  "en": "Open Session",
+  "tr": "打開會話"
+ },{
+  "en": "Open session failed!",
+  "tr": "打開會話失敗！"
+ },{
+  "en": "Open target directory",
+  "tr": "打開目標目錄"
+ },{
+  "en": "Open with default editor",
+  "tr": "使用默認編輯器打開（E）"
+ },{
+  "en": "Opened",
+  "tr": "打開"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh 會話"
+ },{
+  "en": "Others",
+  "tr": "其他"
+ },{
+  "en": "Outline",
+  "tr": "大綱"
+ },{
+  "en": "Output",
+  "tr": "輸出"
+ },{
+  "en": "Overtype",
+  "tr": "改寫"
+ },{
+  "en": "Overwrite",
+  "tr": "覆蓋"
+ },{
+  "en": "Overwrite log file",
+  "tr": "覆蓋日誌文件"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "當源文件更新時覆蓋"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "當源文件更新或更長時覆蓋"
+ },{
+  "en": "Owner",
+  "tr": "所有者"
+ },{
+  "en": "Packet padding char",
+  "tr": "數據包填充字符"
+ },{
+  "en": "Packet size",
+  "tr": "數據包大小"
+ },{
+  "en": "Page",
+  "tr": "頁面"
+ },{
+  "en": "page",
+  "tr": "頁"
+ },{
+  "en": "Pair",
+  "tr": "對"
+ },{
+  "en": "Panes",
+  "tr": "窗格"
+ },{
+  "en": "Paragraph",
+  "tr": "段落"
+ },{
+  "en": "Parity",
+  "tr": "奇偶校驗"
+ },{
+  "en": "Passphrase",
+  "tr": "密碼"
+ },{
+  "en": "Password",
+  "tr": "密碼"
+ },{
+  "en": "Password quality meter",
+  "tr": "密碼質量計"
+ },{
+  "en": "Paste",
+  "tr": "粘貼"
+ },{
+  "en": "Paste Dialog",
+  "tr": "粘貼對話框"
+ },{
+  "en": "Paste text",
+  "tr": "粘貼文本"
+ },{
+  "en": "Pause",
+  "tr": "暫停"
+ },{
+  "en": "Paused",
+  "tr": "暫停"
+ },{
+  "en": "Pausing",
+  "tr": "暫停"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "使用代理執行 DNS 查找（D）"
+ },{
+  "en": "Period",
+  "tr": "期間"
+ },{
+  "en": "Permissions",
+  "tr": "權限"
+ },{
+  "en": "pixels",
+  "tr": "像素"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "請為此視圖輸入新名稱"
+ },{
+  "en": "Please input master password",
+  "tr": "請輸入主密碼"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "請輸入主密碼，為空或取消禁用"
+ },{
+  "en": "Please input new group",
+  "tr": "請輸入新組"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "請確保您記住您設置的主密碼。"
+ },{
+  "en": "Port",
+  "tr": "港口"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "首選主題字體"
+ },{
+  "en": "Preferences",
+  "tr": "首選項"
+ },{
+  "en": "Preserve",
+  "tr": "保存"
+ },{
+  "en": "Preview All",
+  "tr": "全部預覽"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "預覽符號"
+ },{
+  "en": "Previous Char",
+  "tr": "上一個字符"
+ },{
+  "en": "Previous Fold",
+  "tr": "上一折"
+ },{
+  "en": "Previous Indentation",
+  "tr": "上一個縮進"
+ },{
+  "en": "Previous Line",
+  "tr": "上一行"
+ },{
+  "en": "Previous Message",
+  "tr": "上一條信息"
+ },{
+  "en": "Previous Page",
+  "tr": "上一頁"
+ },{
+  "en": "Previous Pair",
+  "tr": "上一對"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "上一段"
+ },{
+  "en": "Previous Scope",
+  "tr": "上一個範圍"
+ },{
+  "en": "Previous Segment End",
+  "tr": "上一段結束"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "上一段開始"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "上一頁口吃 "
+ },{
+  "en": "Previous Word",
+  "tr": "上一個字"
+ },{
+  "en": "Previous Word End",
+  "tr": "上一個字尾"
+ },{
+  "en": "Previous Word Part",
+  "tr": "上一個詞部分"
+ },{
+  "en": "Printable output",
+  "tr": "可打印輸出"
+ },{
+  "en": "Process",
+  "tr": "過程"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "進程 %1 崩潰。"
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "進程 %1 啟動失敗。"
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "處理 %1 超時。"
+ },{
+  "en": "Program [Arguments]",
+  "tr": "程序 [參數]"
+ },{
+  "en": "Project",
+  "tr": "項目"
+ },{
+  "en": "Properties",
+  "tr": "屬性"
+ },{
+  "en": "Property",
+  "tr": "財產"
+ },{
+  "en": "Protocol",
+  "tr": "協議"
+ },{
+  "en": "Proxy",
+  "tr": "代理"
+ },{
+  "en": "Proxy Host",
+  "tr": "代理主機"
+ },{
+  "en": "Proxy Port",
+  "tr": "代理端口"
+ },{
+  "en": "Proxy Settings",
+  "tr": "代理設置"
+ },{
+  "en": "Proxy Type",
+  "tr": "代理類型"
+ },{
+  "en": "Public Key",
+  "tr": "公鑰"
+ },{
+  "en": "Public Keys",
+  "tr": "公鑰"
+ },{
+  "en": "Public keys order",
+  "tr": "公鑰順序"
+ },{
+  "en": "Putty sessions",
+  "tr": "膩子會話"
+ },{
+  "en": "Query URL",
+  "tr": "查詢網址"
+ },{
+  "en": "Question",
+  "tr": "題"
+ },{
+  "en": "Quick",
+  "tr": "快的"
+ },{
+  "en": "Quick Bar",
+  "tr": "快捷欄"
+ },{
+  "en": "Quick Commands",
+  "tr": "快速命令"
+ },{
+  "en": "Read Only",
+  "tr": "只讀（R）"
+ },{
+  "en": "Ready",
+  "tr": "準備好"
+ },{
+  "en": "Real guide",
+  "tr": "真正的嚮導"
+ },{
+  "en": "Receive XModem",
+  "tr": "接收 XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "接收YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "接收ZModem"
+ },{
+  "en": "received",
+  "tr": "已收到"
+ },{
+  "en": "Recent",
+  "tr": "最近的"
+ },{
+  "en": "Recent Sessions",
+  "tr": "最近的會議"
+ },{
+  "en": "Reconnect Session",
+  "tr": "重新連接會話"
+ },{
+  "en": "Rectangle",
+  "tr": "長方形"
+ },{
+  "en": "rectangle",
+  "tr": "長方形"
+ },{
+  "en": "Red",
+  "tr": "紅色"
+ },{
+  "en": "Redo",
+  "tr": "重做"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "重做 %1 操作"
+ },{
+  "en": "Refresh",
+  "tr": "刷新"
+ },{
+  "en": "Regular Expression",
+  "tr": "正則表達式"
+ },{
+  "en": "Reload",
+  "tr": "重新加載"
+ },{
+  "en": "Reload File",
+  "tr": "重新加載文件"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "重新加載編碼"
+ },{
+  "en": "Remote forwarding",
+  "tr": "遠程轉發"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "遠程路徑"
+ },{
+  "en": "Remove",
+  "tr": "刪除"
+ },{
+  "en": "remove",
+  "tr": "消除"
+ },{
+  "en": "Remove All",
+  "tr": "全部刪除"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "刪除空行"
+ },{
+  "en": "Remove Command",
+  "tr": "刪除命令"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "刪除重複行"
+ },{
+  "en": "Remove Group",
+  "tr": "刪除組"
+ },{
+  "en": "Remove items",
+  "tr": "刪除項目"
+ },{
+  "en": "Remove Sender",
+  "tr": "刪除發件人"
+ },{
+  "en": "Removing",
+  "tr": "刪除"
+ },{
+  "en": "Rename",
+  "tr": "改名"
+ },{
+  "en": "Rename Group",
+  "tr": "重命名組"
+ },{
+  "en": "Rename tab",
+  "tr": "重命名選項卡"
+ },{
+  "en": "Rename View",
+  "tr": "重命名視圖"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "重新打開關閉視圖"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "重複上一個命令"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "重複執行"
+ },{
+  "en": "Replace",
+  "tr": "替換"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "全部替換"
+ },{
+  "en": "Replace in Files",
+  "tr": "在文件中替換"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "需要重啟才能生效"
+ },{
+  "en": "Reset",
+  "tr": "重置"
+ },{
+  "en": "Reset Character Set",
+  "tr": "重置字符集"
+ },{
+  "en": "Reset Zoom",
+  "tr": "重置縮放"
+ },{
+  "en": "Resume",
+  "tr": "恢復"
+ },{
+  "en": "Resuming",
+  "tr": "恢復"
+ },{
+  "en": "Right click",
+  "tr": "右鍵單擊"
+ },{
+  "en": "Right click event",
+  "tr": "右鍵單擊事件"
+ },{
+  "en": "Right Docks",
+  "tr": "右碼頭（R）"
+ },{
+  "en": "Right Group",
+  "tr": "右組"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "滾動鼠標滾輪進行滾動"
+ },{
+  "en": "Rows",
+  "tr": "行"
+ },{
+  "en": "Royal Blue",
+  "tr": "皇家藍"
+ },{
+  "en": "Run Tool",
+  "tr": "運行工具"
+ },{
+  "en": "Save",
+  "tr": "節省"
+ },{
+  "en": "Save All",
+  "tr": "全部保存"
+ },{
+  "en": "Save As",
+  "tr": "另存為"
+ },{
+  "en": "Save Copy As",
+  "tr": "另存副本為"
+ },{
+  "en": "Save file failed!",
+  "tr": "保存文件失敗！"
+ },{
+  "en": "Save Selection As",
+  "tr": "將選擇另存為"
+ },{
+  "en": "Save Session",
+  "tr": "保存會話"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "保存的自動認證"
+ },{
+  "en": "Scheme Tools",
+  "tr": "方案工具"
+ },{
+  "en": "Scope",
+  "tr": "範圍"
+ },{
+  "en": "Screen Locked",
+  "tr": "屏幕鎖定"
+ },{
+  "en": "Scroll Left",
+  "tr": "向左滾動"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "向下滾動行"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "向上滾動行（U）"
+ },{
+  "en": "Scroll Right",
+  "tr": "向右滾動"
+ },{
+  "en": "Search",
+  "tr": "搜索"
+ },{
+  "en": "Search engine",
+  "tr": "搜索引擎）"
+ },{
+  "en": "Search Engine",
+  "tr": "搜索引擎"
+ },{
+  "en": "Search Engines",
+  "tr": "搜索引擎（E）"
+ },{
+  "en": "Search Online",
+  "tr": "在線搜索"
+ },{
+  "en": "Search or enter address",
+  "tr": "搜索或輸入地址"
+ },{
+  "en": "Searching",
+  "tr": "搜索"
+ },{
+  "en": "Seconds",
+  "tr": "秒"
+ },{
+  "en": "seconds",
+  "tr": "秒"
+ },{
+  "en": "Security",
+  "tr": "安全"
+ },{
+  "en": "Segment",
+  "tr": "段"
+ },{
+  "en": "Select",
+  "tr": "選擇"
+ },{
+  "en": "Select All",
+  "tr": "全選"
+ },{
+  "en": "Select Column To",
+  "tr": "選擇列到"
+ },{
+  "en": "Select copy folder",
+  "tr": "選擇複製文件夾"
+ },{
+  "en": "Select copy items",
+  "tr": "選擇複製項目"
+ },{
+  "en": "Select directory to receive",
+  "tr": "選擇接收目錄"
+ },{
+  "en": "Select download folder",
+  "tr": "選擇下載文件夾"
+ },{
+  "en": "Select files to send",
+  "tr": "選擇要發送的文件"
+ },{
+  "en": "Select Fold",
+  "tr": "選擇折疊"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "向後選擇片段"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "選擇片段轉發（F）"
+ },{
+  "en": "Select To",
+  "tr": "選擇到"
+ },{
+  "en": "Select upload items",
+  "tr": "選擇上傳項目"
+ },{
+  "en": "Selected position",
+  "tr": "選定位置"
+ },{
+  "en": "Selected Sessions",
+  "tr": "選定的會話"
+ },{
+  "en": "Selection",
+  "tr": "選擇"
+ },{
+  "en": "Send",
+  "tr": "發送"
+ },{
+  "en": "Send line By line",
+  "tr": "逐行發送"
+ },{
+  "en": "Send Text",
+  "tr": "發短訊"
+ },{
+  "en": "Send XModem",
+  "tr": "發送 XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "發送 YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "發送 ZModem"
+ },{
+  "en": "Sender",
+  "tr": "發件人"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "發送 %1 失敗: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "發送：%1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "發送空包以保持會話活動（S）"
+ },{
+  "en": "sent",
+  "tr": "發送"
+ },{
+  "en": "Serial",
+  "tr": "序列號"
+ },{
+  "en": "Server",
+  "tr": "服務器"
+ },{
+  "en": "Session",
+  "tr": "會議"
+ },{
+  "en": "session",
+  "tr": "會議"
+ },{
+  "en": "Session Group",
+  "tr": "會話組"
+ },{
+  "en": "Session Log",
+  "tr": "會話日誌"
+ },{
+  "en": "Session name",
+  "tr": "會話名稱"
+ },{
+  "en": "Session Settings",
+  "tr": "會話設置"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "所有窗口中的會話"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "當前組中的會話"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "當前窗口中的會話"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "組 %1 中的會話"
+ },{
+  "en": "Set default editor",
+  "tr": "設置默認編輯器"
+ },{
+  "en": "Set Tab Color",
+  "tr": "設置標籤顏色"
+ },{
+  "en": "Settings",
+  "tr": "設置"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "形狀"
+ },{
+  "en": "Shell",
+  "tr": "貝殼"
+ },{
+  "en": "Shell sessions",
+  "tr": "外殼會話"
+ },{
+  "en": "Shell Sessions",
+  "tr": "殼牌會議"
+ },{
+  "en": "Short Time/Date",
+  "tr": "短時間/日期"
+ },{
+  "en": "Show",
+  "tr": "展示"
+ },{
+  "en": "Show All",
+  "tr": "全部顯示"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "顯示所有打開和最近的編輯器"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "顯示所有打開和最近的終端"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "顯示和運行操作"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "顯示關閉選項卡確認對話框"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "顯示關閉窗口確認對話框"
+ },{
+  "en": "Show column markers",
+  "tr": "顯示列標記"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "按字母順序顯示命令"
+ },{
+  "en": "Show current %1 property",
+  "tr": "顯示當前 %1 屬性"
+ },{
+  "en": "Show group commands in order",
+  "tr": "按順序顯示組命令"
+ },{
+  "en": "Show group title",
+  "tr": "顯示組標題"
+ },{
+  "en": "Show hidden items",
+  "tr": "顯示隱藏項目"
+ },{
+  "en": "Show in %1",
+  "tr": "在 %1 中顯示"
+ },{
+  "en": "Show In Line End",
+  "tr": "顯示行尾"
+ },{
+  "en": "Show In Line Start",
+  "tr": "顯示行開始"
+ },{
+  "en": "Show In Selection",
+  "tr": "在選擇中顯示"
+ },{
+  "en": "Show indent guide",
+  "tr": "顯示縮進指南"
+ },{
+  "en": "Show line endings",
+  "tr": "顯示行尾"
+ },{
+  "en": "Show menu",
+  "tr": "顯示菜單"
+ },{
+  "en": "Show More Tools",
+  "tr": "顯示更多工具"
+ },{
+  "en": "Show multiple groups",
+  "tr": "顯示多個組"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "在替代屏幕上顯示粘貼對話框（A）"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "在主屏幕上顯示粘貼對話框（M）"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "顯示空格和製表符"
+ },{
+  "en": "Show Tabs",
+  "tr": "顯示標籤"
+ },{
+  "en": "Show Text",
+  "tr": "顯示文本"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "在選項卡上顯示選項卡編號（S）"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "對焦模式啟動時顯示此對話框"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "顯示換行符號"
+ },{
+  "en": "Shrink",
+  "tr": "收縮"
+ },{
+  "en": "Size",
+  "tr": "尺寸"
+ },{
+  "en": "Skip",
+  "tr": "跳過"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 代理"
+ },{
+  "en": "Soft Reset",
+  "tr": "軟復位"
+ },{
+  "en": "Sort",
+  "tr": "排序"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "排序行不區分大小寫（I）"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "排序行區分大小寫"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "以隨機順序對行進行排序 "
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "以相反順序對行進行排序 "
+ },{
+  "en": "spaces",
+  "tr": "空間"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "空格到製表符"
+ },{
+  "en": "Spacing",
+  "tr": "間距"
+ },{
+  "en": "Special",
+  "tr": "特別的"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "拖放文件時指定協議"
+ },{
+  "en": "Speed",
+  "tr": "速度"
+ },{
+  "en": "Split",
+  "tr": "拆分"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "水平拆分組"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "垂直拆分組"
+ },{
+  "en": "Split Lines",
+  "tr": "分割線"
+ },{
+  "en": "Split Selection",
+  "tr": "拆分選擇"
+ },{
+  "en": "Split To Group",
+  "tr": "拆分為組"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "水平拆分視圖"
+ },{
+  "en": "Split View Vertically",
+  "tr": "垂直拆分視圖"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "開始"
+ },{
+  "en": "Start Of Document",
+  "tr": "文檔開始"
+ },{
+  "en": "Start Of Line",
+  "tr": "行首"
+ },{
+  "en": "Start Of Pair",
+  "tr": "對開始"
+ },{
+  "en": "Startup",
+  "tr": "啟動"
+ },{
+  "en": "Stash",
+  "tr": "藏匿處"
+ },{
+  "en": "Status Bar",
+  "tr": "狀態欄"
+ },{
+  "en": "Stdin",
+  "tr": "標準輸入"
+ },{
+  "en": "Stdout",
+  "tr": "標準輸出"
+ },{
+  "en": "Steel Blue",
+  "tr": "鋼藍"
+ },{
+  "en": "Sticky",
+  "tr": "粘性（S）"
+ },{
+  "en": "Stop",
+  "tr": "停止"
+ },{
+  "en": "Stop Bits",
+  "tr": "停止位"
+ },{
+  "en": "Stop loading",
+  "tr": "停止加載"
+ },{
+  "en": "Stop sender",
+  "tr": "停止發件人"
+ },{
+  "en": "Stop Tools",
+  "tr": "停止工具"
+ },{
+  "en": "Stop watching this file",
+  "tr": "停止觀看此文件"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "切換流和列"
+ },{
+  "en": "switch to tab",
+  "tr": "切換到標籤"
+ },{
+  "en": "Symbols",
+  "tr": "符號"
+ },{
+  "en": "Sync channel",
+  "tr": "同步頻道"
+ },{
+  "en": "Sync Edit",
+  "tr": "同步編輯"
+ },{
+  "en": "Sync Input",
+  "tr": "同步輸入"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "同步通道 %1 中的輸入"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "語法方案"
+ },{
+  "en": "System",
+  "tr": "系統"
+ },{
+  "en": "Tab",
+  "tr": "標籤"
+ },{
+  "en": "Tab Color",
+  "tr": "標籤顏色"
+ },{
+  "en": "Tab Features",
+  "tr": "標籤功能"
+ },{
+  "en": "Tab Group",
+  "tr": "標籤組"
+ },{
+  "en": "Tab Index",
+  "tr": "標籤索引"
+ },{
+  "en": "Tab size",
+  "tr": "標籤尺寸"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Tab 文本隱藏模式"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "標籤縮略圖單選 "
+ },{
+  "en": "Tab Title",
+  "tr": "標籤標題"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify 選定的行 "
+ },{
+  "en": "Tabs",
+  "tr": "標籤"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "製表符到空格（T）"
+ },{
+  "en": "Target",
+  "tr": "目標"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "目標文件夾"
+ },{
+  "en": "Targets",
+  "tr": "目標"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP 連接選項"
+ },{
+  "en": "Teal",
+  "tr": "青色"
+ },{
+  "en": "Term",
+  "tr": "術語"
+ },{
+  "en": "Terminal",
+  "tr": "終端"
+ },{
+  "en": "terminal",
+  "tr": "終端"
+ },{
+  "en": "Terminal Settings",
+  "tr": "終端設置"
+ },{
+  "en": "Text",
+  "tr": "文本"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "文本：%1 行，%2 個字符"
+ },{
+  "en": "The % sign",
+  "tr": "標誌"
+ },{
+  "en": "The actual text to log",
+  "tr": "要記錄的實際文本"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "目標文件夾是源文件夾的子文件夾:\n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "文檔已被修改。\n是否要保存更改？"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "組合鍵 (%1) 不是命令。"
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "未檢測到 lrzsz。請先安裝lrzsz。"
+ },{
+  "en": "The master password has been changed.",
+  "tr": "主密碼已更改。"
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "密碼確認不匹配。"
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "服務器取消了傳輸。"
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "會話<b>斷開連接</b>，按<b>回車</b>重新連接。"
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "傳輸被取消，因為數據包不在重試限制內 %1。"
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "由於數據包序列號錯誤，傳輸被取消。"
+ },{
+  "en": "Theme",
+  "tr": "主題"
+ },{
+  "en": "Thin",
+  "tr": "薄的"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "大文件的閾值（T）"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "時間格式"
+ },{
+  "en": "Time left",
+  "tr": "剩餘時間"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "行的時間戳"
+ },{
+  "en": "To Inverse Case",
+  "tr": "反轉大小寫"
+ },{
+  "en": "To Line End",
+  "tr": "到行尾"
+ },{
+  "en": "To Line Start",
+  "tr": "至行起點"
+ },{
+  "en": "To Lower Case",
+  "tr": "轉小寫"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "到 MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "To Title Case"
+ },{
+  "en": "To Unix LF",
+  "tr": "到 Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "到大寫（U）"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "到 Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "到字尾"
+ },{
+  "en": "To Word Start",
+  "tr": "到字開頭"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "切換折疊"
+ },{
+  "en": "Tool",
+  "tr": "工具"
+ },{
+  "en": "Toolbar",
+  "tr": "工具欄"
+ },{
+  "en": "Top Group",
+  "tr": "頂級集團"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "跟踪樹中的文本選擇（T）"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "在文本中跟踪樹選擇 "
+ },{
+  "en": "Tracking Events",
+  "tr": "追踪事件"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "尾隨空格"
+ },{
+  "en": "Trailing position",
+  "tr": "尾隨頭寸"
+ },{
+  "en": "Transfer",
+  "tr": "轉移"
+ },{
+  "en": "Transfer Bar",
+  "tr": "轉接桿"
+ },{
+  "en": "Transfer Binary",
+  "tr": "傳輸二進制（T）"
+ },{
+  "en": "Transfer complete",
+  "tr": "傳輸完成"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "轉移未完成"
+ },{
+  "en": "Translucent",
+  "tr": "半透明"
+ },{
+  "en": "Transparent",
+  "tr": "透明的"
+ },{
+  "en": "Transpose",
+  "tr": "轉置"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "在 save(T) 時修剪尾隨空格"
+ },{
+  "en": "Trust this host",
+  "tr": "信任這個主機"
+ },{
+  "en": "Tunnels",
+  "tr": "隧道"
+ },{
+  "en": "Type",
+  "tr": "類型"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "類型 '？'獲取有關您可以在此處鍵入的操作的幫助"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "取消註釋選擇"
+ },{
+  "en": "Underline",
+  "tr": "強調"
+ },{
+  "en": "underLine",
+  "tr": "強調"
+ },{
+  "en": "Undo",
+  "tr": "撤消"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "撤消 %1 操作"
+ },{
+  "en": "Unfold",
+  "tr": "展開"
+ },{
+  "en": "Unfold All",
+  "tr": "展開全部"
+ },{
+  "en": "Unfold Category",
+  "tr": "展開類別"
+ },{
+  "en": "Unfold Inside",
+  "tr": "展開裡面"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "保存時統一行尾（U）"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty：shell 文件路徑必須是絕對路徑"
+ },{
+  "en": "Unknown",
+  "tr": "未知"
+ },{
+  "en": "unknown",
+  "tr": "未知"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "取消選中的行（U）"
+ },{
+  "en": "Untitled",
+  "tr": "無標題"
+ },{
+  "en": "Untrust this host",
+  "tr": "不信任此主機"
+ },{
+  "en": "upload",
+  "tr": "上傳"
+ },{
+  "en": "Upload command",
+  "tr": "上傳命令"
+ },{
+  "en": "Upload directory",
+  "tr": "上傳目錄"
+ },{
+  "en": "Upload file",
+  "tr": "上傳文件"
+ },{
+  "en": "Upload to current folder",
+  "tr": "上傳到當前文件夾"
+ },{
+  "en": "uploaded",
+  "tr": "上傳"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "用 %q 代替查詢的 URL"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "使用背景顏色擦除屏幕"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "使用高速傳輸"
+ },{
+  "en": "Use system line ending",
+  "tr": "使用系統行結尾"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "使用此作為默認值，不再詢問"
+ },{
+  "en": "User",
+  "tr": "用戶"
+ },{
+  "en": "Username echo mode",
+  "tr": "用戶名回顯模式"
+ },{
+  "en": "Value",
+  "tr": "價值"
+ },{
+  "en": "Variable",
+  "tr": "多變的"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "驗證服務器指紋"
+ },{
+  "en": "View",
+  "tr": "查看"
+ },{
+  "en": "Virtual Space",
+  "tr": "虛擬空間"
+ },{
+  "en": "Waiting",
+  "tr": "等待"
+ },{
+  "en": "Warning",
+  "tr": "警告"
+ },{
+  "en": "Wheel event",
+  "tr": "車輪事件"
+ },{
+  "en": "When destination file exists",
+  "tr": "當目標文件存在時"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "粘貼多行時"
+ },{
+  "en": "When remote title is changed",
+  "tr": "更改遠程標題時"
+ },{
+  "en": "When session is authenticated",
+  "tr": "當會話被認證時"
+ },{
+  "en": "When session is authenticating",
+  "tr": "會話進行身份驗證時"
+ },{
+  "en": "When window is resized",
+  "tr": "調整窗口大小時"
+ },{
+  "en": "Where",
+  "tr": "哪裡"
+ },{
+  "en": "White Spaces",
+  "tr": "空格（W）"
+ },{
+  "en": "Whole Line",
+  "tr": "整線"
+ },{
+  "en": "Whole Word",
+  "tr": "全字"
+ },{
+  "en": "Widgets",
+  "tr": "小工具"
+ },{
+  "en": "Width",
+  "tr": "寬度"
+ },{
+  "en": "Window",
+  "tr": "窗戶"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "窗邊"
+ },{
+  "en": "Window Opacity",
+  "tr": "窗口不透明度"
+ },{
+  "en": "Window opacity",
+  "tr": "窗口不透明度"
+ },{
+  "en": "Windows Manager",
+  "tr": "視窗管理器"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "找不到 Winpty-agent.exe 或 winpty.dll！。"
+ },{
+  "en": "Word",
+  "tr": "字"
+ },{
+  "en": "Word Separators",
+  "tr": "分詞符"
+ },{
+  "en": "Word Wrap",
+  "tr": "自動換行"
+ },{
+  "en": "Working directory",
+  "tr": "工作目錄"
+ },{
+  "en": "Wrap",
+  "tr": "裹"
+ },{
+  "en": "Wrap by character",
+  "tr": "按字符換行"
+ },{
+  "en": "Wrap by word",
+  "tr": "逐字逐句"
+ },{
+  "en": "Wrap column",
+  "tr": "換行列"
+ },{
+  "en": "Wrap mode",
+  "tr": "換行模式"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "換行符號"
+ },{
+  "en": "Wrong master password.",
+  "tr": "主密碼錯誤。"
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z 調製解調器"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z 調製解調器無法傳輸大於 4GB 的文件夾或文件：%1。"
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11認證協議"
+ },{
+  "en": "X11 display",
+  "tr": "X11顯示器"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "2位數年份"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "4位數年份"
+ },{
+  "en": "Yes",
+  "tr": "是的"
+ },{
+  "en": "Zero",
+  "tr": "零"
+ },{
+  "en": "Zoom",
+  "tr": "飛漲"
+ },{
+  "en": "Zoom In",
+  "tr": "放大（I）"
+ },{
+  "en": "Zoom level",
+  "tr": "縮放級別"
+ },{
+  "en": "Zoom Out",
+  "tr": "縮小"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[在 %1s 中崩潰]"
+ },{
+  "en": "[Empty]",
+  "tr": "[空的]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[錯誤：%1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[在 %1s 內完成，退出代碼 %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[在 %1s 內完成]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "【群組列表為空】"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "【導航列表為空】"
+ },{
+  "en": "[No search engine]",
+  "tr": "[沒有搜索引擎]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[最近的網址為空]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "【重做列表為空】"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[方案列表為空]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "【主題列表為空】"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[工具欄列表為空]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[撤銷列表為空]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[用戶已取消]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[用戶@]主機名"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows 列表為空]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

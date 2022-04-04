@@ -1,0 +1,3513 @@
+{
+ "language": "Indonesian - Bahasa Indonesia",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Skema) Alat"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 tidak didukung oleh %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 disalin"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 diunduh"
+ },{
+  "en": "%1 File",
+  "tr": "%1 Berkas"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 item gagal"
+ },{
+  "en": "%1 items",
+  "tr": "%1 item"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 item gagal"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 item/dtk"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 dari %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 dihapus"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 ini %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 diunggah"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 Kecepatan: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 upaya sandi gagal."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br>Telah <b>berubah</b> dan <b>dimuat ulang</b>, undo <b>TIDAK</b> diperbolehkan untuk file besar."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br>Telah <b>berubah</b> dan <b>dimuat ulang</b>, pembatalan diperbolehkan."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br>Telah <b>berubah</b>, Apakah Anda ingin memuat ulang?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br>Telah <b>dipindahkan atau dihapus</b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) ditekan. Menunggu lebih banyak kunci"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 Kolom"
+ },{
+  "en": "2 Chars",
+  "tr": "2 Karakter"
+ },{
+  "en": "24 Columns",
+  "tr": "24 Kolom"
+ },{
+  "en": "32 Columns",
+  "tr": "32 Kolom"
+ },{
+  "en": "4 Chars",
+  "tr": "4 Karakter"
+ },{
+  "en": "8 Chars",
+  "tr": "8 Karakter"
+ },{
+  "en": "8 Columns",
+  "tr": "8 Kolom"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Kata Sandi Utama digunakan untuk melindungi informasi sensitif seperti kata sandi SSH."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Nama harus kurang dari 255 karakter dan tidak boleh mengandung salah satu karakter berikut: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "File jarak jauh telah dimodifikasi.\nApakah Anda ingin mengunggah file ini kembali ke server?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Sesi atau kumpulan sesi(S) tertentu"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Nama bulan disingkat"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Nama hari kerja disingkat"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Terima koneksi lokal saja"
+ },{
+  "en": "Accessed",
+  "tr": "Diakses"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Aktifkan beberapa tanda sisipan"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Aktifkan Pilihan Berikutnya"
+ },{
+  "en": "Activate Next View",
+  "tr": "Aktifkan Tampilan Berikutnya"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Aktifkan Pilihan Sebelumnya"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Aktifkan Tampilan Sebelumnya"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Aktifkan tab kiri"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Aktifkan tab yang dipilih sebelumnya"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Aktifkan tab kanan"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Aktifkan tab setelah menutup"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Aktifkan tab setelah mengarahkan"
+ },{
+  "en": "Add",
+  "tr": "Tambah sebuah)"
+ },{
+  "en": "Add All",
+  "tr": "Tambahkan Semua"
+ },{
+  "en": "Add Command",
+  "tr": "Tambahkan Perintah"
+ },{
+  "en": "Add Group",
+  "tr": "Tambahkan Grup"
+ },{
+  "en": "Add Sender",
+  "tr": "Tambahkan Pengirim"
+ },{
+  "en": "Add Tab",
+  "tr": "Tambahkan Tab"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Sesuaikan baris dan kolom jendela"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Sortir Lanjutan"
+ },{
+  "en": "Agent",
+  "tr": "Agen"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Otentikasi agen gagal, silakan coba metode lain"
+ },{
+  "en": "All",
+  "tr": "Semua"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Semua %1 sesi akan dihapus.\nApakah Anda ingin melanjutkan mengimpor sesi?"
+ },{
+  "en": "All session output",
+  "tr": "Semua keluaran sesi"
+ },{
+  "en": "All Sessions",
+  "tr": "Semua Sesi"
+ },{
+  "en": "All tabs",
+  "tr": "Semua tab"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Warna latar belakang kolom alternatif"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Warna latar belakang garis alternatif"
+ },{
+  "en": "Always On Top",
+  "tr": "Selalu Di Atas"
+ },{
+  "en": "Always on top",
+  "tr": "Selalu di atas"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Terjadi kesalahan saat mencoba membaca dari proses %1."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Terjadi kesalahan saat mencoba menulis ke proses %1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Terjadi kesalahan yang tidak diketahui dalam proses %1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI ke OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Jawab kembali"
+ },{
+  "en": "Any",
+  "tr": "Setiap"
+ },{
+  "en": "Anything Palette",
+  "tr": "Palet Apapun"
+ },{
+  "en": "Anywhere",
+  "tr": "Dimana saja"
+ },{
+  "en": "Appearance",
+  "tr": "Penampilan"
+ },{
+  "en": "Append",
+  "tr": "Menambahkan"
+ },{
+  "en": "Append log file",
+  "tr": "Tambahkan file log"
+ },{
+  "en": "Application",
+  "tr": "Aplikasi"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Anda yakin ingin menghapus %1 item yang dipilih?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Anda yakin ingin menghapus item <b>%1</b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Apakah Anda yakin ingin memuat ulang file saat ini dan kehilangan perubahan yang dibuat di WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Anda yakin ingin menghentikan pengirim saat ini?"
+ },{
+  "en": "Arguments",
+  "tr": "Argumen"
+ },{
+  "en": "At Caret",
+  "tr": "Di Caret"
+ },{
+  "en": "At End",
+  "tr": "Di Akhir"
+ },{
+  "en": "At Start",
+  "tr": "Saat Mulai"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Mencoba otentikasi gssapi-dengan-mikrofon"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Mencoba autentikasi keyboard-interaktif"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Mencoba otentikasi kontes"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Mencoba otentikasi kata sandi"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Mencoba otentikasi kunci publik"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Coba autentikasi ssh-agent"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Diautentikasi dengan keberhasilan sebagian, silakan coba metode lain."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Mengautentikasi dengan %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Mengautentikasi dengan %1 dan %2"
+ },{
+  "en": "Authentication",
+  "tr": "Autentikasi"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Otentikasi ditolak, silakan coba lagi."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Autentikasi gagal, harap coba lagi."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Tutup Otomatis Tag HTML/XML"
+ },{
+  "en": "Auto login",
+  "tr": "Masuk otomatis"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Login otomatis gagal, coba lagi."
+ },{
+  "en": "Auto login next time",
+  "tr": "Login otomatis lain kali"
+ },{
+  "en": "Automatic",
+  "tr": "Otomatis"
+ },{
+  "en": "automatic",
+  "tr": "otomatis"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Metode otentikasi otomatis"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Salin pilihan(C) secara otomatis"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Secara otomatis mendeteksi lekukan"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Secara otomatis memangkas padding"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Penanda latar belakang"
+ },{
+  "en": "Backspace",
+  "tr": "Spasi Belakang"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace mengirim"
+ },{
+  "en": "Backward",
+  "tr": "Ke belakang"
+ },{
+  "en": "Bars",
+  "tr": "Bar"
+ },{
+  "en": "Baud Rate",
+  "tr": "Tingkat Baud"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Bip Saat Selesai"
+ },{
+  "en": "Binary",
+  "tr": "Biner"
+ },{
+  "en": "Binary base",
+  "tr": "Basis biner"
+ },{
+  "en": "Binary columns",
+  "tr": "Kolom biner"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Kolom devisi biner"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Karakter yang dikelompokkan biner"
+ },{
+  "en": "Black",
+  "tr": "Hitam"
+ },{
+  "en": "Blink",
+  "tr": "Berkedip"
+ },{
+  "en": "blinking block",
+  "tr": "blok berkedip"
+ },{
+  "en": "blinking line",
+  "tr": "garis berkedip"
+ },{
+  "en": "blinking rectangle",
+  "tr": "persegi panjang berkedip"
+ },{
+  "en": "blinking underLine",
+  "tr": "berkedip di bawahGaris"
+ },{
+  "en": "Block",
+  "tr": "Memblokir"
+ },{
+  "en": "block",
+  "tr": "memblokir"
+ },{
+  "en": "Bold",
+  "tr": "Berani"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Jenis tebal menunjukkan font dengan lebar tetap"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Dermaga Bawah"
+ },{
+  "en": "Bottom Group",
+  "tr": "Grup Bawah"
+ },{
+  "en": "Browse",
+  "tr": "Jelajahi"
+ },{
+  "en": "Browse Directory",
+  "tr": "Jelajahi Direktori"
+ },{
+  "en": "Browse File",
+  "tr": "Jelajahi File"
+ },{
+  "en": "Browser",
+  "tr": "Peramban"
+ },{
+  "en": "Build",
+  "tr": "Bangun"
+ },{
+  "en": "By",
+  "tr": "Oleh"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Menghitung"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Tidak dapat menemukan program yang cocok untuk membuka file:\n%1\nCoba gunakan editor default untuk membukanya."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Tidak dapat membuat direktori %1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Tidak dapat membuat file %1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Tidak dapat membuat tautan %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Tidak dapat menghapus direktori %1."
+ },{
+  "en": "Cancel",
+  "tr": "Membatalkan"
+ },{
+  "en": "Cancel Build",
+  "tr": "Batalkan Pembuatan"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Batalkan Pilihan"
+ },{
+  "en": "Caret",
+  "tr": "Tanda sisipan"
+ },{
+  "en": "Caret Style",
+  "tr": "Gaya Caret"
+ },{
+  "en": "Carriage Return",
+  "tr": "Kereta kembali"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Hal - hal sensitif"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Ubah Kata Sandi Utama"
+ },{
+  "en": "Change master password",
+  "tr": "Ubah kata sandi utama"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Gagal mengubah kata sandi utama."
+ },{
+  "en": "Change the tab title",
+  "tr": "Ubah judul tab"
+ },{
+  "en": "Changed",
+  "tr": "Berubah"
+ },{
+  "en": "Channel",
+  "tr": "Saluran"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char Kiri"
+ },{
+  "en": "Char Right",
+  "tr": "Char Kanan"
+ },{
+  "en": "Character spacing",
+  "tr": "Spasi karakter"
+ },{
+  "en": "character width",
+  "tr": "lebar karakter"
+ },{
+  "en": "Charset",
+  "tr": "Rangkaian Karakter"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Pilih editor default"
+ },{
+  "en": "Ciphers",
+  "tr": "sandi"
+ },{
+  "en": "Ciphers order",
+  "tr": "Urutan sandi"
+ },{
+  "en": "Clear",
+  "tr": "Jernih"
+ },{
+  "en": "Clear All",
+  "tr": "Hapus Semua"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Hapus Url Terbaru"
+ },{
+  "en": "Clear Screen",
+  "tr": "Bersihkan Layar"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Hapus Scrollback"
+ },{
+  "en": "Clear Sender",
+  "tr": "Hapus Pengirim"
+ },{
+  "en": "Click event",
+  "tr": "Klik acara"
+ },{
+  "en": "Close",
+  "tr": "Menutup"
+ },{
+  "en": "Close All Views",
+  "tr": "Tutup Semua Tampilan"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Tutup Semua Tampilan Tapi Aktif"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Tutup Semua Tampilan Ke Kanan"
+ },{
+  "en": "Close And Exit",
+  "tr": "Tutup Dan Keluar"
+ },{
+  "en": "Close Channel",
+  "tr": "Tutup Saluran"
+ },{
+  "en": "Close Dock",
+  "tr": "Tutup Dermaga"
+ },{
+  "en": "Close Group",
+  "tr": "Tutup Grup"
+ },{
+  "en": "Close Session",
+  "tr": "Tutup Sesi"
+ },{
+  "en": "Close Tab",
+  "tr": "Tutup Tab"
+ },{
+  "en": "Close tab",
+  "tr": "Tutup tab"
+ },{
+  "en": "Close View",
+  "tr": "Tutup Tampilan"
+ },{
+  "en": "Close Window",
+  "tr": "Tutup Jendela"
+ },{
+  "en": "Color",
+  "tr": "Warna"
+ },{
+  "en": "Column Edit",
+  "tr": "Pengeditan Kolom"
+ },{
+  "en": "Column Marker",
+  "tr": "Penanda Kolom"
+ },{
+  "en": "Columns",
+  "tr": "Kolom"
+ },{
+  "en": "columns",
+  "tr": "kolom"
+ },{
+  "en": "Command",
+  "tr": "Perintah"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Palet Perintah"
+ },{
+  "en": "Comment",
+  "tr": "Komentar"
+ },{
+  "en": "Comment Selection",
+  "tr": "Pilihan Komentar"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Pilihan Komentar(Mode Blokir)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Pilihan Komentar(Mode Baris)"
+ },{
+  "en": "Complete Word",
+  "tr": "Kata Lengkap"
+ },{
+  "en": "Config",
+  "tr": "konfigurasi"
+ },{
+  "en": "Confirm Password",
+  "tr": "konfirmasi sandi"
+ },{
+  "en": "Confirm password",
+  "tr": "Konfirmasi sandi"
+ },{
+  "en": "Connect",
+  "tr": "Menghubung"
+ },{
+  "en": "Connection",
+  "tr": "Koneksi"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Konteks"
+ },{
+  "en": "Continue",
+  "tr": "Melanjutkan"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Mengonversi CRLF dan LF ke CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Ubah tab menjadi spasi"
+ },{
+  "en": "copied",
+  "tr": "disalin"
+ },{
+  "en": "Copy",
+  "tr": "Salinan"
+ },{
+  "en": "copy",
+  "tr": "salinan"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Salin Dan Tempel"
+ },{
+  "en": "Copy File Name",
+  "tr": "Salin Nama File"
+ },{
+  "en": "Copy File Path",
+  "tr": "Salin Jalur File"
+ },{
+  "en": "Copy from",
+  "tr": "Salin dari"
+ },{
+  "en": "Copy names",
+  "tr": "Salin nama"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Salin nama ke terminal"
+ },{
+  "en": "Copy Output",
+  "tr": "Salin Keluaran"
+ },{
+  "en": "Copy paths",
+  "tr": "Salin jalur"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Salin jalur ke terminal"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Salin Nama Sesi"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Salin Url Sesi"
+ },{
+  "en": "Copy to",
+  "tr": "Salin ke"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Salin Ke Terminal"
+ },{
+  "en": "Count",
+  "tr": "Menghitung"
+ },{
+  "en": "Create Directory",
+  "tr": "Buat Direktori"
+ },{
+  "en": "Create File",
+  "tr": "Buat File"
+ },{
+  "en": "Create Link",
+  "tr": "Buat Tautan"
+ },{
+  "en": "Created",
+  "tr": "Dibuat"
+ },{
+  "en": "Critical",
+  "tr": "Kritis"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Sesi Sekarang"
+ },{
+  "en": "Custom",
+  "tr": "Kebiasaan"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Opasitas Kustom"
+ },{
+  "en": "Customize",
+  "tr": "Sesuaikan"
+ },{
+  "en": "Cut",
+  "tr": "Potong"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Cyan Gelap"
+ },{
+  "en": "Data",
+  "tr": "Data"
+ },{
+  "en": "Data Bits",
+  "tr": "Bit Data"
+ },{
+  "en": "Datetime format",
+  "tr": "Format tanggal-waktu"
+ },{
+  "en": "Day of month",
+  "tr": "Hari bulan"
+ },{
+  "en": "Debug Mode",
+  "tr": "Mode Debug"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Kurangi Indentasi Baris"
+ },{
+  "en": "Deep Pink",
+  "tr": "Merah Muda Tua"
+ },{
+  "en": "default",
+  "tr": "bawaan"
+ },{
+  "en": "Default editor",
+  "tr": "Editor bawaan"
+ },{
+  "en": "Default Font",
+  "tr": "Font Bawaan"
+ },{
+  "en": "Default line ending",
+  "tr": "Akhir baris default"
+ },{
+  "en": "Delete",
+  "tr": "Hapus"
+ },{
+  "en": "Delete sends",
+  "tr": "Hapus pengiriman"
+ },{
+  "en": "deleted",
+  "tr": "dihapus"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Tuan Rumah Tujuan"
+ },{
+  "en": "Destination Port",
+  "tr": "Pelabuhan Tujuan"
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Direktori"
+ },{
+  "en": "Directory Link",
+  "tr": "Tautan Direktori"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Nonaktifkan algoritma Nagle(opsi TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Putuskan Sambungan Sesi"
+ },{
+  "en": "Disk",
+  "tr": "Disk"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Jangan menggemakan karakter"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Apakah Anda ingin menutup sesi saat ini?"
+ },{
+  "en": "Document",
+  "tr": "Dokumen"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Jangan tampilkan pesan ini lagi"
+ },{
+  "en": "Double click",
+  "tr": "Klik dua kali"
+ },{
+  "en": "Double click event",
+  "tr": "Acara klik dua kali"
+ },{
+  "en": "Download",
+  "tr": "Unduh"
+ },{
+  "en": "download",
+  "tr": "unduh"
+ },{
+  "en": "Download directory",
+  "tr": "Unduh direktori"
+ },{
+  "en": "downloaded",
+  "tr": "diunduh"
+ },{
+  "en": "Drop Selection",
+  "tr": "Seleksi Jatuhkan"
+ },{
+  "en": "Duplicate",
+  "tr": "Duplikat"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Perintah Duplikat"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Tampilan Duplikat"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Penerusan dinamis"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Gema setiap karakter yang dimasukkan"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Gema setiap karakter saat mengedit"
+ },{
+  "en": "Echo random characters",
+  "tr": "Gema karakter acak"
+ },{
+  "en": "Edit",
+  "tr": "Sunting"
+ },{
+  "en": "Editor",
+  "tr": "Editor"
+ },{
+  "en": "editor",
+  "tr": "editor"
+ },{
+  "en": "Editor Settings",
+  "tr": "Pengaturan Editor"
+ },{
+  "en": "Elapsed",
+  "tr": "Berlalu"
+ },{
+  "en": "Elide left",
+  "tr": "Elide kiri"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide tengah"
+ },{
+  "en": "Elide right",
+  "tr": "Menyingkir ke kanan"
+ },{
+  "en": "Empty",
+  "tr": "Kosong"
+ },{
+  "en": "Enable command mode",
+  "tr": "Aktifkan mode perintah"
+ },{
+  "en": "Enable local mode",
+  "tr": "Aktifkan mode lokal"
+ },{
+  "en": "Enable SFTP",
+  "tr": "Aktifkan SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Aktifkan TCP keepalives(opsi SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Aktifkan ruang virtual"
+ },{
+  "en": "End Of Document",
+  "tr": "Akhir Dokumen"
+ },{
+  "en": "End Of Line",
+  "tr": "Akhir Baris"
+ },{
+  "en": "End Of Pair",
+  "tr": "Akhir Pasangan"
+ },{
+  "en": "Engine",
+  "tr": "Mesin"
+ },{
+  "en": "Environment Variable",
+  "tr": "Variabel Lingkungan"
+ },{
+  "en": "Environment variables",
+  "tr": "Variabel lingkungan"
+ },{
+  "en": "Error",
+  "tr": "Kesalahan"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Tukarkan Caret Dan Jangkar"
+ },{
+  "en": "Execute",
+  "tr": "Jalankan"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Jalankan perintah setelah otentikasi"
+ },{
+  "en": "Execute command after start",
+  "tr": "Jalankan perintah setelah start"
+ },{
+  "en": "Execute File",
+  "tr": "Jalankan File"
+ },{
+  "en": "Exit",
+  "tr": "Keluar"
+ },{
+  "en": "Expand",
+  "tr": "Mengembangkan"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Luaskan Cuplikan"
+ },{
+  "en": "Explorer",
+  "tr": "Penjelajah"
+ },{
+  "en": "External Tools",
+  "tr": "Alat Eksternal"
+ },{
+  "en": "External X display",
+  "tr": "Tampilan X eksternal"
+ },{
+  "en": "ExtraBold",
+  "tr": "Ekstra Tebal"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Gagal membuat file sementara:\n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Gagal membuka direktori: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Gagal mengambil sidik jari host!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Gagal mengunggah file: %1,\nFile mungkin tidak ada atau tidak memiliki izin untuk membukanya."
+ },{
+  "en": "Fast",
+  "tr": "Cepat"
+ },{
+  "en": "Favorites",
+  "tr": "Favorit"
+ },{
+  "en": "Features",
+  "tr": "Fitur"
+ },{
+  "en": "File",
+  "tr": "Mengajukan"
+ },{
+  "en": "file",
+  "tr": "mengajukan"
+ },{
+  "en": "File Link",
+  "tr": "Tautan Berkas"
+ },{
+  "en": "File Name",
+  "tr": "Nama Berkas"
+ },{
+  "en": "File name",
+  "tr": "Nama file"
+ },{
+  "en": "File Path",
+  "tr": "Jalur Berkas"
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "filer"
+ },{
+  "en": "Filter",
+  "tr": "Saring"
+ },{
+  "en": "Find",
+  "tr": "Temukan"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Temukan Semua"
+ },{
+  "en": "Find in Files",
+  "tr": "Temukan di File"
+ },{
+  "en": "Find Next",
+  "tr": "Temukan Berikutnya"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Temukan Pilihan Berikutnya"
+ },{
+  "en": "Find Previous",
+  "tr": "Temukan Sebelumnya"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Temukan Pilihan Sebelumnya"
+ },{
+  "en": "Fingerprint",
+  "tr": "Sidik jari"
+ },{
+  "en": "First nine tabs",
+  "tr": "Sembilan tab pertama"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Mengapung"
+ },{
+  "en": "Flow Control",
+  "tr": "Kontrol Aliran"
+ },{
+  "en": "Focus Mode",
+  "tr": "Mode fokus"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Pengaturan Mode Fokus"
+ },{
+  "en": "Fold",
+  "tr": "Lipat"
+ },{
+  "en": "Fold All",
+  "tr": "Lipat Semua"
+ },{
+  "en": "Fold Category",
+  "tr": "Kategori Lipat"
+ },{
+  "en": "Fold Inside",
+  "tr": "Lipat Di Dalam"
+ },{
+  "en": "Folds",
+  "tr": "Lipatan"
+ },{
+  "en": "Font",
+  "tr": "jenis huruf"
+ },{
+  "en": "Font family",
+  "tr": "Keluarga font"
+ },{
+  "en": "Font size",
+  "tr": "Ukuran font"
+ },{
+  "en": "Font weight",
+  "tr": "Berat font"
+ },{
+  "en": "Forest Green",
+  "tr": "Hutan Hijau"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Pilihan Format"
+ },{
+  "en": "Found",
+  "tr": "Ditemukan"
+ },{
+  "en": "Full month name",
+  "tr": "Nama bulan penuh"
+ },{
+  "en": "Full Screen",
+  "tr": "Layar Penuh"
+ },{
+  "en": "Full screen",
+  "tr": "Layar penuh"
+ },{
+  "en": "Full weekday name",
+  "tr": "Nama lengkap hari kerja"
+ },{
+  "en": "Go Backward",
+  "tr": "Mundur"
+ },{
+  "en": "Go Forward",
+  "tr": "Maju"
+ },{
+  "en": "Go to",
+  "tr": "Pergi ke"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Pergi ke Simbol di Tampilan Saat Ini"
+ },{
+  "en": "Goldenrod",
+  "tr": "Batang Emas"
+ },{
+  "en": "Goto",
+  "tr": "Masuk"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Bilah Alamat Goto"
+ },{
+  "en": "Goto File",
+  "tr": "Goto File"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Tajuk Lipat Goto"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Goto Next Fold Header"
+ },{
+  "en": "Goto Position",
+  "tr": "Goto Posisi"
+ },{
+  "en": "Goto Session",
+  "tr": "Sesi Goto"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Simbol Goto"
+ },{
+  "en": "Group",
+  "tr": "Kelompok"
+ },{
+  "en": "Group %1",
+  "tr": "Grup 1"
+ },{
+  "en": "Groups",
+  "tr": "Grup"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi Dengan Mikrofon"
+ },{
+  "en": "Hard Reset",
+  "tr": "Atur Ulang Keras"
+ },{
+  "en": "Help",
+  "tr": "Bantuan"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Basis Hex"
+ },{
+  "en": "Hex Columns",
+  "tr": "Kolom Hex"
+ },{
+  "en": "Hex Edit",
+  "tr": "Sunting Heksadesimal"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Karakter Grup Hex"
+ },{
+  "en": "Hidden",
+  "tr": "Tersembunyi"
+ },{
+  "en": "Hide",
+  "tr": "Bersembunyi"
+ },{
+  "en": "Hide All",
+  "tr": "Sembunyikan Semua"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Sembunyikan kursor saat mengetik"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Sembunyikan Teks"
+ },{
+  "en": "Highlight",
+  "tr": "Menyorot"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Sorot Garis Caret"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Sorot Pasangan yang Cocok"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Sorot garis tanda sisipan"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Sorot kata tanda sisipan"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Sorot lipatan saat ini"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Sorot pasangan saat ini"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Sorot pencarian inkremental"
+ },{
+  "en": "History",
+  "tr": "Sejarah"
+ },{
+  "en": "Home Of Line",
+  "tr": "Beranda Garis"
+ },{
+  "en": "Host",
+  "tr": "Tuan rumah"
+ },{
+  "en": "Host address",
+  "tr": "Alamat tuan rumah"
+ },{
+  "en": "Host Based",
+  "tr": "Berbasis Tuan Rumah"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Jam dalam format 12"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Jam dalam format 24"
+ },{
+  "en": "Http proxy",
+  "tr": "Proksi HTTP"
+ },{
+  "en": "Huge File",
+  "tr": "File Besar"
+ },{
+  "en": "Icon",
+  "tr": "ikon"
+ },{
+  "en": "Identity file",
+  "tr": "Berkas identitas"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "File identitas untuk otentikasi"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Jika Anda membuat Kata Sandi Utama, Anda akan diminta untuk memasukkannya saat WindTerm mengambil informasi tersimpan yang dilindungi oleh Kata Sandi Utama."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Jika Anda lupa Kata Sandi Utama Anda, Anda tidak akan dapat mengakses informasi apa pun yang dilindungi olehnya."
+ },{
+  "en": "Import",
+  "tr": "Impor"
+ },{
+  "en": "Import sessions",
+  "tr": "Sesi impor"
+ },{
+  "en": "In Selection",
+  "tr": "Dalam Seleksi"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Tingkatkan Indentasi Baris"
+ },{
+  "en": "Incremental",
+  "tr": "Tambahan"
+ },{
+  "en": "Indent",
+  "tr": "Indentasi"
+ },{
+  "en": "Indent guide style",
+  "tr": "Gaya panduan indentasi"
+ },{
+  "en": "Indent Guides",
+  "tr": "Panduan Indentasi"
+ },{
+  "en": "Indent size",
+  "tr": "Ukuran indentasi"
+ },{
+  "en": "Indentation",
+  "tr": "Lekukan"
+ },{
+  "en": "Indian Red",
+  "tr": "Merah India"
+ },{
+  "en": "Information",
+  "tr": "Informasi"
+ },{
+  "en": "Insert",
+  "tr": "Sisipkan"
+ },{
+  "en": "Insert File",
+  "tr": "Sisipkan File"
+ },{
+  "en": "Insert Lines",
+  "tr": "Sisipkan Garis"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Sisipkan tab saat menekan tombol TAB"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Memasukkan dan menghapus spasi putih mengikuti perhentian tab"
+ },{
+  "en": "Inserting file",
+  "tr": "Memasukkan file"
+ },{
+  "en": "Internal X display",
+  "tr": "Layar X internal"
+ },{
+  "en": "Interval",
+  "tr": "Interval"
+ },{
+  "en": "Invert Selection",
+  "tr": "Balikkan Pilihan"
+ },{
+  "en": "item failed",
+  "tr": "barang gagal"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "item gagal"
+ },{
+  "en": "Join Channel A",
+  "tr": "Bergabunglah dengan Saluran A"
+ },{
+  "en": "Join Channel B",
+  "tr": "Bergabung dengan Saluran B"
+ },{
+  "en": "Join Channel C",
+  "tr": "Bergabung dengan Saluran C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Bergabunglah dengan Saluran D"
+ },{
+  "en": "Join Lines",
+  "tr": "Gabung Garis"
+ },{
+  "en": "Joined",
+  "tr": "bergabung"
+ },{
+  "en": "Jump Server",
+  "tr": "Langsung Server"
+ },{
+  "en": "Jump server",
+  "tr": "Langsung server"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Langsung server"
+ },{
+  "en": "Key Exchange",
+  "tr": "Pertukaran Kunci"
+ },{
+  "en": "Key exchange order",
+  "tr": "Pesanan pertukaran kunci"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Pertukaran ulang kunci"
+ },{
+  "en": "Keyboard",
+  "tr": "Papan ketik"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Keyboard Interaktif"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Bar"
+ },{
+  "en": "Known",
+  "tr": "Diketahui"
+ },{
+  "en": "Label",
+  "tr": "Label"
+ },{
+  "en": "Language",
+  "tr": "Bahasa"
+ },{
+  "en": "Last sessions",
+  "tr": "Sesi terakhir"
+ },{
+  "en": "Layout",
+  "tr": "Tata Letak"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Leading Dan Trailing Blanks"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Memimpin Kosong"
+ },{
+  "en": "Leading position",
+  "tr": "Posisi terdepan"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Tinggalkan Semua Saluran"
+ },{
+  "en": "Leave all channels",
+  "tr": "Tinggalkan semua saluran"
+ },{
+  "en": "Leave Channel",
+  "tr": "Keluar dari Saluran"
+ },{
+  "en": "Left Docks",
+  "tr": "Dermaga Kiri"
+ },{
+  "en": "Left Group",
+  "tr": "Grup Kiri"
+ },{
+  "en": "Light",
+  "tr": "Lampu"
+ },{
+  "en": "Line",
+  "tr": "Garis"
+ },{
+  "en": "line",
+  "tr": "garis"
+ },{
+  "en": "line at a time",
+  "tr": "garis pada suatu waktu"
+ },{
+  "en": "Line Down",
+  "tr": "Garis Bawah"
+ },{
+  "en": "Line Ending",
+  "tr": "akhir baris"
+ },{
+  "en": "Line Endings",
+  "tr": "Akhir Baris"
+ },{
+  "en": "Line Feed",
+  "tr": "Umpan Baris"
+ },{
+  "en": "line height",
+  "tr": "tinggi garis"
+ },{
+  "en": "Line marker",
+  "tr": "Penanda garis"
+ },{
+  "en": "Line spacing",
+  "tr": "Spasi baris"
+ },{
+  "en": "Line Up",
+  "tr": "Berbaris"
+ },{
+  "en": "lines at a time",
+  "tr": "garis pada suatu waktu"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Baris scrollback"
+ },{
+  "en": "Link",
+  "tr": "Tautan"
+ },{
+  "en": "Link to",
+  "tr": "Tautan ke"
+ },{
+  "en": "List Tab",
+  "tr": "Tab Daftar"
+ },{
+  "en": "Listen Port",
+  "tr": "Dengarkan Port"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Penerusan lokal"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Cari Pesan"
+ },{
+  "en": "Location",
+  "tr": "Lokasi"
+ },{
+  "en": "Lock Screen",
+  "tr": "Layar kunci"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Batas waktu layar kunci"
+ },{
+  "en": "Lock Selection",
+  "tr": "Pilihan Kunci"
+ },{
+  "en": "Log",
+  "tr": "Log"
+ },{
+  "en": "Log all session output",
+  "tr": "Catat semua keluaran sesi"
+ },{
+  "en": "Log content pattern",
+  "tr": "Pola konten log"
+ },{
+  "en": "Log Dialog",
+  "tr": "Log Dialog"
+ },{
+  "en": "Log file",
+  "tr": "Berkas log"
+ },{
+  "en": "Log file name",
+  "tr": "Nama file log"
+ },{
+  "en": "Log maximum size",
+  "tr": "Ukuran maksimum log"
+ },{
+  "en": "Log nothing",
+  "tr": "Tidak ada yang masuk"
+ },{
+  "en": "Log option",
+  "tr": "Opsi log"
+ },{
+  "en": "Log options",
+  "tr": "Opsi log"
+ },{
+  "en": "Log pattern",
+  "tr": "Pola log"
+ },{
+  "en": "Log printable output",
+  "tr": "Log keluaran yang dapat dicetak"
+ },{
+  "en": "Log type",
+  "tr": "Jenis log"
+ },{
+  "en": "Log types",
+  "tr": "Jenis log"
+ },{
+  "en": "Logging",
+  "tr": "Masuk"
+ },{
+  "en": "Login",
+  "tr": "Gabung"
+ },{
+  "en": "Login Wizard",
+  "tr": "Wisaya Masuk"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Lama Waktu/Tanggal"
+ },{
+  "en": "Look both guide",
+  "tr": "Lihat keduanya panduan"
+ },{
+  "en": "Look forward guide",
+  "tr": "Nantikan panduan"
+ },{
+  "en": "MAC Hashes",
+  "tr": "Hash MAC"
+ },{
+  "en": "MAC hashes order",
+  "tr": "Urutan hash MAC"
+ },{
+  "en": "Margin Blank",
+  "tr": "Margin Kosong"
+ },{
+  "en": "Margin Fold",
+  "tr": "Lipatan Margin"
+ },{
+  "en": "Margin Number",
+  "tr": "Nomor Margin"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Simbol Margin"
+ },{
+  "en": "Margin Text",
+  "tr": "Teks Margin"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Stempel Waktu Margin"
+ },{
+  "en": "Margins",
+  "tr": "Margin"
+ },{
+  "en": "Marker style",
+  "tr": "Gaya penanda"
+ },{
+  "en": "Master Password",
+  "tr": "Password master"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Data maks sebelum rekey(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Waktu maksimum sebelum rekey(Menit)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Batas waktu koneksi maksimum"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Medium"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Anggrek Sedang"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Biru Batu Tulis Sedang"
+ },{
+  "en": "Menu Bar",
+  "tr": "Bilah Menu"
+ },{
+  "en": "Merge To Group",
+  "tr": "Gabung Ke Grup"
+ },{
+  "en": "Middle click",
+  "tr": "Klik tengah"
+ },{
+  "en": "Middle click event",
+  "tr": "Acara klik tengah"
+ },{
+  "en": "Milliseconds",
+  "tr": "Milidetik"
+ },{
+  "en": "Minutes",
+  "tr": "Menit"
+ },{
+  "en": "minutes",
+  "tr": "menit"
+ },{
+  "en": "Mismatched",
+  "tr": "tidak cocok"
+ },{
+  "en": "Mode",
+  "tr": "Modus"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modem menunggu"
+ },{
+  "en": "Modes",
+  "tr": "Mode"
+ },{
+  "en": "Modified",
+  "tr": "Diubah"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Ubah"
+ },{
+  "en": "Modify Lines",
+  "tr": "Ubah Garis"
+ },{
+  "en": "Month",
+  "tr": "Bulan"
+ },{
+  "en": "More",
+  "tr": "Lainnya"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Aksi Tikus"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Pelacakan Tikus"
+ },{
+  "en": "Move Down",
+  "tr": "Turunkan"
+ },{
+  "en": "Move event",
+  "tr": "Pindahkan acara"
+ },{
+  "en": "Move to",
+  "tr": "Pindah ke"
+ },{
+  "en": "Move To Group",
+  "tr": "Pindah Ke Grup"
+ },{
+  "en": "Move Up",
+  "tr": "Pindah ke atas"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Beberapa Caret"
+ },{
+  "en": "Name",
+  "tr": "Nama"
+ },{
+  "en": "nesting groups",
+  "tr": "kelompok bersarang"
+ },{
+  "en": "Never",
+  "tr": "Tidak pernah"
+ },{
+  "en": "New directory",
+  "tr": "Direktori baru"
+ },{
+  "en": "New File",
+  "tr": "Berkas Baru"
+ },{
+  "en": "New file",
+  "tr": "Berkas baru"
+ },{
+  "en": "New Line",
+  "tr": "Baris Baru"
+ },{
+  "en": "New link",
+  "tr": "Tautan baru"
+ },{
+  "en": "New password",
+  "tr": "Kata sandi baru"
+ },{
+  "en": "New Session",
+  "tr": "Sesi Baru"
+ },{
+  "en": "New Window",
+  "tr": "Jendela Baru"
+ },{
+  "en": "Next Char",
+  "tr": "Karakter Berikutnya"
+ },{
+  "en": "Next Fold",
+  "tr": "Lipatan Berikutnya"
+ },{
+  "en": "Next Indentation",
+  "tr": "Indentasi Berikutnya"
+ },{
+  "en": "Next Line",
+  "tr": "Baris Berikutnya"
+ },{
+  "en": "Next Message",
+  "tr": "Pesan Berikutnya"
+ },{
+  "en": "Next Page",
+  "tr": "Halaman Berikutnya"
+ },{
+  "en": "Next Pair",
+  "tr": "Pasangan Berikutnya"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Paragraf Berikutnya"
+ },{
+  "en": "Next Scope",
+  "tr": "Lingkup Berikutnya"
+ },{
+  "en": "Next Segment End",
+  "tr": "Akhir Segmen Berikutnya"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Segmen Berikutnya Mulai"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Halaman Tergagap Berikutnya"
+ },{
+  "en": "Next Word",
+  "tr": "Kata Berikutnya"
+ },{
+  "en": "Next Word End",
+  "tr": "Akhir Kata Berikutnya"
+ },{
+  "en": "Next Word Part",
+  "tr": "Bagian Kata Berikutnya"
+ },{
+  "en": "No",
+  "tr": "Tidak"
+ },{
+  "en": "No action",
+  "tr": "Tidak ada tindakan"
+ },{
+  "en": "No Dirs",
+  "tr": "Tanpa Dir"
+ },{
+  "en": "No elide",
+  "tr": "Tidak ada elide"
+ },{
+  "en": "No file opened",
+  "tr": "Tidak ada file yang dibuka"
+ },{
+  "en": "No filer available",
+  "tr": "Tidak ada filer yang tersedia"
+ },{
+  "en": "No Files",
+  "tr": "Tidak ada data"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Tidak ada file yang dipilih untuk ditransfer."
+ },{
+  "en": "No item opened",
+  "tr": "Tidak ada barang yang dibuka"
+ },{
+  "en": "No outline available",
+  "tr": "Tidak ada garis besar yang tersedia"
+ },{
+  "en": "No proxy",
+  "tr": "Tidak ada proxy"
+ },{
+  "en": "No session",
+  "tr": "Tidak ada sesi"
+ },{
+  "en": "No session available",
+  "tr": "Tidak ada sesi yang tersedia"
+ },{
+  "en": "No session opened",
+  "tr": "Tidak ada sesi yang dibuka"
+ },{
+  "en": "No Sessions",
+  "tr": "Tidak Ada Sesi"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Tidak tersedia metode autentikasi yang didukung."
+ },{
+  "en": "No transfer available",
+  "tr": "Tidak tersedia transfer"
+ },{
+  "en": "No wrap",
+  "tr": "Tidak ada bungkus"
+ },{
+  "en": "No X display",
+  "tr": "Tidak ada tampilan X"
+ },{
+  "en": "None",
+  "tr": "Tidak ada"
+ },{
+  "en": "None tabs",
+  "tr": "Tidak ada tab"
+ },{
+  "en": "Normal",
+  "tr": "Normal"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Sekarang"
+ },{
+  "en": "Nowhere",
+  "tr": "Tidak kemana-mana"
+ },{
+  "en": "Octal",
+  "tr": "Oktal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM ke ANSI"
+ },{
+  "en": "Off",
+  "tr": "Mati"
+ },{
+  "en": "off",
+  "tr": "mati"
+ },{
+  "en": "Ok",
+  "tr": "Oke"
+ },{
+  "en": "Old",
+  "tr": "Tua"
+ },{
+  "en": "Old password",
+  "tr": "Password lama"
+ },{
+  "en": "Olive",
+  "tr": "Zaitun"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Satu atau beberapa sesi sedang dibuka, \nApakah Anda ingin menutup jendela saat ini?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Hanya file disk yang dapat dimuat ulang!"
+ },{
+  "en": "Only indentation",
+  "tr": "Hanya lekukan"
+ },{
+  "en": "Opaque",
+  "tr": "Buram"
+ },{
+  "en": "Open",
+  "tr": "Buka"
+ },{
+  "en": "open",
+  "tr": "membuka"
+ },{
+  "en": "Open directory after created",
+  "tr": "Buka direktori setelah dibuat"
+ },{
+  "en": "Open directory after download",
+  "tr": "Buka direktori setelah mengunduh"
+ },{
+  "en": "Open File",
+  "tr": "Buka File"
+ },{
+  "en": "Open file",
+  "tr": "Membuka file"
+ },{
+  "en": "Open file after created",
+  "tr": "Buka file setelah dibuat"
+ },{
+  "en": "Open file failed!",
+  "tr": "Gagal membuka file!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Buka server lompat gagal!"
+ },{
+  "en": "Open Log File",
+  "tr": "Buka File Log"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Buka Folder Log"
+ },{
+  "en": "Open Recent",
+  "tr": "Buka Terbaru"
+ },{
+  "en": "Open Selection",
+  "tr": "Buka Pilihan"
+ },{
+  "en": "Open Session",
+  "tr": "Buka Sesi"
+ },{
+  "en": "Open session failed!",
+  "tr": "Sesi terbuka gagal!"
+ },{
+  "en": "Open target directory",
+  "tr": "Buka direktori target"
+ },{
+  "en": "Open with default editor",
+  "tr": "Buka dengan editor default"
+ },{
+  "en": "Opened",
+  "tr": "dibuka"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Buka sesish"
+ },{
+  "en": "Others",
+  "tr": "Yang lain"
+ },{
+  "en": "Outline",
+  "tr": "Garis besar"
+ },{
+  "en": "Output",
+  "tr": "Keluaran"
+ },{
+  "en": "Overtype",
+  "tr": "Ketik berlebihan"
+ },{
+  "en": "Overwrite",
+  "tr": "Timpa"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Timpa file log"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Timpa saat file sumber lebih baru"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Timpa saat file sumber lebih baru atau lebih lama"
+ },{
+  "en": "Owner",
+  "tr": "Pemilik"
+ },{
+  "en": "Packet padding char",
+  "tr": "Karakter pengisi paket"
+ },{
+  "en": "Packet size",
+  "tr": "Ukuran paket"
+ },{
+  "en": "Page",
+  "tr": "Halaman"
+ },{
+  "en": "page",
+  "tr": "halaman"
+ },{
+  "en": "Pair",
+  "tr": "Pasangan"
+ },{
+  "en": "Panes",
+  "tr": "panel"
+ },{
+  "en": "Paragraph",
+  "tr": "Paragraf"
+ },{
+  "en": "Parity",
+  "tr": "Paritas"
+ },{
+  "en": "Passphrase",
+  "tr": "Frasa sandi"
+ },{
+  "en": "Password",
+  "tr": "Kata sandi"
+ },{
+  "en": "Password quality meter",
+  "tr": "Pengukur kualitas kata sandi"
+ },{
+  "en": "Paste",
+  "tr": "Tempel"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Tempelkan Dialog"
+ },{
+  "en": "Paste text",
+  "tr": "Tempel teks"
+ },{
+  "en": "Pause",
+  "tr": "Jeda"
+ },{
+  "en": "Paused",
+  "tr": "Dijeda"
+ },{
+  "en": "Pausing",
+  "tr": "Berhenti sebentar"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Lakukan pencarian DNS dengan proxy"
+ },{
+  "en": "Period",
+  "tr": "Periode"
+ },{
+  "en": "Permissions",
+  "tr": "Izin"
+ },{
+  "en": "pixels",
+  "tr": "piksel"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Silakan masukkan nama baru untuk tampilan ini"
+ },{
+  "en": "Please input master password",
+  "tr": "Silakan masukkan kata sandi utama"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Silakan masukkan kata sandi utama, kosongkan atau batalkan untuk menonaktifkan"
+ },{
+  "en": "Please input new group",
+  "tr": "Silakan masukkan grup baru"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Harap pastikan Anda mengingat Master Password yang telah Anda tetapkan."
+ },{
+  "en": "Port",
+  "tr": "Pelabuhan"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Lebih suka font tema"
+ },{
+  "en": "Preferences",
+  "tr": "Preferensi"
+ },{
+  "en": "Preserve",
+  "tr": "Melestarikan"
+ },{
+  "en": "Preview All",
+  "tr": "Pratinjau Semua"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Simbol Pratinjau"
+ },{
+  "en": "Previous Char",
+  "tr": "Karakter Sebelumnya"
+ },{
+  "en": "Previous Fold",
+  "tr": "Lipatan Sebelumnya"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Indentasi Sebelumnya"
+ },{
+  "en": "Previous Line",
+  "tr": "Baris Sebelumnya"
+ },{
+  "en": "Previous Message",
+  "tr": "Pesan Sebelumnya"
+ },{
+  "en": "Previous Page",
+  "tr": "Halaman Sebelumnya"
+ },{
+  "en": "Previous Pair",
+  "tr": "Pasangan Sebelumnya"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Paragraf Sebelumnya"
+ },{
+  "en": "Previous Scope",
+  "tr": "Lingkup Sebelumnya"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Akhir Segmen Sebelumnya"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Awal Segmen Sebelumnya"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Halaman Tergagap Sebelumnya"
+ },{
+  "en": "Previous Word",
+  "tr": "Kata Sebelumnya"
+ },{
+  "en": "Previous Word End",
+  "tr": "Akhir Kata Sebelumnya"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Bagian Kata Sebelumnya"
+ },{
+  "en": "Printable output",
+  "tr": "Output yang dapat dicetak"
+ },{
+  "en": "Process",
+  "tr": "Proses"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Proses %1 macet."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Proses %1 gagal dimulai."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Proses %1 waktu habis."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Program [Argumen]"
+ },{
+  "en": "Project",
+  "tr": "Proyek"
+ },{
+  "en": "Properties",
+  "tr": "Properti"
+ },{
+  "en": "Property",
+  "tr": "Properti"
+ },{
+  "en": "Protocol",
+  "tr": "Protokol"
+ },{
+  "en": "Proxy",
+  "tr": "Proksi"
+ },{
+  "en": "Proxy Host",
+  "tr": "Tuan Rumah Proksi"
+ },{
+  "en": "Proxy Port",
+  "tr": "Pelabuhan Proksi"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Pengaturan proxy"
+ },{
+  "en": "Proxy Type",
+  "tr": "Jenis Proksi"
+ },{
+  "en": "Public Key",
+  "tr": "Kunci Publik"
+ },{
+  "en": "Public Keys",
+  "tr": "Kunci Publik"
+ },{
+  "en": "Public keys order",
+  "tr": "Urutan kunci publik"
+ },{
+  "en": "Putty sessions",
+  "tr": "Sesi dempul"
+ },{
+  "en": "Query URL",
+  "tr": "URL kueri"
+ },{
+  "en": "Question",
+  "tr": "Pertanyaan"
+ },{
+  "en": "Quick",
+  "tr": "Cepat"
+ },{
+  "en": "Quick Bar",
+  "tr": "Bilah Cepat"
+ },{
+  "en": "Quick Commands",
+  "tr": "Perintah Cepat"
+ },{
+  "en": "Read Only",
+  "tr": "Baca Saja"
+ },{
+  "en": "Ready",
+  "tr": "Siap"
+ },{
+  "en": "Real guide",
+  "tr": "Panduan nyata"
+ },{
+  "en": "Receive XModem",
+  "tr": "Terima XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Terima YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Terima ZModem"
+ },{
+  "en": "received",
+  "tr": "diterima"
+ },{
+  "en": "Recent",
+  "tr": "Terkini"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Sesi Terbaru"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Sambungkan Kembali Sesi"
+ },{
+  "en": "Rectangle",
+  "tr": "Empat persegi panjang"
+ },{
+  "en": "rectangle",
+  "tr": "empat persegi panjang"
+ },{
+  "en": "Red",
+  "tr": "Merah"
+ },{
+  "en": "Redo",
+  "tr": "Ulangi"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Ulangi %1 Tindakan"
+ },{
+  "en": "Refresh",
+  "tr": "Segarkan"
+ },{
+  "en": "Regular Expression",
+  "tr": "Ekspresi Reguler"
+ },{
+  "en": "Reload",
+  "tr": "Muat ulang"
+ },{
+  "en": "Reload File",
+  "tr": "Muat Ulang File"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Muat Ulang Dengan Encoding"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Penerusan jarak jauh"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Jalur jarak jauh"
+ },{
+  "en": "Remove",
+  "tr": "Penghilang)"
+ },{
+  "en": "remove",
+  "tr": "menghapus"
+ },{
+  "en": "Remove All",
+  "tr": "Hapus Semua"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Hapus Baris Kosong"
+ },{
+  "en": "Remove Command",
+  "tr": "Hapus Perintah"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Hapus Baris Duplikat"
+ },{
+  "en": "Remove Group",
+  "tr": "Hapus Grup"
+ },{
+  "en": "Remove items",
+  "tr": "Hapus item"
+ },{
+  "en": "Remove Sender",
+  "tr": "Hapus Pengirim"
+ },{
+  "en": "Removing",
+  "tr": "Menghapus"
+ },{
+  "en": "Rename",
+  "tr": "Ganti nama"
+ },{
+  "en": "Rename Group",
+  "tr": "Ganti Nama Grup"
+ },{
+  "en": "Rename tab",
+  "tr": "Ganti nama tab"
+ },{
+  "en": "Rename View",
+  "tr": "Ganti Nama Tampilan"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Buka Kembali Tampilan Tertutup"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Ulangi Perintah Terakhir"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Jalankan berulang kali"
+ },{
+  "en": "Replace",
+  "tr": "Ganti"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Ganti Semua"
+ },{
+  "en": "Replace in Files",
+  "tr": "Ganti di File"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Membutuhkan restart untuk mengambil pengaruh"
+ },{
+  "en": "Reset",
+  "tr": "Setel ulang"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Setel Ulang Set Karakter"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Setel Ulang Zoom"
+ },{
+  "en": "Resume",
+  "tr": "Melanjutkan"
+ },{
+  "en": "Resuming",
+  "tr": "Melanjutkan"
+ },{
+  "en": "Right click",
+  "tr": "Klik kanan"
+ },{
+  "en": "Right click event",
+  "tr": "Acara klik kanan"
+ },{
+  "en": "Right Docks",
+  "tr": "Dermaga Kanan"
+ },{
+  "en": "Right Group",
+  "tr": "Grup Kanan"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Putar roda mouse untuk menggulir"
+ },{
+  "en": "Rows",
+  "tr": "Baris"
+ },{
+  "en": "Royal Blue",
+  "tr": "Royal Biru"
+ },{
+  "en": "Run Tool",
+  "tr": "Jalankan Alat"
+ },{
+  "en": "Save",
+  "tr": "Menyimpan"
+ },{
+  "en": "Save All",
+  "tr": "Simpan Semua"
+ },{
+  "en": "Save As",
+  "tr": "Simpan Sebagai"
+ },{
+  "en": "Save Copy As",
+  "tr": "Simpan Salin Sebagai"
+ },{
+  "en": "Save file failed!",
+  "tr": "Gagal menyimpan file!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Simpan Pilihan Sebagai"
+ },{
+  "en": "Save Session",
+  "tr": "Simpan Sesi"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Otentikasi otomatis(S) yang tersimpan"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Alat Skema"
+ },{
+  "en": "Scope",
+  "tr": "Cakupan"
+ },{
+  "en": "Screen Locked",
+  "tr": "Layar Terkunci"
+ },{
+  "en": "Scroll Left",
+  "tr": "Gulir ke Kiri"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Gulir Garis Bawah"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Gulir Baris Atas"
+ },{
+  "en": "Scroll Right",
+  "tr": "Gulir ke Kanan"
+ },{
+  "en": "Search",
+  "tr": "Mencari"
+ },{
+  "en": "Search engine",
+  "tr": "Mesin pencari)"
+ },{
+  "en": "Search Engine",
+  "tr": "Mesin pencari"
+ },{
+  "en": "Search Engines",
+  "tr": "Mesin Pencari"
+ },{
+  "en": "Search Online",
+  "tr": "Cari Daring"
+ },{
+  "en": "Search or enter address",
+  "tr": "Cari atau masukkan alamat"
+ },{
+  "en": "Searching",
+  "tr": "Mencari"
+ },{
+  "en": "Seconds",
+  "tr": "Detik"
+ },{
+  "en": "seconds",
+  "tr": "detik"
+ },{
+  "en": "Security",
+  "tr": "Keamanan"
+ },{
+  "en": "Segment",
+  "tr": "Segmen"
+ },{
+  "en": "Select",
+  "tr": "Pilih"
+ },{
+  "en": "Select All",
+  "tr": "Pilih Semua"
+ },{
+  "en": "Select Column To",
+  "tr": "Pilih Kolom Ke"
+ },{
+  "en": "Select copy folder",
+  "tr": "Pilih salin folder"
+ },{
+  "en": "Select copy items",
+  "tr": "Pilih salin item"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Pilih direktori untuk menerima"
+ },{
+  "en": "Select download folder",
+  "tr": "Pilih folder unduhan"
+ },{
+  "en": "Select files to send",
+  "tr": "Pilih file untuk dikirim"
+ },{
+  "en": "Select Fold",
+  "tr": "Pilih Lipat"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Pilih Cuplikan Mundur"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Pilih Snippet Forward"
+ },{
+  "en": "Select To",
+  "tr": "Pilih Ke"
+ },{
+  "en": "Select upload items",
+  "tr": "Pilih unggah item"
+ },{
+  "en": "Selected position",
+  "tr": "Posisi yang dipilih"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Sesi yang Dipilih"
+ },{
+  "en": "Selection",
+  "tr": "Pilihan"
+ },{
+  "en": "Send",
+  "tr": "Mengirim"
+ },{
+  "en": "Send line By line",
+  "tr": "Kirim baris demi baris"
+ },{
+  "en": "Send Text",
+  "tr": "Mengirim pesan"
+ },{
+  "en": "Send XModem",
+  "tr": "Kirim XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Kirim YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Kirim ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Pengirim"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Mengirim %1 gagal: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Mengirim: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Mengirim paket null untuk menjaga sesi tetap hidup"
+ },{
+  "en": "sent",
+  "tr": "terkirim"
+ },{
+  "en": "Serial",
+  "tr": "Serial"
+ },{
+  "en": "Server",
+  "tr": "Server"
+ },{
+  "en": "Session",
+  "tr": "Sidang"
+ },{
+  "en": "session",
+  "tr": "sidang"
+ },{
+  "en": "Session Group",
+  "tr": "Grup Sesi"
+ },{
+  "en": "Session Log",
+  "tr": "Log Sesi"
+ },{
+  "en": "Session name",
+  "tr": "Nama sesi"
+ },{
+  "en": "Session Settings",
+  "tr": "Pengaturan Sesi"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Sesi Di Semua Windows"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Sesi Di Grup Saat Ini"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Sesi Di Jendela Saat Ini"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Sesi Dalam Grup %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Setel editor default"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Setel Warna Tab"
+ },{
+  "en": "Settings",
+  "tr": "Pengaturan"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Bentuk"
+ },{
+  "en": "Shell",
+  "tr": "Kerang"
+ },{
+  "en": "Shell sessions",
+  "tr": "Sesi shell"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Sesi Shell"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Waktu/Tanggal Singkat"
+ },{
+  "en": "Show",
+  "tr": "Menunjukkan"
+ },{
+  "en": "Show All",
+  "tr": "Tampilkan Semua"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Tampilkan Semua Editor yang Dibuka dan Terbaru"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Tampilkan Semua Terminal yang Dibuka dan Terbaru"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Tampilkan dan Jalankan Tindakan"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Tampilkan dialog konfirmasi tab tutup"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Tampilkan dialog konfirmasi jendela tutup"
+ },{
+  "en": "Show column markers",
+  "tr": "Tampilkan penanda kolom"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Tampilkan perintah dalam urutan abjad"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Tampilkan %1 properti saat ini"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Tampilkan perintah grup secara berurutan"
+ },{
+  "en": "Show group title",
+  "tr": "Tampilkan judul grup"
+ },{
+  "en": "Show hidden items",
+  "tr": "Tampilkan item tersembunyi"
+ },{
+  "en": "Show in %1",
+  "tr": "Tampilkan di %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Tampilkan Dalam Baris Akhir"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Tampilkan Dalam Baris Mulai"
+ },{
+  "en": "Show In Selection",
+  "tr": "Tampilkan Dalam Pilihan"
+ },{
+  "en": "Show indent guide",
+  "tr": "Tampilkan panduan indentasi"
+ },{
+  "en": "Show line endings",
+  "tr": "Tampilkan akhir baris"
+ },{
+  "en": "Show menu",
+  "tr": "Tampilkan menu"
+ },{
+  "en": "Show More Tools",
+  "tr": "Tampilkan Alat Lainnya"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Tampilkan beberapa grup"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Tampilkan dialog tempel di layar alternatif"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Tampilkan dialog tempel di layar utama"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Tampilkan spasi dan tab"
+ },{
+  "en": "Show Tabs",
+  "tr": "Tampilkan Tab"
+ },{
+  "en": "Show Text",
+  "tr": "Tampilkan Teks"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Tampilkan nomor tab pada tab"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Tampilkan dialog ini saat mode fokus dimulai"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Tampilkan simbol bungkus"
+ },{
+  "en": "Shrink",
+  "tr": "Menyusut"
+ },{
+  "en": "Size",
+  "tr": "Ukuran"
+ },{
+  "en": "Skip",
+  "tr": "Melewati"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Proksi kaus kaki v5"
+ },{
+  "en": "Soft Reset",
+  "tr": "Atur Ulang Lunak"
+ },{
+  "en": "Sort",
+  "tr": "Urutkan"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Urutkan Garis Tidak Peka Huruf Besar"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Urutkan Garis Peka Huruf Besar"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Urutkan Garis Dalam Urutan Acak"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Urutkan Baris Dalam Urutan Terbalik"
+ },{
+  "en": "spaces",
+  "tr": "spasi"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Spasi ke Tab"
+ },{
+  "en": "Spacing",
+  "tr": "Jarak"
+ },{
+  "en": "Special",
+  "tr": "Spesial"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Tentukan protokol saat menyeret dan menjatuhkan file"
+ },{
+  "en": "Speed",
+  "tr": "Kecepatan"
+ },{
+  "en": "Split",
+  "tr": "Pisahkan"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Pisahkan Grup Secara Horizontal"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Pisahkan Grup Secara Vertikal"
+ },{
+  "en": "Split Lines",
+  "tr": "Garis Terpisah"
+ },{
+  "en": "Split Selection",
+  "tr": "Pilihan Terpisah"
+ },{
+  "en": "Split To Group",
+  "tr": "Pisahkan Ke Grup"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Pisahkan Tampilan Secara Horizontal"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Pisahkan Tampilan Secara Vertikal"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Mulai"
+ },{
+  "en": "Start Of Document",
+  "tr": "Awal Dokumen"
+ },{
+  "en": "Start Of Line",
+  "tr": "Awal Garis"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Awal Pasangan"
+ },{
+  "en": "Startup",
+  "tr": "Rintisan"
+ },{
+  "en": "Stash",
+  "tr": "Simpanan"
+ },{
+  "en": "Status Bar",
+  "tr": "Status bar"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Baja Biru"
+ },{
+  "en": "Sticky",
+  "tr": "Lengket"
+ },{
+  "en": "Stop",
+  "tr": "Berhenti"
+ },{
+  "en": "Stop Bits",
+  "tr": "Hentikan Bit"
+ },{
+  "en": "Stop loading",
+  "tr": "Berhenti memuat"
+ },{
+  "en": "Stop sender",
+  "tr": "Hentikan pengirim"
+ },{
+  "en": "Stop Tools",
+  "tr": "Hentikan Alat"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Berhenti menonton file ini"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Beralih Aliran Dan Kolom"
+ },{
+  "en": "switch to tab",
+  "tr": "beralih ke tab"
+ },{
+  "en": "Symbols",
+  "tr": "Simbol"
+ },{
+  "en": "Sync channel",
+  "tr": "Sinkronkan saluran"
+ },{
+  "en": "Sync Edit",
+  "tr": "Sinkronisasi Edit"
+ },{
+  "en": "Sync Input",
+  "tr": "Sinkronkan Masukan"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Menyinkronkan masukan di saluran %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Skema Sintaks"
+ },{
+  "en": "System",
+  "tr": "Sistem"
+ },{
+  "en": "Tab",
+  "tr": "tab"
+ },{
+  "en": "Tab Color",
+  "tr": "Warna Tab"
+ },{
+  "en": "Tab Features",
+  "tr": "Fitur Tab"
+ },{
+  "en": "Tab Group",
+  "tr": "Grup Tab"
+ },{
+  "en": "Tab Index",
+  "tr": "Indeks Tab"
+ },{
+  "en": "Tab size",
+  "tr": "Ukuran tab"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Mode penghapusan teks tab"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Radio gambar mini tab"
+ },{
+  "en": "Tab Title",
+  "tr": "Judul Tab"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify Baris yang Dipilih"
+ },{
+  "en": "Tabs",
+  "tr": "tab"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Tab ke Spasi"
+ },{
+  "en": "Target",
+  "tr": "Target"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Folder sasaran"
+ },{
+  "en": "Targets",
+  "tr": "Target"
+ },{
+  "en": "TCP connection options",
+  "tr": "Opsi koneksi TCP"
+ },{
+  "en": "Teal",
+  "tr": "Teal"
+ },{
+  "en": "Term",
+  "tr": "Istilah"
+ },{
+  "en": "Terminal",
+  "tr": "Terminal"
+ },{
+  "en": "terminal",
+  "tr": "terminal"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Pengaturan Terminal"
+ },{
+  "en": "Text",
+  "tr": "Teks"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Teks: %1 baris, %2 karakter"
+ },{
+  "en": "The % sign",
+  "tr": "Tanda"
+ },{
+  "en": "The actual text to log",
+  "tr": "Teks sebenarnya untuk dicatat"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Folder tujuan adalah subfolder dari folder sumber:\n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Dokumen telah dimodifikasi.\nApakah Anda ingin menyimpan perubahan Anda?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Kombinasi tombol(%1) bukan perintah."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "lrzsz tidak terdeteksi. Silahkan install lrzsz terlebih dahulu."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Kata sandi utama telah diubah."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Konfirmasi kata sandi tidak cocok."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Server membatalkan transmisi."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Sesi <b>terputus</b>, tekan <b>Enter</b> untuk menyambung kembali."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Transfer dibatalkan karena paket tidak %1 dalam batas coba lagi."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Transfer dibatalkan karena nomor urut paket salah."
+ },{
+  "en": "Theme",
+  "tr": "Tema"
+ },{
+  "en": "Thin",
+  "tr": "Tipis"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Ambang untuk file besar"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Format waktu"
+ },{
+  "en": "Time left",
+  "tr": "Waktu tersisa"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Stempel waktu baris"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Ke Kasus Invers"
+ },{
+  "en": "To Line End",
+  "tr": "Ke Garis Akhir"
+ },{
+  "en": "To Line Start",
+  "tr": "Ke Baris Mulai"
+ },{
+  "en": "To Lower Case",
+  "tr": "Ke Huruf Kecil"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Ke MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "Untuk Judul Kasus"
+ },{
+  "en": "To Unix LF",
+  "tr": "Ke Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "Ke Huruf Besar"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Ke Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Ke Akhir Kata"
+ },{
+  "en": "To Word Start",
+  "tr": "Ke Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Beralih Lipat"
+ },{
+  "en": "Tool",
+  "tr": "Alat"
+ },{
+  "en": "Toolbar",
+  "tr": "Bilah Alat"
+ },{
+  "en": "Top Group",
+  "tr": "Grup Teratas"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Lacak Pemilihan Teks Di Pohon"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Lacak Pemilihan Pohon Dalam Teks"
+ },{
+  "en": "Tracking Events",
+  "tr": "Acara Pelacakan"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Trailing Blank"
+ },{
+  "en": "Trailing position",
+  "tr": "Posisi tertinggal"
+ },{
+  "en": "Transfer",
+  "tr": "Transfer"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Bilah Transfer"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Mentransfer Biner"
+ },{
+  "en": "Transfer complete",
+  "tr": "Transfer selesai"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Transfer tidak lengkap"
+ },{
+  "en": "Translucent",
+  "tr": "Tembus"
+ },{
+  "en": "Transparent",
+  "tr": "Transparan"
+ },{
+  "en": "Transpose",
+  "tr": "Transpos"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Pangkas spasi kosong di save"
+ },{
+  "en": "Trust this host",
+  "tr": "Percayai tuan rumah ini"
+ },{
+  "en": "Tunnels",
+  "tr": "Terowongan"
+ },{
+  "en": "Type",
+  "tr": "Jenis"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Jenis '?' untuk mendapatkan bantuan tentang tindakan Anda dapat mengetik di sini"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Pilihan Batalkan Komentar"
+ },{
+  "en": "Underline",
+  "tr": "Menggarisbawahi"
+ },{
+  "en": "underLine",
+  "tr": "menggarisbawahi"
+ },{
+  "en": "Undo",
+  "tr": "Urungkan"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Urungkan %1 Tindakan"
+ },{
+  "en": "Unfold",
+  "tr": "Buka"
+ },{
+  "en": "Unfold All",
+  "tr": "Buka Semua"
+ },{
+  "en": "Unfold Category",
+  "tr": "Buka Kategori"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Buka Di Dalam"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Satukan akhiran baris pada save"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: jalur file shell harus mutlak"
+ },{
+  "en": "Unknown",
+  "tr": "Tidak dikenal"
+ },{
+  "en": "unknown",
+  "tr": "tidak dikenal"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Hapus Tab pada Baris yang Dipilih"
+ },{
+  "en": "Untitled",
+  "tr": "Tanpa Judul"
+ },{
+  "en": "Untrust this host",
+  "tr": "Jangan percayai tuan rumah ini"
+ },{
+  "en": "upload",
+  "tr": "mengunggah"
+ },{
+  "en": "Upload command",
+  "tr": "Unggah perintah"
+ },{
+  "en": "Upload directory",
+  "tr": "Unggah direktori"
+ },{
+  "en": "Upload file",
+  "tr": "Unggah data"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Unggah ke folder saat ini"
+ },{
+  "en": "uploaded",
+  "tr": "diunggah"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL dengan %q sebagai pengganti kueri"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Gunakan warna latar belakang untuk menghapus layar"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Gunakan transfer kecepatan tinggi"
+ },{
+  "en": "Use system line ending",
+  "tr": "Gunakan akhiran baris sistem"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Gunakan ini sebagai default dan jangan tanya lagi"
+ },{
+  "en": "User",
+  "tr": "Pengguna"
+ },{
+  "en": "Username echo mode",
+  "tr": "Mode gema nama pengguna"
+ },{
+  "en": "Value",
+  "tr": "Nilai"
+ },{
+  "en": "Variable",
+  "tr": "Variabel"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Memverifikasi sidik jari(V) server"
+ },{
+  "en": "View",
+  "tr": "Lihat"
+ },{
+  "en": "Virtual Space",
+  "tr": "Ruang Virtual"
+ },{
+  "en": "Waiting",
+  "tr": "Menunggu"
+ },{
+  "en": "Warning",
+  "tr": "Peringatan"
+ },{
+  "en": "Wheel event",
+  "tr": "Acara roda"
+ },{
+  "en": "When destination file exists",
+  "tr": "Ketika file tujuan ada"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Saat menempelkan beberapa baris"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Saat judul jarak jauh diubah"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Saat sesi diautentikasi"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Saat sesi diautentikasi"
+ },{
+  "en": "When window is resized",
+  "tr": "Ketika jendela diubah ukurannya"
+ },{
+  "en": "Where",
+  "tr": "Dimana"
+ },{
+  "en": "White Spaces",
+  "tr": "Spasi Putih"
+ },{
+  "en": "Whole Line",
+  "tr": "Seluruh Baris"
+ },{
+  "en": "Whole Word",
+  "tr": "Seluruh kata"
+ },{
+  "en": "Widgets",
+  "tr": "Widget"
+ },{
+  "en": "Width",
+  "tr": "Lebar"
+ },{
+  "en": "Window",
+  "tr": "Jendela"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Tepi jendela"
+ },{
+  "en": "Window Opacity",
+  "tr": "Opasitas Jendela"
+ },{
+  "en": "Window opacity",
+  "tr": "Opasitas jendela"
+ },{
+  "en": "Windows Manager",
+  "tr": "Manajer Windows"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe atau winpty.dll tidak ditemukan!."
+ },{
+  "en": "Word",
+  "tr": "Kata"
+ },{
+  "en": "Word Separators",
+  "tr": "Pemisah Kata"
+ },{
+  "en": "Word Wrap",
+  "tr": "Bungkus Kata"
+ },{
+  "en": "Working directory",
+  "tr": "Direktori kerja"
+ },{
+  "en": "Wrap",
+  "tr": "Membungkus"
+ },{
+  "en": "Wrap by character",
+  "tr": "Bungkus berdasarkan karakter"
+ },{
+  "en": "Wrap by word",
+  "tr": "Bungkus dengan kata"
+ },{
+  "en": "Wrap column",
+  "tr": "Bungkus kolom"
+ },{
+  "en": "Wrap mode",
+  "tr": "Mode bungkus"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Bungkus Simbol"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Kata sandi utama salah."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "Modem X/Y/Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "Modem X/Y/Z tidak dapat mengirimkan folder atau file yang lebih besar dari 4 GB: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "Protokol otentikasi X11"
+ },{
+  "en": "X11 display",
+  "tr": "tampilan X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Tahun dalam 2 digit"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Tahun dalam 4 digit"
+ },{
+  "en": "Yes",
+  "tr": "Ya"
+ },{
+  "en": "Zero",
+  "tr": "Nol"
+ },{
+  "en": "Zoom",
+  "tr": "Perbesar"
+ },{
+  "en": "Zoom In",
+  "tr": "Perbesar"
+ },{
+  "en": "Zoom level",
+  "tr": "Tingkat zoom"
+ },{
+  "en": "Zoom Out",
+  "tr": "Perkecil"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Rusak dalam %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Kosong]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Kesalahan: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Selesai dalam %1s, Keluar dari kode %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Selesai dalam %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Daftar grup kosong]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Daftar navigasi kosong]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Tidak ada mesin pencari]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[URL terbaru kosong]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Daftar ulang kosong]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Daftar skema kosong]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Daftar tema kosong]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Daftar bilah alat kosong]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Batalkan daftar kosong]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Pengguna Dibatalkan]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[pengguna@]nama host"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Daftar Windows kosong]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

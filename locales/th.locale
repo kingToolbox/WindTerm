@@ -1,0 +1,3513 @@
+{
+ "language": "Thai - ไทย",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Scheme) เครื่องมือ"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 ไม่รองรับโดย %3"
+ },{
+  "en": "%1 copied",
+  "tr": "%1 คัดลอกแล้ว"
+ },{
+  "en": "%1 downloaded",
+  "tr": "ดาวน์โหลด %1 แล้ว"
+ },{
+  "en": "%1 File",
+  "tr": "%1 ไฟล์"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 รายการล้มเหลว"
+ },{
+  "en": "%1 items",
+  "tr": "%1 รายการ"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 รายการล้มเหลว"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 รายการ/วินาที"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 จาก %2"
+ },{
+  "en": "%1 removed",
+  "tr": "นำออก %1 แล้ว"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 นี้ %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "อัปโหลด %1 แล้ว"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 ความเร็ว: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 รหัสผ่านล้มเหลว"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br>ได้ <b>เปลี่ยนแปลง</b> และ <b>โหลดซ้ำ</b> แล้ว <b>ไม่</b> อนุญาตให้เลิกทำสำหรับไฟล์ขนาดใหญ่"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br>ได้ <b>เปลี่ยนแปลง</b> และ <b>โหลดซ้ำ</b> แล้ว อนุญาตให้เลิกทำ"
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br>ได้ <b>เปลี่ยนแปลง</b> คุณต้องการโหลดซ้ำหรือไม่"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br>ถูก <b>ย้ายหรือลบ</b>"
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) ถูกกด กำลังรอคีย์เพิ่มเติม"
+ },{
+  "en": "1 Char",
+  "tr": "1 ชา"
+ },{
+  "en": "16 Columns",
+  "tr": "16 คอลัมน์"
+ },{
+  "en": "2 Chars",
+  "tr": "2 ตัวอักษร"
+ },{
+  "en": "24 Columns",
+  "tr": "24 คอลัมน์"
+ },{
+  "en": "32 Columns",
+  "tr": "32 คอลัมน์"
+ },{
+  "en": "4 Chars",
+  "tr": "4 ตัวอักษร"
+ },{
+  "en": "8 Chars",
+  "tr": "8 ตัวอักษร"
+ },{
+  "en": "8 Columns",
+  "tr": "8 คอลัมน์"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "รหัสผ่านหลักใช้เพื่อปกป้องข้อมูลที่ละเอียดอ่อน เช่น รหัสผ่าน SSH"
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "ชื่อควรมีความยาวน้อยกว่า 255 อักขระและต้องไม่มีอักขระต่อไปนี้: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "ไฟล์ระยะไกลได้รับการแก้ไข\nคุณต้องการอัปโหลดไฟล์นี้กลับไปยังเซิร์ฟเวอร์หรือไม่"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "เซสชันเฉพาะหรือชุดของเซสชัน "
+ },{
+  "en": "Abbreviated month name",
+  "tr": "ชื่อเดือนย่อ"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "ชื่อย่อวันทำงาน"
+ },{
+  "en": "Accept local connections only",
+  "tr": "ยอมรับการเชื่อมต่อในพื้นที่เท่านั้น"
+ },{
+  "en": "Accessed",
+  "tr": "เข้าถึงแล้ว"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "เปิดใช้งานคาเร็ตหลายอัน "
+ },{
+  "en": "Activate Next Selection",
+  "tr": "เปิดใช้งานการเลือกถัดไป"
+ },{
+  "en": "Activate Next View",
+  "tr": "เปิดใช้งานมุมมองถัดไป"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "เปิดใช้งานการเลือกก่อนหน้า"
+ },{
+  "en": "Activate Previous View",
+  "tr": "เปิดใช้งานมุมมองก่อนหน้า "
+ },{
+  "en": "Activate the left tab",
+  "tr": "เปิดใช้งานแท็บด้านซ้าย"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "เปิดใช้งานแท็บที่เลือกก่อนหน้านี้"
+ },{
+  "en": "Activate the right tab",
+  "tr": "เปิดใช้งานแท็บด้านขวา"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "เปิดใช้งานแท็บหลังจากปิด "
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "เปิดใช้งานแท็บหลังจากโฮเวอร์ "
+ },{
+  "en": "Add",
+  "tr": "เพิ่ม)"
+ },{
+  "en": "Add All",
+  "tr": "เพิ่มทั้งหมด"
+ },{
+  "en": "Add Command",
+  "tr": "เพิ่มคำสั่ง"
+ },{
+  "en": "Add Group",
+  "tr": "เพิ่มกลุ่ม"
+ },{
+  "en": "Add Sender",
+  "tr": "เพิ่มผู้ส่ง "
+ },{
+  "en": "Add Tab",
+  "tr": "เพิ่มแท็บ"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "ปรับแถวและคอลัมน์ของหน้าต่าง "
+ },{
+  "en": "Advanced Sort",
+  "tr": "การเรียงลำดับขั้นสูง"
+ },{
+  "en": "Agent",
+  "tr": "ตัวแทน"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "การตรวจสอบตัวแทนล้มเหลว โปรดลองวิธีอื่น"
+ },{
+  "en": "All",
+  "tr": "ทั้งหมด"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "%1 เซสชันทั้งหมดจะถูกลบ\nคุณต้องการนำเข้าเซสชันต่อหรือไม่"
+ },{
+  "en": "All session output",
+  "tr": "เอาต์พุตเซสชันทั้งหมด "
+ },{
+  "en": "All Sessions",
+  "tr": "เซสชันทั้งหมด"
+ },{
+  "en": "All tabs",
+  "tr": "แท็บทั้งหมด"
+ },{
+  "en": "Alternate column background color",
+  "tr": "สีพื้นหลังของคอลัมน์สำรอง "
+ },{
+  "en": "Alternate line background color",
+  "tr": "สีพื้นหลังของเส้นสำรอง "
+ },{
+  "en": "Always On Top",
+  "tr": "อยู่ด้านบนเสมอ "
+ },{
+  "en": "Always on top",
+  "tr": "อยู่ข้างบนเสมอ"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "เกิดข้อผิดพลาดขณะพยายามอ่านจากกระบวนการ %1"
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "เกิดข้อผิดพลาดขณะพยายามเขียนไปยังกระบวนการ %1"
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "เกิดข้อผิดพลาดที่ไม่รู้จักในกระบวนการ %1"
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI เป็น OEM "
+ },{
+  "en": "Answer back",
+  "tr": "ตอบกลับ"
+ },{
+  "en": "Any",
+  "tr": "ใด ๆ"
+ },{
+  "en": "Anything Palette",
+  "tr": "จานสีอะไรก็ได้"
+ },{
+  "en": "Anywhere",
+  "tr": "ที่ไหนก็ได้"
+ },{
+  "en": "Appearance",
+  "tr": "รูปร่าง"
+ },{
+  "en": "Append",
+  "tr": "ผนวก"
+ },{
+  "en": "Append log file",
+  "tr": "ต่อท้ายไฟล์บันทึก "
+ },{
+  "en": "Application",
+  "tr": "แอปพลิเคชัน"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "คุณแน่ใจหรือไม่ว่าต้องการลบ %1 รายการที่เลือก"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการ <b>%1</b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "คุณแน่ใจหรือไม่ว่าต้องการโหลดไฟล์ปัจจุบันซ้ำและสูญเสียการเปลี่ยนแปลงที่ทำใน WindEdit"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "คุณแน่ใจหรือไม่ว่าต้องการหยุดผู้ส่งปัจจุบัน"
+ },{
+  "en": "Arguments",
+  "tr": "อาร์กิวเมนต์"
+ },{
+  "en": "At Caret",
+  "tr": "ที่คาเร็ต"
+ },{
+  "en": "At End",
+  "tr": "ที่จุดสิ้นสุด"
+ },{
+  "en": "At Start",
+  "tr": "ที่จุดเริ่มต้น"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "พยายามตรวจสอบสิทธิ์ gssapi-with-mic "
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "พยายามตรวจสอบสิทธิ์แบบโต้ตอบด้วยแป้นพิมพ์ "
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "พยายามตรวจสอบสิทธิ์การประกวด "
+ },{
+  "en": "Attempt password authentication",
+  "tr": "พยายามตรวจสอบรหัสผ่าน "
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "พยายามตรวจสอบคีย์สาธารณะ "
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "พยายามพิสูจน์ตัวตน ssh-agent "
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "รับรองความถูกต้องด้วยความสำเร็จบางส่วน โปรดลองวิธีอื่น"
+ },{
+  "en": "Authenticating by %1",
+  "tr": "กำลังตรวจสอบโดย %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "กำลังตรวจสอบโดย %1 และ %2"
+ },{
+  "en": "Authentication",
+  "tr": "การตรวจสอบสิทธิ์"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "การตรวจสอบสิทธิ์ถูกปฏิเสธ โปรดลองอีกครั้ง"
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "การตรวจสอบสิทธิ์ล้มเหลว โปรดลองอีกครั้ง"
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "ปิดแท็ก HTML/XML อัตโนมัติ "
+ },{
+  "en": "Auto login",
+  "tr": "เข้าสู่ระบบอัตโนมัติ"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "เข้าสู่ระบบอัตโนมัติล้มเหลว โปรดลองอีกครั้ง"
+ },{
+  "en": "Auto login next time",
+  "tr": "เข้าสู่ระบบอัตโนมัติในครั้งต่อไป "
+ },{
+  "en": "Automatic",
+  "tr": "อัตโนมัติ"
+ },{
+  "en": "automatic",
+  "tr": "อัตโนมัติ"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "วิธีการตรวจสอบอัตโนมัติ"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "คัดลอกการเลือกโดยอัตโนมัติ "
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "ตรวจจับการเยื้อง (A) โดยอัตโนมัติ"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "ตัดแต่งช่องว่างภายใน (A) โดยอัตโนมัติ"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "เครื่องหมายพื้นหลัง"
+ },{
+  "en": "Backspace",
+  "tr": "แบ็คสเปซ"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace ส่ง"
+ },{
+  "en": "Backward",
+  "tr": "ย้อนกลับ"
+ },{
+  "en": "Bars",
+  "tr": "บาร์"
+ },{
+  "en": "Baud Rate",
+  "tr": "อัตราบอด"
+ },{
+  "en": "Beep When Finished",
+  "tr": "บี๊บเมื่อเสร็จแล้ว"
+ },{
+  "en": "Binary",
+  "tr": "ไบนารี่"
+ },{
+  "en": "Binary base",
+  "tr": "ฐานไบนารี "
+ },{
+  "en": "Binary columns",
+  "tr": "คอลัมน์ไบนารี "
+ },{
+  "en": "Binary devision columns",
+  "tr": "คอลัมน์อุปกรณ์ไบนารี "
+ },{
+  "en": "Binary grouped characters",
+  "tr": "อักขระที่จัดกลุ่มไบนารี "
+ },{
+  "en": "Black",
+  "tr": "สีดำ"
+ },{
+  "en": "Blink",
+  "tr": "กะพริบตา"
+ },{
+  "en": "blinking block",
+  "tr": "บล็อกกระพริบ"
+ },{
+  "en": "blinking line",
+  "tr": "เส้นกะพริบ"
+ },{
+  "en": "blinking rectangle",
+  "tr": "สี่เหลี่ยมผืนผ้ากะพริบ"
+ },{
+  "en": "blinking underLine",
+  "tr": "กะพริบขีดเส้นใต้"
+ },{
+  "en": "Block",
+  "tr": "ปิดกั้น"
+ },{
+  "en": "block",
+  "tr": "บล็อก"
+ },{
+  "en": "Bold",
+  "tr": "ตัวหนา"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "ตัวหนาหมายถึงแบบอักษรที่มีความกว้างคงที่"
+ },{
+  "en": "Bottom Docks",
+  "tr": "ท่าเทียบเรือด้านล่าง "
+ },{
+  "en": "Bottom Group",
+  "tr": "กลุ่มล่าง"
+ },{
+  "en": "Browse",
+  "tr": "เรียกดู"
+ },{
+  "en": "Browse Directory",
+  "tr": "เรียกดูไดเรกทอรี"
+ },{
+  "en": "Browse File",
+  "tr": "เรียกดูไฟล์"
+ },{
+  "en": "Browser",
+  "tr": "เบราว์เซอร์"
+ },{
+  "en": "Build",
+  "tr": "บิลด์"
+ },{
+  "en": "By",
+  "tr": "โดย"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "กำลังคำนวณ"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "ไม่พบโปรแกรมที่เหมาะสมในการเปิดไฟล์:\n%1\nลองใช้ตัวแก้ไขเริ่มต้นเพื่อเปิดไฟล์"
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "ไม่สามารถสร้างไดเร็กทอรี %1"
+ },{
+  "en": "Can not make file %1.",
+  "tr": "ไม่สามารถสร้างไฟล์ %1 ได้"
+ },{
+  "en": "Can not make link %1.",
+  "tr": "ไม่สามารถสร้างลิงก์ %1 ได้"
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "ไม่สามารถลบไดเร็กทอรี %1 ได้"
+ },{
+  "en": "Cancel",
+  "tr": "ยกเลิก"
+ },{
+  "en": "Cancel Build",
+  "tr": "ยกเลิกบิลด์"
+ },{
+  "en": "Cancel Selection",
+  "tr": "ยกเลิกการเลือก"
+ },{
+  "en": "Caret",
+  "tr": "คาเร็ต"
+ },{
+  "en": "Caret Style",
+  "tr": "สไตล์คาเร็ต"
+ },{
+  "en": "Carriage Return",
+  "tr": "คืนรถ"
+ },{
+  "en": "Case Sensitive",
+  "tr": "กรณีที่สำคัญ"
+ },{
+  "en": "Cdup",
+  "tr": "ซีดีอัพ"
+ },{
+  "en": "Change Master Password",
+  "tr": "เปลี่ยนรหัสผ่านมาสเตอร์"
+ },{
+  "en": "Change master password",
+  "tr": "เปลี่ยนรหัสผ่านหลัก"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "เปลี่ยนรหัสผ่านหลักล้มเหลว"
+ },{
+  "en": "Change the tab title",
+  "tr": "เปลี่ยนชื่อแท็บ "
+ },{
+  "en": "Changed",
+  "tr": "เปลี่ยน"
+ },{
+  "en": "Channel",
+  "tr": "ช่อง"
+ },{
+  "en": "Char",
+  "tr": "ถ่าน"
+ },{
+  "en": "Char Left",
+  "tr": "ถ่านซ้าย"
+ },{
+  "en": "Char Right",
+  "tr": "ชาร์ ไรท์"
+ },{
+  "en": "Character spacing",
+  "tr": "ระยะห่างระหว่างอักขระ "
+ },{
+  "en": "character width",
+  "tr": "ความกว้างของตัวอักษร"
+ },{
+  "en": "Charset",
+  "tr": "ชุดอักขระ"
+ },{
+  "en": "Choose a default editor",
+  "tr": "เลือกตัวแก้ไขเริ่มต้น"
+ },{
+  "en": "Ciphers",
+  "tr": "รหัสลับ"
+ },{
+  "en": "Ciphers order",
+  "tr": "คำสั่งรหัส "
+ },{
+  "en": "Clear",
+  "tr": "ชัดเจน"
+ },{
+  "en": "Clear All",
+  "tr": "ล้างทั้งหมด"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "ล้าง URL ล่าสุด "
+ },{
+  "en": "Clear Screen",
+  "tr": "ล้างหน้าจอ"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "ล้างการเลื่อนย้อนกลับ "
+ },{
+  "en": "Clear Sender",
+  "tr": "ล้างผู้ส่ง"
+ },{
+  "en": "Click event",
+  "tr": "คลิกเหตุการณ์"
+ },{
+  "en": "Close",
+  "tr": "ปิด I"
+ },{
+  "en": "Close All Views",
+  "tr": "ปิดการดูทั้งหมด"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "ปิดการดูทั้งหมดแต่ใช้งานอยู่"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "ปิดมุมมองทั้งหมดไปทางขวา"
+ },{
+  "en": "Close And Exit",
+  "tr": "ปิดและออก"
+ },{
+  "en": "Close Channel",
+  "tr": "ปิด Channel"
+ },{
+  "en": "Close Dock",
+  "tr": "ปิดท่าเรือ"
+ },{
+  "en": "Close Group",
+  "tr": "ปิดกลุ่ม"
+ },{
+  "en": "Close Session",
+  "tr": "ปิดเซสชั่น"
+ },{
+  "en": "Close Tab",
+  "tr": "ปิดแท็บ"
+ },{
+  "en": "Close tab",
+  "tr": "ปิดแท็บ"
+ },{
+  "en": "Close View",
+  "tr": "ปิดมุมมอง"
+ },{
+  "en": "Close Window",
+  "tr": "ปิดหน้าต่าง"
+ },{
+  "en": "Color",
+  "tr": "สี"
+ },{
+  "en": "Column Edit",
+  "tr": "แก้ไขคอลัมน์"
+ },{
+  "en": "Column Marker",
+  "tr": "เครื่องหมายคอลัมน์"
+ },{
+  "en": "Columns",
+  "tr": "คอลัมน์"
+ },{
+  "en": "columns",
+  "tr": "คอลัมน์"
+ },{
+  "en": "Command",
+  "tr": "คำสั่ง"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "จานคำสั่ง "
+ },{
+  "en": "Comment",
+  "tr": "ความคิดเห็น"
+ },{
+  "en": "Comment Selection",
+  "tr": "การเลือกความคิดเห็น"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "การเลือกความคิดเห็น (โหมดบล็อก)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "การเลือกความคิดเห็น (โหมดบรรทัด)"
+ },{
+  "en": "Complete Word",
+  "tr": "กรอกคำ"
+ },{
+  "en": "Config",
+  "tr": "การกำหนดค่า"
+ },{
+  "en": "Confirm Password",
+  "tr": "ยืนยันรหัสผ่าน"
+ },{
+  "en": "Confirm password",
+  "tr": "ยืนยันรหัสผ่าน"
+ },{
+  "en": "Connect",
+  "tr": "เชื่อมต่อ"
+ },{
+  "en": "Connection",
+  "tr": "การเชื่อมต่อ"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "บริบท"
+ },{
+  "en": "Continue",
+  "tr": "ดำเนินการต่อ"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "แปลง CRLF และ LF เป็น CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "แปลงแท็บเป็นช่องว่าง "
+ },{
+  "en": "copied",
+  "tr": "คัดลอก"
+ },{
+  "en": "Copy",
+  "tr": "สำเนา"
+ },{
+  "en": "copy",
+  "tr": "สำเนา"
+ },{
+  "en": "Copy And Paste",
+  "tr": "คัดลอกและวาง "
+ },{
+  "en": "Copy File Name",
+  "tr": "คัดลอกชื่อไฟล์"
+ },{
+  "en": "Copy File Path",
+  "tr": "คัดลอกเส้นทางไฟล์ "
+ },{
+  "en": "Copy from",
+  "tr": "คัดลอกจาก"
+ },{
+  "en": "Copy names",
+  "tr": "คัดลอกชื่อ"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "คัดลอกชื่อไปยังเทอร์มินัล "
+ },{
+  "en": "Copy Output",
+  "tr": "คัดลอกเอาท์พุต "
+ },{
+  "en": "Copy paths",
+  "tr": "คัดลอกเส้นทาง "
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "คัดลอกเส้นทางไปยังเทอร์มินัล "
+ },{
+  "en": "Copy Session Name",
+  "tr": "คัดลอกชื่อเซสชัน "
+ },{
+  "en": "Copy Session Url",
+  "tr": "คัดลอก URL เซสชัน "
+ },{
+  "en": "Copy to",
+  "tr": "คัดลอกไปที่"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "คัดลอกไปยังเทอร์มินัล "
+ },{
+  "en": "Count",
+  "tr": "นับ"
+ },{
+  "en": "Create Directory",
+  "tr": "สร้างไดเรกทอรี"
+ },{
+  "en": "Create File",
+  "tr": "สร้างไฟล์"
+ },{
+  "en": "Create Link",
+  "tr": "สร้างลิงค์"
+ },{
+  "en": "Created",
+  "tr": "สร้าง"
+ },{
+  "en": "Critical",
+  "tr": "วิกฤต"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "เซสชั่นปัจจุบัน"
+ },{
+  "en": "Custom",
+  "tr": "กำหนดเอง"
+ },{
+  "en": "Custom Opacity",
+  "tr": "ความทึบแบบกำหนดเอง "
+ },{
+  "en": "Customize",
+  "tr": "ปรับแต่ง "
+ },{
+  "en": "Cut",
+  "tr": "ตัด"
+ },{
+  "en": "Dark Cyan",
+  "tr": "ฟ้าเข้ม"
+ },{
+  "en": "Data",
+  "tr": "ข้อมูล "
+ },{
+  "en": "Data Bits",
+  "tr": "บิตข้อมูล "
+ },{
+  "en": "Datetime format",
+  "tr": "รูปแบบวันที่และเวลา "
+ },{
+  "en": "Day of month",
+  "tr": "วันที่"
+ },{
+  "en": "Debug Mode",
+  "tr": "โหมดดีบัก "
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "ลดการเยื้องบรรทัด "
+ },{
+  "en": "Deep Pink",
+  "tr": "ชมพูเข้ม"
+ },{
+  "en": "default",
+  "tr": "ค่าเริ่มต้น"
+ },{
+  "en": "Default editor",
+  "tr": "ตัวแก้ไขเริ่มต้น"
+ },{
+  "en": "Default Font",
+  "tr": "แบบอักษรเริ่มต้น"
+ },{
+  "en": "Default line ending",
+  "tr": "การสิ้นสุดบรรทัดเริ่มต้น "
+ },{
+  "en": "Delete",
+  "tr": "ลบ"
+ },{
+  "en": "Delete sends",
+  "tr": "ลบส่ง"
+ },{
+  "en": "deleted",
+  "tr": "ลบแล้ว"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "โฮสต์ปลายทาง "
+ },{
+  "en": "Destination Port",
+  "tr": "พอร์ตปลายทาง"
+ },{
+  "en": "Dir",
+  "tr": "ผอ"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "ไดเรกทอรี"
+ },{
+  "en": "Directory Link",
+  "tr": "ลิงค์ไดเรกทอรี"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "ปิดใช้งานอัลกอริทึมของ Nagle (ตัวเลือก TCP_NODELAY) "
+ },{
+  "en": "Disconnect Session",
+  "tr": "ตัดการเชื่อมต่อเซสชัน "
+ },{
+  "en": "Disk",
+  "tr": "ดิสก์"
+ },{
+  "en": "Do not echo characters",
+  "tr": "ห้ามสะท้อนตัวอักษร"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "คุณต้องการปิดเซสชั่นปัจจุบันหรือไม่?"
+ },{
+  "en": "Document",
+  "tr": "เอกสาร"
+ },{
+  "en": "Don't show this message again",
+  "tr": "ไม่ต้องแสดงข้อความนี้อีก"
+ },{
+  "en": "Double click",
+  "tr": "ดับเบิลคลิก "
+ },{
+  "en": "Double click event",
+  "tr": "เหตุการณ์ดับเบิลคลิก "
+ },{
+  "en": "Download",
+  "tr": "ดาวน์โหลด"
+ },{
+  "en": "download",
+  "tr": "ดาวน์โหลด"
+ },{
+  "en": "Download directory",
+  "tr": "ดาวน์โหลดไดเร็กทอรี"
+ },{
+  "en": "downloaded",
+  "tr": "ดาวน์โหลด"
+ },{
+  "en": "Drop Selection",
+  "tr": "การเลือกดรอป "
+ },{
+  "en": "Duplicate",
+  "tr": "ทำซ้ำ"
+ },{
+  "en": "Duplicate Command",
+  "tr": "คำสั่งซ้ำ"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "ดูซ้ำ "
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "การส่งต่อแบบไดนามิก"
+ },{
+  "en": "Echo every character entered",
+  "tr": "สะท้อนทุกตัวอักษรที่ป้อน"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "สะท้อนทุกตัวอักษรเมื่อแก้ไข"
+ },{
+  "en": "Echo random characters",
+  "tr": "ก้องสุ่มตัวอักษร"
+ },{
+  "en": "Edit",
+  "tr": "แก้ไข"
+ },{
+  "en": "Editor",
+  "tr": "บรรณาธิการ"
+ },{
+  "en": "editor",
+  "tr": "บรรณาธิการ"
+ },{
+  "en": "Editor Settings",
+  "tr": "การตั้งค่าตัวแก้ไข"
+ },{
+  "en": "Elapsed",
+  "tr": "ผ่านไป"
+ },{
+  "en": "Elide left",
+  "tr": "ชิดซ้าย"
+ },{
+  "en": "Elide middle",
+  "tr": "อีไลด์ ตรงกลาง"
+ },{
+  "en": "Elide right",
+  "tr": "ชิดขวา"
+ },{
+  "en": "Empty",
+  "tr": "ว่างเปล่า"
+ },{
+  "en": "Enable command mode",
+  "tr": "เปิดใช้งานโหมดคำสั่ง "
+ },{
+  "en": "Enable local mode",
+  "tr": "เปิดใช้งานโหมดท้องถิ่น "
+ },{
+  "en": "Enable SFTP",
+  "tr": "เปิดใช้งาน SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "เปิดใช้งาน TCP Keepalives (ตัวเลือก SO_KEEPALIVE) "
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "เปิดใช้งานช่องว่างเสมือน "
+ },{
+  "en": "End Of Document",
+  "tr": "สิ้นสุดเอกสาร"
+ },{
+  "en": "End Of Line",
+  "tr": "สิ้นสุดบรรทัด "
+ },{
+  "en": "End Of Pair",
+  "tr": "จุดจบของคู่"
+ },{
+  "en": "Engine",
+  "tr": "เครื่องยนต์"
+ },{
+  "en": "Environment Variable",
+  "tr": "ตัวแปรสภาพแวดล้อม"
+ },{
+  "en": "Environment variables",
+  "tr": "ตัวแปรสภาพแวดล้อม "
+ },{
+  "en": "Error",
+  "tr": "ข้อผิดพลาด"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "แลกเปลี่ยนคาเร็ตและสมอ"
+ },{
+  "en": "Execute",
+  "tr": "ดำเนินการ"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "ดำเนินการคำสั่งหลังจากการพิสูจน์ตัวตน "
+ },{
+  "en": "Execute command after start",
+  "tr": "ดำเนินการคำสั่งหลังจาก start"
+ },{
+  "en": "Execute File",
+  "tr": "ดำเนินการไฟล์"
+ },{
+  "en": "Exit",
+  "tr": "ออก"
+ },{
+  "en": "Expand",
+  "tr": "ขยาย"
+ },{
+  "en": "Expand Snippet",
+  "tr": "ขยายตัวอย่างข้อมูล "
+ },{
+  "en": "Explorer",
+  "tr": "สำรวจ"
+ },{
+  "en": "External Tools",
+  "tr": "เครื่องมือภายนอก"
+ },{
+  "en": "External X display",
+  "tr": "จอแสดงผล X ภายนอก "
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "ไม่สามารถสร้างไฟล์ชั่วคราว:\n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "ไม่สามารถเปิดไดเร็กทอรี: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "ไม่สามารถเรียกลายนิ้วมือโฮสต์!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "ไม่สามารถอัปโหลดไฟล์: %1,\nไฟล์อาจไม่มีอยู่หรือไม่ได้รับอนุญาตให้เปิด"
+ },{
+  "en": "Fast",
+  "tr": "เร็ว"
+ },{
+  "en": "Favorites",
+  "tr": "รายการโปรด "
+ },{
+  "en": "Features",
+  "tr": "คุณสมบัติ"
+ },{
+  "en": "File",
+  "tr": "ไฟล์"
+ },{
+  "en": "file",
+  "tr": "ไฟล์"
+ },{
+  "en": "File Link",
+  "tr": "ลิงค์ไฟล์"
+ },{
+  "en": "File Name",
+  "tr": "ชื่อไฟล์"
+ },{
+  "en": "File name",
+  "tr": "ชื่อไฟล์"
+ },{
+  "en": "File Path",
+  "tr": "เส้นทางไฟล์"
+ },{
+  "en": "Filer",
+  "tr": "ฟิลเลอร์"
+ },{
+  "en": "filer",
+  "tr": "ฟิลเลอร์"
+ },{
+  "en": "Filter",
+  "tr": "กรอง"
+ },{
+  "en": "Find",
+  "tr": "ค้นหา "
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "ค้นหาทั้งหมด"
+ },{
+  "en": "Find in Files",
+  "tr": "ค้นหาในไฟล์ "
+ },{
+  "en": "Find Next",
+  "tr": "ค้นหาถัดไป"
+ },{
+  "en": "Find Next Selection",
+  "tr": "ค้นหาการเลือกถัดไป"
+ },{
+  "en": "Find Previous",
+  "tr": "ค้นหาก่อนหน้า"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "ค้นหาการเลือกก่อนหน้า"
+ },{
+  "en": "Fingerprint",
+  "tr": "ลายนิ้วมือ"
+ },{
+  "en": "First nine tabs",
+  "tr": "เก้าแท็บแรก"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "ลอย"
+ },{
+  "en": "Flow Control",
+  "tr": "การควบคุมการไหล"
+ },{
+  "en": "Focus Mode",
+  "tr": "โหมดโฟกัส"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "การตั้งค่าโหมดโฟกัส "
+ },{
+  "en": "Fold",
+  "tr": "พับ"
+ },{
+  "en": "Fold All",
+  "tr": "พับทั้งหมด"
+ },{
+  "en": "Fold Category",
+  "tr": "หมวดหมู่พับ "
+ },{
+  "en": "Fold Inside",
+  "tr": "พับด้านใน "
+ },{
+  "en": "Folds",
+  "tr": "พับ "
+ },{
+  "en": "Font",
+  "tr": "แบบอักษร"
+ },{
+  "en": "Font family",
+  "tr": "ตระกูลอักษร"
+ },{
+  "en": "Font size",
+  "tr": "ขนาดตัวอักษร"
+ },{
+  "en": "Font weight",
+  "tr": "น้ำหนักตัวอักษร "
+ },{
+  "en": "Forest Green",
+  "tr": "ฟอเรสต์ กรีน"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "การเลือกรูปแบบ "
+ },{
+  "en": "Found",
+  "tr": "พบ"
+ },{
+  "en": "Full month name",
+  "tr": "ชื่อเดือนเต็ม"
+ },{
+  "en": "Full Screen",
+  "tr": "เต็มหน้าจอ"
+ },{
+  "en": "Full screen",
+  "tr": "เต็มจอ"
+ },{
+  "en": "Full weekday name",
+  "tr": "ชื่อเต็มวันทำงาน"
+ },{
+  "en": "Go Backward",
+  "tr": "ย้อนกลับ "
+ },{
+  "en": "Go Forward",
+  "tr": "ไปข้างหน้า"
+ },{
+  "en": "Go to",
+  "tr": "ไปที่"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "ไปที่สัญลักษณ์ในมุมมองปัจจุบัน"
+ },{
+  "en": "Goldenrod",
+  "tr": "โกลเด้นร็อด"
+ },{
+  "en": "Goto",
+  "tr": "ไปที่"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "ไปที่แถบที่อยู่ "
+ },{
+  "en": "Goto File",
+  "tr": "ไปที่ไฟล์"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "ไปที่ส่วนหัวพับ "
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "ไปที่ส่วนหัวพับถัดไป "
+ },{
+  "en": "Goto Position",
+  "tr": "ไปที่ตำแหน่ง"
+ },{
+  "en": "Goto Session",
+  "tr": "ไปที่เซสชัน "
+ },{
+  "en": "Goto Symbol",
+  "tr": "ไปที่สัญลักษณ์ "
+ },{
+  "en": "Group",
+  "tr": "กลุ่ม"
+ },{
+  "en": "Group %1",
+  "tr": "กลุ่ม %1"
+ },{
+  "en": "Groups",
+  "tr": "กลุ่ม"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi พร้อมไมค์"
+ },{
+  "en": "Hard Reset",
+  "tr": "ฮาร์ดรีเซ็ต "
+ },{
+  "en": "Help",
+  "tr": "ความช่วยเหลือ"
+ },{
+  "en": "Hex",
+  "tr": "เลขฐานสิบหก"
+ },{
+  "en": "Hex Base",
+  "tr": "ฐานสิบหก "
+ },{
+  "en": "Hex Columns",
+  "tr": "คอลัมน์ฐานสิบหก "
+ },{
+  "en": "Hex Edit",
+  "tr": "แก้ไขฐานสิบหก "
+ },{
+  "en": "Hex Group Chars",
+  "tr": "อักขระกลุ่ม Hex "
+ },{
+  "en": "Hidden",
+  "tr": "ที่ซ่อนอยู่"
+ },{
+  "en": "Hide",
+  "tr": "ซ่อน"
+ },{
+  "en": "Hide All",
+  "tr": "ซ่อนทั้งหมด"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "ซ่อนเคอร์เซอร์เมื่อพิมพ์ "
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "ซ่อนข้อความ"
+ },{
+  "en": "Highlight",
+  "tr": "ไฮไลท์"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "ไฮไลท์ Caret Line"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "ไฮไลท์การจับคู่คู่ "
+ },{
+  "en": "Highlight the caret line",
+  "tr": "เน้นเส้นคาเร็ต "
+ },{
+  "en": "Highlight the caret word",
+  "tr": "เน้นคำคาเร็ต "
+ },{
+  "en": "Highlight the current fold",
+  "tr": "เน้นส่วนพับปัจจุบัน "
+ },{
+  "en": "Highlight the current pair",
+  "tr": "เน้นคู่ปัจจุบัน "
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "เน้นการค้นหาที่เพิ่มขึ้น "
+ },{
+  "en": "History",
+  "tr": "ประวัติศาสตร์"
+ },{
+  "en": "Home Of Line",
+  "tr": "โฮมออฟไลน์"
+ },{
+  "en": "Host",
+  "tr": "เจ้าภาพ"
+ },{
+  "en": "Host address",
+  "tr": "ที่อยู่โฮสต์"
+ },{
+  "en": "Host Based",
+  "tr": "ตามโฮสต์"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "ชั่วโมงในรูปแบบ 12"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "ชั่วโมงในรูปแบบ 24"
+ },{
+  "en": "Http proxy",
+  "tr": "พร็อกซี HTTP "
+ },{
+  "en": "Huge File",
+  "tr": "ไฟล์ขนาดใหญ่"
+ },{
+  "en": "Icon",
+  "tr": "ไอคอน"
+ },{
+  "en": "Identity file",
+  "tr": "ไฟล์ข้อมูลประจำตัว "
+ },{
+  "en": "Identity file for authentication",
+  "tr": "ไฟล์ข้อมูลประจำตัวสำหรับการตรวจสอบสิทธิ์ "
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "หากคุณสร้างรหัสผ่านหลัก คุณจะถูกขอให้ป้อนเมื่อ WindTerm ดึงข้อมูลที่บันทึกไว้ซึ่งป้องกันด้วยรหัสผ่านหลัก"
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "หากคุณลืมรหัสผ่านมาสเตอร์ คุณจะไม่สามารถเข้าถึงข้อมูลใด ๆ ที่ป้องกันไว้ได้"
+ },{
+  "en": "Import",
+  "tr": "นำเข้า"
+ },{
+  "en": "Import sessions",
+  "tr": "นำเข้าเซสชัน"
+ },{
+  "en": "In Selection",
+  "tr": "ในการคัดเลือก"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "เพิ่มการเยื้องบรรทัด "
+ },{
+  "en": "Incremental",
+  "tr": "เพิ่มขึ้น"
+ },{
+  "en": "Indent",
+  "tr": "เยื้อง"
+ },{
+  "en": "Indent guide style",
+  "tr": "รูปแบบคำแนะนำเยื้อง "
+ },{
+  "en": "Indent Guides",
+  "tr": "คู่มือการเยื้อง "
+ },{
+  "en": "Indent size",
+  "tr": "ขนาดเยื้อง "
+ },{
+  "en": "Indentation",
+  "tr": "เยื้อง"
+ },{
+  "en": "Indian Red",
+  "tr": "อินเดียน เรด"
+ },{
+  "en": "Information",
+  "tr": "ข้อมูล"
+ },{
+  "en": "Insert",
+  "tr": "แทรก"
+ },{
+  "en": "Insert File",
+  "tr": "แทรกไฟล์"
+ },{
+  "en": "Insert Lines",
+  "tr": "แทรกเส้น"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "แทรกแท็บเมื่อกดปุ่ม TAB "
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "การแทรกและการลบช่องว่างตามการหยุดแท็บ "
+ },{
+  "en": "Inserting file",
+  "tr": "การใส่ไฟล์"
+ },{
+  "en": "Internal X display",
+  "tr": "จอแสดงผล X ภายใน "
+ },{
+  "en": "Interval",
+  "tr": "ช่วงเวลา"
+ },{
+  "en": "Invert Selection",
+  "tr": "สลับการเลือก "
+ },{
+  "en": "item failed",
+  "tr": "รายการล้มเหลว"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "รายการล้มเหลว"
+ },{
+  "en": "Join Channel A",
+  "tr": "เข้าร่วมช่อง A"
+ },{
+  "en": "Join Channel B",
+  "tr": "เข้าร่วมช่อง B"
+ },{
+  "en": "Join Channel C",
+  "tr": "เข้าร่วมช่อง C"
+ },{
+  "en": "Join Channel D",
+  "tr": "เข้าร่วมช่อง D"
+ },{
+  "en": "Join Lines",
+  "tr": "เข้าร่วมสาย "
+ },{
+  "en": "Joined",
+  "tr": "เข้าร่วม"
+ },{
+  "en": "Jump Server",
+  "tr": "เซิร์ฟเวอร์กระโดด"
+ },{
+  "en": "Jump server",
+  "tr": "ข้ามเซิร์ฟเวอร์"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "เซิร์ฟเวอร์กระโดด "
+ },{
+  "en": "Key Exchange",
+  "tr": "การแลกเปลี่ยนคีย์"
+ },{
+  "en": "Key exchange order",
+  "tr": "คำสั่งแลกเปลี่ยนคีย์"
+ },{
+  "en": "Key re-exchange",
+  "tr": "การแลกเปลี่ยนกุญแจ"
+ },{
+  "en": "Keyboard",
+  "tr": "แป้นพิมพ์"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "คีย์บอร์ดแบบโต้ตอบ"
+ },{
+  "en": "Kit Bar",
+  "tr": "คิทบาร์"
+ },{
+  "en": "Known",
+  "tr": "เป็นที่รู้จัก"
+ },{
+  "en": "Label",
+  "tr": "ฉลาก"
+ },{
+  "en": "Language",
+  "tr": "ภาษา"
+ },{
+  "en": "Last sessions",
+  "tr": "เซสชันล่าสุด"
+ },{
+  "en": "Layout",
+  "tr": "เค้าโครง"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "ช่องว่างนำหน้าและต่อท้าย "
+ },{
+  "en": "Leading Blanks",
+  "tr": "ช่องว่างชั้นนำ "
+ },{
+  "en": "Leading position",
+  "tr": "ตำแหน่งผู้นำ"
+ },{
+  "en": "Leave All Channels",
+  "tr": "ออกจากช่องทั้งหมด"
+ },{
+  "en": "Leave all channels",
+  "tr": "ฝากทุกช่อง"
+ },{
+  "en": "Leave Channel",
+  "tr": "ออกจากช่อง"
+ },{
+  "en": "Left Docks",
+  "tr": "ท่าเรือซ้าย "
+ },{
+  "en": "Left Group",
+  "tr": "กลุ่มซ้าย"
+ },{
+  "en": "Light",
+  "tr": "แสงสว่าง"
+ },{
+  "en": "Line",
+  "tr": "เส้น"
+ },{
+  "en": "line",
+  "tr": "ไลน์"
+ },{
+  "en": "line at a time",
+  "tr": "ทีละบรรทัด"
+ },{
+  "en": "Line Down",
+  "tr": "ไลน์ดาวน์"
+ },{
+  "en": "Line Ending",
+  "tr": "การสิ้นสุดบรรทัด"
+ },{
+  "en": "Line Endings",
+  "tr": "การสิ้นสุดบรรทัด "
+ },{
+  "en": "Line Feed",
+  "tr": "ไลน์ฟีด"
+ },{
+  "en": "line height",
+  "tr": "ความสูงของเส้น"
+ },{
+  "en": "Line marker",
+  "tr": "เครื่องหมายเส้น"
+ },{
+  "en": "Line spacing",
+  "tr": "ระยะห่างบรรทัด "
+ },{
+  "en": "Line Up",
+  "tr": "ไลน์อัพ"
+ },{
+  "en": "lines at a time",
+  "tr": "ทีละบรรทัด"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "เส้นของ scrollback"
+ },{
+  "en": "Link",
+  "tr": "ลิงค์"
+ },{
+  "en": "Link to",
+  "tr": "เชื่อมโยงไปยัง"
+ },{
+  "en": "List Tab",
+  "tr": "รายการแท็บ"
+ },{
+  "en": "Listen Port",
+  "tr": "ฟังพอร์ต "
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "การส่งต่อในพื้นที่"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "ค้นหาข้อความ "
+ },{
+  "en": "Location",
+  "tr": "ที่ตั้ง"
+ },{
+  "en": "Lock Screen",
+  "tr": "ล็อกหน้าจอ"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "ล็อกหน้าจอหมดเวลา "
+ },{
+  "en": "Lock Selection",
+  "tr": "ล็อคการเลือก"
+ },{
+  "en": "Log",
+  "tr": "บันทึก"
+ },{
+  "en": "Log all session output",
+  "tr": "บันทึกผลลัพธ์ของเซสชันทั้งหมด "
+ },{
+  "en": "Log content pattern",
+  "tr": "รูปแบบเนื้อหาบันทึก "
+ },{
+  "en": "Log Dialog",
+  "tr": "ล็อกกล่องโต้ตอบ"
+ },{
+  "en": "Log file",
+  "tr": "ล็อกไฟล์"
+ },{
+  "en": "Log file name",
+  "tr": "ชื่อไฟล์บันทึก "
+ },{
+  "en": "Log maximum size",
+  "tr": "บันทึกขนาดสูงสุด "
+ },{
+  "en": "Log nothing",
+  "tr": "ไม่มีอะไรเข้าสู่ระบบ"
+ },{
+  "en": "Log option",
+  "tr": "ตัวเลือกบันทึก"
+ },{
+  "en": "Log options",
+  "tr": "ตัวเลือกบันทึก"
+ },{
+  "en": "Log pattern",
+  "tr": "รูปแบบบันทึก "
+ },{
+  "en": "Log printable output",
+  "tr": "บันทึกเอาต์พุตที่พิมพ์ได้ "
+ },{
+  "en": "Log type",
+  "tr": "ประเภทบันทึก"
+ },{
+  "en": "Log types",
+  "tr": "ประเภทบันทึก"
+ },{
+  "en": "Logging",
+  "tr": "การบันทึก"
+ },{
+  "en": "Login",
+  "tr": "เข้าสู่ระบบ"
+ },{
+  "en": "Login Wizard",
+  "tr": "ตัวช่วยสร้างการเข้าสู่ระบบ"
+ },{
+  "en": "Long Time/Date",
+  "tr": "เวลา/วันที่ยาวนาน"
+ },{
+  "en": "Look both guide",
+  "tr": "ดูคู่มือทั้งสอง"
+ },{
+  "en": "Look forward guide",
+  "tr": "มองไปข้างหน้าคู่มือ"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC แฮช"
+ },{
+  "en": "MAC hashes order",
+  "tr": "คำสั่งแฮช MAC "
+ },{
+  "en": "Margin Blank",
+  "tr": "มาร์จิ้นว่าง"
+ },{
+  "en": "Margin Fold",
+  "tr": "ระยะขอบพับ"
+ },{
+  "en": "Margin Number",
+  "tr": "หมายเลขมาร์จิ้น"
+ },{
+  "en": "Margin Symbol",
+  "tr": "สัญลักษณ์มาร์จิ้น"
+ },{
+  "en": "Margin Text",
+  "tr": "ข้อความมาร์จิ้น"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Margin Timestamp"
+ },{
+  "en": "Margins",
+  "tr": "ระยะขอบ"
+ },{
+  "en": "Marker style",
+  "tr": "สไตล์เครื่องหมาย "
+ },{
+  "en": "Master Password",
+  "tr": "รหัสผ่านหลัก"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "ข้อมูลสูงสุดก่อนรีคีย์ (MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "เวลาสูงสุดก่อนการรีคีย์ (นาที)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "หมดเวลาการเชื่อมต่อสูงสุด "
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "ปานกลาง"
+ },{
+  "en": "Medium Orchid",
+  "tr": "กล้วยไม้ขนาดกลาง"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "ปานกลาง Slate Blue"
+ },{
+  "en": "Menu Bar",
+  "tr": "แถบเมนู"
+ },{
+  "en": "Merge To Group",
+  "tr": "ผสานเข้ากับกลุ่ม "
+ },{
+  "en": "Middle click",
+  "tr": "คลิกกลาง "
+ },{
+  "en": "Middle click event",
+  "tr": "เหตุการณ์คลิกกลาง "
+ },{
+  "en": "Milliseconds",
+  "tr": "มิลลิวินาที"
+ },{
+  "en": "Minutes",
+  "tr": "นาที"
+ },{
+  "en": "minutes",
+  "tr": "นาที"
+ },{
+  "en": "Mismatched",
+  "tr": "ไม่ตรงกัน"
+ },{
+  "en": "Mode",
+  "tr": "โหมด"
+ },{
+  "en": "Modem waiting",
+  "tr": "โมเด็มรอ"
+ },{
+  "en": "Modes",
+  "tr": "โหมด"
+ },{
+  "en": "Modified",
+  "tr": "ดัดแปลง"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "แก้ไข "
+ },{
+  "en": "Modify Lines",
+  "tr": "แก้ไขเส้น "
+ },{
+  "en": "Month",
+  "tr": "เดือน"
+ },{
+  "en": "More",
+  "tr": "เพิ่มเติม"
+ },{
+  "en": "Mouse Actions",
+  "tr": "การกระทำของเมาส์"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "การติดตามเมาส์"
+ },{
+  "en": "Move Down",
+  "tr": "ย้ายลง"
+ },{
+  "en": "Move event",
+  "tr": "ย้ายเหตุการณ์"
+ },{
+  "en": "Move to",
+  "tr": "ย้ายไปที่"
+ },{
+  "en": "Move To Group",
+  "tr": "ย้ายไปที่กลุ่ม "
+ },{
+  "en": "Move Up",
+  "tr": "ขยับขึ้น"
+ },{
+  "en": "Multiple Caret",
+  "tr": "หลายคาเร็ต "
+ },{
+  "en": "Name",
+  "tr": "ชื่อ"
+ },{
+  "en": "nesting groups",
+  "tr": "กลุ่มทำรัง"
+ },{
+  "en": "Never",
+  "tr": "ไม่เคย"
+ },{
+  "en": "New directory",
+  "tr": "ไดเร็กทอรีใหม่"
+ },{
+  "en": "New File",
+  "tr": "ไฟล์ใหม่"
+ },{
+  "en": "New file",
+  "tr": "ไฟล์ใหม่"
+ },{
+  "en": "New Line",
+  "tr": "ไลน์ใหม่"
+ },{
+  "en": "New link",
+  "tr": "ลิงค์ใหม่"
+ },{
+  "en": "New password",
+  "tr": "รหัสผ่านใหม่"
+ },{
+  "en": "New Session",
+  "tr": "เซสชั่นใหม่"
+ },{
+  "en": "New Window",
+  "tr": "หน้าต่างใหม่"
+ },{
+  "en": "Next Char",
+  "tr": "อักขระถัดไป"
+ },{
+  "en": "Next Fold",
+  "tr": "พับถัดไป"
+ },{
+  "en": "Next Indentation",
+  "tr": "เยื้องถัดไป "
+ },{
+  "en": "Next Line",
+  "tr": "บรรทัดถัดไป"
+ },{
+  "en": "Next Message",
+  "tr": "ข้อความถัดไป"
+ },{
+  "en": "Next Page",
+  "tr": "หน้าถัดไป"
+ },{
+  "en": "Next Pair",
+  "tr": "คู่ถัดไป"
+ },{
+  "en": "Next Paragraph",
+  "tr": "ย่อหน้าถัดไป"
+ },{
+  "en": "Next Scope",
+  "tr": "ขอบเขตถัดไป "
+ },{
+  "en": "Next Segment End",
+  "tr": "ส่วนถัดไปสิ้นสุด "
+ },{
+  "en": "Next Segment Start",
+  "tr": "เริ่มส่วนถัดไป "
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "หน้าติดอ่าง"
+ },{
+  "en": "Next Word",
+  "tr": "คำถัดไป"
+ },{
+  "en": "Next Word End",
+  "tr": "จบคำถัดไป"
+ },{
+  "en": "Next Word Part",
+  "tr": "ส่วนคำถัดไป"
+ },{
+  "en": "No",
+  "tr": "เลขที่"
+ },{
+  "en": "No action",
+  "tr": "ไม่มีการตอบสนอง"
+ },{
+  "en": "No Dirs",
+  "tr": "ไม่มี Dirs"
+ },{
+  "en": "No elide",
+  "tr": "ไม่มีอีไลด์"
+ },{
+  "en": "No file opened",
+  "tr": "ไม่มีไฟล์เปิด"
+ },{
+  "en": "No filer available",
+  "tr": "ไม่มี filer ที่ใช้ได้"
+ },{
+  "en": "No Files",
+  "tr": "ไม่มีไฟล์"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "ไม่ได้เลือกไฟล์ที่จะโอน"
+ },{
+  "en": "No item opened",
+  "tr": "ไม่มีรายการเปิด"
+ },{
+  "en": "No outline available",
+  "tr": "ไม่มีโครงร่างที่พร้อมใช้งาน"
+ },{
+  "en": "No proxy",
+  "tr": "ไม่มีพร็อกซี "
+ },{
+  "en": "No session",
+  "tr": "ไม่มีเซสชัน "
+ },{
+  "en": "No session available",
+  "tr": "ไม่มีเซสชั่นว่าง"
+ },{
+  "en": "No session opened",
+  "tr": "ไม่ได้เปิดเซสชั่น"
+ },{
+  "en": "No Sessions",
+  "tr": "ไม่มีเซสชั่น"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "ไม่มีวิธีการรับรองความถูกต้องที่รองรับ"
+ },{
+  "en": "No transfer available",
+  "tr": "ไม่มีการโอน"
+ },{
+  "en": "No wrap",
+  "tr": "ไม่มีห่อ"
+ },{
+  "en": "No X display",
+  "tr": "ไม่แสดง X "
+ },{
+  "en": "None",
+  "tr": "ไม่มี"
+ },{
+  "en": "None tabs",
+  "tr": "ไม่มีแท็บ"
+ },{
+  "en": "Normal",
+  "tr": "ปกติ"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "ตอนนี้"
+ },{
+  "en": "Nowhere",
+  "tr": "ไม่มีที่ไหนเลย"
+ },{
+  "en": "Octal",
+  "tr": "Octal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM เป็น ANSI"
+ },{
+  "en": "Off",
+  "tr": "ปิด"
+ },{
+  "en": "off",
+  "tr": "ปิด"
+ },{
+  "en": "Ok",
+  "tr": "ตกลง"
+ },{
+  "en": "Old",
+  "tr": "เก่า"
+ },{
+  "en": "Old password",
+  "tr": "รหัสผ่านเก่า"
+ },{
+  "en": "Olive",
+  "tr": "โอลีฟ"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "กำลังเปิดอยู่อย่างน้อยหนึ่งเซสชัน \nคุณต้องการปิดหน้าต่างปัจจุบันหรือไม่"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "โหลดได้เฉพาะไฟล์ดิสก์เท่านั้น!"
+ },{
+  "en": "Only indentation",
+  "tr": "เยื้องเท่านั้น"
+ },{
+  "en": "Opaque",
+  "tr": "ทึบแสง"
+ },{
+  "en": "Open",
+  "tr": "เปิด"
+ },{
+  "en": "open",
+  "tr": "เปิด"
+ },{
+  "en": "Open directory after created",
+  "tr": "เปิดไดเร็กทอรีหลังจากสร้าง "
+ },{
+  "en": "Open directory after download",
+  "tr": "เปิดไดเร็กทอรีหลังจากดาวน์โหลด "
+ },{
+  "en": "Open File",
+  "tr": "เปิดไฟล์"
+ },{
+  "en": "Open file",
+  "tr": "เปิดไฟล์"
+ },{
+  "en": "Open file after created",
+  "tr": "เปิดไฟล์หลังจากสร้าง "
+ },{
+  "en": "Open file failed!",
+  "tr": "เปิดไฟล์ล้มเหลว!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "เปิดเซิร์ฟเวอร์กระโดดล้มเหลว!"
+ },{
+  "en": "Open Log File",
+  "tr": "เปิดไฟล์บันทึก "
+ },{
+  "en": "Open Log Folder",
+  "tr": "เปิดโฟลเดอร์บันทึก "
+ },{
+  "en": "Open Recent",
+  "tr": "เปิดล่าสุด"
+ },{
+  "en": "Open Selection",
+  "tr": "เปิดการเลือก"
+ },{
+  "en": "Open Session",
+  "tr": "เปิดเซสชั่น"
+ },{
+  "en": "Open session failed!",
+  "tr": "เปิดเซสชั่นล้มเหลว!"
+ },{
+  "en": "Open target directory",
+  "tr": "เปิดไดเรกทอรีเป้าหมาย "
+ },{
+  "en": "Open with default editor",
+  "tr": "เปิดด้วยตัวแก้ไขเริ่มต้น "
+ },{
+  "en": "Opened",
+  "tr": "เปิดแล้ว"
+ },{
+  "en": "Openssh sessions",
+  "tr": "เซสชัน Opensh "
+ },{
+  "en": "Others",
+  "tr": "คนอื่น"
+ },{
+  "en": "Outline",
+  "tr": "เค้าร่าง"
+ },{
+  "en": "Output",
+  "tr": "เอาท์พุต"
+ },{
+  "en": "Overtype",
+  "tr": "พิมพ์เกิน "
+ },{
+  "en": "Overwrite",
+  "tr": "เขียนทับ"
+ },{
+  "en": "Overwrite log file",
+  "tr": "เขียนทับไฟล์บันทึก "
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "เขียนทับเมื่อไฟล์ต้นฉบับใหม่กว่า"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "เขียนทับเมื่อไฟล์ต้นฉบับใหม่กว่าหรือนานกว่า"
+ },{
+  "en": "Owner",
+  "tr": "เจ้าของ"
+ },{
+  "en": "Packet padding char",
+  "tr": "ถ่านเสริมแพ็คเก็ต "
+ },{
+  "en": "Packet size",
+  "tr": "ขนาดแพ็คเก็ต"
+ },{
+  "en": "Page",
+  "tr": "เพจ"
+ },{
+  "en": "page",
+  "tr": "หน้าหนังสือ"
+ },{
+  "en": "Pair",
+  "tr": "คู่"
+ },{
+  "en": "Panes",
+  "tr": "บานหน้าต่าง"
+ },{
+  "en": "Paragraph",
+  "tr": "ย่อหน้า"
+ },{
+  "en": "Parity",
+  "tr": "ความเท่าเทียมกัน"
+ },{
+  "en": "Passphrase",
+  "tr": "ข้อความรหัสผ่าน"
+ },{
+  "en": "Password",
+  "tr": "รหัสผ่าน"
+ },{
+  "en": "Password quality meter",
+  "tr": "เครื่องวัดคุณภาพรหัสผ่าน"
+ },{
+  "en": "Paste",
+  "tr": "แปะ"
+ },{
+  "en": "Paste Dialog",
+  "tr": "วางกล่องโต้ตอบ"
+ },{
+  "en": "Paste text",
+  "tr": "วางข้อความ"
+ },{
+  "en": "Pause",
+  "tr": "หยุดชั่วคราว"
+ },{
+  "en": "Paused",
+  "tr": "หยุดชั่วคราว"
+ },{
+  "en": "Pausing",
+  "tr": "หยุดชั่วคราว"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "ทำการค้นหา DNS ด้วย proxy"
+ },{
+  "en": "Period",
+  "tr": "ระยะเวลา"
+ },{
+  "en": "Permissions",
+  "tr": "สิทธิ์"
+ },{
+  "en": "pixels",
+  "tr": "พิกเซล"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "กรุณาใส่ชื่อใหม่สำหรับมุมมองนี้"
+ },{
+  "en": "Please input master password",
+  "tr": "กรุณาใส่รหัสผ่านหลัก"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "กรุณาใส่รหัสผ่านมาสเตอร์ เว้นว่างไว้ หรือยกเลิกเพื่อปิดการใช้งาน"
+ },{
+  "en": "Please input new group",
+  "tr": "กรุณาใส่กลุ่มใหม่"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "โปรดตรวจสอบให้แน่ใจว่าคุณจำรหัสผ่านหลักที่คุณตั้งไว้"
+ },{
+  "en": "Port",
+  "tr": "ท่าเรือ"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "ต้องการแบบอักษรของธีม "
+ },{
+  "en": "Preferences",
+  "tr": "ค่ากำหนด"
+ },{
+  "en": "Preserve",
+  "tr": "อนุรักษ์"
+ },{
+  "en": "Preview All",
+  "tr": "ดูตัวอย่างทั้งหมด"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "แสดงตัวอย่างสัญลักษณ์"
+ },{
+  "en": "Previous Char",
+  "tr": "อักขระก่อนหน้า "
+ },{
+  "en": "Previous Fold",
+  "tr": "พับก่อนหน้า"
+ },{
+  "en": "Previous Indentation",
+  "tr": "เยื้องก่อนหน้า "
+ },{
+  "en": "Previous Line",
+  "tr": "บรรทัดก่อนหน้า"
+ },{
+  "en": "Previous Message",
+  "tr": "ข้อความก่อนหน้า"
+ },{
+  "en": "Previous Page",
+  "tr": "หน้าก่อน"
+ },{
+  "en": "Previous Pair",
+  "tr": "คู่ก่อนหน้า"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "ย่อหน้าก่อนหน้า"
+ },{
+  "en": "Previous Scope",
+  "tr": "ขอบเขตก่อนหน้า "
+ },{
+  "en": "Previous Segment End",
+  "tr": "ส่วนก่อนหน้าสิ้นสุด "
+ },{
+  "en": "Previous Segment Start",
+  "tr": "กลุ่มก่อนหน้าเริ่ม "
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "หน้าพูดติดอ่าง"
+ },{
+  "en": "Previous Word",
+  "tr": "คำก่อนหน้า"
+ },{
+  "en": "Previous Word End",
+  "tr": "สิ้นสุดคำก่อนหน้า"
+ },{
+  "en": "Previous Word Part",
+  "tr": "ส่วนคำก่อนหน้า"
+ },{
+  "en": "Printable output",
+  "tr": "เอาต์พุตที่พิมพ์ได้ "
+ },{
+  "en": "Process",
+  "tr": "กระบวนการ"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "กระบวนการ %1 ขัดข้อง"
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "กระบวนการ %1 ไม่สามารถเริ่มต้นได้"
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "ประมวลผล %1 หมดเวลา"
+ },{
+  "en": "Program [Arguments]",
+  "tr": "โปรแกรม [อาร์กิวเมนต์]"
+ },{
+  "en": "Project",
+  "tr": "โครงการ"
+ },{
+  "en": "Properties",
+  "tr": "คุณสมบัติ"
+ },{
+  "en": "Property",
+  "tr": "คุณสมบัติ"
+ },{
+  "en": "Protocol",
+  "tr": "มาตรการ"
+ },{
+  "en": "Proxy",
+  "tr": "พร็อกซี่"
+ },{
+  "en": "Proxy Host",
+  "tr": "โฮสต์พร็อกซี"
+ },{
+  "en": "Proxy Port",
+  "tr": "พอร์ตพร็อกซี"
+ },{
+  "en": "Proxy Settings",
+  "tr": "การตั้งค่าพร็อกซี"
+ },{
+  "en": "Proxy Type",
+  "tr": "ประเภทพร็อกซี่"
+ },{
+  "en": "Public Key",
+  "tr": "กุญแจสาธารณะ"
+ },{
+  "en": "Public Keys",
+  "tr": "กุญแจสาธารณะ"
+ },{
+  "en": "Public keys order",
+  "tr": "คำสั่งกุญแจสาธารณะ "
+ },{
+  "en": "Putty sessions",
+  "tr": "สีโป๊ว "
+ },{
+  "en": "Query URL",
+  "tr": "URL แบบสอบถาม"
+ },{
+  "en": "Question",
+  "tr": "คำถาม"
+ },{
+  "en": "Quick",
+  "tr": "เร็ว"
+ },{
+  "en": "Quick Bar",
+  "tr": "ควิกบาร์"
+ },{
+  "en": "Quick Commands",
+  "tr": "คำสั่งด่วน"
+ },{
+  "en": "Read Only",
+  "tr": "อ่านอย่างเดียว"
+ },{
+  "en": "Ready",
+  "tr": "พร้อม"
+ },{
+  "en": "Real guide",
+  "tr": "คู่มือที่แท้จริง"
+ },{
+  "en": "Receive XModem",
+  "tr": "รับ XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "รับ YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "รับ ZModem"
+ },{
+  "en": "received",
+  "tr": "ได้รับ"
+ },{
+  "en": "Recent",
+  "tr": "ล่าสุด"
+ },{
+  "en": "Recent Sessions",
+  "tr": "เซสชั่นล่าสุด"
+ },{
+  "en": "Reconnect Session",
+  "tr": "เชื่อมต่อเซสชัน (R) อีกครั้ง"
+ },{
+  "en": "Rectangle",
+  "tr": "สี่เหลี่ยมผืนผ้า"
+ },{
+  "en": "rectangle",
+  "tr": "สี่เหลี่ยมผืนผ้า"
+ },{
+  "en": "Red",
+  "tr": "สีแดง"
+ },{
+  "en": "Redo",
+  "tr": "ทำซ้ำ"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "ทำซ้ำ %1 การดำเนินการ"
+ },{
+  "en": "Refresh",
+  "tr": "รีเฟรช"
+ },{
+  "en": "Regular Expression",
+  "tr": "นิพจน์ทั่วไป"
+ },{
+  "en": "Reload",
+  "tr": "โหลดซ้ำ"
+ },{
+  "en": "Reload File",
+  "tr": "โหลดไฟล์ซ้ำ"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "โหลดซ้ำด้วยการเข้ารหัส "
+ },{
+  "en": "Remote forwarding",
+  "tr": "การส่งต่อทางไกล"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "เส้นทางระยะไกล"
+ },{
+  "en": "Remove",
+  "tr": "ลบ"
+ },{
+  "en": "remove",
+  "tr": "ลบ"
+ },{
+  "en": "Remove All",
+  "tr": "ลบทั้งหมด"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "ลบบรรทัดว่าง "
+ },{
+  "en": "Remove Command",
+  "tr": "ลบคำสั่ง"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "ลบบรรทัดที่ซ้ำกัน "
+ },{
+  "en": "Remove Group",
+  "tr": "ลบ Group"
+ },{
+  "en": "Remove items",
+  "tr": "ลบรายการ"
+ },{
+  "en": "Remove Sender",
+  "tr": "ลบผู้ส่ง"
+ },{
+  "en": "Removing",
+  "tr": "การถอด"
+ },{
+  "en": "Rename",
+  "tr": "เปลี่ยนชื่อ"
+ },{
+  "en": "Rename Group",
+  "tr": "เปลี่ยนชื่อกลุ่ม"
+ },{
+  "en": "Rename tab",
+  "tr": "เปลี่ยนชื่อ tab"
+ },{
+  "en": "Rename View",
+  "tr": "เปลี่ยนชื่อ View"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "เปิดมุมมองที่ปิด (R) อีกครั้ง"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "ทำซ้ำคำสั่งสุดท้าย "
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "ดำเนินการซ้ำๆ "
+ },{
+  "en": "Replace",
+  "tr": "แทนที่"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "แทนที่ทั้งหมด"
+ },{
+  "en": "Replace in Files",
+  "tr": "แทนที่ในไฟล์ "
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "ต้องรีสตาร์ทจึงจะมีผล"
+ },{
+  "en": "Reset",
+  "tr": "รีเซ็ต"
+ },{
+  "en": "Reset Character Set",
+  "tr": "รีเซ็ตชุดอักขระ "
+ },{
+  "en": "Reset Zoom",
+  "tr": "รีเซ็ตการซูม "
+ },{
+  "en": "Resume",
+  "tr": "ประวัติย่อ"
+ },{
+  "en": "Resuming",
+  "tr": "กลับมาทำงานต่อ"
+ },{
+  "en": "Right click",
+  "tr": "คลิกขวา"
+ },{
+  "en": "Right click event",
+  "tr": "เหตุการณ์คลิกขวา "
+ },{
+  "en": "Right Docks",
+  "tr": "ท่าเรือขวา"
+ },{
+  "en": "Right Group",
+  "tr": "กลุ่มขวา"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "หมุนวงล้อเมาส์เพื่อเลื่อน"
+ },{
+  "en": "Rows",
+  "tr": "แถว"
+ },{
+  "en": "Royal Blue",
+  "tr": "รอยัลบลู"
+ },{
+  "en": "Run Tool",
+  "tr": "เรียกใช้เครื่องมือ"
+ },{
+  "en": "Save",
+  "tr": "บันทึก"
+ },{
+  "en": "Save All",
+  "tr": "บันทึกทั้งหมด"
+ },{
+  "en": "Save As",
+  "tr": "บันทึกเป็น "
+ },{
+  "en": "Save Copy As",
+  "tr": "บันทึกสำเนาเป็น "
+ },{
+  "en": "Save file failed!",
+  "tr": "บันทึกไฟล์ล้มเหลว!"
+ },{
+  "en": "Save Selection As",
+  "tr": "บันทึกการเลือกเป็น "
+ },{
+  "en": "Save Session",
+  "tr": "บันทึกเซสชัน "
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "บันทึกการตรวจสอบอัตโนมัติ "
+ },{
+  "en": "Scheme Tools",
+  "tr": "เครื่องมือโครงการ"
+ },{
+  "en": "Scope",
+  "tr": "ขอบเขต"
+ },{
+  "en": "Screen Locked",
+  "tr": "ล็อกหน้าจอ"
+ },{
+  "en": "Scroll Left",
+  "tr": "เลื่อนไปทางซ้าย"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "เลื่อนบรรทัดลง "
+ },{
+  "en": "Scroll Line Up",
+  "tr": "เลื่อนแถวขึ้น"
+ },{
+  "en": "Scroll Right",
+  "tr": "เลื่อนไปทางขวา"
+ },{
+  "en": "Search",
+  "tr": "ค้นหา"
+ },{
+  "en": "Search engine",
+  "tr": "เครื่องมือค้นหา)"
+ },{
+  "en": "Search Engine",
+  "tr": "เครื่องมือค้นหา"
+ },{
+  "en": "Search Engines",
+  "tr": "เครื่องมือค้นหา"
+ },{
+  "en": "Search Online",
+  "tr": "ค้นหาออนไลน์"
+ },{
+  "en": "Search or enter address",
+  "tr": "ค้นหาหรือป้อนที่อยู่"
+ },{
+  "en": "Searching",
+  "tr": "กำลังค้นหา"
+ },{
+  "en": "Seconds",
+  "tr": "วินาที"
+ },{
+  "en": "seconds",
+  "tr": "วินาที"
+ },{
+  "en": "Security",
+  "tr": "ความปลอดภัย"
+ },{
+  "en": "Segment",
+  "tr": "กลุ่ม "
+ },{
+  "en": "Select",
+  "tr": "เลือก"
+ },{
+  "en": "Select All",
+  "tr": "เลือกทั้งหมด"
+ },{
+  "en": "Select Column To",
+  "tr": "เลือกคอลัมน์ถึง "
+ },{
+  "en": "Select copy folder",
+  "tr": "เลือกคัดลอกโฟลเดอร์"
+ },{
+  "en": "Select copy items",
+  "tr": "เลือกคัดลอกรายการ"
+ },{
+  "en": "Select directory to receive",
+  "tr": "เลือกไดเร็กทอรีที่จะได้รับ"
+ },{
+  "en": "Select download folder",
+  "tr": "เลือกโฟลเดอร์ดาวน์โหลด"
+ },{
+  "en": "Select files to send",
+  "tr": "เลือกไฟล์ที่จะส่ง"
+ },{
+  "en": "Select Fold",
+  "tr": "เลือกพับ "
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "เลือก Snippet Backward"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "เลือก Snippet Forward"
+ },{
+  "en": "Select To",
+  "tr": "เลือกถึง"
+ },{
+  "en": "Select upload items",
+  "tr": "เลือกอัปโหลดรายการ"
+ },{
+  "en": "Selected position",
+  "tr": "ตำแหน่งที่เลือก"
+ },{
+  "en": "Selected Sessions",
+  "tr": "เซสชันที่เลือก"
+ },{
+  "en": "Selection",
+  "tr": "การคัดเลือก"
+ },{
+  "en": "Send",
+  "tr": "ส่ง"
+ },{
+  "en": "Send line By line",
+  "tr": "ส่งสายโดยสาย"
+ },{
+  "en": "Send Text",
+  "tr": "ส่งข้อความ"
+ },{
+  "en": "Send XModem",
+  "tr": "ส่ง XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "ส่ง YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "ส่ง ZModem"
+ },{
+  "en": "Sender",
+  "tr": "ผู้ส่ง"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "การส่ง %1 ล้มเหลว: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "กำลังส่ง: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "ส่งแพ็กเก็ต null เพื่อให้เซสชั่นมีชีวิตอยู่ "
+ },{
+  "en": "sent",
+  "tr": "ส่งแล้ว"
+ },{
+  "en": "Serial",
+  "tr": "อนุกรม"
+ },{
+  "en": "Server",
+  "tr": "เซิร์ฟเวอร์"
+ },{
+  "en": "Session",
+  "tr": "การประชุม"
+ },{
+  "en": "session",
+  "tr": "การประชุม"
+ },{
+  "en": "Session Group",
+  "tr": "กลุ่มเซสชัน"
+ },{
+  "en": "Session Log",
+  "tr": "บันทึกเซสชัน"
+ },{
+  "en": "Session name",
+  "tr": "ชื่อเซสชัน"
+ },{
+  "en": "Session Settings",
+  "tr": "การตั้งค่าเซสชัน"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "เซสชันใน Windows ทั้งหมด"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "เซสชันในกลุ่มปัจจุบัน"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "เซสชันในหน้าต่างปัจจุบัน"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "เซสชันในกลุ่ม %1"
+ },{
+  "en": "Set default editor",
+  "tr": "ตั้งค่าตัวแก้ไขเริ่มต้น "
+ },{
+  "en": "Set Tab Color",
+  "tr": "ตั้งค่าสีของแท็บ "
+ },{
+  "en": "Settings",
+  "tr": "การตั้งค่า"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "รูปร่าง"
+ },{
+  "en": "Shell",
+  "tr": "เปลือก"
+ },{
+  "en": "Shell sessions",
+  "tr": "เซสชันเชลล์ "
+ },{
+  "en": "Shell Sessions",
+  "tr": "เชลล์ เซสชั่น"
+ },{
+  "en": "Short Time/Date",
+  "tr": "เวลา/วันที่สั้น "
+ },{
+  "en": "Show",
+  "tr": "แสดง"
+ },{
+  "en": "Show All",
+  "tr": "แสดงทั้งหมด"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "แสดงตัวแก้ไขที่เปิดอยู่และตัวแก้ไขล่าสุดทั้งหมด"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "แสดงเทอร์มินัลที่เปิดอยู่และล่าสุดทั้งหมด"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "แสดงและเรียกใช้การดำเนินการ"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "แสดงกล่องโต้ตอบการยืนยันแท็บปิด "
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "แสดงกล่องโต้ตอบการยืนยันการปิดหน้าต่าง "
+ },{
+  "en": "Show column markers",
+  "tr": "แสดงเครื่องหมายคอลัมน์ "
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "แสดงคำสั่งตามลำดับตัวอักษร "
+ },{
+  "en": "Show current %1 property",
+  "tr": "แสดงทรัพย์สิน %1 ปัจจุบัน"
+ },{
+  "en": "Show group commands in order",
+  "tr": "แสดงคำสั่งกลุ่มตามลำดับ "
+ },{
+  "en": "Show group title",
+  "tr": "แสดงชื่อกลุ่ม"
+ },{
+  "en": "Show hidden items",
+  "tr": "แสดงรายการที่ซ่อนอยู่ "
+ },{
+  "en": "Show in %1",
+  "tr": "แสดงใน %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "แสดงในบรรทัดสิ้นสุด "
+ },{
+  "en": "Show In Line Start",
+  "tr": "แสดงในสาย Start"
+ },{
+  "en": "Show In Selection",
+  "tr": "แสดงในส่วนที่เลือก "
+ },{
+  "en": "Show indent guide",
+  "tr": "แสดงแนวย่อหน้า "
+ },{
+  "en": "Show line endings",
+  "tr": "แสดงการสิ้นสุดบรรทัด "
+ },{
+  "en": "Show menu",
+  "tr": "แสดงเมนู"
+ },{
+  "en": "Show More Tools",
+  "tr": "แสดงเครื่องมือเพิ่มเติม"
+ },{
+  "en": "Show multiple groups",
+  "tr": "แสดงหลายกลุ่ม "
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "แสดงกล่องโต้ตอบการวางบนหน้าจอทางเลือก "
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "แสดงกล่องโต้ตอบการวางบนหน้าจอหลัก "
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "แสดงช่องว่างและแท็บ "
+ },{
+  "en": "Show Tabs",
+  "tr": "แสดงแท็บ"
+ },{
+  "en": "Show Text",
+  "tr": "แสดงข้อความ"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "แสดงหมายเลขแท็บบนแท็บ "
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "แสดงกล่องโต้ตอบนี้เมื่อเริ่มโหมดโฟกัส "
+ },{
+  "en": "Show wrap symbols",
+  "tr": "แสดงสัญลักษณ์การตัดคำ "
+ },{
+  "en": "Shrink",
+  "tr": "หด"
+ },{
+  "en": "Size",
+  "tr": "ขนาด"
+ },{
+  "en": "Skip",
+  "tr": "ข้าม"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "พร็อกซีถุงเท้า v5 "
+ },{
+  "en": "Soft Reset",
+  "tr": "ซอฟต์รีเซ็ต "
+ },{
+  "en": "Sort",
+  "tr": "เรียง"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "จัดเรียงบรรทัด ไม่คำนึงถึงขนาดตัวพิมพ์ "
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "จัดเรียงบรรทัด คำนึงถึงขนาดตัวพิมพ์ "
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "จัดเรียงบรรทัดในลำดับแบบสุ่ม "
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "จัดเรียงบรรทัดในลำดับย้อนกลับ "
+ },{
+  "en": "spaces",
+  "tr": "ช่องว่าง"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "ช่องว่างไปยังแท็บ "
+ },{
+  "en": "Spacing",
+  "tr": "ระยะห่าง"
+ },{
+  "en": "Special",
+  "tr": "พิเศษ"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "ระบุโปรโตคอลเมื่อลากและวางไฟล์"
+ },{
+  "en": "Speed",
+  "tr": "ความเร็ว"
+ },{
+  "en": "Split",
+  "tr": "สปลิต"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "แยกกลุ่มตามแนวนอน "
+ },{
+  "en": "Split Group Vertically",
+  "tr": "แยกกลุ่มในแนวตั้ง "
+ },{
+  "en": "Split Lines",
+  "tr": "เส้นแบ่ง "
+ },{
+  "en": "Split Selection",
+  "tr": "การเลือกแบบแยกส่วน"
+ },{
+  "en": "Split To Group",
+  "tr": "แยกไปยังกลุ่ม "
+ },{
+  "en": "Split View Horizontally",
+  "tr": "แยกมุมมองในแนวนอน "
+ },{
+  "en": "Split View Vertically",
+  "tr": "แยกมุมมองในแนวตั้ง "
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "เริ่ม"
+ },{
+  "en": "Start Of Document",
+  "tr": "จุดเริ่มต้นของเอกสาร"
+ },{
+  "en": "Start Of Line",
+  "tr": "จุดเริ่มต้นของบรรทัด "
+ },{
+  "en": "Start Of Pair",
+  "tr": "การเริ่มต้นของคู่"
+ },{
+  "en": "Startup",
+  "tr": "สตาร์ทอัพ"
+ },{
+  "en": "Stash",
+  "tr": "ที่เก็บสะสม "
+ },{
+  "en": "Status Bar",
+  "tr": "แถบสถานะ"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "สตีลบลู"
+ },{
+  "en": "Sticky",
+  "tr": "เหนียว"
+ },{
+  "en": "Stop",
+  "tr": "หยุด"
+ },{
+  "en": "Stop Bits",
+  "tr": "หยุดบิต "
+ },{
+  "en": "Stop loading",
+  "tr": "หยุดโหลด"
+ },{
+  "en": "Stop sender",
+  "tr": "หยุดผู้ส่ง"
+ },{
+  "en": "Stop Tools",
+  "tr": "หยุดเครื่องมือ"
+ },{
+  "en": "Stop watching this file",
+  "tr": "หยุดดูไฟล์นี้"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "สลับสตรีมและคอลัมน์ "
+ },{
+  "en": "switch to tab",
+  "tr": "สลับไปที่แท็บ"
+ },{
+  "en": "Symbols",
+  "tr": "สัญลักษณ์"
+ },{
+  "en": "Sync channel",
+  "tr": "ช่องซิงค์"
+ },{
+  "en": "Sync Edit",
+  "tr": "แก้ไขการซิงค์ "
+ },{
+  "en": "Sync Input",
+  "tr": "ซิงค์อินพุต"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "กำลังซิงโครไนซ์อินพุตในช่อง %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "แบบแผนไวยากรณ์ "
+ },{
+  "en": "System",
+  "tr": "ระบบ"
+ },{
+  "en": "Tab",
+  "tr": "แท็บ"
+ },{
+  "en": "Tab Color",
+  "tr": "สีแท็บ"
+ },{
+  "en": "Tab Features",
+  "tr": "คุณสมบัติของแท็บ"
+ },{
+  "en": "Tab Group",
+  "tr": "กลุ่มแท็บ"
+ },{
+  "en": "Tab Index",
+  "tr": "ดัชนีแท็บ"
+ },{
+  "en": "Tab size",
+  "tr": "ขนาดแท็บ "
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "โหมดลบข้อความของแท็บ "
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "วิทยุภาพขนาดย่อของแท็บ "
+ },{
+  "en": "Tab Title",
+  "tr": "ชื่อแท็บ"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify บรรทัดที่เลือก "
+ },{
+  "en": "Tabs",
+  "tr": "แท็บ"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "แท็บไปยัง Spaces"
+ },{
+  "en": "Target",
+  "tr": "เป้า"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "โฟลเดอร์เป้าหมาย "
+ },{
+  "en": "Targets",
+  "tr": "เป้าหมาย"
+ },{
+  "en": "TCP connection options",
+  "tr": "ตัวเลือกการเชื่อมต่อ TCP"
+ },{
+  "en": "Teal",
+  "tr": "นกเป็ดน้ำ"
+ },{
+  "en": "Term",
+  "tr": "ระยะเวลา "
+ },{
+  "en": "Terminal",
+  "tr": "เทอร์มินัล"
+ },{
+  "en": "terminal",
+  "tr": "เทอร์มินัล"
+ },{
+  "en": "Terminal Settings",
+  "tr": "การตั้งค่าเทอร์มินัล"
+ },{
+  "en": "Text",
+  "tr": "ข้อความ"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "ข้อความ: %1 บรรทัด %2 ตัวอักษร "
+ },{
+  "en": "The % sign",
+  "tr": "สัญลักษณ์"
+ },{
+  "en": "The actual text to log",
+  "tr": "ข้อความจริงที่จะบันทึก"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "โฟลเดอร์ปลายทางเป็นโฟลเดอร์ย่อยของโฟลเดอร์ต้นทาง:\n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "เอกสารได้รับการแก้ไข\nคุณต้องการบันทึกการเปลี่ยนแปลงของคุณหรือไม่"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "คีย์ผสม (%1) ไม่ใช่คำสั่ง"
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "ตรวจไม่พบ lrzsz โปรดติดตั้ง lrzsz ก่อน"
+ },{
+  "en": "The master password has been changed.",
+  "tr": "รหัสผ่านหลักมีการเปลี่ยนแปลง"
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "การยืนยันรหัสผ่านไม่ตรงกัน"
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "เซิร์ฟเวอร์ยกเลิกการส่งข้อมูล"
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "เซสชัน <b>ถูกตัดการเชื่อมต่อ</b> กด <b>Enter</b> เพื่อเชื่อมต่อใหม่"
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "การโอนถูกยกเลิกเนื่องจากแพ็กเก็ตไม่ %1 ภายในขีดจำกัดการลองใหม่"
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "การโอนถูกยกเลิกเนื่องจากหมายเลขลำดับแพ็กเก็ตไม่ถูกต้อง"
+ },{
+  "en": "Theme",
+  "tr": "ธีม"
+ },{
+  "en": "Thin",
+  "tr": "ผอม"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "เกณฑ์สำหรับไฟล์ขนาดใหญ่ "
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "รูปแบบเวลา "
+ },{
+  "en": "Time left",
+  "tr": "เวลาที่เหลือ"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "การประทับเวลาของบรรทัด"
+ },{
+  "en": "To Inverse Case",
+  "tr": "ถึงกรณีผกผัน "
+ },{
+  "en": "To Line End",
+  "tr": "To Line End"
+ },{
+  "en": "To Line Start",
+  "tr": "To Line Start"
+ },{
+  "en": "To Lower Case",
+  "tr": "ตัวพิมพ์เล็ก "
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "ถึง MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "ถึงชื่อเรื่อง "
+ },{
+  "en": "To Unix LF",
+  "tr": "ถึง Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "ตัวพิมพ์ใหญ่"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "ไปยัง Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "ไปที่ Word End"
+ },{
+  "en": "To Word Start",
+  "tr": "ไปที่ Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "สลับพับ "
+ },{
+  "en": "Tool",
+  "tr": "เครื่องมือ"
+ },{
+  "en": "Toolbar",
+  "tr": "แถบเครื่องมือ"
+ },{
+  "en": "Top Group",
+  "tr": "ท็อปกรุ๊ป"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "ติดตามการเลือกข้อความในทรี "
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "ติดตามการเลือกต้นไม้ในข้อความ "
+ },{
+  "en": "Tracking Events",
+  "tr": "ติดตามเหตุการณ์"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "ช่องว่างต่อท้าย "
+ },{
+  "en": "Trailing position",
+  "tr": "ตำแหน่งต่อท้าย"
+ },{
+  "en": "Transfer",
+  "tr": "โอนย้าย"
+ },{
+  "en": "Transfer Bar",
+  "tr": "บาร์โอน"
+ },{
+  "en": "Transfer Binary",
+  "tr": "โอนไบนารี"
+ },{
+  "en": "Transfer complete",
+  "tr": "โอนเรียบร้อย"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "โอนไม่ครบ"
+ },{
+  "en": "Translucent",
+  "tr": "โปร่งแสง"
+ },{
+  "en": "Transparent",
+  "tr": "โปร่งใส"
+ },{
+  "en": "Transpose",
+  "tr": "ขนย้าย"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "ตัดช่องว่างต่อท้ายเมื่อบันทึก "
+ },{
+  "en": "Trust this host",
+  "tr": "วางใจโฮสต์นี้"
+ },{
+  "en": "Tunnels",
+  "tr": "อุโมงค์"
+ },{
+  "en": "Type",
+  "tr": "พิมพ์"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "พิมพ์ '?' เพื่อรับความช่วยเหลือเกี่ยวกับการดำเนินการที่คุณสามารถพิมพ์ได้ที่นี่"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "การเลือกที่ไม่แสดงความเห็น"
+ },{
+  "en": "Underline",
+  "tr": "ขีดเส้นใต้"
+ },{
+  "en": "underLine",
+  "tr": "ขีดเส้นใต้"
+ },{
+  "en": "Undo",
+  "tr": "เลิกทำ"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "เลิกทำ %1 การดำเนินการ"
+ },{
+  "en": "Unfold",
+  "tr": "แฉ"
+ },{
+  "en": "Unfold All",
+  "tr": "แฉทั้งหมด"
+ },{
+  "en": "Unfold Category",
+  "tr": "แฉหมวดหมู่"
+ },{
+  "en": "Unfold Inside",
+  "tr": "แฉ Inside"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Unify สิ้นสุดบรรทัดเมื่อบันทึก "
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: เส้นทางของไฟล์เชลล์ต้องเป็นค่าสัมบูรณ์"
+ },{
+  "en": "Unknown",
+  "tr": "ไม่รู้จัก"
+ },{
+  "en": "unknown",
+  "tr": "ไม่รู้จัก"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "ยกเลิกการเลือกบรรทัดที่เลือก "
+ },{
+  "en": "Untitled",
+  "tr": "ไม่มีชื่อ"
+ },{
+  "en": "Untrust this host",
+  "tr": "ไม่ไว้วางใจโฮสต์นี้"
+ },{
+  "en": "upload",
+  "tr": "ที่อัพโหลด"
+ },{
+  "en": "Upload command",
+  "tr": "คำสั่งอัพโหลด"
+ },{
+  "en": "Upload directory",
+  "tr": "อัพโหลดไดเร็กทอรี"
+ },{
+  "en": "Upload file",
+  "tr": "อัพโหลดไฟล์"
+ },{
+  "en": "Upload to current folder",
+  "tr": "อัปโหลดไปยังโฟลเดอร์ปัจจุบัน "
+ },{
+  "en": "uploaded",
+  "tr": "อัพโหลดแล้ว"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL ที่มี %q แทนที่ข้อความค้นหา "
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "ใช้สีพื้นหลังเพื่อลบหน้าจอ "
+ },{
+  "en": "Use high speed transfer",
+  "tr": "ใช้การถ่ายโอนความเร็วสูง "
+ },{
+  "en": "Use system line ending",
+  "tr": "ใช้การสิ้นสุดบรรทัดของระบบ"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "ใช้สิ่งนี้เป็นค่าเริ่มต้นและไม่ต้องถามอีก "
+ },{
+  "en": "User",
+  "tr": "ผู้ใช้"
+ },{
+  "en": "Username echo mode",
+  "tr": "โหมดสะท้อนชื่อผู้ใช้ "
+ },{
+  "en": "Value",
+  "tr": "ค่า"
+ },{
+  "en": "Variable",
+  "tr": "ตัวแปร"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "การตรวจสอบลายนิ้วมือของเซิร์ฟเวอร์ "
+ },{
+  "en": "View",
+  "tr": "ดู"
+ },{
+  "en": "Virtual Space",
+  "tr": "พื้นที่เสมือน"
+ },{
+  "en": "Waiting",
+  "tr": "ซึ่งรอคอย"
+ },{
+  "en": "Warning",
+  "tr": "คำเตือน"
+ },{
+  "en": "Wheel event",
+  "tr": "เหตุการณ์ล้อ "
+ },{
+  "en": "When destination file exists",
+  "tr": "เมื่อมีไฟล์ปลายทาง "
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "เมื่อวางหลายบรรทัด"
+ },{
+  "en": "When remote title is changed",
+  "tr": "เมื่อเปลี่ยนชื่อจากระยะไกล"
+ },{
+  "en": "When session is authenticated",
+  "tr": "เมื่อตรวจสอบสิทธิ์เซสชันแล้ว"
+ },{
+  "en": "When session is authenticating",
+  "tr": "เมื่อเซสชันกำลังตรวจสอบสิทธิ์"
+ },{
+  "en": "When window is resized",
+  "tr": "เมื่อหน้าต่างถูกปรับขนาด"
+ },{
+  "en": "Where",
+  "tr": "ที่ไหน"
+ },{
+  "en": "White Spaces",
+  "tr": "ไวท์สเปซ"
+ },{
+  "en": "Whole Line",
+  "tr": "ทั้งสาย"
+ },{
+  "en": "Whole Word",
+  "tr": "ทั้งคำ"
+ },{
+  "en": "Widgets",
+  "tr": "วิดเจ็ต"
+ },{
+  "en": "Width",
+  "tr": "ความกว้าง"
+ },{
+  "en": "Window",
+  "tr": "หน้าต่าง"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "ขอบหน้าต่าง"
+ },{
+  "en": "Window Opacity",
+  "tr": "ความทึบของหน้าต่าง "
+ },{
+  "en": "Window opacity",
+  "tr": "ความทึบของหน้าต่าง"
+ },{
+  "en": "Windows Manager",
+  "tr": "ตัวจัดการ Windows "
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "ไม่พบ Winpty-agent.exe หรือ winpty.dll!"
+ },{
+  "en": "Word",
+  "tr": "คำ "
+ },{
+  "en": "Word Separators",
+  "tr": "ตัวคั่นคำ "
+ },{
+  "en": "Word Wrap",
+  "tr": "การตัดคำ "
+ },{
+  "en": "Working directory",
+  "tr": "ไดเร็กทอรีการทำงาน"
+ },{
+  "en": "Wrap",
+  "tr": "ห่อ"
+ },{
+  "en": "Wrap by character",
+  "tr": "ห่อตามตัวอักษร"
+ },{
+  "en": "Wrap by word",
+  "tr": "ห่อทีละคำ"
+ },{
+  "en": "Wrap column",
+  "tr": "ตัดคอลัมน์ "
+ },{
+  "en": "Wrap mode",
+  "tr": "โหมดห่อ "
+ },{
+  "en": "Wrap Symbols",
+  "tr": "ตัดสัญลักษณ์"
+ },{
+  "en": "Wrong master password.",
+  "tr": "รหัสผ่านหลักไม่ถูกต้อง"
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "โมเด็ม X/Y/Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "โมเด็ม X/Y/Z ไม่สามารถส่งโฟลเดอร์หรือไฟล์ที่มีขนาดใหญ่กว่า 4GB: %1"
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "โปรโตคอลการตรวจสอบสิทธิ์ X11"
+ },{
+  "en": "X11 display",
+  "tr": "จอแสดงผล X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "ปีเป็นเลข 2 หลัก"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "ปีเป็นตัวเลข 4 หลัก"
+ },{
+  "en": "Yes",
+  "tr": "ใช่"
+ },{
+  "en": "Zero",
+  "tr": "ศูนย์"
+ },{
+  "en": "Zoom",
+  "tr": "ซูม"
+ },{
+  "en": "Zoom In",
+  "tr": "ซูมเข้า"
+ },{
+  "en": "Zoom level",
+  "tr": "ระดับการซูม "
+ },{
+  "en": "Zoom Out",
+  "tr": "ซูมออก"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[ขัดข้องใน %1 วินาที]"
+ },{
+  "en": "[Empty]",
+  "tr": "[ว่างเปล่า]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[ข้อผิดพลาด: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[เสร็จใน %1s รหัสออก %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[เสร็จสิ้นใน %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[รายชื่อกลุ่มว่างเปล่า]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[รายการการนำทางว่างเปล่า]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[ไม่มีเครื่องมือค้นหา]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[URL ล่าสุดว่างเปล่า]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[รายการทำซ้ำว่างเปล่า]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[รายการแบบแผนว่างเปล่า]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[รายการธีมว่างเปล่า]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[รายการแถบเครื่องมือว่างเปล่า]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[รายการเลิกทำว่างเปล่า]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[ผู้ใช้ยกเลิก]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[user@]ชื่อโฮสต์"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[รายการ Windows ว่างเปล่า]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

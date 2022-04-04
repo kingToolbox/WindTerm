@@ -1,0 +1,3513 @@
+{
+ "language": "Greek - Ελληνικά",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Σχέδιο) Εργαλεία"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "Το %1 %2 δεν υποστηρίζεται από το %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 αντιγράφηκε"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 κατεβάστηκε"
+ },{
+  "en": "%1 File",
+  "tr": "%1 Αρχείο"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 στοιχείο απέτυχε"
+ },{
+  "en": "%1 items",
+  "tr": "%1 στοιχεία"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 στοιχεία απέτυχαν"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 στοιχεία/ες"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 από %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 καταργήθηκε"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 αυτό %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 μεταφορτώθηκε"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 Ταχύτητα: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 αποτυχημένες προσπάθειες κωδικού πρόσβασης."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> άλλαξε </b> και <b> ξαναφορτώθηκε </b>, η αναίρεση <b> ΔΕΝ </b> επιτρέπεται για μεγάλο αρχείο."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> <b> άλλαξε </b> και <b> ξαναφορτώθηκε </b>, επιτρέπεται η αναίρεση."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> <b> άλλαξε </b>, θέλετε να το φορτώσετε ξανά;"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> Έχει <b> μετακινηθεί ή διαγραφεί </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) πιέστηκε. Περιμένουμε περισσότερα κλειδιά"
+ },{
+  "en": "1 Char",
+  "tr": "1 Καρ"
+ },{
+  "en": "16 Columns",
+  "tr": "16 Στήλες"
+ },{
+  "en": "2 Chars",
+  "tr": "2 Chars"
+ },{
+  "en": "24 Columns",
+  "tr": "24 Στήλες"
+ },{
+  "en": "32 Columns",
+  "tr": "32 Στήλες"
+ },{
+  "en": "4 Chars",
+  "tr": "4 Chars"
+ },{
+  "en": "8 Chars",
+  "tr": "8 Chars"
+ },{
+  "en": "8 Columns",
+  "tr": "8 Στήλες"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Ένας κύριος κωδικός πρόσβασης χρησιμοποιείται για την προστασία ευαίσθητων πληροφοριών, όπως κωδικοί πρόσβασης SSH."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Ένα όνομα πρέπει να είναι μικρότερο από 255 χαρακτήρες και δεν μπορεί να περιέχει κανέναν από τους ακόλουθους χαρακτήρες: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Ένα απομακρυσμένο αρχείο έχει τροποποιηθεί. \nΘέλετε να το ανεβάσετε ξανά στον διακομιστή;"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Μια συγκεκριμένη συνεδρία ή ένα σύνολο συνεδριών"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Συντομευμένο όνομα μήνα"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Συντομευμένο όνομα ημέρας της εβδομάδας"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Αποδοχή μόνο τοπικών συνδέσεων"
+ },{
+  "en": "Accessed",
+  "tr": "Πρόσβαση"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Ενεργοποίηση πολλαπλών πλαισίων"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Ενεργοποίηση επόμενης επιλογής"
+ },{
+  "en": "Activate Next View",
+  "tr": "Ενεργοποίηση επόμενης προβολής"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Ενεργοποίηση προηγούμενης επιλογής"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Ενεργοποίηση προηγούμενης προβολής"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Ενεργοποιήστε την αριστερή καρτέλα"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Ενεργοποιήστε την καρτέλα που επιλέξατε προηγουμένως"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Ενεργοποιήστε τη δεξιά καρτέλα"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Ενεργοποιήστε την καρτέλα μετά το κλείσιμο"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Ενεργοποιήστε την καρτέλα μετά τον δείκτη του ποντικιού"
+ },{
+  "en": "Add",
+  "tr": "Πρόσθεσε ένα)"
+ },{
+  "en": "Add All",
+  "tr": "Προσθήκη όλων"
+ },{
+  "en": "Add Command",
+  "tr": "Προσθήκη εντολής"
+ },{
+  "en": "Add Group",
+  "tr": "Προσθήκη ομάδας"
+ },{
+  "en": "Add Sender",
+  "tr": "Προσθήκη αποστολέα"
+ },{
+  "en": "Add Tab",
+  "tr": "Προσθήκη καρτέλας"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Προσαρμόστε τις γραμμές και τις στήλες παραθύρων"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Προηγμένη ταξινόμηση"
+ },{
+  "en": "Agent",
+  "tr": "Μέσο"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Ο έλεγχος ταυτότητας παράγοντα απέτυχε, δοκιμάστε μια άλλη μέθοδο"
+ },{
+  "en": "All",
+  "tr": "Όλα"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Όλες οι %1 περίοδοι σύνδεσης θα διαγραφούν. \nΘέλετε να συνεχίσετε την εισαγωγή περιόδων σύνδεσης;"
+ },{
+  "en": "All session output",
+  "tr": "Όλη η έξοδος συνεδρίας"
+ },{
+  "en": "All Sessions",
+  "tr": "Όλες οι συνεδρίες"
+ },{
+  "en": "All tabs",
+  "tr": "Όλες οι καρτέλες"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Εναλλακτικό χρώμα φόντου στήλης"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Εναλλακτικό χρώμα φόντου γραμμής"
+ },{
+  "en": "Always On Top",
+  "tr": "Πάντα στην κορυφή"
+ },{
+  "en": "Always on top",
+  "tr": "Πάντα στην κορυφή"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Παρουσιάστηκε σφάλμα κατά την προσπάθεια ανάγνωσης από τη διαδικασία %1."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Παρουσιάστηκε σφάλμα κατά την προσπάθεια εγγραφής στη διαδικασία %1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Παρουσιάστηκε άγνωστο σφάλμα στη διαδικασία %1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI σε OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Απάντηση πίσω"
+ },{
+  "en": "Any",
+  "tr": "Οποιος"
+ },{
+  "en": "Anything Palette",
+  "tr": "Οτιδήποτε παλέτα"
+ },{
+  "en": "Anywhere",
+  "tr": "Οπουδήποτε"
+ },{
+  "en": "Appearance",
+  "tr": "Εμφάνιση"
+ },{
+  "en": "Append",
+  "tr": "Προσαρτώ"
+ },{
+  "en": "Append log file",
+  "tr": "Προσθήκη αρχείου καταγραφής"
+ },{
+  "en": "Application",
+  "tr": "Εφαρμογή"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Είστε βέβαιοι ότι θέλετε να διαγράψετε %1 επιλεγμένα στοιχεία;"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Είστε βέβαιοι ότι θέλετε να διαγράψετε το στοιχείο <b>%1 </b>;"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Είστε βέβαιοι ότι θέλετε να φορτώσετε ξανά το τρέχον αρχείο και να χάσετε τις αλλαγές που έγιναν στο WindEdit;"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Είστε βέβαιοι ότι θέλετε να σταματήσετε τον τρέχοντα αποστολέα;"
+ },{
+  "en": "Arguments",
+  "tr": "Επιχειρήματα"
+ },{
+  "en": "At Caret",
+  "tr": "Στο Caret"
+ },{
+  "en": "At End",
+  "tr": "Στο τέλος"
+ },{
+  "en": "At Start",
+  "tr": "Κατά την έναρξη"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Προσπάθεια ελέγχου ταυτότητας gssapi-με-μικρόφωνο"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Προσπάθεια διαδραστικού ελέγχου ταυτότητας με πληκτρολόγιο"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Προσπάθεια ελέγχου ταυτότητας διαγωνισμού"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Προσπάθεια ελέγχου ταυτότητας κωδικού πρόσβασης"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Προσπάθεια ελέγχου ταυτότητας δημόσιου κλειδιού"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Προσπάθεια ελέγχου ταυτότητας ssh-agent"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Πιστοποιήθηκε με μερική επιτυχία, δοκιμάστε μια άλλη μέθοδο."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Έλεγχος ταυτότητας κατά %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Έλεγχος ταυτότητας κατά %1 και %2"
+ },{
+  "en": "Authentication",
+  "tr": "Αυθεντικοποίηση"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Ο έλεγχος ταυτότητας απορρίφθηκε, δοκιμάστε ξανά."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Η ταυτοποίηση απέτυχε. Παρακαλώ προσπάθησε ξανά."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Αυτόματο κλείσιμο ετικετών HTML/XML"
+ },{
+  "en": "Auto login",
+  "tr": "Αυτόματη σύνδεση"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Η αυτόματη σύνδεση απέτυχε, δοκιμάστε ξανά."
+ },{
+  "en": "Auto login next time",
+  "tr": "Αυτόματη σύνδεση την επόμενη φορά"
+ },{
+  "en": "Automatic",
+  "tr": "Αυτόματο"
+ },{
+  "en": "automatic",
+  "tr": "αυτόματο"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Αυτόματες μέθοδοι ελέγχου ταυτότητας"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Αυτόματη αντιγραφή επιλογής"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Αυτόματος εντοπισμός εσοχής"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Αυτόματη περικοπή της επένδυσης"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Δείκτης φόντου"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace στέλνει"
+ },{
+  "en": "Backward",
+  "tr": "Οπισθοδρομικός"
+ },{
+  "en": "Bars",
+  "tr": "Μπάρες"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baud Rate"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Μπιπ όταν τελειώσει"
+ },{
+  "en": "Binary",
+  "tr": "Δυάδικος"
+ },{
+  "en": "Binary base",
+  "tr": "Δυαδική βάση"
+ },{
+  "en": "Binary columns",
+  "tr": "Δυαδικές στήλες"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Στήλες δυαδικής διανομής"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Δυαδικοί ομαδοποιημένοι χαρακτήρες"
+ },{
+  "en": "Black",
+  "tr": "Μαύρος"
+ },{
+  "en": "Blink",
+  "tr": "Αναβοσβήνει"
+ },{
+  "en": "blinking block",
+  "tr": "μπλοκ που αναβοσβήνει"
+ },{
+  "en": "blinking line",
+  "tr": "γραμμή που αναβοσβήνει"
+ },{
+  "en": "blinking rectangle",
+  "tr": "αναβοσβήνει ορθογώνιο"
+ },{
+  "en": "blinking underLine",
+  "tr": "αναβοσβήνει κάτω από τη Γραμμή"
+ },{
+  "en": "Block",
+  "tr": "ΟΙΚΟΔΟΜΙΚΟ ΤΕΤΡΑΓΩΝΟ"
+ },{
+  "en": "block",
+  "tr": "ΟΙΚΟΔΟΜΙΚΟ ΤΕΤΡΑΓΩΝΟ"
+ },{
+  "en": "Bold",
+  "tr": "Τολμηρός"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Ο έντονος τύπος υποδεικνύει γραμματοσειρές σταθερού πλάτους"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Κάτω βάσεις"
+ },{
+  "en": "Bottom Group",
+  "tr": "Κάτω ομάδα"
+ },{
+  "en": "Browse",
+  "tr": "Ξεφυλλίζω"
+ },{
+  "en": "Browse Directory",
+  "tr": "Περιήγηση στον Κατάλογο"
+ },{
+  "en": "Browse File",
+  "tr": "Αναζήτηση αρχείου"
+ },{
+  "en": "Browser",
+  "tr": "Πρόγραμμα περιήγησης"
+ },{
+  "en": "Build",
+  "tr": "Δημιουργία"
+ },{
+  "en": "By",
+  "tr": "Με"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Υπολογιστικός"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Δεν είναι δυνατή η εύρεση του κατάλληλου προγράμματος για το άνοιγμα του αρχείου: (%1 (Δοκιμάστε να χρησιμοποιήσετε το προεπιλεγμένο πρόγραμμα επεξεργασίας για να το ανοίξετε."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Δεν είναι δυνατή η δημιουργία καταλόγου %1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Δεν είναι δυνατή η δημιουργία αρχείου %1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Δεν είναι δυνατή η σύνδεση %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Δεν είναι δυνατή η κατάργηση του καταλόγου %1."
+ },{
+  "en": "Cancel",
+  "tr": "Ματαίωση"
+ },{
+  "en": "Cancel Build",
+  "tr": "Ακύρωση κατασκευής"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Ακύρωση επιλογής"
+ },{
+  "en": "Caret",
+  "tr": "Αγκύλη"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret Style"
+ },{
+  "en": "Carriage Return",
+  "tr": "Επιστροφή μεταφοράς"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Case Sensitive"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Αλλαγή κύριου κωδικού πρόσβασης"
+ },{
+  "en": "Change master password",
+  "tr": "Αλλαγή κύριου κωδικού πρόσβασης"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Η αλλαγή του κύριου κωδικού πρόσβασης απέτυχε."
+ },{
+  "en": "Change the tab title",
+  "tr": "Αλλάξτε τον τίτλο της καρτέλας"
+ },{
+  "en": "Changed",
+  "tr": "Άλλαξε"
+ },{
+  "en": "Channel",
+  "tr": "Κανάλι"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char αριστερά"
+ },{
+  "en": "Char Right",
+  "tr": "Char Right"
+ },{
+  "en": "Character spacing",
+  "tr": "Απόσταση χαρακτήρων"
+ },{
+  "en": "character width",
+  "tr": "πλάτος χαρακτήρων"
+ },{
+  "en": "Charset",
+  "tr": "Charset"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Επιλέξτε έναν προεπιλεγμένο επεξεργαστή"
+ },{
+  "en": "Ciphers",
+  "tr": "Κρυπτογράφηση"
+ },{
+  "en": "Ciphers order",
+  "tr": "Παραγγελία κρυπτογράφησης"
+ },{
+  "en": "Clear",
+  "tr": "Σαφή"
+ },{
+  "en": "Clear All",
+  "tr": "Διαγραφή όλων"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Διαγραφή πρόσφατων διευθύνσεων URL"
+ },{
+  "en": "Clear Screen",
+  "tr": "Εκκαθάριση οθόνης"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Διαγραφή Scrollback"
+ },{
+  "en": "Clear Sender",
+  "tr": "Διαγραφή αποστολέα"
+ },{
+  "en": "Click event",
+  "tr": "Κάντε κλικ στο συμβάν"
+ },{
+  "en": "Close",
+  "tr": "Κλείσε"
+ },{
+  "en": "Close All Views",
+  "tr": "Κλείσιμο όλων των προβολών"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Κλείσιμο όλων των προβολών αλλά ενεργού"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Κλείσιμο όλων των προβολών προς τα δεξιά"
+ },{
+  "en": "Close And Exit",
+  "tr": "Κλείσιμο και έξοδος"
+ },{
+  "en": "Close Channel",
+  "tr": "Κλείσιμο καναλιού"
+ },{
+  "en": "Close Dock",
+  "tr": "Κλείσιμο Dock"
+ },{
+  "en": "Close Group",
+  "tr": "Κλείσιμο ομάδας"
+ },{
+  "en": "Close Session",
+  "tr": "Κλείσιμο συνεδρίας"
+ },{
+  "en": "Close Tab",
+  "tr": "Κλείσιμο καρτέλας"
+ },{
+  "en": "Close tab",
+  "tr": "Κλείσιμο καρτέλας"
+ },{
+  "en": "Close View",
+  "tr": "Κλείσιμο προβολής"
+ },{
+  "en": "Close Window",
+  "tr": "Κλείσιμο παραθύρου"
+ },{
+  "en": "Color",
+  "tr": "Χρώμα"
+ },{
+  "en": "Column Edit",
+  "tr": "Επεξεργασία στήλης"
+ },{
+  "en": "Column Marker",
+  "tr": "Δείκτης στήλης"
+ },{
+  "en": "Columns",
+  "tr": "Στήλες"
+ },{
+  "en": "columns",
+  "tr": "στήλες"
+ },{
+  "en": "Command",
+  "tr": "Εντολή"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Παλέτα εντολών"
+ },{
+  "en": "Comment",
+  "tr": "Σχόλιο"
+ },{
+  "en": "Comment Selection",
+  "tr": "Επιλογή σχολίων"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Επιλογή σχολίου(λειτουργία αποκλεισμού)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Επιλογή σχολίου(λειτουργία γραμμής)"
+ },{
+  "en": "Complete Word",
+  "tr": "Πλήρης λέξη"
+ },{
+  "en": "Config",
+  "tr": "Διαμόρφωση"
+ },{
+  "en": "Confirm Password",
+  "tr": "Επιβεβαίωση Κωδικού"
+ },{
+  "en": "Confirm password",
+  "tr": "Επιβεβαίωση Κωδικού"
+ },{
+  "en": "Connect",
+  "tr": "Συνδέω-συωδεομαι"
+ },{
+  "en": "Connection",
+  "tr": "Σύνδεση"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Συμφραζόμενα"
+ },{
+  "en": "Continue",
+  "tr": "Να συνεχίσει"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Μετατροπή CRLF και LF σε CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Μετατροπή καρτέλας σε κενά"
+ },{
+  "en": "copied",
+  "tr": "αντιγράφηκε"
+ },{
+  "en": "Copy",
+  "tr": "αντίγραφο"
+ },{
+  "en": "copy",
+  "tr": "αντίγραφο"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Αντιγραφή και επικόλληση"
+ },{
+  "en": "Copy File Name",
+  "tr": "Αντιγραφή ονόματος αρχείου"
+ },{
+  "en": "Copy File Path",
+  "tr": "Αντιγραφή διαδρομής αρχείου"
+ },{
+  "en": "Copy from",
+  "tr": "Αντιγραφή από"
+ },{
+  "en": "Copy names",
+  "tr": "Αντιγραφή ονομάτων"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Αντιγραφή ονομάτων στο τερματικό"
+ },{
+  "en": "Copy Output",
+  "tr": "Αντιγραφή εξόδου"
+ },{
+  "en": "Copy paths",
+  "tr": "Αντιγραφή διαδρομών"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Αντιγραφή διαδρομών στο τερματικό"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Αντιγραφή ονόματος περιόδου σύνδεσης"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Αντιγραφή διεύθυνσης URL συνεδρίας"
+ },{
+  "en": "Copy to",
+  "tr": "Αντιγραφή σε"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Αντιγραφή στο τερματικό"
+ },{
+  "en": "Count",
+  "tr": "μετρώ"
+ },{
+  "en": "Create Directory",
+  "tr": "Δημιουργία καταλόγου"
+ },{
+  "en": "Create File",
+  "tr": "Δημιουργία αρχείου"
+ },{
+  "en": "Create Link",
+  "tr": "Δημιουργία συνδέσμου"
+ },{
+  "en": "Created",
+  "tr": "Δημιουργήθηκε"
+ },{
+  "en": "Critical",
+  "tr": "Κρίσιμος"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Τρέχουσα συνεδρία"
+ },{
+  "en": "Custom",
+  "tr": "Εθιμο"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Προσαρμοσμένη αδιαφάνεια"
+ },{
+  "en": "Customize",
+  "tr": "Προσαρμογή"
+ },{
+  "en": "Cut",
+  "tr": "Αποκοπή"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Dark Cyan"
+ },{
+  "en": "Data",
+  "tr": "Δεδομένα"
+ },{
+  "en": "Data Bits",
+  "tr": "Bits δεδομένων"
+ },{
+  "en": "Datetime format",
+  "tr": "Μορφή ημερομηνίας"
+ },{
+  "en": "Day of month",
+  "tr": "Ημέρα του μήνα"
+ },{
+  "en": "Debug Mode",
+  "tr": "Λειτουργία εντοπισμού σφαλμάτων"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Μείωση εσοχής γραμμής"
+ },{
+  "en": "Deep Pink",
+  "tr": "Βαθύ ροζ"
+ },{
+  "en": "default",
+  "tr": "Προκαθορισμένο"
+ },{
+  "en": "Default editor",
+  "tr": "Προεπιλεγμένος επεξεργαστής"
+ },{
+  "en": "Default Font",
+  "tr": "Προεπιλεγμένη γραμματοσειρά"
+ },{
+  "en": "Default line ending",
+  "tr": "Τερματισμός προεπιλεγμένης γραμμής"
+ },{
+  "en": "Delete",
+  "tr": "Διαγραφή"
+ },{
+  "en": "Delete sends",
+  "tr": "Διαγραφή αποστολών"
+ },{
+  "en": "deleted",
+  "tr": "διαγράφηκε"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Κεντρικός προορισμός"
+ },{
+  "en": "Destination Port",
+  "tr": "Λιμάνι προορισμού"
+ },{
+  "en": "Dir",
+  "tr": "Διευθυντής"
+ },{
+  "en": "dir",
+  "tr": "σκην"
+ },{
+  "en": "Directory",
+  "tr": "Ευρετήριο"
+ },{
+  "en": "Directory Link",
+  "tr": "Σύνδεσμος καταλόγου"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Απενεργοποίηση αλγόριθμου Nagle(επιλογή TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Αποσύνδεση συνεδρίας"
+ },{
+  "en": "Disk",
+  "tr": "Δίσκος"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Μην επαναλαμβάνετε χαρακτήρες"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Θέλετε να κλείσετε την τρέχουσα περίοδο σύνδεσης;"
+ },{
+  "en": "Document",
+  "tr": "Έγγραφο"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Μην εμφανίσετε ξανά αυτό το μήνυμα"
+ },{
+  "en": "Double click",
+  "tr": "Διπλό κλικ"
+ },{
+  "en": "Double click event",
+  "tr": "Εκδήλωση διπλού κλικ"
+ },{
+  "en": "Download",
+  "tr": "Λήψη"
+ },{
+  "en": "download",
+  "tr": "Κατεβάστε"
+ },{
+  "en": "Download directory",
+  "tr": "Λήψη καταλόγου"
+ },{
+  "en": "downloaded",
+  "tr": "κατεβάστηκε"
+ },{
+  "en": "Drop Selection",
+  "tr": "Επιλογή απόθεσης"
+ },{
+  "en": "Duplicate",
+  "tr": "Αντίγραφο"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Διπλή εντολή"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Διπλότυπη προβολή"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Δυναμική προώθηση"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Αντηχήστε κάθε χαρακτήρα που μπήκε"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Αντηχήστε κάθε χαρακτήρα κατά την επεξεργασία"
+ },{
+  "en": "Echo random characters",
+  "tr": "Ηχώ τυχαίων χαρακτήρων"
+ },{
+  "en": "Edit",
+  "tr": "Επεξεργασία"
+ },{
+  "en": "Editor",
+  "tr": "Συντάκτης"
+ },{
+  "en": "editor",
+  "tr": "συντάκτης"
+ },{
+  "en": "Editor Settings",
+  "tr": "Ρυθμίσεις επεξεργαστή"
+ },{
+  "en": "Elapsed",
+  "tr": "Παρήλθε"
+ },{
+  "en": "Elide left",
+  "tr": "Elide αριστερά"
+ },{
+  "en": "Elide middle",
+  "tr": "Εξαφανίστε τη μέση"
+ },{
+  "en": "Elide right",
+  "tr": "Εξαφανίστε σωστά"
+ },{
+  "en": "Empty",
+  "tr": "Αδειάζω"
+ },{
+  "en": "Enable command mode",
+  "tr": "Ενεργοποίηση λειτουργίας εντολών"
+ },{
+  "en": "Enable local mode",
+  "tr": "Ενεργοποίηση τοπικής λειτουργίας"
+ },{
+  "en": "Enable SFTP",
+  "tr": "Ενεργοποίηση SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Ενεργοποίηση αναμνηστικών TCP(επιλογή SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Ενεργοποίηση εικονικών χώρων"
+ },{
+  "en": "End Of Document",
+  "tr": "Τέλος εγγράφου"
+ },{
+  "en": "End Of Line",
+  "tr": "Τέλος γραμμής"
+ },{
+  "en": "End Of Pair",
+  "tr": "Τέλος ζεύγους"
+ },{
+  "en": "Engine",
+  "tr": "Μηχανή"
+ },{
+  "en": "Environment Variable",
+  "tr": "Μεταβλητή περιβάλλοντος"
+ },{
+  "en": "Environment variables",
+  "tr": "Μεταβλητές περιβάλλοντος"
+ },{
+  "en": "Error",
+  "tr": "Λάθος"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Exchange Caret And Anchor"
+ },{
+  "en": "Execute",
+  "tr": "Εκτέλεση"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Εκτέλεση εντολής μετά τον έλεγχο ταυτότητας"
+ },{
+  "en": "Execute command after start",
+  "tr": "Εκτέλεση εντολής μετά την εκκίνηση"
+ },{
+  "en": "Execute File",
+  "tr": "Εκτέλεση αρχείου"
+ },{
+  "en": "Exit",
+  "tr": "Έξοδος"
+ },{
+  "en": "Expand",
+  "tr": "Επεκτείνουν"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Επέκταση αποσπάσματος"
+ },{
+  "en": "Explorer",
+  "tr": "Εξερευνητής"
+ },{
+  "en": "External Tools",
+  "tr": "Εξωτερικά εργαλεία"
+ },{
+  "en": "External X display",
+  "tr": "Εξωτερική οθόνη X"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Η δημιουργία προσωρινού αρχείου απέτυχε: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Αποτυχία ανοίγματος καταλόγου: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Αποτυχία ανάκτησης δακτυλικών αποτυπωμάτων κεντρικού υπολογιστή!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Αποτυχία μεταφόρτωσης αρχείου: %1, (Το αρχείο ενδέχεται να μην υπάρχει ή να μην έχει άδεια να το ανοίξει."
+ },{
+  "en": "Fast",
+  "tr": "Γρήγορα"
+ },{
+  "en": "Favorites",
+  "tr": "Αγαπημένα"
+ },{
+  "en": "Features",
+  "tr": "Χαρακτηριστικά"
+ },{
+  "en": "File",
+  "tr": "Αρχείο"
+ },{
+  "en": "file",
+  "tr": "αρχείο"
+ },{
+  "en": "File Link",
+  "tr": "Σύνδεσμος αρχείου"
+ },{
+  "en": "File Name",
+  "tr": "Όνομα αρχείου"
+ },{
+  "en": "File name",
+  "tr": "Ονομα αρχείου"
+ },{
+  "en": "File Path",
+  "tr": "Διαδρομή αρχείου"
+ },{
+  "en": "Filer",
+  "tr": "Αρχειοθέτης"
+ },{
+  "en": "filer",
+  "tr": "filer"
+ },{
+  "en": "Filter",
+  "tr": "Φίλτρο"
+ },{
+  "en": "Find",
+  "tr": "Εύρεση"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Εύρεση όλων"
+ },{
+  "en": "Find in Files",
+  "tr": "Εύρεση στα αρχεία"
+ },{
+  "en": "Find Next",
+  "tr": "Εύρεση επόμενου"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Εύρεση επόμενης επιλογής"
+ },{
+  "en": "Find Previous",
+  "tr": "Εύρεση προηγούμενου"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Εύρεση προηγούμενης επιλογής"
+ },{
+  "en": "Fingerprint",
+  "tr": "Δακτυλικό αποτύπωμα"
+ },{
+  "en": "First nine tabs",
+  "tr": "Οι πρώτες εννέα καρτέλες"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Float"
+ },{
+  "en": "Flow Control",
+  "tr": "Έλεγχος ροής"
+ },{
+  "en": "Focus Mode",
+  "tr": "Λειτουργία εστίασης"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Ρυθμίσεις λειτουργίας εστίασης"
+ },{
+  "en": "Fold",
+  "tr": "Διπλώστε"
+ },{
+  "en": "Fold All",
+  "tr": "Διπλώστε όλα"
+ },{
+  "en": "Fold Category",
+  "tr": "Κατηγορία διπλώματος"
+ },{
+  "en": "Fold Inside",
+  "tr": "Διπλώστε μέσα"
+ },{
+  "en": "Folds",
+  "tr": "Διπλώνει"
+ },{
+  "en": "Font",
+  "tr": "Γραμματοσειρά"
+ },{
+  "en": "Font family",
+  "tr": "Οικογένεια γραμματοσειράς"
+ },{
+  "en": "Font size",
+  "tr": "Μέγεθος γραμματοσειράς"
+ },{
+  "en": "Font weight",
+  "tr": "Βάρος γραμματοσειράς"
+ },{
+  "en": "Forest Green",
+  "tr": "Forest Green"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Επιλογή μορφής"
+ },{
+  "en": "Found",
+  "tr": "Βρέθηκαν"
+ },{
+  "en": "Full month name",
+  "tr": "Όνομα πλήρους μήνα"
+ },{
+  "en": "Full Screen",
+  "tr": "Πλήρης οθόνη"
+ },{
+  "en": "Full screen",
+  "tr": "ΠΛΗΡΗΣ ΟΘΟΝΗ"
+ },{
+  "en": "Full weekday name",
+  "tr": "Πλήρες όνομα καθημερινής"
+ },{
+  "en": "Go Backward",
+  "tr": "Επιστροφή προς τα πίσω"
+ },{
+  "en": "Go Forward",
+  "tr": "Προχωρήστε"
+ },{
+  "en": "Go to",
+  "tr": "Παω σε"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Μεταβείτε στο Σύμβολο στην τρέχουσα προβολή"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod"
+ },{
+  "en": "Goto",
+  "tr": "Μετάβαση"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Μετάβαση στη γραμμή διευθύνσεων"
+ },{
+  "en": "Goto File",
+  "tr": "Μετάβαση στο αρχείο"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto Fold Header"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Μετάβαση στην επόμενη πτυσσόμενη κεφαλίδα"
+ },{
+  "en": "Goto Position",
+  "tr": "Μετάβαση στη θέση"
+ },{
+  "en": "Goto Session",
+  "tr": "Goto Session"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Σύμβολο Goto"
+ },{
+  "en": "Group",
+  "tr": "Ομάδα"
+ },{
+  "en": "Group %1",
+  "tr": "Ομάδα %1"
+ },{
+  "en": "Groups",
+  "tr": "Ομάδες"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi με μικρόφωνο"
+ },{
+  "en": "Hard Reset",
+  "tr": "Σκληρή επαναφορά"
+ },{
+  "en": "Help",
+  "tr": "Βοήθεια"
+ },{
+  "en": "Hex",
+  "tr": "Εξάγωνο"
+ },{
+  "en": "Hex Base",
+  "tr": "Εξάγωνη βάση"
+ },{
+  "en": "Hex Columns",
+  "tr": "Εξάγωνες στήλες"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex Edit"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex Group Chars"
+ },{
+  "en": "Hidden",
+  "tr": "Κρυμμένος"
+ },{
+  "en": "Hide",
+  "tr": "Κρύβω"
+ },{
+  "en": "Hide All",
+  "tr": "Απόκρυψη όλων"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Απόκρυψη δρομέα κατά την πληκτρολόγηση"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Απόκρυψη κειμένου"
+ },{
+  "en": "Highlight",
+  "tr": "Αποκορύφωμα"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Highlight Caret Line"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Highlight Matching Pair"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Επισημάνετε τη γραμμή φροντίδας"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Επισημάνετε την προσεκτική λέξη"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Επισημάνετε την τρέχουσα πτυχή"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Επισημάνετε το τρέχον ζεύγος"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Επισημάνετε τη σταδιακή αναζήτηση"
+ },{
+  "en": "History",
+  "tr": "Ιστορία"
+ },{
+  "en": "Home Of Line",
+  "tr": "Home Of Line"
+ },{
+  "en": "Host",
+  "tr": "Πλήθος"
+ },{
+  "en": "Host address",
+  "tr": "Διεύθυνση κεντρικού υπολογιστή"
+ },{
+  "en": "Host Based",
+  "tr": "Με βάση τον οικοδεσπότη"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Oursρες σε 12 μορφές"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Hρες σε 24 μορφές"
+ },{
+  "en": "Http proxy",
+  "tr": "Διαμεσολαβητής HTTP"
+ },{
+  "en": "Huge File",
+  "tr": "Τεράστιο αρχείο"
+ },{
+  "en": "Icon",
+  "tr": "Εικόνισμα"
+ },{
+  "en": "Identity file",
+  "tr": "Αρχείο ταυτότητας"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Αρχείο ταυτότητας για έλεγχο ταυτότητας"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Εάν δημιουργήσετε έναν κύριο κωδικό πρόσβασης, θα σας ζητηθεί να τον εισαγάγετε όταν το WindTerm ανακτήσει αποθηκευμένες πληροφορίες που προστατεύονται από τον κύριο κωδικό πρόσβασης."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Εάν ξεχάσετε τον κύριο κωδικό πρόσβασής σας, δεν θα έχετε πρόσβαση σε καμία από τις πληροφορίες που προστατεύονται από αυτόν."
+ },{
+  "en": "Import",
+  "tr": "Εισαγωγή"
+ },{
+  "en": "Import sessions",
+  "tr": "Εισαγωγή περιόδων σύνδεσης"
+ },{
+  "en": "In Selection",
+  "tr": "Στην Επιλογή"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Αύξηση εσοχής γραμμής"
+ },{
+  "en": "Incremental",
+  "tr": "Σταδιακή"
+ },{
+  "en": "Indent",
+  "tr": "Οδοντώ"
+ },{
+  "en": "Indent guide style",
+  "tr": "Στυλ οδηγού εσοχής"
+ },{
+  "en": "Indent Guides",
+  "tr": "Οδηγοί εσοχής"
+ },{
+  "en": "Indent size",
+  "tr": "Μέγεθος εσοχής"
+ },{
+  "en": "Indentation",
+  "tr": "Εσοχή"
+ },{
+  "en": "Indian Red",
+  "tr": "Indian Red"
+ },{
+  "en": "Information",
+  "tr": "Πληροφορίες"
+ },{
+  "en": "Insert",
+  "tr": "Εισαγωγή"
+ },{
+  "en": "Insert File",
+  "tr": "Εισαγωγή αρχείου"
+ },{
+  "en": "Insert Lines",
+  "tr": "Εισαγωγή γραμμών"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Εισαγωγή καρτέλας όταν πατάτε το πλήκτρο TAB"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Η εισαγωγή και η διαγραφή λευκού χώρου ακολουθεί στάσεις καρτελών"
+ },{
+  "en": "Inserting file",
+  "tr": "Εισαγωγή αρχείου"
+ },{
+  "en": "Internal X display",
+  "tr": "Εσωτερική οθόνη X"
+ },{
+  "en": "Interval",
+  "tr": "Διάστημα"
+ },{
+  "en": "Invert Selection",
+  "tr": "Αντιστροφή επιλογής"
+ },{
+  "en": "item failed",
+  "tr": "το στοιχείο απέτυχε"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "τα στοιχεία απέτυχαν"
+ },{
+  "en": "Join Channel A",
+  "tr": "Εγγραφείτε στο κανάλι Α"
+ },{
+  "en": "Join Channel B",
+  "tr": "Εγγραφείτε στο κανάλι Β"
+ },{
+  "en": "Join Channel C",
+  "tr": "Εγγραφείτε στο κανάλι C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Εγγραφείτε στο κανάλι D"
+ },{
+  "en": "Join Lines",
+  "tr": "Join Lines"
+ },{
+  "en": "Joined",
+  "tr": "Εντάχθηκαν"
+ },{
+  "en": "Jump Server",
+  "tr": "Μετάβαση διακομιστή"
+ },{
+  "en": "Jump server",
+  "tr": "Μετάβαση διακομιστή"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Μετάβαση διακομιστών"
+ },{
+  "en": "Key Exchange",
+  "tr": "Ανταλλαγή κλειδιών"
+ },{
+  "en": "Key exchange order",
+  "tr": "Παραγγελία ανταλλαγής κλειδιών"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Επαναλλαγή κλειδιού"
+ },{
+  "en": "Keyboard",
+  "tr": "Πληκτρολόγιο"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Διαδραστικό πληκτρολόγιο"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Bar"
+ },{
+  "en": "Known",
+  "tr": "Γνωστός"
+ },{
+  "en": "Label",
+  "tr": "Επιγραφή"
+ },{
+  "en": "Language",
+  "tr": "Γλώσσα"
+ },{
+  "en": "Last sessions",
+  "tr": "Τελευταίες συνεδρίες"
+ },{
+  "en": "Layout",
+  "tr": "Σχέδιο"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Κορυφαία και πίσω κενά"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Κορυφαία κενά"
+ },{
+  "en": "Leading position",
+  "tr": "Ηγετική θέση"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Αποχώρηση από όλα τα κανάλια"
+ },{
+  "en": "Leave all channels",
+  "tr": "Αφήστε όλα τα κανάλια"
+ },{
+  "en": "Leave Channel",
+  "tr": "Αποχώρηση από το κανάλι"
+ },{
+  "en": "Left Docks",
+  "tr": "Αριστερά αποβάθρα"
+ },{
+  "en": "Left Group",
+  "tr": "Αριστερή ομάδα"
+ },{
+  "en": "Light",
+  "tr": "Φως"
+ },{
+  "en": "Line",
+  "tr": "Γραμμή"
+ },{
+  "en": "line",
+  "tr": "γραμμή"
+ },{
+  "en": "line at a time",
+  "tr": "γραμμή κάθε φορά"
+ },{
+  "en": "Line Down",
+  "tr": "Line Down"
+ },{
+  "en": "Line Ending",
+  "tr": "Λήξη γραμμής"
+ },{
+  "en": "Line Endings",
+  "tr": "Καταλήξεις γραμμής"
+ },{
+  "en": "Line Feed",
+  "tr": "ΓΡΑΜΜΗ ΤΡΟΦΟΔΟΣΙΑΣ"
+ },{
+  "en": "line height",
+  "tr": "ύψος γραμμής"
+ },{
+  "en": "Line marker",
+  "tr": "Δείκτης γραμμής"
+ },{
+  "en": "Line spacing",
+  "tr": "Απόσταση γραμμών"
+ },{
+  "en": "Line Up",
+  "tr": "Line Up"
+ },{
+  "en": "lines at a time",
+  "tr": "γραμμές κάθε φορά"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Γραμμές κύλισης κύλισης"
+ },{
+  "en": "Link",
+  "tr": "Σύνδεσμος"
+ },{
+  "en": "Link to",
+  "tr": "Συνδέω με"
+ },{
+  "en": "List Tab",
+  "tr": "Καρτέλα Λίστα"
+ },{
+  "en": "Listen Port",
+  "tr": "Λιμάνι ακρόασης"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Τοπική προώθηση"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Εντοπίστε το μήνυμα"
+ },{
+  "en": "Location",
+  "tr": "Τοποθεσία"
+ },{
+  "en": "Lock Screen",
+  "tr": "Κλείδωμα οθόνης"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Λήξη χρόνου κλειδώματος οθόνης"
+ },{
+  "en": "Lock Selection",
+  "tr": "Επιλογή κλειδώματος"
+ },{
+  "en": "Log",
+  "tr": "Αρχείο καταγραφής"
+ },{
+  "en": "Log all session output",
+  "tr": "Καταγραφή όλων των εξόδων της περιόδου λειτουργίας"
+ },{
+  "en": "Log content pattern",
+  "tr": "Μοτίβο καταγραφής περιεχομένου"
+ },{
+  "en": "Log Dialog",
+  "tr": "Log Dialog"
+ },{
+  "en": "Log file",
+  "tr": "Αρχείο καταγραφής"
+ },{
+  "en": "Log file name",
+  "tr": "Καταγραφή ονόματος αρχείου"
+ },{
+  "en": "Log maximum size",
+  "tr": "Μέγιστο μέγεθος καταγραφής"
+ },{
+  "en": "Log nothing",
+  "tr": "Καταγραφή τίποτα"
+ },{
+  "en": "Log option",
+  "tr": "Επιλογή καταγραφής"
+ },{
+  "en": "Log options",
+  "tr": "Επιλογές καταγραφής"
+ },{
+  "en": "Log pattern",
+  "tr": "Μοτίβο καταγραφής"
+ },{
+  "en": "Log printable output",
+  "tr": "Καταγραφή εκτυπώσιμης εξόδου"
+ },{
+  "en": "Log type",
+  "tr": "Τύπος καταγραφής"
+ },{
+  "en": "Log types",
+  "tr": "Τύποι καταγραφής"
+ },{
+  "en": "Logging",
+  "tr": "Ξύλευση"
+ },{
+  "en": "Login",
+  "tr": "Σύνδεση"
+ },{
+  "en": "Login Wizard",
+  "tr": "Οδηγός σύνδεσης"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Μεγάλη ώρα/Ημερομηνία"
+ },{
+  "en": "Look both guide",
+  "tr": "Δείτε και τους δύο οδηγούς"
+ },{
+  "en": "Look forward guide",
+  "tr": "Ανυπομονώ για τον οδηγό"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC εντολή κατακερματισμού"
+ },{
+  "en": "Margin Blank",
+  "tr": "Κενό περιθώριο"
+ },{
+  "en": "Margin Fold",
+  "tr": "Margin Fold"
+ },{
+  "en": "Margin Number",
+  "tr": "Αριθμός περιθωρίου"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Σύμβολο περιθωρίου"
+ },{
+  "en": "Margin Text",
+  "tr": "Κείμενο περιθωρίου"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Χρονική σήμανση περιθωρίου"
+ },{
+  "en": "Margins",
+  "tr": "Περιθώρια"
+ },{
+  "en": "Marker style",
+  "tr": "Στυλ δείκτη"
+ },{
+  "en": "Master Password",
+  "tr": "Κύριος κωδικός πρόσβασης"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Μέγ. Δεδομένα πριν από το κλειδί(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Μέγιστος χρόνος πριν από το rekey(Λεπτά)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Μέγιστο χρονικό όριο σύνδεσης"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Μεσαίο"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Μεσαία Ορχιδέα"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Μπλε μεσαίας πλάκας"
+ },{
+  "en": "Menu Bar",
+  "tr": "Μπαρ μενού"
+ },{
+  "en": "Merge To Group",
+  "tr": "Συγχώνευση σε ομάδα"
+ },{
+  "en": "Middle click",
+  "tr": "Μεσαίο κλικ"
+ },{
+  "en": "Middle click event",
+  "tr": "Συμβάν μεσαίου κλικ"
+ },{
+  "en": "Milliseconds",
+  "tr": "Χιλιοστά του δευτερολέπτου"
+ },{
+  "en": "Minutes",
+  "tr": "Πρακτικά"
+ },{
+  "en": "minutes",
+  "tr": "λεπτά"
+ },{
+  "en": "Mismatched",
+  "tr": "Αταίριαστο"
+ },{
+  "en": "Mode",
+  "tr": "Λειτουργία"
+ },{
+  "en": "Modem waiting",
+  "tr": "Το μόντεμ περιμένει"
+ },{
+  "en": "Modes",
+  "tr": "Λειτουργίες"
+ },{
+  "en": "Modified",
+  "tr": "Τροποποιημένο"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Τροποποίηση"
+ },{
+  "en": "Modify Lines",
+  "tr": "Τροποποίηση γραμμών"
+ },{
+  "en": "Month",
+  "tr": "Μήνας"
+ },{
+  "en": "More",
+  "tr": "Περισσότερα"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Ενέργειες ποντικιού"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Παρακολούθηση ποντικιού"
+ },{
+  "en": "Move Down",
+  "tr": "Μετακινηθείτε προς τα κάτω"
+ },{
+  "en": "Move event",
+  "tr": "Μετακίνηση συμβάντος"
+ },{
+  "en": "Move to",
+  "tr": "Μετακομίζω κάπου"
+ },{
+  "en": "Move To Group",
+  "tr": "Μετάβαση στην ομάδα"
+ },{
+  "en": "Move Up",
+  "tr": "Μετακίνηση προς τα επάνω"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Multiple Caret"
+ },{
+  "en": "Name",
+  "tr": "Ονομα"
+ },{
+  "en": "nesting groups",
+  "tr": "ομάδες φωλιάσματος"
+ },{
+  "en": "Never",
+  "tr": "Ποτέ"
+ },{
+  "en": "New directory",
+  "tr": "Νέος κατάλογος"
+ },{
+  "en": "New File",
+  "tr": "Νέο αρχείο"
+ },{
+  "en": "New file",
+  "tr": "Νέο αρχείο"
+ },{
+  "en": "New Line",
+  "tr": "Νέα γραμμή"
+ },{
+  "en": "New link",
+  "tr": "Νέος σύνδεσμος"
+ },{
+  "en": "New password",
+  "tr": "Νέος Κωδικός"
+ },{
+  "en": "New Session",
+  "tr": "Νέα συνεδρία"
+ },{
+  "en": "New Window",
+  "tr": "Νέο Παράθυρο"
+ },{
+  "en": "Next Char",
+  "tr": "Επόμενο Char"
+ },{
+  "en": "Next Fold",
+  "tr": "Επόμενο πάσο"
+ },{
+  "en": "Next Indentation",
+  "tr": "Επόμενη εσοχή"
+ },{
+  "en": "Next Line",
+  "tr": "Επόμενη γραμμή"
+ },{
+  "en": "Next Message",
+  "tr": "Επόμενο μήνυμα"
+ },{
+  "en": "Next Page",
+  "tr": "Επόμενη σελίδα"
+ },{
+  "en": "Next Pair",
+  "tr": "Επόμενο ζεύγος"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Επόμενη παράγραφος"
+ },{
+  "en": "Next Scope",
+  "tr": "Επόμενο πεδίο"
+ },{
+  "en": "Next Segment End",
+  "tr": "Τέλος επόμενου τμήματος"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Έναρξη επόμενου τμήματος"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Επόμενη σελίδα με τραυλισμό"
+ },{
+  "en": "Next Word",
+  "tr": "Επόμενη λέξη"
+ },{
+  "en": "Next Word End",
+  "tr": "Τέλος λέξης"
+ },{
+  "en": "Next Word Part",
+  "tr": "Επόμενο μέρος λέξης"
+ },{
+  "en": "No",
+  "tr": "Οχι"
+ },{
+  "en": "No action",
+  "tr": "Καμία ενέργεια"
+ },{
+  "en": "No Dirs",
+  "tr": "Όχι Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Καμία ελίτ"
+ },{
+  "en": "No file opened",
+  "tr": "Δεν άνοιξε κανένα αρχείο"
+ },{
+  "en": "No filer available",
+  "tr": "Δεν υπάρχει διαθέσιμο αρχείο"
+ },{
+  "en": "No Files",
+  "tr": "Χωρίς αρχεία"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Δεν επιλέχθηκαν αρχεία για μεταφορά."
+ },{
+  "en": "No item opened",
+  "tr": "Δεν άνοιξε κανένα στοιχείο"
+ },{
+  "en": "No outline available",
+  "tr": "Δεν υπάρχει διαθέσιμο περίγραμμα"
+ },{
+  "en": "No proxy",
+  "tr": "Χωρίς διακομιστή μεσολάβησης"
+ },{
+  "en": "No session",
+  "tr": "Χωρίς συνεδρία"
+ },{
+  "en": "No session available",
+  "tr": "Δεν υπάρχει διαθέσιμη περίοδος σύνδεσης"
+ },{
+  "en": "No session opened",
+  "tr": "Δεν άνοιξε καμία συνεδρία"
+ },{
+  "en": "No Sessions",
+  "tr": "Χωρίς περιόδους σύνδεσης"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Δεν υπάρχουν διαθέσιμες υποστηριζόμενες μέθοδοι ελέγχου ταυτότητας."
+ },{
+  "en": "No transfer available",
+  "tr": "Δεν υπάρχει διαθέσιμη μεταφορά"
+ },{
+  "en": "No wrap",
+  "tr": "Χωρίς περιτύλιγμα"
+ },{
+  "en": "No X display",
+  "tr": "Χωρίς οθόνη X"
+ },{
+  "en": "None",
+  "tr": "Κανένας"
+ },{
+  "en": "None tabs",
+  "tr": "Καμία καρτέλα"
+ },{
+  "en": "Normal",
+  "tr": "Κανονικός"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Τώρα"
+ },{
+  "en": "Nowhere",
+  "tr": "Πουθενά"
+ },{
+  "en": "Octal",
+  "tr": "Octal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM σε ANSI"
+ },{
+  "en": "Off",
+  "tr": "Μακριά από"
+ },{
+  "en": "off",
+  "tr": "μακριά από"
+ },{
+  "en": "Ok",
+  "tr": "Εντάξει"
+ },{
+  "en": "Old",
+  "tr": "Παλαιός"
+ },{
+  "en": "Old password",
+  "tr": "ΠΑΛΙΟΣ ΚΩΔΙΚΟΣ"
+ },{
+  "en": "Olive",
+  "tr": "Ελιά"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Ανοίγουν μία ή περισσότερες συνεδρίες, (Θέλετε να κλείσετε το τρέχον παράθυρο;"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Μόνο το αρχείο δίσκου μπορεί να φορτωθεί ξανά!"
+ },{
+  "en": "Only indentation",
+  "tr": "Μόνο εσοχή"
+ },{
+  "en": "Opaque",
+  "tr": "Αδιαφανής"
+ },{
+  "en": "Open",
+  "tr": "Άνοιγμα"
+ },{
+  "en": "open",
+  "tr": "Άνοιξε"
+ },{
+  "en": "Open directory after created",
+  "tr": "Άνοιγμα καταλόγου μετά τη δημιουργία"
+ },{
+  "en": "Open directory after download",
+  "tr": "Άνοιγμα καταλόγου μετά τη λήψη"
+ },{
+  "en": "Open File",
+  "tr": "Άνοιγμα αρχείου"
+ },{
+  "en": "Open file",
+  "tr": "Ανοιγμα αρχείου"
+ },{
+  "en": "Open file after created",
+  "tr": "Άνοιγμα αρχείου μετά τη δημιουργία"
+ },{
+  "en": "Open file failed!",
+  "tr": "Το άνοιγμα του αρχείου απέτυχε!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Ο διακομιστής ανοιχτού άλματος απέτυχε!"
+ },{
+  "en": "Open Log File",
+  "tr": "Άνοιγμα αρχείου καταγραφής"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Άνοιγμα φακέλου καταγραφής"
+ },{
+  "en": "Open Recent",
+  "tr": "Άνοιγμα πρόσφατων"
+ },{
+  "en": "Open Selection",
+  "tr": "Άνοιγμα επιλογής"
+ },{
+  "en": "Open Session",
+  "tr": "Ανοιχτή συνεδρία"
+ },{
+  "en": "Open session failed!",
+  "tr": "Η ανοιχτή συνεδρία απέτυχε!"
+ },{
+  "en": "Open target directory",
+  "tr": "Άνοιγμα καταλόγου προορισμού"
+ },{
+  "en": "Open with default editor",
+  "tr": "Άνοιγμα με προεπιλεγμένο επεξεργαστή"
+ },{
+  "en": "Opened",
+  "tr": "Άνοιξε"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Συνεδρίες ανοίγματος"
+ },{
+  "en": "Others",
+  "tr": "Οι υπολοιποι"
+ },{
+  "en": "Outline",
+  "tr": "Περίγραμμα"
+ },{
+  "en": "Output",
+  "tr": "Παραγωγή"
+ },{
+  "en": "Overtype",
+  "tr": "Overtype"
+ },{
+  "en": "Overwrite",
+  "tr": "Αντικαταστήστε"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Αντικατάσταση αρχείου καταγραφής"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Αντικατάσταση όταν το αρχείο προέλευσης είναι νεότερο"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Αντικατάσταση όταν το αρχείο προέλευσης είναι νεότερο ή μεγαλύτερο"
+ },{
+  "en": "Owner",
+  "tr": "Ιδιοκτήτης"
+ },{
+  "en": "Packet padding char",
+  "tr": "Συσκευασία γεμίσματος πακέτων"
+ },{
+  "en": "Packet size",
+  "tr": "Μέγεθος πακέτου"
+ },{
+  "en": "Page",
+  "tr": "Σελίδα"
+ },{
+  "en": "page",
+  "tr": "σελίδα"
+ },{
+  "en": "Pair",
+  "tr": "Ζεύγος"
+ },{
+  "en": "Panes",
+  "tr": "Τζάμια"
+ },{
+  "en": "Paragraph",
+  "tr": "Παράγραφος"
+ },{
+  "en": "Parity",
+  "tr": "Ισοτιμία"
+ },{
+  "en": "Passphrase",
+  "tr": "Φράση πρόσβασης"
+ },{
+  "en": "Password",
+  "tr": "Κωδικός πρόσβασης"
+ },{
+  "en": "Password quality meter",
+  "tr": "Μετρητής ποιότητας κωδικού πρόσβασης"
+ },{
+  "en": "Paste",
+  "tr": "Επικόλληση"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Επικόλληση διαλόγου"
+ },{
+  "en": "Paste text",
+  "tr": "Επικόλληση κειμένου"
+ },{
+  "en": "Pause",
+  "tr": "Παύση"
+ },{
+  "en": "Paused",
+  "tr": "Σε παύση"
+ },{
+  "en": "Pausing",
+  "tr": "Παύση"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Εκτέλεση αναζήτησης DNS με διακομιστή μεσολάβησης"
+ },{
+  "en": "Period",
+  "tr": "Περίοδος"
+ },{
+  "en": "Permissions",
+  "tr": "Άδειες"
+ },{
+  "en": "pixels",
+  "tr": "εικονοστοιχεία"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Εισαγάγετε ένα νέο όνομα για αυτήν την προβολή"
+ },{
+  "en": "Please input master password",
+  "tr": "Εισαγάγετε τον κύριο κωδικό πρόσβασης"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Εισαγάγετε τον κύριο κωδικό πρόσβασης, αδειάστε ή ακυρώστε για απενεργοποίηση"
+ },{
+  "en": "Please input new group",
+  "tr": "Παρακαλώ εισάγετε νέα ομάδα"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Βεβαιωθείτε ότι θυμάστε τον κύριο κωδικό πρόσβασης που έχετε ορίσει."
+ },{
+  "en": "Port",
+  "tr": "Λιμάνι"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Προτιμήστε γραμματοσειρές θέματος"
+ },{
+  "en": "Preferences",
+  "tr": "Προτιμήσεις"
+ },{
+  "en": "Preserve",
+  "tr": "Διατηρώ"
+ },{
+  "en": "Preview All",
+  "tr": "Προεπισκόπηση όλων"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Σύμβολο προεπισκόπησης"
+ },{
+  "en": "Previous Char",
+  "tr": "Προηγούμενο Char"
+ },{
+  "en": "Previous Fold",
+  "tr": "Προηγούμενο πάσο"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Προηγούμενη εσοχή"
+ },{
+  "en": "Previous Line",
+  "tr": "Προηγούμενη γραμμή"
+ },{
+  "en": "Previous Message",
+  "tr": "Προηγούμενο μήνυμα"
+ },{
+  "en": "Previous Page",
+  "tr": "Προηγούμενη σελίδα"
+ },{
+  "en": "Previous Pair",
+  "tr": "Προηγούμενο ζεύγος"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Προηγούμενη παράγραφος"
+ },{
+  "en": "Previous Scope",
+  "tr": "Προηγούμενο πεδίο εφαρμογής"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Τέλος προηγούμενου τμήματος"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Έναρξη προηγούμενου τμήματος"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Προηγούμενη σελίδα με τραυλισμό"
+ },{
+  "en": "Previous Word",
+  "tr": "Προηγούμενη λέξη"
+ },{
+  "en": "Previous Word End",
+  "tr": "Προηγούμενο τέλος λέξης"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Προηγούμενο μέρος λέξεων"
+ },{
+  "en": "Printable output",
+  "tr": "Εκτυπώσιμη έξοδος"
+ },{
+  "en": "Process",
+  "tr": "Επεξεργάζομαι, διαδικασία"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Η διαδικασία %1 κατέρρευσε."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Η διαδικασία %1 απέτυχε να ξεκινήσει."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Διαδικασία %1 timeout."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Πρόγραμμα [Επιχειρήματα]"
+ },{
+  "en": "Project",
+  "tr": "Έργο"
+ },{
+  "en": "Properties",
+  "tr": "Ιδιότητες"
+ },{
+  "en": "Property",
+  "tr": "Ιδιοκτησία"
+ },{
+  "en": "Protocol",
+  "tr": "Πρωτόκολλο"
+ },{
+  "en": "Proxy",
+  "tr": "Πληρεξούσιο"
+ },{
+  "en": "Proxy Host",
+  "tr": "Διακομιστής μεσολάβησης"
+ },{
+  "en": "Proxy Port",
+  "tr": "Proxy Port"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Ρυθμίσεις διακομιστή μεσολάβησης"
+ },{
+  "en": "Proxy Type",
+  "tr": "Τύπος διακομιστή μεσολάβησης"
+ },{
+  "en": "Public Key",
+  "tr": "Δημόσιο Κλειδί"
+ },{
+  "en": "Public Keys",
+  "tr": "Δημόσια κλειδιά"
+ },{
+  "en": "Public keys order",
+  "tr": "Παραγγελία δημόσιων κλειδιών"
+ },{
+  "en": "Putty sessions",
+  "tr": "Συνεδρίες στόκου"
+ },{
+  "en": "Query URL",
+  "tr": "Διεύθυνση URL ερωτήματος"
+ },{
+  "en": "Question",
+  "tr": "Ερώτηση"
+ },{
+  "en": "Quick",
+  "tr": "Γρήγορα"
+ },{
+  "en": "Quick Bar",
+  "tr": "Γρήγορο μπαρ"
+ },{
+  "en": "Quick Commands",
+  "tr": "Γρήγορες εντολές"
+ },{
+  "en": "Read Only",
+  "tr": "Μόνο για ανάγνωση"
+ },{
+  "en": "Ready",
+  "tr": "Ετοιμος"
+ },{
+  "en": "Real guide",
+  "tr": "Πραγματικός οδηγός"
+ },{
+  "en": "Receive XModem",
+  "tr": "Λήψη XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Λήψη YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Λήψη ZModem"
+ },{
+  "en": "received",
+  "tr": "έλαβε"
+ },{
+  "en": "Recent",
+  "tr": "Πρόσφατος"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Πρόσφατες συνεδρίες"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Επανασύνδεση περιόδου σύνδεσης"
+ },{
+  "en": "Rectangle",
+  "tr": "Ορθογώνιο παραλληλόγραμμο"
+ },{
+  "en": "rectangle",
+  "tr": "ορθογώνιο παραλληλόγραμμο"
+ },{
+  "en": "Red",
+  "tr": "Κόκκινο"
+ },{
+  "en": "Redo",
+  "tr": "Επανάληψη"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Επαναφορά %1 Ενέργειες"
+ },{
+  "en": "Refresh",
+  "tr": "Ανανέωση"
+ },{
+  "en": "Regular Expression",
+  "tr": "Κοινή έκφραση"
+ },{
+  "en": "Reload",
+  "tr": "Φορτώνω πάλι"
+ },{
+  "en": "Reload File",
+  "tr": "Επαναφόρτωση αρχείου"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Επαναφόρτωση με κωδικοποίηση"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Απομακρυσμένη προώθηση"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Απομακρυσμένη διαδρομή"
+ },{
+  "en": "Remove",
+  "tr": "Μετακινητής)"
+ },{
+  "en": "remove",
+  "tr": "αφαιρώ"
+ },{
+  "en": "Remove All",
+  "tr": "Κατάργηση όλων"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Κατάργηση κενών γραμμών"
+ },{
+  "en": "Remove Command",
+  "tr": "Κατάργηση εντολής"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Κατάργηση διπλών γραμμών"
+ },{
+  "en": "Remove Group",
+  "tr": "Κατάργηση ομάδας"
+ },{
+  "en": "Remove items",
+  "tr": "Αφαίρεση στοιχείων"
+ },{
+  "en": "Remove Sender",
+  "tr": "Κατάργηση αποστολέα"
+ },{
+  "en": "Removing",
+  "tr": "Αφαίρεση"
+ },{
+  "en": "Rename",
+  "tr": "Μετονομάζω"
+ },{
+  "en": "Rename Group",
+  "tr": "Μετονομασία ομάδας"
+ },{
+  "en": "Rename tab",
+  "tr": "Μετονομασία καρτέλας"
+ },{
+  "en": "Rename View",
+  "tr": "Μετονομασία προβολής"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Ανοίξτε ξανά την κλειστή προβολή"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Επανάληψη τελευταίας εντολής"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Επανειλημμένη εκτέλεση"
+ },{
+  "en": "Replace",
+  "tr": "Αντικατάσταση"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Αντικατάσταση όλων"
+ },{
+  "en": "Replace in Files",
+  "tr": "Αντικατάσταση στα αρχεία"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Απαιτείται επανεκκίνηση για να επηρεαστεί"
+ },{
+  "en": "Reset",
+  "tr": "Επαναφορά"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Επαναφορά συνόλου χαρακτήρων"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Επαναφορά ζουμ"
+ },{
+  "en": "Resume",
+  "tr": "ΒΙΟΓΡΑΦΙΚΟ"
+ },{
+  "en": "Resuming",
+  "tr": "Επανέναρξη"
+ },{
+  "en": "Right click",
+  "tr": "Κάντε δεξί κλικ"
+ },{
+  "en": "Right click event",
+  "tr": "Συμβάν δεξιού κλικ"
+ },{
+  "en": "Right Docks",
+  "tr": "Δεξιά αποβάθρα"
+ },{
+  "en": "Right Group",
+  "tr": "Δεξιά ομάδα"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Περιστρέψτε τον τροχό του ποντικιού για κύλιση"
+ },{
+  "en": "Rows",
+  "tr": "Σειρές"
+ },{
+  "en": "Royal Blue",
+  "tr": "Royal Blue"
+ },{
+  "en": "Run Tool",
+  "tr": "Εκτέλεση εργαλείου"
+ },{
+  "en": "Save",
+  "tr": "Αποθηκεύσετε"
+ },{
+  "en": "Save All",
+  "tr": "Αποθήκευση όλων"
+ },{
+  "en": "Save As",
+  "tr": "Αποθήκευση ως"
+ },{
+  "en": "Save Copy As",
+  "tr": "Αποθήκευση αντιγραφής ως"
+ },{
+  "en": "Save file failed!",
+  "tr": "Η αποθήκευση αρχείου απέτυχε!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Αποθήκευση επιλογής ως"
+ },{
+  "en": "Save Session",
+  "tr": "Αποθήκευση συνεδρίας"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Αποθηκευμένος αυτόματος έλεγχος ταυτότητας"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Εργαλεία σχεδίου"
+ },{
+  "en": "Scope",
+  "tr": "Πεδίο εφαρμογής"
+ },{
+  "en": "Screen Locked",
+  "tr": "Κλειδωμένη οθόνη"
+ },{
+  "en": "Scroll Left",
+  "tr": "Κύλιση Αριστερά"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Κύλιση προς τα κάτω"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Scroll Line Up"
+ },{
+  "en": "Scroll Right",
+  "tr": "Κάντε κύλιση δεξιά"
+ },{
+  "en": "Search",
+  "tr": "Αναζήτηση"
+ },{
+  "en": "Search engine",
+  "tr": "Μηχανές αναζήτησης)"
+ },{
+  "en": "Search Engine",
+  "tr": "Μηχανή αναζήτησης"
+ },{
+  "en": "Search Engines",
+  "tr": "Μηχανές αναζήτησης"
+ },{
+  "en": "Search Online",
+  "tr": "Αναζήτηση στο Διαδίκτυο"
+ },{
+  "en": "Search or enter address",
+  "tr": "Αναζήτηση ή εισαγωγή διεύθυνσης"
+ },{
+  "en": "Searching",
+  "tr": "Ερευνητικός"
+ },{
+  "en": "Seconds",
+  "tr": "Δευτερόλεπτα"
+ },{
+  "en": "seconds",
+  "tr": "δευτερόλεπτα"
+ },{
+  "en": "Security",
+  "tr": "Ασφάλεια"
+ },{
+  "en": "Segment",
+  "tr": "Τμήμα"
+ },{
+  "en": "Select",
+  "tr": "Επιλέξτε"
+ },{
+  "en": "Select All",
+  "tr": "Επιλογή όλων"
+ },{
+  "en": "Select Column To",
+  "tr": "Επιλογή στήλης προς"
+ },{
+  "en": "Select copy folder",
+  "tr": "Επιλέξτε φάκελο αντιγραφής"
+ },{
+  "en": "Select copy items",
+  "tr": "Επιλέξτε αντιγραφή στοιχείων"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Επιλέξτε κατάλογο για λήψη"
+ },{
+  "en": "Select download folder",
+  "tr": "Επιλέξτε φάκελο λήψης"
+ },{
+  "en": "Select files to send",
+  "tr": "Επιλέξτε αρχεία προς αποστολή"
+ },{
+  "en": "Select Fold",
+  "tr": "Επιλέξτε Fold"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Επιλέξτε Απόσπασμα προς τα πίσω"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Επιλέξτε Snippet Forward"
+ },{
+  "en": "Select To",
+  "tr": "Επιλέξτε Προς"
+ },{
+  "en": "Select upload items",
+  "tr": "Επιλέξτε στοιχεία μεταφόρτωσης"
+ },{
+  "en": "Selected position",
+  "tr": "Επιλεγμένη θέση"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Επιλεγμένες συνεδρίες"
+ },{
+  "en": "Selection",
+  "tr": "Επιλογή"
+ },{
+  "en": "Send",
+  "tr": "Στείλετε"
+ },{
+  "en": "Send line By line",
+  "tr": "Αποστολή γραμμής με γραμμή"
+ },{
+  "en": "Send Text",
+  "tr": "Στείλε μήνυμα"
+ },{
+  "en": "Send XModem",
+  "tr": "Αποστολή XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Αποστολή YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Αποστολή ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Αποστολέας"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Η αποστολή %1 απέτυχε: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Αποστολή: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Στέλνει μηδενικό πακέτο για να διατηρήσει τη συνεδρία ζωντανή"
+ },{
+  "en": "sent",
+  "tr": "Απεσταλμένα"
+ },{
+  "en": "Serial",
+  "tr": "Σειριακό"
+ },{
+  "en": "Server",
+  "tr": "Υπηρέτης"
+ },{
+  "en": "Session",
+  "tr": "Συνεδρία"
+ },{
+  "en": "session",
+  "tr": "συνεδρία"
+ },{
+  "en": "Session Group",
+  "tr": "Ομάδα συνεδρίας"
+ },{
+  "en": "Session Log",
+  "tr": "Αρχείο καταγραφής συνεδρίας"
+ },{
+  "en": "Session name",
+  "tr": "Όνομα συνεδρίας"
+ },{
+  "en": "Session Settings",
+  "tr": "Ρυθμίσεις συνεδρίας"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Συνεδρίες σε όλα τα Windows"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Συνεδρίες στην τρέχουσα ομάδα"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Συνεδρίες στο τρέχον παράθυρο"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Συνεδρίες στην ομάδα %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Ορισμός προεπιλεγμένου επεξεργαστή"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Ορισμός χρώματος καρτέλας"
+ },{
+  "en": "Settings",
+  "tr": "Ρυθμίσεις"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Σχήμα"
+ },{
+  "en": "Shell",
+  "tr": "Κέλυφος"
+ },{
+  "en": "Shell sessions",
+  "tr": "Συνεδρίες Shell"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Συνεδρίες Shell"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Σύντομος χρόνος/ημερομηνία"
+ },{
+  "en": "Show",
+  "tr": "προβολή"
+ },{
+  "en": "Show All",
+  "tr": "Εμφάνιση όλων"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Εμφάνιση όλων των ανοικτών και πρόσφατων συντάξεων"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Εμφάνιση όλων των ανοιχτών και πρόσφατων τερματικών"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Εμφάνιση και εκτέλεση ενεργειών"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Εμφάνιση διαλόγου επιβεβαίωσης κλεισίματος καρτέλας"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Εμφάνιση διαλόγου επιβεβαίωσης κλεισίματος παραθύρου"
+ },{
+  "en": "Show column markers",
+  "tr": "Εμφάνιση δεικτών στηλών"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Εμφάνιση εντολών με αλφαβητική σειρά"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Εμφάνιση τρέχουσας ιδιότητας %1"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Εμφάνιση εντολών ομάδας με σειρά"
+ },{
+  "en": "Show group title",
+  "tr": "Εμφάνιση τίτλου ομάδας"
+ },{
+  "en": "Show hidden items",
+  "tr": "Εμφάνιση κρυφών στοιχείων"
+ },{
+  "en": "Show in %1",
+  "tr": "Εμφάνιση στο %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Εμφάνιση στο τέλος της γραμμής"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Εμφάνιση έναρξης γραμμής"
+ },{
+  "en": "Show In Selection",
+  "tr": "Εμφάνιση σε επιλογή"
+ },{
+  "en": "Show indent guide",
+  "tr": "Εμφάνιση οδηγού εσοχής"
+ },{
+  "en": "Show line endings",
+  "tr": "Εμφάνιση καταλήξεων γραμμών"
+ },{
+  "en": "Show menu",
+  "tr": "Εμφάνιση μενού"
+ },{
+  "en": "Show More Tools",
+  "tr": "Εμφάνιση περισσότερων εργαλείων"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Εμφάνιση πολλών ομάδων"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Εμφάνιση διαλόγου επικόλλησης στην εναλλακτική οθόνη"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Εμφάνιση διαλόγου επικόλλησης στην κύρια οθόνη"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Εμφάνιση κενών και καρτελών"
+ },{
+  "en": "Show Tabs",
+  "tr": "Εμφάνιση καρτελών"
+ },{
+  "en": "Show Text",
+  "tr": "Εμφάνιση κειμένου"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Εμφάνιση του αριθμού καρτέλας στις καρτέλες"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Εμφάνιση αυτού του διαλόγου όταν ξεκινά η λειτουργία εστίασης"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Εμφάνιση συμβόλων περιτύλιξης"
+ },{
+  "en": "Shrink",
+  "tr": "Μαζεύω"
+ },{
+  "en": "Size",
+  "tr": "Μέγεθος"
+ },{
+  "en": "Skip",
+  "tr": "Παραλείπω"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Κάλτσες διακομιστή μεσολάβησης v5"
+ },{
+  "en": "Soft Reset",
+  "tr": "Μαλακή επαναφορά"
+ },{
+  "en": "Sort",
+  "tr": "Ταξινόμηση"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Ταξινόμηση γραμμών υπόθεση χωρίς ευαισθησία"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Sort Lines Case Sensitive"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Ταξινόμηση γραμμών κατά τυχαία σειρά"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Ταξινόμηση γραμμών με αντίστροφη σειρά"
+ },{
+  "en": "spaces",
+  "tr": "χώρους"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Χώροι σε καρτέλες"
+ },{
+  "en": "Spacing",
+  "tr": "Κενό διάστημα"
+ },{
+  "en": "Special",
+  "tr": "Ειδικός"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Καθορίστε το πρωτόκολλο κατά τη μεταφορά και απόθεση αρχείων"
+ },{
+  "en": "Speed",
+  "tr": "Ταχύτητα"
+ },{
+  "en": "Split",
+  "tr": "Διαίρεση"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Split Group Horizontally"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Διαίρεση ομάδας κάθετα"
+ },{
+  "en": "Split Lines",
+  "tr": "Split Lines"
+ },{
+  "en": "Split Selection",
+  "tr": "Split Selection"
+ },{
+  "en": "Split To Group",
+  "tr": "Διαίρεση σε ομάδα"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Διαχωρισμένη θέα οριζόντια"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Διαχωρισμός προβολής κάθετα"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Έναρξη"
+ },{
+  "en": "Start Of Document",
+  "tr": "Έναρξη εγγράφου"
+ },{
+  "en": "Start Of Line",
+  "tr": "Έναρξη γραμμής"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Έναρξη ζεύγους"
+ },{
+  "en": "Startup",
+  "tr": "Ξεκίνα"
+ },{
+  "en": "Stash",
+  "tr": "Stash"
+ },{
+  "en": "Status Bar",
+  "tr": "Γραμμή κατάστασης"
+ },{
+  "en": "Stdin",
+  "tr": "Στίντιν"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Μπλε χάλυβα"
+ },{
+  "en": "Sticky",
+  "tr": "Κολλώδης"
+ },{
+  "en": "Stop",
+  "tr": "Να σταματήσει"
+ },{
+  "en": "Stop Bits",
+  "tr": "Διακοπή bit"
+ },{
+  "en": "Stop loading",
+  "tr": "Σταματήστε τη φόρτωση"
+ },{
+  "en": "Stop sender",
+  "tr": "Διακοπή αποστολέα"
+ },{
+  "en": "Stop Tools",
+  "tr": "Διακοπή εργαλείων"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Σταματήστε να παρακολουθείτε αυτό το αρχείο"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Εναλλαγή ροής και στήλης"
+ },{
+  "en": "switch to tab",
+  "tr": "μεταβείτε στην καρτέλα"
+ },{
+  "en": "Symbols",
+  "tr": "Σύμβολα"
+ },{
+  "en": "Sync channel",
+  "tr": "Συγχρονισμός καναλιού"
+ },{
+  "en": "Sync Edit",
+  "tr": "Συγχρονισμός επεξεργασίας"
+ },{
+  "en": "Sync Input",
+  "tr": "Συγχρονισμός εισόδου"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Συγχρονισμός εισόδου στο κανάλι %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Σχήματα σύνταξης"
+ },{
+  "en": "System",
+  "tr": "Σύστημα"
+ },{
+  "en": "Tab",
+  "tr": "Αυτί"
+ },{
+  "en": "Tab Color",
+  "tr": "Χρώμα καρτέλας"
+ },{
+  "en": "Tab Features",
+  "tr": "Χαρακτηριστικά καρτέλας"
+ },{
+  "en": "Tab Group",
+  "tr": "Ομάδα καρτελών"
+ },{
+  "en": "Tab Index",
+  "tr": "Ευρετήριο καρτελών"
+ },{
+  "en": "Tab size",
+  "tr": "Μέγεθος καρτέλας"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Λειτουργία elide κειμένου καρτέλας"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Μικρογραφία ραδιοφώνου"
+ },{
+  "en": "Tab Title",
+  "tr": "Τίτλος καρτέλας"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify Επιλεγμένες γραμμές"
+ },{
+  "en": "Tabs",
+  "tr": "Καρτέλες"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Καρτέλες σε διαστήματα"
+ },{
+  "en": "Target",
+  "tr": "Στόχος"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Φάκελος προορισμού"
+ },{
+  "en": "Targets",
+  "tr": "Στόχοι"
+ },{
+  "en": "TCP connection options",
+  "tr": "Επιλογές σύνδεσης TCP"
+ },{
+  "en": "Teal",
+  "tr": "Teal"
+ },{
+  "en": "Term",
+  "tr": "Όρος"
+ },{
+  "en": "Terminal",
+  "tr": "Τερματικό"
+ },{
+  "en": "terminal",
+  "tr": "τερματικό"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Ρυθμίσεις τερματικού"
+ },{
+  "en": "Text",
+  "tr": "Κείμενο"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Κείμενο: %1 γραμμές, %2 χαρακτήρες"
+ },{
+  "en": "The % sign",
+  "tr": "Το σήμα"
+ },{
+  "en": "The actual text to log",
+  "tr": "Το πραγματικό κείμενο για εγγραφή"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Ο φάκελος προορισμού είναι ένας υποφάκελος του φακέλου προέλευσης: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Το έγγραφο έχει τροποποιηθεί. \nΘέλετε να αποθηκεύσετε τις αλλαγές σας;"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Ο συνδυασμός πλήκτρων(%1) δεν είναι εντολή."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Το lrzsz δεν ανιχνεύεται. Παρακαλούμε εγκαταστήστε πρώτα το lrzsz."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Ο κύριος κωδικός πρόσβασης άλλαξε."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Η επιβεβαίωση κωδικού πρόσβασης δεν ταιριάζει."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Ο διακομιστής ακύρωσε τη μετάδοση."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Η περίοδος σύνδεσης είναι <b> αποσυνδεδεμένη </b>, πατήστε <b> Enter </b> για επανασύνδεση."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Η μεταφορά ακυρώθηκε επειδή ένα πακέτο δεν ήταν %1 εντός του ορίου επανάληψης."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Η μεταφορά ακυρώθηκε επειδή ο αριθμός ακολουθίας πακέτων ήταν λάθος."
+ },{
+  "en": "Theme",
+  "tr": "Θέμα"
+ },{
+  "en": "Thin",
+  "tr": "Λεπτός"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Κατώφλι για τεράστιο αρχείο"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Μορφή ώρας"
+ },{
+  "en": "Time left",
+  "tr": "Χρόνος που απομένει"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Χρονική σήμανση γραμμών"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Σε αντίστροφη περίπτωση"
+ },{
+  "en": "To Line End",
+  "tr": "Προς το τέλος της γραμμής"
+ },{
+  "en": "To Line Start",
+  "tr": "Έναρξη γραμμής"
+ },{
+  "en": "To Lower Case",
+  "tr": "Για πεζά"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Προς MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "Περίπτωση τίτλου"
+ },{
+  "en": "To Unix LF",
+  "tr": "Προς Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "Προς Κεφάλαιο"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Στα Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Στο τέλος του Word"
+ },{
+  "en": "To Word Start",
+  "tr": "Για έναρξη του Word"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Εναλλαγή διπλώματος"
+ },{
+  "en": "Tool",
+  "tr": "Εργαλείο"
+ },{
+  "en": "Toolbar",
+  "tr": "Γραμμή εργαλείων"
+ },{
+  "en": "Top Group",
+  "tr": "Κορυφαία ομάδα"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Παρακολούθηση επιλογής κειμένου στο δέντρο"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Παρακολούθηση επιλογής δέντρου σε κείμενο"
+ },{
+  "en": "Tracking Events",
+  "tr": "Παρακολούθηση συμβάντων"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Τερματικά κενά"
+ },{
+  "en": "Trailing position",
+  "tr": "Οπισθοδρομική θέση"
+ },{
+  "en": "Transfer",
+  "tr": "ΜΕΤΑΦΟΡΑ"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Γραμμή μεταφοράς"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Μεταφορά δυαδικού"
+ },{
+  "en": "Transfer complete",
+  "tr": "Η μεταφορά ολοκληρώθηκε"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Η μεταφορά είναι ατελής"
+ },{
+  "en": "Translucent",
+  "tr": "Διαφανές"
+ },{
+  "en": "Transparent",
+  "tr": "Διαφανής"
+ },{
+  "en": "Transpose",
+  "tr": "Μεταφορά"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Περικοπή κενού χώρου κατά την αποθήκευση"
+ },{
+  "en": "Trust this host",
+  "tr": "Εμπιστευτείτε αυτόν τον οικοδεσπότη"
+ },{
+  "en": "Tunnels",
+  "tr": "Σήραγγες"
+ },{
+  "en": "Type",
+  "tr": "Τύπος"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Πληκτρολογήστε ';' για να λάβετε βοήθεια σχετικά με τις ενέργειες που μπορείτε να πληκτρολογήσετε εδώ"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Επιλογή σχολιασμού"
+ },{
+  "en": "Underline",
+  "tr": "Υπογραμμίζω"
+ },{
+  "en": "underLine",
+  "tr": "υπογραμμίζω"
+ },{
+  "en": "Undo",
+  "tr": "Αναίρεση"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Αναίρεση %1 Ενέργειες"
+ },{
+  "en": "Unfold",
+  "tr": "Ξεδιπλώστε"
+ },{
+  "en": "Unfold All",
+  "tr": "Ξεδιπλώστε όλα"
+ },{
+  "en": "Unfold Category",
+  "tr": "Ξεδιπλώστε την κατηγορία"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Unfold Inside"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Ενοποίηση καταλήξεων γραμμής κατά την αποθήκευση"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: η διαδρομή αρχείου κελύφους πρέπει να είναι απόλυτη"
+ },{
+  "en": "Unknown",
+  "tr": "Αγνωστος"
+ },{
+  "en": "unknown",
+  "tr": "άγνωστος"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Untabify Επιλεγμένες Γραμμές"
+ },{
+  "en": "Untitled",
+  "tr": "Χωρίς τίτλο"
+ },{
+  "en": "Untrust this host",
+  "tr": "Μη εμπιστεύεστε αυτόν τον οικοδεσπότη"
+ },{
+  "en": "upload",
+  "tr": "μεταφόρτωση"
+ },{
+  "en": "Upload command",
+  "tr": "Εντολή μεταφόρτωσης"
+ },{
+  "en": "Upload directory",
+  "tr": "Μεταφόρτωση καταλόγου"
+ },{
+  "en": "Upload file",
+  "tr": "Ανέβασμα αρχείου"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Μεταφόρτωση στον τρέχοντα φάκελο"
+ },{
+  "en": "uploaded",
+  "tr": "ανέβηκε"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL με %q στη θέση του ερωτήματος"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Χρήση χρώματος φόντου για διαγραφή της οθόνης"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Χρησιμοποιήστε μεταφορά υψηλής ταχύτητας"
+ },{
+  "en": "Use system line ending",
+  "tr": "Χρήση λήξης γραμμής συστήματος"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Χρησιμοποιήστε αυτό ως προεπιλογή και μην ξαναρωτήσετε"
+ },{
+  "en": "User",
+  "tr": "Χρήστης"
+ },{
+  "en": "Username echo mode",
+  "tr": "Λειτουργία ηχώ echo"
+ },{
+  "en": "Value",
+  "tr": "αξία"
+ },{
+  "en": "Variable",
+  "tr": "Μεταβλητός"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Επαλήθευση δακτυλικών αποτυπωμάτων του διακομιστή"
+ },{
+  "en": "View",
+  "tr": "Προβολή"
+ },{
+  "en": "Virtual Space",
+  "tr": "Εικονικός χώρος"
+ },{
+  "en": "Waiting",
+  "tr": "Αναμονή"
+ },{
+  "en": "Warning",
+  "tr": "Προειδοποίηση"
+ },{
+  "en": "Wheel event",
+  "tr": "Εκδήλωση τροχού"
+ },{
+  "en": "When destination file exists",
+  "tr": "Όταν υπάρχει αρχείο προορισμού"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Κατά την επικόλληση πολλαπλών γραμμών"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Όταν αλλάζει ο απομακρυσμένος τίτλος"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Όταν πιστοποιηθεί η συνεδρία"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Όταν πραγματοποιείται έλεγχος ταυτότητας της περιόδου σύνδεσης"
+ },{
+  "en": "When window is resized",
+  "tr": "Όταν αλλάξει το μέγεθος του παραθύρου"
+ },{
+  "en": "Where",
+  "tr": "Πού"
+ },{
+  "en": "White Spaces",
+  "tr": "Λευκοί χώροι"
+ },{
+  "en": "Whole Line",
+  "tr": "Ολόκληρη η γραμμή"
+ },{
+  "en": "Whole Word",
+  "tr": "Ολος ο κοσμος"
+ },{
+  "en": "Widgets",
+  "tr": "Widgets"
+ },{
+  "en": "Width",
+  "tr": "Πλάτος"
+ },{
+  "en": "Window",
+  "tr": "Παράθυρο"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Άκρη παραθύρου"
+ },{
+  "en": "Window Opacity",
+  "tr": "Αδιαφάνεια παραθύρου"
+ },{
+  "en": "Window opacity",
+  "tr": "Αδιαφάνεια παραθύρου"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Manager"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Το Winpty-agent.exe ή το winpty.dll δεν βρέθηκε !."
+ },{
+  "en": "Word",
+  "tr": "Λέξη"
+ },{
+  "en": "Word Separators",
+  "tr": "Διαχωριστές λέξεων"
+ },{
+  "en": "Word Wrap",
+  "tr": "Αναδίπλωση λέξεων"
+ },{
+  "en": "Working directory",
+  "tr": "Κατάλογος εργασίας"
+ },{
+  "en": "Wrap",
+  "tr": "Κάλυμμα"
+ },{
+  "en": "Wrap by character",
+  "tr": "Τυλίξτε κατά χαρακτήρα"
+ },{
+  "en": "Wrap by word",
+  "tr": "Τυλίξτε με λέξη"
+ },{
+  "en": "Wrap column",
+  "tr": "Αναδίπλωση στήλης"
+ },{
+  "en": "Wrap mode",
+  "tr": "Λειτουργία αναδίπλωσης"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Wrap Symbols"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Λάθος κύριος κωδικός πρόσβασης."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "Μόντεμ X/Y/Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "Το μόντεμ X/Y/Z δεν μπορεί να μεταδώσει φακέλους ή αρχεία μεγαλύτερα από 4 GB: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "Πρωτόκολλο ελέγχου ταυτότητας X11"
+ },{
+  "en": "X11 display",
+  "tr": "Οθόνη X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Έτος σε 2 ψηφία"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Έτος σε 4 ψηφία"
+ },{
+  "en": "Yes",
+  "tr": "Ναί"
+ },{
+  "en": "Zero",
+  "tr": "Μηδέν"
+ },{
+  "en": "Zoom",
+  "tr": "Ανίπταμαι διαγωνίως"
+ },{
+  "en": "Zoom In",
+  "tr": "Μεγέθυνση"
+ },{
+  "en": "Zoom level",
+  "tr": "Επίπεδο ζουμ"
+ },{
+  "en": "Zoom Out",
+  "tr": "Σμίκρυνση"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Έπεσε σε %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Αδειάζω]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Σφάλμα: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Ολοκληρώθηκε σε %1s, Κωδικός εξόδου %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Ολοκληρώθηκε σε %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Η λίστα ομάδων είναι κενή]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Η λίστα πλοήγησης είναι κενή]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Χωρίς μηχανή αναζήτησης]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Οι πρόσφατες διευθύνσεις url είναι κενές]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Η λίστα επανάληψης είναι κενή]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Η λίστα σχεδίων είναι κενή]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Η λίστα θεμάτων είναι κενή]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Η λίστα της γραμμής εργαλείων είναι κενή]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Η λίστα αναίρεσης είναι κενή]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Ο χρήστης ακυρώθηκε]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[user@] όνομα κεντρικού υπολογιστή"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Η λίστα των Windows είναι κενή]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

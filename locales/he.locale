@@ -1,0 +1,3513 @@
+{
+ "language": "Hebrew - עברית",
+ "layoutDirection": "RightToLeft",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(ערכת) כלים"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 אינו נתמך על ידי %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 הועתק"
+ },{
+  "en": "%1 downloaded",
+  "tr": "הורדת %1"
+ },{
+  "en": "%1 File",
+  "tr": "%1 קובץ"
+ },{
+  "en": "%1 item failed",
+  "tr": "פריט %1 נכשל"
+ },{
+  "en": "%1 items",
+  "tr": "%1 פריטים"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 פריטים נכשלו"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 פריטים/ש"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 מ 2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 הוסר"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 זה %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 הועלה"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "מהירות %1/ %2: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 ניסיונות סיסמה נכשלו."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> השתנה </b> ו <b> נטען מחדש </b>, ביטול מותר <b> לא </b> עבור קובץ גדול."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> <b> השתנה </b> ו <b> נטען מחדש </b>, ביטול מותר."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> האם <b> השתנה </b>, האם ברצונך לטעון אותו מחדש?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> <b> הועבר או נמחק </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) נלחץ. מחכה לעוד מפתחות"
+ },{
+  "en": "1 Char",
+  "tr": "1 תו"
+ },{
+  "en": "16 Columns",
+  "tr": "16 עמודות"
+ },{
+  "en": "2 Chars",
+  "tr": "2 תווים"
+ },{
+  "en": "24 Columns",
+  "tr": "24 עמודות"
+ },{
+  "en": "32 Columns",
+  "tr": "32 עמודות"
+ },{
+  "en": "4 Chars",
+  "tr": "4 תווים"
+ },{
+  "en": "8 Chars",
+  "tr": "8 תווים"
+ },{
+  "en": "8 Columns",
+  "tr": "8 עמודות"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "סיסמת אב משמשת להגנה על מידע רגיש כמו סיסמאות SSH."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "שם צריך לכלול פחות מ -255 תווים ואינו יכול להכיל אף אחד מהתווים הבאים: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "קובץ מרוחק שונה. \n האם ברצונך להעלות קובץ זה בחזרה לשרת?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "הפעלה ספציפית או קבוצת הפעלות"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "שם חודש מקוצר"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "שם מקוצר של יום חול"
+ },{
+  "en": "Accept local connections only",
+  "tr": "קבל קשרים מקומיים בלבד"
+ },{
+  "en": "Accessed",
+  "tr": "גישה"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "הפעל מספר אמות"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "הפעל את הבחירה הבאה"
+ },{
+  "en": "Activate Next View",
+  "tr": "הפעל את התצוגה הבאה"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "הפעל בחירה קודמת"
+ },{
+  "en": "Activate Previous View",
+  "tr": "הפעל תצוגה קודמת"
+ },{
+  "en": "Activate the left tab",
+  "tr": "הפעל את הכרטיסייה השמאלית"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "הפעל את הכרטיסייה שנבחרה בעבר"
+ },{
+  "en": "Activate the right tab",
+  "tr": "הפעל את הכרטיסייה הנכונה"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "הפעל את הכרטיסייה לאחר סגירת"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "הפעל את הכרטיסייה לאחר ריחוף"
+ },{
+  "en": "Add",
+  "tr": "הוסף)"
+ },{
+  "en": "Add All",
+  "tr": "הוסף הכל"
+ },{
+  "en": "Add Command",
+  "tr": "הוסף פקודה"
+ },{
+  "en": "Add Group",
+  "tr": "הוסף קבוצה"
+ },{
+  "en": "Add Sender",
+  "tr": "הוסף שולח"
+ },{
+  "en": "Add Tab",
+  "tr": "הוסף כרטיסייה"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "התאם את שורות החלון והעמודות"
+ },{
+  "en": "Advanced Sort",
+  "tr": "מיון מתקדם"
+ },{
+  "en": "Agent",
+  "tr": "סוֹכֵן"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "אימות הסוכן נכשל, נסה שיטה אחרת"
+ },{
+  "en": "All",
+  "tr": "הכל)"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "כל %1 ההפעלות יימחקו. \n האם ברצונך להמשיך לייבא הפעלות?"
+ },{
+  "en": "All session output",
+  "tr": "כל פלט ההפעלה"
+ },{
+  "en": "All Sessions",
+  "tr": "כל ההפעלות"
+ },{
+  "en": "All tabs",
+  "tr": "כל הכרטיסיות"
+ },{
+  "en": "Alternate column background color",
+  "tr": "צבע רקע חלופי של עמודה"
+ },{
+  "en": "Alternate line background color",
+  "tr": "צבע רקע של קו חלופי"
+ },{
+  "en": "Always On Top",
+  "tr": "תמיד למעלה"
+ },{
+  "en": "Always on top",
+  "tr": "תמיד על העליונה"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "אירעה שגיאה בעת ניסיון לקרוא מתוך תהליך %1."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "אירעה שגיאה בעת ניסיון לכתוב לתהליך %1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "אירעה שגיאה לא ידועה בתהליך %1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI ל- OEM"
+ },{
+  "en": "Answer back",
+  "tr": "ענה בחזרה"
+ },{
+  "en": "Any",
+  "tr": "כל"
+ },{
+  "en": "Anything Palette",
+  "tr": "כל לוח"
+ },{
+  "en": "Anywhere",
+  "tr": "בְּכָל מָקוֹם"
+ },{
+  "en": "Appearance",
+  "tr": "מראה חיצוני"
+ },{
+  "en": "Append",
+  "tr": "לְצַרֵף"
+ },{
+  "en": "Append log file",
+  "tr": "הוסף קובץ יומן"
+ },{
+  "en": "Application",
+  "tr": "יישום"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "האם אתה בטוח שברצונך למחוק %1 פריטים שנבחרו?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "האם אתה בטוח שברצונך למחוק את הפריט <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "האם אתה בטוח שברצונך לטעון מחדש את הקובץ הנוכחי ולאבד את השינויים שבוצעו ב- WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "האם אתה בטוח שברצונך לעצור את השולח הנוכחי?"
+ },{
+  "en": "Arguments",
+  "tr": "טיעונים"
+ },{
+  "en": "At Caret",
+  "tr": "ב- Caret"
+ },{
+  "en": "At End",
+  "tr": "בסוף"
+ },{
+  "en": "At Start",
+  "tr": "ב- Start"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "נסה אימות gssapi-with-mic"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "נסה אימות אינטראקטיבי במקלדת"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "ניסיון אימות תחרות"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "נסה אימות סיסמה"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "נסה אימות מפתחות ציבוריים"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "נסה אימות סוכני ssh"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "מאומת בהצלחה חלקית, נסה שיטה אחרת."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "אימות על ידי %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "אימות על ידי %1 ו- %2"
+ },{
+  "en": "Authentication",
+  "tr": "אימות"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "האימות נדחה, נסה שוב."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "האימות נכשל. נסה שוב."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "סגור אוטומטית תגי HTML/XML"
+ },{
+  "en": "Auto login",
+  "tr": "התחברות אוטומטית"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "הכניסה האוטומטית נכשלה. נסה שוב."
+ },{
+  "en": "Auto login next time",
+  "tr": "כניסה אוטומטית בפעם הבאה"
+ },{
+  "en": "Automatic",
+  "tr": "אוֹטוֹמָטִי"
+ },{
+  "en": "automatic",
+  "tr": "אוֹטוֹמָטִי"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "שיטות אימות אוטומטיות"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "העתק בחירה אוטומטית"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "זיהוי הזחה אוטומטית"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "גזירה אוטומטית של הריפוד"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "סמן רקע"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace שולח"
+ },{
+  "en": "Backward",
+  "tr": "לְאָחוֹר"
+ },{
+  "en": "Bars",
+  "tr": "ברים"
+ },{
+  "en": "Baud Rate",
+  "tr": "קצב שידור"
+ },{
+  "en": "Beep When Finished",
+  "tr": "ביפ בסיום"
+ },{
+  "en": "Binary",
+  "tr": "בינארי"
+ },{
+  "en": "Binary base",
+  "tr": "בסיס בינארי"
+ },{
+  "en": "Binary columns",
+  "tr": "עמודות בינאריות"
+ },{
+  "en": "Binary devision columns",
+  "tr": "עמודות תכנון בינארי"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "תווים מקובצים בינארית"
+ },{
+  "en": "Black",
+  "tr": "שָׁחוֹר"
+ },{
+  "en": "Blink",
+  "tr": "מהבהב"
+ },{
+  "en": "blinking block",
+  "tr": "גוש מהבהב"
+ },{
+  "en": "blinking line",
+  "tr": "קו מהבהב"
+ },{
+  "en": "blinking rectangle",
+  "tr": "מלבן מהבהב"
+ },{
+  "en": "blinking underLine",
+  "tr": "מהבהב מתחת לקו"
+ },{
+  "en": "Block",
+  "tr": "לַחסוֹם"
+ },{
+  "en": "block",
+  "tr": "לַחסוֹם"
+ },{
+  "en": "Bold",
+  "tr": "נוֹעָז"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "סוג מודגש מציין גופנים ברוחב קבוע"
+ },{
+  "en": "Bottom Docks",
+  "tr": "תחנות עגינות"
+ },{
+  "en": "Bottom Group",
+  "tr": "הקבוצה התחתונה"
+ },{
+  "en": "Browse",
+  "tr": "לְדַפדֵף"
+ },{
+  "en": "Browse Directory",
+  "tr": "עיון בספרייה"
+ },{
+  "en": "Browse File",
+  "tr": "עיון בקובץ"
+ },{
+  "en": "Browser",
+  "tr": "דפדפן"
+ },{
+  "en": "Build",
+  "tr": "Build"
+ },{
+  "en": "By",
+  "tr": "על ידי"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "מחשבים"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "לא הצלחתי למצוא תוכנית מתאימה לפתיחת קובץ: (%1 ( נסה להשתמש בעורך ברירת המחדל כדי לפתוח אותו."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "לא ניתן ליצור ספרייה %1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "לא ניתן ליצור קובץ %1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "לא מצליח ליצור קישור %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "לא ניתן להסיר את הספרייה %1."
+ },{
+  "en": "Cancel",
+  "tr": "לְבַטֵל"
+ },{
+  "en": "Cancel Build",
+  "tr": "בטל Build"
+ },{
+  "en": "Cancel Selection",
+  "tr": "בטל את הבחירה"
+ },{
+  "en": "Caret",
+  "tr": "קרט"
+ },{
+  "en": "Caret Style",
+  "tr": "סגנון Caret"
+ },{
+  "en": "Carriage Return",
+  "tr": "החזרת עגלה"
+ },{
+  "en": "Case Sensitive",
+  "tr": "רגיש לאותיות"
+ },{
+  "en": "Cdup",
+  "tr": "תקליטור"
+ },{
+  "en": "Change Master Password",
+  "tr": "שנה סיסמת אב"
+ },{
+  "en": "Change master password",
+  "tr": "שנה את סיסמת האב"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "שינוי סיסמת האב נכשל."
+ },{
+  "en": "Change the tab title",
+  "tr": "שנה את כותרת הכרטיסייה"
+ },{
+  "en": "Changed",
+  "tr": "השתנה"
+ },{
+  "en": "Channel",
+  "tr": "עָרוּץ"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "צ'אר שמאל"
+ },{
+  "en": "Char Right",
+  "tr": "Char Right"
+ },{
+  "en": "Character spacing",
+  "tr": "מרווח תווים"
+ },{
+  "en": "character width",
+  "tr": "רוחב תו"
+ },{
+  "en": "Charset",
+  "tr": "Charset"
+ },{
+  "en": "Choose a default editor",
+  "tr": "בחר עורך ברירת מחדל"
+ },{
+  "en": "Ciphers",
+  "tr": "צפנים"
+ },{
+  "en": "Ciphers order",
+  "tr": "הזמנת הצפנים"
+ },{
+  "en": "Clear",
+  "tr": "ברור"
+ },{
+  "en": "Clear All",
+  "tr": "נקה הכל"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "נקה כתובות אתרים אחרונות"
+ },{
+  "en": "Clear Screen",
+  "tr": "נקה מסך"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "נקה גלילה חזרה"
+ },{
+  "en": "Clear Sender",
+  "tr": "שולח נקי"
+ },{
+  "en": "Click event",
+  "tr": "אירוע הקלקה"
+ },{
+  "en": "Close",
+  "tr": "סגור"
+ },{
+  "en": "Close All Views",
+  "tr": "סגור את כל התצוגות"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "סגור את כל הצפיות אך פעיל"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "סגור את כל הצפיות מימין"
+ },{
+  "en": "Close And Exit",
+  "tr": "סגור ויצא"
+ },{
+  "en": "Close Channel",
+  "tr": "סגור את הערוץ"
+ },{
+  "en": "Close Dock",
+  "tr": "סגור את הרציף"
+ },{
+  "en": "Close Group",
+  "tr": "סגור את הקבוצה"
+ },{
+  "en": "Close Session",
+  "tr": "סגור את הפגישה"
+ },{
+  "en": "Close Tab",
+  "tr": "סגור כרטיסייה"
+ },{
+  "en": "Close tab",
+  "tr": "סגור את הכרטיסייה"
+ },{
+  "en": "Close View",
+  "tr": "צילום סגור"
+ },{
+  "en": "Close Window",
+  "tr": "סגור חלון"
+ },{
+  "en": "Color",
+  "tr": "צבע"
+ },{
+  "en": "Column Edit",
+  "tr": "עריכת עמודות"
+ },{
+  "en": "Column Marker",
+  "tr": "סמן עמוד"
+ },{
+  "en": "Columns",
+  "tr": "עמודות"
+ },{
+  "en": "columns",
+  "tr": "עמודות"
+ },{
+  "en": "Command",
+  "tr": "פקודה"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "לוח הפקודות"
+ },{
+  "en": "Comment",
+  "tr": "הערה"
+ },{
+  "en": "Comment Selection",
+  "tr": "בחירת הערות"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "בחירת הערות(מצב חסימה)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "בחירת הערה(מצב קו)"
+ },{
+  "en": "Complete Word",
+  "tr": "מילה מלאה"
+ },{
+  "en": "Config",
+  "tr": "Config"
+ },{
+  "en": "Confirm Password",
+  "tr": "אשר סיסמה"
+ },{
+  "en": "Confirm password",
+  "tr": "אשר סיסמה"
+ },{
+  "en": "Connect",
+  "tr": "לְחַבֵּר"
+ },{
+  "en": "Connection",
+  "tr": "חיבור"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "הֶקשֵׁר"
+ },{
+  "en": "Continue",
+  "tr": "לְהַמשִׁיך"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "המרת CRLF ו- LF ל- CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "המרת כרטיסייה לרווחים"
+ },{
+  "en": "copied",
+  "tr": "מוּעֲתָק"
+ },{
+  "en": "Copy",
+  "tr": "עותק"
+ },{
+  "en": "copy",
+  "tr": "עותק"
+ },{
+  "en": "Copy And Paste",
+  "tr": "העתק והדבק"
+ },{
+  "en": "Copy File Name",
+  "tr": "העתק שם קובץ"
+ },{
+  "en": "Copy File Path",
+  "tr": "העתק נתיב קבצים"
+ },{
+  "en": "Copy from",
+  "tr": "העתק מ"
+ },{
+  "en": "Copy names",
+  "tr": "העתק שמות"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "העתק שמות לטרמינל"
+ },{
+  "en": "Copy Output",
+  "tr": "פלט העתקה"
+ },{
+  "en": "Copy paths",
+  "tr": "העתק נתיבים"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "העתק נתיבים למסוף"
+ },{
+  "en": "Copy Session Name",
+  "tr": "העתק שם הפעלה"
+ },{
+  "en": "Copy Session Url",
+  "tr": "העתק כתובת אתר להפעלה"
+ },{
+  "en": "Copy to",
+  "tr": "העתק ל-"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "העתק למסוף"
+ },{
+  "en": "Count",
+  "tr": "לספור"
+ },{
+  "en": "Create Directory",
+  "tr": "ליצור תיקייה"
+ },{
+  "en": "Create File",
+  "tr": "צור קובץ"
+ },{
+  "en": "Create Link",
+  "tr": "צור קישור"
+ },{
+  "en": "Created",
+  "tr": "נוצר"
+ },{
+  "en": "Critical",
+  "tr": "קריטי"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "מושב נוכחי"
+ },{
+  "en": "Custom",
+  "tr": "המותאם אישית"
+ },{
+  "en": "Custom Opacity",
+  "tr": "אטימות מותאמת אישית"
+ },{
+  "en": "Customize",
+  "tr": "התאמה אישית"
+ },{
+  "en": "Cut",
+  "tr": "גזור"
+ },{
+  "en": "Dark Cyan",
+  "tr": "ציאן כהה"
+ },{
+  "en": "Data",
+  "tr": "נתונים"
+ },{
+  "en": "Data Bits",
+  "tr": "נתוני נתונים"
+ },{
+  "en": "Datetime format",
+  "tr": "פורמט Datetime"
+ },{
+  "en": "Day of month",
+  "tr": "יום החודש"
+ },{
+  "en": "Debug Mode",
+  "tr": "מצב איתור באגים"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "הקטנת כניסת קו"
+ },{
+  "en": "Deep Pink",
+  "tr": "ורוד עמוק"
+ },{
+  "en": "default",
+  "tr": "בְּרִירַת מֶחדָל"
+ },{
+  "en": "Default editor",
+  "tr": "עורך ברירת מחדל"
+ },{
+  "en": "Default Font",
+  "tr": "גופן ברירת מחדל"
+ },{
+  "en": "Default line ending",
+  "tr": "סיום שורת ברירת המחדל"
+ },{
+  "en": "Delete",
+  "tr": "מחק"
+ },{
+  "en": "Delete sends",
+  "tr": "מחק שליחות"
+ },{
+  "en": "deleted",
+  "tr": "נמחק"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "מארח יעד"
+ },{
+  "en": "Destination Port",
+  "tr": "נמל יעד"
+ },{
+  "en": "Dir",
+  "tr": "במאי"
+ },{
+  "en": "dir",
+  "tr": "דיר"
+ },{
+  "en": "Directory",
+  "tr": "מַדרִיך"
+ },{
+  "en": "Directory Link",
+  "tr": "קישור מדריך"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "השבת את האלגוריתם של Nagle(אפשרות TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "ניתוק הפעלה"
+ },{
+  "en": "Disk",
+  "tr": "דִיסק"
+ },{
+  "en": "Do not echo characters",
+  "tr": "אין להדהד דמויות"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "האם ברצונך לסגור את ההפעלה הנוכחית?"
+ },{
+  "en": "Document",
+  "tr": "מסמך"
+ },{
+  "en": "Don't show this message again",
+  "tr": "אל תציג הודעה זו שוב"
+ },{
+  "en": "Double click",
+  "tr": "לחיצה כפולה"
+ },{
+  "en": "Double click event",
+  "tr": "אירוע לחיצה כפולה"
+ },{
+  "en": "Download",
+  "tr": "הורדה"
+ },{
+  "en": "download",
+  "tr": "הורד"
+ },{
+  "en": "Download directory",
+  "tr": "הורדת מדריך"
+ },{
+  "en": "downloaded",
+  "tr": "הורדה"
+ },{
+  "en": "Drop Selection",
+  "tr": "בטל בחירה"
+ },{
+  "en": "Duplicate",
+  "tr": "לְשַׁכְפֵּל"
+ },{
+  "en": "Duplicate Command",
+  "tr": "פקודה כפולה"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "תצוגה כפולה"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "העברה דינאמית"
+ },{
+  "en": "Echo every character entered",
+  "tr": "הד כל דמות שנכנסה"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "הד כל דמות בעת עריכה"
+ },{
+  "en": "Echo random characters",
+  "tr": "הד הדמויות האקראיות"
+ },{
+  "en": "Edit",
+  "tr": "עריכה"
+ },{
+  "en": "Editor",
+  "tr": "עוֹרֵך"
+ },{
+  "en": "editor",
+  "tr": "עוֹרֵך"
+ },{
+  "en": "Editor Settings",
+  "tr": "הגדרות עורך"
+ },{
+  "en": "Elapsed",
+  "tr": "חלף"
+ },{
+  "en": "Elide left",
+  "tr": "אלידה עזבה"
+ },{
+  "en": "Elide middle",
+  "tr": "אלייד באמצע"
+ },{
+  "en": "Elide right",
+  "tr": "אלייד ימינה"
+ },{
+  "en": "Empty",
+  "tr": "ריק"
+ },{
+  "en": "Enable command mode",
+  "tr": "אפשר מצב פקודה"
+ },{
+  "en": "Enable local mode",
+  "tr": "אפשר מצב מקומי"
+ },{
+  "en": "Enable SFTP",
+  "tr": "הפעל SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "הפעל שמורות TCP(אפשרות SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "אפשר מרחבים וירטואליים"
+ },{
+  "en": "End Of Document",
+  "tr": "סוף המסמך"
+ },{
+  "en": "End Of Line",
+  "tr": "סוף השורה"
+ },{
+  "en": "End Of Pair",
+  "tr": "סוף זוג"
+ },{
+  "en": "Engine",
+  "tr": "מנוע"
+ },{
+  "en": "Environment Variable",
+  "tr": "משתנה הסביבה"
+ },{
+  "en": "Environment variables",
+  "tr": "משתני סביבה"
+ },{
+  "en": "Error",
+  "tr": "שְׁגִיאָה"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "החלפת דגל ועוגן"
+ },{
+  "en": "Execute",
+  "tr": "בצע"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "בצע פקודה לאחר אימות"
+ },{
+  "en": "Execute command after start",
+  "tr": "בצע פקודה לאחר ההתחלה"
+ },{
+  "en": "Execute File",
+  "tr": "בצע קובץ"
+ },{
+  "en": "Exit",
+  "tr": "יציאה"
+ },{
+  "en": "Expand",
+  "tr": "לְהַרְחִיב"
+ },{
+  "en": "Expand Snippet",
+  "tr": "הרחב קטע"
+ },{
+  "en": "Explorer",
+  "tr": "מגלה ארצות"
+ },{
+  "en": "External Tools",
+  "tr": "כלים חיצוניים"
+ },{
+  "en": "External X display",
+  "tr": "תצוגת X חיצונית"
+ },{
+  "en": "ExtraBold",
+  "tr": "מודגש במיוחד"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "יצירת קובץ זמני נכשל: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "פתיחת הספרייה: %1 נכשלה"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "אחזור טביעת האצבע של המארח נכשל!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "העלאת הקובץ נכשלה: %1, ( ייתכן שהקובץ לא קיים או שאין לו הרשאה לפתוח אותו."
+ },{
+  "en": "Fast",
+  "tr": "מָהִיר"
+ },{
+  "en": "Favorites",
+  "tr": "מועדפים"
+ },{
+  "en": "Features",
+  "tr": "מאפיינים"
+ },{
+  "en": "File",
+  "tr": "קוֹבֶץ"
+ },{
+  "en": "file",
+  "tr": "קוֹבֶץ"
+ },{
+  "en": "File Link",
+  "tr": "קישור לקובץ"
+ },{
+  "en": "File Name",
+  "tr": "שם קובץ"
+ },{
+  "en": "File name",
+  "tr": "שם קובץ"
+ },{
+  "en": "File Path",
+  "tr": "נתיב קבצים"
+ },{
+  "en": "Filer",
+  "tr": "פילר"
+ },{
+  "en": "filer",
+  "tr": "פילר"
+ },{
+  "en": "Filter",
+  "tr": "לְסַנֵן"
+ },{
+  "en": "Find",
+  "tr": "מצא"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "מצא את הכל"
+ },{
+  "en": "Find in Files",
+  "tr": "מצא בקבצים"
+ },{
+  "en": "Find Next",
+  "tr": "מצא את הבא"
+ },{
+  "en": "Find Next Selection",
+  "tr": "מצא את הבחירה הבאה"
+ },{
+  "en": "Find Previous",
+  "tr": "מצא הקודם"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "מצא את הבחירה הקודמת"
+ },{
+  "en": "Fingerprint",
+  "tr": "טביעת אצבע"
+ },{
+  "en": "First nine tabs",
+  "tr": "תשע כרטיסיות ראשונות"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "צף"
+ },{
+  "en": "Flow Control",
+  "tr": "בקרת זרימה"
+ },{
+  "en": "Focus Mode",
+  "tr": "מצב ממוקד"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "הגדרות מצב פוקוס"
+ },{
+  "en": "Fold",
+  "tr": "מקפלים"
+ },{
+  "en": "Fold All",
+  "tr": "קיפול הכל"
+ },{
+  "en": "Fold Category",
+  "tr": "קיפול קטגוריה"
+ },{
+  "en": "Fold Inside",
+  "tr": "קפל פנימה"
+ },{
+  "en": "Folds",
+  "tr": "קיפולים"
+ },{
+  "en": "Font",
+  "tr": "גוֹפָן"
+ },{
+  "en": "Font family",
+  "tr": "משפחת גופן"
+ },{
+  "en": "Font size",
+  "tr": "גודל גופן"
+ },{
+  "en": "Font weight",
+  "tr": "משקל גופן"
+ },{
+  "en": "Forest Green",
+  "tr": "יער ירוק"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "בחירת פורמט"
+ },{
+  "en": "Found",
+  "tr": "מצאתי"
+ },{
+  "en": "Full month name",
+  "tr": "שם חודש מלא"
+ },{
+  "en": "Full Screen",
+  "tr": "מסך מלא"
+ },{
+  "en": "Full screen",
+  "tr": "מסך מלא"
+ },{
+  "en": "Full weekday name",
+  "tr": "שם מלא ביום חול"
+ },{
+  "en": "Go Backward",
+  "tr": "עבור אחורה"
+ },{
+  "en": "Go Forward",
+  "tr": "קדימה"
+ },{
+  "en": "Go to",
+  "tr": "לך ל"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "עבור אל סמל בתצוגה נוכחית"
+ },{
+  "en": "Goldenrod",
+  "tr": "גולדרוד"
+ },{
+  "en": "Goto",
+  "tr": "עבור"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "עבור לשורת הכתובות"
+ },{
+  "en": "Goto File",
+  "tr": "עבור לקובץ"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "כותרת קיפול"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "עבור לכותרת הקיפול הבא"
+ },{
+  "en": "Goto Position",
+  "tr": "עבור למיקום"
+ },{
+  "en": "Goto Session",
+  "tr": "השתתפות בפגישה"
+ },{
+  "en": "Goto Symbol",
+  "tr": "סמל Goto"
+ },{
+  "en": "Group",
+  "tr": "קְבוּצָה"
+ },{
+  "en": "Group %1",
+  "tr": "קבוצה 1"
+ },{
+  "en": "Groups",
+  "tr": "קבוצות"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi עם מיקרופון"
+ },{
+  "en": "Hard Reset",
+  "tr": "איפוס קשה"
+ },{
+  "en": "Help",
+  "tr": "עזרה"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "בסיס משושה"
+ },{
+  "en": "Hex Columns",
+  "tr": "עמודות משושה"
+ },{
+  "en": "Hex Edit",
+  "tr": "עריכת הקס"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "תווים מקבוצת Hex"
+ },{
+  "en": "Hidden",
+  "tr": "מוּסתָר"
+ },{
+  "en": "Hide",
+  "tr": "להתחבא"
+ },{
+  "en": "Hide All",
+  "tr": "הסתר הכל"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "הסתר סמן בעת ​​הקלדת"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "הסתר טקסט"
+ },{
+  "en": "Highlight",
+  "tr": "שִׂיא"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "הדגש קו Caret"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "ציין התאמה"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "הדגש את קו הסימון"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "הדגש את מילת האות"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "הדגש את הקיפול הנוכחי"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "הדגש את הזוג הנוכחי"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "הדגש את החיפוש המצטבר"
+ },{
+  "en": "History",
+  "tr": "הִיסטוֹרִיָה"
+ },{
+  "en": "Home Of Line",
+  "tr": "Home Of Line"
+ },{
+  "en": "Host",
+  "tr": "מנחה"
+ },{
+  "en": "Host address",
+  "tr": "כתובת המארח"
+ },{
+  "en": "Host Based",
+  "tr": "מבוסס מארח"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "שעות בפורמט 12"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "שעות בפורמט 24"
+ },{
+  "en": "Http proxy",
+  "tr": "פרוקסי HTTP"
+ },{
+  "en": "Huge File",
+  "tr": "קובץ ענק"
+ },{
+  "en": "Icon",
+  "tr": "אייקון"
+ },{
+  "en": "Identity file",
+  "tr": "קובץ זהות"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "קובץ זהות לאימות"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "אם תיצור סיסמת מאסטר תתבקש להזין אותה כאשר WindTerm מאחזר מידע שמור המוגן על ידי סיסמת האב."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "אם תשכח את סיסמת האב שלך, לא תוכל לגשת למידע המוגן על ידה."
+ },{
+  "en": "Import",
+  "tr": "ייבוא ​​"
+ },{
+  "en": "Import sessions",
+  "tr": "ייבוא ​​הפעלות"
+ },{
+  "en": "In Selection",
+  "tr": "בבחירה"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "הגדל את הכניסה לשורה"
+ },{
+  "en": "Incremental",
+  "tr": "מצטבר"
+ },{
+  "en": "Indent",
+  "tr": "לְשַׁנֵן"
+ },{
+  "en": "Indent guide style",
+  "tr": "סגנון מדריך כניסה"
+ },{
+  "en": "Indent Guides",
+  "tr": "מדריכי כניסה"
+ },{
+  "en": "Indent size",
+  "tr": "גודל כניסה"
+ },{
+  "en": "Indentation",
+  "tr": "הֲזָחָה"
+ },{
+  "en": "Indian Red",
+  "tr": "הודי אדום"
+ },{
+  "en": "Information",
+  "tr": "מֵידָע"
+ },{
+  "en": "Insert",
+  "tr": "הכנס"
+ },{
+  "en": "Insert File",
+  "tr": "הכנס קובץ"
+ },{
+  "en": "Insert Lines",
+  "tr": "הכנס שורות"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "הכנס כרטיסייה בעת לחיצה על מקש TAB"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "הוספה ומחיקה של מרחב לבן עוקבת אחר תחנות הכרטיסייה"
+ },{
+  "en": "Inserting file",
+  "tr": "הכנסת קובץ"
+ },{
+  "en": "Internal X display",
+  "tr": "תצוגת X פנימית"
+ },{
+  "en": "Interval",
+  "tr": "מרווח"
+ },{
+  "en": "Invert Selection",
+  "tr": "היפוך בחירה"
+ },{
+  "en": "item failed",
+  "tr": "הפריט נכשל"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "הפריטים נכשלו"
+ },{
+  "en": "Join Channel A",
+  "tr": "הצטרף לערוץ A"
+ },{
+  "en": "Join Channel B",
+  "tr": "הצטרף לערוץ B"
+ },{
+  "en": "Join Channel C",
+  "tr": "הצטרף לערוץ C"
+ },{
+  "en": "Join Channel D",
+  "tr": "הצטרף לערוץ D"
+ },{
+  "en": "Join Lines",
+  "tr": "הצטרף לקווים"
+ },{
+  "en": "Joined",
+  "tr": "הצטרף"
+ },{
+  "en": "Jump Server",
+  "tr": "שרת קפיצה"
+ },{
+  "en": "Jump server",
+  "tr": "שרת קפיצה"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "שרתי קפיצה"
+ },{
+  "en": "Key Exchange",
+  "tr": "החלפת מפתחות"
+ },{
+  "en": "Key exchange order",
+  "tr": "הזמנת החלפת מפתחות"
+ },{
+  "en": "Key re-exchange",
+  "tr": "החלפת מפתחות מחדש"
+ },{
+  "en": "Keyboard",
+  "tr": "מקלדת"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "מקלדת אינטראקטיבית"
+ },{
+  "en": "Kit Bar",
+  "tr": "קיט בר"
+ },{
+  "en": "Known",
+  "tr": "ידוע"
+ },{
+  "en": "Label",
+  "tr": "תווית"
+ },{
+  "en": "Language",
+  "tr": "שפה"
+ },{
+  "en": "Last sessions",
+  "tr": "מפגשים אחרונים"
+ },{
+  "en": "Layout",
+  "tr": "מַעֲרָך"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "ריקים מובילים ונגררים"
+ },{
+  "en": "Leading Blanks",
+  "tr": "החסר המוביל"
+ },{
+  "en": "Leading position",
+  "tr": "עמדה מובילה"
+ },{
+  "en": "Leave All Channels",
+  "tr": "השאר את כל הערוצים"
+ },{
+  "en": "Leave all channels",
+  "tr": "עזוב את כל הערוצים"
+ },{
+  "en": "Leave Channel",
+  "tr": "עזוב את הערוץ"
+ },{
+  "en": "Left Docks",
+  "tr": "רציפים שמאליים"
+ },{
+  "en": "Left Group",
+  "tr": "הקבוצה השמאלית"
+ },{
+  "en": "Light",
+  "tr": "אוֹר"
+ },{
+  "en": "Line",
+  "tr": "קַו"
+ },{
+  "en": "line",
+  "tr": "קַו"
+ },{
+  "en": "line at a time",
+  "tr": "קו בכל פעם"
+ },{
+  "en": "Line Down",
+  "tr": "שורה למטה"
+ },{
+  "en": "Line Ending",
+  "tr": "סיום הקו"
+ },{
+  "en": "Line Endings",
+  "tr": "סיומי קו"
+ },{
+  "en": "Line Feed",
+  "tr": "הזנת שורה"
+ },{
+  "en": "line height",
+  "tr": "גובה קו"
+ },{
+  "en": "Line marker",
+  "tr": "סמן קו"
+ },{
+  "en": "Line spacing",
+  "tr": "מרווח קווים"
+ },{
+  "en": "Line Up",
+  "tr": "קו"
+ },{
+  "en": "lines at a time",
+  "tr": "שורות בכל פעם"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "שורות של גלילה חזרה"
+ },{
+  "en": "Link",
+  "tr": "קישור"
+ },{
+  "en": "Link to",
+  "tr": "קישור ל"
+ },{
+  "en": "List Tab",
+  "tr": "כרטיסיית רשימה"
+ },{
+  "en": "Listen Port",
+  "tr": "יציאת האזנה"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "העברה מקומית"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "אתר הודעה"
+ },{
+  "en": "Location",
+  "tr": "מקום"
+ },{
+  "en": "Lock Screen",
+  "tr": "מסך נעילה"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "הזמן הקצוב למסך הנעילה"
+ },{
+  "en": "Lock Selection",
+  "tr": "בחירת נעילה"
+ },{
+  "en": "Log",
+  "tr": "יומן"
+ },{
+  "en": "Log all session output",
+  "tr": "רישום כל פלט ההפעלה"
+ },{
+  "en": "Log content pattern",
+  "tr": "תבנית תוכן יומן"
+ },{
+  "en": "Log Dialog",
+  "tr": "דיאלוג יומן"
+ },{
+  "en": "Log file",
+  "tr": "קובץ יומן"
+ },{
+  "en": "Log file name",
+  "tr": "שם קובץ יומן"
+ },{
+  "en": "Log maximum size",
+  "tr": "גודל מרבי של יומן"
+ },{
+  "en": "Log nothing",
+  "tr": "אל תכתוב כלום"
+ },{
+  "en": "Log option",
+  "tr": "אפשרות יומן"
+ },{
+  "en": "Log options",
+  "tr": "אפשרויות יומן"
+ },{
+  "en": "Log pattern",
+  "tr": "תבנית יומן"
+ },{
+  "en": "Log printable output",
+  "tr": "פלט להדפסה"
+ },{
+  "en": "Log type",
+  "tr": "סוג יומן"
+ },{
+  "en": "Log types",
+  "tr": "סוגי יומנים"
+ },{
+  "en": "Logging",
+  "tr": "רישום"
+ },{
+  "en": "Login",
+  "tr": "התחברות"
+ },{
+  "en": "Login Wizard",
+  "tr": "אשף ההתחברות"
+ },{
+  "en": "Long Time/Date",
+  "tr": "זמן/תאריך"
+ },{
+  "en": "Look both guide",
+  "tr": "תראה את שני המדריכים"
+ },{
+  "en": "Look forward guide",
+  "tr": "צפה קדימה מדריך"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "סדר hashes של MAC"
+ },{
+  "en": "Margin Blank",
+  "tr": "שוליים שוליים"
+ },{
+  "en": "Margin Fold",
+  "tr": "שוליים שוליים"
+ },{
+  "en": "Margin Number",
+  "tr": "מספר שוליים"
+ },{
+  "en": "Margin Symbol",
+  "tr": "סמל שוליים"
+ },{
+  "en": "Margin Text",
+  "tr": "טקסט שוליים"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "חותמת זמן מרווח"
+ },{
+  "en": "Margins",
+  "tr": "שוליים"
+ },{
+  "en": "Marker style",
+  "tr": "סגנון סמן"
+ },{
+  "en": "Master Password",
+  "tr": "סיסמת מאסטר"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "מקסימום נתונים לפני מפתח מחדש(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "זמן מקסימלי לפני המפתח מחדש(דקות)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "פסק זמן מקסימלי לחיבור"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "בינוני"
+ },{
+  "en": "Medium Orchid",
+  "tr": "סחלב בינוני"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "כחול בינוני צפחה"
+ },{
+  "en": "Menu Bar",
+  "tr": "תפריט הבר"
+ },{
+  "en": "Merge To Group",
+  "tr": "מיזוג לקבוצה"
+ },{
+  "en": "Middle click",
+  "tr": "קליק אמצעי"
+ },{
+  "en": "Middle click event",
+  "tr": "אירוע קליק אמצעי"
+ },{
+  "en": "Milliseconds",
+  "tr": "אלפיות השנייה"
+ },{
+  "en": "Minutes",
+  "tr": "דקות"
+ },{
+  "en": "minutes",
+  "tr": "דקות"
+ },{
+  "en": "Mismatched",
+  "tr": "לא תואם"
+ },{
+  "en": "Mode",
+  "tr": "מצב"
+ },{
+  "en": "Modem waiting",
+  "tr": "מודם מחכה"
+ },{
+  "en": "Modes",
+  "tr": "מצבים"
+ },{
+  "en": "Modified",
+  "tr": "שונה"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "שנה"
+ },{
+  "en": "Modify Lines",
+  "tr": "שנה קווים"
+ },{
+  "en": "Month",
+  "tr": "חודש"
+ },{
+  "en": "More",
+  "tr": "עוד"
+ },{
+  "en": "Mouse Actions",
+  "tr": "פעולות עכבר"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "מעקב אחר עכברים"
+ },{
+  "en": "Move Down",
+  "tr": "לרדת"
+ },{
+  "en": "Move event",
+  "tr": "העברת אירוע"
+ },{
+  "en": "Move to",
+  "tr": "לעבור ל"
+ },{
+  "en": "Move To Group",
+  "tr": "מעבר לקבוצה"
+ },{
+  "en": "Move Up",
+  "tr": "זוז למעלה"
+ },{
+  "en": "Multiple Caret",
+  "tr": "מספר דגמים"
+ },{
+  "en": "Name",
+  "tr": "שֵׁם"
+ },{
+  "en": "nesting groups",
+  "tr": "קבוצות קינון"
+ },{
+  "en": "Never",
+  "tr": "לעולם לא"
+ },{
+  "en": "New directory",
+  "tr": "ספרייה חדשה"
+ },{
+  "en": "New File",
+  "tr": "קובץ חדש"
+ },{
+  "en": "New file",
+  "tr": "קובץ חדש"
+ },{
+  "en": "New Line",
+  "tr": "קו חדש"
+ },{
+  "en": "New link",
+  "tr": "קישור חדש"
+ },{
+  "en": "New password",
+  "tr": "סיסמה חדשה"
+ },{
+  "en": "New Session",
+  "tr": "מושב חדש"
+ },{
+  "en": "New Window",
+  "tr": "חלון חדש"
+ },{
+  "en": "Next Char",
+  "tr": "צ'אר הבא"
+ },{
+  "en": "Next Fold",
+  "tr": "הקיפול הבא"
+ },{
+  "en": "Next Indentation",
+  "tr": "הכניסה הבאה"
+ },{
+  "en": "Next Line",
+  "tr": "השורה הבאה"
+ },{
+  "en": "Next Message",
+  "tr": "ההודעה הבאה"
+ },{
+  "en": "Next Page",
+  "tr": "הדף הבא"
+ },{
+  "en": "Next Pair",
+  "tr": "הזוג הבא"
+ },{
+  "en": "Next Paragraph",
+  "tr": "הפסקה הבאה"
+ },{
+  "en": "Next Scope",
+  "tr": "היקף הבא"
+ },{
+  "en": "Next Segment End",
+  "tr": "סוף הפלח הבא"
+ },{
+  "en": "Next Segment Start",
+  "tr": "התחלת הפלח הבא"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "הדף הגמגום הבא"
+ },{
+  "en": "Next Word",
+  "tr": "המילה הבאה"
+ },{
+  "en": "Next Word End",
+  "tr": "סוף המילה הבאה"
+ },{
+  "en": "Next Word Part",
+  "tr": "חלק המילה הבאה"
+ },{
+  "en": "No",
+  "tr": "לא"
+ },{
+  "en": "No action",
+  "tr": "שום פעולה"
+ },{
+  "en": "No Dirs",
+  "tr": "בלי דירקטורים"
+ },{
+  "en": "No elide",
+  "tr": "אין גלישה"
+ },{
+  "en": "No file opened",
+  "tr": "לא נפתח קובץ"
+ },{
+  "en": "No filer available",
+  "tr": "אין קובץ זמין"
+ },{
+  "en": "No Files",
+  "tr": "אין קבצים"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "לא נבחרו קבצים להעברה."
+ },{
+  "en": "No item opened",
+  "tr": "לא נפתח פריט"
+ },{
+  "en": "No outline available",
+  "tr": "אין מתאר זמין"
+ },{
+  "en": "No proxy",
+  "tr": "אין פרוקסי"
+ },{
+  "en": "No session",
+  "tr": "אין הפעלה"
+ },{
+  "en": "No session available",
+  "tr": "אין פגישה זמינה"
+ },{
+  "en": "No session opened",
+  "tr": "לא נפתח מפגש"
+ },{
+  "en": "No Sessions",
+  "tr": "אין מפגשים"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "אין זמינות שיטות אימות נתמכות."
+ },{
+  "en": "No transfer available",
+  "tr": "אין העברה זמינה"
+ },{
+  "en": "No wrap",
+  "tr": "אין עטיפה"
+ },{
+  "en": "No X display",
+  "tr": "אין תצוגת X"
+ },{
+  "en": "None",
+  "tr": "אף אחד"
+ },{
+  "en": "None tabs",
+  "tr": "אין כרטיסיות"
+ },{
+  "en": "Normal",
+  "tr": "נוֹרמָלִי"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "עַכשָׁיו"
+ },{
+  "en": "Nowhere",
+  "tr": "לְשׁוּם מָקוֹם"
+ },{
+  "en": "Octal",
+  "tr": "אוקטל"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM ל- ANSI"
+ },{
+  "en": "Off",
+  "tr": "כבוי"
+ },{
+  "en": "off",
+  "tr": "כבוי"
+ },{
+  "en": "Ok",
+  "tr": "בסדר"
+ },{
+  "en": "Old",
+  "tr": "ישן"
+ },{
+  "en": "Old password",
+  "tr": "סיסמה ישנה"
+ },{
+  "en": "Olive",
+  "tr": "זית"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "מפגש אחד או יותר נפתחים, ( האם ברצונך לסגור את החלון הנוכחי?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "ניתן לטעון מחדש רק קובץ דיסק!"
+ },{
+  "en": "Only indentation",
+  "tr": "רק הזחה"
+ },{
+  "en": "Opaque",
+  "tr": "אָטוּם"
+ },{
+  "en": "Open",
+  "tr": "פתוח"
+ },{
+  "en": "open",
+  "tr": "לִפְתוֹחַ"
+ },{
+  "en": "Open directory after created",
+  "tr": "פתיחת ספרייה לאחר יצירת"
+ },{
+  "en": "Open directory after download",
+  "tr": "פתיחת הספרייה לאחר ההורדה"
+ },{
+  "en": "Open File",
+  "tr": "פתח קובץ"
+ },{
+  "en": "Open file",
+  "tr": "קובץ פתוח"
+ },{
+  "en": "Open file after created",
+  "tr": "פתיחת קובץ לאחר יצירתו"
+ },{
+  "en": "Open file failed!",
+  "tr": "פתיחת הקובץ נכשלה!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "שרת הזינוק הפתוח נכשל!"
+ },{
+  "en": "Open Log File",
+  "tr": "פתח קובץ יומן רישום"
+ },{
+  "en": "Open Log Folder",
+  "tr": "פתח תיקיית יומן"
+ },{
+  "en": "Open Recent",
+  "tr": "פתח לאחרונה"
+ },{
+  "en": "Open Selection",
+  "tr": "סלקציה פתוחה"
+ },{
+  "en": "Open Session",
+  "tr": "הפעלה פתוחה"
+ },{
+  "en": "Open session failed!",
+  "tr": "הפגישה הפתוחה נכשלה!"
+ },{
+  "en": "Open target directory",
+  "tr": "פתיחת ספריית היעד"
+ },{
+  "en": "Open with default editor",
+  "tr": "פתח עם עורך ברירת המחדל"
+ },{
+  "en": "Opened",
+  "tr": "נפתח"
+ },{
+  "en": "Openssh sessions",
+  "tr": "הפעלות Openssh"
+ },{
+  "en": "Others",
+  "tr": "אחרים"
+ },{
+  "en": "Outline",
+  "tr": "מתווה"
+ },{
+  "en": "Output",
+  "tr": "תְפוּקָה"
+ },{
+  "en": "Overtype",
+  "tr": "סוג יתר"
+ },{
+  "en": "Overwrite",
+  "tr": "תחליף"
+ },{
+  "en": "Overwrite log file",
+  "tr": "החלף קובץ יומן"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "תחליף כאשר קובץ המקור חדש יותר"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "החלף כאשר קובץ המקור חדש או ארוך יותר"
+ },{
+  "en": "Owner",
+  "tr": "בעלים"
+ },{
+  "en": "Packet padding char",
+  "tr": "חבילת ריפוד מנות"
+ },{
+  "en": "Packet size",
+  "tr": "גודל חבילה"
+ },{
+  "en": "Page",
+  "tr": "דף"
+ },{
+  "en": "page",
+  "tr": "עמוד"
+ },{
+  "en": "Pair",
+  "tr": "זוג"
+ },{
+  "en": "Panes",
+  "tr": "לוחות"
+ },{
+  "en": "Paragraph",
+  "tr": "פסקה"
+ },{
+  "en": "Parity",
+  "tr": "זוגיות"
+ },{
+  "en": "Passphrase",
+  "tr": "משפט סיסמה"
+ },{
+  "en": "Password",
+  "tr": "סיסמה"
+ },{
+  "en": "Password quality meter",
+  "tr": "מד איכות סיסמה"
+ },{
+  "en": "Paste",
+  "tr": "לְהַדבִּיק"
+ },{
+  "en": "Paste Dialog",
+  "tr": "הדבק דיאלוג"
+ },{
+  "en": "Paste text",
+  "tr": "הדבק טקסט"
+ },{
+  "en": "Pause",
+  "tr": "השהה"
+ },{
+  "en": "Paused",
+  "tr": "מושהה"
+ },{
+  "en": "Pausing",
+  "tr": "מושהה"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "בצע חיפוש DNS עם פרוקסי"
+ },{
+  "en": "Period",
+  "tr": "תקופה"
+ },{
+  "en": "Permissions",
+  "tr": "הרשאות"
+ },{
+  "en": "pixels",
+  "tr": "פיקסלים"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "אנא הזן שם חדש לתצוגה זו"
+ },{
+  "en": "Please input master password",
+  "tr": "אנא הזן את סיסמת האב"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "אנא הזן את סיסמת האב, ריק או בטל כדי להשבית"
+ },{
+  "en": "Please input new group",
+  "tr": "אנא הכנס קבוצה חדשה"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "אנא ודא שאתה זוכר את סיסמת האב שהגדרת."
+ },{
+  "en": "Port",
+  "tr": "נמל"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "העדיף גופני נושא"
+ },{
+  "en": "Preferences",
+  "tr": "העדפות"
+ },{
+  "en": "Preserve",
+  "tr": "לשמור"
+ },{
+  "en": "Preview All",
+  "tr": "תצוגה מקדימה של הכל"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "סמל תצוגה מקדימה"
+ },{
+  "en": "Previous Char",
+  "tr": "צ'אר(C) הקודם"
+ },{
+  "en": "Previous Fold",
+  "tr": "קיפול קודם"
+ },{
+  "en": "Previous Indentation",
+  "tr": "הזחה קודמת"
+ },{
+  "en": "Previous Line",
+  "tr": "שורה קודמת"
+ },{
+  "en": "Previous Message",
+  "tr": "הודעה קודמת"
+ },{
+  "en": "Previous Page",
+  "tr": "דף קודם"
+ },{
+  "en": "Previous Pair",
+  "tr": "זוג קודם"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "פסקה קודמת"
+ },{
+  "en": "Previous Scope",
+  "tr": "היקף הקודם"
+ },{
+  "en": "Previous Segment End",
+  "tr": "סוף פלח קודם"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "תחילת הפלח הקודם"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "דף גמגום קודם"
+ },{
+  "en": "Previous Word",
+  "tr": "מילה קודמת"
+ },{
+  "en": "Previous Word End",
+  "tr": "סוף המילים הקודמות"
+ },{
+  "en": "Previous Word Part",
+  "tr": "חלק מילה קודם"
+ },{
+  "en": "Printable output",
+  "tr": "פלט להדפסה"
+ },{
+  "en": "Process",
+  "tr": "תהליך"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "תהליך %1 קרס."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "תהליך %1 נכשל."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "פסק הזמן של תהליך %1."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "תוכנית [טיעונים]"
+ },{
+  "en": "Project",
+  "tr": "פרויקט"
+ },{
+  "en": "Properties",
+  "tr": "נכסים"
+ },{
+  "en": "Property",
+  "tr": "תכונה"
+ },{
+  "en": "Protocol",
+  "tr": "נוהל"
+ },{
+  "en": "Proxy",
+  "tr": "פרוקסי"
+ },{
+  "en": "Proxy Host",
+  "tr": "מארח פרוקסי"
+ },{
+  "en": "Proxy Port",
+  "tr": "יציאת פרוקסי"
+ },{
+  "en": "Proxy Settings",
+  "tr": "הגדרות פרוקסי"
+ },{
+  "en": "Proxy Type",
+  "tr": "סוג פרוקסי"
+ },{
+  "en": "Public Key",
+  "tr": "מפתח ציבורי"
+ },{
+  "en": "Public Keys",
+  "tr": "מפתחות ציבוריים"
+ },{
+  "en": "Public keys order",
+  "tr": "סדר מפתחות ציבוריים"
+ },{
+  "en": "Putty sessions",
+  "tr": "מפגשי מרק"
+ },{
+  "en": "Query URL",
+  "tr": "כתובת URL לשאילתה"
+ },{
+  "en": "Question",
+  "tr": "שְׁאֵלָה"
+ },{
+  "en": "Quick",
+  "tr": "מָהִיר"
+ },{
+  "en": "Quick Bar",
+  "tr": "בר מהיר"
+ },{
+  "en": "Quick Commands",
+  "tr": "פקודות מהירות"
+ },{
+  "en": "Read Only",
+  "tr": "לקריאה בלבד"
+ },{
+  "en": "Ready",
+  "tr": "מוּכָן"
+ },{
+  "en": "Real guide",
+  "tr": "מדריך אמיתי"
+ },{
+  "en": "Receive XModem",
+  "tr": "קבל XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "קבל YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "קבל ZModem"
+ },{
+  "en": "received",
+  "tr": "קיבלו"
+ },{
+  "en": "Recent",
+  "tr": "לאחרונה"
+ },{
+  "en": "Recent Sessions",
+  "tr": "הפעלות אחרונות"
+ },{
+  "en": "Reconnect Session",
+  "tr": "התחבר מחדש להפעלה"
+ },{
+  "en": "Rectangle",
+  "tr": "מַלבֵּן"
+ },{
+  "en": "rectangle",
+  "tr": "מַלבֵּן"
+ },{
+  "en": "Red",
+  "tr": "אדום"
+ },{
+  "en": "Redo",
+  "tr": "בצע מחדש"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "בצע שוב פעולות %1"
+ },{
+  "en": "Refresh",
+  "tr": "רענן"
+ },{
+  "en": "Regular Expression",
+  "tr": "הבעה רגילה"
+ },{
+  "en": "Reload",
+  "tr": "לִטעוֹן מִחָדָשׁ"
+ },{
+  "en": "Reload File",
+  "tr": "טען מחדש קובץ"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "טען מחדש עם קידוד"
+ },{
+  "en": "Remote forwarding",
+  "tr": "העברה מרחוק"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "נתיב מרוחק"
+ },{
+  "en": "Remove",
+  "tr": "הסר"
+ },{
+  "en": "remove",
+  "tr": "לְהַסִיר"
+ },{
+  "en": "Remove All",
+  "tr": "הסר הכל"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "הסר קווים ריקים"
+ },{
+  "en": "Remove Command",
+  "tr": "הסר את הפקודה"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "הסר שורות כפולות"
+ },{
+  "en": "Remove Group",
+  "tr": "הסר את הקבוצה"
+ },{
+  "en": "Remove items",
+  "tr": "הסר פריטים"
+ },{
+  "en": "Remove Sender",
+  "tr": "הסר שולח"
+ },{
+  "en": "Removing",
+  "tr": "מסיר"
+ },{
+  "en": "Rename",
+  "tr": "שנה שם"
+ },{
+  "en": "Rename Group",
+  "tr": "שנה את שם הקבוצה"
+ },{
+  "en": "Rename tab",
+  "tr": "שנה את שם הכרטיסייה"
+ },{
+  "en": "Rename View",
+  "tr": "שנה את שם התצוגה"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "פתיחה מחדש של תצוגה סגורה"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "חזור על הפקודה האחרונה"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "בצע שוב ושוב"
+ },{
+  "en": "Replace",
+  "tr": "החלף"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "החלף הכל"
+ },{
+  "en": "Replace in Files",
+  "tr": "החלף בקבצים"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "דורש הפעלה מחדש כדי להשפיע"
+ },{
+  "en": "Reset",
+  "tr": "איפוס"
+ },{
+  "en": "Reset Character Set",
+  "tr": "אפס סט תווים"
+ },{
+  "en": "Reset Zoom",
+  "tr": "אפס זום"
+ },{
+  "en": "Resume",
+  "tr": "קורות חיים"
+ },{
+  "en": "Resuming",
+  "tr": "מתחדש"
+ },{
+  "en": "Right click",
+  "tr": "קליק ימני"
+ },{
+  "en": "Right click event",
+  "tr": "אירוע קליק ימני"
+ },{
+  "en": "Right Docks",
+  "tr": "עגינות ימניות"
+ },{
+  "en": "Right Group",
+  "tr": "הקבוצה הנכונה"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "גלגל את גלגל העכבר כדי לגלול"
+ },{
+  "en": "Rows",
+  "tr": "שורות"
+ },{
+  "en": "Royal Blue",
+  "tr": "כחול רויאל"
+ },{
+  "en": "Run Tool",
+  "tr": "הפעל את כלי"
+ },{
+  "en": "Save",
+  "tr": "להציל"
+ },{
+  "en": "Save All",
+  "tr": "שמור הכל"
+ },{
+  "en": "Save As",
+  "tr": "שמור בשם"
+ },{
+  "en": "Save Copy As",
+  "tr": "שמור העתקה בשם"
+ },{
+  "en": "Save file failed!",
+  "tr": "שמירת הקובץ נכשלה!"
+ },{
+  "en": "Save Selection As",
+  "tr": "שמור את הבחירה בשם"
+ },{
+  "en": "Save Session",
+  "tr": "שמור הפעלה"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "אימות אוטומטי(S) נשמר"
+ },{
+  "en": "Scheme Tools",
+  "tr": "כלי ערכות"
+ },{
+  "en": "Scope",
+  "tr": "היקף"
+ },{
+  "en": "Screen Locked",
+  "tr": "מסך נעול"
+ },{
+  "en": "Scroll Left",
+  "tr": "גלול שמאלה"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "גלול קו למטה"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "סדר גלילה"
+ },{
+  "en": "Scroll Right",
+  "tr": "גלול ימינה"
+ },{
+  "en": "Search",
+  "tr": "לחפש"
+ },{
+  "en": "Search engine",
+  "tr": "מנועי חיפוש)"
+ },{
+  "en": "Search Engine",
+  "tr": "מנוע חיפוש"
+ },{
+  "en": "Search Engines",
+  "tr": "מנועי חיפוש"
+ },{
+  "en": "Search Online",
+  "tr": "חפש באינטרנט"
+ },{
+  "en": "Search or enter address",
+  "tr": "חפש או הזן כתובת"
+ },{
+  "en": "Searching",
+  "tr": "מחפש"
+ },{
+  "en": "Seconds",
+  "tr": "שניות"
+ },{
+  "en": "seconds",
+  "tr": "שניות"
+ },{
+  "en": "Security",
+  "tr": "בִּטָחוֹן"
+ },{
+  "en": "Segment",
+  "tr": "פלח"
+ },{
+  "en": "Select",
+  "tr": "בחר"
+ },{
+  "en": "Select All",
+  "tr": "בחר הכל"
+ },{
+  "en": "Select Column To",
+  "tr": "בחר עמודה אל"
+ },{
+  "en": "Select copy folder",
+  "tr": "בחר תיקיית העתקה"
+ },{
+  "en": "Select copy items",
+  "tr": "בחר פריטי העתקה"
+ },{
+  "en": "Select directory to receive",
+  "tr": "בחר ספרייה שתקבל"
+ },{
+  "en": "Select download folder",
+  "tr": "בחר תיקיית הורדה"
+ },{
+  "en": "Select files to send",
+  "tr": "בחר קבצים לשלוח"
+ },{
+  "en": "Select Fold",
+  "tr": "בחר קיפול"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "בחר קטע אחורה"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "בחר קטע קדימה"
+ },{
+  "en": "Select To",
+  "tr": "בחר אל"
+ },{
+  "en": "Select upload items",
+  "tr": "בחר פריטי העלאה"
+ },{
+  "en": "Selected position",
+  "tr": "תפקיד נבחר"
+ },{
+  "en": "Selected Sessions",
+  "tr": "הפעלות נבחרות"
+ },{
+  "en": "Selection",
+  "tr": "בְּחִירָה"
+ },{
+  "en": "Send",
+  "tr": "לִשְׁלוֹחַ"
+ },{
+  "en": "Send line By line",
+  "tr": "שלח שורה אחר שורה"
+ },{
+  "en": "Send Text",
+  "tr": "שלח טקסט"
+ },{
+  "en": "Send XModem",
+  "tr": "שלח XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "שלח YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "שלח ZModem"
+ },{
+  "en": "Sender",
+  "tr": "שׁוֹלֵחַ"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "שליחת %1 נכשלה: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "שליחה: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "שולח חבילת אפס כדי לשמור על הפעלה בחיים"
+ },{
+  "en": "sent",
+  "tr": "נשלח"
+ },{
+  "en": "Serial",
+  "tr": "סדרות"
+ },{
+  "en": "Server",
+  "tr": "שרת"
+ },{
+  "en": "Session",
+  "tr": "מוֹשָׁב"
+ },{
+  "en": "session",
+  "tr": "מוֹשָׁב"
+ },{
+  "en": "Session Group",
+  "tr": "קבוצת מושבים"
+ },{
+  "en": "Session Log",
+  "tr": "יומן הפעלה"
+ },{
+  "en": "Session name",
+  "tr": "שם ההפעלה"
+ },{
+  "en": "Session Settings",
+  "tr": "הגדרות הפעלה"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "הפעלות בכל חלונות"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "הפעלות בקבוצה הנוכחית"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "הפעלות בחלון הנוכחי"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "הפעלות בקבוצה %1"
+ },{
+  "en": "Set default editor",
+  "tr": "הגדר עורך ברירת מחדל"
+ },{
+  "en": "Set Tab Color",
+  "tr": "הגדרת צבע הכרטיסייה"
+ },{
+  "en": "Settings",
+  "tr": "הגדרות"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "צורה"
+ },{
+  "en": "Shell",
+  "tr": "צדף"
+ },{
+  "en": "Shell sessions",
+  "tr": "הפעלות מעטפת"
+ },{
+  "en": "Shell Sessions",
+  "tr": "מפגשי מעטפת"
+ },{
+  "en": "Short Time/Date",
+  "tr": "זמן/תאריך קצר"
+ },{
+  "en": "Show",
+  "tr": "הופעה"
+ },{
+  "en": "Show All",
+  "tr": "הצג הכל"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "הצג את כל העורכים שנפתחו ואחרונים"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "הצג את כל המסופים שנפתחו ואחרונים"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "הצג והפעל פעולות"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "הצג תיבת דו -שיח לאישור כרטיסיית סגור"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "הצג תיבת דו -שיח לאישור חלון סגור"
+ },{
+  "en": "Show column markers",
+  "tr": "הצג סמני עמודות"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "הצג פקודות בסדר אלפביתי"
+ },{
+  "en": "Show current %1 property",
+  "tr": "הצג נכס %1 הנוכחי"
+ },{
+  "en": "Show group commands in order",
+  "tr": "הצג פקודות קבוצתיות לפי סדר"
+ },{
+  "en": "Show group title",
+  "tr": "הצגת כותרת הקבוצה"
+ },{
+  "en": "Show hidden items",
+  "tr": "הצג פריטים מוסתרים"
+ },{
+  "en": "Show in %1",
+  "tr": "הצג ב- %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Show In Line End"
+ },{
+  "en": "Show In Line Start",
+  "tr": "הצג בשורה"
+ },{
+  "en": "Show In Selection",
+  "tr": "הצג בבחירה"
+ },{
+  "en": "Show indent guide",
+  "tr": "הצג מדריך כניסה"
+ },{
+  "en": "Show line endings",
+  "tr": "הצג קצות שורות"
+ },{
+  "en": "Show menu",
+  "tr": "הראה תפריט"
+ },{
+  "en": "Show More Tools",
+  "tr": "הצג כלים נוספים"
+ },{
+  "en": "Show multiple groups",
+  "tr": "הצג מספר קבוצות"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "הצג תיבת דו -שיח הדבקה במסך החלופי"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "הצג תיבת דו -שיח הדבקה במסך הראשי"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "הצג רווחים וכרטיסיות"
+ },{
+  "en": "Show Tabs",
+  "tr": "הצג כרטיסיות"
+ },{
+  "en": "Show Text",
+  "tr": "הצג טקסט"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "הצג את מספר הכרטיסייה בכרטיסיות"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "הצג תיבת דו -שיח זו כאשר מצב המיקוד מתחיל"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "הצג סמלי עטיפה"
+ },{
+  "en": "Shrink",
+  "tr": "לצמק"
+ },{
+  "en": "Size",
+  "tr": "גודל"
+ },{
+  "en": "Skip",
+  "tr": "לדלג"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "איפוס רך"
+ },{
+  "en": "Sort",
+  "tr": "מיין"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "מיון קווים לא רגישים"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "מיון קווי רגישות"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "מיין קווים בסדר אקראי"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "מיין קווים בסדר הפוך"
+ },{
+  "en": "spaces",
+  "tr": "רווחים"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "רווחים לכרטיסיות"
+ },{
+  "en": "Spacing",
+  "tr": "מרווח"
+ },{
+  "en": "Special",
+  "tr": "מיוחד"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "ציין את הפרוטוקול בעת גרירת ושחרור קבצים"
+ },{
+  "en": "Speed",
+  "tr": "מְהִירוּת"
+ },{
+  "en": "Split",
+  "tr": "פיצול"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "פיצול הקבוצה אופקית"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "פיצול קבוצה אנכית"
+ },{
+  "en": "Split Lines",
+  "tr": "קווים מפוצלים"
+ },{
+  "en": "Split Selection",
+  "tr": "בחירה מפוצלת"
+ },{
+  "en": "Split To Group",
+  "tr": "פיצול לקבוצה"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "תצוגה מפוצלת אופקית"
+ },{
+  "en": "Split View Vertically",
+  "tr": "תצוגת פיצול אנכית"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "התחל"
+ },{
+  "en": "Start Of Document",
+  "tr": "התחלת המסמך"
+ },{
+  "en": "Start Of Line",
+  "tr": "התחלת קו"
+ },{
+  "en": "Start Of Pair",
+  "tr": "התחלת זוג"
+ },{
+  "en": "Startup",
+  "tr": "סטארט - אפ"
+ },{
+  "en": "Stash",
+  "tr": "סטש"
+ },{
+  "en": "Status Bar",
+  "tr": "שורת מצב"
+ },{
+  "en": "Stdin",
+  "tr": "סטדין"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "כחול פלדה"
+ },{
+  "en": "Sticky",
+  "tr": "דביק"
+ },{
+  "en": "Stop",
+  "tr": "תפסיק"
+ },{
+  "en": "Stop Bits",
+  "tr": "ביס עצור"
+ },{
+  "en": "Stop loading",
+  "tr": "תפסיק לטעון"
+ },{
+  "en": "Stop sender",
+  "tr": "עצור את השולח"
+ },{
+  "en": "Stop Tools",
+  "tr": "עצור כלים"
+ },{
+  "en": "Stop watching this file",
+  "tr": "תפסיק לצפות בקובץ הזה"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "החלף זרם ועמודה"
+ },{
+  "en": "switch to tab",
+  "tr": "עבור לכרטיסייה"
+ },{
+  "en": "Symbols",
+  "tr": "סמלים"
+ },{
+  "en": "Sync channel",
+  "tr": "סנכרן ערוץ"
+ },{
+  "en": "Sync Edit",
+  "tr": "סנכרן עריכה"
+ },{
+  "en": "Sync Input",
+  "tr": "קלט סנכרון"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "סנכרון קלט בערוץ %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "תוכניות תחביר"
+ },{
+  "en": "System",
+  "tr": "מערכת"
+ },{
+  "en": "Tab",
+  "tr": "כרטיסייה"
+ },{
+  "en": "Tab Color",
+  "tr": "צבע הכרטיסייה"
+ },{
+  "en": "Tab Features",
+  "tr": "תכונות הכרטיסייה"
+ },{
+  "en": "Tab Group",
+  "tr": "קבוצת כרטיסיות"
+ },{
+  "en": "Tab Index",
+  "tr": "אינדקס כרטיסיות"
+ },{
+  "en": "Tab size",
+  "tr": "גודל כרטיסייה"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "מצב העברת טקסט בכרטיסיה"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "רדיו ממוזער של כרטיסיות"
+ },{
+  "en": "Tab Title",
+  "tr": "כותרת הכרטיסייה"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify קווים נבחרים"
+ },{
+  "en": "Tabs",
+  "tr": "כרטיסיות"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "כרטיסיות לרווחים"
+ },{
+  "en": "Target",
+  "tr": "יַעַד"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "תיקיית יעד"
+ },{
+  "en": "Targets",
+  "tr": "מטרות"
+ },{
+  "en": "TCP connection options",
+  "tr": "אפשרויות חיבור TCP"
+ },{
+  "en": "Teal",
+  "tr": "צהוב"
+ },{
+  "en": "Term",
+  "tr": "מונח"
+ },{
+  "en": "Terminal",
+  "tr": "מָסוֹף"
+ },{
+  "en": "terminal",
+  "tr": "מָסוֹף"
+ },{
+  "en": "Terminal Settings",
+  "tr": "הגדרות מסוף"
+ },{
+  "en": "Text",
+  "tr": "טֶקסט"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "טקסט: %1 שורות, %2 תווים"
+ },{
+  "en": "The % sign",
+  "tr": "הסימן"
+ },{
+  "en": "The actual text to log",
+  "tr": "הטקסט בפועל ליומן"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "תיקיית היעד היא תיקיית משנה של תיקיית המקור: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "המסמך השתנה. \n האם ברצונך לשמור את השינויים?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "שילוב המקשים(%1) אינו פקודה."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "ה- lrzsz אינו מזוהה. אנא התקן תחילה את lrzsz."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "סיסמת האב השתנתה."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "אישור הסיסמה אינו תואם."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "השרת ביטל את השידור."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "ההפעלה <b> מנותקת </b>, הקש על <b> Enter </b> כדי להתחבר מחדש."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "ההעברה בוטלה מכיוון שחבילה לא הייתה %1 בגבול ניסיון חוזר."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "ההעברה בוטלה מכיוון שמספר רצף המנות שגוי."
+ },{
+  "en": "Theme",
+  "tr": "נושא"
+ },{
+  "en": "Thin",
+  "tr": "רזה"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "סף עבור קובץ ענק"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "פורמט הזמן"
+ },{
+  "en": "Time left",
+  "tr": "הזמן שנותר"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "חותמת זמן של שורות"
+ },{
+  "en": "To Inverse Case",
+  "tr": "למקרה הפוך"
+ },{
+  "en": "To Line End",
+  "tr": "לסיום הקו"
+ },{
+  "en": "To Line Start",
+  "tr": "להתחלת קו"
+ },{
+  "en": "To Lower Case",
+  "tr": "לאותיות קטנות"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "ל- MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "לכתב כותרת"
+ },{
+  "en": "To Unix LF",
+  "tr": "ליוניקס LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "לאותיות גדולות"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "ל- Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "עד סוף המילה"
+ },{
+  "en": "To Word Start",
+  "tr": "ל- Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "החלף קיפול"
+ },{
+  "en": "Tool",
+  "tr": "כלי"
+ },{
+  "en": "Toolbar",
+  "tr": "סרגל כלים"
+ },{
+  "en": "Top Group",
+  "tr": "הקבוצה המובילה"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "בחירת מסלול טקסט בעץ"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "עקוב אחר בחירת עץ בטקסט"
+ },{
+  "en": "Tracking Events",
+  "tr": "מעקב אחר אירועים"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "חללים נגררים"
+ },{
+  "en": "Trailing position",
+  "tr": "עמדה נגררת"
+ },{
+  "en": "Transfer",
+  "tr": "לְהַעֲבִיר"
+ },{
+  "en": "Transfer Bar",
+  "tr": "בר העברה"
+ },{
+  "en": "Transfer Binary",
+  "tr": "העבר בינארי"
+ },{
+  "en": "Transfer complete",
+  "tr": "ההעברה הושלמה"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "העברה לא מלאה"
+ },{
+  "en": "Translucent",
+  "tr": "שקוף"
+ },{
+  "en": "Transparent",
+  "tr": "שָׁקוּף"
+ },{
+  "en": "Transpose",
+  "tr": "Transpose"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "חתוך את שטח הלבן הנגרר בשמירה"
+ },{
+  "en": "Trust this host",
+  "tr": "סמכו על המארח הזה"
+ },{
+  "en": "Tunnels",
+  "tr": "מנהרות"
+ },{
+  "en": "Type",
+  "tr": "סוּג"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "הקלד '?' כדי לקבל עזרה בנוגע לפעולות תוכל להקליד כאן"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "בחירה ללא תגובה"
+ },{
+  "en": "Underline",
+  "tr": "לָשִׂים דָגֵשׁ"
+ },{
+  "en": "underLine",
+  "tr": "לָשִׂים דָגֵשׁ"
+ },{
+  "en": "Undo",
+  "tr": "בטל"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "בטל פעולות %1"
+ },{
+  "en": "Unfold",
+  "tr": "ביטול"
+ },{
+  "en": "Unfold All",
+  "tr": "ביטול הכל"
+ },{
+  "en": "Unfold Category",
+  "tr": "ביטול קטגוריה"
+ },{
+  "en": "Unfold Inside",
+  "tr": "התפתח בפנים"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "איחוד קצות שורות בשמירה"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: נתיב קובץ המעטפת חייב להיות מוחלט"
+ },{
+  "en": "Unknown",
+  "tr": "לא ידוע"
+ },{
+  "en": "unknown",
+  "tr": "לא ידוע"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "בטל קווים נבחרים"
+ },{
+  "en": "Untitled",
+  "tr": "ללא כותרת"
+ },{
+  "en": "Untrust this host",
+  "tr": "בטל את האמון של המארח הזה"
+ },{
+  "en": "upload",
+  "tr": "להעלות"
+ },{
+  "en": "Upload command",
+  "tr": "פקודת העלאה"
+ },{
+  "en": "Upload directory",
+  "tr": "העלה ספרייה"
+ },{
+  "en": "Upload file",
+  "tr": "העלה קובץ"
+ },{
+  "en": "Upload to current folder",
+  "tr": "העלה לתיקייה הנוכחית"
+ },{
+  "en": "uploaded",
+  "tr": "הועלה"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "כתובת אתר עם %q במקום השאילתה"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "השתמש בצבע רקע כדי למחוק את המסך"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "השתמש בהעברה במהירות גבוהה"
+ },{
+  "en": "Use system line ending",
+  "tr": "השתמש בסיום שורת המערכת"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "השתמש בזה כברירת מחדל ואל תשאל שוב"
+ },{
+  "en": "User",
+  "tr": "מִשׁתַמֵשׁ"
+ },{
+  "en": "Username echo mode",
+  "tr": "מצב הד הדמיה"
+ },{
+  "en": "Value",
+  "tr": "ערך"
+ },{
+  "en": "Variable",
+  "tr": "מִשְׁתַנֶה"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "אימות טביעת האצבע של השרת"
+ },{
+  "en": "View",
+  "tr": "הצג"
+ },{
+  "en": "Virtual Space",
+  "tr": "מרחב וירטואלי"
+ },{
+  "en": "Waiting",
+  "tr": "הַמתָנָה"
+ },{
+  "en": "Warning",
+  "tr": "אַזהָרָה"
+ },{
+  "en": "Wheel event",
+  "tr": "אירוע גלגלים"
+ },{
+  "en": "When destination file exists",
+  "tr": "כאשר קיים קובץ יעד"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "בעת הדבקת מספר שורות"
+ },{
+  "en": "When remote title is changed",
+  "tr": "כאשר הכותרת המרוחקת משתנה"
+ },{
+  "en": "When session is authenticated",
+  "tr": "כאשר ההפעלה מאומתת"
+ },{
+  "en": "When session is authenticating",
+  "tr": "כאשר הפגישה מאמתת"
+ },{
+  "en": "When window is resized",
+  "tr": "כאשר גודל החלון משתנה"
+ },{
+  "en": "Where",
+  "tr": "היכן"
+ },{
+  "en": "White Spaces",
+  "tr": "מרחבים לבנים"
+ },{
+  "en": "Whole Line",
+  "tr": "קו שלם"
+ },{
+  "en": "Whole Word",
+  "tr": "כל העולם"
+ },{
+  "en": "Widgets",
+  "tr": "ווידג'טים"
+ },{
+  "en": "Width",
+  "tr": "רוחב"
+ },{
+  "en": "Window",
+  "tr": "חַלוֹן"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "קצה החלון"
+ },{
+  "en": "Window Opacity",
+  "tr": "אטימות חלון"
+ },{
+  "en": "Window opacity",
+  "tr": "אטימות חלון"
+ },{
+  "en": "Windows Manager",
+  "tr": "מנהל Windows"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe או winpty.dll לא נמצאו !."
+ },{
+  "en": "Word",
+  "tr": "מילה"
+ },{
+  "en": "Word Separators",
+  "tr": "מפרידי מילים"
+ },{
+  "en": "Word Wrap",
+  "tr": "גלישת מילים"
+ },{
+  "en": "Working directory",
+  "tr": "מדריך עבודה"
+ },{
+  "en": "Wrap",
+  "tr": "לַעֲטוֹף"
+ },{
+  "en": "Wrap by character",
+  "tr": "עטיפה לפי דמות"
+ },{
+  "en": "Wrap by word",
+  "tr": "עטוף במילה"
+ },{
+  "en": "Wrap column",
+  "tr": "עטיפת עטיפה"
+ },{
+  "en": "Wrap mode",
+  "tr": "מצב גלישה"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "גלישת סמלים"
+ },{
+  "en": "Wrong master password.",
+  "tr": "סיסמת מאסטר שגויה."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "מודם X/Y/Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "מודם X/Y/Z אינו יכול להעביר תיקיות או קבצים הגדולים מ -4 GB: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "פרוטוקול אימות X11"
+ },{
+  "en": "X11 display",
+  "tr": "תצוגה X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "שנה ב -2 ספרות"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "שנה בארבע ספרות"
+ },{
+  "en": "Yes",
+  "tr": "כן"
+ },{
+  "en": "Zero",
+  "tr": "אֶפֶס"
+ },{
+  "en": "Zoom",
+  "tr": "תקריב"
+ },{
+  "en": "Zoom In",
+  "tr": "הגדל"
+ },{
+  "en": "Zoom level",
+  "tr": "רמת זום"
+ },{
+  "en": "Zoom Out",
+  "tr": "הגדל את התצוגה"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[התרסק בעוד %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[ריק]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[שגיאה: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[הסתיים בעוד %1s, קוד יציאה %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[הסתיים בעוד %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[רשימת הקבוצות ריקה]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[רשימת הניווט ריקה]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[אין מנוע חיפוש]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[כתובות האתרים האחרונות ריקות]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[הרשימה מחדש ריקה]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[רשימת התוכניות ריקה]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[רשימת הנושאים ריקה]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[רשימת סרגל הכלים ריקה]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[רשימת הביטול ריקה]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[משתמש בוטל]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[host@] שם מארח"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[רשימת Windows ריקה]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

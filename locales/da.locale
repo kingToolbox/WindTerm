@@ -1,0 +1,3513 @@
+{
+ "language": "Danish - Dansk",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Skema) Værktøjer"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 understøttes ikke af %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 kopieret"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 downloadet"
+ },{
+  "en": "%1 File",
+  "tr": "%1 fil"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 element mislykkedes"
+ },{
+  "en": "%1 items",
+  "tr": "%1 varer"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 elementer mislykkedes"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 varer/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 af %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 fjernet"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 dette %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 uploadet"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 Hastighed: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 mislykkede adgangskodeforsøg."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> Er <b> ændret </b> og <b> genindlæst </b>, fortrydelse er <b> IKKE </b> tilladt for store filer."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> Er <b> ændret </b> og <b> genindlæst </b>, fortrydelse er tilladt."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> Er <b> ændret </b>. Vil du genindlæse det?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> Er blevet <b> flyttet eller slettet </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) blev trykket ned. Venter på flere nøgler"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 kolonner"
+ },{
+  "en": "2 Chars",
+  "tr": "2 tegn"
+ },{
+  "en": "24 Columns",
+  "tr": "24 kolonner"
+ },{
+  "en": "32 Columns",
+  "tr": "32 kolonner"
+ },{
+  "en": "4 Chars",
+  "tr": "4 tegn"
+ },{
+  "en": "8 Chars",
+  "tr": "8 tegn"
+ },{
+  "en": "8 Columns",
+  "tr": "8 kolonner"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Et hovedadgangskode bruges til at beskytte følsomme oplysninger som SSH -adgangskoder."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Et navn bør være mindre end 255 tegn og må ikke indeholde et af følgende tegn: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "En fjernfil er blevet ændret. \nVil du uploade denne fil tilbage til serveren?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "En bestemt session eller et sæt sessioner"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Forkortet månedsnavn"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Forkortet hverdagsnavn"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Accepter kun lokale forbindelser"
+ },{
+  "en": "Accessed",
+  "tr": "Adgang"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Aktiver flere carets"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Aktiver næste valg"
+ },{
+  "en": "Activate Next View",
+  "tr": "Aktiver næste visning"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Aktiver tidligere valg"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Aktiver forrige visning"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Aktiver den venstre fane"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Aktiver den tidligere valgte fane"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Aktiver den højre fane"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Aktiver fanen efter lukning"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Aktiver fanen efter at have svævet"
+ },{
+  "en": "Add",
+  "tr": "Tilføj en)"
+ },{
+  "en": "Add All",
+  "tr": "Tilføj alle"
+ },{
+  "en": "Add Command",
+  "tr": "Tilføj kommando"
+ },{
+  "en": "Add Group",
+  "tr": "Tilføj gruppe"
+ },{
+  "en": "Add Sender",
+  "tr": "Tilføj afsender"
+ },{
+  "en": "Add Tab",
+  "tr": "Tilføj fane"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Juster vinduesrækkerne og -kolonnerne"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Avanceret sortering"
+ },{
+  "en": "Agent",
+  "tr": "Agent"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Agentgodkendelse mislykkedes. Prøv en anden metode"
+ },{
+  "en": "All",
+  "tr": "Alle"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Alle %1 sessioner slettes. \nVil du fortsætte med at importere sessioner?"
+ },{
+  "en": "All session output",
+  "tr": "Alt sessionsoutput"
+ },{
+  "en": "All Sessions",
+  "tr": "Alle sessioner"
+ },{
+  "en": "All tabs",
+  "tr": "Alle faner"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Alternativ kolonne baggrundsfarve"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Alternativ linjebaggrundsfarve"
+ },{
+  "en": "Always On Top",
+  "tr": "Altid på toppen"
+ },{
+  "en": "Always on top",
+  "tr": "Altid på toppen"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Der opstod en fejl under forsøg på at læse fra %1 -processen."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Der opstod en fejl under forsøget på at skrive til %1 -processen."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Der opstod en ukendt fejl i %1 -processen."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI til OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Svar tilbage"
+ },{
+  "en": "Any",
+  "tr": "Nogen"
+ },{
+  "en": "Anything Palette",
+  "tr": "Anything Palette"
+ },{
+  "en": "Anywhere",
+  "tr": "Overalt"
+ },{
+  "en": "Appearance",
+  "tr": "Udseende"
+ },{
+  "en": "Append",
+  "tr": "Tilføj"
+ },{
+  "en": "Append log file",
+  "tr": "Tilføj logfil"
+ },{
+  "en": "Application",
+  "tr": "Ansøgning"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Er du sikker på, at du vil slette %1 valgte elementer?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Er du sikker på, at du vil slette elementet <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Er du sikker på, at du vil genindlæse den aktuelle fil og miste de ændringer, der er foretaget i WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Er du sikker på, at du vil stoppe den aktuelle afsender?"
+ },{
+  "en": "Arguments",
+  "tr": "Argumenter"
+ },{
+  "en": "At Caret",
+  "tr": "At Caret"
+ },{
+  "en": "At End",
+  "tr": "I slutningen"
+ },{
+  "en": "At Start",
+  "tr": "Ved Start"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Prøv gssapi-med-mic-godkendelse"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Prøv tastatur-interaktiv godkendelse"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Prøv godkendelse af konkurrence"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Prøv godkendelse af adgangskode"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Prøv offentlig godkendelse"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Prøv ssh-agent-godkendelse"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Godkendt med delvis succes. Prøv en anden metode."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Godkendelse med %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Godkendelse med %1 og %2"
+ },{
+  "en": "Authentication",
+  "tr": "Godkendelse"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Godkendelse nægtet. Prøv igen."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Godkendelsen mislykkedes. Prøv igen."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Automatisk lukning af HTML/XML -tags"
+ },{
+  "en": "Auto login",
+  "tr": "Automatisk login"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Automatisk login mislykkedes. Prøv igen."
+ },{
+  "en": "Auto login next time",
+  "tr": "Automatisk login næste gang"
+ },{
+  "en": "Automatic",
+  "tr": "Automatisk"
+ },{
+  "en": "automatic",
+  "tr": "automatisk"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Automatiske godkendelsesmetoder"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Kopier automatisk valg"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Registrer automatisk indrykning"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Trim automatisk polstring"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Baggrundsmarkør"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace sender"
+ },{
+  "en": "Backward",
+  "tr": "Baglæns"
+ },{
+  "en": "Bars",
+  "tr": "Barer"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baudrate"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Bip når det er færdigt"
+ },{
+  "en": "Binary",
+  "tr": "Binær"
+ },{
+  "en": "Binary base",
+  "tr": "Binær base"
+ },{
+  "en": "Binary columns",
+  "tr": "Binære kolonner"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Kolonner med binær devision"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Binære grupperede tegn"
+ },{
+  "en": "Black",
+  "tr": "Sort"
+ },{
+  "en": "Blink",
+  "tr": "Blink"
+ },{
+  "en": "blinking block",
+  "tr": "blinkende blok"
+ },{
+  "en": "blinking line",
+  "tr": "blinkende linje"
+ },{
+  "en": "blinking rectangle",
+  "tr": "blinkende rektangel"
+ },{
+  "en": "blinking underLine",
+  "tr": "blinker under linje"
+ },{
+  "en": "Block",
+  "tr": "Blok"
+ },{
+  "en": "block",
+  "tr": "blok"
+ },{
+  "en": "Bold",
+  "tr": "Fremhævet"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Fed skrift angiver skrifttyper med fast bredde"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Bunddokke"
+ },{
+  "en": "Bottom Group",
+  "tr": "Bundgruppe"
+ },{
+  "en": "Browse",
+  "tr": "Gennemse"
+ },{
+  "en": "Browse Directory",
+  "tr": "Gennemse telefonbogen"
+ },{
+  "en": "Browse File",
+  "tr": "Gennemse fil"
+ },{
+  "en": "Browser",
+  "tr": "Browser"
+ },{
+  "en": "Build",
+  "tr": "Byg"
+ },{
+  "en": "By",
+  "tr": "Ved"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Beregner"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Kan ikke finde et passende program til at åbne filen: (%1 ( Prøv at bruge standardeditor til at åbne den."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Kan ikke oprette bibliotek %1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Kan ikke lave filen %1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Kan ikke oprette link %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Kan ikke fjerne biblioteket %1."
+ },{
+  "en": "Cancel",
+  "tr": "Afbestille"
+ },{
+  "en": "Cancel Build",
+  "tr": "Annuller build"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Annuller valg"
+ },{
+  "en": "Caret",
+  "tr": "Caret"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret Style"
+ },{
+  "en": "Carriage Return",
+  "tr": "Vognretur"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Kuffertfølsom"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Skift hovedadgangskode"
+ },{
+  "en": "Change master password",
+  "tr": "Skift hovedadgangskode"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Ændring af hovedadgangskoden mislykkedes."
+ },{
+  "en": "Change the tab title",
+  "tr": "Skift fanetitel"
+ },{
+  "en": "Changed",
+  "tr": "Ændret"
+ },{
+  "en": "Channel",
+  "tr": "Kanal"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char Venstre"
+ },{
+  "en": "Char Right",
+  "tr": "Char Right"
+ },{
+  "en": "Character spacing",
+  "tr": "Tegnafstand"
+ },{
+  "en": "character width",
+  "tr": "tegnbredde"
+ },{
+  "en": "Charset",
+  "tr": "Tegnsæt"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Vælg en standard editor"
+ },{
+  "en": "Ciphers",
+  "tr": "Chiffer"
+ },{
+  "en": "Ciphers order",
+  "tr": "Chiffer bestiller"
+ },{
+  "en": "Clear",
+  "tr": "Klar"
+ },{
+  "en": "Clear All",
+  "tr": "Ryd alt"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Ryd seneste webadresser"
+ },{
+  "en": "Clear Screen",
+  "tr": "Ryd skærm"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Ryd tilbage"
+ },{
+  "en": "Clear Sender",
+  "tr": "Klar afsender"
+ },{
+  "en": "Click event",
+  "tr": "Klik på begivenhed"
+ },{
+  "en": "Close",
+  "tr": "Tæt"
+ },{
+  "en": "Close All Views",
+  "tr": "Luk alle visninger"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Luk alle visninger, men aktive"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Luk alle visninger til højre"
+ },{
+  "en": "Close And Exit",
+  "tr": "Luk og afslut"
+ },{
+  "en": "Close Channel",
+  "tr": "Luk kanal"
+ },{
+  "en": "Close Dock",
+  "tr": "Luk dock"
+ },{
+  "en": "Close Group",
+  "tr": "Luk gruppe"
+ },{
+  "en": "Close Session",
+  "tr": "Luk session"
+ },{
+  "en": "Close Tab",
+  "tr": "Luk fane"
+ },{
+  "en": "Close tab",
+  "tr": "Luk fanen"
+ },{
+  "en": "Close View",
+  "tr": "Luk visning"
+ },{
+  "en": "Close Window",
+  "tr": "Luk vindue"
+ },{
+  "en": "Color",
+  "tr": "Farve"
+ },{
+  "en": "Column Edit",
+  "tr": "Rediger kolonne"
+ },{
+  "en": "Column Marker",
+  "tr": "Kolonnemarkør"
+ },{
+  "en": "Columns",
+  "tr": "Kolonner"
+ },{
+  "en": "columns",
+  "tr": "kolonner"
+ },{
+  "en": "Command",
+  "tr": "Kommando"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Kommandopalet"
+ },{
+  "en": "Comment",
+  "tr": "Kommentar"
+ },{
+  "en": "Comment Selection",
+  "tr": "Kommentarvalg"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Kommentarvalg(blokeringstilstand)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Kommentarvalg(linjetilstand)"
+ },{
+  "en": "Complete Word",
+  "tr": "Komplet ord"
+ },{
+  "en": "Config",
+  "tr": "Konfig"
+ },{
+  "en": "Confirm Password",
+  "tr": "Bekræft kodeord"
+ },{
+  "en": "Confirm password",
+  "tr": "Bekræft kodeord"
+ },{
+  "en": "Connect",
+  "tr": "Forbinde"
+ },{
+  "en": "Connection",
+  "tr": "Forbindelse"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Sammenhæng"
+ },{
+  "en": "Continue",
+  "tr": "Blive ved"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Konverter CRLF og LF til CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Konverter fane til mellemrum"
+ },{
+  "en": "copied",
+  "tr": "kopieret"
+ },{
+  "en": "Copy",
+  "tr": "Kopi"
+ },{
+  "en": "copy",
+  "tr": "kopi"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Kopier og indsæt"
+ },{
+  "en": "Copy File Name",
+  "tr": "Kopiér filnavn"
+ },{
+  "en": "Copy File Path",
+  "tr": "Kopier filsti"
+ },{
+  "en": "Copy from",
+  "tr": "Kopiér fra"
+ },{
+  "en": "Copy names",
+  "tr": "Kopier navne"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Kopier navne til terminal"
+ },{
+  "en": "Copy Output",
+  "tr": "Kopier output"
+ },{
+  "en": "Copy paths",
+  "tr": "Kopier stier"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Kopier stier til terminal"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Kopiér sessionsnavn"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Kopier sessionswebadresse"
+ },{
+  "en": "Copy to",
+  "tr": "Kopiér til"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Kopiér til terminal"
+ },{
+  "en": "Count",
+  "tr": "Tælle"
+ },{
+  "en": "Create Directory",
+  "tr": "Opret bibliotek"
+ },{
+  "en": "Create File",
+  "tr": "Opret fil"
+ },{
+  "en": "Create Link",
+  "tr": "Opret link"
+ },{
+  "en": "Created",
+  "tr": "Oprettet"
+ },{
+  "en": "Critical",
+  "tr": "Kritisk"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Nuværende session"
+ },{
+  "en": "Custom",
+  "tr": "Brugerdefinerede"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Tilpasset uigennemsigtighed"
+ },{
+  "en": "Customize",
+  "tr": "Tilpas"
+ },{
+  "en": "Cut",
+  "tr": "Klip"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Mørk cyan"
+ },{
+  "en": "Data",
+  "tr": "Data"
+ },{
+  "en": "Data Bits",
+  "tr": "Databit"
+ },{
+  "en": "Datetime format",
+  "tr": "Datetime -format"
+ },{
+  "en": "Day of month",
+  "tr": "Dag i måneden"
+ },{
+  "en": "Debug Mode",
+  "tr": "Fejlfindingstilstand"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Reducer linjeindrykning"
+ },{
+  "en": "Deep Pink",
+  "tr": "Dyb pink"
+ },{
+  "en": "default",
+  "tr": "Standard"
+ },{
+  "en": "Default editor",
+  "tr": "Standard editor"
+ },{
+  "en": "Default Font",
+  "tr": "Standard skrifttype"
+ },{
+  "en": "Default line ending",
+  "tr": "Standardlinje slutter"
+ },{
+  "en": "Delete",
+  "tr": "Slet"
+ },{
+  "en": "Delete sends",
+  "tr": "Slet sender"
+ },{
+  "en": "deleted",
+  "tr": "slettet"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Destinationsvært"
+ },{
+  "en": "Destination Port",
+  "tr": "Destinationsport"
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Vejviser"
+ },{
+  "en": "Directory Link",
+  "tr": "Directory Link"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Deaktiver Nagles algoritme(mulighed TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Afbryd session"
+ },{
+  "en": "Disk",
+  "tr": "Disk"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Ekko ikke tegn"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Vil du lukke den aktuelle session?"
+ },{
+  "en": "Document",
+  "tr": "Dokument"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Vis ikke denne besked igen"
+ },{
+  "en": "Double click",
+  "tr": "Dobbeltklik"
+ },{
+  "en": "Double click event",
+  "tr": "Dobbeltklik begivenhed"
+ },{
+  "en": "Download",
+  "tr": "Download"
+ },{
+  "en": "download",
+  "tr": "Hent"
+ },{
+  "en": "Download directory",
+  "tr": "Download bibliotek"
+ },{
+  "en": "downloaded",
+  "tr": "downloadet"
+ },{
+  "en": "Drop Selection",
+  "tr": "Drop markering"
+ },{
+  "en": "Duplicate",
+  "tr": "Duplikere"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Kopiér kommando"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Duplikatvisning"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dynamisk videresendelse"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Ekko hvert indtastet tegn"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Ekko hvert tegn, når du redigerer"
+ },{
+  "en": "Echo random characters",
+  "tr": "Ekko tilfældige tegn"
+ },{
+  "en": "Edit",
+  "tr": "Rediger"
+ },{
+  "en": "Editor",
+  "tr": "Redaktør"
+ },{
+  "en": "editor",
+  "tr": "redaktør"
+ },{
+  "en": "Editor Settings",
+  "tr": "Editor -indstillinger"
+ },{
+  "en": "Elapsed",
+  "tr": "Forløbet"
+ },{
+  "en": "Elide left",
+  "tr": "Elide til venstre"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide midt"
+ },{
+  "en": "Elide right",
+  "tr": "Elide til højre"
+ },{
+  "en": "Empty",
+  "tr": "Tom"
+ },{
+  "en": "Enable command mode",
+  "tr": "Aktiver kommandotilstand"
+ },{
+  "en": "Enable local mode",
+  "tr": "Aktiver lokal tilstand"
+ },{
+  "en": "Enable SFTP",
+  "tr": "Aktiver SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Aktiver TCP keepalives(SO_KEEPALIVE option)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Aktiver virtuelle mellemrum"
+ },{
+  "en": "End Of Document",
+  "tr": "Slut på dokument"
+ },{
+  "en": "End Of Line",
+  "tr": "End Of Line"
+ },{
+  "en": "End Of Pair",
+  "tr": "Slut på par"
+ },{
+  "en": "Engine",
+  "tr": "Motor"
+ },{
+  "en": "Environment Variable",
+  "tr": "Miljø Variabel"
+ },{
+  "en": "Environment variables",
+  "tr": "Miljøvariabler"
+ },{
+  "en": "Error",
+  "tr": "Fejl"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Byt caret og anker"
+ },{
+  "en": "Execute",
+  "tr": "Udfør"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Udfør kommando efter godkendelse"
+ },{
+  "en": "Execute command after start",
+  "tr": "Udfør kommando efter start"
+ },{
+  "en": "Execute File",
+  "tr": "Udfør fil"
+ },{
+  "en": "Exit",
+  "tr": "Afslut"
+ },{
+  "en": "Expand",
+  "tr": "Udvide"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Udvid uddrag"
+ },{
+  "en": "Explorer",
+  "tr": "Stifinder"
+ },{
+  "en": "External Tools",
+  "tr": "Eksterne værktøjer"
+ },{
+  "en": "External X display",
+  "tr": "Eksternt X -display"
+ },{
+  "en": "ExtraBold",
+  "tr": "Ekstra fed"
+ },{
+  "en": "ExtraLight",
+  "tr": "Ekstra lys"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Kunne ikke oprette midlertidig fil: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Mappen kunne ikke åbnes: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Kunne ikke hente værtens fingeraftryk!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Upload af fil mislykkedes: %1, (Filen findes muligvis ikke eller har ikke tilladelse til at åbne den."
+ },{
+  "en": "Fast",
+  "tr": "Hurtig"
+ },{
+  "en": "Favorites",
+  "tr": "Favoritter"
+ },{
+  "en": "Features",
+  "tr": "Funktioner"
+ },{
+  "en": "File",
+  "tr": "Fil"
+ },{
+  "en": "file",
+  "tr": "fil"
+ },{
+  "en": "File Link",
+  "tr": "Fillink"
+ },{
+  "en": "File Name",
+  "tr": "Filnavn"
+ },{
+  "en": "File name",
+  "tr": "Filnavn"
+ },{
+  "en": "File Path",
+  "tr": "Filsti"
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "filer"
+ },{
+  "en": "Filter",
+  "tr": "Filter"
+ },{
+  "en": "Find",
+  "tr": "Find"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Find alle"
+ },{
+  "en": "Find in Files",
+  "tr": "Find i filer"
+ },{
+  "en": "Find Next",
+  "tr": "Find næste"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Find næste valg"
+ },{
+  "en": "Find Previous",
+  "tr": "Find tidligere"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Find tidligere valg"
+ },{
+  "en": "Fingerprint",
+  "tr": "Fingeraftryk"
+ },{
+  "en": "First nine tabs",
+  "tr": "Første ni faner"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Float"
+ },{
+  "en": "Flow Control",
+  "tr": "Flowkontrol"
+ },{
+  "en": "Focus Mode",
+  "tr": "Fokusfunktion"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Fokusindstillinger"
+ },{
+  "en": "Fold",
+  "tr": "Fold"
+ },{
+  "en": "Fold All",
+  "tr": "Fold alle"
+ },{
+  "en": "Fold Category",
+  "tr": "Fold kategori"
+ },{
+  "en": "Fold Inside",
+  "tr": "Fold inde"
+ },{
+  "en": "Folds",
+  "tr": "Foldes"
+ },{
+  "en": "Font",
+  "tr": "Skrifttype"
+ },{
+  "en": "Font family",
+  "tr": "Font familie"
+ },{
+  "en": "Font size",
+  "tr": "Skriftstørrelse"
+ },{
+  "en": "Font weight",
+  "tr": "Skrifttype"
+ },{
+  "en": "Forest Green",
+  "tr": "Forest Green"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Formatvalg"
+ },{
+  "en": "Found",
+  "tr": "Fundet"
+ },{
+  "en": "Full month name",
+  "tr": "Fuld måned navn"
+ },{
+  "en": "Full Screen",
+  "tr": "Fuld skærm"
+ },{
+  "en": "Full screen",
+  "tr": "Fuld skærm"
+ },{
+  "en": "Full weekday name",
+  "tr": "Fuldt hverdagsnavn"
+ },{
+  "en": "Go Backward",
+  "tr": "Gå baglæns"
+ },{
+  "en": "Go Forward",
+  "tr": "Gå fremad"
+ },{
+  "en": "Go to",
+  "tr": "Gå til"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Gå til Symbol i Aktuel visning"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod"
+ },{
+  "en": "Goto",
+  "tr": "Gå til"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Gå til adresselinjen"
+ },{
+  "en": "Goto File",
+  "tr": "Gå til fil"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto Fold Header"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Gå til Next Fold Header"
+ },{
+  "en": "Goto Position",
+  "tr": "Gå til position"
+ },{
+  "en": "Goto Session",
+  "tr": "Gå til session"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Gå til symbol"
+ },{
+  "en": "Group",
+  "tr": "Gruppe"
+ },{
+  "en": "Group %1",
+  "tr": "Gruppe %1"
+ },{
+  "en": "Groups",
+  "tr": "Grupper"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi med mikrofon"
+ },{
+  "en": "Hard Reset",
+  "tr": "Hård nulstilling"
+ },{
+  "en": "Help",
+  "tr": "Hjælp"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Hex Base"
+ },{
+  "en": "Hex Columns",
+  "tr": "Sekskantede kolonner"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex Edit"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex Group Chars"
+ },{
+  "en": "Hidden",
+  "tr": "Skjult"
+ },{
+  "en": "Hide",
+  "tr": "Skjule"
+ },{
+  "en": "Hide All",
+  "tr": "Skjul alle"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Skjul markøren, når du skriver"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Skjul tekst"
+ },{
+  "en": "Highlight",
+  "tr": "Fremhæv"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Fremhæv Caret Line"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Fremhæv matchende par"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Fremhæv caretlinjen"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Fremhæv hovedordet"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Fremhæv den aktuelle fold"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Fremhæv det aktuelle par"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Fremhæv den inkrementelle søgning"
+ },{
+  "en": "History",
+  "tr": "Historie"
+ },{
+  "en": "Home Of Line",
+  "tr": "Home Of Line"
+ },{
+  "en": "Host",
+  "tr": "Vært"
+ },{
+  "en": "Host address",
+  "tr": "Værtsadresse"
+ },{
+  "en": "Host Based",
+  "tr": "Værtsbaseret"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Timer i 12 format"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Timer i 24 format"
+ },{
+  "en": "Http proxy",
+  "tr": "HTTP -proxy"
+ },{
+  "en": "Huge File",
+  "tr": "Kæmpe fil"
+ },{
+  "en": "Icon",
+  "tr": "Ikon"
+ },{
+  "en": "Identity file",
+  "tr": "Identitetsfil"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Identitetsfil til godkendelse"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Hvis du opretter en hovedadgangskode, bliver du bedt om at indtaste den, når WindTerm henter gemte oplysninger beskyttet af hovedadgangskoden."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Hvis du glemmer din hovedadgangskode, har du ikke adgang til nogen af ​​de oplysninger, der er beskyttet af den."
+ },{
+  "en": "Import",
+  "tr": "Import"
+ },{
+  "en": "Import sessions",
+  "tr": "Importer sessioner"
+ },{
+  "en": "In Selection",
+  "tr": "I markering"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Forøg linjeindrykning"
+ },{
+  "en": "Incremental",
+  "tr": "Inkrementel"
+ },{
+  "en": "Indent",
+  "tr": "Indrykk"
+ },{
+  "en": "Indent guide style",
+  "tr": "Indrykningsguide"
+ },{
+  "en": "Indent Guides",
+  "tr": "Indrykningsguider"
+ },{
+  "en": "Indent size",
+  "tr": "Indrykningsstørrelse"
+ },{
+  "en": "Indentation",
+  "tr": "Indrykning"
+ },{
+  "en": "Indian Red",
+  "tr": "Indian Red"
+ },{
+  "en": "Information",
+  "tr": "Information"
+ },{
+  "en": "Insert",
+  "tr": "Indsæt"
+ },{
+  "en": "Insert File",
+  "tr": "Indsæt fil"
+ },{
+  "en": "Insert Lines",
+  "tr": "Indsæt linjer"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Indsæt fane, når du trykker på TAB -tasten"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Indsætning og sletning af mellemrum følger tabulatorstop"
+ },{
+  "en": "Inserting file",
+  "tr": "Indsætter fil"
+ },{
+  "en": "Internal X display",
+  "tr": "Intern X -skærm"
+ },{
+  "en": "Interval",
+  "tr": "Interval"
+ },{
+  "en": "Invert Selection",
+  "tr": "Inverter markering"
+ },{
+  "en": "item failed",
+  "tr": "element mislykkedes"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "varer mislykkedes"
+ },{
+  "en": "Join Channel A",
+  "tr": "Deltag i kanal A"
+ },{
+  "en": "Join Channel B",
+  "tr": "Deltag i kanal B"
+ },{
+  "en": "Join Channel C",
+  "tr": "Deltag i kanal C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Deltag i kanal D"
+ },{
+  "en": "Join Lines",
+  "tr": "Join Lines"
+ },{
+  "en": "Joined",
+  "tr": "Tilmeldt"
+ },{
+  "en": "Jump Server",
+  "tr": "Jump -server"
+ },{
+  "en": "Jump server",
+  "tr": "Jump -server"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Jump -servere"
+ },{
+  "en": "Key Exchange",
+  "tr": "Nøgleudveksling"
+ },{
+  "en": "Key exchange order",
+  "tr": "Nøgleudvekslingsordre"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Nøgleudveksling"
+ },{
+  "en": "Keyboard",
+  "tr": "Tastatur"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Tastatur interaktivt"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Bar"
+ },{
+  "en": "Known",
+  "tr": "Kendt"
+ },{
+  "en": "Label",
+  "tr": "Etiket"
+ },{
+  "en": "Language",
+  "tr": "Sprog"
+ },{
+  "en": "Last sessions",
+  "tr": "Sidste sessioner"
+ },{
+  "en": "Layout",
+  "tr": "Layout"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Førende og efterfølgende emner"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Førende emner"
+ },{
+  "en": "Leading position",
+  "tr": "Førende position"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Forlad alle kanaler"
+ },{
+  "en": "Leave all channels",
+  "tr": "Forlad alle kanaler"
+ },{
+  "en": "Leave Channel",
+  "tr": "Forlad kanal"
+ },{
+  "en": "Left Docks",
+  "tr": "Venstre havne"
+ },{
+  "en": "Left Group",
+  "tr": "Venstre gruppe"
+ },{
+  "en": "Light",
+  "tr": "Lys"
+ },{
+  "en": "Line",
+  "tr": "Line"
+ },{
+  "en": "line",
+  "tr": "linje"
+ },{
+  "en": "line at a time",
+  "tr": "linje ad gangen"
+ },{
+  "en": "Line Down",
+  "tr": "Line Down"
+ },{
+  "en": "Line Ending",
+  "tr": "Linjeafslutning"
+ },{
+  "en": "Line Endings",
+  "tr": "Line Endings"
+ },{
+  "en": "Line Feed",
+  "tr": "Line Feed"
+ },{
+  "en": "line height",
+  "tr": "linjehøjde"
+ },{
+  "en": "Line marker",
+  "tr": "Linjemarkør"
+ },{
+  "en": "Line spacing",
+  "tr": "Linjeafstand"
+ },{
+  "en": "Line Up",
+  "tr": "Opstilling"
+ },{
+  "en": "lines at a time",
+  "tr": "linjer ad gangen"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Returlinjer"
+ },{
+  "en": "Link",
+  "tr": "Link"
+ },{
+  "en": "Link to",
+  "tr": "Link til"
+ },{
+  "en": "List Tab",
+  "tr": "Fanen Liste"
+ },{
+  "en": "Listen Port",
+  "tr": "Lyt port"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Lokal videresendelse"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Find besked"
+ },{
+  "en": "Location",
+  "tr": "Beliggenhed"
+ },{
+  "en": "Lock Screen",
+  "tr": "Låse skærm"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Timeout for låseskærm"
+ },{
+  "en": "Lock Selection",
+  "tr": "Lås markering"
+ },{
+  "en": "Log",
+  "tr": "Log"
+ },{
+  "en": "Log all session output",
+  "tr": "Log alle session output"
+ },{
+  "en": "Log content pattern",
+  "tr": "Logindholdsmønster"
+ },{
+  "en": "Log Dialog",
+  "tr": "Log -dialog"
+ },{
+  "en": "Log file",
+  "tr": "Logfil"
+ },{
+  "en": "Log file name",
+  "tr": "Logfilnavn"
+ },{
+  "en": "Log maximum size",
+  "tr": "Maksimal logstørrelse"
+ },{
+  "en": "Log nothing",
+  "tr": "Log ingenting"
+ },{
+  "en": "Log option",
+  "tr": "Logindstilling"
+ },{
+  "en": "Log options",
+  "tr": "Logindstillinger"
+ },{
+  "en": "Log pattern",
+  "tr": "Logmønster"
+ },{
+  "en": "Log printable output",
+  "tr": "Log udskrivbar output"
+ },{
+  "en": "Log type",
+  "tr": "Logtype"
+ },{
+  "en": "Log types",
+  "tr": "Logtyper"
+ },{
+  "en": "Logging",
+  "tr": "Logning"
+ },{
+  "en": "Login",
+  "tr": "Log på"
+ },{
+  "en": "Login Wizard",
+  "tr": "Login guiden"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Lang tid/dato"
+ },{
+  "en": "Look both guide",
+  "tr": "Se begge vejledninger"
+ },{
+  "en": "Look forward guide",
+  "tr": "Se fremad guide"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC hashes rækkefølge"
+ },{
+  "en": "Margin Blank",
+  "tr": "Margen tom"
+ },{
+  "en": "Margin Fold",
+  "tr": "Marginfold"
+ },{
+  "en": "Margin Number",
+  "tr": "Margenummer"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Marginsymbol"
+ },{
+  "en": "Margin Text",
+  "tr": "Margentekst"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Margen tidsstempel"
+ },{
+  "en": "Margins",
+  "tr": "Margener"
+ },{
+  "en": "Marker style",
+  "tr": "Markørstil"
+ },{
+  "en": "Master Password",
+  "tr": "Hovedadgangskode"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Maks. Data før rekey(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Maks. Tid før rekey(minutter)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Maksimal forbindelsestimeout"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Medium"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Medium Orchid"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Medium skiferblå"
+ },{
+  "en": "Menu Bar",
+  "tr": "Menu linje"
+ },{
+  "en": "Merge To Group",
+  "tr": "Flet til gruppe"
+ },{
+  "en": "Middle click",
+  "tr": "Mellemklik"
+ },{
+  "en": "Middle click event",
+  "tr": "Begivenhed i midten klik"
+ },{
+  "en": "Milliseconds",
+  "tr": "Millisekunder"
+ },{
+  "en": "Minutes",
+  "tr": "Referat"
+ },{
+  "en": "minutes",
+  "tr": "minutter"
+ },{
+  "en": "Mismatched",
+  "tr": "Uoverensstemmende"
+ },{
+  "en": "Mode",
+  "tr": "Tilstand"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modem venter"
+ },{
+  "en": "Modes",
+  "tr": "Tilstande"
+ },{
+  "en": "Modified",
+  "tr": "Ændret"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Rediger"
+ },{
+  "en": "Modify Lines",
+  "tr": "Rediger linjer"
+ },{
+  "en": "Month",
+  "tr": "Måned"
+ },{
+  "en": "More",
+  "tr": "Mere"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Mushandlinger"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Musesporing"
+ },{
+  "en": "Move Down",
+  "tr": "Flyt ned"
+ },{
+  "en": "Move event",
+  "tr": "Flyt begivenhed"
+ },{
+  "en": "Move to",
+  "tr": "Flytte til"
+ },{
+  "en": "Move To Group",
+  "tr": "Flyt til gruppe"
+ },{
+  "en": "Move Up",
+  "tr": "Flyt op"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Multiple Caret"
+ },{
+  "en": "Name",
+  "tr": "Navn"
+ },{
+  "en": "nesting groups",
+  "tr": "hekkende grupper"
+ },{
+  "en": "Never",
+  "tr": "Aldrig"
+ },{
+  "en": "New directory",
+  "tr": "Nyt bibliotek"
+ },{
+  "en": "New File",
+  "tr": "Ny fil"
+ },{
+  "en": "New file",
+  "tr": "Ny fil"
+ },{
+  "en": "New Line",
+  "tr": "Ny linje"
+ },{
+  "en": "New link",
+  "tr": "Nyt link"
+ },{
+  "en": "New password",
+  "tr": "Nyt kodeord"
+ },{
+  "en": "New Session",
+  "tr": "Ny session"
+ },{
+  "en": "New Window",
+  "tr": "Nyt vindue"
+ },{
+  "en": "Next Char",
+  "tr": "Næste Char"
+ },{
+  "en": "Next Fold",
+  "tr": "Næste fold"
+ },{
+  "en": "Next Indentation",
+  "tr": "Næste indrykning"
+ },{
+  "en": "Next Line",
+  "tr": "Næste linje"
+ },{
+  "en": "Next Message",
+  "tr": "Næste besked"
+ },{
+  "en": "Next Page",
+  "tr": "Næste side"
+ },{
+  "en": "Next Pair",
+  "tr": "Næste par"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Næste afsnit"
+ },{
+  "en": "Next Scope",
+  "tr": "Næste omfang"
+ },{
+  "en": "Next Segment End",
+  "tr": "Næste segment slut"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Næste segment start"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Næste stammede side"
+ },{
+  "en": "Next Word",
+  "tr": "Næste ord"
+ },{
+  "en": "Next Word End",
+  "tr": "Næste ord slut"
+ },{
+  "en": "Next Word Part",
+  "tr": "Næste orddel"
+ },{
+  "en": "No",
+  "tr": "Ingen"
+ },{
+  "en": "No action",
+  "tr": "Ingen handling"
+ },{
+  "en": "No Dirs",
+  "tr": "Ingen Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Ingen elide"
+ },{
+  "en": "No file opened",
+  "tr": "Ingen fil åbnes"
+ },{
+  "en": "No filer available",
+  "tr": "Ingen filer tilgængelige"
+ },{
+  "en": "No Files",
+  "tr": "Ingen filer"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Ingen filer valgt til overførsel."
+ },{
+  "en": "No item opened",
+  "tr": "Ingen varer er åbnet"
+ },{
+  "en": "No outline available",
+  "tr": "Ingen disposition tilgængelig"
+ },{
+  "en": "No proxy",
+  "tr": "Ingen proxy"
+ },{
+  "en": "No session",
+  "tr": "Ingen session"
+ },{
+  "en": "No session available",
+  "tr": "Ingen session tilgængelig"
+ },{
+  "en": "No session opened",
+  "tr": "Ingen session åbnet"
+ },{
+  "en": "No Sessions",
+  "tr": "Ingen sessioner"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Der findes ingen understøttede godkendelsesmetoder."
+ },{
+  "en": "No transfer available",
+  "tr": "Ingen overførsel tilgængelig"
+ },{
+  "en": "No wrap",
+  "tr": "Ingen indpakning"
+ },{
+  "en": "No X display",
+  "tr": "Intet X -display"
+ },{
+  "en": "None",
+  "tr": "Ingen"
+ },{
+  "en": "None tabs",
+  "tr": "Ingen faner"
+ },{
+  "en": "Normal",
+  "tr": "Normal"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Nu"
+ },{
+  "en": "Nowhere",
+  "tr": "Ingen steder"
+ },{
+  "en": "Octal",
+  "tr": "Oktal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM til ANSI"
+ },{
+  "en": "Off",
+  "tr": "Af"
+ },{
+  "en": "off",
+  "tr": "af"
+ },{
+  "en": "Ok",
+  "tr": "Okay"
+ },{
+  "en": "Old",
+  "tr": "Gammel"
+ },{
+  "en": "Old password",
+  "tr": "Gammelt kodeord"
+ },{
+  "en": "Olive",
+  "tr": "Oliven"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "En eller flere sessioner åbnes. \nVil du lukke det aktuelle vindue?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Kun diskfil kan genindlæses!"
+ },{
+  "en": "Only indentation",
+  "tr": "Kun indrykning"
+ },{
+  "en": "Opaque",
+  "tr": "Uigennemsigtig"
+ },{
+  "en": "Open",
+  "tr": "Åben"
+ },{
+  "en": "open",
+  "tr": "åben"
+ },{
+  "en": "Open directory after created",
+  "tr": "Åbn bibliotek efter oprettet"
+ },{
+  "en": "Open directory after download",
+  "tr": "Åbn bibliotek efter download"
+ },{
+  "en": "Open File",
+  "tr": "Åbn fil"
+ },{
+  "en": "Open file",
+  "tr": "Åben fil"
+ },{
+  "en": "Open file after created",
+  "tr": "Åbn fil efter oprettet"
+ },{
+  "en": "Open file failed!",
+  "tr": "Åben fil mislykkedes!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Åben jump -server mislykkedes!"
+ },{
+  "en": "Open Log File",
+  "tr": "Åbn logfil"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Åbn logmappe"
+ },{
+  "en": "Open Recent",
+  "tr": "Åbn Seneste"
+ },{
+  "en": "Open Selection",
+  "tr": "Åbn markering"
+ },{
+  "en": "Open Session",
+  "tr": "Åben session"
+ },{
+  "en": "Open session failed!",
+  "tr": "Åben session mislykkedes!"
+ },{
+  "en": "Open target directory",
+  "tr": "Åbn målmappe"
+ },{
+  "en": "Open with default editor",
+  "tr": "Åbn med standard editor"
+ },{
+  "en": "Opened",
+  "tr": "Åbnet"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh -sessioner"
+ },{
+  "en": "Others",
+  "tr": "Andre"
+ },{
+  "en": "Outline",
+  "tr": "Omrids"
+ },{
+  "en": "Output",
+  "tr": "Produktion"
+ },{
+  "en": "Overtype",
+  "tr": "Overtype"
+ },{
+  "en": "Overwrite",
+  "tr": "Overskriv"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Overskriv logfil"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Overskriv, når kildefilen er nyere"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Overskriv, når kildefilen er nyere eller længere"
+ },{
+  "en": "Owner",
+  "tr": "Ejer"
+ },{
+  "en": "Packet padding char",
+  "tr": "Pakkepolstring"
+ },{
+  "en": "Packet size",
+  "tr": "Pakkestørrelse"
+ },{
+  "en": "Page",
+  "tr": "Side"
+ },{
+  "en": "page",
+  "tr": "side"
+ },{
+  "en": "Pair",
+  "tr": "Par"
+ },{
+  "en": "Panes",
+  "tr": "Ruder"
+ },{
+  "en": "Paragraph",
+  "tr": "Afsnit"
+ },{
+  "en": "Parity",
+  "tr": "Paritet"
+ },{
+  "en": "Passphrase",
+  "tr": "Adgangssætning"
+ },{
+  "en": "Password",
+  "tr": "Adgangskode"
+ },{
+  "en": "Password quality meter",
+  "tr": "Kvalitetsmåler til adgangskode"
+ },{
+  "en": "Paste",
+  "tr": "sæt ind"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Indsæt dialog"
+ },{
+  "en": "Paste text",
+  "tr": "Indsæt tekst"
+ },{
+  "en": "Pause",
+  "tr": "Pause"
+ },{
+  "en": "Paused",
+  "tr": "Pauset"
+ },{
+  "en": "Pausing",
+  "tr": "Pauser"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Udfør DNS -opslag med proxy"
+ },{
+  "en": "Period",
+  "tr": "Periode"
+ },{
+  "en": "Permissions",
+  "tr": "Tilladelser"
+ },{
+  "en": "pixels",
+  "tr": "pixel"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Angiv et nyt navn til denne visning"
+ },{
+  "en": "Please input master password",
+  "tr": "Angiv hovedadgangskode"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Indtast hovedadgangskode, tøm eller annuller for at deaktivere"
+ },{
+  "en": "Please input new group",
+  "tr": "Indtast venligst en ny gruppe"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Sørg for at huske den hovedadgangskode, du har angivet."
+ },{
+  "en": "Port",
+  "tr": "Havn"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Foretrækker temafonter"
+ },{
+  "en": "Preferences",
+  "tr": "Præferencer"
+ },{
+  "en": "Preserve",
+  "tr": "Bevare"
+ },{
+  "en": "Preview All",
+  "tr": "Se alle"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Forhåndsvisningssymbol"
+ },{
+  "en": "Previous Char",
+  "tr": "Forrige Char"
+ },{
+  "en": "Previous Fold",
+  "tr": "Forrige fold"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Forrige indrykning"
+ },{
+  "en": "Previous Line",
+  "tr": "Forrige linje"
+ },{
+  "en": "Previous Message",
+  "tr": "Forrige meddelelse"
+ },{
+  "en": "Previous Page",
+  "tr": "Forrige side"
+ },{
+  "en": "Previous Pair",
+  "tr": "Forrige par"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Forrige afsnit"
+ },{
+  "en": "Previous Scope",
+  "tr": "Forrige anvendelsesområde"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Forrige segment slut"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Forrige segmentstart"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Forrige stammede side"
+ },{
+  "en": "Previous Word",
+  "tr": "Forrige ord"
+ },{
+  "en": "Previous Word End",
+  "tr": "Forrige Word End"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Forrige orddel"
+ },{
+  "en": "Printable output",
+  "tr": "Udskrivbar output"
+ },{
+  "en": "Process",
+  "tr": "Behandle"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Proces %1 gik ned."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Proces %1 kunne ikke startes."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Behandl %1 timeout."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Program [argumenter]"
+ },{
+  "en": "Project",
+  "tr": "Projekt"
+ },{
+  "en": "Properties",
+  "tr": "Ejendomme"
+ },{
+  "en": "Property",
+  "tr": "Ejendom"
+ },{
+  "en": "Protocol",
+  "tr": "Protokol"
+ },{
+  "en": "Proxy",
+  "tr": "Proxy"
+ },{
+  "en": "Proxy Host",
+  "tr": "Proxy -vært"
+ },{
+  "en": "Proxy Port",
+  "tr": "Proxy -port"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Proxy -indstillinger"
+ },{
+  "en": "Proxy Type",
+  "tr": "Proxy Type"
+ },{
+  "en": "Public Key",
+  "tr": "Offentlig nøgle"
+ },{
+  "en": "Public Keys",
+  "tr": "Offentlige nøgler"
+ },{
+  "en": "Public keys order",
+  "tr": "Offentlige nøgler rækkefølge"
+ },{
+  "en": "Putty sessions",
+  "tr": "Kittesessioner"
+ },{
+  "en": "Query URL",
+  "tr": "Forespørgsels -URL"
+ },{
+  "en": "Question",
+  "tr": "Spørgsmål"
+ },{
+  "en": "Quick",
+  "tr": "Hurtig"
+ },{
+  "en": "Quick Bar",
+  "tr": "Hurtig bar"
+ },{
+  "en": "Quick Commands",
+  "tr": "Hurtige kommandoer"
+ },{
+  "en": "Read Only",
+  "tr": "Skrivebeskyttet"
+ },{
+  "en": "Ready",
+  "tr": "Parat"
+ },{
+  "en": "Real guide",
+  "tr": "Rigtig guide"
+ },{
+  "en": "Receive XModem",
+  "tr": "Modtag XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Modtag YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Modtag ZModem"
+ },{
+  "en": "received",
+  "tr": "modtaget"
+ },{
+  "en": "Recent",
+  "tr": "Nylig"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Seneste sessioner"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Tilslut session igen"
+ },{
+  "en": "Rectangle",
+  "tr": "Rektangel"
+ },{
+  "en": "rectangle",
+  "tr": "rektangel"
+ },{
+  "en": "Red",
+  "tr": "Rød"
+ },{
+  "en": "Redo",
+  "tr": "Gentag"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Gentag %1 handlinger"
+ },{
+  "en": "Refresh",
+  "tr": "Opdater"
+ },{
+  "en": "Regular Expression",
+  "tr": "Almindelig udtryk"
+ },{
+  "en": "Reload",
+  "tr": "Genindlæs"
+ },{
+  "en": "Reload File",
+  "tr": "Genindlæs fil"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Genindlæs med kodning"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Fjern videresendelse"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Fjernsti"
+ },{
+  "en": "Remove",
+  "tr": "Fjern"
+ },{
+  "en": "remove",
+  "tr": "fjerne"
+ },{
+  "en": "Remove All",
+  "tr": "Fjern alle"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Fjern tomme linjer"
+ },{
+  "en": "Remove Command",
+  "tr": "Fjern kommando"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Fjern duplikerede linjer"
+ },{
+  "en": "Remove Group",
+  "tr": "Fjern gruppe"
+ },{
+  "en": "Remove items",
+  "tr": "Fjern genstande"
+ },{
+  "en": "Remove Sender",
+  "tr": "Fjern afsender"
+ },{
+  "en": "Removing",
+  "tr": "Fjernelse"
+ },{
+  "en": "Rename",
+  "tr": "Omdøb"
+ },{
+  "en": "Rename Group",
+  "tr": "Omdøb gruppe"
+ },{
+  "en": "Rename tab",
+  "tr": "Omdøb fane"
+ },{
+  "en": "Rename View",
+  "tr": "Omdøb visning"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Åbn lukket visning"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Gentag sidste kommando"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Udfør gentagne gange"
+ },{
+  "en": "Replace",
+  "tr": "Udskift"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Erstat alle"
+ },{
+  "en": "Replace in Files",
+  "tr": "Erstat i filer"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Kræver en genstart for at påvirke"
+ },{
+  "en": "Reset",
+  "tr": "Nulstil"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Nulstil tegnsæt"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Nulstil zoom"
+ },{
+  "en": "Resume",
+  "tr": "Genoptag"
+ },{
+  "en": "Resuming",
+  "tr": "Genoptager"
+ },{
+  "en": "Right click",
+  "tr": "Højreklik"
+ },{
+  "en": "Right click event",
+  "tr": "Højreklik begivenhed"
+ },{
+  "en": "Right Docks",
+  "tr": "Højre Docks"
+ },{
+  "en": "Right Group",
+  "tr": "Højre gruppe"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Rul med musehjulet for at rulle"
+ },{
+  "en": "Rows",
+  "tr": "Rækker"
+ },{
+  "en": "Royal Blue",
+  "tr": "Kongeblå"
+ },{
+  "en": "Run Tool",
+  "tr": "Kør værktøj"
+ },{
+  "en": "Save",
+  "tr": "Gemme"
+ },{
+  "en": "Save All",
+  "tr": "Gem alle"
+ },{
+  "en": "Save As",
+  "tr": "Gem som"
+ },{
+  "en": "Save Copy As",
+  "tr": "Gem kopi som"
+ },{
+  "en": "Save file failed!",
+  "tr": "Gem filen mislykkedes!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Gem markering som"
+ },{
+  "en": "Save Session",
+  "tr": "Gem session"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Gemt automatisk godkendelse"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Ordningsværktøjer"
+ },{
+  "en": "Scope",
+  "tr": "Anvendelsesområde"
+ },{
+  "en": "Screen Locked",
+  "tr": "Skærm låst"
+ },{
+  "en": "Scroll Left",
+  "tr": "Rul til venstre"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Rul nedad"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Rul opstilling"
+ },{
+  "en": "Scroll Right",
+  "tr": "Rul til højre"
+ },{
+  "en": "Search",
+  "tr": "Søg"
+ },{
+  "en": "Search engine",
+  "tr": "Søgemaskiner)"
+ },{
+  "en": "Search Engine",
+  "tr": "Søgemaskine"
+ },{
+  "en": "Search Engines",
+  "tr": "Søgemaskiner"
+ },{
+  "en": "Search Online",
+  "tr": "Søg online"
+ },{
+  "en": "Search or enter address",
+  "tr": "Søg eller indtast adresse"
+ },{
+  "en": "Searching",
+  "tr": "Søger"
+ },{
+  "en": "Seconds",
+  "tr": "Sekunder"
+ },{
+  "en": "seconds",
+  "tr": "sekunder"
+ },{
+  "en": "Security",
+  "tr": "Sikkerhed"
+ },{
+  "en": "Segment",
+  "tr": "Segment"
+ },{
+  "en": "Select",
+  "tr": "Vælg"
+ },{
+  "en": "Select All",
+  "tr": "Vælg alle"
+ },{
+  "en": "Select Column To",
+  "tr": "Vælg kolonne til"
+ },{
+  "en": "Select copy folder",
+  "tr": "Vælg kopimappe"
+ },{
+  "en": "Select copy items",
+  "tr": "Vælg kopieringselementer"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Vælg bibliotek, der skal modtages"
+ },{
+  "en": "Select download folder",
+  "tr": "Vælg download -mappe"
+ },{
+  "en": "Select files to send",
+  "tr": "Vælg filer, der skal sendes"
+ },{
+  "en": "Select Fold",
+  "tr": "Vælg Fold"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Vælg uddrag bagud"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Vælg Uddrag frem"
+ },{
+  "en": "Select To",
+  "tr": "Vælg Til"
+ },{
+  "en": "Select upload items",
+  "tr": "Vælg upload -elementer"
+ },{
+  "en": "Selected position",
+  "tr": "Valgt position"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Udvalgte sessioner"
+ },{
+  "en": "Selection",
+  "tr": "Udvælgelse"
+ },{
+  "en": "Send",
+  "tr": "Sende"
+ },{
+  "en": "Send line By line",
+  "tr": "Send linje for linje"
+ },{
+  "en": "Send Text",
+  "tr": "Send tekst"
+ },{
+  "en": "Send XModem",
+  "tr": "Send XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Send YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Send ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Afsender"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Afsendelse af %1 mislykkedes: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Sender: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Sender null -pakke for at holde sessionen i live"
+ },{
+  "en": "sent",
+  "tr": "sendt"
+ },{
+  "en": "Serial",
+  "tr": "Seriel"
+ },{
+  "en": "Server",
+  "tr": "Server"
+ },{
+  "en": "Session",
+  "tr": "Session"
+ },{
+  "en": "session",
+  "tr": "session"
+ },{
+  "en": "Session Group",
+  "tr": "Sessionsgruppe"
+ },{
+  "en": "Session Log",
+  "tr": "Sessionslog"
+ },{
+  "en": "Session name",
+  "tr": "Sessionsnavn"
+ },{
+  "en": "Session Settings",
+  "tr": "Sessionsindstillinger"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Sessioner i alle Windows"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Sessioner i nuværende gruppe"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Sessioner i det aktuelle vindue"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Sessioner i gruppe %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Indstil standardeditor"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Indstil fanefarve"
+ },{
+  "en": "Settings",
+  "tr": "Indstillinger"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Form"
+ },{
+  "en": "Shell",
+  "tr": "Skal"
+ },{
+  "en": "Shell sessions",
+  "tr": "Shell -sessioner"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Shell -sessioner"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Kort tid/dato"
+ },{
+  "en": "Show",
+  "tr": "At vise"
+ },{
+  "en": "Show All",
+  "tr": "Vis alle"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Vis alle åbnede og nylige redaktører"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Vis alle åbnede og seneste terminaler"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Vis og kør handlinger"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Vis dialogboksen Luk fanebekræftelse"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Vis dialogboks til bekræftelse af luk vindue"
+ },{
+  "en": "Show column markers",
+  "tr": "Vis kolonnemarkører"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Vis kommandoer i alfabetisk rækkefølge"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Vis den aktuelle ejendom %1"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Vis gruppekommandoer i rækkefølge"
+ },{
+  "en": "Show group title",
+  "tr": "Vis gruppetitel"
+ },{
+  "en": "Show hidden items",
+  "tr": "Vis skjulte elementer"
+ },{
+  "en": "Show in %1",
+  "tr": "Vis i %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Show In Line End"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Show In Line Start"
+ },{
+  "en": "Show In Selection",
+  "tr": "Vis i udvalg"
+ },{
+  "en": "Show indent guide",
+  "tr": "Vis indrykningsguide"
+ },{
+  "en": "Show line endings",
+  "tr": "Vis linjeafslutninger"
+ },{
+  "en": "Show menu",
+  "tr": "Vis menu"
+ },{
+  "en": "Show More Tools",
+  "tr": "Vis flere værktøjer"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Vis flere grupper"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Vis indsæt dialog på den alternative skærm"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Vis indsæt dialog på hovedskærmen"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Vis mellemrum og faner"
+ },{
+  "en": "Show Tabs",
+  "tr": "Vis faner"
+ },{
+  "en": "Show Text",
+  "tr": "Vis tekst"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Vis fanenummeret på faner"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Vis denne dialog, når fokusfunktionen starter"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Vis omviklingssymboler"
+ },{
+  "en": "Shrink",
+  "tr": "Krympe"
+ },{
+  "en": "Size",
+  "tr": "Størrelse"
+ },{
+  "en": "Skip",
+  "tr": "Springe"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "Soft Reset"
+ },{
+  "en": "Sort",
+  "tr": "Sorter"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Sorteringslinjer Ufølsom"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Sort Lines Case Sensitive"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Sorter linjer i tilfældig rækkefølge"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Sorter linjer i omvendt rækkefølge"
+ },{
+  "en": "spaces",
+  "tr": "mellemrum"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Mellemrum til faner"
+ },{
+  "en": "Spacing",
+  "tr": "Mellemrum"
+ },{
+  "en": "Special",
+  "tr": "Særlig"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Angiv protokollen, når du trækker og slipper filer"
+ },{
+  "en": "Speed",
+  "tr": "Hastighed"
+ },{
+  "en": "Split",
+  "tr": "Split"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Opdel gruppe vandret"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Opdel gruppe lodret"
+ },{
+  "en": "Split Lines",
+  "tr": "Split linjer"
+ },{
+  "en": "Split Selection",
+  "tr": "Opdel udvalg"
+ },{
+  "en": "Split To Group",
+  "tr": "Opdel til gruppe"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Opdelt visning vandret"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Opdelt visning lodret"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Start"
+ },{
+  "en": "Start Of Document",
+  "tr": "Start af dokument"
+ },{
+  "en": "Start Of Line",
+  "tr": "Start af linje"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Start af par"
+ },{
+  "en": "Startup",
+  "tr": "Start op"
+ },{
+  "en": "Stash",
+  "tr": "Stash"
+ },{
+  "en": "Status Bar",
+  "tr": "Statuslinje"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Stålblå"
+ },{
+  "en": "Sticky",
+  "tr": "Sticky"
+ },{
+  "en": "Stop",
+  "tr": "Hold op"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stopbits"
+ },{
+  "en": "Stop loading",
+  "tr": "Stop indlæsning"
+ },{
+  "en": "Stop sender",
+  "tr": "Stop afsenderen"
+ },{
+  "en": "Stop Tools",
+  "tr": "Stop værktøjer"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Stop med at se denne fil"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Skift strøm og kolonne"
+ },{
+  "en": "switch to tab",
+  "tr": "skift til fane"
+ },{
+  "en": "Symbols",
+  "tr": "Symboler"
+ },{
+  "en": "Sync channel",
+  "tr": "Synkroniser kanal"
+ },{
+  "en": "Sync Edit",
+  "tr": "Synkroniser redigering"
+ },{
+  "en": "Sync Input",
+  "tr": "Synkroniseringsindgang"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Synkroniserer input i kanal %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Syntaksordninger"
+ },{
+  "en": "System",
+  "tr": "System"
+ },{
+  "en": "Tab",
+  "tr": "Tab"
+ },{
+  "en": "Tab Color",
+  "tr": "Fanefarve"
+ },{
+  "en": "Tab Features",
+  "tr": "Fanefunktioner"
+ },{
+  "en": "Tab Group",
+  "tr": "Fanegruppe"
+ },{
+  "en": "Tab Index",
+  "tr": "Fanen Indeks"
+ },{
+  "en": "Tab size",
+  "tr": "Fanestørrelse"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Fanetekst elide -tilstand"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Fanebillede miniatureradio"
+ },{
+  "en": "Tab Title",
+  "tr": "Fanetitel"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabificer udvalgte linjer"
+ },{
+  "en": "Tabs",
+  "tr": "Faner"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Faner til mellemrum"
+ },{
+  "en": "Target",
+  "tr": "Mål"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Målmappe"
+ },{
+  "en": "Targets",
+  "tr": "Mål"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP -forbindelsesmuligheder"
+ },{
+  "en": "Teal",
+  "tr": "Blågrøn"
+ },{
+  "en": "Term",
+  "tr": "Term"
+ },{
+  "en": "Terminal",
+  "tr": "Terminal"
+ },{
+  "en": "terminal",
+  "tr": "terminal"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Terminalindstillinger"
+ },{
+  "en": "Text",
+  "tr": "Tekst"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Tekst: %1 linjer, %2 tegn"
+ },{
+  "en": "The % sign",
+  "tr": "Skiltet"
+ },{
+  "en": "The actual text to log",
+  "tr": "Selve teksten til log"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Målmappen er en undermappe i kildemappen: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Dokumentet er blevet ændret. \nVil du gemme dine ændringer?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Tastekombinationen(%1) er ikke en kommando."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Lrzsz registreres ikke. Installer venligst lrzsz først."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Hovedadgangskoden er blevet ændret."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Adgangskodebekræftelsen matcher ikke."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Serveren annullerede transmissionen."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Sessionen er <b> afbrudt </b>, tryk på <b> Enter </b> for at oprette forbindelse igen."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Overførslen blev annulleret, fordi en pakke ikke var %1 inden for forsøgsgrænsen."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Overførslen blev annulleret, fordi pakkesekvensnummeret var forkert."
+ },{
+  "en": "Theme",
+  "tr": "Tema"
+ },{
+  "en": "Thin",
+  "tr": "Tynd"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Tærskel for stor fil"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Tidsformat"
+ },{
+  "en": "Time left",
+  "tr": "Tid tilbage"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Tidsstempel af linjer"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Til omvendt sag"
+ },{
+  "en": "To Line End",
+  "tr": "Til linje slut"
+ },{
+  "en": "To Line Start",
+  "tr": "Til linjestart"
+ },{
+  "en": "To Lower Case",
+  "tr": "Til små bogstaver"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Til MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "Til Title Case"
+ },{
+  "en": "To Unix LF",
+  "tr": "Til Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "Til store bogstaver"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Til Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Til Word End"
+ },{
+  "en": "To Word Start",
+  "tr": "Til Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Toggle Fold"
+ },{
+  "en": "Tool",
+  "tr": "Værktøj"
+ },{
+  "en": "Toolbar",
+  "tr": "Værktøjslinje"
+ },{
+  "en": "Top Group",
+  "tr": "Topgruppe"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Spor tekstvalg i træ"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Spor trævalg i tekst"
+ },{
+  "en": "Tracking Events",
+  "tr": "Sporing af begivenheder"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Efterfølgende emner"
+ },{
+  "en": "Trailing position",
+  "tr": "Efterfølgende position"
+ },{
+  "en": "Transfer",
+  "tr": "Overførsel"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Overførselsbjælke"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Overfør binær"
+ },{
+  "en": "Transfer complete",
+  "tr": "Overførslen er fuldført"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Overførsel ufuldstændig"
+ },{
+  "en": "Translucent",
+  "tr": "Gennemsigtig"
+ },{
+  "en": "Transparent",
+  "tr": "Gennemsigtig"
+ },{
+  "en": "Transpose",
+  "tr": "Transponer"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Trim efterfølgende mellemrum ved at gemme"
+ },{
+  "en": "Trust this host",
+  "tr": "Stol på denne vært"
+ },{
+  "en": "Tunnels",
+  "tr": "Tunneler"
+ },{
+  "en": "Type",
+  "tr": "Type"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Skriv '?' for at få hjælp til de handlinger, du kan skrive her"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Valg af ikke -kommentar"
+ },{
+  "en": "Underline",
+  "tr": "Understrege"
+ },{
+  "en": "underLine",
+  "tr": "understrege"
+ },{
+  "en": "Undo",
+  "tr": "Fortryd"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Fortryd %1 handlinger"
+ },{
+  "en": "Unfold",
+  "tr": "Fold ud"
+ },{
+  "en": "Unfold All",
+  "tr": "Fold alle ud"
+ },{
+  "en": "Unfold Category",
+  "tr": "Udfold kategori"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Fold ud indeni"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Forene linjeendelser ved gem"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: shell -filsti skal være absolut"
+ },{
+  "en": "Unknown",
+  "tr": "Ukendt"
+ },{
+  "en": "unknown",
+  "tr": "ukendt"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Fjern markeringen af ​​markerede linjer"
+ },{
+  "en": "Untitled",
+  "tr": "Uden titel"
+ },{
+  "en": "Untrust this host",
+  "tr": "Fortrol denne vært"
+ },{
+  "en": "upload",
+  "tr": "upload"
+ },{
+  "en": "Upload command",
+  "tr": "Uploadkommando"
+ },{
+  "en": "Upload directory",
+  "tr": "Upload bibliotek"
+ },{
+  "en": "Upload file",
+  "tr": "Upload fil"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Upload til den aktuelle mappe"
+ },{
+  "en": "uploaded",
+  "tr": "uploadet"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL med %q i stedet for forespørgsel"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Brug baggrundsfarve til at slette skærmen"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Brug højhastighedsoverførsel"
+ },{
+  "en": "Use system line ending",
+  "tr": "Brug systemlinje slutning"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Brug dette som standard, og spørg ikke igen"
+ },{
+  "en": "User",
+  "tr": "Bruger"
+ },{
+  "en": "Username echo mode",
+  "tr": "Brugernavn ekko -tilstand"
+ },{
+  "en": "Value",
+  "tr": "Værdi"
+ },{
+  "en": "Variable",
+  "tr": "Variabel"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Bekræftelse af serverens fingeraftryk"
+ },{
+  "en": "View",
+  "tr": "Vis"
+ },{
+  "en": "Virtual Space",
+  "tr": "Virtuelt rum"
+ },{
+  "en": "Waiting",
+  "tr": "Venter"
+ },{
+  "en": "Warning",
+  "tr": "Advarsel"
+ },{
+  "en": "Wheel event",
+  "tr": "Hjulbegivenhed"
+ },{
+  "en": "When destination file exists",
+  "tr": "Når destinationsfilen findes"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Når der indsættes flere linjer"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Når fjerntitel ændres"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Når sessionen er godkendt"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Når sessionen godkendes"
+ },{
+  "en": "When window is resized",
+  "tr": "Når vinduet ændres"
+ },{
+  "en": "Where",
+  "tr": "Hvor"
+ },{
+  "en": "White Spaces",
+  "tr": "Hvide mellemrum"
+ },{
+  "en": "Whole Line",
+  "tr": "Hele linjen"
+ },{
+  "en": "Whole Word",
+  "tr": "Hele Ordet"
+ },{
+  "en": "Widgets",
+  "tr": "Widgets"
+ },{
+  "en": "Width",
+  "tr": "Bredde"
+ },{
+  "en": "Window",
+  "tr": "Vindue"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Vindueskant"
+ },{
+  "en": "Window Opacity",
+  "tr": "Vinduesopacitet"
+ },{
+  "en": "Window opacity",
+  "tr": "Vinduesopacitet"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Manager"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe eller winpty.dll ikke fundet !."
+ },{
+  "en": "Word",
+  "tr": "Ord"
+ },{
+  "en": "Word Separators",
+  "tr": "Ordadskillere"
+ },{
+  "en": "Word Wrap",
+  "tr": "Word Wrap"
+ },{
+  "en": "Working directory",
+  "tr": "Arbejdsmappe"
+ },{
+  "en": "Wrap",
+  "tr": "Wrap"
+ },{
+  "en": "Wrap by character",
+  "tr": "Wrap efter karakter"
+ },{
+  "en": "Wrap by word",
+  "tr": "Wrap for word"
+ },{
+  "en": "Wrap column",
+  "tr": "Wrap kolonne"
+ },{
+  "en": "Wrap mode",
+  "tr": "Indpakningstilstand"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Wrap -symboler"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Forkert hovedadgangskode."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z -modem"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z -modem kan ikke overføre mapper eller filer større end 4 GB: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 -godkendelsesprotokol"
+ },{
+  "en": "X11 display",
+  "tr": "X11 display"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Årstal med 2 cifre"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Årstal med 4 cifre"
+ },{
+  "en": "Yes",
+  "tr": "Ja"
+ },{
+  "en": "Zero",
+  "tr": "Nul"
+ },{
+  "en": "Zoom",
+  "tr": "Zoom"
+ },{
+  "en": "Zoom In",
+  "tr": "Zoom ind"
+ },{
+  "en": "Zoom level",
+  "tr": "Zoomniveau"
+ },{
+  "en": "Zoom Out",
+  "tr": "Zoom ud"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Gik ned i %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Tom]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Fejl: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Færdig om %1s, udgangskode %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Færdig om %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Gruppelisten er tom]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Navigationslisten er tom]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Ingen søgemaskine]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Seneste webadresser er tomme]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Gendan liste er tom]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Ordliste er tom]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Temalisten er tom]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Værktøjslinjelisten er tom]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Fortryd listen er tom]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Bruger annulleret]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[bruger@] værtsnavn"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows -listen er tom]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

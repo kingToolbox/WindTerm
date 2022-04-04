@@ -1,0 +1,3513 @@
+{
+ "language": "Bengali - বাংলা",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(স্কিম) সরঞ্জাম "
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 %3 দ্বারা সমর্থিত নয়।"
+ },{
+  "en": "%1 copied",
+  "tr": "%1 কপি করা হয়েছে"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 ডাউনলোড করা হয়েছে"
+ },{
+  "en": "%1 File",
+  "tr": "%1 ফাইল"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 টি আইটেম ব্যর্থ হয়েছে"
+ },{
+  "en": "%1 items",
+  "tr": "%1 টি আইটেম"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 টি আইটেম ব্যর্থ হয়েছে"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 টি আইটেম/গুলি"
+ },{
+  "en": "%1 of %2",
+  "tr": "%2 এর %1"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 সরানো হয়েছে"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 এই %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 আপলোড করা হয়েছে"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 গতি: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 ব্যর্থ পাসওয়ার্ড প্রচেষ্টা"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> পরিবর্তন হয়েছে </b> এবং <b> পুনরায় লোড করা হয়েছে </b>, পূর্বাবস্থায় বড় ফাইলের জন্য <b> নয় </b> অনুমোদিত।"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> <b> পরিবর্তন হয়েছে </b> এবং <b> পুনরায় লোড করা হয়েছে </b>, পূর্বাবস্থায় ফেরানো অনুমোদিত"
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> <b> পরিবর্তন হয়েছে </b>, আপনি কি এটি পুনরায় লোড করতে চান?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> <b> সরানো বা মুছে ফেলা হয়েছে </b>।"
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) চাপা ছিল। আরো চাবির জন্য অপেক্ষা করছি"
+ },{
+  "en": "1 Char",
+  "tr": "1 চর"
+ },{
+  "en": "16 Columns",
+  "tr": "এবং 16 টি কলাম"
+ },{
+  "en": "2 Chars",
+  "tr": "2 অক্ষর"
+ },{
+  "en": "24 Columns",
+  "tr": "এবং 24 কলাম"
+ },{
+  "en": "32 Columns",
+  "tr": "32 কলাম"
+ },{
+  "en": "4 Chars",
+  "tr": "4 অক্ষর"
+ },{
+  "en": "8 Chars",
+  "tr": "8 অক্ষর"
+ },{
+  "en": "8 Columns",
+  "tr": "8 টি কলাম"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "এসএসএইচ পাসওয়ার্ডের মতো সংবেদনশীল তথ্য সুরক্ষার জন্য একটি মাস্টার পাসওয়ার্ড ব্যবহার করা হয়।"
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "একটি নাম 255 অক্ষরের কম হওয়া উচিত এবং নিচের কোন অক্ষর থাকতে পারে না: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "একটি রিমোট ফাইল পরিবর্তন করা হয়েছে। \n আপনি কি এই ফাইলটি আবার সার্ভারে আপলোড করতে চান?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "একটি নির্দিষ্ট সেশন বা সেশনের সেট "
+ },{
+  "en": "Abbreviated month name",
+  "tr": "সংক্ষিপ্ত মাসের নাম"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "সপ্তাহের দিনের সংক্ষিপ্ত নাম"
+ },{
+  "en": "Accept local connections only",
+  "tr": "শুধুমাত্র স্থানীয় সংযোগ গ্রহণ করুন "
+ },{
+  "en": "Accessed",
+  "tr": "অ্যাক্সেস"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "একাধিক ক্যারেট সক্রিয় করুন "
+ },{
+  "en": "Activate Next Selection",
+  "tr": "পরবর্তী নির্বাচন সক্রিয় করুন "
+ },{
+  "en": "Activate Next View",
+  "tr": "পরবর্তী দৃশ্য সক্রিয় করুন "
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "পূর্ববর্তী নির্বাচন সক্রিয় করুন "
+ },{
+  "en": "Activate Previous View",
+  "tr": "পূর্ববর্তী দৃশ্য সক্রিয় করুন "
+ },{
+  "en": "Activate the left tab",
+  "tr": "বাম ট্যাবটি সক্রিয় করুন"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "পূর্বে নির্বাচিত ট্যাব সক্রিয় করুন"
+ },{
+  "en": "Activate the right tab",
+  "tr": "ডান ট্যাব সক্রিয় করুন"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "বন্ধ করার পরে ট্যাবটি সক্রিয় করুন "
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "হভার করার পরে ট্যাবটি সক্রিয় করুন "
+ },{
+  "en": "Add",
+  "tr": "যুক্ত কর একটি)"
+ },{
+  "en": "Add All",
+  "tr": "সব যোগ করুন "
+ },{
+  "en": "Add Command",
+  "tr": "কমান্ড যোগ করুন"
+ },{
+  "en": "Add Group",
+  "tr": "গ্রুপ যোগ করুন"
+ },{
+  "en": "Add Sender",
+  "tr": "প্রেরক যোগ করুন "
+ },{
+  "en": "Add Tab",
+  "tr": "ট্যাব যোগ করুন"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "উইন্ডোর সারি এবং কলাম সামঞ্জস্য করুন "
+ },{
+  "en": "Advanced Sort",
+  "tr": "উন্নত বাছাই"
+ },{
+  "en": "Agent",
+  "tr": "প্রতিনিধি"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "এজেন্ট প্রমাণীকরণ ব্যর্থ হয়েছে, অনুগ্রহ করে অন্য পদ্ধতি ব্যবহার করে দেখুন"
+ },{
+  "en": "All",
+  "tr": "সব "
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "সমস্ত %1 সেশন মুছে ফেলা হবে। \n আপনি কি সেশন আমদানি চালিয়ে যেতে চান?"
+ },{
+  "en": "All session output",
+  "tr": "সমস্ত সেশন আউটপুট "
+ },{
+  "en": "All Sessions",
+  "tr": "সমস্ত সেশন "
+ },{
+  "en": "All tabs",
+  "tr": "সব ট্যাব"
+ },{
+  "en": "Alternate column background color",
+  "tr": "বিকল্প কলামের পটভূমির রঙ "
+ },{
+  "en": "Alternate line background color",
+  "tr": "বিকল্প লাইনের পটভূমির রঙ "
+ },{
+  "en": "Always On Top",
+  "tr": "সর্বদা উপরে "
+ },{
+  "en": "Always on top",
+  "tr": "সর্বদা শীর্ষে"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "%1 প্রক্রিয়া থেকে পড়ার চেষ্টা করার সময় একটি ত্রুটি ঘটেছে।"
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "%1 প্রক্রিয়ায় লেখার চেষ্টা করার সময় একটি ত্রুটি ঘটেছে।"
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "%1 প্রক্রিয়ায় একটি অজানা ত্রুটি ঘটেছে।"
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI থেকে OEM "
+ },{
+  "en": "Answer back",
+  "tr": "উত্তর দিন "
+ },{
+  "en": "Any",
+  "tr": "যেকোনো"
+ },{
+  "en": "Anything Palette",
+  "tr": "যেকোনো প্যালেট "
+ },{
+  "en": "Anywhere",
+  "tr": "যে কোন জায়গায়"
+ },{
+  "en": "Appearance",
+  "tr": "চেহারা"
+ },{
+  "en": "Append",
+  "tr": "যুক্ত করুন"
+ },{
+  "en": "Append log file",
+  "tr": "লগ ফাইল যোগ করুন "
+ },{
+  "en": "Application",
+  "tr": "আবেদন"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "আপনি কি নিশ্চিত %1 টি নির্বাচিত আইটেম মুছে ফেলতে চান?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "আপনি কি নিশ্চিত যে আপনি <b>%1 </b> আইটেমটি মুছে ফেলতে চান?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "আপনি কি নিশ্চিত যে আপনি বর্তমান ফাইলটি পুনরায় লোড করতে চান এবং WindEdit এ করা পরিবর্তনগুলি হারাতে চান?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "আপনি কি নিশ্চিত যে আপনি বর্তমান প্রেরককে থামাতে চান?"
+ },{
+  "en": "Arguments",
+  "tr": "যুক্তি "
+ },{
+  "en": "At Caret",
+  "tr": "ক্যারেটে "
+ },{
+  "en": "At End",
+  "tr": "শেষে "
+ },{
+  "en": "At Start",
+  "tr": "শুরুতে "
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Gssapi-with-mic প্রমাণীকরণের চেষ্টা করুন "
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "কীবোর্ড-ইন্টারেক্টিভ প্রমাণীকরণের চেষ্টা করুন "
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "পেজেন্ট প্রমাণীকরণের চেষ্টা করুন "
+ },{
+  "en": "Attempt password authentication",
+  "tr": "পাসওয়ার্ড প্রমাণীকরণের চেষ্টা করুন "
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "পাবলিক-কী প্রমাণীকরণের চেষ্টা করুন "
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Ssh- এজেন্ট প্রমাণীকরণের চেষ্টা করুন "
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "আংশিক সাফল্যের সাথে প্রমাণিত, অনুগ্রহ করে অন্য পদ্ধতি চেষ্টা করুন।"
+ },{
+  "en": "Authenticating by %1",
+  "tr": "%1 দ্বারা প্রমাণীকরণ"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "%1 এবং %2 দ্বারা প্রমাণীকরণ"
+ },{
+  "en": "Authentication",
+  "tr": "প্রমাণীকরণ"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "প্রমাণীকরণ অস্বীকার করা হয়েছে, দয়া করে আবার চেষ্টা করুন।"
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "প্রমাণীকরণ ব্যর্থ হয়েছে। আবার চেষ্টা করুন."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "অটো ক্লোজ এইচটিএমএল/এক্সএমএল ট্যাগ "
+ },{
+  "en": "Auto login",
+  "tr": "স্বয়ংক্রিয় লগইন"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "স্বয়ংক্রিয় লগইন ব্যর্থ হয়েছে, দয়া করে আবার চেষ্টা করুন"
+ },{
+  "en": "Auto login next time",
+  "tr": "পরের বার অটো লগইন "
+ },{
+  "en": "Automatic",
+  "tr": "স্বয়ংক্রিয়"
+ },{
+  "en": "automatic",
+  "tr": "স্বয়ংক্রিয়"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "স্বয়ংক্রিয় প্রমাণীকরণ পদ্ধতি"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "নির্বাচন স্বয়ংক্রিয়ভাবে অনুলিপি করুন "
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "স্বয়ংক্রিয়ভাবে ইন্ডেন্টেশন সনাক্ত করুন "
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "প্যাডিং স্বয়ংক্রিয়ভাবে ছাঁটা "
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "পটভূমি চিহ্নিতকারী"
+ },{
+  "en": "Backspace",
+  "tr": "ব্যাকস্পেস "
+ },{
+  "en": "Backspace sends",
+  "tr": "ব্যাকস্পেস পাঠায়"
+ },{
+  "en": "Backward",
+  "tr": "পিছিয়ে"
+ },{
+  "en": "Bars",
+  "tr": "বার"
+ },{
+  "en": "Baud Rate",
+  "tr": "বাউড হার "
+ },{
+  "en": "Beep When Finished",
+  "tr": "শেষ হলে বীপ"
+ },{
+  "en": "Binary",
+  "tr": "বাইনারি"
+ },{
+  "en": "Binary base",
+  "tr": "বাইনারি বেস "
+ },{
+  "en": "Binary columns",
+  "tr": "বাইনারি কলাম "
+ },{
+  "en": "Binary devision columns",
+  "tr": "বাইনারি ডিভিশন কলাম "
+ },{
+  "en": "Binary grouped characters",
+  "tr": "বাইনারি গ্রুপেড অক্ষর "
+ },{
+  "en": "Black",
+  "tr": "কালো"
+ },{
+  "en": "Blink",
+  "tr": "চোখের পলক "
+ },{
+  "en": "blinking block",
+  "tr": "ঝলকানি ব্লক"
+ },{
+  "en": "blinking line",
+  "tr": "ঝলকানি লাইন"
+ },{
+  "en": "blinking rectangle",
+  "tr": "ঝলকানো আয়তক্ষেত্র"
+ },{
+  "en": "blinking underLine",
+  "tr": "রেখার নিচে ঝলকানি"
+ },{
+  "en": "Block",
+  "tr": "ব্লক"
+ },{
+  "en": "block",
+  "tr": "ব্লক"
+ },{
+  "en": "Bold",
+  "tr": "সাহসী"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "বোল্ড টাইপ নির্দিষ্ট প্রস্থের ফন্ট নির্দেশ করে"
+ },{
+  "en": "Bottom Docks",
+  "tr": "নিচের ডক্স "
+ },{
+  "en": "Bottom Group",
+  "tr": "নিচের গ্রুপ "
+ },{
+  "en": "Browse",
+  "tr": "ব্রাউজ করুন"
+ },{
+  "en": "Browse Directory",
+  "tr": "ব্রাউজ ডিরেক্টরি"
+ },{
+  "en": "Browse File",
+  "tr": "ফাইল ব্রাউজ করুন"
+ },{
+  "en": "Browser",
+  "tr": "ব্রাউজার "
+ },{
+  "en": "Build",
+  "tr": "বিল্ড "
+ },{
+  "en": "By",
+  "tr": "দ্বারা"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "হিসাব করা"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "ফাইল খোলার জন্য উপযুক্ত প্রোগ্রাম খুঁজে পাচ্ছি না:%n%1 \n এটি খুলতে ডিফল্ট এডিটর ব্যবহার করে দেখুন।"
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "%1 ডিরেক্টরি তৈরি করতে পারে না"
+ },{
+  "en": "Can not make file %1.",
+  "tr": "%1 ফাইল তৈরি করা যাবে না"
+ },{
+  "en": "Can not make link %1.",
+  "tr": "লিঙ্ক %1 করা যাবে না।"
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "ডিরেক্টরি %1 সরানো যাবে না।"
+ },{
+  "en": "Cancel",
+  "tr": "বাতিল করুন"
+ },{
+  "en": "Cancel Build",
+  "tr": "বিল্ড বাতিল করুন "
+ },{
+  "en": "Cancel Selection",
+  "tr": "নির্বাচন বাতিল করুন "
+ },{
+  "en": "Caret",
+  "tr": "ক্যারেট"
+ },{
+  "en": "Caret Style",
+  "tr": "ক্যারেট স্টাইল "
+ },{
+  "en": "Carriage Return",
+  "tr": "গাড়ি ফেরত"
+ },{
+  "en": "Case Sensitive",
+  "tr": "কেস সংবেদনশীল"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup "
+ },{
+  "en": "Change Master Password",
+  "tr": "মাস্টার পাসওয়ার্ড পরিবর্তন করুন "
+ },{
+  "en": "Change master password",
+  "tr": "মাস্টার পাসওয়ার্ড পরিবর্তন করুন"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "মাস্টার পাসওয়ার্ড পরিবর্তন করা ব্যর্থ হয়েছে।"
+ },{
+  "en": "Change the tab title",
+  "tr": "ট্যাব শিরোনাম পরিবর্তন করুন "
+ },{
+  "en": "Changed",
+  "tr": "পরিবর্তন করা হয়েছে"
+ },{
+  "en": "Channel",
+  "tr": "চ্যানেল"
+ },{
+  "en": "Char",
+  "tr": "চর "
+ },{
+  "en": "Char Left",
+  "tr": "চর বাম "
+ },{
+  "en": "Char Right",
+  "tr": "চর ডান "
+ },{
+  "en": "Character spacing",
+  "tr": "অক্ষরের ব্যবধান "
+ },{
+  "en": "character width",
+  "tr": "অক্ষরের প্রস্থ"
+ },{
+  "en": "Charset",
+  "tr": "চারসেট "
+ },{
+  "en": "Choose a default editor",
+  "tr": "একটি ডিফল্ট সম্পাদক নির্বাচন করুন"
+ },{
+  "en": "Ciphers",
+  "tr": "সাইফার"
+ },{
+  "en": "Ciphers order",
+  "tr": "সাইফার অর্ডার "
+ },{
+  "en": "Clear",
+  "tr": "পরিষ্কার"
+ },{
+  "en": "Clear All",
+  "tr": "সব সাফ করুন "
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "সাম্প্রতিক urls সাফ করুন "
+ },{
+  "en": "Clear Screen",
+  "tr": "পরিষ্কার স্ক্রিন "
+ },{
+  "en": "Clear Scrollback",
+  "tr": "স্ক্রোলব্যাক সাফ করুন "
+ },{
+  "en": "Clear Sender",
+  "tr": "পরিষ্কার প্রেরক "
+ },{
+  "en": "Click event",
+  "tr": "ইভেন্টে ক্লিক করুন "
+ },{
+  "en": "Close",
+  "tr": "বন্ধ"
+ },{
+  "en": "Close All Views",
+  "tr": "সব ভিউ বন্ধ করুন "
+ },{
+  "en": "Close All Views But Active",
+  "tr": "সমস্ত দৃশ্য বন্ধ করুন কিন্তু সক্রিয় "
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "ডানদিকে সমস্ত দৃশ্য বন্ধ করুন "
+ },{
+  "en": "Close And Exit",
+  "tr": "বন্ধ করুন এবং প্রস্থান করুন"
+ },{
+  "en": "Close Channel",
+  "tr": "চ্যানেল বন্ধ করুন "
+ },{
+  "en": "Close Dock",
+  "tr": "ডক বন্ধ করুন"
+ },{
+  "en": "Close Group",
+  "tr": "গ্রুপ বন্ধ করুন"
+ },{
+  "en": "Close Session",
+  "tr": "সেশন বন্ধ করুন"
+ },{
+  "en": "Close Tab",
+  "tr": "ট্যাব বন্ধ করুন"
+ },{
+  "en": "Close tab",
+  "tr": "ট্যাব বন্ধ করুন"
+ },{
+  "en": "Close View",
+  "tr": "বন্ধ দৃশ্য "
+ },{
+  "en": "Close Window",
+  "tr": "উইন্ডো বন্ধ করুন "
+ },{
+  "en": "Color",
+  "tr": "রঙ "
+ },{
+  "en": "Column Edit",
+  "tr": "কলাম সম্পাদনা "
+ },{
+  "en": "Column Marker",
+  "tr": "কলাম চিহ্নিতকারী"
+ },{
+  "en": "Columns",
+  "tr": "কলাম "
+ },{
+  "en": "columns",
+  "tr": "কলাম"
+ },{
+  "en": "Command",
+  "tr": "কমান্ড "
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "কমান্ড প্যালেট "
+ },{
+  "en": "Comment",
+  "tr": "মন্তব্য "
+ },{
+  "en": "Comment Selection",
+  "tr": "মন্তব্য নির্বাচন "
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "মন্তব্য নির্বাচন (ব্লক মোড) "
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "মন্তব্য নির্বাচন (লাইন মোড) "
+ },{
+  "en": "Complete Word",
+  "tr": "সম্পূর্ণ শব্দ "
+ },{
+  "en": "Config",
+  "tr": "কনফিগ"
+ },{
+  "en": "Confirm Password",
+  "tr": "পাসওয়ার্ড নিশ্চিত করুন"
+ },{
+  "en": "Confirm password",
+  "tr": "পাসওয়ার্ড নিশ্চিত করুন"
+ },{
+  "en": "Connect",
+  "tr": "সংযোগ করুন"
+ },{
+  "en": "Connection",
+  "tr": "সংযোগ"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "প্রসঙ্গ"
+ },{
+  "en": "Continue",
+  "tr": "চালিয়ে যান"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "CRLF এবং LF কে CR (C) তে রূপান্তর করুন"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "ট্যাবকে স্পেসে রূপান্তর করুন "
+ },{
+  "en": "copied",
+  "tr": "কপি করা হয়েছে"
+ },{
+  "en": "Copy",
+  "tr": "কপি"
+ },{
+  "en": "copy",
+  "tr": "কপি"
+ },{
+  "en": "Copy And Paste",
+  "tr": "কপি এবং পেস্ট "
+ },{
+  "en": "Copy File Name",
+  "tr": "ফাইলের নাম (N) অনুলিপি করুন"
+ },{
+  "en": "Copy File Path",
+  "tr": "ফাইল পাথ কপি করুন "
+ },{
+  "en": "Copy from",
+  "tr": "থেকে কপি "
+ },{
+  "en": "Copy names",
+  "tr": "কপি নাম "
+ },{
+  "en": "Copy names to terminal",
+  "tr": "টার্মিনালে (C) নাম কপি করুন"
+ },{
+  "en": "Copy Output",
+  "tr": "আউটপুট কপি করুন "
+ },{
+  "en": "Copy paths",
+  "tr": "পাথ কপি করুন "
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "টার্মিনালে পাথ কপি করুন "
+ },{
+  "en": "Copy Session Name",
+  "tr": "সেশনের নাম কপি করুন "
+ },{
+  "en": "Copy Session Url",
+  "tr": "সেশন ইউআরএল (এবং ইউ) অনুলিপি করুন"
+ },{
+  "en": "Copy to",
+  "tr": "কপি করুন "
+ },{
+  "en": "Copy To Terminal",
+  "tr": "টার্মিনালে অনুলিপি করুন "
+ },{
+  "en": "Count",
+  "tr": "গণনা"
+ },{
+  "en": "Create Directory",
+  "tr": "ডিরেক্টরি তৈরি করুন"
+ },{
+  "en": "Create File",
+  "tr": "ফাইল তৈরি করুন"
+ },{
+  "en": "Create Link",
+  "tr": "লিঙ্ক তৈরি করুন"
+ },{
+  "en": "Created",
+  "tr": "তৈরি করা হয়েছে"
+ },{
+  "en": "Critical",
+  "tr": "সমালোচনামূলক"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "বর্তমান অধিবেশন"
+ },{
+  "en": "Custom",
+  "tr": "কাস্টম"
+ },{
+  "en": "Custom Opacity",
+  "tr": "কাস্টম অস্বচ্ছতা "
+ },{
+  "en": "Customize",
+  "tr": "কাস্টমাইজ করুন "
+ },{
+  "en": "Cut",
+  "tr": "কাটা "
+ },{
+  "en": "Dark Cyan",
+  "tr": "ডার্ক সায়ান "
+ },{
+  "en": "Data",
+  "tr": "ডেটা "
+ },{
+  "en": "Data Bits",
+  "tr": "ডেটা বিট "
+ },{
+  "en": "Datetime format",
+  "tr": "ডেটাটাইম ফরম্যাট "
+ },{
+  "en": "Day of month",
+  "tr": "01-31 মাসের দিন"
+ },{
+  "en": "Debug Mode",
+  "tr": "ডিবাগ মোড "
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "লাইন ইন্ডেন্ট কমানো "
+ },{
+  "en": "Deep Pink",
+  "tr": "গভীর গোলাপী "
+ },{
+  "en": "default",
+  "tr": "ডিফল্ট"
+ },{
+  "en": "Default editor",
+  "tr": "ডিফল্ট সম্পাদক"
+ },{
+  "en": "Default Font",
+  "tr": "ডিফল্ট ফন্ট"
+ },{
+  "en": "Default line ending",
+  "tr": "ডিফল্ট লাইন শেষ "
+ },{
+  "en": "Delete",
+  "tr": "মুছুন "
+ },{
+  "en": "Delete sends",
+  "tr": "প্রেরণ মুছে দিন"
+ },{
+  "en": "deleted",
+  "tr": "মুছে ফেলা হয়েছে"
+ },{
+  "en": "DemiBold",
+  "tr": "ডেমিবোল্ড"
+ },{
+  "en": "Destination Host",
+  "tr": "গন্তব্য হোস্ট "
+ },{
+  "en": "Destination Port",
+  "tr": "গন্তব্য বন্দর "
+ },{
+  "en": "Dir",
+  "tr": "দির"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "ডিরেক্টরি"
+ },{
+  "en": "Directory Link",
+  "tr": "ডিরেক্টরি লিঙ্ক"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "নাগলের অ্যালগরিদম অক্ষম করুন (TCP_NODELAY বিকল্প) "
+ },{
+  "en": "Disconnect Session",
+  "tr": "সেশন সংযোগ বিচ্ছিন্ন করুন "
+ },{
+  "en": "Disk",
+  "tr": "ডিস্ক"
+ },{
+  "en": "Do not echo characters",
+  "tr": "অক্ষর প্রতিধ্বনি করবেন না"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "আপনি কি বর্তমান সেশন বন্ধ করতে চান?"
+ },{
+  "en": "Document",
+  "tr": "নথি "
+ },{
+  "en": "Don't show this message again",
+  "tr": "এই বার্তাটি আবার দেখাবেন না"
+ },{
+  "en": "Double click",
+  "tr": "ডাবল ক্লিক "
+ },{
+  "en": "Double click event",
+  "tr": "ডাবল ক্লিক ইভেন্ট "
+ },{
+  "en": "Download",
+  "tr": "ডাউনলোড করুন "
+ },{
+  "en": "download",
+  "tr": "ডাউনলোড করুন"
+ },{
+  "en": "Download directory",
+  "tr": "ডাউনলোড ডিরেক্টরি "
+ },{
+  "en": "downloaded",
+  "tr": "ডাউনলোড করা হয়েছে"
+ },{
+  "en": "Drop Selection",
+  "tr": "ড্রপ সিলেকশন "
+ },{
+  "en": "Duplicate",
+  "tr": "প্রতিলিপি"
+ },{
+  "en": "Duplicate Command",
+  "tr": "ডুপ্লিকেট কমান্ড"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "ডুপ্লিকেট ভিউ "
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "গতিশীল ফরওয়ার্ডিং"
+ },{
+  "en": "Echo every character entered",
+  "tr": "প্রতিধ্বনিত প্রতিটি চরিত্রের প্রতিধ্বনি"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "সম্পাদনা করার সময় প্রতিটি চরিত্রের প্রতিধ্বনি"
+ },{
+  "en": "Echo random characters",
+  "tr": "ইকো এলোমেলো অক্ষর"
+ },{
+  "en": "Edit",
+  "tr": "সম্পাদনা করুন "
+ },{
+  "en": "Editor",
+  "tr": "সম্পাদক"
+ },{
+  "en": "editor",
+  "tr": "সম্পাদক"
+ },{
+  "en": "Editor Settings",
+  "tr": "সম্পাদক সেটিংস"
+ },{
+  "en": "Elapsed",
+  "tr": "অতিবাহিত"
+ },{
+  "en": "Elide left",
+  "tr": "এলিড বাম"
+ },{
+  "en": "Elide middle",
+  "tr": "এলাইড মাঝখানে"
+ },{
+  "en": "Elide right",
+  "tr": "ডানদিকে চলে যান"
+ },{
+  "en": "Empty",
+  "tr": "খালি"
+ },{
+  "en": "Enable command mode",
+  "tr": "কমান্ড মোড সক্ষম করুন "
+ },{
+  "en": "Enable local mode",
+  "tr": "স্থানীয় মোড সক্ষম করুন "
+ },{
+  "en": "Enable SFTP",
+  "tr": "SFTP (S) সক্ষম করুন"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "টিসিপি সংরক্ষণ সক্ষম করুন (SO_KEEPALIVE বিকল্প) "
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "ভার্চুয়াল স্পেস সক্ষম করুন "
+ },{
+  "en": "End Of Document",
+  "tr": "নথির শেষ "
+ },{
+  "en": "End Of Line",
+  "tr": "লাইনের শেষ "
+ },{
+  "en": "End Of Pair",
+  "tr": "জোড়ার শেষ "
+ },{
+  "en": "Engine",
+  "tr": "ইঞ্জিন"
+ },{
+  "en": "Environment Variable",
+  "tr": "পরিবেশ সূচক"
+ },{
+  "en": "Environment variables",
+  "tr": "পরিবেশ ভেরিয়েবল "
+ },{
+  "en": "Error",
+  "tr": "ত্রুটি"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "এক্সচেঞ্জ ক্যারেট এবং নোঙ্গর "
+ },{
+  "en": "Execute",
+  "tr": "চালান "
+ },{
+  "en": "Execute command after authentication",
+  "tr": "প্রমাণীকরণের পরে কমান্ড চালান "
+ },{
+  "en": "Execute command after start",
+  "tr": "শুরু করার পরে কমান্ড চালান "
+ },{
+  "en": "Execute File",
+  "tr": "ফাইল চালান"
+ },{
+  "en": "Exit",
+  "tr": "প্রস্থান করুন "
+ },{
+  "en": "Expand",
+  "tr": "বিস্তৃত করা"
+ },{
+  "en": "Expand Snippet",
+  "tr": "স্নিপেট প্রসারিত করুন "
+ },{
+  "en": "Explorer",
+  "tr": "অনুসন্ধানকারী"
+ },{
+  "en": "External Tools",
+  "tr": "বাহ্যিক সরঞ্জাম "
+ },{
+  "en": "External X display",
+  "tr": "এক্সটার্নাল এক্স ডিসপ্লে "
+ },{
+  "en": "ExtraBold",
+  "tr": "এক্সট্রা বোল্ড"
+ },{
+  "en": "ExtraLight",
+  "tr": "অতিরিক্ত আলো"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "অস্থায়ী ফাইল তৈরি করতে ব্যর্থ:%n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "ডিরেক্টরি খুলতে ব্যর্থ: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "হোস্ট ফিঙ্গারপ্রিন্ট পুনরুদ্ধার করতে ব্যর্থ!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "ফাইল আপলোড করতে ব্যর্থ: %1, file n ফাইলটির অস্তিত্ব নেই বা এটি খোলার অনুমতি নেই।"
+ },{
+  "en": "Fast",
+  "tr": "দ্রুত"
+ },{
+  "en": "Favorites",
+  "tr": "প্রিয় "
+ },{
+  "en": "Features",
+  "tr": "বৈশিষ্ট্য"
+ },{
+  "en": "File",
+  "tr": "ফাইল"
+ },{
+  "en": "file",
+  "tr": "ফাইল"
+ },{
+  "en": "File Link",
+  "tr": "ফাইলের লিঙ্ক"
+ },{
+  "en": "File Name",
+  "tr": "ফাইলের নাম "
+ },{
+  "en": "File name",
+  "tr": "ফাইলের নাম"
+ },{
+  "en": "File Path",
+  "tr": "ফাইল পাথ "
+ },{
+  "en": "Filer",
+  "tr": "ফাইলার"
+ },{
+  "en": "filer",
+  "tr": "ফাইলার"
+ },{
+  "en": "Filter",
+  "tr": "ছাঁকনি"
+ },{
+  "en": "Find",
+  "tr": "খুঁজুন "
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "সব খুঁজুন "
+ },{
+  "en": "Find in Files",
+  "tr": "ফাইলে খুঁজুন "
+ },{
+  "en": "Find Next",
+  "tr": "পরবর্তী খুঁজুন "
+ },{
+  "en": "Find Next Selection",
+  "tr": "পরবর্তী নির্বাচন খুঁজুন "
+ },{
+  "en": "Find Previous",
+  "tr": "আগের (P) খুঁজুন"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "পূর্ববর্তী নির্বাচন খুঁজুন "
+ },{
+  "en": "Fingerprint",
+  "tr": "আঙুলের ছাপ"
+ },{
+  "en": "First nine tabs",
+  "tr": "প্রথম নয়টি ট্যাব"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "ভাসমান "
+ },{
+  "en": "Flow Control",
+  "tr": "প্রবাহ নিয়ন্ত্রণ "
+ },{
+  "en": "Focus Mode",
+  "tr": "ফোকাস মোড"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "ফোকাস মোড সেটিংস "
+ },{
+  "en": "Fold",
+  "tr": "ভাঁজ "
+ },{
+  "en": "Fold All",
+  "tr": "সব ভাঁজ করুন "
+ },{
+  "en": "Fold Category",
+  "tr": "ভাঁজ বিভাগ "
+ },{
+  "en": "Fold Inside",
+  "tr": "ভিতরে ভাঁজ "
+ },{
+  "en": "Folds",
+  "tr": "ভাঁজ "
+ },{
+  "en": "Font",
+  "tr": "হরফ"
+ },{
+  "en": "Font family",
+  "tr": "ফন্ট পরিবার"
+ },{
+  "en": "Font size",
+  "tr": "ফন্ট সাইজ "
+ },{
+  "en": "Font weight",
+  "tr": "ফন্টের ওজন "
+ },{
+  "en": "Forest Green",
+  "tr": "বন সবুজ "
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "ফরম্যাট নির্বাচন "
+ },{
+  "en": "Found",
+  "tr": "পাওয়া গেছে"
+ },{
+  "en": "Full month name",
+  "tr": "পুরো মাসের নাম"
+ },{
+  "en": "Full Screen",
+  "tr": "পূর্ণ পর্দা "
+ },{
+  "en": "Full screen",
+  "tr": "পূর্ণ পর্দা"
+ },{
+  "en": "Full weekday name",
+  "tr": "পুরো সপ্তাহের দিনের নাম"
+ },{
+  "en": "Go Backward",
+  "tr": "পিছনে যান "
+ },{
+  "en": "Go Forward",
+  "tr": "এগিয়ে যান "
+ },{
+  "en": "Go to",
+  "tr": "যাও"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "কারেন্ট ভিউতে সিম্বল এ যান"
+ },{
+  "en": "Goldenrod",
+  "tr": "গোল্ডেনরড "
+ },{
+  "en": "Goto",
+  "tr": "গোটো"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "গোটো অ্যাড্রেস বার "
+ },{
+  "en": "Goto File",
+  "tr": "Goto ফাইল "
+ },{
+  "en": "Goto Fold Header",
+  "tr": "গোটো ফোল্ড হেডার "
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "গোটো নেক্সট ফোল্ড হেডার "
+ },{
+  "en": "Goto Position",
+  "tr": "Goto অবস্থান "
+ },{
+  "en": "Goto Session",
+  "tr": "Goto সেশন "
+ },{
+  "en": "Goto Symbol",
+  "tr": "গোটো প্রতীক "
+ },{
+  "en": "Group",
+  "tr": "গ্রুপ"
+ },{
+  "en": "Group %1",
+  "tr": "1 নং দল"
+ },{
+  "en": "Groups",
+  "tr": "গোষ্ঠী"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "মাইক সহ Gssapi"
+ },{
+  "en": "Hard Reset",
+  "tr": "হার্ড রিসেট "
+ },{
+  "en": "Help",
+  "tr": "সাহায্য "
+ },{
+  "en": "Hex",
+  "tr": "হেক্স "
+ },{
+  "en": "Hex Base",
+  "tr": "হেক্স বেস "
+ },{
+  "en": "Hex Columns",
+  "tr": "হেক্স কলাম "
+ },{
+  "en": "Hex Edit",
+  "tr": "হেক্স এডিট "
+ },{
+  "en": "Hex Group Chars",
+  "tr": "হেক্স গ্রুপ অক্ষর "
+ },{
+  "en": "Hidden",
+  "tr": "গোপন"
+ },{
+  "en": "Hide",
+  "tr": "লুকান"
+ },{
+  "en": "Hide All",
+  "tr": "সব লুকান "
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "টাইপ করার সময় কার্সার লুকান "
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "টেক্সট লুকান"
+ },{
+  "en": "Highlight",
+  "tr": "লক্ষণীয় করা"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "ক্যারেট লাইন হাইলাইট করুন "
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "হাইলাইট ম্যাচিং পেয়ার "
+ },{
+  "en": "Highlight the caret line",
+  "tr": "ক্যারেট লাইন হাইলাইট করুন "
+ },{
+  "en": "Highlight the caret word",
+  "tr": "ক্যারেট শব্দটি হাইলাইট করুন "
+ },{
+  "en": "Highlight the current fold",
+  "tr": "বর্তমান ভাঁজ (F) হাইলাইট করুন"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "বর্তমান জোড়া (P) হাইলাইট করুন"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "ক্রমবর্ধমান অনুসন্ধান (S) হাইলাইট করুন"
+ },{
+  "en": "History",
+  "tr": "ইতিহাস"
+ },{
+  "en": "Home Of Line",
+  "tr": "লাইনের বাড়ি "
+ },{
+  "en": "Host",
+  "tr": "হোস্ট"
+ },{
+  "en": "Host address",
+  "tr": "হোস্ট ঠিকানা"
+ },{
+  "en": "Host Based",
+  "tr": "হোস্ট ভিত্তিক"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "12 ফরম্যাটে ঘন্টা"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "24 ফরম্যাটে ঘন্টা"
+ },{
+  "en": "Http proxy",
+  "tr": "Http প্রক্সি "
+ },{
+  "en": "Huge File",
+  "tr": "বিশাল ফাইল"
+ },{
+  "en": "Icon",
+  "tr": "আইকন"
+ },{
+  "en": "Identity file",
+  "tr": "পরিচয় ফাইল "
+ },{
+  "en": "Identity file for authentication",
+  "tr": "প্রমাণীকরণের জন্য পরিচয় ফাইল "
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "যদি আপনি একটি মাস্টার পাসওয়ার্ড তৈরি করেন তাহলে আপনাকে এটি প্রবেশ করতে বলা হবে যখন WindTerm মাস্টার পাসওয়ার্ড দ্বারা সংরক্ষিত সংরক্ষিত তথ্য পুনরুদ্ধার করবে।"
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "আপনি যদি আপনার মাস্টার পাসওয়ার্ড ভুলে যান, তাহলে আপনি এর দ্বারা সুরক্ষিত কোনো তথ্য অ্যাক্সেস করতে পারবেন না।"
+ },{
+  "en": "Import",
+  "tr": "আমদানি "
+ },{
+  "en": "Import sessions",
+  "tr": "আমদানি সেশন"
+ },{
+  "en": "In Selection",
+  "tr": "সিলেকশনে"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "লাইন ইন্ডেন্ট বাড়ান "
+ },{
+  "en": "Incremental",
+  "tr": "ক্রমবর্ধমান"
+ },{
+  "en": "Indent",
+  "tr": "ইন্ডেন্ট"
+ },{
+  "en": "Indent guide style",
+  "tr": "ইন্ডেন্ট গাইড স্টাইল "
+ },{
+  "en": "Indent Guides",
+  "tr": "ইন্ডেন্ট গাইড "
+ },{
+  "en": "Indent size",
+  "tr": "ইন্ডেন্ট সাইজ "
+ },{
+  "en": "Indentation",
+  "tr": "ইন্ডেন্টেশন"
+ },{
+  "en": "Indian Red",
+  "tr": "ইন্ডিয়ান রেড "
+ },{
+  "en": "Information",
+  "tr": "তথ্য"
+ },{
+  "en": "Insert",
+  "tr": "সন্নিবেশ করান "
+ },{
+  "en": "Insert File",
+  "tr": "ফাইল োকান"
+ },{
+  "en": "Insert Lines",
+  "tr": "লাইন সন্নিবেশ করান "
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "TAB কী (এবং I) টিপে ট্যাব Insোকান"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "হোয়াইটস্পেস Insোকানো এবং মুছে ফেলা ট্যাব স্টপ অনুসরণ করে "
+ },{
+  "en": "Inserting file",
+  "tr": "ফাইল োকানো"
+ },{
+  "en": "Internal X display",
+  "tr": "অভ্যন্তরীণ এক্স প্রদর্শন "
+ },{
+  "en": "Interval",
+  "tr": "ব্যবধান "
+ },{
+  "en": "Invert Selection",
+  "tr": "নির্বাচন বিপরীত "
+ },{
+  "en": "item failed",
+  "tr": "আইটেম ব্যর্থ হয়েছে"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "আইটেম ব্যর্থ হয়েছে"
+ },{
+  "en": "Join Channel A",
+  "tr": "চ্যানেল A (A) এ যোগ দিন"
+ },{
+  "en": "Join Channel B",
+  "tr": "চ্যানেল বি (এবং বি) এ যোগ দিন"
+ },{
+  "en": "Join Channel C",
+  "tr": "চ্যানেল C (C) এ যোগদান করুন"
+ },{
+  "en": "Join Channel D",
+  "tr": "চ্যানেল D (D) এ যোগ দিন"
+ },{
+  "en": "Join Lines",
+  "tr": "লাইনে যোগ দিন "
+ },{
+  "en": "Joined",
+  "tr": "যোগদান করেছে"
+ },{
+  "en": "Jump Server",
+  "tr": "জাম্প সার্ভার"
+ },{
+  "en": "Jump server",
+  "tr": "জাম্প সার্ভার"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "জাম্প সার্ভার "
+ },{
+  "en": "Key Exchange",
+  "tr": "কী বিনিময়"
+ },{
+  "en": "Key exchange order",
+  "tr": "কী বিনিময় আদেশ "
+ },{
+  "en": "Key re-exchange",
+  "tr": "কী পুনরায় বিনিময়"
+ },{
+  "en": "Keyboard",
+  "tr": "কীবোর্ড"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "কীবোর্ড ইন্টারেক্টিভ"
+ },{
+  "en": "Kit Bar",
+  "tr": "কিট বার"
+ },{
+  "en": "Known",
+  "tr": "পরিচিত"
+ },{
+  "en": "Label",
+  "tr": "লেবেল"
+ },{
+  "en": "Language",
+  "tr": "ভাষা "
+ },{
+  "en": "Last sessions",
+  "tr": "শেষ সেশন "
+ },{
+  "en": "Layout",
+  "tr": "লেআউট"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "নেতৃস্থানীয় এবং পিছনে ফাঁকা "
+ },{
+  "en": "Leading Blanks",
+  "tr": "নেতৃস্থানীয় শূন্যস্থান "
+ },{
+  "en": "Leading position",
+  "tr": "নেতৃস্থানীয় অবস্থান"
+ },{
+  "en": "Leave All Channels",
+  "tr": "সব চ্যানেল ছেড়ে দিন "
+ },{
+  "en": "Leave all channels",
+  "tr": "সব চ্যানেল ছেড়ে দিন"
+ },{
+  "en": "Leave Channel",
+  "tr": "চ্যানেল ছাড়ুন "
+ },{
+  "en": "Left Docks",
+  "tr": "বাম ডক্স "
+ },{
+  "en": "Left Group",
+  "tr": "বাম দল "
+ },{
+  "en": "Light",
+  "tr": "আলো"
+ },{
+  "en": "Line",
+  "tr": "লাইন"
+ },{
+  "en": "line",
+  "tr": "লাইন"
+ },{
+  "en": "line at a time",
+  "tr": "এক সময়ে লাইন"
+ },{
+  "en": "Line Down",
+  "tr": "লাইন ডাউন "
+ },{
+  "en": "Line Ending",
+  "tr": "লাইন শেষ"
+ },{
+  "en": "Line Endings",
+  "tr": "লাইন শেষ "
+ },{
+  "en": "Line Feed",
+  "tr": "লাইন ফিড"
+ },{
+  "en": "line height",
+  "tr": "লাইনের উচ্চতা"
+ },{
+  "en": "Line marker",
+  "tr": "লাইন মার্কার"
+ },{
+  "en": "Line spacing",
+  "tr": "লাইন ব্যবধান "
+ },{
+  "en": "Line Up",
+  "tr": "লাইন আপ "
+ },{
+  "en": "lines at a time",
+  "tr": "একটি সময়ে লাইন"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "স্ক্রোলব্যাকের লাইন "
+ },{
+  "en": "Link",
+  "tr": "লিঙ্ক "
+ },{
+  "en": "Link to",
+  "tr": "লিঙ্ক করুন"
+ },{
+  "en": "List Tab",
+  "tr": "তালিকা ট্যাব"
+ },{
+  "en": "Listen Port",
+  "tr": "শোনার পোর্ট "
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "স্থানীয় ফরওয়ার্ডিং"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "বার্তা সনাক্ত করুন "
+ },{
+  "en": "Location",
+  "tr": "অবস্থান"
+ },{
+  "en": "Lock Screen",
+  "tr": "বন্ধ পর্দা"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "লক স্ক্রিন টাইমআউট "
+ },{
+  "en": "Lock Selection",
+  "tr": "লক নির্বাচন "
+ },{
+  "en": "Log",
+  "tr": "লগ "
+ },{
+  "en": "Log all session output",
+  "tr": "সমস্ত সেশন আউটপুট লগ ইন করুন "
+ },{
+  "en": "Log content pattern",
+  "tr": "লগ কন্টেন্ট প্যাটার্ন "
+ },{
+  "en": "Log Dialog",
+  "tr": "লগ ডায়ালগ"
+ },{
+  "en": "Log file",
+  "tr": "লগ ফাইল "
+ },{
+  "en": "Log file name",
+  "tr": "লগ ফাইলের নাম "
+ },{
+  "en": "Log maximum size",
+  "tr": "লগ সর্বাধিক আকার "
+ },{
+  "en": "Log nothing",
+  "tr": "কিছুই লগ "
+ },{
+  "en": "Log option",
+  "tr": "লগ অপশন"
+ },{
+  "en": "Log options",
+  "tr": "লগ অপশন"
+ },{
+  "en": "Log pattern",
+  "tr": "লগ প্যাটার্ন "
+ },{
+  "en": "Log printable output",
+  "tr": "লগ মুদ্রণযোগ্য আউটপুট "
+ },{
+  "en": "Log type",
+  "tr": "লগ টাইপ"
+ },{
+  "en": "Log types",
+  "tr": "লগের ধরন"
+ },{
+  "en": "Logging",
+  "tr": "লগিং"
+ },{
+  "en": "Login",
+  "tr": "প্রবেশ করুন"
+ },{
+  "en": "Login Wizard",
+  "tr": "লগইন উইজার্ড"
+ },{
+  "en": "Long Time/Date",
+  "tr": "দীর্ঘ সময়/তারিখ "
+ },{
+  "en": "Look both guide",
+  "tr": "উভয় গাইড দেখুন"
+ },{
+  "en": "Look forward guide",
+  "tr": "সামনে গাইড দেখুন"
+ },{
+  "en": "MAC Hashes",
+  "tr": "ম্যাক হ্যাশ"
+ },{
+  "en": "MAC hashes order",
+  "tr": "ম্যাক হ্যাশ অর্ডার "
+ },{
+  "en": "Margin Blank",
+  "tr": "মার্জিন ফাঁকা "
+ },{
+  "en": "Margin Fold",
+  "tr": "মার্জিন ভাঁজ "
+ },{
+  "en": "Margin Number",
+  "tr": "মার্জিন নম্বর "
+ },{
+  "en": "Margin Symbol",
+  "tr": "মার্জিন প্রতীক "
+ },{
+  "en": "Margin Text",
+  "tr": "মার্জিন পাঠ্য "
+ },{
+  "en": "Margin Timestamp",
+  "tr": "মার্জিন টাইমস্ট্যাম্প "
+ },{
+  "en": "Margins",
+  "tr": "মার্জিন "
+ },{
+  "en": "Marker style",
+  "tr": "মার্কার স্টাইল "
+ },{
+  "en": "Master Password",
+  "tr": "মাস্টার পাসওয়ার্ড"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "রিকির আগে সর্বোচ্চ ডেটা (MBytes) "
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "রিকির আগে সর্বোচ্চ সময় (মিনিট) "
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "সর্বাধিক সংযোগ সময়সীমা "
+ },{
+  "en": "MB",
+  "tr": "এমবি"
+ },{
+  "en": "Medium",
+  "tr": "মধ্যম"
+ },{
+  "en": "Medium Orchid",
+  "tr": "মাঝারি অর্কিড "
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "মাঝারি স্লেট নীল "
+ },{
+  "en": "Menu Bar",
+  "tr": "মেনু বার"
+ },{
+  "en": "Merge To Group",
+  "tr": "গ্রুপে মার্জ করুন "
+ },{
+  "en": "Middle click",
+  "tr": "মধ্য ক্লিক "
+ },{
+  "en": "Middle click event",
+  "tr": "মিডল ক্লিক ইভেন্ট "
+ },{
+  "en": "Milliseconds",
+  "tr": "মিলিসেকেন্ড"
+ },{
+  "en": "Minutes",
+  "tr": "মিনিট"
+ },{
+  "en": "minutes",
+  "tr": "মিনিট"
+ },{
+  "en": "Mismatched",
+  "tr": "অসামঞ্জস্যপূর্ণ"
+ },{
+  "en": "Mode",
+  "tr": "মোড"
+ },{
+  "en": "Modem waiting",
+  "tr": "মডেম অপেক্ষা করছে"
+ },{
+  "en": "Modes",
+  "tr": "মোড"
+ },{
+  "en": "Modified",
+  "tr": "সংশোধিত"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "পরিবর্তন করুন "
+ },{
+  "en": "Modify Lines",
+  "tr": "লাইন পরিবর্তন করুন "
+ },{
+  "en": "Month",
+  "tr": "মাস"
+ },{
+  "en": "More",
+  "tr": "আরো "
+ },{
+  "en": "Mouse Actions",
+  "tr": "মাউস ক্রিয়া"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "মাউস ট্র্যাকিং"
+ },{
+  "en": "Move Down",
+  "tr": "নিচে যাও"
+ },{
+  "en": "Move event",
+  "tr": "ইভেন্ট সরান "
+ },{
+  "en": "Move to",
+  "tr": "চলো"
+ },{
+  "en": "Move To Group",
+  "tr": "গ্রুপে যান "
+ },{
+  "en": "Move Up",
+  "tr": "উপরে উঠানো"
+ },{
+  "en": "Multiple Caret",
+  "tr": "একাধিক ক্যারেট "
+ },{
+  "en": "Name",
+  "tr": "নাম"
+ },{
+  "en": "nesting groups",
+  "tr": "বাসা বাঁধার দল"
+ },{
+  "en": "Never",
+  "tr": "কখনোই না"
+ },{
+  "en": "New directory",
+  "tr": "নতুন ডিরেক্টরি "
+ },{
+  "en": "New File",
+  "tr": "নতুন ফাইল "
+ },{
+  "en": "New file",
+  "tr": "নতুন ফাইল "
+ },{
+  "en": "New Line",
+  "tr": "নতুন লাইন "
+ },{
+  "en": "New link",
+  "tr": "নতুন লিঙ্ক "
+ },{
+  "en": "New password",
+  "tr": "নতুন পাসওয়ার্ড"
+ },{
+  "en": "New Session",
+  "tr": "নতুন সেশন"
+ },{
+  "en": "New Window",
+  "tr": "নতুন উইন্ডো "
+ },{
+  "en": "Next Char",
+  "tr": "পরবর্তী চর "
+ },{
+  "en": "Next Fold",
+  "tr": "পরবর্তী ভাঁজ "
+ },{
+  "en": "Next Indentation",
+  "tr": "পরবর্তী ইন্ডেন্টেশন "
+ },{
+  "en": "Next Line",
+  "tr": "পরবর্তী লাইন "
+ },{
+  "en": "Next Message",
+  "tr": "পরবর্তী বার্তা "
+ },{
+  "en": "Next Page",
+  "tr": "পরবর্তী পৃষ্ঠা "
+ },{
+  "en": "Next Pair",
+  "tr": "পরবর্তী জোড়া "
+ },{
+  "en": "Next Paragraph",
+  "tr": "পরবর্তী অনুচ্ছেদ "
+ },{
+  "en": "Next Scope",
+  "tr": "পরবর্তী সুযোগ "
+ },{
+  "en": "Next Segment End",
+  "tr": "পরবর্তী বিভাগ শেষ "
+ },{
+  "en": "Next Segment Start",
+  "tr": "পরবর্তী বিভাগ শুরু "
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "পরবর্তী স্তব্ধ পৃষ্ঠা "
+ },{
+  "en": "Next Word",
+  "tr": "পরবর্তী শব্দ "
+ },{
+  "en": "Next Word End",
+  "tr": "পরবর্তী শব্দ শেষ "
+ },{
+  "en": "Next Word Part",
+  "tr": "পরবর্তী শব্দ অংশ "
+ },{
+  "en": "No",
+  "tr": "না"
+ },{
+  "en": "No action",
+  "tr": "কোন কর্ম"
+ },{
+  "en": "No Dirs",
+  "tr": "দিরস নেই"
+ },{
+  "en": "No elide",
+  "tr": "এলিড নেই"
+ },{
+  "en": "No file opened",
+  "tr": "কোনো ফাইল খোলা হয়নি"
+ },{
+  "en": "No filer available",
+  "tr": "কোন ফাইলার পাওয়া যায় না"
+ },{
+  "en": "No Files",
+  "tr": "কোন ফাইল নেই"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "স্থানান্তর করার জন্য কোন ফাইল নির্বাচন করা হয়নি।"
+ },{
+  "en": "No item opened",
+  "tr": "কোন আইটেম খোলা হয়নি"
+ },{
+  "en": "No outline available",
+  "tr": "কোন রূপরেখা উপলব্ধ নেই"
+ },{
+  "en": "No proxy",
+  "tr": "কোন প্রক্সি নেই "
+ },{
+  "en": "No session",
+  "tr": "কোন সেশন নেই "
+ },{
+  "en": "No session available",
+  "tr": "কোন সেশন পাওয়া যায় না"
+ },{
+  "en": "No session opened",
+  "tr": "কোনো সেশন খোলা হয়নি"
+ },{
+  "en": "No Sessions",
+  "tr": "কোন সেশন নেই"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "কোন সমর্থিত প্রমাণীকরণ পদ্ধতি উপলব্ধ নেই।"
+ },{
+  "en": "No transfer available",
+  "tr": "কোন স্থানান্তর পাওয়া যায় না"
+ },{
+  "en": "No wrap",
+  "tr": "মোড়ানো নেই"
+ },{
+  "en": "No X display",
+  "tr": "কোন এক্স ডিসপ্লে নেই "
+ },{
+  "en": "None",
+  "tr": "কোনটিই নয়"
+ },{
+  "en": "None tabs",
+  "tr": "কোন ট্যাব নয়"
+ },{
+  "en": "Normal",
+  "tr": "স্বাভাবিক"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "এখন"
+ },{
+  "en": "Nowhere",
+  "tr": "কোথাও"
+ },{
+  "en": "Octal",
+  "tr": "অক্টাল "
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM থেকে ANSI "
+ },{
+  "en": "Off",
+  "tr": "বন্ধ"
+ },{
+  "en": "off",
+  "tr": "বন্ধ"
+ },{
+  "en": "Ok",
+  "tr": "ঠিক আছে"
+ },{
+  "en": "Old",
+  "tr": "পুরাতন"
+ },{
+  "en": "Old password",
+  "tr": "পুরানো পাসওয়ার্ড"
+ },{
+  "en": "Olive",
+  "tr": "জলপাই "
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "এক বা একাধিক সেশন খোলা হচ্ছে, n আপনি কি বর্তমান উইন্ডো বন্ধ করতে চান?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "শুধুমাত্র ডিস্ক ফাইল পুনরায় লোড করা যাবে!"
+ },{
+  "en": "Only indentation",
+  "tr": "শুধুমাত্র ইন্ডেন্টেশন"
+ },{
+  "en": "Opaque",
+  "tr": "অস্বচ্ছ"
+ },{
+  "en": "Open",
+  "tr": "খুলুন "
+ },{
+  "en": "open",
+  "tr": "খোলা"
+ },{
+  "en": "Open directory after created",
+  "tr": "তৈরির পরে ডিরেক্টরি খুলুন "
+ },{
+  "en": "Open directory after download",
+  "tr": "ডাউনলোডের পর ডিরেক্টরি খুলুন "
+ },{
+  "en": "Open File",
+  "tr": "ফাইল খুলুন "
+ },{
+  "en": "Open file",
+  "tr": "খোলা ফাইল"
+ },{
+  "en": "Open file after created",
+  "tr": "তৈরি হওয়ার পরে ফাইল খুলুন "
+ },{
+  "en": "Open file failed!",
+  "tr": "ফাইল খুলতে ব্যর্থ!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "ওপেন জাম্প সার্ভার ব্যর্থ!"
+ },{
+  "en": "Open Log File",
+  "tr": "লগ ফাইল খুলুন "
+ },{
+  "en": "Open Log Folder",
+  "tr": "লগ ফোল্ডার খুলুন "
+ },{
+  "en": "Open Recent",
+  "tr": "সাম্প্রতিক (N) খুলুন"
+ },{
+  "en": "Open Selection",
+  "tr": "নির্বাচন খুলুন "
+ },{
+  "en": "Open Session",
+  "tr": "ওপেন সেশন "
+ },{
+  "en": "Open session failed!",
+  "tr": "খোলা সেশন ব্যর্থ!"
+ },{
+  "en": "Open target directory",
+  "tr": "ওপেন টার্গেট ডাইরেক্টরি "
+ },{
+  "en": "Open with default editor",
+  "tr": "ডিফল্ট এডিটর দিয়ে খুলুন "
+ },{
+  "en": "Opened",
+  "tr": "খোলা হয়েছে"
+ },{
+  "en": "Openssh sessions",
+  "tr": "ওপেনশ সেশন "
+ },{
+  "en": "Others",
+  "tr": "অন্যান্য"
+ },{
+  "en": "Outline",
+  "tr": "রূপরেখা"
+ },{
+  "en": "Output",
+  "tr": "আউটপুট"
+ },{
+  "en": "Overtype",
+  "tr": "ওভার টাইপ "
+ },{
+  "en": "Overwrite",
+  "tr": "ওভাররাইট"
+ },{
+  "en": "Overwrite log file",
+  "tr": "লগ ফাইল ওভাররাইট করুন "
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "সোর্স ফাইল নতুন হলে ওভাররাইট করুন"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "সোর্স ফাইল নতুন বা দীর্ঘ হলে ওভাররাইট করুন"
+ },{
+  "en": "Owner",
+  "tr": "মালিক"
+ },{
+  "en": "Packet padding char",
+  "tr": "প্যাকেট প্যাডিং চর "
+ },{
+  "en": "Packet size",
+  "tr": "প্যাকেটের আকার"
+ },{
+  "en": "Page",
+  "tr": "পৃষ্ঠা "
+ },{
+  "en": "page",
+  "tr": "পৃষ্ঠা"
+ },{
+  "en": "Pair",
+  "tr": "জোড়া "
+ },{
+  "en": "Panes",
+  "tr": "ফলক"
+ },{
+  "en": "Paragraph",
+  "tr": "অনুচ্ছেদ "
+ },{
+  "en": "Parity",
+  "tr": "সমতা "
+ },{
+  "en": "Passphrase",
+  "tr": "পাসফ্রেজ "
+ },{
+  "en": "Password",
+  "tr": "পাসওয়ার্ড"
+ },{
+  "en": "Password quality meter",
+  "tr": "পাসওয়ার্ড মানের মিটার"
+ },{
+  "en": "Paste",
+  "tr": "আটকান"
+ },{
+  "en": "Paste Dialog",
+  "tr": "ডায়ালগ আটকান"
+ },{
+  "en": "Paste text",
+  "tr": "টেক্সট আটকান"
+ },{
+  "en": "Pause",
+  "tr": "বিরতি "
+ },{
+  "en": "Paused",
+  "tr": "বিরতি দেওয়া হয়েছে"
+ },{
+  "en": "Pausing",
+  "tr": "বিরতি"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "প্রক্সি (D) দিয়ে DNS সন্ধান করুন"
+ },{
+  "en": "Period",
+  "tr": "সময়কাল "
+ },{
+  "en": "Permissions",
+  "tr": "অনুমতি"
+ },{
+  "en": "pixels",
+  "tr": "পিক্সেল"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "এই দৃশ্যের জন্য অনুগ্রহ করে একটি নতুন নাম লিখুন"
+ },{
+  "en": "Please input master password",
+  "tr": "অনুগ্রহ করে মাস্টার পাসওয়ার্ড লিখুন"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "অনুগ্রহ করে মাস্টার পাসওয়ার্ড ইনপুট করুন, খালি করুন বা অক্ষম করতে বাতিল করুন"
+ },{
+  "en": "Please input new group",
+  "tr": "অনুগ্রহ করে নতুন গ্রুপ ইনপুট করুন"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "আপনার সেট করা মাস্টার পাসওয়ার্ডটি মনে আছে তা নিশ্চিত করুন।"
+ },{
+  "en": "Port",
+  "tr": "বন্দর"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "থিম ফন্ট পছন্দ করুন "
+ },{
+  "en": "Preferences",
+  "tr": "পছন্দ "
+ },{
+  "en": "Preserve",
+  "tr": "সংরক্ষণ করুন"
+ },{
+  "en": "Preview All",
+  "tr": "প্রিভিউ সব "
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "প্রিভিউ প্রতীক "
+ },{
+  "en": "Previous Char",
+  "tr": "পূর্ববর্তী চর "
+ },{
+  "en": "Previous Fold",
+  "tr": "পূর্ববর্তী ভাঁজ "
+ },{
+  "en": "Previous Indentation",
+  "tr": "পূর্ববর্তী ইন্ডেন্টেশন "
+ },{
+  "en": "Previous Line",
+  "tr": "পূর্ববর্তী লাইন "
+ },{
+  "en": "Previous Message",
+  "tr": "পূর্ববর্তী বার্তা "
+ },{
+  "en": "Previous Page",
+  "tr": "পূর্ববর্তী পৃষ্ঠা "
+ },{
+  "en": "Previous Pair",
+  "tr": "আগের জোড়া "
+ },{
+  "en": "Previous Paragraph",
+  "tr": "পূর্ববর্তী অনুচ্ছেদ "
+ },{
+  "en": "Previous Scope",
+  "tr": "পূর্ববর্তী সুযোগ "
+ },{
+  "en": "Previous Segment End",
+  "tr": "পূর্ববর্তী সেগমেন্ট শেষ "
+ },{
+  "en": "Previous Segment Start",
+  "tr": "পূর্ববর্তী বিভাগ শুরু "
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "পূর্ববর্তী স্তব্ধ পৃষ্ঠা "
+ },{
+  "en": "Previous Word",
+  "tr": "পূর্ববর্তী শব্দ "
+ },{
+  "en": "Previous Word End",
+  "tr": "পূর্ববর্তী শব্দ শেষ "
+ },{
+  "en": "Previous Word Part",
+  "tr": "পূর্ববর্তী শব্দ অংশ "
+ },{
+  "en": "Printable output",
+  "tr": "মুদ্রণযোগ্য আউটপুট "
+ },{
+  "en": "Process",
+  "tr": "প্রক্রিয়া"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "প্রক্রিয়া %1 ক্র্যাশ হয়েছে।"
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "%1 প্রক্রিয়া শুরু করা যায়নি।"
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "প্রক্রিয়া %1 টাইমআউট।"
+ },{
+  "en": "Program [Arguments]",
+  "tr": "প্রোগ্রাম [যুক্তি]"
+ },{
+  "en": "Project",
+  "tr": "প্রকল্প "
+ },{
+  "en": "Properties",
+  "tr": "বৈশিষ্ট্য "
+ },{
+  "en": "Property",
+  "tr": "সম্পত্তি"
+ },{
+  "en": "Protocol",
+  "tr": "প্রোটোকল"
+ },{
+  "en": "Proxy",
+  "tr": "প্রক্সি"
+ },{
+  "en": "Proxy Host",
+  "tr": "প্রক্সি হোস্ট"
+ },{
+  "en": "Proxy Port",
+  "tr": "প্রক্সি পর্ট"
+ },{
+  "en": "Proxy Settings",
+  "tr": "প্রক্সি সেটিংস"
+ },{
+  "en": "Proxy Type",
+  "tr": "প্রক্সি টাইপ"
+ },{
+  "en": "Public Key",
+  "tr": "পাবলিক কী"
+ },{
+  "en": "Public Keys",
+  "tr": "পাবলিক কী"
+ },{
+  "en": "Public keys order",
+  "tr": "পাবলিক কী অর্ডার "
+ },{
+  "en": "Putty sessions",
+  "tr": "পুটি সেশন "
+ },{
+  "en": "Query URL",
+  "tr": "ক্যোয়ারী ইউআরএল"
+ },{
+  "en": "Question",
+  "tr": "প্রশ্ন"
+ },{
+  "en": "Quick",
+  "tr": "দ্রুত"
+ },{
+  "en": "Quick Bar",
+  "tr": "কুইক বার"
+ },{
+  "en": "Quick Commands",
+  "tr": "দ্রুত কমান্ড"
+ },{
+  "en": "Read Only",
+  "tr": "শুধুমাত্র পড়ুন "
+ },{
+  "en": "Ready",
+  "tr": "প্রস্তুত"
+ },{
+  "en": "Real guide",
+  "tr": "প্রকৃত গাইড"
+ },{
+  "en": "Receive XModem",
+  "tr": "XModem (এবং X) পান"
+ },{
+  "en": "Receive YModem",
+  "tr": "YModem পান "
+ },{
+  "en": "Receive ZModem",
+  "tr": "ZModem (Z) পান"
+ },{
+  "en": "received",
+  "tr": "প্রাপ্ত"
+ },{
+  "en": "Recent",
+  "tr": "সাম্প্রতিক"
+ },{
+  "en": "Recent Sessions",
+  "tr": "সাম্প্রতিক সেশন"
+ },{
+  "en": "Reconnect Session",
+  "tr": "সেশন পুনরায় সংযোগ করুন "
+ },{
+  "en": "Rectangle",
+  "tr": "আয়তক্ষেত্র"
+ },{
+  "en": "rectangle",
+  "tr": "আয়তক্ষেত্র"
+ },{
+  "en": "Red",
+  "tr": "লাল "
+ },{
+  "en": "Redo",
+  "tr": "পুনরায় করুন "
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "%1 ক্রিয়া পুনরায় করুন"
+ },{
+  "en": "Refresh",
+  "tr": "রিফ্রেশ "
+ },{
+  "en": "Regular Expression",
+  "tr": "রেগুলার এক্সপ্রেশন"
+ },{
+  "en": "Reload",
+  "tr": "পুনরায় লোড করুন"
+ },{
+  "en": "Reload File",
+  "tr": "ফাইল পুনরায় লোড করুন"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "এনকোডিং দিয়ে পুনরায় লোড করুন "
+ },{
+  "en": "Remote forwarding",
+  "tr": "দূরবর্তী ফরওয়ার্ডিং"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "দূরবর্তী পথ"
+ },{
+  "en": "Remove",
+  "tr": "সরান "
+ },{
+  "en": "remove",
+  "tr": "অপসারণ"
+ },{
+  "en": "Remove All",
+  "tr": "সব (এবং ই) সরান"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "ফাঁকা লাইন সরান "
+ },{
+  "en": "Remove Command",
+  "tr": "কমান্ড সরান"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "ডুপ্লিকেট লাইন সরান "
+ },{
+  "en": "Remove Group",
+  "tr": "গ্রুপ সরান"
+ },{
+  "en": "Remove items",
+  "tr": "আইটেম সরান"
+ },{
+  "en": "Remove Sender",
+  "tr": "প্রেরক (R) সরান"
+ },{
+  "en": "Removing",
+  "tr": "সরানো হচ্ছে"
+ },{
+  "en": "Rename",
+  "tr": "নাম পরিবর্তন করুন"
+ },{
+  "en": "Rename Group",
+  "tr": "গ্রুপের নাম পরিবর্তন করুন"
+ },{
+  "en": "Rename tab",
+  "tr": "ট্যাবের নাম পরিবর্তন করুন"
+ },{
+  "en": "Rename View",
+  "tr": "দৃশ্যের নাম পরিবর্তন করুন"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "বন্ধ দৃশ্য (R) পুনরায় খুলুন"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "শেষ কমান্ড পুনরাবৃত্তি করুন "
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "বারবার চালানো "
+ },{
+  "en": "Replace",
+  "tr": "প্রতিস্থাপন করুন "
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "সবগুলি প্রতিস্থাপন করুন "
+ },{
+  "en": "Replace in Files",
+  "tr": "ফাইলে প্রতিস্থাপন করুন "
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "প্রভাব নিতে একটি পুনরায় আরম্ভ প্রয়োজন"
+ },{
+  "en": "Reset",
+  "tr": "পুনরায় সেট করুন "
+ },{
+  "en": "Reset Character Set",
+  "tr": "অক্ষর সেট রিসেট করুন "
+ },{
+  "en": "Reset Zoom",
+  "tr": "রিসেট জুম "
+ },{
+  "en": "Resume",
+  "tr": "জীবনবৃত্তান্ত"
+ },{
+  "en": "Resuming",
+  "tr": "আবার শুরু হচ্ছে"
+ },{
+  "en": "Right click",
+  "tr": "ডান ক্লিক করুন "
+ },{
+  "en": "Right click event",
+  "tr": "ডান ক্লিক ইভেন্ট "
+ },{
+  "en": "Right Docks",
+  "tr": "ডান ডক্স "
+ },{
+  "en": "Right Group",
+  "tr": "ডান গ্রুপ "
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "স্ক্রোল করার জন্য মাউসের চাকা ঘুরান"
+ },{
+  "en": "Rows",
+  "tr": "সারি "
+ },{
+  "en": "Royal Blue",
+  "tr": "রয়েল ব্লু "
+ },{
+  "en": "Run Tool",
+  "tr": "রান টুল"
+ },{
+  "en": "Save",
+  "tr": "সংরক্ষণ"
+ },{
+  "en": "Save All",
+  "tr": "সব সংরক্ষণ করুন "
+ },{
+  "en": "Save As",
+  "tr": "হিসাবে সংরক্ষণ করুন "
+ },{
+  "en": "Save Copy As",
+  "tr": "(S) হিসাবে কপি সংরক্ষণ করুন"
+ },{
+  "en": "Save file failed!",
+  "tr": "ফাইল সেভ করা যায়নি!"
+ },{
+  "en": "Save Selection As",
+  "tr": "নির্বাচনকে (S) হিসাবে সংরক্ষণ করুন"
+ },{
+  "en": "Save Session",
+  "tr": "সেভ সেশন "
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "সংরক্ষিত স্বয়ংক্রিয় প্রমাণীকরণ "
+ },{
+  "en": "Scheme Tools",
+  "tr": "স্কিম টুলস "
+ },{
+  "en": "Scope",
+  "tr": "সুযোগ "
+ },{
+  "en": "Screen Locked",
+  "tr": "স্ক্রিন লক করা"
+ },{
+  "en": "Scroll Left",
+  "tr": "বাম দিকে স্ক্রোল করুন"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "স্ক্রল লাইন ডাউন "
+ },{
+  "en": "Scroll Line Up",
+  "tr": "স্ক্রল লাইন আপ "
+ },{
+  "en": "Scroll Right",
+  "tr": "ডানদিকে স্ক্রোল করুন"
+ },{
+  "en": "Search",
+  "tr": "অনুসন্ধান করুন"
+ },{
+  "en": "Search engine",
+  "tr": "সার্চ ইঞ্জিন "
+ },{
+  "en": "Search Engine",
+  "tr": "খোঁজ যন্ত্র"
+ },{
+  "en": "Search Engines",
+  "tr": "সার্চ ইঞ্জিন "
+ },{
+  "en": "Search Online",
+  "tr": "অনলাইনে অনুসন্ধান করুন "
+ },{
+  "en": "Search or enter address",
+  "tr": "অনুসন্ধান করুন বা ঠিকানা লিখুন"
+ },{
+  "en": "Searching",
+  "tr": "খোঁজা হচ্ছে"
+ },{
+  "en": "Seconds",
+  "tr": "সেকেন্ড"
+ },{
+  "en": "seconds",
+  "tr": "সেকেন্ড"
+ },{
+  "en": "Security",
+  "tr": "নিরাপত্তা"
+ },{
+  "en": "Segment",
+  "tr": "বিভাগ "
+ },{
+  "en": "Select",
+  "tr": "নির্বাচন করুন "
+ },{
+  "en": "Select All",
+  "tr": "সব নির্বাচন করুন "
+ },{
+  "en": "Select Column To",
+  "tr": "থেকে কলাম নির্বাচন করুন "
+ },{
+  "en": "Select copy folder",
+  "tr": "কপি ফোল্ডার নির্বাচন করুন"
+ },{
+  "en": "Select copy items",
+  "tr": "কপি আইটেম নির্বাচন করুন"
+ },{
+  "en": "Select directory to receive",
+  "tr": "প্রাপ্ত করার জন্য ডিরেক্টরি নির্বাচন করুন"
+ },{
+  "en": "Select download folder",
+  "tr": "ডাউনলোড ফোল্ডার নির্বাচন করুন"
+ },{
+  "en": "Select files to send",
+  "tr": "পাঠানোর জন্য ফাইল নির্বাচন করুন"
+ },{
+  "en": "Select Fold",
+  "tr": "ভাঁজ নির্বাচন করুন "
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "পিছনে স্নিপেট নির্বাচন করুন "
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "স্নিপেট ফরওয়ার্ড (F) নির্বাচন করুন"
+ },{
+  "en": "Select To",
+  "tr": "নির্বাচন করুন "
+ },{
+  "en": "Select upload items",
+  "tr": "আপলোড আইটেম নির্বাচন করুন"
+ },{
+  "en": "Selected position",
+  "tr": "নির্বাচিত অবস্থান"
+ },{
+  "en": "Selected Sessions",
+  "tr": "নির্বাচিত সেশন"
+ },{
+  "en": "Selection",
+  "tr": "নির্বাচন"
+ },{
+  "en": "Send",
+  "tr": "পাঠান"
+ },{
+  "en": "Send line By line",
+  "tr": "লাইন দ্বারা লাইন পাঠান "
+ },{
+  "en": "Send Text",
+  "tr": "বার্তা পাঠাও"
+ },{
+  "en": "Send XModem",
+  "tr": "XModem পাঠান "
+ },{
+  "en": "Send YModem",
+  "tr": "YModem পাঠান "
+ },{
+  "en": "Send ZModem",
+  "tr": "ZModem পাঠান "
+ },{
+  "en": "Sender",
+  "tr": "প্রেরক"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "%1 পাঠানো ব্যর্থ হয়েছে: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "পাঠানো হচ্ছে: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "অধিবেশন বাঁচাতে নাল প্যাকেট পাঠায় "
+ },{
+  "en": "sent",
+  "tr": "পাঠানো হয়েছে"
+ },{
+  "en": "Serial",
+  "tr": "সিরিয়াল "
+ },{
+  "en": "Server",
+  "tr": "সার্ভার"
+ },{
+  "en": "Session",
+  "tr": "সেশন"
+ },{
+  "en": "session",
+  "tr": "সেশন"
+ },{
+  "en": "Session Group",
+  "tr": "সেশন গ্রুপ"
+ },{
+  "en": "Session Log",
+  "tr": "সেশন লগ"
+ },{
+  "en": "Session name",
+  "tr": "সেশনের নাম"
+ },{
+  "en": "Session Settings",
+  "tr": "সেশন সেটিংস"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "সমস্ত উইন্ডোতে সেশন"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "বর্তমান গ্রুপে সেশন"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "বর্তমান উইন্ডোতে সেশন"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "%1 গ্রুপে সেশন"
+ },{
+  "en": "Set default editor",
+  "tr": "ডিফল্ট এডিটর (S) সেট করুন"
+ },{
+  "en": "Set Tab Color",
+  "tr": "ট্যাব রঙ সেট করুন "
+ },{
+  "en": "Settings",
+  "tr": "সেটিংস"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "আকার)"
+ },{
+  "en": "Shell",
+  "tr": "শেল"
+ },{
+  "en": "Shell sessions",
+  "tr": "শেল সেশন "
+ },{
+  "en": "Shell Sessions",
+  "tr": "শেল সেশন"
+ },{
+  "en": "Short Time/Date",
+  "tr": "সংক্ষিপ্ত সময়/তারিখ "
+ },{
+  "en": "Show",
+  "tr": "দেখান"
+ },{
+  "en": "Show All",
+  "tr": "সব দেখান "
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "সব খোলা এবং সাম্প্রতিক সম্পাদক দেখান"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "সব খোলা এবং সাম্প্রতিক টার্মিনাল দেখান"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "ক্রিয়া দেখান এবং চালান"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "বন্ধ ট্যাব নিশ্চিতকরণ ডায়ালগ দেখান "
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "বন্ধ উইন্ডো কনফার্মেশন ডায়ালগ দেখান "
+ },{
+  "en": "Show column markers",
+  "tr": "কলাম চিহ্নিতকারী দেখান "
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "বর্ণানুক্রমিক ক্রম দেখান "
+ },{
+  "en": "Show current %1 property",
+  "tr": "বর্তমান %1 সম্পত্তি দেখান"
+ },{
+  "en": "Show group commands in order",
+  "tr": "ক্রমানুসারে গ্রুপ কমান্ড দেখান "
+ },{
+  "en": "Show group title",
+  "tr": "গ্রুপের শিরোনাম দেখান "
+ },{
+  "en": "Show hidden items",
+  "tr": "লুকানো আইটেম দেখান "
+ },{
+  "en": "Show in %1",
+  "tr": "%1 এ দেখান"
+ },{
+  "en": "Show In Line End",
+  "tr": "লাইন এন্ড দেখান "
+ },{
+  "en": "Show In Line Start",
+  "tr": "লাইন স্টার্টে দেখান "
+ },{
+  "en": "Show In Selection",
+  "tr": "নির্বাচনে দেখান "
+ },{
+  "en": "Show indent guide",
+  "tr": "ইন্ডেন্ট গাইড দেখান "
+ },{
+  "en": "Show line endings",
+  "tr": "লাইনের শেষ দেখান "
+ },{
+  "en": "Show menu",
+  "tr": "মেনু দেখান"
+ },{
+  "en": "Show More Tools",
+  "tr": "আরো সরঞ্জাম দেখান "
+ },{
+  "en": "Show multiple groups",
+  "tr": "একাধিক গ্রুপ দেখান "
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "বিকল্প স্ক্রিনে পেস্ট ডায়ালগ দেখান "
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "প্রধান স্ক্রিনে পেস্ট ডায়ালগ দেখান "
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "স্পেস এবং ট্যাব দেখান "
+ },{
+  "en": "Show Tabs",
+  "tr": "ট্যাব দেখান"
+ },{
+  "en": "Show Text",
+  "tr": "পাঠ্য দেখান"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "ট্যাবগুলিতে ট্যাব নম্বর দেখান "
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "ফোকাস মোড শুরু হলে এই ডায়ালগটি দেখান "
+ },{
+  "en": "Show wrap symbols",
+  "tr": "মোড়ানো প্রতীক দেখান "
+ },{
+  "en": "Shrink",
+  "tr": "সঙ্কুচিত করুন"
+ },{
+  "en": "Size",
+  "tr": "সাইজ"
+ },{
+  "en": "Skip",
+  "tr": "এড়িয়ে যান"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "মোজা v5 প্রক্সি "
+ },{
+  "en": "Soft Reset",
+  "tr": "সফট রিসেট "
+ },{
+  "en": "Sort",
+  "tr": "সাজান "
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "সারিবদ্ধ লাইন কেস সংবেদনশীল "
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "বাছাই রেখা কেস সংবেদনশীল "
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "র্যান্ডম অর্ডারে লাইন সাজান "
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "বিপরীত ক্রমে লাইন সাজান "
+ },{
+  "en": "spaces",
+  "tr": "শূন্যস্থান"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "ট্যাবগুলিতে স্পেস "
+ },{
+  "en": "Spacing",
+  "tr": "ব্যবধান"
+ },{
+  "en": "Special",
+  "tr": "বিশেষ"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "ফাইল টেনে আনার সময় ড্রপ করার সময় প্রটোকল উল্লেখ করুন"
+ },{
+  "en": "Speed",
+  "tr": "গতি"
+ },{
+  "en": "Split",
+  "tr": "বিভক্ত "
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "অনুভূমিকভাবে গ্রুপ বিভক্ত করুন "
+ },{
+  "en": "Split Group Vertically",
+  "tr": "উল্লম্বভাবে গ্রুপ বিভক্ত "
+ },{
+  "en": "Split Lines",
+  "tr": "বিভক্ত লাইন "
+ },{
+  "en": "Split Selection",
+  "tr": "বিভক্ত নির্বাচন "
+ },{
+  "en": "Split To Group",
+  "tr": "গ্রুপে বিভক্ত "
+ },{
+  "en": "Split View Horizontally",
+  "tr": "অনুভূমিকভাবে বিভক্ত দেখুন "
+ },{
+  "en": "Split View Vertically",
+  "tr": "উল্লম্বভাবে বিভক্ত দৃশ্য "
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "শুরু "
+ },{
+  "en": "Start Of Document",
+  "tr": "ডকুমেন্টের শুরু "
+ },{
+  "en": "Start Of Line",
+  "tr": "লাইন (এবং এল) শুরু"
+ },{
+  "en": "Start Of Pair",
+  "tr": "জোড়ার শুরু "
+ },{
+  "en": "Startup",
+  "tr": "স্টার্টআপ"
+ },{
+  "en": "Stash",
+  "tr": "স্ট্যাশ "
+ },{
+  "en": "Status Bar",
+  "tr": "স্ট্যাটাস বার"
+ },{
+  "en": "Stdin",
+  "tr": "স্টডিন"
+ },{
+  "en": "Stdout",
+  "tr": "স্টাডআউট"
+ },{
+  "en": "Steel Blue",
+  "tr": "ইস্পাত নীল "
+ },{
+  "en": "Sticky",
+  "tr": "স্টিকি "
+ },{
+  "en": "Stop",
+  "tr": "থামুন"
+ },{
+  "en": "Stop Bits",
+  "tr": "স্টপ বিট "
+ },{
+  "en": "Stop loading",
+  "tr": "লোড করা বন্ধ করুন"
+ },{
+  "en": "Stop sender",
+  "tr": "প্রেরক বন্ধ করুন"
+ },{
+  "en": "Stop Tools",
+  "tr": "স্টপ টুলস"
+ },{
+  "en": "Stop watching this file",
+  "tr": "এই ফাইল দেখা বন্ধ করুন"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "স্ট্রিম এবং কলাম সুইচ করুন "
+ },{
+  "en": "switch to tab",
+  "tr": "ট্যাবে স্যুইচ করুন"
+ },{
+  "en": "Symbols",
+  "tr": "প্রতীক "
+ },{
+  "en": "Sync channel",
+  "tr": "সিঙ্ক চ্যানেল"
+ },{
+  "en": "Sync Edit",
+  "tr": "সিঙ্ক সম্পাদনা "
+ },{
+  "en": "Sync Input",
+  "tr": "সিঙ্ক ইনপুট"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "%1 চ্যানেলে ইনপুট সিঙ্ক্রোনাইজ করা হচ্ছে"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "সিনট্যাক্স স্কিম "
+ },{
+  "en": "System",
+  "tr": "সিস্টেম "
+ },{
+  "en": "Tab",
+  "tr": "ট্যাব"
+ },{
+  "en": "Tab Color",
+  "tr": "ট্যাব রঙ"
+ },{
+  "en": "Tab Features",
+  "tr": "ট্যাব বৈশিষ্ট্য"
+ },{
+  "en": "Tab Group",
+  "tr": "ট্যাব গ্রুপ"
+ },{
+  "en": "Tab Index",
+  "tr": "ট্যাব সূচক"
+ },{
+  "en": "Tab size",
+  "tr": "ট্যাবের আকার "
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "ট্যাব টেক্সট এলাইড মোড "
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "ট্যাব থাম্বনেইল রেডিও "
+ },{
+  "en": "Tab Title",
+  "tr": "ট্যাব শিরোনাম"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "নির্বাচিত লাইনগুলি ট্যাব করুন "
+ },{
+  "en": "Tabs",
+  "tr": "ট্যাব"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "ট্যাব টু স্পেস "
+ },{
+  "en": "Target",
+  "tr": "টার্গেট"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "টার্গেট ফোল্ডার "
+ },{
+  "en": "Targets",
+  "tr": "লক্ষ্য"
+ },{
+  "en": "TCP connection options",
+  "tr": "টিসিপি সংযোগ বিকল্প"
+ },{
+  "en": "Teal",
+  "tr": "টিল "
+ },{
+  "en": "Term",
+  "tr": "মেয়াদ "
+ },{
+  "en": "Terminal",
+  "tr": "টার্মিনাল"
+ },{
+  "en": "terminal",
+  "tr": "টার্মিনাল"
+ },{
+  "en": "Terminal Settings",
+  "tr": "টার্মিনাল সেটিংস"
+ },{
+  "en": "Text",
+  "tr": "পাঠ্য"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "পাঠ্য: %1 লাইন, %2 অক্ষর "
+ },{
+  "en": "The % sign",
+  "tr": "চিহ্ন"
+ },{
+  "en": "The actual text to log",
+  "tr": "লগ করতে আসল টেক্সট"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "গন্তব্য ফোল্ডারটি উৎস ফোল্ডারের একটি সাবফোল্ডার:%n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "দস্তাবেজটি পরিবর্তন করা হয়েছে। n আপনি কি আপনার পরিবর্তনগুলি সংরক্ষণ করতে চান?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "কী সমন্বয় (%1) একটি কমান্ড নয়।"
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Lrzsz সনাক্ত করা হয় না। দয়া করে প্রথমে lrzsz ইনস্টল করুন।"
+ },{
+  "en": "The master password has been changed.",
+  "tr": "মাস্টার পাসওয়ার্ড পরিবর্তন করা হয়েছে।"
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "পাসওয়ার্ড নিশ্চিতকরণ মেলে না।"
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "সার্ভার ট্রান্সমিশন বাতিল করেছে।"
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "সেশনটি <b> সংযোগ বিচ্ছিন্ন </b>, পুনরায় সংযোগ করতে <b> এন্টার </b> টিপুন।"
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "স্থানান্তর বাতিল করা হয়েছিল কারণ একটি প্যাকেট পুনরায় চেষ্টা করার সীমার মধ্যে %1 ছিল না।"
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "প্যাকেট ক্রম নম্বর ভুল হওয়ায় স্থানান্তর বাতিল করা হয়েছিল।"
+ },{
+  "en": "Theme",
+  "tr": "থিম "
+ },{
+  "en": "Thin",
+  "tr": "পাতলা"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "বিশাল ফাইলের জন্য থ্রেশহোল্ড "
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "সময় বিন্যাস "
+ },{
+  "en": "Time left",
+  "tr": "সময় বাকি"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "লাইনের টাইমস্ট্যাম্প"
+ },{
+  "en": "To Inverse Case",
+  "tr": "বিপরীত ক্ষেত্রে "
+ },{
+  "en": "To Line End",
+  "tr": "লাইন এন্ড "
+ },{
+  "en": "To Line Start",
+  "tr": "লাইন শুরু "
+ },{
+  "en": "To Lower Case",
+  "tr": "লোয়ার কেস "
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "MacOS 9 CR "
+ },{
+  "en": "To Title Case",
+  "tr": "টাইটেল কেস "
+ },{
+  "en": "To Unix LF",
+  "tr": "ইউনিক্স এলএফ "
+ },{
+  "en": "To Upper Case",
+  "tr": "আপার কেস "
+ },{
+  "en": "To Windows CRLF",
+  "tr": "উইন্ডোজ সিআরএলএফ "
+ },{
+  "en": "To Word End",
+  "tr": "শব্দ শেষ "
+ },{
+  "en": "To Word Start",
+  "tr": "শব্দ শুরু করতে "
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "টগল ভাঁজ "
+ },{
+  "en": "Tool",
+  "tr": "টুল"
+ },{
+  "en": "Toolbar",
+  "tr": "টুলবার "
+ },{
+  "en": "Top Group",
+  "tr": "শীর্ষ গ্রুপ "
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "ট্র্যাক টেক্সট সিলেকশন "
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "ট্র্যাক গাছ নির্বাচন টেক্সট "
+ },{
+  "en": "Tracking Events",
+  "tr": "ট্র্যাকিং ইভেন্ট"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "পিছনে ফাঁকা "
+ },{
+  "en": "Trailing position",
+  "tr": "পিছনে অবস্থান"
+ },{
+  "en": "Transfer",
+  "tr": "স্থানান্তর"
+ },{
+  "en": "Transfer Bar",
+  "tr": "স্থানান্তর বার"
+ },{
+  "en": "Transfer Binary",
+  "tr": "স্থানান্তর বাইনারি "
+ },{
+  "en": "Transfer complete",
+  "tr": "স্থানান্তর সম্পূর্ণ"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "স্থানান্তর অসম্পূর্ণ"
+ },{
+  "en": "Translucent",
+  "tr": "স্বচ্ছ "
+ },{
+  "en": "Transparent",
+  "tr": "স্বচ্ছ"
+ },{
+  "en": "Transpose",
+  "tr": "স্থানান্তর "
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "পিছনে হোয়াইটস্পেস সংরক্ষণ করুন "
+ },{
+  "en": "Trust this host",
+  "tr": "এই হোস্টকে বিশ্বাস করুন"
+ },{
+  "en": "Tunnels",
+  "tr": "টানেল"
+ },{
+  "en": "Type",
+  "tr": "প্রকার"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "টাইপ করুন '?' আপনি এখানে লিখতে পারেন এমন ক্রিয়াকলাপগুলিতে সহায়তা পেতে"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "অসম্পূর্ণ নির্বাচন "
+ },{
+  "en": "Underline",
+  "tr": "আন্ডারলাইন"
+ },{
+  "en": "underLine",
+  "tr": "আন্ডারলাইন"
+ },{
+  "en": "Undo",
+  "tr": "পূর্বাবস্থায় ফেরান "
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "%1 ক্রিয়া পূর্বাবস্থায় ফেরান"
+ },{
+  "en": "Unfold",
+  "tr": "উন্মুক্ত "
+ },{
+  "en": "Unfold All",
+  "tr": "সব খুলে ফেলুন "
+ },{
+  "en": "Unfold Category",
+  "tr": "Unfold category "
+ },{
+  "en": "Unfold Inside",
+  "tr": "ভিতরে খুলুন "
+ },{
+  "en": "Unify line endings on save",
+  "tr": "সেভে লাইন এন্ডিং একীভূত করুন "
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "ইউনিক্সপিটি"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: শেল ফাইলের পথ অবশ্যই পরম হতে হবে"
+ },{
+  "en": "Unknown",
+  "tr": "অজানা"
+ },{
+  "en": "unknown",
+  "tr": "অজানা"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "নির্বাচিত লাইনগুলিকে অক্ষম করুন "
+ },{
+  "en": "Untitled",
+  "tr": "শিরোনামহীন"
+ },{
+  "en": "Untrust this host",
+  "tr": "এই হোস্টকে অবিশ্বাস করুন"
+ },{
+  "en": "upload",
+  "tr": "আপলোড"
+ },{
+  "en": "Upload command",
+  "tr": "আপলোড কমান্ড "
+ },{
+  "en": "Upload directory",
+  "tr": "আপলোড ডিরেক্টরি "
+ },{
+  "en": "Upload file",
+  "tr": "ফাইল আপলোড করুন"
+ },{
+  "en": "Upload to current folder",
+  "tr": "বর্তমান ফোল্ডারে আপলোড করুন "
+ },{
+  "en": "uploaded",
+  "tr": "আপলোড করা হয়েছে"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "কোয়েরির জায়গায় %q সহ URL "
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "স্ক্রিন মুছে ফেলার জন্য ব্যাকগ্রাউন্ড কালার ব্যবহার করুন "
+ },{
+  "en": "Use high speed transfer",
+  "tr": "হাই স্পিড ট্রান্সফার (এবং এইচ) ব্যবহার করুন"
+ },{
+  "en": "Use system line ending",
+  "tr": "সিস্টেম লাইন এন্ডিং ব্যবহার করুন"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "এটিকে ডিফল্ট হিসাবে ব্যবহার করুন এবং আবার জিজ্ঞাসা করবেন না "
+ },{
+  "en": "User",
+  "tr": "ব্যবহারকারী"
+ },{
+  "en": "Username echo mode",
+  "tr": "ব্যবহারকারীর নাম ইকো মোড "
+ },{
+  "en": "Value",
+  "tr": "মান"
+ },{
+  "en": "Variable",
+  "tr": "পরিবর্তনশীল"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "সার্ভারের ফিঙ্গারপ্রিন্ট (V) যাচাই করা হচ্ছে"
+ },{
+  "en": "View",
+  "tr": "দেখুন"
+ },{
+  "en": "Virtual Space",
+  "tr": "ভার্চুয়াল স্পেস "
+ },{
+  "en": "Waiting",
+  "tr": "অপেক্ষা"
+ },{
+  "en": "Warning",
+  "tr": "সতর্কবাণী"
+ },{
+  "en": "Wheel event",
+  "tr": "চাকা ইভেন্ট "
+ },{
+  "en": "When destination file exists",
+  "tr": "যখন গন্তব্য ফাইল বিদ্যমান "
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "একাধিক লাইন পেস্ট করার সময়"
+ },{
+  "en": "When remote title is changed",
+  "tr": "যখন দূরবর্তী শিরোনাম পরিবর্তন করা হয়"
+ },{
+  "en": "When session is authenticated",
+  "tr": "যখন সেশন প্রমাণিত হয়"
+ },{
+  "en": "When session is authenticating",
+  "tr": "যখন সেশন প্রমাণীকরণ করছে"
+ },{
+  "en": "When window is resized",
+  "tr": "যখন উইন্ডোর আকার পরিবর্তন করা হয়"
+ },{
+  "en": "Where",
+  "tr": "কোথায় "
+ },{
+  "en": "White Spaces",
+  "tr": "হোয়াইট স্পেস "
+ },{
+  "en": "Whole Line",
+  "tr": "পুরো লাইন "
+ },{
+  "en": "Whole Word",
+  "tr": "সমগ্র শব্দ"
+ },{
+  "en": "Widgets",
+  "tr": "উইজেট"
+ },{
+  "en": "Width",
+  "tr": "প্রস্থ "
+ },{
+  "en": "Window",
+  "tr": "জানলা"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "জানালার কিনারা"
+ },{
+  "en": "Window Opacity",
+  "tr": "জানালার অস্পষ্টতা "
+ },{
+  "en": "Window opacity",
+  "tr": "জানালার অস্বচ্ছতা"
+ },{
+  "en": "Windows Manager",
+  "tr": "উইন্ডোজ ম্যানেজার "
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe বা winpty.dll পাওয়া যায়নি!"
+ },{
+  "en": "Word",
+  "tr": "শব্দ "
+ },{
+  "en": "Word Separators",
+  "tr": "শব্দ বিভাজক "
+ },{
+  "en": "Word Wrap",
+  "tr": "শব্দ মোড়ানো "
+ },{
+  "en": "Working directory",
+  "tr": "ওয়ার্কিং ডিরেক্টরি "
+ },{
+  "en": "Wrap",
+  "tr": "মোড়ানো"
+ },{
+  "en": "Wrap by character",
+  "tr": "চরিত্র দ্বারা মোড়ানো"
+ },{
+  "en": "Wrap by word",
+  "tr": "শব্দ দ্বারা মোড়ানো"
+ },{
+  "en": "Wrap column",
+  "tr": "কলাম মোড়ানো "
+ },{
+  "en": "Wrap mode",
+  "tr": "মোড়ানো মোড "
+ },{
+  "en": "Wrap Symbols",
+  "tr": "মোড়ানো প্রতীক "
+ },{
+  "en": "Wrong master password.",
+  "tr": "ভুল মাস্টার পাসওয়ার্ড।"
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "এক্স/ওয়াই/জেড মডেম"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z মডেম 4GB এর চেয়ে বড় ফোল্ডার বা ফাইল প্রেরণ করতে পারে না: %1।"
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 প্রমাণীকরণ প্রোটোকল"
+ },{
+  "en": "X11 display",
+  "tr": "এক্স 11 ডিসপ্লে"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "বছর 2 অঙ্কে"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "বছর 4 অঙ্কে"
+ },{
+  "en": "Yes",
+  "tr": "হ্যাঁ"
+ },{
+  "en": "Zero",
+  "tr": "শূন্য"
+ },{
+  "en": "Zoom",
+  "tr": "জুম"
+ },{
+  "en": "Zoom In",
+  "tr": "জুম ইন "
+ },{
+  "en": "Zoom level",
+  "tr": "জুম স্তর "
+ },{
+  "en": "Zoom Out",
+  "tr": "জুম আউট "
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[ %1s এ ক্র্যাশ হয়েছে]"
+ },{
+  "en": "[Empty]",
+  "tr": "[খালি]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[ত্রুটি: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[ %1s এ শেষ, কোড %2 থেকে প্রস্থান করুন]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[ %1s এ শেষ হয়েছে]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[গ্রুপ তালিকা খালি]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[নেভিগেশন তালিকা খালি]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[কোন সার্চ ইঞ্জিন নেই]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[সাম্প্রতিক urls খালি]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[পুনরায় তালিকা তালিকা খালি]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[স্কিম লিস্ট খালি]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[থিম তালিকা ফাঁকা]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[টুলবার তালিকা খালি]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[পূর্বাবস্থায় ফিরুন তালিকা খালি]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[ব্যবহারকারী বাতিল]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[ব্যবহারকারী@] হোস্টনাম"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[উইন্ডোজ তালিকা খালি]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

@@ -1,0 +1,3513 @@
+{
+ "language": "Spanish - Español",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Esquema) Herramientas"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1%2 no es compatible con%3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 copiado"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 descargado"
+ },{
+  "en": "%1 File",
+  "tr": "%1 archivo"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 elemento falló"
+ },{
+  "en": "%1 items",
+  "tr": "%1 artículos"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 elementos fallaron"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 artículos / s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 de 2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 eliminado"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 este%2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 subido"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1 /%2 Velocidad:%3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1:%2 intentos fallidos de contraseña."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> Ha <b> cambiado </b> y <b> recargado </b>, deshacer <b> NO </b> está permitido para archivos grandes."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> Ha <b> cambiado </b> y <b> recargado </b>, se permite deshacer."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> <b> ha cambiado </b>. ¿Quieres volver a cargarlo?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> Se ha <b> movido o eliminado </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "Se presionó(%1). Esperando más llaves"
+ },{
+  "en": "1 Char",
+  "tr": "1 carácter"
+ },{
+  "en": "16 Columns",
+  "tr": "16 columnas"
+ },{
+  "en": "2 Chars",
+  "tr": "2 caracteres"
+ },{
+  "en": "24 Columns",
+  "tr": "24 columnas"
+ },{
+  "en": "32 Columns",
+  "tr": "32 columnas"
+ },{
+  "en": "4 Chars",
+  "tr": "4 caracteres"
+ },{
+  "en": "8 Chars",
+  "tr": "8 caracteres"
+ },{
+  "en": "8 Columns",
+  "tr": "8 columnas"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Se utiliza una contraseña maestra para proteger información confidencial como contraseñas SSH."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Un nombre debe tener menos de 255 caracteres y no puede contener ninguno de los siguientes caracteres: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Se ha modificado un archivo remoto. \n¿Desea volver a cargar este archivo en el servidor?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Una sesión específica o un conjunto de sesiones"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Nombre del mes abreviado"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Nombre abreviado del día de la semana"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Acepta solo conexiones locales"
+ },{
+  "en": "Accessed",
+  "tr": "Accedido"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Activar múltiples signos de intercalación"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Activar siguiente selección"
+ },{
+  "en": "Activate Next View",
+  "tr": "Activar vista siguiente"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Activar selección anterior"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Activar vista anterior"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Activar la pestaña de la izquierda"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Activar la pestaña previamente seleccionada"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Activar la pestaña derecha"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Activar la pestaña después de cerrar"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Activar la pestaña después de pasar el mouse"
+ },{
+  "en": "Add",
+  "tr": "Agrega un)"
+ },{
+  "en": "Add All",
+  "tr": "Agregar todo"
+ },{
+  "en": "Add Command",
+  "tr": "Agregar comando"
+ },{
+  "en": "Add Group",
+  "tr": "Añadir grupo"
+ },{
+  "en": "Add Sender",
+  "tr": "Agregar remitente"
+ },{
+  "en": "Add Tab",
+  "tr": "Agregar pestaña"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Ajustar las filas y columnas de la ventana"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Orden avanzado"
+ },{
+  "en": "Agent",
+  "tr": "Agente"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Error en la autenticación del agente, intente con otro método"
+ },{
+  "en": "All",
+  "tr": "Todo"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Se eliminarán todas las%1 sesiones. \n¿Desea continuar importando sesiones?"
+ },{
+  "en": "All session output",
+  "tr": "Toda la salida de la sesión"
+ },{
+  "en": "All Sessions",
+  "tr": "Todas las sesiones"
+ },{
+  "en": "All tabs",
+  "tr": "Todas las pestañas"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Color de fondo de columna alternativo"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Color de fondo de línea alternativo"
+ },{
+  "en": "Always On Top",
+  "tr": "Siempre en la cima"
+ },{
+  "en": "Always on top",
+  "tr": "Siempre en la cima"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Se produjo un error al intentar leer desde el proceso%1."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Se produjo un error al intentar escribir en el proceso%1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Se produjo un error desconocido en el proceso%1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI para OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Responder"
+ },{
+  "en": "Any",
+  "tr": "Alguna"
+ },{
+  "en": "Anything Palette",
+  "tr": "Paleta Cualquier cosa"
+ },{
+  "en": "Anywhere",
+  "tr": "En cualquier sitio"
+ },{
+  "en": "Appearance",
+  "tr": "Apariencia"
+ },{
+  "en": "Append",
+  "tr": "Adjuntar"
+ },{
+  "en": "Append log file",
+  "tr": "Agregar archivo de registro"
+ },{
+  "en": "Application",
+  "tr": "Solicitud"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "¿Está seguro de que desea eliminar%1 elementos seleccionados?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "¿Está seguro de que desea eliminar el elemento <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "¿Está seguro de que desea volver a cargar el archivo actual y perder los cambios realizados en WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "¿Está seguro de que desea detener al remitente actual?"
+ },{
+  "en": "Arguments",
+  "tr": "Argumentos"
+ },{
+  "en": "At Caret",
+  "tr": "En Caret"
+ },{
+  "en": "At End",
+  "tr": "Al final"
+ },{
+  "en": "At Start",
+  "tr": "Al inicio"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Intente la autenticación gssapi-with-mic"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Intente la autenticación interactiva con el teclado"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Intentar la autenticación del concurso"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Intente la autenticación de contraseña"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Intente la autenticación de clave pública"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Intente la autenticación del agente ssh"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Autenticado con éxito parcial, pruebe con otro método."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Autenticando por%1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Autenticando por%1 y%2"
+ },{
+  "en": "Authentication",
+  "tr": "Autenticación"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Autenticación denegada, inténtelo de nuevo."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Autenticación fallida. Por favor intente de nuevo."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Cerrar automáticamente etiquetas HTML / XML"
+ },{
+  "en": "Auto login",
+  "tr": "Ingreso automático"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Error de inicio de sesión automático, inténtelo de nuevo."
+ },{
+  "en": "Auto login next time",
+  "tr": "Inicio de sesión automático la próxima vez"
+ },{
+  "en": "Automatic",
+  "tr": "Automático"
+ },{
+  "en": "automatic",
+  "tr": "automático"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Métodos de autenticación automática"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Copiar automáticamente la selección"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Detectar sangría(A) automáticamente"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Recorta automáticamente el acolchado"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Marcador de fondo"
+ },{
+  "en": "Backspace",
+  "tr": "Retroceso"
+ },{
+  "en": "Backspace sends",
+  "tr": "Envíos de retroceso"
+ },{
+  "en": "Backward",
+  "tr": "Hacia atrás"
+ },{
+  "en": "Bars",
+  "tr": "Barras"
+ },{
+  "en": "Baud Rate",
+  "tr": "Tasa de baudios"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Beep cuando termine"
+ },{
+  "en": "Binary",
+  "tr": "Binario"
+ },{
+  "en": "Binary base",
+  "tr": "Base binaria"
+ },{
+  "en": "Binary columns",
+  "tr": "Columnas binarias"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Columnas de dispositivos binarios"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Caracteres agrupados binarios"
+ },{
+  "en": "Black",
+  "tr": "Negro"
+ },{
+  "en": "Blink",
+  "tr": "Parpadeo"
+ },{
+  "en": "blinking block",
+  "tr": "bloque parpadeante"
+ },{
+  "en": "blinking line",
+  "tr": "línea parpadeante"
+ },{
+  "en": "blinking rectangle",
+  "tr": "rectángulo parpadeante"
+ },{
+  "en": "blinking underLine",
+  "tr": "parpadeando debajo de la línea"
+ },{
+  "en": "Block",
+  "tr": "Cuadra"
+ },{
+  "en": "block",
+  "tr": "cuadra"
+ },{
+  "en": "Bold",
+  "tr": "Negrita"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Las letras en negrita indican fuentes de ancho fijo"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Muelles inferiores"
+ },{
+  "en": "Bottom Group",
+  "tr": "Grupo inferior"
+ },{
+  "en": "Browse",
+  "tr": "Navegar"
+ },{
+  "en": "Browse Directory",
+  "tr": "Examinar directorio"
+ },{
+  "en": "Browse File",
+  "tr": "Buscar Archivo"
+ },{
+  "en": "Browser",
+  "tr": "Navegador"
+ },{
+  "en": "Build",
+  "tr": "Construir"
+ },{
+  "en": "By",
+  "tr": "Por"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Calculador"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "No puedo encontrar el programa adecuado para abrir el archivo: \n%1 \nIntente usar el editor predeterminado para abrirlo."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "No se puede crear el directorio%1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "No se puede crear el archivo%1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "No se puede establecer el vínculo%1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "No se puede eliminar el directorio%1."
+ },{
+  "en": "Cancel",
+  "tr": "Cancelar"
+ },{
+  "en": "Cancel Build",
+  "tr": "Cancelar compilación"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Cancelar selección"
+ },{
+  "en": "Caret",
+  "tr": "Signo de intercalación"
+ },{
+  "en": "Caret Style",
+  "tr": "Estilo Caret"
+ },{
+  "en": "Carriage Return",
+  "tr": "Retorno de carro"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Distingue mayúsculas y minúsculas"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Cambiar contraseña maestra"
+ },{
+  "en": "Change master password",
+  "tr": "Cambiar contraseña maestra"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "No se pudo cambiar la contraseña maestra."
+ },{
+  "en": "Change the tab title",
+  "tr": "Cambiar el título de la pestaña"
+ },{
+  "en": "Changed",
+  "tr": "Cambió"
+ },{
+  "en": "Channel",
+  "tr": "Canal"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char izquierda"
+ },{
+  "en": "Char Right",
+  "tr": "Char a la derecha"
+ },{
+  "en": "Character spacing",
+  "tr": "Espaciado de caracteres"
+ },{
+  "en": "character width",
+  "tr": "ancho de carácter"
+ },{
+  "en": "Charset",
+  "tr": "Juego de caracteres"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Elija un editor predeterminado"
+ },{
+  "en": "Ciphers",
+  "tr": "Cifrados"
+ },{
+  "en": "Ciphers order",
+  "tr": "Orden de cifrado"
+ },{
+  "en": "Clear",
+  "tr": "Claro"
+ },{
+  "en": "Clear All",
+  "tr": "Borrar todo"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Borrar URL recientes"
+ },{
+  "en": "Clear Screen",
+  "tr": "Borrar pantalla"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Borrar Scrollback"
+ },{
+  "en": "Clear Sender",
+  "tr": "Borrar remitente"
+ },{
+  "en": "Click event",
+  "tr": "Haga clic en evento"
+ },{
+  "en": "Close",
+  "tr": "Cerrar"
+ },{
+  "en": "Close All Views",
+  "tr": "Cerrar todas las vistas"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Cerrar todas las vistas pero activas"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Cerrar todas las vistas a la derecha"
+ },{
+  "en": "Close And Exit",
+  "tr": "Cerrar y salir"
+ },{
+  "en": "Close Channel",
+  "tr": "Cerrar canal"
+ },{
+  "en": "Close Dock",
+  "tr": "Cerrar muelle"
+ },{
+  "en": "Close Group",
+  "tr": "Cerrar grupo"
+ },{
+  "en": "Close Session",
+  "tr": "Cerrar la sesión"
+ },{
+  "en": "Close Tab",
+  "tr": "Cerrar pestaña"
+ },{
+  "en": "Close tab",
+  "tr": "Cerrar pestaña"
+ },{
+  "en": "Close View",
+  "tr": "Cerrar vista"
+ },{
+  "en": "Close Window",
+  "tr": "Cerrar ventana"
+ },{
+  "en": "Color",
+  "tr": "Color"
+ },{
+  "en": "Column Edit",
+  "tr": "Editar columna"
+ },{
+  "en": "Column Marker",
+  "tr": "Marcador de columna"
+ },{
+  "en": "Columns",
+  "tr": "Columnas"
+ },{
+  "en": "columns",
+  "tr": "columnas"
+ },{
+  "en": "Command",
+  "tr": "Comando"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Paleta de comandos"
+ },{
+  "en": "Comment",
+  "tr": "Comentario"
+ },{
+  "en": "Comment Selection",
+  "tr": "Selección de comentarios"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Selección de comentarios(modo de bloque)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Selección de comentarios(modo de línea)"
+ },{
+  "en": "Complete Word",
+  "tr": "Palabra completa"
+ },{
+  "en": "Config",
+  "tr": "Config"
+ },{
+  "en": "Confirm Password",
+  "tr": "confirmar Contraseña"
+ },{
+  "en": "Confirm password",
+  "tr": "Confirmar Contraseña"
+ },{
+  "en": "Connect",
+  "tr": "Conectar"
+ },{
+  "en": "Connection",
+  "tr": "Conexión"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Contexto"
+ },{
+  "en": "Continue",
+  "tr": "Continuar"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Convierta CRLF y LF a CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Convertir tabulación a espacios"
+ },{
+  "en": "copied",
+  "tr": "copiado"
+ },{
+  "en": "Copy",
+  "tr": "Dupdo"
+ },{
+  "en": "copy",
+  "tr": "Copiar"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Copiar y pegar"
+ },{
+  "en": "Copy File Name",
+  "tr": "Copiar nombre de archivo"
+ },{
+  "en": "Copy File Path",
+  "tr": "Copiar ruta de archivo"
+ },{
+  "en": "Copy from",
+  "tr": "Copiar de"
+ },{
+  "en": "Copy names",
+  "tr": "Copiar nombres"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Copiar nombres a la terminal"
+ },{
+  "en": "Copy Output",
+  "tr": "Copiar salida"
+ },{
+  "en": "Copy paths",
+  "tr": "Copiar rutas"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Copiar rutas a la terminal"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Copiar nombre de sesión"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Copiar URL de sesión"
+ },{
+  "en": "Copy to",
+  "tr": "Copiar a"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Copiar a terminal"
+ },{
+  "en": "Count",
+  "tr": "Contar"
+ },{
+  "en": "Create Directory",
+  "tr": "Crear directorio"
+ },{
+  "en": "Create File",
+  "tr": "Crea un archivo"
+ },{
+  "en": "Create Link",
+  "tr": "Crear enlace"
+ },{
+  "en": "Created",
+  "tr": "Creado"
+ },{
+  "en": "Critical",
+  "tr": "Crítico"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Sesión actual"
+ },{
+  "en": "Custom",
+  "tr": "Personalizado"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Opacidad personalizada"
+ },{
+  "en": "Customize",
+  "tr": "Personalizar"
+ },{
+  "en": "Cut",
+  "tr": "Cortar"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Cian oscuro"
+ },{
+  "en": "Data",
+  "tr": "Datos"
+ },{
+  "en": "Data Bits",
+  "tr": "Bits de datos"
+ },{
+  "en": "Datetime format",
+  "tr": "Formato de fecha y hora"
+ },{
+  "en": "Day of month",
+  "tr": "Día del mes"
+ },{
+  "en": "Debug Mode",
+  "tr": "Modo de depuración"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Disminuir sangría de línea"
+ },{
+  "en": "Deep Pink",
+  "tr": "Rosa profundo"
+ },{
+  "en": "default",
+  "tr": "defecto"
+ },{
+  "en": "Default editor",
+  "tr": "Editor predeterminado"
+ },{
+  "en": "Default Font",
+  "tr": "Fuente predeterminada"
+ },{
+  "en": "Default line ending",
+  "tr": "Final de línea predeterminado"
+ },{
+  "en": "Delete",
+  "tr": "Eliminar"
+ },{
+  "en": "Delete sends",
+  "tr": "Eliminar envíos"
+ },{
+  "en": "deleted",
+  "tr": "eliminado"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Host de destino"
+ },{
+  "en": "Destination Port",
+  "tr": "Puerto de destino"
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Directorio"
+ },{
+  "en": "Directory Link",
+  "tr": "Enlace de directorio"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Deshabilitar el algoritmo de Nagle(opción TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Desconectar sesión"
+ },{
+  "en": "Disk",
+  "tr": "Disco"
+ },{
+  "en": "Do not echo characters",
+  "tr": "No hagas eco de personajes"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "¿Quieres cerrar la sesión actual?"
+ },{
+  "en": "Document",
+  "tr": "Documento"
+ },{
+  "en": "Don't show this message again",
+  "tr": "No volver a mostrar este mensaje"
+ },{
+  "en": "Double click",
+  "tr": "Haga doble clic"
+ },{
+  "en": "Double click event",
+  "tr": "Evento de doble clic"
+ },{
+  "en": "Download",
+  "tr": "Descargar"
+ },{
+  "en": "download",
+  "tr": "descargar"
+ },{
+  "en": "Download directory",
+  "tr": "Descargar directorio"
+ },{
+  "en": "downloaded",
+  "tr": "descargado"
+ },{
+  "en": "Drop Selection",
+  "tr": "Drop Selection"
+ },{
+  "en": "Duplicate",
+  "tr": "Duplicar"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Comando duplicado"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Vista duplicada"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Reenvío dinámico"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Hacer eco de cada carácter ingresado"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Haz eco de todos los personajes al editar"
+ },{
+  "en": "Echo random characters",
+  "tr": "Echo de personajes aleatorios"
+ },{
+  "en": "Edit",
+  "tr": "Editar"
+ },{
+  "en": "Editor",
+  "tr": "Editor"
+ },{
+  "en": "editor",
+  "tr": "editor"
+ },{
+  "en": "Editor Settings",
+  "tr": "Configuración del editor"
+ },{
+  "en": "Elapsed",
+  "tr": "Transcurrido"
+ },{
+  "en": "Elide left",
+  "tr": "Elide se fue"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide en el medio"
+ },{
+  "en": "Elide right",
+  "tr": "Elide a la derecha"
+ },{
+  "en": "Empty",
+  "tr": "Vacío"
+ },{
+  "en": "Enable command mode",
+  "tr": "Habilitar el modo de comando"
+ },{
+  "en": "Enable local mode",
+  "tr": "Habilitar el modo local"
+ },{
+  "en": "Enable SFTP",
+  "tr": "Habilitar SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Habilitar keepalives de TCP(opción SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Habilitar espacios virtuales"
+ },{
+  "en": "End Of Document",
+  "tr": "Fin del documento"
+ },{
+  "en": "End Of Line",
+  "tr": "Fin de línea"
+ },{
+  "en": "End Of Pair",
+  "tr": "Fin del par"
+ },{
+  "en": "Engine",
+  "tr": "Motor"
+ },{
+  "en": "Environment Variable",
+  "tr": "Variable ambiental"
+ },{
+  "en": "Environment variables",
+  "tr": "Variables de entorno"
+ },{
+  "en": "Error",
+  "tr": "Error"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Intercambiar Caret And Anchor"
+ },{
+  "en": "Execute",
+  "tr": "Ejecutar"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Ejecutar comando después de la autenticación"
+ },{
+  "en": "Execute command after start",
+  "tr": "Ejecutar comando después del inicio"
+ },{
+  "en": "Execute File",
+  "tr": "Ejecutar archivo"
+ },{
+  "en": "Exit",
+  "tr": "Salir"
+ },{
+  "en": "Expand",
+  "tr": "Expandir"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Expandir fragmento"
+ },{
+  "en": "Explorer",
+  "tr": "Explorador"
+ },{
+  "en": "External Tools",
+  "tr": "Herramientas externas"
+ },{
+  "en": "External X display",
+  "tr": "Pantalla X externa"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "Extra ligero"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "No se pudo crear el archivo temporal: \n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "No se pudo abrir el directorio:%1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "¡No se pudo recuperar la huella dactilar del host!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Error al cargar el archivo:%1, \nEs posible que el archivo no exista o no tenga permiso para abrirlo."
+ },{
+  "en": "Fast",
+  "tr": "Rápido"
+ },{
+  "en": "Favorites",
+  "tr": "Favoritos"
+ },{
+  "en": "Features",
+  "tr": "Características"
+ },{
+  "en": "File",
+  "tr": "Expediente"
+ },{
+  "en": "file",
+  "tr": "expediente"
+ },{
+  "en": "File Link",
+  "tr": "Enlace de archivo"
+ },{
+  "en": "File Name",
+  "tr": "Nombre de archivo"
+ },{
+  "en": "File name",
+  "tr": "Nombre del archivo"
+ },{
+  "en": "File Path",
+  "tr": "Ruta de archivo"
+ },{
+  "en": "Filer",
+  "tr": "Archivador"
+ },{
+  "en": "filer",
+  "tr": "archivador"
+ },{
+  "en": "Filter",
+  "tr": "Filtrar"
+ },{
+  "en": "Find",
+  "tr": "Encontrar"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Buscar todo"
+ },{
+  "en": "Find in Files",
+  "tr": "Buscar en archivos"
+ },{
+  "en": "Find Next",
+  "tr": "Buscar siguiente"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Buscar siguiente selección"
+ },{
+  "en": "Find Previous",
+  "tr": "Buscar anterior"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Buscar selección anterior"
+ },{
+  "en": "Fingerprint",
+  "tr": "Huella dactilar"
+ },{
+  "en": "First nine tabs",
+  "tr": "Primeras nueve pestañas"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Flotar"
+ },{
+  "en": "Flow Control",
+  "tr": "Control de flujo"
+ },{
+  "en": "Focus Mode",
+  "tr": "Modo de enfoque"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Configuración del modo de enfoque"
+ },{
+  "en": "Fold",
+  "tr": "Doblar"
+ },{
+  "en": "Fold All",
+  "tr": "Doblar todo"
+ },{
+  "en": "Fold Category",
+  "tr": "Categoría de plegado"
+ },{
+  "en": "Fold Inside",
+  "tr": "Doblar por dentro"
+ },{
+  "en": "Folds",
+  "tr": "Pliegues"
+ },{
+  "en": "Font",
+  "tr": "Fuente"
+ },{
+  "en": "Font family",
+  "tr": "Familia tipográfica"
+ },{
+  "en": "Font size",
+  "tr": "Tamaño de fuente"
+ },{
+  "en": "Font weight",
+  "tr": "Peso de fuente"
+ },{
+  "en": "Forest Green",
+  "tr": "Verde bosque"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Selección de formato"
+ },{
+  "en": "Found",
+  "tr": "Fundar"
+ },{
+  "en": "Full month name",
+  "tr": "Nombre del mes completo"
+ },{
+  "en": "Full Screen",
+  "tr": "Pantalla completa"
+ },{
+  "en": "Full screen",
+  "tr": "Pantalla completa"
+ },{
+  "en": "Full weekday name",
+  "tr": "Nombre completo del día de la semana"
+ },{
+  "en": "Go Backward",
+  "tr": "Ir hacia atrás"
+ },{
+  "en": "Go Forward",
+  "tr": "Adelante"
+ },{
+  "en": "Go to",
+  "tr": "Ir a"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Ir al símbolo en la vista actual"
+ },{
+  "en": "Goldenrod",
+  "tr": "Vara de oro"
+ },{
+  "en": "Goto",
+  "tr": "Ir a"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Ir a la barra de direcciones"
+ },{
+  "en": "Goto File",
+  "tr": "Ir a archivo"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Ir a encabezado plegable"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Ir a encabezado de plegado siguiente"
+ },{
+  "en": "Goto Position",
+  "tr": "Ir a posición"
+ },{
+  "en": "Goto Session",
+  "tr": "Ir a sesión"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Ir a símbolo"
+ },{
+  "en": "Group",
+  "tr": "Grupo"
+ },{
+  "en": "Group %1",
+  "tr": "Grupo 1"
+ },{
+  "en": "Groups",
+  "tr": "Grupos"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi con micrófono"
+ },{
+  "en": "Hard Reset",
+  "tr": "Restablecimiento completo"
+ },{
+  "en": "Help",
+  "tr": "Ayuda"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Base hexagonal"
+ },{
+  "en": "Hex Columns",
+  "tr": "Columnas hexagonales"
+ },{
+  "en": "Hex Edit",
+  "tr": "Edición hexadecimal"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Caracteres de grupo hexadecimales"
+ },{
+  "en": "Hidden",
+  "tr": "Oculto"
+ },{
+  "en": "Hide",
+  "tr": "Esconder"
+ },{
+  "en": "Hide All",
+  "tr": "Ocultar todo"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Ocultar cursor al escribir"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Ocultar texto"
+ },{
+  "en": "Highlight",
+  "tr": "Destacar"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Resalte Caret Line"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Resaltar par coincidente"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Resalte la línea de intercalación"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Resalta la palabra de intercalación"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Resalta el pliegue actual"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Resalta el par actual"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Resalte la búsqueda incremental"
+ },{
+  "en": "History",
+  "tr": "Historia"
+ },{
+  "en": "Home Of Line",
+  "tr": "Inicio de la línea"
+ },{
+  "en": "Host",
+  "tr": "Anfitrión"
+ },{
+  "en": "Host address",
+  "tr": "Dirección del servidor"
+ },{
+  "en": "Host Based",
+  "tr": "Basado en host"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Horas en formato 12"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Horas en formato 24"
+ },{
+  "en": "Http proxy",
+  "tr": "Proxy HTTP"
+ },{
+  "en": "Huge File",
+  "tr": "Archivo enorme"
+ },{
+  "en": "Icon",
+  "tr": "Icono"
+ },{
+  "en": "Identity file",
+  "tr": "Archivo de identidad"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Archivo de identidad para autenticación"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Si crea una contraseña maestra, se le pedirá que la ingrese cuando WindTerm recupere la información guardada protegida por la contraseña maestra."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Si olvida su contraseña maestra, no podrá acceder a la información protegida por ella."
+ },{
+  "en": "Import",
+  "tr": "Importar"
+ },{
+  "en": "Import sessions",
+  "tr": "Importar sesiones"
+ },{
+  "en": "In Selection",
+  "tr": "En Selección"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Aumentar la sangría de línea"
+ },{
+  "en": "Incremental",
+  "tr": "Incremental"
+ },{
+  "en": "Indent",
+  "tr": "Sangrar"
+ },{
+  "en": "Indent guide style",
+  "tr": "Estilo de guía de sangría"
+ },{
+  "en": "Indent Guides",
+  "tr": "Guías de sangría"
+ },{
+  "en": "Indent size",
+  "tr": "Tamaño de sangría"
+ },{
+  "en": "Indentation",
+  "tr": "Sangría"
+ },{
+  "en": "Indian Red",
+  "tr": "Rojo indio"
+ },{
+  "en": "Information",
+  "tr": "Información"
+ },{
+  "en": "Insert",
+  "tr": "Insertar"
+ },{
+  "en": "Insert File",
+  "tr": "Insertar archivo"
+ },{
+  "en": "Insert Lines",
+  "tr": "Insertar líneas"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Insertar pestaña al presionar la tecla TAB"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Insertar y eliminar espacios en blanco sigue tabulaciones"
+ },{
+  "en": "Inserting file",
+  "tr": "Insertar archivo"
+ },{
+  "en": "Internal X display",
+  "tr": "Pantalla X interna"
+ },{
+  "en": "Interval",
+  "tr": "Intervalo"
+ },{
+  "en": "Invert Selection",
+  "tr": "Invertir selección"
+ },{
+  "en": "item failed",
+  "tr": "artículo falló"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "artículos fallaron"
+ },{
+  "en": "Join Channel A",
+  "tr": "Únase al canal A"
+ },{
+  "en": "Join Channel B",
+  "tr": "Únase al canal B"
+ },{
+  "en": "Join Channel C",
+  "tr": "Únase al canal C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Únase al canal D"
+ },{
+  "en": "Join Lines",
+  "tr": "Unir líneas"
+ },{
+  "en": "Joined",
+  "tr": "Unido"
+ },{
+  "en": "Jump Server",
+  "tr": "Servidor de salto"
+ },{
+  "en": "Jump server",
+  "tr": "Servidor de salto"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Saltar servidores"
+ },{
+  "en": "Key Exchange",
+  "tr": "Intercambio de llaves"
+ },{
+  "en": "Key exchange order",
+  "tr": "Orden de intercambio de claves"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Cambio de clave"
+ },{
+  "en": "Keyboard",
+  "tr": "Teclado"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Teclado interactivo"
+ },{
+  "en": "Kit Bar",
+  "tr": "Barra de kit"
+ },{
+  "en": "Known",
+  "tr": "Conocido"
+ },{
+  "en": "Label",
+  "tr": "Etiqueta"
+ },{
+  "en": "Language",
+  "tr": "Idioma"
+ },{
+  "en": "Last sessions",
+  "tr": "Últimas sesiones"
+ },{
+  "en": "Layout",
+  "tr": "Diseño"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Blancos iniciales y finales"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Blancos principales"
+ },{
+  "en": "Leading position",
+  "tr": "Posición de liderazgo"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Dejar todos los canales"
+ },{
+  "en": "Leave all channels",
+  "tr": "Dejar todos los canales"
+ },{
+  "en": "Leave Channel",
+  "tr": "Salir del canal"
+ },{
+  "en": "Left Docks",
+  "tr": "Muelles izquierdos"
+ },{
+  "en": "Left Group",
+  "tr": "Grupo izquierdo"
+ },{
+  "en": "Light",
+  "tr": "Luz"
+ },{
+  "en": "Line",
+  "tr": "Línea"
+ },{
+  "en": "line",
+  "tr": "línea"
+ },{
+  "en": "line at a time",
+  "tr": "línea a la vez"
+ },{
+  "en": "Line Down",
+  "tr": "Línea abajo"
+ },{
+  "en": "Line Ending",
+  "tr": "Final de línea"
+ },{
+  "en": "Line Endings",
+  "tr": "Finales de línea"
+ },{
+  "en": "Line Feed",
+  "tr": "Linea de alimentación"
+ },{
+  "en": "line height",
+  "tr": "altura de la línea"
+ },{
+  "en": "Line marker",
+  "tr": "Marcador de línea"
+ },{
+  "en": "Line spacing",
+  "tr": "Espaciado de línea"
+ },{
+  "en": "Line Up",
+  "tr": "Alinear"
+ },{
+  "en": "lines at a time",
+  "tr": "líneas a la vez"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Líneas de retroceso"
+ },{
+  "en": "Link",
+  "tr": "Enlace"
+ },{
+  "en": "Link to",
+  "tr": "Enlace a"
+ },{
+  "en": "List Tab",
+  "tr": "Ficha Lista"
+ },{
+  "en": "Listen Port",
+  "tr": "Puerto de escucha"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Reenvío local"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Localizar mensaje"
+ },{
+  "en": "Location",
+  "tr": "Localización"
+ },{
+  "en": "Lock Screen",
+  "tr": "Bloquear pantalla"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Tiempo de espera de la pantalla de bloqueo"
+ },{
+  "en": "Lock Selection",
+  "tr": "Bloquear selección"
+ },{
+  "en": "Log",
+  "tr": "Registro"
+ },{
+  "en": "Log all session output",
+  "tr": "Registrar todos los resultados de la sesión"
+ },{
+  "en": "Log content pattern",
+  "tr": "Patrón de contenido de registro"
+ },{
+  "en": "Log Dialog",
+  "tr": "Diálogo de registro"
+ },{
+  "en": "Log file",
+  "tr": "Archivo de registro"
+ },{
+  "en": "Log file name",
+  "tr": "Nombre del archivo de registro"
+ },{
+  "en": "Log maximum size",
+  "tr": "Tamaño máximo del registro"
+ },{
+  "en": "Log nothing",
+  "tr": "No registrar nada"
+ },{
+  "en": "Log option",
+  "tr": "Opción de registro"
+ },{
+  "en": "Log options",
+  "tr": "Opciones de registro"
+ },{
+  "en": "Log pattern",
+  "tr": "Patrón de registro"
+ },{
+  "en": "Log printable output",
+  "tr": "Registro de salida imprimible"
+ },{
+  "en": "Log type",
+  "tr": "Tipo de registro"
+ },{
+  "en": "Log types",
+  "tr": "Tipos de registro"
+ },{
+  "en": "Logging",
+  "tr": "Inicio sesión"
+ },{
+  "en": "Login",
+  "tr": "Acceso"
+ },{
+  "en": "Login Wizard",
+  "tr": "Asistente de inicio de sesión"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Hora / fecha larga"
+ },{
+  "en": "Look both guide",
+  "tr": "Mira ambas guías"
+ },{
+  "en": "Look forward guide",
+  "tr": "Mira hacia adelante guía"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "Orden de hash MAC"
+ },{
+  "en": "Margin Blank",
+  "tr": "Margen en blanco"
+ },{
+  "en": "Margin Fold",
+  "tr": "Pliegue de margen"
+ },{
+  "en": "Margin Number",
+  "tr": "Número de margen"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Símbolo de margen"
+ },{
+  "en": "Margin Text",
+  "tr": "Texto de margen"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Marca de tiempo del margen"
+ },{
+  "en": "Margins",
+  "tr": "Márgenes"
+ },{
+  "en": "Marker style",
+  "tr": "Estilo de marcador"
+ },{
+  "en": "Master Password",
+  "tr": "Contraseña maestra"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Datos máximos antes de volver a introducir la clave(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Tiempo máximo antes de volver a introducir la clave(minutos)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Tiempo de espera máximo de conexión"
+ },{
+  "en": "MB",
+  "tr": "MEGABYTE"
+ },{
+  "en": "Medium",
+  "tr": "Medio"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Orquídea mediana"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Azul pizarra medio"
+ },{
+  "en": "Menu Bar",
+  "tr": "Barra de menús"
+ },{
+  "en": "Merge To Group",
+  "tr": "Combinar en grupo"
+ },{
+  "en": "Middle click",
+  "tr": "Clic central"
+ },{
+  "en": "Middle click event",
+  "tr": "Evento de clic central"
+ },{
+  "en": "Milliseconds",
+  "tr": "Milisegundos"
+ },{
+  "en": "Minutes",
+  "tr": "Minutos"
+ },{
+  "en": "minutes",
+  "tr": "minutos"
+ },{
+  "en": "Mismatched",
+  "tr": "No coincidente"
+ },{
+  "en": "Mode",
+  "tr": "Modo"
+ },{
+  "en": "Modem waiting",
+  "tr": "Módem esperando"
+ },{
+  "en": "Modes",
+  "tr": "Modos"
+ },{
+  "en": "Modified",
+  "tr": "Modificado"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Modificar"
+ },{
+  "en": "Modify Lines",
+  "tr": "Modificar líneas"
+ },{
+  "en": "Month",
+  "tr": "Mes"
+ },{
+  "en": "More",
+  "tr": "Más"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Acciones del mouse"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Seguimiento del mouse"
+ },{
+  "en": "Move Down",
+  "tr": "Mover hacia abajo"
+ },{
+  "en": "Move event",
+  "tr": "Mover evento"
+ },{
+  "en": "Move to",
+  "tr": "Mover a"
+ },{
+  "en": "Move To Group",
+  "tr": "Mover a grupo"
+ },{
+  "en": "Move Up",
+  "tr": "Ascender"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Caret múltiple"
+ },{
+  "en": "Name",
+  "tr": "Nombre"
+ },{
+  "en": "nesting groups",
+  "tr": "grupos de anidación"
+ },{
+  "en": "Never",
+  "tr": "Nunca"
+ },{
+  "en": "New directory",
+  "tr": "Nuevo directorio"
+ },{
+  "en": "New File",
+  "tr": "Nuevo archivo"
+ },{
+  "en": "New file",
+  "tr": "Nuevo archivo"
+ },{
+  "en": "New Line",
+  "tr": "Nueva línea"
+ },{
+  "en": "New link",
+  "tr": "Nuevo enlace"
+ },{
+  "en": "New password",
+  "tr": "Nueva contraseña"
+ },{
+  "en": "New Session",
+  "tr": "Nueva sesión"
+ },{
+  "en": "New Window",
+  "tr": "Nueva ventana"
+ },{
+  "en": "Next Char",
+  "tr": "Carácter siguiente"
+ },{
+  "en": "Next Fold",
+  "tr": "Siguiente pliegue"
+ },{
+  "en": "Next Indentation",
+  "tr": "Siguiente sangría"
+ },{
+  "en": "Next Line",
+  "tr": "Siguiente línea"
+ },{
+  "en": "Next Message",
+  "tr": "Siguiente mensaje"
+ },{
+  "en": "Next Page",
+  "tr": "Página siguiente"
+ },{
+  "en": "Next Pair",
+  "tr": "Siguiente par"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Próximo párrafo"
+ },{
+  "en": "Next Scope",
+  "tr": "Siguiente alcance"
+ },{
+  "en": "Next Segment End",
+  "tr": "Final del siguiente segmento"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Inicio del siguiente segmento"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Siguiente página tartamudeada"
+ },{
+  "en": "Next Word",
+  "tr": "Siguiente palabra"
+ },{
+  "en": "Next Word End",
+  "tr": "Siguiente fin de palabra"
+ },{
+  "en": "Next Word Part",
+  "tr": "Parte de palabra siguiente"
+ },{
+  "en": "No",
+  "tr": "No"
+ },{
+  "en": "No action",
+  "tr": "Ninguna acción"
+ },{
+  "en": "No Dirs",
+  "tr": "No Dirs"
+ },{
+  "en": "No elide",
+  "tr": "No elide"
+ },{
+  "en": "No file opened",
+  "tr": "Ningún archivo abierto"
+ },{
+  "en": "No filer available",
+  "tr": "No hay archivador disponible"
+ },{
+  "en": "No Files",
+  "tr": "Sin archivos"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "No se seleccionaron archivos para transferir."
+ },{
+  "en": "No item opened",
+  "tr": "Ningún artículo abierto"
+ },{
+  "en": "No outline available",
+  "tr": "No hay esquema disponible"
+ },{
+  "en": "No proxy",
+  "tr": "Sin proxy"
+ },{
+  "en": "No session",
+  "tr": "Sin sesión"
+ },{
+  "en": "No session available",
+  "tr": "No hay sesión disponible"
+ },{
+  "en": "No session opened",
+  "tr": "No se abrió ninguna sesión"
+ },{
+  "en": "No Sessions",
+  "tr": "No Sesiones"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "No hay métodos de autenticación compatibles disponibles."
+ },{
+  "en": "No transfer available",
+  "tr": "No hay transferencia disponible"
+ },{
+  "en": "No wrap",
+  "tr": "Sin envoltura"
+ },{
+  "en": "No X display",
+  "tr": "Sin pantalla X"
+ },{
+  "en": "None",
+  "tr": "Ninguno"
+ },{
+  "en": "None tabs",
+  "tr": "Ninguna pestaña"
+ },{
+  "en": "Normal",
+  "tr": "Normal"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Ahora"
+ },{
+  "en": "Nowhere",
+  "tr": "En ningún lugar"
+ },{
+  "en": "Octal",
+  "tr": "Octal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM según ANSI"
+ },{
+  "en": "Off",
+  "tr": "Apagado"
+ },{
+  "en": "off",
+  "tr": "apagado"
+ },{
+  "en": "Ok",
+  "tr": "OK"
+ },{
+  "en": "Old",
+  "tr": "Viejo"
+ },{
+  "en": "Old password",
+  "tr": "Contraseña anterior"
+ },{
+  "en": "Olive",
+  "tr": "Oliva"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Se están abriendo una o más sesiones, \n¿Desea cerrar la ventana actual?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "¡Solo se puede recargar el archivo de disco!"
+ },{
+  "en": "Only indentation",
+  "tr": "Solo sangría"
+ },{
+  "en": "Opaque",
+  "tr": "Opaco"
+ },{
+  "en": "Open",
+  "tr": "Abierto"
+ },{
+  "en": "open",
+  "tr": "abierto"
+ },{
+  "en": "Open directory after created",
+  "tr": "Abrir directorio después de creado"
+ },{
+  "en": "Open directory after download",
+  "tr": "Abrir directorio después de la descarga"
+ },{
+  "en": "Open File",
+  "tr": "Abrir archivo"
+ },{
+  "en": "Open file",
+  "tr": "Abrir documento"
+ },{
+  "en": "Open file after created",
+  "tr": "Abrir archivo después de creado"
+ },{
+  "en": "Open file failed!",
+  "tr": "¡Error al abrir el archivo!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "¡Error al abrir el servidor de salto!"
+ },{
+  "en": "Open Log File",
+  "tr": "Abrir archivo de registro"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Abrir carpeta de registro"
+ },{
+  "en": "Open Recent",
+  "tr": "Abrir reciente"
+ },{
+  "en": "Open Selection",
+  "tr": "Selección abierta"
+ },{
+  "en": "Open Session",
+  "tr": "Sesión abierta"
+ },{
+  "en": "Open session failed!",
+  "tr": "¡La sesión abierta falló!"
+ },{
+  "en": "Open target directory",
+  "tr": "Abrir directorio de destino"
+ },{
+  "en": "Open with default editor",
+  "tr": "Abrir con el editor predeterminado"
+ },{
+  "en": "Opened",
+  "tr": "Abrió"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Sesiones de Openssh"
+ },{
+  "en": "Others",
+  "tr": "Otros"
+ },{
+  "en": "Outline",
+  "tr": "Esquema"
+ },{
+  "en": "Output",
+  "tr": "Producción"
+ },{
+  "en": "Overtype",
+  "tr": "Sobrescribir"
+ },{
+  "en": "Overwrite",
+  "tr": "Sobrescribir"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Sobrescribir archivo de registro"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Sobrescribir cuando el archivo de origen sea más nuevo"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Sobrescribir cuando el archivo de origen sea más nuevo o más largo"
+ },{
+  "en": "Owner",
+  "tr": "Dueño"
+ },{
+  "en": "Packet padding char",
+  "tr": "Char de relleno de paquete"
+ },{
+  "en": "Packet size",
+  "tr": "Tamaño del paquete"
+ },{
+  "en": "Page",
+  "tr": "Página"
+ },{
+  "en": "page",
+  "tr": "página"
+ },{
+  "en": "Pair",
+  "tr": "Emparejar"
+ },{
+  "en": "Panes",
+  "tr": "Panes"
+ },{
+  "en": "Paragraph",
+  "tr": "Párrafo"
+ },{
+  "en": "Parity",
+  "tr": "Paridad"
+ },{
+  "en": "Passphrase",
+  "tr": "Frase de contraseña"
+ },{
+  "en": "Password",
+  "tr": "Contraseña"
+ },{
+  "en": "Password quality meter",
+  "tr": "Medidor de calidad de contraseña"
+ },{
+  "en": "Paste",
+  "tr": "Pegar"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Pegar diálogo"
+ },{
+  "en": "Paste text",
+  "tr": "Pegar texto"
+ },{
+  "en": "Pause",
+  "tr": "Pausa"
+ },{
+  "en": "Paused",
+  "tr": "Pausado"
+ },{
+  "en": "Pausing",
+  "tr": "Pausando"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Realizar búsqueda de DNS con proxy"
+ },{
+  "en": "Period",
+  "tr": "Periodo"
+ },{
+  "en": "Permissions",
+  "tr": "Permisos"
+ },{
+  "en": "pixels",
+  "tr": "pixeles"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Ingrese un nuevo nombre para esta vista"
+ },{
+  "en": "Please input master password",
+  "tr": "Ingrese la contraseña maestra"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Ingrese la contraseña maestra, vacíela o cancele para deshabilitarla"
+ },{
+  "en": "Please input new group",
+  "tr": "Ingrese un nuevo grupo"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Asegúrese de recordar la contraseña maestra que ha establecido."
+ },{
+  "en": "Port",
+  "tr": "Puerto"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Preferir fuentes de tema"
+ },{
+  "en": "Preferences",
+  "tr": "Preferencias"
+ },{
+  "en": "Preserve",
+  "tr": "Preservar"
+ },{
+  "en": "Preview All",
+  "tr": "Vista previa de todo"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Símbolo de vista previa"
+ },{
+  "en": "Previous Char",
+  "tr": "Carácter anterior"
+ },{
+  "en": "Previous Fold",
+  "tr": "Pliegue anterior"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Sangría anterior"
+ },{
+  "en": "Previous Line",
+  "tr": "Línea anterior"
+ },{
+  "en": "Previous Message",
+  "tr": "Mensaje anterior"
+ },{
+  "en": "Previous Page",
+  "tr": "Página anterior"
+ },{
+  "en": "Previous Pair",
+  "tr": "Par anterior"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Párrafo anterior"
+ },{
+  "en": "Previous Scope",
+  "tr": "Alcance anterior"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Final del segmento anterior"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Inicio de segmento anterior"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Página anterior tartamudeada"
+ },{
+  "en": "Previous Word",
+  "tr": "Palabra anterior"
+ },{
+  "en": "Previous Word End",
+  "tr": "Fin de palabra anterior"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Parte de palabra anterior"
+ },{
+  "en": "Printable output",
+  "tr": "Salida imprimible"
+ },{
+  "en": "Process",
+  "tr": "Proceso"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "El proceso%1 se bloqueó."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "No se pudo iniciar el proceso%1."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Tiempo de espera%1 del proceso."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Programa [Argumentos]"
+ },{
+  "en": "Project",
+  "tr": "Proyecto"
+ },{
+  "en": "Properties",
+  "tr": "Propiedades"
+ },{
+  "en": "Property",
+  "tr": "Propiedad"
+ },{
+  "en": "Protocol",
+  "tr": "Protocolo"
+ },{
+  "en": "Proxy",
+  "tr": "Apoderado"
+ },{
+  "en": "Proxy Host",
+  "tr": "Host proxy"
+ },{
+  "en": "Proxy Port",
+  "tr": "Puerto proxy"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Configuración de proxy"
+ },{
+  "en": "Proxy Type",
+  "tr": "Tipo de proxy"
+ },{
+  "en": "Public Key",
+  "tr": "Llave pública"
+ },{
+  "en": "Public Keys",
+  "tr": "Claves públicas"
+ },{
+  "en": "Public keys order",
+  "tr": "Orden de claves públicas"
+ },{
+  "en": "Putty sessions",
+  "tr": "Sesiones de masilla"
+ },{
+  "en": "Query URL",
+  "tr": "URL de consulta"
+ },{
+  "en": "Question",
+  "tr": "Pregunta"
+ },{
+  "en": "Quick",
+  "tr": "Rápido"
+ },{
+  "en": "Quick Bar",
+  "tr": "Barra rápida"
+ },{
+  "en": "Quick Commands",
+  "tr": "Comandos rápidos"
+ },{
+  "en": "Read Only",
+  "tr": "Solo lectura"
+ },{
+  "en": "Ready",
+  "tr": "Listo"
+ },{
+  "en": "Real guide",
+  "tr": "Guía real"
+ },{
+  "en": "Receive XModem",
+  "tr": "Recibe XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Reciba YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Recibe ZModem"
+ },{
+  "en": "received",
+  "tr": "recibió"
+ },{
+  "en": "Recent",
+  "tr": "Reciente"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Sesiones recientes"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Reconectar sesión"
+ },{
+  "en": "Rectangle",
+  "tr": "Rectángulo"
+ },{
+  "en": "rectangle",
+  "tr": "rectángulo"
+ },{
+  "en": "Red",
+  "tr": "Rojo"
+ },{
+  "en": "Redo",
+  "tr": "Rehacer"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Rehacer%1 acciones"
+ },{
+  "en": "Refresh",
+  "tr": "Actualizar"
+ },{
+  "en": "Regular Expression",
+  "tr": "Expresión regular"
+ },{
+  "en": "Reload",
+  "tr": "Recargar"
+ },{
+  "en": "Reload File",
+  "tr": "Recargar archivo"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Recargar con codificación"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Reenvío remoto"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Camino remoto"
+ },{
+  "en": "Remove",
+  "tr": "Agente de mudanzas)"
+ },{
+  "en": "remove",
+  "tr": "retirar"
+ },{
+  "en": "Remove All",
+  "tr": "Eliminar todo"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Eliminar líneas en blanco"
+ },{
+  "en": "Remove Command",
+  "tr": "Eliminar comando"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Eliminar líneas duplicadas"
+ },{
+  "en": "Remove Group",
+  "tr": "Quitar grupo"
+ },{
+  "en": "Remove items",
+  "tr": "Eliminar elementos"
+ },{
+  "en": "Remove Sender",
+  "tr": "Eliminar remitente"
+ },{
+  "en": "Removing",
+  "tr": "Eliminando"
+ },{
+  "en": "Rename",
+  "tr": "Rebautizar"
+ },{
+  "en": "Rename Group",
+  "tr": "Cambiar nombre de grupo"
+ },{
+  "en": "Rename tab",
+  "tr": "Cambiar nombre de pestaña"
+ },{
+  "en": "Rename View",
+  "tr": "Cambiar nombre de vista"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Reabrir vista cerrada"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Repetir el último comando"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Ejecutar repetidamente"
+ },{
+  "en": "Replace",
+  "tr": "Reemplazar"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Reemplazar todo"
+ },{
+  "en": "Replace in Files",
+  "tr": "Reemplazar en archivos"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Requiere un reinicio para que surta efecto"
+ },{
+  "en": "Reset",
+  "tr": "Restablecer"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Restablecer juego de caracteres"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Restablecer zoom"
+ },{
+  "en": "Resume",
+  "tr": "Reanudar"
+ },{
+  "en": "Resuming",
+  "tr": "Reanudando"
+ },{
+  "en": "Right click",
+  "tr": "Haga clic derecho"
+ },{
+  "en": "Right click event",
+  "tr": "Evento de clic derecho"
+ },{
+  "en": "Right Docks",
+  "tr": "Muelles derechos"
+ },{
+  "en": "Right Group",
+  "tr": "Grupo derecho"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Gire la rueda del mouse para desplazarse"
+ },{
+  "en": "Rows",
+  "tr": "Filas"
+ },{
+  "en": "Royal Blue",
+  "tr": "Azul real"
+ },{
+  "en": "Run Tool",
+  "tr": "Ejecutar herramienta"
+ },{
+  "en": "Save",
+  "tr": "Ahorrar"
+ },{
+  "en": "Save All",
+  "tr": "Guardar todo"
+ },{
+  "en": "Save As",
+  "tr": "Guardar como"
+ },{
+  "en": "Save Copy As",
+  "tr": "Guardar copia como"
+ },{
+  "en": "Save file failed!",
+  "tr": "¡Error al guardar el archivo!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Guardar selección como"
+ },{
+  "en": "Save Session",
+  "tr": "Guardar sesión"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Autenticación automática guardada"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Herramientas de esquema"
+ },{
+  "en": "Scope",
+  "tr": "Alcance"
+ },{
+  "en": "Screen Locked",
+  "tr": "Pantalla bloqueada"
+ },{
+  "en": "Scroll Left",
+  "tr": "Desplazarse hacia la izquierda"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Desplazar línea hacia abajo"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Desplazarse hacia arriba"
+ },{
+  "en": "Scroll Right",
+  "tr": "Desplazarse hacia la derecha"
+ },{
+  "en": "Search",
+  "tr": "Buscar"
+ },{
+  "en": "Search engine",
+  "tr": "Los motores de búsqueda)"
+ },{
+  "en": "Search Engine",
+  "tr": "Buscador"
+ },{
+  "en": "Search Engines",
+  "tr": "Motores de búsqueda"
+ },{
+  "en": "Search Online",
+  "tr": "Buscar en línea"
+ },{
+  "en": "Search or enter address",
+  "tr": "Buscar o ingresar dirección"
+ },{
+  "en": "Searching",
+  "tr": "buscando"
+ },{
+  "en": "Seconds",
+  "tr": "Segundos"
+ },{
+  "en": "seconds",
+  "tr": "segundos"
+ },{
+  "en": "Security",
+  "tr": "Seguridad"
+ },{
+  "en": "Segment",
+  "tr": "Segmento"
+ },{
+  "en": "Select",
+  "tr": "Seleccione"
+ },{
+  "en": "Select All",
+  "tr": "Seleccionar todo"
+ },{
+  "en": "Select Column To",
+  "tr": "Seleccionar columna a"
+ },{
+  "en": "Select copy folder",
+  "tr": "Seleccionar carpeta de copia"
+ },{
+  "en": "Select copy items",
+  "tr": "Seleccionar elementos de copia"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Seleccionar directorio para recibir"
+ },{
+  "en": "Select download folder",
+  "tr": "Seleccionar carpeta de descarga"
+ },{
+  "en": "Select files to send",
+  "tr": "Seleccionar archivos para enviar"
+ },{
+  "en": "Select Fold",
+  "tr": "Seleccione Doblar"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Seleccionar fragmento hacia atrás"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Seleccione Reenviar fragmento"
+ },{
+  "en": "Select To",
+  "tr": "Seleccione Para"
+ },{
+  "en": "Select upload items",
+  "tr": "Seleccionar elementos de carga"
+ },{
+  "en": "Selected position",
+  "tr": "Posición seleccionada"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Sesiones seleccionadas"
+ },{
+  "en": "Selection",
+  "tr": "Selección"
+ },{
+  "en": "Send",
+  "tr": "Enviar"
+ },{
+  "en": "Send line By line",
+  "tr": "Enviar línea por línea"
+ },{
+  "en": "Send Text",
+  "tr": "Enviar texto"
+ },{
+  "en": "Send XModem",
+  "tr": "Enviar XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Enviar YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Enviar ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Remitente"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Error al enviar%1:%2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Enviando:%1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Envía un paquete nulo para mantener viva la sesión"
+ },{
+  "en": "sent",
+  "tr": "enviado"
+ },{
+  "en": "Serial",
+  "tr": "Serie"
+ },{
+  "en": "Server",
+  "tr": "Servidor"
+ },{
+  "en": "Session",
+  "tr": "Sesión"
+ },{
+  "en": "session",
+  "tr": "sesión"
+ },{
+  "en": "Session Group",
+  "tr": "Grupo de sesión"
+ },{
+  "en": "Session Log",
+  "tr": "Registro de sesión"
+ },{
+  "en": "Session name",
+  "tr": "Nombre de la sesión"
+ },{
+  "en": "Session Settings",
+  "tr": "Configuración de la sesión"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Sesiones en todas las ventanas"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Sesiones en el grupo actual"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Sesiones en la ventana actual"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Sesiones en el grupo%1"
+ },{
+  "en": "Set default editor",
+  "tr": "Establecer editor predeterminado"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Establecer color de pestaña"
+ },{
+  "en": "Settings",
+  "tr": "Ajustes"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Forma"
+ },{
+  "en": "Shell",
+  "tr": "Cascarón"
+ },{
+  "en": "Shell sessions",
+  "tr": "Sesiones de Shell"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Sesiones Shell"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Hora / fecha corta"
+ },{
+  "en": "Show",
+  "tr": "Show"
+ },{
+  "en": "Show All",
+  "tr": "Mostrar todo"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Mostrar todos los editores abiertos y recientes"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Mostrar todas las terminales abiertas y recientes"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Mostrar y ejecutar acciones"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Mostrar cuadro de diálogo de confirmación de cerrar pestaña"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Mostrar cuadro de diálogo de confirmación de cierre de ventana"
+ },{
+  "en": "Show column markers",
+  "tr": "Mostrar marcadores de columna"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Mostrar comandos en orden alfabético"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Mostrar propiedad%1 actual"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Mostrar comandos de grupo en orden"
+ },{
+  "en": "Show group title",
+  "tr": "Mostrar título del grupo"
+ },{
+  "en": "Show hidden items",
+  "tr": "Mostrar elementos ocultos"
+ },{
+  "en": "Show in %1",
+  "tr": "Mostrar en%1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Mostrar final de línea"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Mostrar inicio en línea"
+ },{
+  "en": "Show In Selection",
+  "tr": "Mostrar en selección"
+ },{
+  "en": "Show indent guide",
+  "tr": "Mostrar guía de sangría"
+ },{
+  "en": "Show line endings",
+  "tr": "Mostrar finales de línea"
+ },{
+  "en": "Show menu",
+  "tr": "Muestrame el menu"
+ },{
+  "en": "Show More Tools",
+  "tr": "Mostrar más herramientas"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Mostrar varios grupos"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Mostrar diálogo de pegar en la pantalla alternativa"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Mostrar diálogo de pegar en la pantalla principal"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Mostrar espacios y pestañas"
+ },{
+  "en": "Show Tabs",
+  "tr": "Mostrar pestañas"
+ },{
+  "en": "Show Text",
+  "tr": "Mostrar texto"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Mostrar el número de pestaña en las pestañas"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Mostrar este cuadro de diálogo cuando se inicia el modo de enfoque"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Mostrar símbolos de ajuste"
+ },{
+  "en": "Shrink",
+  "tr": "Encogerse"
+ },{
+  "en": "Size",
+  "tr": "Tamaño"
+ },{
+  "en": "Skip",
+  "tr": "Saltar"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Calcetines v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "Reinicio suave"
+ },{
+  "en": "Sort",
+  "tr": "Ordena)"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Ordenar líneas sin distinción entre mayúsculas y minúsculas"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Ordenar líneas distingue entre mayúsculas y minúsculas"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Ordenar líneas en orden aleatorio"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Ordenar líneas en orden inverso"
+ },{
+  "en": "spaces",
+  "tr": "espacios"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Espacios a pestañas"
+ },{
+  "en": "Spacing",
+  "tr": "Espaciado"
+ },{
+  "en": "Special",
+  "tr": "Especial"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Especifique el protocolo al arrastrar y soltar archivos"
+ },{
+  "en": "Speed",
+  "tr": "Velocidad"
+ },{
+  "en": "Split",
+  "tr": "Dividir"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Dividir grupo horizontalmente"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Dividir grupo verticalmente"
+ },{
+  "en": "Split Lines",
+  "tr": "Líneas divididas"
+ },{
+  "en": "Split Selection",
+  "tr": "Selección dividida"
+ },{
+  "en": "Split To Group",
+  "tr": "Dividir en grupo"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Vista dividida horizontalmente"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Vista dividida verticalmente"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Empieza)"
+ },{
+  "en": "Start Of Document",
+  "tr": "Inicio del documento"
+ },{
+  "en": "Start Of Line",
+  "tr": "Inicio de línea"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Inicio del par"
+ },{
+  "en": "Startup",
+  "tr": "Puesta en marcha"
+ },{
+  "en": "Stash",
+  "tr": "Alijo"
+ },{
+  "en": "Status Bar",
+  "tr": "Barra de estado"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Azul acero"
+ },{
+  "en": "Sticky",
+  "tr": "Pegajoso"
+ },{
+  "en": "Stop",
+  "tr": "Parada"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stop Bits"
+ },{
+  "en": "Stop loading",
+  "tr": "Dejar de cargar"
+ },{
+  "en": "Stop sender",
+  "tr": "Detener remitente"
+ },{
+  "en": "Stop Tools",
+  "tr": "Detener herramientas"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Deja de ver este archivo"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Cambiar secuencia y columna"
+ },{
+  "en": "switch to tab",
+  "tr": "cambiar a pestaña"
+ },{
+  "en": "Symbols",
+  "tr": "Símbolos"
+ },{
+  "en": "Sync channel",
+  "tr": "Canal de sincronización"
+ },{
+  "en": "Sync Edit",
+  "tr": "Sincronizar edición"
+ },{
+  "en": "Sync Input",
+  "tr": "Entrada de sincronización"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Sincronizando entrada en el canal%1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Esquemas de sintaxis"
+ },{
+  "en": "System",
+  "tr": "Sistema"
+ },{
+  "en": "Tab",
+  "tr": "Pestaña"
+ },{
+  "en": "Tab Color",
+  "tr": "Color de pestaña"
+ },{
+  "en": "Tab Features",
+  "tr": "Características de la pestaña"
+ },{
+  "en": "Tab Group",
+  "tr": "Grupo de pestañas"
+ },{
+  "en": "Tab Index",
+  "tr": "Índice de pestañas"
+ },{
+  "en": "Tab size",
+  "tr": "Tamaño de pestaña"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Modo de elide de texto de tabulación"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Radio en miniatura de pestaña"
+ },{
+  "en": "Tab Title",
+  "tr": "Título de la pestaña"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabificar líneas seleccionadas"
+ },{
+  "en": "Tabs",
+  "tr": "Pestañas"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Tabulaciones a espacios"
+ },{
+  "en": "Target",
+  "tr": "Objetivo"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Carpeta de destino"
+ },{
+  "en": "Targets",
+  "tr": "Objetivos"
+ },{
+  "en": "TCP connection options",
+  "tr": "Opciones de conexión TCP"
+ },{
+  "en": "Teal",
+  "tr": "Verde azulado"
+ },{
+  "en": "Term",
+  "tr": "Término"
+ },{
+  "en": "Terminal",
+  "tr": "Terminal"
+ },{
+  "en": "terminal",
+  "tr": "Terminal"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Configuración de terminal"
+ },{
+  "en": "Text",
+  "tr": "Texto"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Texto:%1 líneas,%2 caracteres"
+ },{
+  "en": "The % sign",
+  "tr": "La señal"
+ },{
+  "en": "The actual text to log",
+  "tr": "El texto real para registrar"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "La carpeta de destino es una subcarpeta de la carpeta de origen: \n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "El documento ha sido modificado. \n¿Desea guardar sus cambios?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "La combinación de teclas(%1) no es un comando."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "No se detecta el lrzsz. Primero instale lrzsz."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Se ha cambiado la contraseña maestra."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "La confirmación de la contraseña no coincide."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "El servidor canceló la transmisión."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "La sesión está <b> desconectada </b>, presione <b> Enter </b> para volver a conectarse."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "La transferencia se canceló porque un paquete no estaba%1 dentro del límite de reintentos."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "La transferencia se canceló porque el número de secuencia del paquete era incorrecto."
+ },{
+  "en": "Theme",
+  "tr": "Tema"
+ },{
+  "en": "Thin",
+  "tr": "Delgada"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Umbral para archivo enorme"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Formato de hora"
+ },{
+  "en": "Time left",
+  "tr": "Tiempo restante"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Marca de tiempo de las líneas"
+ },{
+  "en": "To Inverse Case",
+  "tr": "A mayúsculas y minúsculas"
+ },{
+  "en": "To Line End",
+  "tr": "Al final de la línea"
+ },{
+  "en": "To Line Start",
+  "tr": "Al inicio de línea"
+ },{
+  "en": "To Lower Case",
+  "tr": "A minúsculas"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "A MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "Al título de caso"
+ },{
+  "en": "To Unix LF",
+  "tr": "A Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "A mayúsculas"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "A Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Al final de la palabra"
+ },{
+  "en": "To Word Start",
+  "tr": "Al inicio de Word"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Alternar plegado"
+ },{
+  "en": "Tool",
+  "tr": "Herramienta"
+ },{
+  "en": "Toolbar",
+  "tr": "Barra de herramientas"
+ },{
+  "en": "Top Group",
+  "tr": "Grupo superior"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Seguimiento de la selección de texto en el árbol"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Selección de árbol de seguimiento en texto"
+ },{
+  "en": "Tracking Events",
+  "tr": "Seguimiento de eventos"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Blancos finales"
+ },{
+  "en": "Trailing position",
+  "tr": "Posición final"
+ },{
+  "en": "Transfer",
+  "tr": "Transferir"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Barra de transferencia"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Transferir binario"
+ },{
+  "en": "Transfer complete",
+  "tr": "Transferencia completa"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Transferencia incompleta"
+ },{
+  "en": "Translucent",
+  "tr": "Translúcido"
+ },{
+  "en": "Transparent",
+  "tr": "Transparente"
+ },{
+  "en": "Transpose",
+  "tr": "Transponer"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Recorte los espacios en blanco finales al guardar"
+ },{
+  "en": "Trust this host",
+  "tr": "Confía en este anfitrión"
+ },{
+  "en": "Tunnels",
+  "tr": "Túneles"
+ },{
+  "en": "Type",
+  "tr": "Escribe"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Escribe '?' para obtener ayuda sobre las acciones, puede escribir aquí"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Descomentar selección"
+ },{
+  "en": "Underline",
+  "tr": "Subrayar"
+ },{
+  "en": "underLine",
+  "tr": "subrayar"
+ },{
+  "en": "Undo",
+  "tr": "Deshacer"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Deshacer%1 acciones"
+ },{
+  "en": "Unfold",
+  "tr": "Desplegar"
+ },{
+  "en": "Unfold All",
+  "tr": "Desplegar todo"
+ },{
+  "en": "Unfold Category",
+  "tr": "Desplegar categoría"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Despliegue por dentro"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Unifique los finales de línea al guardar"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: la ruta del archivo de shell debe ser absoluta"
+ },{
+  "en": "Unknown",
+  "tr": "Desconocido"
+ },{
+  "en": "unknown",
+  "tr": "desconocido"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Anular la tabulación de líneas seleccionadas"
+ },{
+  "en": "Untitled",
+  "tr": "Intitulado"
+ },{
+  "en": "Untrust this host",
+  "tr": "Desconfiar de este anfitrión"
+ },{
+  "en": "upload",
+  "tr": "subir"
+ },{
+  "en": "Upload command",
+  "tr": "Subir comando"
+ },{
+  "en": "Upload directory",
+  "tr": "Subir directorio"
+ },{
+  "en": "Upload file",
+  "tr": "Subir archivo"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Subir a la carpeta actual"
+ },{
+  "en": "uploaded",
+  "tr": "subido"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL con% q en lugar de consulta"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Usa el color de fondo para borrar la pantalla"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Utilice transferencia de alta velocidad"
+ },{
+  "en": "Use system line ending",
+  "tr": "Usar el final de la línea del sistema"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Use esto como predeterminado y no vuelva a preguntar"
+ },{
+  "en": "User",
+  "tr": "Usuario"
+ },{
+  "en": "Username echo mode",
+  "tr": "Modo de eco de nombre de usuario"
+ },{
+  "en": "Value",
+  "tr": "Valor"
+ },{
+  "en": "Variable",
+  "tr": "Variable"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Verificación de la huella digital(V) del servidor"
+ },{
+  "en": "View",
+  "tr": "Ver"
+ },{
+  "en": "Virtual Space",
+  "tr": "Espacio virtual"
+ },{
+  "en": "Waiting",
+  "tr": "Esperando"
+ },{
+  "en": "Warning",
+  "tr": "Advertencia"
+ },{
+  "en": "Wheel event",
+  "tr": "Evento de rueda"
+ },{
+  "en": "When destination file exists",
+  "tr": "Cuando existe el archivo de destino"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Al pegar varias líneas"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Cuando se cambia el título remoto"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Cuando se autentica la sesión"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Cuando la sesión se autentica"
+ },{
+  "en": "When window is resized",
+  "tr": "Cuando se cambia el tamaño de la ventana"
+ },{
+  "en": "Where",
+  "tr": "Dónde"
+ },{
+  "en": "White Spaces",
+  "tr": "Espacios en blanco"
+ },{
+  "en": "Whole Line",
+  "tr": "Línea completa"
+ },{
+  "en": "Whole Word",
+  "tr": "Toda palabra"
+ },{
+  "en": "Widgets",
+  "tr": "Widgets"
+ },{
+  "en": "Width",
+  "tr": "Ancho"
+ },{
+  "en": "Window",
+  "tr": "Ventana"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Borde de la ventana"
+ },{
+  "en": "Window Opacity",
+  "tr": "Opacidad de la ventana"
+ },{
+  "en": "Window opacity",
+  "tr": "Opacidad de la ventana"
+ },{
+  "en": "Windows Manager",
+  "tr": "Administrador de Windows"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe o winpty.dll no encontrado."
+ },{
+  "en": "Word",
+  "tr": "Palabra"
+ },{
+  "en": "Word Separators",
+  "tr": "Separadores de palabras"
+ },{
+  "en": "Word Wrap",
+  "tr": "Ajuste de palabras"
+ },{
+  "en": "Working directory",
+  "tr": "Directorio de trabajo"
+ },{
+  "en": "Wrap",
+  "tr": "Envoltura"
+ },{
+  "en": "Wrap by character",
+  "tr": "Envolver por personaje"
+ },{
+  "en": "Wrap by word",
+  "tr": "Envolver por palabra"
+ },{
+  "en": "Wrap column",
+  "tr": "Envolver columna"
+ },{
+  "en": "Wrap mode",
+  "tr": "Modo de envoltura"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Envolver símbolos"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Contraseña maestra incorrecta."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "Módem X / Y / Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "El módem X / Y / Z no puede transmitir carpetas o archivos de más de 4 GB:%1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "Protocolo de autenticación X11"
+ },{
+  "en": "X11 display",
+  "tr": "Pantalla X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Año en 2 dígitos"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Año en 4 dígitos"
+ },{
+  "en": "Yes",
+  "tr": "sí"
+ },{
+  "en": "Zero",
+  "tr": "Cero"
+ },{
+  "en": "Zoom",
+  "tr": "Zoom"
+ },{
+  "en": "Zoom In",
+  "tr": "Acercar"
+ },{
+  "en": "Zoom level",
+  "tr": "Nivel de zoom"
+ },{
+  "en": "Zoom Out",
+  "tr": "Alejar"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Falló en%1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Vacío]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Error:%1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Finalizado en%1s, código de salida%2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Finalizado en%1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[La lista de grupos está vacía]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[La lista de navegación está vacía]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Sin motor de búsqueda]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Las URL recientes están vacías]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[La lista de rehacer está vacía]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[La lista de esquemas está vacía]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[La lista de temas está vacía]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[La lista de la barra de herramientas está vacía]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[La lista de deshacer está vacía]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Usuario cancelado]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[usuario @] nombre de host"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[La lista de Windows está vacía]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

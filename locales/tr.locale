@@ -1,0 +1,3513 @@
+{
+ "language": "Turkish - Türkçe",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Şema) Araçları"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2, %3 tarafından desteklenmiyor."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 kopyalandı"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 indirildi"
+ },{
+  "en": "%1 File",
+  "tr": "%1 Dosya"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 öğe başarısız oldu"
+ },{
+  "en": "%1 items",
+  "tr": "%1 öğe"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 öğe başarısız oldu"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 öğe/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 / %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 kaldırıldı"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 bu %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 yüklendi"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 Hız: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 başarısız parola denemesi."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br><b>değişti</b> ve <b>yeniden yüklendi</b>, büyük dosyalarda geri alma işlemine <b>DEĞİL</b> izin verilmez."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br><b>değişti</b> ve <b>yeniden yüklendi</b>, geri almaya izin verilir."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br><b>değişti</b>, Yeniden yüklemek istiyor musunuz?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br><b>taşındı veya silindi</b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) basıldı. Daha fazla anahtar bekliyorum"
+ },{
+  "en": "1 Char",
+  "tr": "1 Karakter"
+ },{
+  "en": "16 Columns",
+  "tr": "16 Sütun"
+ },{
+  "en": "2 Chars",
+  "tr": "2 Karakter"
+ },{
+  "en": "24 Columns",
+  "tr": "24 Sütun"
+ },{
+  "en": "32 Columns",
+  "tr": "32 Sütun"
+ },{
+  "en": "4 Chars",
+  "tr": "4 Karakter"
+ },{
+  "en": "8 Chars",
+  "tr": "8 Karakter"
+ },{
+  "en": "8 Columns",
+  "tr": "8 Sütunlar"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "SSH parolaları gibi hassas bilgileri korumak için bir Ana Parola kullanılır."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Bir ad 255 karakterden az olmalı ve aşağıdaki karakterlerden hiçbirini içeremez: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Bir uzak dosya değiştirildi.\nBu dosyayı sunucuya geri yüklemek istiyor musunuz?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Belirli bir oturum veya bir dizi oturum"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Kısaltılmış ay adı"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Kısaltılmış hafta içi adı"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Yalnızca yerel bağlantıları kabul et"
+ },{
+  "en": "Accessed",
+  "tr": "Erişildi"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Birden çok işareti etkinleştir"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Sonraki Seçimi Etkinleştir"
+ },{
+  "en": "Activate Next View",
+  "tr": "Sonraki Görünümü Etkinleştir"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Önceki Seçimi Etkinleştir"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Önceki Görünümü Etkinleştir"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Sol sekmeyi etkinleştir"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Önceden seçilen sekmeyi etkinleştir"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Sağ sekmeyi etkinleştir"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Kapattıktan sonra sekmeyi etkinleştirin"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Gezindikten sonra sekmeyi etkinleştirin"
+ },{
+  "en": "Add",
+  "tr": "Ekle)"
+ },{
+  "en": "Add All",
+  "tr": "Tümünü Ekle"
+ },{
+  "en": "Add Command",
+  "tr": "Komut Ekle"
+ },{
+  "en": "Add Group",
+  "tr": "Grup ekle"
+ },{
+  "en": "Add Sender",
+  "tr": "Gönderen(A) Ekle"
+ },{
+  "en": "Add Tab",
+  "tr": "Sekme Ekle"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Pencere satırlarını ve sütunlarını ayarlayın"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Gelişmiş Sıralama"
+ },{
+  "en": "Agent",
+  "tr": "Ajan"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Aracı kimlik doğrulaması başarısız oldu, lütfen başka bir yöntem deneyin"
+ },{
+  "en": "All",
+  "tr": "Tümü"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Tüm %1 oturumları silinecek.\nOturumları içe aktarmaya devam etmek istiyor musunuz?"
+ },{
+  "en": "All session output",
+  "tr": "Tüm oturum çıktısı"
+ },{
+  "en": "All Sessions",
+  "tr": "Tüm Oturumlar"
+ },{
+  "en": "All tabs",
+  "tr": "Tüm sekmeler"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Alternatif sütun arka plan rengi"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Alternatif çizgi arka plan rengi"
+ },{
+  "en": "Always On Top",
+  "tr": "Her Zaman En Üstte"
+ },{
+  "en": "Always on top",
+  "tr": "Her zaman üstte"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "%1 sürecinden okumaya çalışılırken bir hata oluştu."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "%1 işlemine yazmaya çalışırken bir hata oluştu."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "%1 işleminde bilinmeyen bir hata oluştu."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI'den OEM'e"
+ },{
+  "en": "Answer back",
+  "tr": "Cevap ver"
+ },{
+  "en": "Any",
+  "tr": "Herhangi"
+ },{
+  "en": "Anything Palette",
+  "tr": "Her Şey Paleti"
+ },{
+  "en": "Anywhere",
+  "tr": "Herhangi bir yere"
+ },{
+  "en": "Appearance",
+  "tr": "Dış görünüş"
+ },{
+  "en": "Append",
+  "tr": "Ekle"
+ },{
+  "en": "Append log file",
+  "tr": "Günlük dosyası ekle"
+ },{
+  "en": "Application",
+  "tr": "Başvuru"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "%1 seçili öğeyi silmek istediğinizden emin misiniz?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "<b>%1</b> öğesini silmek istediğinizden emin misiniz?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Geçerli dosyayı yeniden yüklemek ve WindEdit'de yapılan değişiklikleri kaybetmek istediğinizden emin misiniz?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Geçerli göndereni durdurmak istediğinizden emin misiniz?"
+ },{
+  "en": "Arguments",
+  "tr": "Argümanlar"
+ },{
+  "en": "At Caret",
+  "tr": "Caret'te"
+ },{
+  "en": "At End",
+  "tr": "Sonunda"
+ },{
+  "en": "At Start",
+  "tr": "Başlangıçta"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Mikrofonlu gssapi kimlik doğrulamasını deneyin"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Klavye etkileşimli kimlik doğrulamayı deneyin"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Yarışmada kimlik doğrulama girişimi"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Şifre doğrulamayı dene"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Ortak anahtar kimlik doğrulamasını deneyin"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "ssh-agent kimlik doğrulamasını deneyin"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Kısmi başarı ile doğrulandı, lütfen başka bir yöntem deneyin."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "%1 tarafından kimlik doğrulanıyor"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "%1 ve %2 kimlik doğrulaması"
+ },{
+  "en": "Authentication",
+  "tr": "kimlik doğrulama"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Kimlik doğrulama reddedildi, lütfen tekrar deneyin."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Kimlik doğrulama başarısız oldu, lütfen tekrar deneyin."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "HTML/XML Etiketlerini Otomatik Kapat"
+ },{
+  "en": "Auto login",
+  "tr": "Otomatik giriş"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Otomatik giriş başarısız, lütfen tekrar deneyin."
+ },{
+  "en": "Auto login next time",
+  "tr": "Bir dahaki sefere otomatik oturum açma"
+ },{
+  "en": "Automatic",
+  "tr": "Otomatik"
+ },{
+  "en": "automatic",
+  "tr": "otomatik"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Otomatik kimlik doğrulama yöntemleri"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Seçimi otomatik olarak kopyala"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Girintiyi otomatik olarak algıla"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Dolguyu otomatik olarak kırpın"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Arka plan işaretçisi"
+ },{
+  "en": "Backspace",
+  "tr": "Geri Al"
+ },{
+  "en": "Backspace sends",
+  "tr": "Geri al gönderir"
+ },{
+  "en": "Backward",
+  "tr": "Geriye"
+ },{
+  "en": "Bars",
+  "tr": "Barlar"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baud Hızı"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Bittiğinde Bip Sesi"
+ },{
+  "en": "Binary",
+  "tr": "İkili"
+ },{
+  "en": "Binary base",
+  "tr": "İkili taban"
+ },{
+  "en": "Binary columns",
+  "tr": "İkili sütunlar"
+ },{
+  "en": "Binary devision columns",
+  "tr": "İkili bölüm sütunları"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "İkili gruplandırılmış karakterler"
+ },{
+  "en": "Black",
+  "tr": "Siyah"
+ },{
+  "en": "Blink",
+  "tr": "Yanıp sönme"
+ },{
+  "en": "blinking block",
+  "tr": "yanıp sönen blok"
+ },{
+  "en": "blinking line",
+  "tr": "yanıp sönen çizgi"
+ },{
+  "en": "blinking rectangle",
+  "tr": "yanıp sönen dikdörtgen"
+ },{
+  "en": "blinking underLine",
+  "tr": "yanıp sönen alt çizgi"
+ },{
+  "en": "Block",
+  "tr": "Engellemek"
+ },{
+  "en": "block",
+  "tr": "engellemek"
+ },{
+  "en": "Bold",
+  "tr": "Gözü pek"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Kalın yazı tipi, sabit genişlikli yazı tiplerini gösterir"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Alt Rıhtımlar"
+ },{
+  "en": "Bottom Group",
+  "tr": "Alt Grup"
+ },{
+  "en": "Browse",
+  "tr": "Araştır"
+ },{
+  "en": "Browse Directory",
+  "tr": "Dizine Gözat"
+ },{
+  "en": "Browse File",
+  "tr": "Dosyaya Gözat"
+ },{
+  "en": "Browser",
+  "tr": "Tarayıcı"
+ },{
+  "en": "Build",
+  "tr": "İnşa"
+ },{
+  "en": "By",
+  "tr": "Tarafından"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Hesaplanıyor"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Dosyayı açmak için uygun program bulunamadı:\n%1\nAçmak için varsayılan düzenleyiciyi kullanmayı deneyin."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "%1 dizini oluşturulamıyor."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "%1 dosyası yapılamıyor."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "%1 bağlantısı oluşturulamıyor."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "%1 dizini kaldırılamıyor."
+ },{
+  "en": "Cancel",
+  "tr": "İptal"
+ },{
+  "en": "Cancel Build",
+  "tr": "Derlemeyi İptal Et"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Seçimi İptal Et"
+ },{
+  "en": "Caret",
+  "tr": "şapka"
+ },{
+  "en": "Caret Style",
+  "tr": "Şapka Stili"
+ },{
+  "en": "Carriage Return",
+  "tr": "Satırbaşı"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Harfe duyarlı"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Ana Parolayı Değiştir"
+ },{
+  "en": "Change master password",
+  "tr": "Ana şifreyi değiştir"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Ana parola değiştirilemedi."
+ },{
+  "en": "Change the tab title",
+  "tr": "Sekme başlığını değiştirin"
+ },{
+  "en": "Changed",
+  "tr": "değişti"
+ },{
+  "en": "Channel",
+  "tr": "Kanal"
+ },{
+  "en": "Char",
+  "tr": "Karakter"
+ },{
+  "en": "Char Left",
+  "tr": "Sol Karakter"
+ },{
+  "en": "Char Right",
+  "tr": "Sağ Karakter"
+ },{
+  "en": "Character spacing",
+  "tr": "Karakter aralığı"
+ },{
+  "en": "character width",
+  "tr": "karakter genişliği"
+ },{
+  "en": "Charset",
+  "tr": "Karakter seti"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Varsayılan bir düzenleyici seçin"
+ },{
+  "en": "Ciphers",
+  "tr": "Şifreler"
+ },{
+  "en": "Ciphers order",
+  "tr": "Şifre sırası"
+ },{
+  "en": "Clear",
+  "tr": "Açık"
+ },{
+  "en": "Clear All",
+  "tr": "Tümünü Temizle"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Son URL'leri(C) Temizle"
+ },{
+  "en": "Clear Screen",
+  "tr": "Ekranı Temizle"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Geri Kaydırmayı Temizle"
+ },{
+  "en": "Clear Sender",
+  "tr": "Göndereni Temizle"
+ },{
+  "en": "Click event",
+  "tr": "Tıklama etkinliği"
+ },{
+  "en": "Close",
+  "tr": "Kapat"
+ },{
+  "en": "Close All Views",
+  "tr": "Tüm Görünümleri Kapat"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Tüm Görüntülemeleri Kapat Ama Etkin"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Tüm Görünümleri Sağa Kapat"
+ },{
+  "en": "Close And Exit",
+  "tr": "Kapat ve Çık"
+ },{
+  "en": "Close Channel",
+  "tr": "Kanalı Kapat"
+ },{
+  "en": "Close Dock",
+  "tr": "Dock'u Kapat"
+ },{
+  "en": "Close Group",
+  "tr": "Grubu Kapat"
+ },{
+  "en": "Close Session",
+  "tr": "Oturumu Kapat"
+ },{
+  "en": "Close Tab",
+  "tr": "Sekmeyi Kapat"
+ },{
+  "en": "Close tab",
+  "tr": "Sekmeyi kapat"
+ },{
+  "en": "Close View",
+  "tr": "Görünümü Kapat"
+ },{
+  "en": "Close Window",
+  "tr": "Pencereyi Kapat"
+ },{
+  "en": "Color",
+  "tr": "Renk"
+ },{
+  "en": "Column Edit",
+  "tr": "Sütun Düzenleme"
+ },{
+  "en": "Column Marker",
+  "tr": "Sütun İşaretleyici"
+ },{
+  "en": "Columns",
+  "tr": "Sütunlar"
+ },{
+  "en": "columns",
+  "tr": "sütunlar"
+ },{
+  "en": "Command",
+  "tr": "Komut"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Komut Paleti"
+ },{
+  "en": "Comment",
+  "tr": "Yorum"
+ },{
+  "en": "Comment Selection",
+  "tr": "Yorum Seçimi"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Yorum Seçimi (Blok Modu)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Yorum Seçimi (Hat Modu)"
+ },{
+  "en": "Complete Word",
+  "tr": "Kelimeyi Tamamla"
+ },{
+  "en": "Config",
+  "tr": "yapılandırma"
+ },{
+  "en": "Confirm Password",
+  "tr": "Şifreyi Onayla"
+ },{
+  "en": "Confirm password",
+  "tr": "Şifreyi Onayla"
+ },{
+  "en": "Connect",
+  "tr": "Bağlamak"
+ },{
+  "en": "Connection",
+  "tr": "Bağlantı"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Bağlam"
+ },{
+  "en": "Continue",
+  "tr": "Devam et"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "CRLF ve LF'yi CR(C)'ye dönüştürün"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Sekmeyi boşluklara dönüştür"
+ },{
+  "en": "copied",
+  "tr": "kopyalanmış"
+ },{
+  "en": "Copy",
+  "tr": "kopyala"
+ },{
+  "en": "copy",
+  "tr": "kopyalamak"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Kopyala ve Yapıştır"
+ },{
+  "en": "Copy File Name",
+  "tr": "Dosya Adını Kopyala"
+ },{
+  "en": "Copy File Path",
+  "tr": "Dosya Yolunu Kopyala"
+ },{
+  "en": "Copy from",
+  "tr": "(F) kaynağından kopyala"
+ },{
+  "en": "Copy names",
+  "tr": "Adları kopyala"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Adları terminal(C)'ye kopyalayın"
+ },{
+  "en": "Copy Output",
+  "tr": "Çıktıyı Kopya"
+ },{
+  "en": "Copy paths",
+  "tr": "Yolları kopyala"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Yolları terminale(C) kopyala"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Oturum Adını Kopyala"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Oturum URL'sini Kopyala"
+ },{
+  "en": "Copy to",
+  "tr": "(C) konumuna kopyala"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Terminale Kopyala"
+ },{
+  "en": "Count",
+  "tr": "Saymak"
+ },{
+  "en": "Create Directory",
+  "tr": "Dizin Oluştur"
+ },{
+  "en": "Create File",
+  "tr": "Dosya oluştur"
+ },{
+  "en": "Create Link",
+  "tr": "Bağlantı Oluştur"
+ },{
+  "en": "Created",
+  "tr": "oluşturuldu"
+ },{
+  "en": "Critical",
+  "tr": "kritik"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Geçerli Oturum"
+ },{
+  "en": "Custom",
+  "tr": "Gelenek"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Özel Opaklık"
+ },{
+  "en": "Customize",
+  "tr": "Özelleştir"
+ },{
+  "en": "Cut",
+  "tr": "Kes"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Koyu Camgöbeği"
+ },{
+  "en": "Data",
+  "tr": "Veri"
+ },{
+  "en": "Data Bits",
+  "tr": "Veri Bitleri"
+ },{
+  "en": "Datetime format",
+  "tr": "Tarih saat biçimi"
+ },{
+  "en": "Day of month",
+  "tr": "01-31 ayın günü"
+ },{
+  "en": "Debug Mode",
+  "tr": "Hata Ayıklama Modu"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Satır Girintisini Azalt"
+ },{
+  "en": "Deep Pink",
+  "tr": "Derin Pembe"
+ },{
+  "en": "default",
+  "tr": "varsayılan"
+ },{
+  "en": "Default editor",
+  "tr": "Varsayılan düzenleyici"
+ },{
+  "en": "Default Font",
+  "tr": "Varsayılan yazı tipi"
+ },{
+  "en": "Default line ending",
+  "tr": "Varsayılan satır sonu"
+ },{
+  "en": "Delete",
+  "tr": "Silindi)"
+ },{
+  "en": "Delete sends",
+  "tr": "Gönderilenleri sil"
+ },{
+  "en": "deleted",
+  "tr": "silindi"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiKalın"
+ },{
+  "en": "Destination Host",
+  "tr": "Hedef Ana Bilgisayar"
+ },{
+  "en": "Destination Port",
+  "tr": "Hedef Bağlantı Noktası"
+ },{
+  "en": "Dir",
+  "tr": "Yön"
+ },{
+  "en": "dir",
+  "tr": "yön"
+ },{
+  "en": "Directory",
+  "tr": "dizin"
+ },{
+  "en": "Directory Link",
+  "tr": "Dizin Bağlantısı"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Nagle'ın algoritmasını devre dışı bırak (TCP_NODELAY seçeneği)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Oturumun Bağlantısını Kes"
+ },{
+  "en": "Disk",
+  "tr": "Disk"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Karakterleri yankılamayın"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Mevcut oturumu kapatmak istiyor musunuz?"
+ },{
+  "en": "Document",
+  "tr": "Belge"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Bu mesajı bir daha gösterme"
+ },{
+  "en": "Double click",
+  "tr": "Çift tıklama"
+ },{
+  "en": "Double click event",
+  "tr": "Çift tıklama olayı"
+ },{
+  "en": "Download",
+  "tr": "İndir"
+ },{
+  "en": "download",
+  "tr": "indirmek"
+ },{
+  "en": "Download directory",
+  "tr": "İndirme dizini"
+ },{
+  "en": "downloaded",
+  "tr": "İndirildi"
+ },{
+  "en": "Drop Selection",
+  "tr": "Seçimi Bırak"
+ },{
+  "en": "Duplicate",
+  "tr": "Çiftleme"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Komutu Çoğalt"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Yinelenen Görünüm"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dinamik yönlendirme"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Girilen her karakter yankılanır"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Düzenleme sırasında her karakteri yankıla"
+ },{
+  "en": "Echo random characters",
+  "tr": "Yankı rastgele karakterler"
+ },{
+  "en": "Edit",
+  "tr": "Düzenle"
+ },{
+  "en": "Editor",
+  "tr": "Editör"
+ },{
+  "en": "editor",
+  "tr": "editör"
+ },{
+  "en": "Editor Settings",
+  "tr": "Düzenleyici Ayarları"
+ },{
+  "en": "Elapsed",
+  "tr": "geçen"
+ },{
+  "en": "Elide left",
+  "tr": "Sola atla"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide orta"
+ },{
+  "en": "Elide right",
+  "tr": "Sağa atla"
+ },{
+  "en": "Empty",
+  "tr": "Boş"
+ },{
+  "en": "Enable command mode",
+  "tr": "Komut modunu etkinleştir"
+ },{
+  "en": "Enable local mode",
+  "tr": "Yerel modu etkinleştir"
+ },{
+  "en": "Enable SFTP",
+  "tr": "SFTP(S)'yi Etkinleştir"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "TCP canlı tutmayı etkinleştir (SO_KEEPALIVE seçeneği)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Sanal alanları etkinleştir"
+ },{
+  "en": "End Of Document",
+  "tr": "Belgenin Sonu"
+ },{
+  "en": "End Of Line",
+  "tr": "Satır Sonu"
+ },{
+  "en": "End Of Pair",
+  "tr": "Çift Sonu"
+ },{
+  "en": "Engine",
+  "tr": "Motor"
+ },{
+  "en": "Environment Variable",
+  "tr": "Çevre değişkeni"
+ },{
+  "en": "Environment variables",
+  "tr": "Ortam değişkenleri"
+ },{
+  "en": "Error",
+  "tr": "Hata"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Değiştirme Şapkası ve Çapa"
+ },{
+  "en": "Execute",
+  "tr": "Yürüt"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Kimlik doğrulamadan sonra komutu yürütün"
+ },{
+  "en": "Execute command after start",
+  "tr": "Başlattıktan sonra komutu yürütün"
+ },{
+  "en": "Execute File",
+  "tr": "Dosyayı Yürüt"
+ },{
+  "en": "Exit",
+  "tr": "Çıkış"
+ },{
+  "en": "Expand",
+  "tr": "Genişletmek"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Snippet'i Genişlet"
+ },{
+  "en": "Explorer",
+  "tr": "Gezgin"
+ },{
+  "en": "External Tools",
+  "tr": "Harici Araçlar"
+ },{
+  "en": "External X display",
+  "tr": "Harici X ekranı"
+ },{
+  "en": "ExtraBold",
+  "tr": "Ekstra Kalın"
+ },{
+  "en": "ExtraLight",
+  "tr": "Ekstra ışık"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Geçici dosya oluşturulamadı:\n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Dizin açılamadı: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Ana bilgisayar parmak izi alınamadı!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Dosya yüklenemedi: %1,\nDosya mevcut olmayabilir veya onu açma izni olmayabilir."
+ },{
+  "en": "Fast",
+  "tr": "Hızlı"
+ },{
+  "en": "Favorites",
+  "tr": "Favoriler"
+ },{
+  "en": "Features",
+  "tr": "Özellikleri"
+ },{
+  "en": "File",
+  "tr": "Dosya"
+ },{
+  "en": "file",
+  "tr": "dosya"
+ },{
+  "en": "File Link",
+  "tr": "Dosya Bağlantısı"
+ },{
+  "en": "File Name",
+  "tr": "Dosya Adı"
+ },{
+  "en": "File name",
+  "tr": "Dosya adı"
+ },{
+  "en": "File Path",
+  "tr": "Dosya Yolu"
+ },{
+  "en": "Filer",
+  "tr": "dosyalayıcı"
+ },{
+  "en": "filer",
+  "tr": "dosya"
+ },{
+  "en": "Filter",
+  "tr": "Filtre"
+ },{
+  "en": "Find",
+  "tr": "Bul"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Tümünü Bul"
+ },{
+  "en": "Find in Files",
+  "tr": "Dosyalarda Bul"
+ },{
+  "en": "Find Next",
+  "tr": "Sonrakini Bul"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Sonraki Seçimi Bul"
+ },{
+  "en": "Find Previous",
+  "tr": "Önceki(P) Bul"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Önceki Seçimi Bul"
+ },{
+  "en": "Fingerprint",
+  "tr": "Parmak izi"
+ },{
+  "en": "First nine tabs",
+  "tr": "İlk dokuz sekme"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Şamandıra"
+ },{
+  "en": "Flow Control",
+  "tr": "Akış Kontrolü"
+ },{
+  "en": "Focus Mode",
+  "tr": "Odak modu"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Odak Modu Ayarları"
+ },{
+  "en": "Fold",
+  "tr": "Katla"
+ },{
+  "en": "Fold All",
+  "tr": "Tümünü Katla"
+ },{
+  "en": "Fold Category",
+  "tr": "Kat Kategorisi"
+ },{
+  "en": "Fold Inside",
+  "tr": "İçine Katla"
+ },{
+  "en": "Folds",
+  "tr": "Kıvrımlar"
+ },{
+  "en": "Font",
+  "tr": "Yazı tipi"
+ },{
+  "en": "Font family",
+  "tr": "Font ailesi"
+ },{
+  "en": "Font size",
+  "tr": "Yazı tipi boyutu"
+ },{
+  "en": "Font weight",
+  "tr": "Yazı tipi ağırlığı"
+ },{
+  "en": "Forest Green",
+  "tr": "Orman Yeşili"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Biçim Seçimi"
+ },{
+  "en": "Found",
+  "tr": "Bulundu"
+ },{
+  "en": "Full month name",
+  "tr": "Tam ay adı"
+ },{
+  "en": "Full Screen",
+  "tr": "Tam Ekran"
+ },{
+  "en": "Full screen",
+  "tr": "Tam ekran"
+ },{
+  "en": "Full weekday name",
+  "tr": "Tam hafta içi adı"
+ },{
+  "en": "Go Backward",
+  "tr": "Geri Git"
+ },{
+  "en": "Go Forward",
+  "tr": "İleri Git"
+ },{
+  "en": "Go to",
+  "tr": "git"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Geçerli Görünümde Sembole Git"
+ },{
+  "en": "Goldenrod",
+  "tr": "Altın Başak"
+ },{
+  "en": "Goto",
+  "tr": "Git"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Adres Çubuğuna Git"
+ },{
+  "en": "Goto File",
+  "tr": "Dosyaya Git"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Katlama Başlığına Git"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Sonraki Katlama Başlığına Git"
+ },{
+  "en": "Goto Position",
+  "tr": "Pozisyona Git"
+ },{
+  "en": "Goto Session",
+  "tr": "Oturuma Git"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Simgeye Git"
+ },{
+  "en": "Group",
+  "tr": "Grup"
+ },{
+  "en": "Group %1",
+  "tr": "Grup 1"
+ },{
+  "en": "Groups",
+  "tr": "Gruplar"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Mikrofonlu Gssapi"
+ },{
+  "en": "Hard Reset",
+  "tr": "Sert Sıfırlama"
+ },{
+  "en": "Help",
+  "tr": "Yardım"
+ },{
+  "en": "Hex",
+  "tr": "altıgen"
+ },{
+  "en": "Hex Base",
+  "tr": "Altıgen Taban"
+ },{
+  "en": "Hex Columns",
+  "tr": "Onaltılı Sütunlar"
+ },{
+  "en": "Hex Edit",
+  "tr": "Onaltılı Düzenleme"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Onaltılı Grup Karakterleri"
+ },{
+  "en": "Hidden",
+  "tr": "Gizlenmiş"
+ },{
+  "en": "Hide",
+  "tr": "Saklamak"
+ },{
+  "en": "Hide All",
+  "tr": "Tümünü Gizle"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Yazarken imleci gizle"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Metni Gizle"
+ },{
+  "en": "Highlight",
+  "tr": "Vurgulamak"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Şapka Çizgisini Vurgula"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Eşleşen Çifti Vurgula"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "İmleç çizgisini vurgulayın"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "İmleç kelimesini vurgulayın"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Geçerli katlamayı vurgula"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Geçerli çifti vurgulayın"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Artımlı aramayı vurgulayın"
+ },{
+  "en": "History",
+  "tr": "Tarih"
+ },{
+  "en": "Home Of Line",
+  "tr": "Ana Sayfa"
+ },{
+  "en": "Host",
+  "tr": "Ev sahibi"
+ },{
+  "en": "Host address",
+  "tr": "Host adresi"
+ },{
+  "en": "Host Based",
+  "tr": "Ana Bilgisayar Tabanlı"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "12 formatındaki saatler"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Saat 24 formatında"
+ },{
+  "en": "Http proxy",
+  "tr": "HTTP proxy'si"
+ },{
+  "en": "Huge File",
+  "tr": "Büyük Dosya"
+ },{
+  "en": "Icon",
+  "tr": "Simge"
+ },{
+  "en": "Identity file",
+  "tr": "Kimlik dosyası"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Kimlik doğrulama için kimlik dosyası"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Bir Ana Parola oluşturursanız, WindTerm Ana Parola ile korunan kayıtlı bilgileri aldığında girmeniz istenecektir."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Ana Parolanızı unutursanız, parola tarafından korunan hiçbir bilgiye erişemezsiniz."
+ },{
+  "en": "Import",
+  "tr": "İçe Aktar"
+ },{
+  "en": "Import sessions",
+  "tr": "Oturumları içe aktar"
+ },{
+  "en": "In Selection",
+  "tr": "Seçimde"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Satır Girintisini Artır"
+ },{
+  "en": "Incremental",
+  "tr": "artımlı"
+ },{
+  "en": "Indent",
+  "tr": "girinti"
+ },{
+  "en": "Indent guide style",
+  "tr": "Girinti kılavuzu stili"
+ },{
+  "en": "Indent Guides",
+  "tr": "Girinti Kılavuzları"
+ },{
+  "en": "Indent size",
+  "tr": "Girinti boyutu"
+ },{
+  "en": "Indentation",
+  "tr": "Girinti"
+ },{
+  "en": "Indian Red",
+  "tr": "Hint Kırmızısı"
+ },{
+  "en": "Information",
+  "tr": "Bilgi"
+ },{
+  "en": "Insert",
+  "tr": "Ekle"
+ },{
+  "en": "Insert File",
+  "tr": "Dosya Ekle"
+ },{
+  "en": "Insert Lines",
+  "tr": "Satır Ekle"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "SEKME tuşuna basarken sekme ekle"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Boşluk ekleme ve silme, sekme duraklarını takip eder"
+ },{
+  "en": "Inserting file",
+  "tr": "Dosya ekleniyor"
+ },{
+  "en": "Internal X display",
+  "tr": "Dahili X ekranı"
+ },{
+  "en": "Interval",
+  "tr": "Aralık"
+ },{
+  "en": "Invert Selection",
+  "tr": "Seçimi Ters Çevir"
+ },{
+  "en": "item failed",
+  "tr": "öğe başarısız"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "öğeler başarısız oldu"
+ },{
+  "en": "Join Channel A",
+  "tr": "Kanal A(A)'ya Katılın"
+ },{
+  "en": "Join Channel B",
+  "tr": "B(B) Kanalına Katılın"
+ },{
+  "en": "Join Channel C",
+  "tr": "Kanal C(C)'ye Katılın"
+ },{
+  "en": "Join Channel D",
+  "tr": "Kanal D(D)'ye Katılın"
+ },{
+  "en": "Join Lines",
+  "tr": "Hatları Birleştir"
+ },{
+  "en": "Joined",
+  "tr": "katıldı"
+ },{
+  "en": "Jump Server",
+  "tr": "Jump Sunucusu"
+ },{
+  "en": "Jump server",
+  "tr": "sunucuyu atla"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Jump sunucuları"
+ },{
+  "en": "Key Exchange",
+  "tr": "Anahtar Değişimi"
+ },{
+  "en": "Key exchange order",
+  "tr": "Anahtar değişim siparişi"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Anahtar değişimi"
+ },{
+  "en": "Keyboard",
+  "tr": "Tuş takımı"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Klavye Etkileşimli"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Çubuğu"
+ },{
+  "en": "Known",
+  "tr": "Bilinen"
+ },{
+  "en": "Label",
+  "tr": "Etiket"
+ },{
+  "en": "Language",
+  "tr": "Dil"
+ },{
+  "en": "Last sessions",
+  "tr": "Son oturumlar"
+ },{
+  "en": "Layout",
+  "tr": "Düzen"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Baştaki ve Sondaki Boşluklar"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Öncü Boşluklar"
+ },{
+  "en": "Leading position",
+  "tr": "lider konum"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Tüm Kanalları Bırak"
+ },{
+  "en": "Leave all channels",
+  "tr": "Tüm kanalları terk et"
+ },{
+  "en": "Leave Channel",
+  "tr": "Kanaldan Ayrıl"
+ },{
+  "en": "Left Docks",
+  "tr": "Sol Rıhtım"
+ },{
+  "en": "Left Group",
+  "tr": "Sol Grup"
+ },{
+  "en": "Light",
+  "tr": "Işık"
+ },{
+  "en": "Line",
+  "tr": "Hat"
+ },{
+  "en": "line",
+  "tr": "hat"
+ },{
+  "en": "line at a time",
+  "tr": "bir seferde satır"
+ },{
+  "en": "Line Down",
+  "tr": "Satır Aşağı"
+ },{
+  "en": "Line Ending",
+  "tr": "Satır Sonu"
+ },{
+  "en": "Line Endings",
+  "tr": "Satır Sonları"
+ },{
+  "en": "Line Feed",
+  "tr": "Satır besleme"
+ },{
+  "en": "line height",
+  "tr": "satır yüksekliği"
+ },{
+  "en": "Line marker",
+  "tr": "çizgi işaretleyici"
+ },{
+  "en": "Line spacing",
+  "tr": "Satır aralığı"
+ },{
+  "en": "Line Up",
+  "tr": "Sıraya Girin"
+ },{
+  "en": "lines at a time",
+  "tr": "bir seferde çizgiler"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Geri kaydırma satırları"
+ },{
+  "en": "Link",
+  "tr": "Bağlantı"
+ },{
+  "en": "Link to",
+  "tr": "Bağlamak"
+ },{
+  "en": "List Tab",
+  "tr": "Liste Sekmesi"
+ },{
+  "en": "Listen Port",
+  "tr": "Bağlantı Noktasını Dinle"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Yerel yönlendirme"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Mesajı Bul"
+ },{
+  "en": "Location",
+  "tr": "Konum"
+ },{
+  "en": "Lock Screen",
+  "tr": "Kilit Ekranı"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Kilit ekranı zaman aşımı"
+ },{
+  "en": "Lock Selection",
+  "tr": "Seçimi Kilitle"
+ },{
+  "en": "Log",
+  "tr": "Günlük"
+ },{
+  "en": "Log all session output",
+  "tr": "Tüm oturum çıktılarını günlüğe kaydet"
+ },{
+  "en": "Log content pattern",
+  "tr": "Günlük içerik kalıbı"
+ },{
+  "en": "Log Dialog",
+  "tr": "Günlük İletişim Kutusu"
+ },{
+  "en": "Log file",
+  "tr": "Günlük dosyası"
+ },{
+  "en": "Log file name",
+  "tr": "Günlük dosyası adı"
+ },{
+  "en": "Log maximum size",
+  "tr": "Günlük maksimum boyutu"
+ },{
+  "en": "Log nothing",
+  "tr": "Hiçbir şey kaydetme"
+ },{
+  "en": "Log option",
+  "tr": "Günlük seçeneği"
+ },{
+  "en": "Log options",
+  "tr": "Günlük seçenekleri"
+ },{
+  "en": "Log pattern",
+  "tr": "Günlük deseni"
+ },{
+  "en": "Log printable output",
+  "tr": "Yazdırılabilir çıktıyı günlüğe kaydet"
+ },{
+  "en": "Log type",
+  "tr": "Günlük türü"
+ },{
+  "en": "Log types",
+  "tr": "Günlük türleri"
+ },{
+  "en": "Logging",
+  "tr": "Kerestecilik"
+ },{
+  "en": "Login",
+  "tr": "Giriş yapmak"
+ },{
+  "en": "Login Wizard",
+  "tr": "Giriş Sihirbazı"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Uzun Saat/Tarih"
+ },{
+  "en": "Look both guide",
+  "tr": "Her iki kılavuza da bakın"
+ },{
+  "en": "Look forward guide",
+  "tr": "ileriye bak kılavuzu"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hash'leri"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC karma siparişi"
+ },{
+  "en": "Margin Blank",
+  "tr": "Boş Kenar Boşluğu"
+ },{
+  "en": "Margin Fold",
+  "tr": "Kenar Boşluğu Katlama"
+ },{
+  "en": "Margin Number",
+  "tr": "Marj Numarası"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Kenar Boşluğu Sembolü"
+ },{
+  "en": "Margin Text",
+  "tr": "Kenar Boşluğu Metni"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Marj Zaman Damgası"
+ },{
+  "en": "Margins",
+  "tr": "Kenar Boşlukları"
+ },{
+  "en": "Marker style",
+  "tr": "İşaret stili"
+ },{
+  "en": "Master Password",
+  "tr": "Ana parola"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Yeniden anahtarlamadan önceki maksimum veri (MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Yeniden anahtarlamadan önceki maksimum süre (Dakika)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Maksimum bağlantı zaman aşımı"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Orta"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Orta Boy Orkide"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Orta Arduvaz Mavisi"
+ },{
+  "en": "Menu Bar",
+  "tr": "Menü çubuğu"
+ },{
+  "en": "Merge To Group",
+  "tr": "Grupla Birleştir"
+ },{
+  "en": "Middle click",
+  "tr": "Orta tıklama"
+ },{
+  "en": "Middle click event",
+  "tr": "Orta tıklama olayı"
+ },{
+  "en": "Milliseconds",
+  "tr": "Milisaniye"
+ },{
+  "en": "Minutes",
+  "tr": "Dakika"
+ },{
+  "en": "minutes",
+  "tr": "dakika"
+ },{
+  "en": "Mismatched",
+  "tr": "uyumsuz"
+ },{
+  "en": "Mode",
+  "tr": "Mod"
+ },{
+  "en": "Modem waiting",
+  "tr": "modem bekliyor"
+ },{
+  "en": "Modes",
+  "tr": "Modlar"
+ },{
+  "en": "Modified",
+  "tr": "Değiştirilmiş"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Değiştir"
+ },{
+  "en": "Modify Lines",
+  "tr": "Satırları Değiştir"
+ },{
+  "en": "Month",
+  "tr": "Ay"
+ },{
+  "en": "More",
+  "tr": "Diğer"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Fare Eylemleri"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Fare İzleme"
+ },{
+  "en": "Move Down",
+  "tr": "Aşağı inmek"
+ },{
+  "en": "Move event",
+  "tr": "Etkinliği taşı"
+ },{
+  "en": "Move to",
+  "tr": "Taşınmak"
+ },{
+  "en": "Move To Group",
+  "tr": "Gruba Taşı"
+ },{
+  "en": "Move Up",
+  "tr": "Yukarı Taşı"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Çoklu Şapka"
+ },{
+  "en": "Name",
+  "tr": "İsim"
+ },{
+  "en": "nesting groups",
+  "tr": "yuvalama grupları"
+ },{
+  "en": "Never",
+  "tr": "Hiçbir zaman"
+ },{
+  "en": "New directory",
+  "tr": "Yeni dizin"
+ },{
+  "en": "New File",
+  "tr": "Yeni Dosya"
+ },{
+  "en": "New file",
+  "tr": "Yeni dosya"
+ },{
+  "en": "New Line",
+  "tr": "Yeni Satır"
+ },{
+  "en": "New link",
+  "tr": "Yeni bağlantı"
+ },{
+  "en": "New password",
+  "tr": "Yeni Şifre"
+ },{
+  "en": "New Session",
+  "tr": "Yeni sezon"
+ },{
+  "en": "New Window",
+  "tr": "Yeni Pencere"
+ },{
+  "en": "Next Char",
+  "tr": "Sonraki Karakter"
+ },{
+  "en": "Next Fold",
+  "tr": "Sonraki Katlama"
+ },{
+  "en": "Next Indentation",
+  "tr": "Sonraki Girinti"
+ },{
+  "en": "Next Line",
+  "tr": "Sonraki Satır"
+ },{
+  "en": "Next Message",
+  "tr": "Sonraki Mesaj"
+ },{
+  "en": "Next Page",
+  "tr": "Sonraki Sayfa"
+ },{
+  "en": "Next Pair",
+  "tr": "Sonraki Çift"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Sonraki Paragraf"
+ },{
+  "en": "Next Scope",
+  "tr": "Sonraki Kapsam"
+ },{
+  "en": "Next Segment End",
+  "tr": "Sonraki Segment Sonu"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Sonraki Segment Başlangıcı"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Sonraki Kekeme Sayfa"
+ },{
+  "en": "Next Word",
+  "tr": "Sonraki Kelime"
+ },{
+  "en": "Next Word End",
+  "tr": "Sonraki Kelime Sonu"
+ },{
+  "en": "Next Word Part",
+  "tr": "Sonraki Kelime Bölümü"
+ },{
+  "en": "No",
+  "tr": "Numara"
+ },{
+  "en": "No action",
+  "tr": "Hiçbir eylem"
+ },{
+  "en": "No Dirs",
+  "tr": "Dirs Yok"
+ },{
+  "en": "No elide",
+  "tr": "Elid yok"
+ },{
+  "en": "No file opened",
+  "tr": "Dosya açılmadı"
+ },{
+  "en": "No filer available",
+  "tr": "Dosya yok"
+ },{
+  "en": "No Files",
+  "tr": "Dosya yok"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Aktarılacak dosya seçilmedi."
+ },{
+  "en": "No item opened",
+  "tr": "Hiçbir öğe açılmadı"
+ },{
+  "en": "No outline available",
+  "tr": "Anahat yok"
+ },{
+  "en": "No proxy",
+  "tr": "Proxy yok"
+ },{
+  "en": "No session",
+  "tr": "Oturum yok"
+ },{
+  "en": "No session available",
+  "tr": "Oturum yok"
+ },{
+  "en": "No session opened",
+  "tr": "Oturum açılmadı"
+ },{
+  "en": "No Sessions",
+  "tr": "Oturum Yok"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Desteklenen kimlik doğrulama yöntemi yok."
+ },{
+  "en": "No transfer available",
+  "tr": "Aktarım yok"
+ },{
+  "en": "No wrap",
+  "tr": "sarma yok"
+ },{
+  "en": "No X display",
+  "tr": "X ekranı yok"
+ },{
+  "en": "None",
+  "tr": "Hiçbiri"
+ },{
+  "en": "None tabs",
+  "tr": "Hiçbir sekme"
+ },{
+  "en": "Normal",
+  "tr": "Normal"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Şimdi"
+ },{
+  "en": "Nowhere",
+  "tr": "Hiçbir yerde"
+ },{
+  "en": "Octal",
+  "tr": "Sekizli"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM'den ANSI'ye"
+ },{
+  "en": "Off",
+  "tr": "Kapalı"
+ },{
+  "en": "off",
+  "tr": "kapalı"
+ },{
+  "en": "Ok",
+  "tr": "Tamam"
+ },{
+  "en": "Old",
+  "tr": "Eskimiş"
+ },{
+  "en": "Old password",
+  "tr": "Eski şifre"
+ },{
+  "en": "Olive",
+  "tr": "Zeytin"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Bir veya daha fazla oturum açılıyor, \nGeçerli pencereyi kapatmak istiyor musunuz?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Yalnızca disk dosyası yeniden yüklenebilir!"
+ },{
+  "en": "Only indentation",
+  "tr": "Yalnızca girinti"
+ },{
+  "en": "Opaque",
+  "tr": "Opak"
+ },{
+  "en": "Open",
+  "tr": "Aç"
+ },{
+  "en": "open",
+  "tr": "açık"
+ },{
+  "en": "Open directory after created",
+  "tr": "Oluşturulduktan sonra dizini aç"
+ },{
+  "en": "Open directory after download",
+  "tr": "İndirdikten sonra dizini aç"
+ },{
+  "en": "Open File",
+  "tr": "Dosyayı Aç"
+ },{
+  "en": "Open file",
+  "tr": "Açık dosya"
+ },{
+  "en": "Open file after created",
+  "tr": "Dosyayı oluşturulduktan sonra aç"
+ },{
+  "en": "Open file failed!",
+  "tr": "Dosya açma başarısız!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Açık atlama sunucusu başarısız oldu!"
+ },{
+  "en": "Open Log File",
+  "tr": "Günlük Dosyasını Aç"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Günlük Klasörünü Aç"
+ },{
+  "en": "Open Recent",
+  "tr": "En Sonu Aç"
+ },{
+  "en": "Open Selection",
+  "tr": "Seçimi Aç"
+ },{
+  "en": "Open Session",
+  "tr": "Oturumu Aç"
+ },{
+  "en": "Open session failed!",
+  "tr": "Açık oturum başarısız oldu!"
+ },{
+  "en": "Open target directory",
+  "tr": "Hedef dizini aç"
+ },{
+  "en": "Open with default editor",
+  "tr": "Varsayılan düzenleyiciyle aç"
+ },{
+  "en": "Opened",
+  "tr": "Açıldı"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh oturumları"
+ },{
+  "en": "Others",
+  "tr": "Diğerleri"
+ },{
+  "en": "Outline",
+  "tr": "anahat"
+ },{
+  "en": "Output",
+  "tr": "Çıktı"
+ },{
+  "en": "Overtype",
+  "tr": "Üzerine Yazma"
+ },{
+  "en": "Overwrite",
+  "tr": "üzerine yaz"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Günlük dosyasının üzerine yaz"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Kaynak dosya daha yeni olduğunda üzerine yaz"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Kaynak dosya daha yeni veya daha uzun olduğunda üzerine yaz"
+ },{
+  "en": "Owner",
+  "tr": "Sahip"
+ },{
+  "en": "Packet padding char",
+  "tr": "Paket dolgu karakteri"
+ },{
+  "en": "Packet size",
+  "tr": "Paket boyutu"
+ },{
+  "en": "Page",
+  "tr": "Sayfa"
+ },{
+  "en": "page",
+  "tr": "sayfa"
+ },{
+  "en": "Pair",
+  "tr": "Çift"
+ },{
+  "en": "Panes",
+  "tr": "Bölmeler"
+ },{
+  "en": "Paragraph",
+  "tr": "Paragraf"
+ },{
+  "en": "Parity",
+  "tr": "Parite"
+ },{
+  "en": "Passphrase",
+  "tr": "Parola"
+ },{
+  "en": "Password",
+  "tr": "Parola"
+ },{
+  "en": "Password quality meter",
+  "tr": "Şifre kalite ölçer"
+ },{
+  "en": "Paste",
+  "tr": "Yapıştırmak"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Yapıştır İletişim Kutusu"
+ },{
+  "en": "Paste text",
+  "tr": "Metni yapıştır"
+ },{
+  "en": "Pause",
+  "tr": "Duraklat"
+ },{
+  "en": "Paused",
+  "tr": "duraklatıldı"
+ },{
+  "en": "Pausing",
+  "tr": "duraklatma"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Proxy(D) ile DNS araması gerçekleştirin"
+ },{
+  "en": "Period",
+  "tr": "Dönem"
+ },{
+  "en": "Permissions",
+  "tr": "izinler"
+ },{
+  "en": "pixels",
+  "tr": "piksel"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Lütfen bu görünüm için yeni bir ad girin"
+ },{
+  "en": "Please input master password",
+  "tr": "Lütfen ana şifreyi girin"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Lütfen ana şifreyi girin, boş bırakın veya devre dışı bırakmak için iptal edin"
+ },{
+  "en": "Please input new group",
+  "tr": "Lütfen yeni grup girin"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Lütfen belirlediğiniz Ana Parolayı hatırladığınızdan emin olun."
+ },{
+  "en": "Port",
+  "tr": "Liman"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Tema yazı tiplerini tercih edin"
+ },{
+  "en": "Preferences",
+  "tr": "Tercihler"
+ },{
+  "en": "Preserve",
+  "tr": "Korumak"
+ },{
+  "en": "Preview All",
+  "tr": "Tümünü Önizle"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Önizleme Sembolü"
+ },{
+  "en": "Previous Char",
+  "tr": "Önceki Karakter"
+ },{
+  "en": "Previous Fold",
+  "tr": "Önceki Katlama"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Önceki Girinti"
+ },{
+  "en": "Previous Line",
+  "tr": "Önceki Satır"
+ },{
+  "en": "Previous Message",
+  "tr": "Önceki Mesaj"
+ },{
+  "en": "Previous Page",
+  "tr": "Önceki Sayfa"
+ },{
+  "en": "Previous Pair",
+  "tr": "Önceki Çift"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Önceki Paragraf"
+ },{
+  "en": "Previous Scope",
+  "tr": "Önceki Kapsam"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Önceki Segment Sonu"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Önceki Segment Başlangıcı"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Önceki Kekeme Sayfa"
+ },{
+  "en": "Previous Word",
+  "tr": "Önceki Kelime"
+ },{
+  "en": "Previous Word End",
+  "tr": "Önceki Kelime Sonu"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Önceki Kelime Bölümü"
+ },{
+  "en": "Printable output",
+  "tr": "Yazdırılabilir çıktı"
+ },{
+  "en": "Process",
+  "tr": "İşlem"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "%1 işlemi çöktü."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "%1 işlemi başlatılamadı."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "İşlem %1 zaman aşımı."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Program [Argümanlar]"
+ },{
+  "en": "Project",
+  "tr": "Proje"
+ },{
+  "en": "Properties",
+  "tr": "Özellikler"
+ },{
+  "en": "Property",
+  "tr": "Mülk"
+ },{
+  "en": "Protocol",
+  "tr": "Protokol"
+ },{
+  "en": "Proxy",
+  "tr": "vekil"
+ },{
+  "en": "Proxy Host",
+  "tr": "Vekalet sahibi"
+ },{
+  "en": "Proxy Port",
+  "tr": "Proxy Bağlantı Noktası"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Vekil sunucu Ayarları"
+ },{
+  "en": "Proxy Type",
+  "tr": "Proxy Türü"
+ },{
+  "en": "Public Key",
+  "tr": "Genel anahtar"
+ },{
+  "en": "Public Keys",
+  "tr": "Genel Anahtarlar"
+ },{
+  "en": "Public keys order",
+  "tr": "Ortak anahtar siparişi"
+ },{
+  "en": "Putty sessions",
+  "tr": "Macun oturumları"
+ },{
+  "en": "Query URL",
+  "tr": "Sorgu URL'si"
+ },{
+  "en": "Question",
+  "tr": "Soru"
+ },{
+  "en": "Quick",
+  "tr": "Hızlı"
+ },{
+  "en": "Quick Bar",
+  "tr": "Hızlı Çubuk"
+ },{
+  "en": "Quick Commands",
+  "tr": "Hızlı Komutlar"
+ },{
+  "en": "Read Only",
+  "tr": "Salt Okunur"
+ },{
+  "en": "Ready",
+  "tr": "Hazır"
+ },{
+  "en": "Real guide",
+  "tr": "Gerçek rehber"
+ },{
+  "en": "Receive XModem",
+  "tr": "XModem(X) Al"
+ },{
+  "en": "Receive YModem",
+  "tr": "YModem(Y) Al"
+ },{
+  "en": "Receive ZModem",
+  "tr": "ZModem(Z) Al"
+ },{
+  "en": "received",
+  "tr": "Alınan"
+ },{
+  "en": "Recent",
+  "tr": "Son"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Son Oturumlar"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Oturumu Yeniden Bağla"
+ },{
+  "en": "Rectangle",
+  "tr": "Dikdörtgen"
+ },{
+  "en": "rectangle",
+  "tr": "dikdörtgen"
+ },{
+  "en": "Red",
+  "tr": "Kırmızı"
+ },{
+  "en": "Redo",
+  "tr": "Yinele"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "%1 Eylemi Yeniden Yap"
+ },{
+  "en": "Refresh",
+  "tr": "Yenile"
+ },{
+  "en": "Regular Expression",
+  "tr": "Düzenli ifade"
+ },{
+  "en": "Reload",
+  "tr": "Tekrar yükle"
+ },{
+  "en": "Reload File",
+  "tr": "Dosyayı Yeniden Yükle"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Kodlama ile Yeniden Yükle"
+ },{
+  "en": "Remote forwarding",
+  "tr": "uzaktan yönlendirme"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "uzak yol"
+ },{
+  "en": "Remove",
+  "tr": "Kaldır"
+ },{
+  "en": "remove",
+  "tr": "kaldırmak"
+ },{
+  "en": "Remove All",
+  "tr": "Tümünü Kaldır"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Boş Satırları Kaldır"
+ },{
+  "en": "Remove Command",
+  "tr": "Komutu Kaldır"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Yinelenen Satırları Kaldır"
+ },{
+  "en": "Remove Group",
+  "tr": "Grubu Kaldır"
+ },{
+  "en": "Remove items",
+  "tr": "Öğeleri kaldır"
+ },{
+  "en": "Remove Sender",
+  "tr": "Göndereni Kaldır"
+ },{
+  "en": "Removing",
+  "tr": "Kaldırma"
+ },{
+  "en": "Rename",
+  "tr": "Yeniden isimlendirmek"
+ },{
+  "en": "Rename Group",
+  "tr": "Grubu Yeniden Adlandır"
+ },{
+  "en": "Rename tab",
+  "tr": "Sekmeyi yeniden adlandır"
+ },{
+  "en": "Rename View",
+  "tr": "Görünümü Yeniden Adlandır"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Kapalı Görünümü Yeniden Aç"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Son Komutu Tekrarla"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Tekrar Tekrar Yürüt"
+ },{
+  "en": "Replace",
+  "tr": "Değiştir"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Tümünü Değiştir"
+ },{
+  "en": "Replace in Files",
+  "tr": "Dosyalarda Değiştir"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Etkili olması için yeniden başlatma gerektirir"
+ },{
+  "en": "Reset",
+  "tr": "Sıfırla"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Karakter Setini Sıfırla"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Yakınlaştırmayı Sıfırla"
+ },{
+  "en": "Resume",
+  "tr": "Devam et"
+ },{
+  "en": "Resuming",
+  "tr": "devam ettiriliyor"
+ },{
+  "en": "Right click",
+  "tr": "Sağ tıklayın"
+ },{
+  "en": "Right click event",
+  "tr": "Sağ tıklama olayı"
+ },{
+  "en": "Right Docks",
+  "tr": "Sağ Rıhtım"
+ },{
+  "en": "Right Group",
+  "tr": "Sağ Grup"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Kaydırmak için fare tekerleğini döndürün"
+ },{
+  "en": "Rows",
+  "tr": "Satırlar"
+ },{
+  "en": "Royal Blue",
+  "tr": "Kraliyet Mavisi"
+ },{
+  "en": "Run Tool",
+  "tr": "Çalıştırma Aracı"
+ },{
+  "en": "Save",
+  "tr": "Kaydetmek"
+ },{
+  "en": "Save All",
+  "tr": "Tümünü Kaydet"
+ },{
+  "en": "Save As",
+  "tr": "Farklı Kaydet"
+ },{
+  "en": "Save Copy As",
+  "tr": "Kopyayı Farklı Kaydet"
+ },{
+  "en": "Save file failed!",
+  "tr": "Dosya kaydedilemedi!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Seçimi Farklı Kaydet"
+ },{
+  "en": "Save Session",
+  "tr": "Oturumu(S) Kaydet"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Kaydedilen otomatik kimlik doğrulama"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Şema Araçları"
+ },{
+  "en": "Scope",
+  "tr": "Kapsam"
+ },{
+  "en": "Screen Locked",
+  "tr": "Ekran Kilitli"
+ },{
+  "en": "Scroll Left",
+  "tr": "Sola Kaydır"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Satırı Aşağı Kaydır"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Satırı Yukarı Kaydır"
+ },{
+  "en": "Scroll Right",
+  "tr": "Sağa Kaydır"
+ },{
+  "en": "Search",
+  "tr": "Arama"
+ },{
+  "en": "Search engine",
+  "tr": "Arama motorları)"
+ },{
+  "en": "Search Engine",
+  "tr": "Arama motoru"
+ },{
+  "en": "Search Engines",
+  "tr": "Arama Motorları"
+ },{
+  "en": "Search Online",
+  "tr": "Çevrimiçi Ara"
+ },{
+  "en": "Search or enter address",
+  "tr": "Adres arayın veya girin"
+ },{
+  "en": "Searching",
+  "tr": "Aranıyor"
+ },{
+  "en": "Seconds",
+  "tr": "Saniye"
+ },{
+  "en": "seconds",
+  "tr": "saniye"
+ },{
+  "en": "Security",
+  "tr": "Güvenlik"
+ },{
+  "en": "Segment",
+  "tr": "Segment"
+ },{
+  "en": "Select",
+  "tr": "Seç"
+ },{
+  "en": "Select All",
+  "tr": "Tümünü Seç"
+ },{
+  "en": "Select Column To",
+  "tr": "Sütunu Seçin "
+ },{
+  "en": "Select copy folder",
+  "tr": "Kopya klasörünü seçin"
+ },{
+  "en": "Select copy items",
+  "tr": "Kopyalama öğelerini seçin"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Alınacak dizini seçin"
+ },{
+  "en": "Select download folder",
+  "tr": "İndirme klasörünü seçin"
+ },{
+  "en": "Select files to send",
+  "tr": "Gönderilecek dosyaları seçin"
+ },{
+  "en": "Select Fold",
+  "tr": "Katla(F) Seç"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Snippet'i Geriye Seçin"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Snippet İleri'yi seçin"
+ },{
+  "en": "Select To",
+  "tr": "Kime(T) Seçin"
+ },{
+  "en": "Select upload items",
+  "tr": "Yükleme öğelerini seçin"
+ },{
+  "en": "Selected position",
+  "tr": "Seçilen pozisyon"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Seçilmiş Oturumlar"
+ },{
+  "en": "Selection",
+  "tr": "seçim"
+ },{
+  "en": "Send",
+  "tr": "Göndermek"
+ },{
+  "en": "Send line By line",
+  "tr": "Satıra göre gönder"
+ },{
+  "en": "Send Text",
+  "tr": "Metni gönder"
+ },{
+  "en": "Send XModem",
+  "tr": "XModem(X) Gönder"
+ },{
+  "en": "Send YModem",
+  "tr": "YModem(Y) Gönder"
+ },{
+  "en": "Send ZModem",
+  "tr": "ZModem(Z) Gönder"
+ },{
+  "en": "Sender",
+  "tr": "Gönderen"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "%1 gönderilemedi: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Gönderiliyor: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Oturumu canlı tutmak için boş paket gönderir"
+ },{
+  "en": "sent",
+  "tr": "gönderilmiş"
+ },{
+  "en": "Serial",
+  "tr": "Seri"
+ },{
+  "en": "Server",
+  "tr": "sunucu"
+ },{
+  "en": "Session",
+  "tr": "Oturum, toplantı, celse"
+ },{
+  "en": "session",
+  "tr": "oturum, toplantı, celse"
+ },{
+  "en": "Session Group",
+  "tr": "Oturum Grubu"
+ },{
+  "en": "Session Log",
+  "tr": "Oturum Günlüğü"
+ },{
+  "en": "Session name",
+  "tr": "Oturum adı"
+ },{
+  "en": "Session Settings",
+  "tr": "Oturum Ayarları"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Tüm Windows'taki Oturumlar"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Mevcut Gruptaki Oturumlar"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Geçerli Penceredeki Oturumlar"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "%1 Grubundaki Oturumlar"
+ },{
+  "en": "Set default editor",
+  "tr": "Varsayılan düzenleyiciyi(S) ayarla"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Sekme Rengini Ayarla"
+ },{
+  "en": "Settings",
+  "tr": "Ayarlar"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Şekil"
+ },{
+  "en": "Shell",
+  "tr": "Kabuk"
+ },{
+  "en": "Shell sessions",
+  "tr": "Kabuk oturumları"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Kabuk Oturumları"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Kısa Saat/Tarih"
+ },{
+  "en": "Show",
+  "tr": "Göstermek"
+ },{
+  "en": "Show All",
+  "tr": "Tümünü Göster"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Tüm Açılan ve Son Düzenleyicileri Göster"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Tüm Açılan ve Son Kullanılan Terminalleri Göster"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Eylemleri Göster ve Çalıştır"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Sekmeyi kapat onay iletişim kutusunu göster"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Pencereyi kapat onay iletişim kutusunu göster"
+ },{
+  "en": "Show column markers",
+  "tr": "Sütun işaretçilerini göster"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Komutları alfabetik sırayla göster"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Geçerli %1 özelliğini göster"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Grup komutlarını sırayla göster"
+ },{
+  "en": "Show group title",
+  "tr": "Grup başlığını göster"
+ },{
+  "en": "Show hidden items",
+  "tr": "Gizli öğeleri göster"
+ },{
+  "en": "Show in %1",
+  "tr": "%1'de göster"
+ },{
+  "en": "Show In Line End",
+  "tr": "Satır Sonunu Göster"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Satır Başını Göster"
+ },{
+  "en": "Show In Selection",
+  "tr": "Seçimde Göster"
+ },{
+  "en": "Show indent guide",
+  "tr": "Girinti kılavuzunu göster"
+ },{
+  "en": "Show line endings",
+  "tr": "Satır sonlarını göster"
+ },{
+  "en": "Show menu",
+  "tr": "Menüyü göster"
+ },{
+  "en": "Show More Tools",
+  "tr": "Daha Fazla Araç Göster"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Birden çok grubu göster"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Alternatif ekranda yapıştır iletişim kutusunu göster"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Ana ekranda yapıştır iletişim kutusunu göster"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Boşlukları ve sekmeleri göster"
+ },{
+  "en": "Show Tabs",
+  "tr": "Sekmeleri Göster"
+ },{
+  "en": "Show Text",
+  "tr": "Metni Göster"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Sekme numarasını sekmelerde göster"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Odak modu başladığında bu diyaloğu göster"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Sarma sembollerini göster"
+ },{
+  "en": "Shrink",
+  "tr": "Çekmek"
+ },{
+  "en": "Size",
+  "tr": "Boy"
+ },{
+  "en": "Skip",
+  "tr": "Atlamak"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Çorap v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "Yumuşak Sıfırlama"
+ },{
+  "en": "Sort",
+  "tr": "Sırala"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Satırları Sıralama Büyük/Küçük Harfe Duyarsız"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Satırları Büyük/Küçük Harfe Duyarlı(S) Sırala"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Satırları Rastgele Sırada Sırala"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Satırları Ters Sırada Sırala"
+ },{
+  "en": "spaces",
+  "tr": "boşluklar"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Boşluklardan Sekmelere"
+ },{
+  "en": "Spacing",
+  "tr": "aralık"
+ },{
+  "en": "Special",
+  "tr": "Özel"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Dosyaları sürükleyip bırakırken protokolü belirtin"
+ },{
+  "en": "Speed",
+  "tr": "Hız"
+ },{
+  "en": "Split",
+  "tr": "Böl"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Grubu Yatay Olarak Böl"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Grubu Dikey Olarak Böl"
+ },{
+  "en": "Split Lines",
+  "tr": "Bölünmüş Çizgiler"
+ },{
+  "en": "Split Selection",
+  "tr": "Bölünmüş Seçim"
+ },{
+  "en": "Split To Group",
+  "tr": "Gruba (S) Böl"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Görünümü Yatay Olarak Böl"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Görünümü Dikey Olarak Böl"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Başlat"
+ },{
+  "en": "Start Of Document",
+  "tr": "Belgenin Başlangıcı"
+ },{
+  "en": "Start Of Line",
+  "tr": "Satır Başlangıcı"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Çift Başlangıcı"
+ },{
+  "en": "Startup",
+  "tr": "Başlamak"
+ },{
+  "en": "Stash",
+  "tr": "Zula"
+ },{
+  "en": "Status Bar",
+  "tr": "Durum çubuğu"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Çelik Mavi"
+ },{
+  "en": "Sticky",
+  "tr": "Yapışkan"
+ },{
+  "en": "Stop",
+  "tr": "Durmak"
+ },{
+  "en": "Stop Bits",
+  "tr": "Durdurma Bitleri"
+ },{
+  "en": "Stop loading",
+  "tr": "Yüklemeyi durdur"
+ },{
+  "en": "Stop sender",
+  "tr": "göndereni durdur"
+ },{
+  "en": "Stop Tools",
+  "tr": "Araçları Durdur"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Bu dosyayı izlemeyi bırak"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Akışı ve Sütunu(S) Değiştir"
+ },{
+  "en": "switch to tab",
+  "tr": "sekmeye geç"
+ },{
+  "en": "Symbols",
+  "tr": "Semboller"
+ },{
+  "en": "Sync channel",
+  "tr": "Senkronizasyon kanalı"
+ },{
+  "en": "Sync Edit",
+  "tr": "Senkronizasyon Düzenleme"
+ },{
+  "en": "Sync Input",
+  "tr": "Senkronizasyon Girişi"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "%1 kanalındaki giriş senkronize ediliyor"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Sözdizimi Şemaları"
+ },{
+  "en": "System",
+  "tr": "Sistem"
+ },{
+  "en": "Tab",
+  "tr": "Sekme"
+ },{
+  "en": "Tab Color",
+  "tr": "Sekme Rengi"
+ },{
+  "en": "Tab Features",
+  "tr": "Sekme Özellikleri"
+ },{
+  "en": "Tab Group",
+  "tr": "Sekme Grubu"
+ },{
+  "en": "Tab Index",
+  "tr": "Sekme Dizini"
+ },{
+  "en": "Tab size",
+  "tr": "Sekme boyutu"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Sekme metni elit modu"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Sekme küçük resim radyosu"
+ },{
+  "en": "Tab Title",
+  "tr": "Sekme Başlığı"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Seçili Satırları Sekme"
+ },{
+  "en": "Tabs",
+  "tr": "Sekmeler"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Boşluklara Sekmeler"
+ },{
+  "en": "Target",
+  "tr": "Hedef"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Hedef klasör"
+ },{
+  "en": "Targets",
+  "tr": "Hedefler"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP bağlantı seçenekleri"
+ },{
+  "en": "Teal",
+  "tr": "deniz mavisi"
+ },{
+  "en": "Term",
+  "tr": "Dönem"
+ },{
+  "en": "Terminal",
+  "tr": "terminal"
+ },{
+  "en": "terminal",
+  "tr": "terminal"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Terminal Ayarları"
+ },{
+  "en": "Text",
+  "tr": "Metin"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Metin: %1 satır, %2 karakter"
+ },{
+  "en": "The % sign",
+  "tr": "İşaret"
+ },{
+  "en": "The actual text to log",
+  "tr": "Günlüğe kaydedilecek gerçek metin"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Hedef klasör, kaynak klasörün bir alt klasörüdür:\n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Belge değiştirildi.\nDeğişikliklerinizi kaydetmek istiyor musunuz?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Tuş kombinasyonu (%1) bir komut değil."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "lrzsz algılanmadı. Lütfen önce lrzsz'yi kurun."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Ana şifre değiştirildi."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Şifre onayı eşleşmiyor."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Sunucu iletimi iptal etti."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Oturum <b>bağlantısı kesildi</b>, yeniden bağlanmak için <b>Enter</b>'a basın."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Bir paket yeniden deneme sınırı içinde %1 olmadığı için aktarım iptal edildi."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Paket sıra numarası yanlış olduğu için aktarım iptal edildi."
+ },{
+  "en": "Theme",
+  "tr": "Buluşma)"
+ },{
+  "en": "Thin",
+  "tr": "İnce"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Büyük dosya eşiği"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Zaman biçimi"
+ },{
+  "en": "Time left",
+  "tr": "Kalan zaman"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Çizgilerin zaman damgası"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Ters Duruma"
+ },{
+  "en": "To Line End",
+  "tr": "Satır Sonuna"
+ },{
+  "en": "To Line Start",
+  "tr": "Satır Başlangıcına"
+ },{
+  "en": "To Lower Case",
+  "tr": "Küçük Harfe"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "MacOS 9 CR(M) için"
+ },{
+  "en": "To Title Case",
+  "tr": "Başlık Davasına"
+ },{
+  "en": "To Unix LF",
+  "tr": "Unix LF(U)'ya"
+ },{
+  "en": "To Upper Case",
+  "tr": "Büyük Harfe"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Windows CRLF(W)'ye"
+ },{
+  "en": "To Word End",
+  "tr": "Kelimenin Sonuna"
+ },{
+  "en": "To Word Start",
+  "tr": "Kelime Başlangıcına"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Katlamayı Aç/Kapat"
+ },{
+  "en": "Tool",
+  "tr": "Araç"
+ },{
+  "en": "Toolbar",
+  "tr": "Araç çubuğu"
+ },{
+  "en": "Top Group",
+  "tr": "En İyi Grup"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Ağaçta Metin Seçimini İzle"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Metinde Ağaç Seçimini İzle"
+ },{
+  "en": "Tracking Events",
+  "tr": "Olayları İzleme"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Sondaki Boşluklar"
+ },{
+  "en": "Trailing position",
+  "tr": "takip eden pozisyon"
+ },{
+  "en": "Transfer",
+  "tr": "Aktar"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Transfer Çubuğu"
+ },{
+  "en": "Transfer Binary",
+  "tr": "İkili (T) Transferi"
+ },{
+  "en": "Transfer complete",
+  "tr": "Transfer tamamlandı"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Aktarım tamamlanmadı"
+ },{
+  "en": "Translucent",
+  "tr": "yarı saydam"
+ },{
+  "en": "Transparent",
+  "tr": "Şeffaf"
+ },{
+  "en": "Transpose",
+  "tr": "devrik"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Kaydetme işleminde sondaki boşlukları kırp"
+ },{
+  "en": "Trust this host",
+  "tr": "Bu sunucuya güven"
+ },{
+  "en": "Tunnels",
+  "tr": "Tüneller"
+ },{
+  "en": "Type",
+  "tr": "Tip"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Tip '?' işlemlerle ilgili yardım almak için buraya yazabilirsiniz"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Uncomment Seçimi"
+ },{
+  "en": "Underline",
+  "tr": "Altını çizmek"
+ },{
+  "en": "underLine",
+  "tr": "altını çizmek"
+ },{
+  "en": "Undo",
+  "tr": "Geri al"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "%1 Eylemi Geri Al"
+ },{
+  "en": "Unfold",
+  "tr": "Aç"
+ },{
+  "en": "Unfold All",
+  "tr": "Tümünü Aç"
+ },{
+  "en": "Unfold Category",
+  "tr": "Kategoriyi Aç"
+ },{
+  "en": "Unfold Inside",
+  "tr": "İçeride Aç"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Satır sonlarını kaydetmede birleştir"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: kabuk dosyası yolu mutlak olmalıdır"
+ },{
+  "en": "Unknown",
+  "tr": "Bilinmeyen"
+ },{
+  "en": "unknown",
+  "tr": "Bilinmeyen"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Seçili Satırları Kaldır"
+ },{
+  "en": "Untitled",
+  "tr": "başlıksız"
+ },{
+  "en": "Untrust this host",
+  "tr": "Bu ana bilgisayara güvenmeyin"
+ },{
+  "en": "upload",
+  "tr": "yüklemek"
+ },{
+  "en": "Upload command",
+  "tr": "Yükleme komutu"
+ },{
+  "en": "Upload directory",
+  "tr": "Dizini yükle"
+ },{
+  "en": "Upload file",
+  "tr": "Dosya yükleme"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Geçerli klasöre yükle"
+ },{
+  "en": "uploaded",
+  "tr": "yüklendi"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "Sorgu yerine %q olan URL"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Ekranı silmek için arka plan rengini kullan"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Yüksek hızlı aktarım kullan"
+ },{
+  "en": "Use system line ending",
+  "tr": "Sistem satırı sonunu kullan"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Bunu varsayılan olarak kullanın ve bir daha sorma"
+ },{
+  "en": "User",
+  "tr": "kullanıcı"
+ },{
+  "en": "Username echo mode",
+  "tr": "Kullanıcı adı yankı modu"
+ },{
+  "en": "Value",
+  "tr": "Değer"
+ },{
+  "en": "Variable",
+  "tr": "Değişken"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Sunucunun parmak izini doğrulama"
+ },{
+  "en": "View",
+  "tr": "Görüntüle"
+ },{
+  "en": "Virtual Space",
+  "tr": "Sanal Alan"
+ },{
+  "en": "Waiting",
+  "tr": "Beklemek"
+ },{
+  "en": "Warning",
+  "tr": "Uyarı"
+ },{
+  "en": "Wheel event",
+  "tr": "Tekerlek olayı"
+ },{
+  "en": "When destination file exists",
+  "tr": "Hedef dosya mevcut olduğunda"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Birden çok satır yapıştırırken"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Uzak başlık değiştirildiğinde"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Oturumun kimliği doğrulandığında"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Oturum kimlik doğrulaması yaparken"
+ },{
+  "en": "When window is resized",
+  "tr": "Pencere yeniden boyutlandırıldığında"
+ },{
+  "en": "Where",
+  "tr": "nerede"
+ },{
+  "en": "White Spaces",
+  "tr": "Beyaz Boşluklar"
+ },{
+  "en": "Whole Line",
+  "tr": "Tüm Hat"
+ },{
+  "en": "Whole Word",
+  "tr": "Tüm dünya"
+ },{
+  "en": "Widgets",
+  "tr": "Widget'lar"
+ },{
+  "en": "Width",
+  "tr": "Genişlik"
+ },{
+  "en": "Window",
+  "tr": "pencere"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Pencere kenarı"
+ },{
+  "en": "Window Opacity",
+  "tr": "Pencere Opaklığı"
+ },{
+  "en": "Window opacity",
+  "tr": "Pencere opaklığı"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Yöneticisi"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe veya winpty.dll bulunamadı!."
+ },{
+  "en": "Word",
+  "tr": "Kelime"
+ },{
+  "en": "Word Separators",
+  "tr": "Kelime Ayırıcılar"
+ },{
+  "en": "Word Wrap",
+  "tr": "Kelime Sarma"
+ },{
+  "en": "Working directory",
+  "tr": "Çalışma dizini"
+ },{
+  "en": "Wrap",
+  "tr": "Dürüm"
+ },{
+  "en": "Wrap by character",
+  "tr": "Karaktere göre kaydır"
+ },{
+  "en": "Wrap by word",
+  "tr": "kelimeye göre kaydır"
+ },{
+  "en": "Wrap column",
+  "tr": "Sütunu sar"
+ },{
+  "en": "Wrap mode",
+  "tr": "Sarma modu"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Sarma Sembolleri"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Yanlış ana şifre."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z Modemi"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z modem 4GB'tan büyük klasörleri veya dosyaları iletemez: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 kimlik doğrulama protokolü"
+ },{
+  "en": "X11 display",
+  "tr": "X11 ekran"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "2 basamaklı yıl"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "4 basamaklı yıl"
+ },{
+  "en": "Yes",
+  "tr": "Evet"
+ },{
+  "en": "Zero",
+  "tr": "Sıfır"
+ },{
+  "en": "Zoom",
+  "tr": "yakınlaştır"
+ },{
+  "en": "Zoom In",
+  "tr": "Yakınlaştır"
+ },{
+  "en": "Zoom level",
+  "tr": "Yakınlaştırma düzeyi"
+ },{
+  "en": "Zoom Out",
+  "tr": "Uzaklaştır"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[%1s içinde çöktü]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Boş]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Hata: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[%1s içinde tamamlandı, Çıkış kodu %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[%1s içinde tamamlandı]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Grup listesi boş]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Gezinme listesi boş]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Arama motoru yok]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Son URL'ler boş]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Yeniden yapma listesi boş]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Şema listesi boş]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Tema listesi boş]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Araç çubuğu listesi boş]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Geri alma listesi boş]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Kullanıcı İptal Edildi]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[kullanıcı@]ana bilgisayar adı"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows listesi boş]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

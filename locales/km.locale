@@ -1,0 +1,3513 @@
+{
+ "language": "Khmer - ខ្មែរ",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(គ្រោងការណ៍) ឧបករណ៍"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 មិនត្រូវបានគាំទ្រដោយ %3"
+ },{
+  "en": "%1 copied",
+  "tr": "បានចម្លង %1"
+ },{
+  "en": "%1 downloaded",
+  "tr": "បានទាញយក %1"
+ },{
+  "en": "%1 File",
+  "tr": "ឯកសារ %1"
+ },{
+  "en": "%1 item failed",
+  "tr": "ធាតុ %1 បានបរាជ័យ"
+ },{
+  "en": "%1 items",
+  "tr": "ធាតុ %1"
+ },{
+  "en": "%1 items failed",
+  "tr": "ធាតុ %1 បានបរាជ័យ"
+ },{
+  "en": "%1 items/s",
+  "tr": "ធាតុ %1/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 នៃ %2"
+ },{
+  "en": "%1 removed",
+  "tr": "បានលុប %1 ចេញ"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 នេះ %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "បានផ្ទុកឡើង %1"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "ល្បឿន %1/ %2៖ %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 ការព្យាយាមពាក្យសម្ងាត់បរាជ័យ"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> បាន <b> ផ្លាស់ប្តូរ </b> និង <b> ផ្ទុកឡើងវិញ </b> មិនធ្វើវិញ <b> មិន </b> អនុញ្ញាតចំពោះឯកសារធំទេ។"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> បាន <b> ផ្លាស់ប្តូរ </b> និង <b> ផ្ទុកឡើងវិញ </b> ការមិនធ្វើវិញត្រូវបានអនុញ្ញាត។"
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> បាន <b> ផ្លាស់ប្តូរ </b> តើអ្នកចង់ផ្ទុកវាឡើងវិញទេ?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> ត្រូវបាន <b> ផ្លាស់ទីឬលុបចោល </b>"
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) ត្រូវបានចុច។ កំពុងរង់ចាំកូនសោបន្ថែមទៀត"
+ },{
+  "en": "1 Char",
+  "tr": "1 តួ"
+ },{
+  "en": "16 Columns",
+  "tr": "ជួរឈរ ១៦"
+ },{
+  "en": "2 Chars",
+  "tr": "2 Chars"
+ },{
+  "en": "24 Columns",
+  "tr": "ជួរឈរ ២៤"
+ },{
+  "en": "32 Columns",
+  "tr": "ជួរឈរ ៣២"
+ },{
+  "en": "4 Chars",
+  "tr": "៤ ឆា"
+ },{
+  "en": "8 Chars",
+  "tr": "៨ ឆា"
+ },{
+  "en": "8 Columns",
+  "tr": "៨ ជួរឈរ"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "ពាក្យសម្ងាត់មេត្រូវបានប្រើដើម្បីការពារព័ត៌មានរសើបដូចជាពាក្យសម្ងាត់អេសអេស។"
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "ឈ្មោះមួយគួរតែតិចជាង ២៥៥ តួហើយមិនអាចមានតួអក្សរណាមួយដូចខាងក្រោម៖ / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "ឯកសារពីចម្ងាយត្រូវបានកែប្រែ។ ( តើអ្នកចង់ផ្ទុកឯកសារនេះត្រលប់ទៅម៉ាស៊ីនមេវិញទេ?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "វគ្គឬសំណុំជាក់លាក់"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "ឈ្មោះខែសង្ខេប"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "ឈ្មោះថ្ងៃធ្វើការខ្លី"
+ },{
+  "en": "Accept local connections only",
+  "tr": "ទទួលយកការតភ្ជាប់មូលដ្ឋានតែប៉ុណ្ណោះ"
+ },{
+  "en": "Accessed",
+  "tr": "បានចូលដំណើរការ"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "ធ្វើឱ្យការយកចិត្តទុកដាក់ជាច្រើន"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "ធ្វើឱ្យជម្រើសបន្ទាប់(N) សកម្ម"
+ },{
+  "en": "Activate Next View",
+  "tr": "ធ្វើឱ្យទិដ្ឋភាពបន្ទាប់"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "ធ្វើឱ្យជម្រើសមុន(ភីភី) សកម្ម"
+ },{
+  "en": "Activate Previous View",
+  "tr": "បើកដំណើរការទិដ្ឋភាពមុន"
+ },{
+  "en": "Activate the left tab",
+  "tr": "ធ្វើឱ្យផ្ទាំងខាងឆ្វេងសកម្ម"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "ធ្វើឱ្យផ្ទាំងដែលបានជ្រើសរើសពីមុនសកម្ម"
+ },{
+  "en": "Activate the right tab",
+  "tr": "ធ្វើឱ្យផ្ទាំងត្រឹមត្រូវ"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "បើកដំណើរការផ្ទាំងបន្ទាប់ពីបិទ"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "បើកដំណើរការផ្ទាំងបន្ទាប់ពីដាក់នៅលើ"
+ },{
+  "en": "Add",
+  "tr": "បន្ថែម)"
+ },{
+  "en": "Add All",
+  "tr": "បន្ថែមទាំងអស់"
+ },{
+  "en": "Add Command",
+  "tr": "បន្ថែមពាក្យបញ្ជា"
+ },{
+  "en": "Add Group",
+  "tr": "បន្ថែមក្រុម"
+ },{
+  "en": "Add Sender",
+  "tr": "បន្ថែមអ្នកផ្ញើ"
+ },{
+  "en": "Add Tab",
+  "tr": "បន្ថែមថេប"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "កែតម្រូវជួរដេកនិងជួរឈរបង្អួច"
+ },{
+  "en": "Advanced Sort",
+  "tr": "តម្រៀបកម្រិតខ្ពស់"
+ },{
+  "en": "Agent",
+  "tr": "ភ្នាក់ងារ"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវរបស់ភ្នាក់ងារបានបរាជ័យសូមសាកល្បងវិធីសាស្ត្រផ្សេងទៀត"
+ },{
+  "en": "All",
+  "tr": "ទាំងអស់"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "វគ្គ %1 ទាំងអស់នឹងត្រូវលុប។ ( តើអ្នកចង់បន្តនាំចូលសម័យដែរឬទេ?"
+ },{
+  "en": "All session output",
+  "tr": "លទ្ធផលសម័យទាំងអស់"
+ },{
+  "en": "All Sessions",
+  "tr": "វគ្គទាំងអស់"
+ },{
+  "en": "All tabs",
+  "tr": "ផ្ទាំងទាំងអស់"
+ },{
+  "en": "Alternate column background color",
+  "tr": "ពណ៌ផ្ទៃខាងក្រោយជួរឈរជំនួស"
+ },{
+  "en": "Alternate line background color",
+  "tr": "ពណ៌ផ្ទៃខាងក្រោយជំនួស"
+ },{
+  "en": "Always On Top",
+  "tr": "តែងតែនៅពីលើ"
+ },{
+  "en": "Always on top",
+  "tr": "តែងតែនៅលើកំពូល"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "កំហុសមួយបានកើតឡើងនៅពេលព្យាយាមអានពីដំណើរការ %1 ។"
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "កំហុសមួយបានកើតឡើងនៅពេលព្យាយាមសរសេរទៅដំណើរការ %1 ។"
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "កំហុសដែលមិនស្គាល់បានកើតឡើងនៅក្នុងដំណើរការ %1"
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI ទៅ OEM"
+ },{
+  "en": "Answer back",
+  "tr": "ឆ្លើយមកវិញ"
+ },{
+  "en": "Any",
+  "tr": "ណាមួយ"
+ },{
+  "en": "Anything Palette",
+  "tr": "ក្ដារលាយអ្វី"
+ },{
+  "en": "Anywhere",
+  "tr": "គ្រប់ទីកន្លែង"
+ },{
+  "en": "Appearance",
+  "tr": "រូបរាង"
+ },{
+  "en": "Append",
+  "tr": "បន្ថែម"
+ },{
+  "en": "Append log file",
+  "tr": "បន្ថែមឯកសារកំណត់ហេតុ"
+ },{
+  "en": "Application",
+  "tr": "ការដាក់ពាក្យ"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "តើអ្នកប្រាកដថាចង់លុបធាតុដែលបានជ្រើសរើស %1?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "តើអ្នកប្រាកដថាចង់លុបធាតុ <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "តើអ្នកប្រាកដថាអ្នកចង់ផ្ទុកឯកសារបច្ចុប្បន្នឡើងវិញហើយបាត់បង់ការផ្លាស់ប្តូរដែលបានធ្វើនៅក្នុង WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "តើអ្នកប្រាកដថាចង់បញ្ឈប់អ្នកផ្ញើបច្ចុប្បន្ន?"
+ },{
+  "en": "Arguments",
+  "tr": "អាគុយម៉ង់"
+ },{
+  "en": "At Caret",
+  "tr": "នៅខារ៉េត"
+ },{
+  "en": "At End",
+  "tr": "នៅចុងបញ្ចប់"
+ },{
+  "en": "At Start",
+  "tr": "នៅពេលចាប់ផ្តើម"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "ព្យាយាមផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ gssapi-with-mic"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "ព្យាយាមផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវអន្តរកម្មក្តារចុច"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "ព្យាយាមផ្ទៀងផ្ទាត់ការប្រលង"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "ព្យាយាមផ្ទៀងផ្ទាត់ពាក្យសម្ងាត់"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "ព្យាយាមផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៃកូនសោសាធារណៈ"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "ព្យាយាមផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវភ្នាក់ងារអេសអេស"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "បានផ្ទៀងផ្ទាត់ដោយជោគជ័យមួយផ្នែកសូមសាកល្បងវិធីសាស្ត្រផ្សេងទៀត។"
+ },{
+  "en": "Authenticating by %1",
+  "tr": "ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដោយ %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដោយ %1 និង %2"
+ },{
+  "en": "Authentication",
+  "tr": "ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "បានបដិសេធការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវសូមព្យាយាមម្តងទៀត។"
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "ការផ្ទៀងផ្ទាត់បានបរាជ័យសូមព្យាយាមម្តងទៀត។"
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "បិទស្លាក HTML/XML ដោយស្វ័យប្រវត្តិ"
+ },{
+  "en": "Auto login",
+  "tr": "ចូលដោយស្វ័យប្រវត្តិ"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "ការចូលដោយស្វ័យប្រវត្តិបានបរាជ័យសូមព្យាយាមម្តងទៀត។"
+ },{
+  "en": "Auto login next time",
+  "tr": "ចូលដោយស្វ័យប្រវត្តិពេលក្រោយ"
+ },{
+  "en": "Automatic",
+  "tr": "ស្វ័យប្រវត្តិ"
+ },{
+  "en": "automatic",
+  "tr": "ស្វ័យប្រវត្តិ"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "វិធីសាស្ត្រផ្ទៀងផ្ទាត់ស្វ័យប្រវត្តិ"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "ចម្លងការជ្រើសរើសដោយស្វ័យប្រវត្តិ"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "រកឃើញការចូលបន្ទាត់ដោយស្វ័យប្រវត្តិ"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "កាត់ក្តារបន្ទះដោយស្វ័យប្រវត្តិ"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "សញ្ញាសម្គាល់ផ្ទៃខាងក្រោយ"
+ },{
+  "en": "Backspace",
+  "tr": "ថយក្រោយ"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace ផ្ញើ"
+ },{
+  "en": "Backward",
+  "tr": "ថយក្រោយ"
+ },{
+  "en": "Bars",
+  "tr": "បារ"
+ },{
+  "en": "Baud Rate",
+  "tr": "អត្រា Baud"
+ },{
+  "en": "Beep When Finished",
+  "tr": "ប៊ីបនៅពេលបញ្ចប់"
+ },{
+  "en": "Binary",
+  "tr": "ប្រព័ន្ធគោលពីរ"
+ },{
+  "en": "Binary base",
+  "tr": "មូលដ្ឋានគោលពីរ"
+ },{
+  "en": "Binary columns",
+  "tr": "ជួរឈរគោលពីរ"
+ },{
+  "en": "Binary devision columns",
+  "tr": "ជួរឈរ deviation deviation"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "តួអក្សរដែលបានដាក់ជាក្រុមគោលពីរ"
+ },{
+  "en": "Black",
+  "tr": "ខ្មៅ"
+ },{
+  "en": "Blink",
+  "tr": "ព្រិចភ្នែក"
+ },{
+  "en": "blinking block",
+  "tr": "ប្លុកភ្លឹបភ្លែតៗ"
+ },{
+  "en": "blinking line",
+  "tr": "បន្ទាត់ភ្លឹបភ្លែតៗ"
+ },{
+  "en": "blinking rectangle",
+  "tr": "ចតុកោណកែងភ្លឹបភ្លែតៗ"
+ },{
+  "en": "blinking underLine",
+  "tr": "ភ្លឹបភ្លែតៗនៅក្រោមបន្ទាត់"
+ },{
+  "en": "Block",
+  "tr": "រារាំង"
+ },{
+  "en": "block",
+  "tr": "ប្លុក"
+ },{
+  "en": "Bold",
+  "tr": "ដិត"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "ប្រភេទដិតបង្ហាញពីពុម្ពអក្សរដែលមានទទឹងថេរ"
+ },{
+  "en": "Bottom Docks",
+  "tr": "ចតខាងក្រោម"
+ },{
+  "en": "Bottom Group",
+  "tr": "ក្រុមបាត"
+ },{
+  "en": "Browse",
+  "tr": "រកមើល"
+ },{
+  "en": "Browse Directory",
+  "tr": "រកមើលបញ្ជីឈ្មោះ"
+ },{
+  "en": "Browse File",
+  "tr": "រកមើលឯកសារ"
+ },{
+  "en": "Browser",
+  "tr": "កម្មវិធីរុករក"
+ },{
+  "en": "Build",
+  "tr": "បង្កើត"
+ },{
+  "en": "By",
+  "tr": "ដោយ"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "ការគណនា"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "មិនអាចរកកម្មវិធីសមស្របដើម្បីបើកឯកសារ៖ (%1 ( សាកល្បងប្រើកម្មវិធីនិពន្ធលំនាំដើមដើម្បីបើកវា។"
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "មិនអាចបង្កើតថត %1 បានទេ។"
+ },{
+  "en": "Can not make file %1.",
+  "tr": "មិនអាចបង្កើតឯកសារ %1 បានទេ។"
+ },{
+  "en": "Can not make link %1.",
+  "tr": "មិនអាចបង្កើតតំណ %1 បានទេ។"
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "មិនអាចយកថត %1 ចេញបានទេ។"
+ },{
+  "en": "Cancel",
+  "tr": "បោះបង់"
+ },{
+  "en": "Cancel Build",
+  "tr": "បោះបង់ការបង្កើត"
+ },{
+  "en": "Cancel Selection",
+  "tr": "បោះបង់ការជ្រើសរើស"
+ },{
+  "en": "Caret",
+  "tr": "ឃែត"
+ },{
+  "en": "Caret Style",
+  "tr": "រចនាប័ទ្មឃែត"
+ },{
+  "en": "Carriage Return",
+  "tr": "ការដឹកជញ្ជូនត្រឡប់មកវិញ"
+ },{
+  "en": "Case Sensitive",
+  "tr": "ប្រកាន់​តួអក្សរ​តូច​ធំ"
+ },{
+  "en": "Cdup",
+  "tr": "ស៊ីឌី"
+ },{
+  "en": "Change Master Password",
+  "tr": "ផ្លាស់ប្តូរពាក្យសម្ងាត់មេ"
+ },{
+  "en": "Change master password",
+  "tr": "ផ្លាស់ប្តូរពាក្យសម្ងាត់មេ"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "ការផ្លាស់ប្តូរពាក្យសម្ងាត់មេបានបរាជ័យ។"
+ },{
+  "en": "Change the tab title",
+  "tr": "ផ្លាស់ប្តូរចំណងជើងផ្ទាំង"
+ },{
+  "en": "Changed",
+  "tr": "បានផ្លាស់ប្តូរ"
+ },{
+  "en": "Channel",
+  "tr": "ឆានែល"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "ឆ្វេងឆ្វេង"
+ },{
+  "en": "Char Right",
+  "tr": "អក្សរត្រឹមត្រូវ"
+ },{
+  "en": "Character spacing",
+  "tr": "គម្លាតតួអក្សរ"
+ },{
+  "en": "character width",
+  "tr": "ទទឹងតួអក្សរ"
+ },{
+  "en": "Charset",
+  "tr": "Charset"
+ },{
+  "en": "Choose a default editor",
+  "tr": "ជ្រើសរើសកម្មវិធីនិពន្ធលំនាំដើម"
+ },{
+  "en": "Ciphers",
+  "tr": "លេខកូដសម្ងាត់"
+ },{
+  "en": "Ciphers order",
+  "tr": "លំដាប់លេខកូដសម្ងាត់"
+ },{
+  "en": "Clear",
+  "tr": "ច្បាស់"
+ },{
+  "en": "Clear All",
+  "tr": "សម្អាតទាំងអស់"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "ជម្រះ url ថ្មីៗ"
+ },{
+  "en": "Clear Screen",
+  "tr": "សម្អាតអេក្រង់"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "ជម្រះរមូរថយក្រោយ"
+ },{
+  "en": "Clear Sender",
+  "tr": "ជម្រះអ្នកផ្ញើ"
+ },{
+  "en": "Click event",
+  "tr": "ចុចព្រឹត្តិការណ៍"
+ },{
+  "en": "Close",
+  "tr": "បិទ"
+ },{
+  "en": "Close All Views",
+  "tr": "បិទរាល់ការមើល"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "បិទទិដ្ឋភាពទាំងអស់ប៉ុន្តែសកម្ម"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "បិទទិដ្ឋភាពទាំងអស់ទៅខាងស្តាំ"
+ },{
+  "en": "Close And Exit",
+  "tr": "បិទហើយចេញ"
+ },{
+  "en": "Close Channel",
+  "tr": "បិទឆានែល"
+ },{
+  "en": "Close Dock",
+  "tr": "បិទចត"
+ },{
+  "en": "Close Group",
+  "tr": "បិទក្រុម"
+ },{
+  "en": "Close Session",
+  "tr": "បិទសម័យ"
+ },{
+  "en": "Close Tab",
+  "tr": "បិទផ្ទាំង"
+ },{
+  "en": "Close tab",
+  "tr": "បិទផ្ទាំង"
+ },{
+  "en": "Close View",
+  "tr": "បិទទិដ្ឋភាព"
+ },{
+  "en": "Close Window",
+  "tr": "បិទបង្អួច"
+ },{
+  "en": "Color",
+  "tr": "ពណ៌"
+ },{
+  "en": "Column Edit",
+  "tr": "កែសម្រួលជួរឈរ"
+ },{
+  "en": "Column Marker",
+  "tr": "សញ្ញាសម្គាល់ជួរឈរ"
+ },{
+  "en": "Columns",
+  "tr": "ជួរឈរ"
+ },{
+  "en": "columns",
+  "tr": "ជួរឈរ"
+ },{
+  "en": "Command",
+  "tr": "ពាក្យបញ្ជា"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "ក្ដារលាយពាក្យបញ្ជា"
+ },{
+  "en": "Comment",
+  "tr": "យោបល់"
+ },{
+  "en": "Comment Selection",
+  "tr": "ការជ្រើសរើសមតិយោបល់"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "ការជ្រើសរើសមតិយោបល់(របៀបប្លុក)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "ការជ្រើសរើសមតិយោបល់(របៀបបន្ទាត់)"
+ },{
+  "en": "Complete Word",
+  "tr": "បំពេញពាក្យ"
+ },{
+  "en": "Config",
+  "tr": "កំណត់រចនាសម្ព័ន្ធ"
+ },{
+  "en": "Confirm Password",
+  "tr": "បញ្ជាក់លេខសំងាត់"
+ },{
+  "en": "Confirm password",
+  "tr": "បញ្ជាក់ពាក្យសម្ងាត់"
+ },{
+  "en": "Connect",
+  "tr": "ភ្ជាប់"
+ },{
+  "en": "Connection",
+  "tr": "ការតភ្ជាប់"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "បរិបទ"
+ },{
+  "en": "Continue",
+  "tr": "បន្ត"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "បម្លែង CRLF និង LF ទៅជា CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "បម្លែងផ្ទាំងទៅជាចន្លោះ"
+ },{
+  "en": "copied",
+  "tr": "បានចម្លង"
+ },{
+  "en": "Copy",
+  "tr": "ចម្លង"
+ },{
+  "en": "copy",
+  "tr": "ចម្លង"
+ },{
+  "en": "Copy And Paste",
+  "tr": "ចម្លងនិងបិទភ្ជាប់"
+ },{
+  "en": "Copy File Name",
+  "tr": "ចម្លងឈ្មោះឯកសារ"
+ },{
+  "en": "Copy File Path",
+  "tr": "ចម្លងផ្លូវឯកសារ"
+ },{
+  "en": "Copy from",
+  "tr": "ចម្លងពី"
+ },{
+  "en": "Copy names",
+  "tr": "ចម្លងឈ្មោះ"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "ចម្លងឈ្មោះទៅស្ថានីយ"
+ },{
+  "en": "Copy Output",
+  "tr": "ចម្លងលទ្ធផល"
+ },{
+  "en": "Copy paths",
+  "tr": "ចម្លងផ្លូវ"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "ចម្លងផ្លូវទៅស្ថានីយ"
+ },{
+  "en": "Copy Session Name",
+  "tr": "ចម្លងឈ្មោះសម័យ"
+ },{
+  "en": "Copy Session Url",
+  "tr": "ចម្លង url សម័យ"
+ },{
+  "en": "Copy to",
+  "tr": "ចម្លងទៅ"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "ចម្លងទៅស្ថានីយ"
+ },{
+  "en": "Count",
+  "tr": "រាប់"
+ },{
+  "en": "Create Directory",
+  "tr": "បង្កើតបញ្ជីឈ្មោះ"
+ },{
+  "en": "Create File",
+  "tr": "បង្កើតឯកសារ"
+ },{
+  "en": "Create Link",
+  "tr": "បង្កើតតំណ"
+ },{
+  "en": "Created",
+  "tr": "បានបង្កើត"
+ },{
+  "en": "Critical",
+  "tr": "សំខាន់"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "សម័យបច្ចុប្បន្ន"
+ },{
+  "en": "Custom",
+  "tr": "ផ្ទាល់ខ្លួន"
+ },{
+  "en": "Custom Opacity",
+  "tr": "ភាពស្រអាប់ផ្ទាល់ខ្លួន"
+ },{
+  "en": "Customize",
+  "tr": "ប្ដូរតាមបំណង"
+ },{
+  "en": "Cut",
+  "tr": "កាត់"
+ },{
+  "en": "Dark Cyan",
+  "tr": "ស៊ីនងងឹត"
+ },{
+  "en": "Data",
+  "tr": "ទិន្នន័យ"
+ },{
+  "en": "Data Bits",
+  "tr": "ប៊ីតទិន្នន័យ"
+ },{
+  "en": "Datetime format",
+  "tr": "ទ្រង់ទ្រាយកាលបរិច្ឆេទ"
+ },{
+  "en": "Day of month",
+  "tr": "ថ្ងៃនៃខែ"
+ },{
+  "en": "Debug Mode",
+  "tr": "របៀបបំបាត់កំហុស"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "បន្ថយការចូលបន្ទាត់"
+ },{
+  "en": "Deep Pink",
+  "tr": "ពណ៌ផ្កាឈូកជ្រៅ"
+ },{
+  "en": "default",
+  "tr": "លំនាំដើម"
+ },{
+  "en": "Default editor",
+  "tr": "កម្មវិធីនិពន្ធលំនាំដើម"
+ },{
+  "en": "Default Font",
+  "tr": "ពុម្ពអក្សរលំនាំដើម"
+ },{
+  "en": "Default line ending",
+  "tr": "ការបញ្ចប់បន្ទាត់លំនាំដើម"
+ },{
+  "en": "Delete",
+  "tr": "លុប"
+ },{
+  "en": "Delete sends",
+  "tr": "លុបការផ្ញើ"
+ },{
+  "en": "deleted",
+  "tr": "បានលុប"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "ម្ចាស់ផ្ទះគោលដៅ"
+ },{
+  "en": "Destination Port",
+  "tr": "កំពង់ផែគោលដៅ"
+ },{
+  "en": "Dir",
+  "tr": "ឌឺ"
+ },{
+  "en": "dir",
+  "tr": "ឌឺ"
+ },{
+  "en": "Directory",
+  "tr": "សៀវភៅបញ្ជី"
+ },{
+  "en": "Directory Link",
+  "tr": "តំណភ្ជាប់បញ្ជីឈ្មោះ"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "បិទដំណើរការក្បួនដោះស្រាយរបស់ណាហ្គល(ជម្រើស TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "ផ្តាច់សម័យ"
+ },{
+  "en": "Disk",
+  "tr": "ថាស"
+ },{
+  "en": "Do not echo characters",
+  "tr": "កុំបន្ទរតួអក្សរ"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "តើអ្នកចង់បិទសម័យបច្ចុប្បន្នទេ?"
+ },{
+  "en": "Document",
+  "tr": "ឯកសារ"
+ },{
+  "en": "Don't show this message again",
+  "tr": "កុំបង្ហាញសារនេះម្តងទៀត"
+ },{
+  "en": "Double click",
+  "tr": "ចុចទ្វេដង"
+ },{
+  "en": "Double click event",
+  "tr": "ចុចទ្វេដងលើព្រឹត្តិការណ៍"
+ },{
+  "en": "Download",
+  "tr": "ទាញយក"
+ },{
+  "en": "download",
+  "tr": "ទាញយក"
+ },{
+  "en": "Download directory",
+  "tr": "ទាញយកបញ្ជីឈ្មោះ"
+ },{
+  "en": "downloaded",
+  "tr": "បានទាញយក"
+ },{
+  "en": "Drop Selection",
+  "tr": "ទម្លាក់ជម្រើស"
+ },{
+  "en": "Duplicate",
+  "tr": "ស្ទួន"
+ },{
+  "en": "Duplicate Command",
+  "tr": "ពាក្យបញ្ជាស្ទួន"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "ទិដ្ឋភាពស្ទួន"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "ការបញ្ជូនបន្តថាមវន្ត"
+ },{
+  "en": "Echo every character entered",
+  "tr": "អេកូរាល់តួអក្សរដែលបានបញ្ចូល"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "អេកូរាល់តួអក្សរនៅពេលកែសម្រួល"
+ },{
+  "en": "Echo random characters",
+  "tr": "អេកូតួអក្សរចៃដន្យ"
+ },{
+  "en": "Edit",
+  "tr": "កែសម្រួល"
+ },{
+  "en": "Editor",
+  "tr": "កម្មវិធីនិពន្ធ"
+ },{
+  "en": "editor",
+  "tr": "អ្នកកែសម្រួល"
+ },{
+  "en": "Editor Settings",
+  "tr": "ការកំណត់កម្មវិធីនិពន្ធ"
+ },{
+  "en": "Elapsed",
+  "tr": "បានកន្លងផុតទៅ"
+ },{
+  "en": "Elide left",
+  "tr": "អេលីដខាងឆ្វេង"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide កណ្តាល"
+ },{
+  "en": "Elide right",
+  "tr": "បត់ស្តាំ"
+ },{
+  "en": "Empty",
+  "tr": "ទទេ"
+ },{
+  "en": "Enable command mode",
+  "tr": "បើករបៀបពាក្យបញ្ជា"
+ },{
+  "en": "Enable local mode",
+  "tr": "បើកដំណើរការរបៀបមូលដ្ឋាន"
+ },{
+  "en": "Enable SFTP",
+  "tr": "បើកដំណើរការ SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "បើកដំណើរការរក្សាទុក TCP(ជម្រើស SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "បើកចន្លោះនិម្មិត"
+ },{
+  "en": "End Of Document",
+  "tr": "បញ្ចប់ឯកសារ"
+ },{
+  "en": "End Of Line",
+  "tr": "ចុងបន្ទាត់"
+ },{
+  "en": "End Of Pair",
+  "tr": "ការបញ្ចប់នៃគូ"
+ },{
+  "en": "Engine",
+  "tr": "ម៉ាស៊ីន"
+ },{
+  "en": "Environment Variable",
+  "tr": "អថេរបរិស្ថាន"
+ },{
+  "en": "Environment variables",
+  "tr": "អថេរបរិស្ថាន"
+ },{
+  "en": "Error",
+  "tr": "កំហុស"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "ផ្លាស់ប្តូរខាត់និងយុថ្កា"
+ },{
+  "en": "Execute",
+  "tr": "ប្រតិបត្តិ"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "ប្រតិបត្តិពាក្យបញ្ជាបន្ទាប់ពីការផ្ទៀងផ្ទាត់"
+ },{
+  "en": "Execute command after start",
+  "tr": "ប្រតិបត្តិពាក្យបញ្ជាបន្ទាប់ពីចាប់ផ្តើម"
+ },{
+  "en": "Execute File",
+  "tr": "ប្រតិបត្តិឯកសារ"
+ },{
+  "en": "Exit",
+  "tr": "ចេញ"
+ },{
+  "en": "Expand",
+  "tr": "ពង្រីក"
+ },{
+  "en": "Expand Snippet",
+  "tr": "ពង្រីកអត្ថបទខ្លី"
+ },{
+  "en": "Explorer",
+  "tr": "អ្នករុករក"
+ },{
+  "en": "External Tools",
+  "tr": "ឧបករណ៍ខាងក្រៅ"
+ },{
+  "en": "External X display",
+  "tr": "ការបង្ហាញ X ខាងក្រៅ"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "ពន្លឺបន្ថែម"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "បានបរាជ័យក្នុងការបង្កើតឯកសារបណ្តោះអាសន្ន៖ (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "បរាជ័យក្នុងការបើកថត៖ %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "បរាជ័យក្នុងការទៅយកស្នាមម្រាមដៃរបស់ម្ចាស់ផ្ទះ!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "បរាជ័យក្នុងការផ្ទុកឯកសារឡើង៖ %1, ( ឯកសារអាចមិនមានឬមិនមានការអនុញ្ញាតបើកវា"
+ },{
+  "en": "Fast",
+  "tr": "លឿន"
+ },{
+  "en": "Favorites",
+  "tr": "សំណព្វ"
+ },{
+  "en": "Features",
+  "tr": "លក្ខណៈពិសេស"
+ },{
+  "en": "File",
+  "tr": "ឯកសារ"
+ },{
+  "en": "file",
+  "tr": "ឯកសារ"
+ },{
+  "en": "File Link",
+  "tr": "ឯកសារភ្ជាប់"
+ },{
+  "en": "File Name",
+  "tr": "ឈ្មោះឯកសារ"
+ },{
+  "en": "File name",
+  "tr": "ឈ្មោះ​ឯកសារ"
+ },{
+  "en": "File Path",
+  "tr": "ផ្លូវឯកសារ"
+ },{
+  "en": "Filer",
+  "tr": "ហ្វីល"
+ },{
+  "en": "filer",
+  "tr": "ឯកសារ"
+ },{
+  "en": "Filter",
+  "tr": "តម្រង"
+ },{
+  "en": "Find",
+  "tr": "រក"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "ស្វែងរកទាំងអស់"
+ },{
+  "en": "Find in Files",
+  "tr": "រកក្នុងឯកសារ"
+ },{
+  "en": "Find Next",
+  "tr": "រកបន្ទាប់"
+ },{
+  "en": "Find Next Selection",
+  "tr": "ស្វែងរកជម្រើសបន្ទាប់"
+ },{
+  "en": "Find Previous",
+  "tr": "រកមុន"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "ស្វែងរកជម្រើសមុន"
+ },{
+  "en": "Fingerprint",
+  "tr": "ស្នាមម្រាមដៃ"
+ },{
+  "en": "First nine tabs",
+  "tr": "ផ្ទាំងប្រាំបួនដំបូង"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "អណ្តែត"
+ },{
+  "en": "Flow Control",
+  "tr": "ការគ្រប់គ្រងលំហូរ"
+ },{
+  "en": "Focus Mode",
+  "tr": "របៀបផ្តោតអារម្មណ៍"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "ការកំណត់របៀបផ្តោត"
+ },{
+  "en": "Fold",
+  "tr": "បត់"
+ },{
+  "en": "Fold All",
+  "tr": "បត់ទាំងអស់"
+ },{
+  "en": "Fold Category",
+  "tr": "បត់ប្រភេទ"
+ },{
+  "en": "Fold Inside",
+  "tr": "បត់ខាងក្នុង"
+ },{
+  "en": "Folds",
+  "tr": "ផ្នត់"
+ },{
+  "en": "Font",
+  "tr": "ពុម្ពអក្សរ"
+ },{
+  "en": "Font family",
+  "tr": "គ្រួសារពុម្ពអក្សរ"
+ },{
+  "en": "Font size",
+  "tr": "ទំហំពុម្ពអក្សរ"
+ },{
+  "en": "Font weight",
+  "tr": "ទម្ងន់ពុម្ពអក្សរ"
+ },{
+  "en": "Forest Green",
+  "tr": "បៃតងព្រៃ"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "ការជ្រើសរើសទ្រង់ទ្រាយ"
+ },{
+  "en": "Found",
+  "tr": "រកឃើញ"
+ },{
+  "en": "Full month name",
+  "tr": "ឈ្មោះពេញមួយខែ"
+ },{
+  "en": "Full Screen",
+  "tr": "ពេញអេក្រង់"
+ },{
+  "en": "Full screen",
+  "tr": "ពេញ​អេក្រង់"
+ },{
+  "en": "Full weekday name",
+  "tr": "ឈ្មោះពេញសប្តាហ៍"
+ },{
+  "en": "Go Backward",
+  "tr": "ថយក្រោយ"
+ },{
+  "en": "Go Forward",
+  "tr": "ឆ្ពោះទៅមុខ"
+ },{
+  "en": "Go to",
+  "tr": "ទៅ"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "ចូលទៅនិមិត្តសញ្ញានៅក្នុងទិដ្ឋភាពបច្ចុប្បន្ន"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod"
+ },{
+  "en": "Goto",
+  "tr": "ទៅ"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "ទៅអាសយដ្ឋានរបារ"
+ },{
+  "en": "Goto File",
+  "tr": "ទៅឯកសារ"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "ទៅបឋមកថាបត់"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "ទៅបឋមកថាបន្ទាប់"
+ },{
+  "en": "Goto Position",
+  "tr": "ទីតាំងទៅ"
+ },{
+  "en": "Goto Session",
+  "tr": "ទៅវគ្គ"
+ },{
+  "en": "Goto Symbol",
+  "tr": "និមិត្តសញ្ញាទៅ"
+ },{
+  "en": "Group",
+  "tr": "ក្រុម"
+ },{
+  "en": "Group %1",
+  "tr": "ក្រុម %1"
+ },{
+  "en": "Groups",
+  "tr": "ក្រុម"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi ជាមួយមីក្រូ"
+ },{
+  "en": "Hard Reset",
+  "tr": "កំណត់ឡើងវិញរឹង"
+ },{
+  "en": "Help",
+  "tr": "ជំនួយ"
+ },{
+  "en": "Hex",
+  "tr": "ឆក"
+ },{
+  "en": "Hex Base",
+  "tr": "គោលដប់ប្រាំមួយ"
+ },{
+  "en": "Hex Columns",
+  "tr": "ជួរឈរឆកោន"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex Edit"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex Group Chars"
+ },{
+  "en": "Hidden",
+  "tr": "លាក់"
+ },{
+  "en": "Hide",
+  "tr": "លាក់"
+ },{
+  "en": "Hide All",
+  "tr": "លាក់ទាំងអស់"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "លាក់ទស្សន៍ទ្រនិចពេលវាយ"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "លាក់អត្ថបទ"
+ },{
+  "en": "Highlight",
+  "tr": "បន្លិច"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "បន្លិចបន្ទាត់ឃែត"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "រំលេចគូផ្គូផ្គង"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "បន្លិចបន្ទាត់ខ្វែង"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "បន្លិចពាក្យខ្វែង"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "បន្លិចផ្នត់បច្ចុប្បន្ន"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "បន្លិចគូបច្ចុប្បន្ន"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "បន្លិចការស្វែងរកបន្ថែម"
+ },{
+  "en": "History",
+  "tr": "ប្រវត្តិសាស្រ្ត"
+ },{
+  "en": "Home Of Line",
+  "tr": "ទំព័រដើមនៃជួរ"
+ },{
+  "en": "Host",
+  "tr": "ម្ចាស់ផ្ទះ"
+ },{
+  "en": "Host address",
+  "tr": "អាស័យដ្ឋានម៉ាស៊ីន"
+ },{
+  "en": "Host Based",
+  "tr": "ផ្អែកលើម៉ាស៊ីន"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "ម៉ោងក្នុងទម្រង់ ១២ ០១-១២"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "ម៉ោងក្នុងទម្រង់ ២៤ ០០-២៣"
+ },{
+  "en": "Http proxy",
+  "tr": "ប្រូកស៊ី Http"
+ },{
+  "en": "Huge File",
+  "tr": "ឯកសារធំ"
+ },{
+  "en": "Icon",
+  "tr": "រូបតំណាង"
+ },{
+  "en": "Identity file",
+  "tr": "ឯកសារអត្តសញ្ញាណ"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "ឯកសារបញ្ជាក់អត្តសញ្ញាណ"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "ប្រសិនបើអ្នកបង្កើតពាក្យសម្ងាត់មេអ្នកនឹងត្រូវបានស្នើសុំឱ្យបញ្ចូលវានៅពេលធីធីធីធីធីធីធីធីទាញយកព័ត៌មានដែលបានការពារដែលការពារដោយលេខសំងាត់មេ។"
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "ប្រសិនបើអ្នកភ្លេចពាក្យសម្ងាត់មេរបស់អ្នកអ្នកនឹងមិនអាចចូលប្រើព័ត៌មានណាមួយដែលការពារដោយវាឡើយ។"
+ },{
+  "en": "Import",
+  "tr": "នាំចូល"
+ },{
+  "en": "Import sessions",
+  "tr": "នាំចូលវគ្គ"
+ },{
+  "en": "In Selection",
+  "tr": "នៅក្នុងការជ្រើសរើស"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "បង្កើនការចូលបន្ទាត់"
+ },{
+  "en": "Incremental",
+  "tr": "ការកើនឡើង"
+ },{
+  "en": "Indent",
+  "tr": "ចូលបន្ទាត់"
+ },{
+  "en": "Indent guide style",
+  "tr": "រចនាប័ទ្មការណែនាំចូលបន្ទាត់"
+ },{
+  "en": "Indent Guides",
+  "tr": "ការណែនាំចូលបន្ទាត់"
+ },{
+  "en": "Indent size",
+  "tr": "ទំហំចូលបន្ទាត់"
+ },{
+  "en": "Indentation",
+  "tr": "ការចូលបន្ទាត់"
+ },{
+  "en": "Indian Red",
+  "tr": "ក្រហមឥណ្ឌា"
+ },{
+  "en": "Information",
+  "tr": "ព័ត៌មាន"
+ },{
+  "en": "Insert",
+  "tr": "បញ្ចូល"
+ },{
+  "en": "Insert File",
+  "tr": "បញ្ចូលឯកសារ"
+ },{
+  "en": "Insert Lines",
+  "tr": "បញ្ចូលបន្ទាត់"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "បញ្ចូលផ្ទាំងនៅពេលចុចគ្រាប់ចុចថេប"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "ការបញ្ចូលនិងលុបកន្លែងដកឃ្លាតាមផ្ទាំងឈប់"
+ },{
+  "en": "Inserting file",
+  "tr": "ការបញ្ចូលឯកសារ"
+ },{
+  "en": "Internal X display",
+  "tr": "ការបង្ហាញ X ខាងក្នុង"
+ },{
+  "en": "Interval",
+  "tr": "ចន្លោះពេល"
+ },{
+  "en": "Invert Selection",
+  "tr": "បញ្ច្រាសការជ្រើសរើស"
+ },{
+  "en": "item failed",
+  "tr": "ធាតុបានបរាជ័យ"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "ធាតុបានបរាជ័យ"
+ },{
+  "en": "Join Channel A",
+  "tr": "ចូលរួមជាមួយប៉ុស្តិ៍ A"
+ },{
+  "en": "Join Channel B",
+  "tr": "ចូលរួមជាមួយឆានែលខ"
+ },{
+  "en": "Join Channel C",
+  "tr": "ចូលរួមជាមួយឆានែល C"
+ },{
+  "en": "Join Channel D",
+  "tr": "ចូលរួមជាមួយឆានែលឃ"
+ },{
+  "en": "Join Lines",
+  "tr": "ចូលរួមជាមួយបន្ទាត់"
+ },{
+  "en": "Joined",
+  "tr": "បានចូលរួម"
+ },{
+  "en": "Jump Server",
+  "tr": "ម៉ាស៊ីនបម្រើលោត"
+ },{
+  "en": "Jump server",
+  "tr": "ម៉ាស៊ីនបម្រើលោត"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "ម៉ាស៊ីនមេលោត"
+ },{
+  "en": "Key Exchange",
+  "tr": "ការផ្លាស់ប្តូរគន្លឹះ"
+ },{
+  "en": "Key exchange order",
+  "tr": "លំដាប់ផ្លាស់ប្តូរគន្លឹះ"
+ },{
+  "en": "Key re-exchange",
+  "tr": "ការផ្លាស់ប្តូរគន្លឹះឡើងវិញ"
+ },{
+  "en": "Keyboard",
+  "tr": "ក្តារចុច"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "ក្តារចុចអន្តរកម្ម"
+ },{
+  "en": "Kit Bar",
+  "tr": "ឃីតបារ"
+ },{
+  "en": "Known",
+  "tr": "បានស្គាល់"
+ },{
+  "en": "Label",
+  "tr": "ស្លាក​សញ្ញា"
+ },{
+  "en": "Language",
+  "tr": "ភាសា"
+ },{
+  "en": "Last sessions",
+  "tr": "វគ្គចុងក្រោយ"
+ },{
+  "en": "Layout",
+  "tr": "ប្លង់"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "ចន្លោះទទេនាំមុខនិងបន្ត"
+ },{
+  "en": "Leading Blanks",
+  "tr": "ចន្លោះទទេនាំមុខ"
+ },{
+  "en": "Leading position",
+  "tr": "មុខតំណែងនាំមុខ"
+ },{
+  "en": "Leave All Channels",
+  "tr": "ចាកចេញពីប៉ុស្តិ៍ទាំងអស់"
+ },{
+  "en": "Leave all channels",
+  "tr": "ចាកចេញពីឆានែលទាំងអស់"
+ },{
+  "en": "Leave Channel",
+  "tr": "ចាកចេញពីឆានែល"
+ },{
+  "en": "Left Docks",
+  "tr": "ចតខាងឆ្វេង"
+ },{
+  "en": "Left Group",
+  "tr": "ក្រុមឆ្វេង"
+ },{
+  "en": "Light",
+  "tr": "ពន្លឺ"
+ },{
+  "en": "Line",
+  "tr": "បន្ទាត់"
+ },{
+  "en": "line",
+  "tr": "បន្ទាត់"
+ },{
+  "en": "line at a time",
+  "tr": "បន្ទាត់ក្នុងពេលតែមួយ"
+ },{
+  "en": "Line Down",
+  "tr": "បន្ទាត់ចុះ"
+ },{
+  "en": "Line Ending",
+  "tr": "ការបញ្ចប់បន្ទាត់"
+ },{
+  "en": "Line Endings",
+  "tr": "ការបញ្ចប់បន្ទាត់"
+ },{
+  "en": "Line Feed",
+  "tr": "មតិព័ត៌មានបន្ទាត់"
+ },{
+  "en": "line height",
+  "tr": "កម្ពស់​បន្ទាត់"
+ },{
+  "en": "Line marker",
+  "tr": "សញ្ញាសម្គាល់បន្ទាត់"
+ },{
+  "en": "Line spacing",
+  "tr": "គម្លាតបន្ទាត់"
+ },{
+  "en": "Line Up",
+  "tr": "តម្រង់ជួរ"
+ },{
+  "en": "lines at a time",
+  "tr": "បន្ទាត់ក្នុងពេលតែមួយ"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "បន្ទាត់វិលថយក្រោយ"
+ },{
+  "en": "Link",
+  "tr": "តំណ"
+ },{
+  "en": "Link to",
+  "tr": "ភ្ជាប់ទៅ"
+ },{
+  "en": "List Tab",
+  "tr": "ផ្ទាំងបញ្ជី"
+ },{
+  "en": "Listen Port",
+  "tr": "ស្តាប់ច្រក"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "ការបញ្ជូនបន្តក្នុងស្រុក"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "កំណត់ទីតាំងសារ"
+ },{
+  "en": "Location",
+  "tr": "ទីតាំង"
+ },{
+  "en": "Lock Screen",
+  "tr": "ចាក់សោ​រ​អេក្រង់"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "ចាក់សោអេក្រង់អស់ពេល"
+ },{
+  "en": "Lock Selection",
+  "tr": "ចាក់សោជម្រើស"
+ },{
+  "en": "Log",
+  "tr": "កំណត់ហេតុ"
+ },{
+  "en": "Log all session output",
+  "tr": "កត់ត្រាលទ្ធផលសម័យទាំងអស់"
+ },{
+  "en": "Log content pattern",
+  "tr": "លំនាំមាតិកាកំណត់ហេតុ"
+ },{
+  "en": "Log Dialog",
+  "tr": "ប្រអប់កំណត់ហេតុ"
+ },{
+  "en": "Log file",
+  "tr": "ឯកសារកំណត់ហេតុ"
+ },{
+  "en": "Log file name",
+  "tr": "ឈ្មោះឯកសារកំណត់ហេតុ"
+ },{
+  "en": "Log maximum size",
+  "tr": "កំណត់ទំហំអតិបរមា"
+ },{
+  "en": "Log nothing",
+  "tr": "មិនមានកំណត់ហេតុ"
+ },{
+  "en": "Log option",
+  "tr": "ជម្រើសកំណត់ហេតុ"
+ },{
+  "en": "Log options",
+  "tr": "ជម្រើសកំណត់ហេតុ"
+ },{
+  "en": "Log pattern",
+  "tr": "លំនាំកំណត់ហេតុ"
+ },{
+  "en": "Log printable output",
+  "tr": "កំណត់ហេតុដែលអាចបោះពុម្ពបាន"
+ },{
+  "en": "Log type",
+  "tr": "ប្រភេទកំណត់ហេតុ"
+ },{
+  "en": "Log types",
+  "tr": "ប្រភេទកំណត់ហេតុ"
+ },{
+  "en": "Logging",
+  "tr": "ការកាប់ឈើ"
+ },{
+  "en": "Login",
+  "tr": "ចូល"
+ },{
+  "en": "Login Wizard",
+  "tr": "អ្នកជំនួយការចូល"
+ },{
+  "en": "Long Time/Date",
+  "tr": "រយៈពេលវែង/កាលបរិច្ឆេទ"
+ },{
+  "en": "Look both guide",
+  "tr": "មើលការណែនាំទាំងពីរ"
+ },{
+  "en": "Look forward guide",
+  "tr": "សូមមើលការណែនាំ"
+ },{
+  "en": "MAC Hashes",
+  "tr": "ម៉ាសអេស"
+ },{
+  "en": "MAC hashes order",
+  "tr": "ការបញ្ជាទិញម៉ាសអេសអេស"
+ },{
+  "en": "Margin Blank",
+  "tr": "រឹមទទេ"
+ },{
+  "en": "Margin Fold",
+  "tr": "រឹមរឹម"
+ },{
+  "en": "Margin Number",
+  "tr": "លេខរឹម"
+ },{
+  "en": "Margin Symbol",
+  "tr": "និមិត្តសញ្ញារឹម"
+ },{
+  "en": "Margin Text",
+  "tr": "អត្ថបទរឹម"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "ត្រាពេលវេលា"
+ },{
+  "en": "Margins",
+  "tr": "រឹម"
+ },{
+  "en": "Marker style",
+  "tr": "ស្ទីលសម្គាល់"
+ },{
+  "en": "Master Password",
+  "tr": "ពាក្យសម្ងាត់មេ"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "ទិន្នន័យអតិបរមាមុនពេលចាក់ឡើងវិញ(មេកាបៃ)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "ពេលវេលាអតិបរមាមុនពេលចាក់ឡើងវិញ(នាទី)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "អស់ពេលតភ្ជាប់អតិបរមា"
+ },{
+  "en": "MB",
+  "tr": "ម។ ប"
+ },{
+  "en": "Medium",
+  "tr": "មធ្យម"
+ },{
+  "en": "Medium Orchid",
+  "tr": "អ័រគីដេមធ្យម"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "ស្លាយខៀវមធ្យម"
+ },{
+  "en": "Menu Bar",
+  "tr": "របារម៉ឺនុយ"
+ },{
+  "en": "Merge To Group",
+  "tr": "បញ្ចូលគ្នាទៅក្នុងក្រុម"
+ },{
+  "en": "Middle click",
+  "tr": "ចុចកណ្តាល"
+ },{
+  "en": "Middle click event",
+  "tr": "ព្រឹត្តិការណ៍ចុចកណ្តាល"
+ },{
+  "en": "Milliseconds",
+  "tr": "មិល្លីវិនាទី ០០០-៩៩៩"
+ },{
+  "en": "Minutes",
+  "tr": "នាទី ០០-៥៩"
+ },{
+  "en": "minutes",
+  "tr": "នាទី"
+ },{
+  "en": "Mismatched",
+  "tr": "មិនត្រូវគ្នា"
+ },{
+  "en": "Mode",
+  "tr": "របៀប"
+ },{
+  "en": "Modem waiting",
+  "tr": "ម៉ូដឹមកំពុងរង់ចាំ"
+ },{
+  "en": "Modes",
+  "tr": "របៀប"
+ },{
+  "en": "Modified",
+  "tr": "បានកែប្រែ"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "កែប្រែ"
+ },{
+  "en": "Modify Lines",
+  "tr": "កែប្រែជួរ"
+ },{
+  "en": "Month",
+  "tr": "ខែ"
+ },{
+  "en": "More",
+  "tr": "ច្រើនទៀត"
+ },{
+  "en": "Mouse Actions",
+  "tr": "សកម្មភាពកណ្តុរ"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "ការតាមដានកណ្តុរ"
+ },{
+  "en": "Move Down",
+  "tr": "ទៅ​ក្រោម"
+ },{
+  "en": "Move event",
+  "tr": "ផ្លាស់ទីព្រឹត្តិការណ៍"
+ },{
+  "en": "Move to",
+  "tr": "ផ្លាស់ទី​ទៅ"
+ },{
+  "en": "Move To Group",
+  "tr": "ផ្លាស់ទីទៅក្រុម"
+ },{
+  "en": "Move Up",
+  "tr": "ផ្លាស់ទីឡើងលើ"
+ },{
+  "en": "Multiple Caret",
+  "tr": "ពហុឃែត"
+ },{
+  "en": "Name",
+  "tr": "ឈ្មោះ"
+ },{
+  "en": "nesting groups",
+  "tr": "ក្រុមសំបុក"
+ },{
+  "en": "Never",
+  "tr": "មិនដែល"
+ },{
+  "en": "New directory",
+  "tr": "ថតថ្មី"
+ },{
+  "en": "New File",
+  "tr": "ឯកសារថ្មី"
+ },{
+  "en": "New file",
+  "tr": "ឯកសារថ្មី"
+ },{
+  "en": "New Line",
+  "tr": "បន្ទាត់ថ្មី"
+ },{
+  "en": "New link",
+  "tr": "តំណថ្មី"
+ },{
+  "en": "New password",
+  "tr": "ពាក្យសម្ងាត់​ថ្មី"
+ },{
+  "en": "New Session",
+  "tr": "វគ្គថ្មី"
+ },{
+  "en": "New Window",
+  "tr": "បង្អួចថ្មី"
+ },{
+  "en": "Next Char",
+  "tr": "Char បន្ទាប់"
+ },{
+  "en": "Next Fold",
+  "tr": "បត់បន្ទាប់"
+ },{
+  "en": "Next Indentation",
+  "tr": "ការចូលបន្ទាត់បន្ទាប់"
+ },{
+  "en": "Next Line",
+  "tr": "ជួរបន្ទាប់"
+ },{
+  "en": "Next Message",
+  "tr": "សារបន្ទាប់"
+ },{
+  "en": "Next Page",
+  "tr": "ទំព័របន្ទាប់"
+ },{
+  "en": "Next Pair",
+  "tr": "គូបន្ទាប់"
+ },{
+  "en": "Next Paragraph",
+  "tr": "កថាខណ្ឌបន្ទាប់"
+ },{
+  "en": "Next Scope",
+  "tr": "វិសាលភាពបន្ទាប់"
+ },{
+  "en": "Next Segment End",
+  "tr": "ផ្នែកបន្តបន្ទាប់"
+ },{
+  "en": "Next Segment Start",
+  "tr": "ផ្នែកបន្ទាប់ចាប់ផ្តើម"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "ទំព័រជាប់គាំងបន្ទាប់"
+ },{
+  "en": "Next Word",
+  "tr": "ពាក្យបន្ទាប់"
+ },{
+  "en": "Next Word End",
+  "tr": "ពាក្យបន្ទាប់បញ្ចប់"
+ },{
+  "en": "Next Word Part",
+  "tr": "ផ្នែកពាក្យបន្ទាប់"
+ },{
+  "en": "No",
+  "tr": "ទេ"
+ },{
+  "en": "No action",
+  "tr": "គ្មាន​សកម្មភាព"
+ },{
+  "en": "No Dirs",
+  "tr": "គ្មានឌឺរ"
+ },{
+  "en": "No elide",
+  "tr": "គ្មានឥស្សរជន"
+ },{
+  "en": "No file opened",
+  "tr": "គ្មានឯកសារបានបើកទេ"
+ },{
+  "en": "No filer available",
+  "tr": "មិនមានកម្មវិធីដាក់ឯកសារទេ"
+ },{
+  "en": "No Files",
+  "tr": "គ្មានឯកសារ"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "គ្មានឯកសារត្រូវបានជ្រើសរើសដើម្បីផ្ទេរទេ។"
+ },{
+  "en": "No item opened",
+  "tr": "គ្មានធាតុបានបើកទេ"
+ },{
+  "en": "No outline available",
+  "tr": "មិនមានគ្រោងទេ"
+ },{
+  "en": "No proxy",
+  "tr": "គ្មានប្រូកស៊ី"
+ },{
+  "en": "No session",
+  "tr": "គ្មានសម័យ"
+ },{
+  "en": "No session available",
+  "tr": "មិនមានវគ្គទេ"
+ },{
+  "en": "No session opened",
+  "tr": "គ្មានសម័យបើកទេ"
+ },{
+  "en": "No Sessions",
+  "tr": "គ្មានសម័យ"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "មិនមានវិធីសាស្ត្រផ្ទៀងផ្ទាត់ដែលគាំទ្រទេ។"
+ },{
+  "en": "No transfer available",
+  "tr": "មិនមានការផ្ទេរប្រាក់ទេ"
+ },{
+  "en": "No wrap",
+  "tr": "គ្មានរុំ"
+ },{
+  "en": "No X display",
+  "tr": "គ្មានការបង្ហាញ X"
+ },{
+  "en": "None",
+  "tr": "គ្មាន"
+ },{
+  "en": "None tabs",
+  "tr": "គ្មានផ្ទាំង"
+ },{
+  "en": "Normal",
+  "tr": "ធម្មតា"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "ឥឡូវ​នេះ"
+ },{
+  "en": "Nowhere",
+  "tr": "គ្មានកន្លែងណាទេ"
+ },{
+  "en": "Octal",
+  "tr": "Octal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM ទៅ ANSI"
+ },{
+  "en": "Off",
+  "tr": "បិទ"
+ },{
+  "en": "off",
+  "tr": "បិទ"
+ },{
+  "en": "Ok",
+  "tr": "យល់ព្រម"
+ },{
+  "en": "Old",
+  "tr": "ចាស់"
+ },{
+  "en": "Old password",
+  "tr": "លេខសំងាត់​ចាស់"
+ },{
+  "en": "Olive",
+  "tr": "អូលីវ"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "វគ្គមួយឬច្រើនកំពុងបើក ( តើអ្នកចង់បិទបង្អួចបច្ចុប្បន្នទេ?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "មានតែឯកសារឌីសប៉ុណ្ណោះដែលអាចផ្ទុកឡើងវិញបាន!"
+ },{
+  "en": "Only indentation",
+  "tr": "មានតែការចូលបន្ទាត់ប៉ុណ្ណោះ"
+ },{
+  "en": "Opaque",
+  "tr": "ស្រអាប់"
+ },{
+  "en": "Open",
+  "tr": "បើក"
+ },{
+  "en": "open",
+  "tr": "បើក"
+ },{
+  "en": "Open directory after created",
+  "tr": "បើកថតបន្ទាប់ពីបង្កើត"
+ },{
+  "en": "Open directory after download",
+  "tr": "បើកថតបន្ទាប់ពីទាញយក"
+ },{
+  "en": "Open File",
+  "tr": "បើកឯកសារ"
+ },{
+  "en": "Open file",
+  "tr": "បើក​ឯកសារ"
+ },{
+  "en": "Open file after created",
+  "tr": "បើកឯកសារបន្ទាប់ពីបង្កើត"
+ },{
+  "en": "Open file failed!",
+  "tr": "បើកឯកសារបរាជ័យ!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "បើកម៉ាស៊ីនមេលោតបានបរាជ័យ!"
+ },{
+  "en": "Open Log File",
+  "tr": "បើកឯកសារកំណត់ហេតុ"
+ },{
+  "en": "Open Log Folder",
+  "tr": "បើកថតកំណត់ហេតុ"
+ },{
+  "en": "Open Recent",
+  "tr": "បើកថ្មីៗ"
+ },{
+  "en": "Open Selection",
+  "tr": "បើកជម្រើស"
+ },{
+  "en": "Open Session",
+  "tr": "បើកសម័យ"
+ },{
+  "en": "Open session failed!",
+  "tr": "វេនបើកបានបរាជ័យ!"
+ },{
+  "en": "Open target directory",
+  "tr": "បើកថតទិសដៅ"
+ },{
+  "en": "Open with default editor",
+  "tr": "បើកជាមួយកម្មវិធីនិពន្ធលំនាំដើម"
+ },{
+  "en": "Opened",
+  "tr": "បានបើក"
+ },{
+  "en": "Openssh sessions",
+  "tr": "បើកវគ្គ"
+ },{
+  "en": "Others",
+  "tr": "អ្នកផ្សេងទៀត"
+ },{
+  "en": "Outline",
+  "tr": "គ្រោង"
+ },{
+  "en": "Output",
+  "tr": "លទ្ធផល"
+ },{
+  "en": "Overtype",
+  "tr": "ប្រភេទលើស"
+ },{
+  "en": "Overwrite",
+  "tr": "សរសេរជាន់លើ"
+ },{
+  "en": "Overwrite log file",
+  "tr": "សរសេរជាន់លើឯកសារកំណត់ហេតុ"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "សរសេរជាន់លើនៅពេលឯកសារប្រភពថ្មីជាង"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "សរសេរជាន់លើនៅពេលឯកសារប្រភពថ្មីឬវែងជាងនេះ"
+ },{
+  "en": "Owner",
+  "tr": "ម្ចាស់"
+ },{
+  "en": "Packet padding char",
+  "tr": "កញ្ចប់ទ្រនាប់កញ្ចប់"
+ },{
+  "en": "Packet size",
+  "tr": "ទំហំកញ្ចប់"
+ },{
+  "en": "Page",
+  "tr": "ទំព័រ"
+ },{
+  "en": "page",
+  "tr": "ទំព័រ"
+ },{
+  "en": "Pair",
+  "tr": "គូ"
+ },{
+  "en": "Panes",
+  "tr": "ប៉ាណែស"
+ },{
+  "en": "Paragraph",
+  "tr": "កថាខណ្ឌ"
+ },{
+  "en": "Parity",
+  "tr": "Parity"
+ },{
+  "en": "Passphrase",
+  "tr": "ឃ្លាសម្ងាត់"
+ },{
+  "en": "Password",
+  "tr": "ពាក្យសម្ងាត់"
+ },{
+  "en": "Password quality meter",
+  "tr": "ឧបករណ៍វាស់គុណភាពលេខសំងាត់"
+ },{
+  "en": "Paste",
+  "tr": "បិទភ្ជាប់"
+ },{
+  "en": "Paste Dialog",
+  "tr": "បិទភ្ជាប់ប្រអប់"
+ },{
+  "en": "Paste text",
+  "tr": "បិទភ្ជាប់អត្ថបទ"
+ },{
+  "en": "Pause",
+  "tr": "ផ្អាក"
+ },{
+  "en": "Paused",
+  "tr": "បានផ្អាក"
+ },{
+  "en": "Pausing",
+  "tr": "ការផ្អាក"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "អនុវត្តការស្វែងរក DNS ជាមួយប្រូកស៊ី"
+ },{
+  "en": "Period",
+  "tr": "រយៈពេល"
+ },{
+  "en": "Permissions",
+  "tr": "ការអនុញ្ញាត"
+ },{
+  "en": "pixels",
+  "tr": "ភីកសែល"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "សូមបញ្ចូលឈ្មោះថ្មីសម្រាប់ទិដ្ឋភាពនេះ"
+ },{
+  "en": "Please input master password",
+  "tr": "សូមបញ្ចូលពាក្យសម្ងាត់មេ"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "សូមបញ្ចូលពាក្យសម្ងាត់មេទទេឬបោះបង់ដើម្បីបិទ"
+ },{
+  "en": "Please input new group",
+  "tr": "សូមបញ្ចូលក្រុមថ្មី"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "សូមប្រាកដថាអ្នកចងចាំពាក្យសម្ងាត់មេដែលអ្នកបានកំណត់។"
+ },{
+  "en": "Port",
+  "tr": "កំពង់ផែ"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "ចូលចិត្តពុម្ពអក្សរស្បែក"
+ },{
+  "en": "Preferences",
+  "tr": "ចំណូលចិត្ត"
+ },{
+  "en": "Preserve",
+  "tr": "អភិរក្ស"
+ },{
+  "en": "Preview All",
+  "tr": "មើលទាំងអស់"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "និមិត្តសញ្ញាមើលជាមុន"
+ },{
+  "en": "Previous Char",
+  "tr": "តួអក្សរមុន"
+ },{
+  "en": "Previous Fold",
+  "tr": "ដងមុន"
+ },{
+  "en": "Previous Indentation",
+  "tr": "ការចូលបន្ទាត់មុន"
+ },{
+  "en": "Previous Line",
+  "tr": "ជួរមុន"
+ },{
+  "en": "Previous Message",
+  "tr": "សារមុន"
+ },{
+  "en": "Previous Page",
+  "tr": "ទំព័រមុន"
+ },{
+  "en": "Previous Pair",
+  "tr": "គូមុន"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "កថាខណ្ឌមុន"
+ },{
+  "en": "Previous Scope",
+  "tr": "វិសាលភាពមុន"
+ },{
+  "en": "Previous Segment End",
+  "tr": "ផ្នែកចុងក្រោយ"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "ការចាប់ផ្តើមផ្នែកមុន"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "ទំព័រជាប់គាំងមុន"
+ },{
+  "en": "Previous Word",
+  "tr": "ពាក្យមុន"
+ },{
+  "en": "Previous Word End",
+  "tr": "ការបញ្ចប់ពាក្យមុន"
+ },{
+  "en": "Previous Word Part",
+  "tr": "ផ្នែកពាក្យមុន"
+ },{
+  "en": "Printable output",
+  "tr": "លទ្ធផលដែលអាចបោះពុម្ពបាន"
+ },{
+  "en": "Process",
+  "tr": "ដំណើរការ"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "ដំណើរការ %1 បានគាំង"
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "ដំណើរការ %1 បានបរាជ័យក្នុងការចាប់ផ្តើម។"
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "ដំណើរការ %1 អស់ពេល។"
+ },{
+  "en": "Program [Arguments]",
+  "tr": "កម្មវិធី [អាគុយម៉ង់]"
+ },{
+  "en": "Project",
+  "tr": "គម្រោង"
+ },{
+  "en": "Properties",
+  "tr": "លក្ខណៈសម្បត្តិ"
+ },{
+  "en": "Property",
+  "tr": "ទ្រព្យ"
+ },{
+  "en": "Protocol",
+  "tr": "ពិធីការ"
+ },{
+  "en": "Proxy",
+  "tr": "ប្រូកស៊ី"
+ },{
+  "en": "Proxy Host",
+  "tr": "ម្ចាស់ផ្ទះប្រូកស៊ី"
+ },{
+  "en": "Proxy Port",
+  "tr": "ច្រកប្រូកស៊ី"
+ },{
+  "en": "Proxy Settings",
+  "tr": "ការកំណត់ប្រូកស៊ី"
+ },{
+  "en": "Proxy Type",
+  "tr": "ប្រភេទប្រូកស៊ី"
+ },{
+  "en": "Public Key",
+  "tr": "កូនសោសាធារណៈ"
+ },{
+  "en": "Public Keys",
+  "tr": "កូនសោសាធារណៈ"
+ },{
+  "en": "Public keys order",
+  "tr": "លំដាប់សោសាធារណៈ"
+ },{
+  "en": "Putty sessions",
+  "tr": "វគ្គ Putty"
+ },{
+  "en": "Query URL",
+  "tr": "សំណួរ URL"
+ },{
+  "en": "Question",
+  "tr": "សំណួរ"
+ },{
+  "en": "Quick",
+  "tr": "រហ័ស"
+ },{
+  "en": "Quick Bar",
+  "tr": "បាររហ័ស"
+ },{
+  "en": "Quick Commands",
+  "tr": "ពាក្យបញ្ជារហ័ស"
+ },{
+  "en": "Read Only",
+  "tr": "បានតែអាន"
+ },{
+  "en": "Ready",
+  "tr": "រួចរាល់"
+ },{
+  "en": "Real guide",
+  "tr": "មគ្គុទេសក៍ពិតប្រាកដ"
+ },{
+  "en": "Receive XModem",
+  "tr": "ទទួល XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "ទទួល YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "ទទួល ZModem"
+ },{
+  "en": "received",
+  "tr": "បានទទួល"
+ },{
+  "en": "Recent",
+  "tr": "ថ្មីៗ"
+ },{
+  "en": "Recent Sessions",
+  "tr": "វគ្គថ្មីៗ"
+ },{
+  "en": "Reconnect Session",
+  "tr": "ភ្ជាប់សម័យឡើងវិញ"
+ },{
+  "en": "Rectangle",
+  "tr": "ចតុកោណ"
+ },{
+  "en": "rectangle",
+  "tr": "ចតុកោណ"
+ },{
+  "en": "Red",
+  "tr": "ក្រហម"
+ },{
+  "en": "Redo",
+  "tr": "ធ្វើវិញ"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "ធ្វើសកម្មភាព %1 ឡើងវិញ"
+ },{
+  "en": "Refresh",
+  "tr": "ធ្វើឱ្យស្រស់"
+ },{
+  "en": "Regular Expression",
+  "tr": "កន្សោមធម្មតា"
+ },{
+  "en": "Reload",
+  "tr": "ផ្ទុកឡើងវិញ"
+ },{
+  "en": "Reload File",
+  "tr": "ផ្ទុកឯកសារឡើងវិញ"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "ផ្ទុកឡើងវិញដោយការអ៊ិនកូដ"
+ },{
+  "en": "Remote forwarding",
+  "tr": "ការបញ្ជូនពីចម្ងាយ"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "ផ្លូវឆ្ងាយ"
+ },{
+  "en": "Remove",
+  "tr": "យកចេញ"
+ },{
+  "en": "remove",
+  "tr": "យកចេញ"
+ },{
+  "en": "Remove All",
+  "tr": "យកទាំងអស់ចេញ"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "យកបន្ទាត់ទទេចេញ"
+ },{
+  "en": "Remove Command",
+  "tr": "យកពាក្យបញ្ជាចេញ"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "លុបបន្ទាត់ស្ទួន"
+ },{
+  "en": "Remove Group",
+  "tr": "យកក្រុមចេញ"
+ },{
+  "en": "Remove items",
+  "tr": "យកធាតុចេញ"
+ },{
+  "en": "Remove Sender",
+  "tr": "លុបអ្នកផ្ញើ"
+ },{
+  "en": "Removing",
+  "tr": "ការយកចេញ"
+ },{
+  "en": "Rename",
+  "tr": "ប្តូរឈ្មោះ"
+ },{
+  "en": "Rename Group",
+  "tr": "ប្តូរឈ្មោះក្រុម"
+ },{
+  "en": "Rename tab",
+  "tr": "ប្តូរឈ្មោះផ្ទាំង"
+ },{
+  "en": "Rename View",
+  "tr": "ប្តូរឈ្មោះទិដ្ឋភាព"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "បើកទិដ្ឋភាពបិទឡើងវិញ"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "ធ្វើម្តងទៀតនូវពាក្យបញ្ជាចុងក្រោយ"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "ប្រតិបត្តិម្តងហើយម្តងទៀត"
+ },{
+  "en": "Replace",
+  "tr": "ជំនួស"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "ជំនួសទាំងអស់"
+ },{
+  "en": "Replace in Files",
+  "tr": "ជំនួសក្នុងឯកសារ"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "តម្រូវឱ្យមានការចាប់ផ្តើមឡើងវិញដើម្បីឱ្យមានឥទ្ធិពល"
+ },{
+  "en": "Reset",
+  "tr": "កំណត់ឡើងវិញ"
+ },{
+  "en": "Reset Character Set",
+  "tr": "កំណត់សំណុំតួអក្សរឡើងវិញ"
+ },{
+  "en": "Reset Zoom",
+  "tr": "កំណត់ការពង្រីកឡើងវិញ"
+ },{
+  "en": "Resume",
+  "tr": "ប្រវត្តិរូប"
+ },{
+  "en": "Resuming",
+  "tr": "កំពុងបន្ត"
+ },{
+  "en": "Right click",
+  "tr": "ចុចកណ្ដុរខាងស្ដាំ"
+ },{
+  "en": "Right click event",
+  "tr": "ចុចកណ្ដុរស្ដាំលើព្រឹត្តិការណ៍"
+ },{
+  "en": "Right Docks",
+  "tr": "ចតខាងស្ដាំ"
+ },{
+  "en": "Right Group",
+  "tr": "ក្រុមស្តាំ"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "រមៀលកង់កណ្តុរដើម្បីរមូរ"
+ },{
+  "en": "Rows",
+  "tr": "ជួរ"
+ },{
+  "en": "Royal Blue",
+  "tr": "រ៉ូយ៉ាល់ខៀវ"
+ },{
+  "en": "Run Tool",
+  "tr": "រត់ឧបករណ៍"
+ },{
+  "en": "Save",
+  "tr": "រក្សាទុក"
+ },{
+  "en": "Save All",
+  "tr": "រក្សាទុកទាំងអស់"
+ },{
+  "en": "Save As",
+  "tr": "រក្សាទុកជា"
+ },{
+  "en": "Save Copy As",
+  "tr": "រក្សាទុកចម្លងជា"
+ },{
+  "en": "Save file failed!",
+  "tr": "មិនអាចរក្សាទុកឯកសារបានទេ!"
+ },{
+  "en": "Save Selection As",
+  "tr": "រក្សាទុកជម្រើសជា"
+ },{
+  "en": "Save Session",
+  "tr": "រក្សាទុកសម័យ"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "បានរក្សាទុកការផ្ទៀងផ្ទាត់ស្វ័យប្រវត្តិ"
+ },{
+  "en": "Scheme Tools",
+  "tr": "ឧបករណ៍គ្រោងការណ៍"
+ },{
+  "en": "Scope",
+  "tr": "វិសាលភាព"
+ },{
+  "en": "Screen Locked",
+  "tr": "ចាក់សោអេក្រង់"
+ },{
+  "en": "Scroll Left",
+  "tr": "រំកិលទៅឆ្វេង"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "រំកិលបន្ទាត់ចុះក្រោម"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "រមូរឡើងលើ"
+ },{
+  "en": "Scroll Right",
+  "tr": "រមូរទៅស្តាំ"
+ },{
+  "en": "Search",
+  "tr": "ស្វែងរក"
+ },{
+  "en": "Search engine",
+  "tr": "ម៉ាស៊ីនស្វែងរក"
+ },{
+  "en": "Search Engine",
+  "tr": "ម៉ាស៊ីន​ស្វែងរក"
+ },{
+  "en": "Search Engines",
+  "tr": "ម៉ាស៊ីនស្វែងរក"
+ },{
+  "en": "Search Online",
+  "tr": "ស្វែងរកតាមអ៊ីនធឺណិត"
+ },{
+  "en": "Search or enter address",
+  "tr": "ស្វែងរកឬបញ្ចូលអាសយដ្ឋាន"
+ },{
+  "en": "Searching",
+  "tr": "កំពុងស្វែងរក"
+ },{
+  "en": "Seconds",
+  "tr": "វិនាទី"
+ },{
+  "en": "seconds",
+  "tr": "វិនាទី"
+ },{
+  "en": "Security",
+  "tr": "សន្តិសុខ"
+ },{
+  "en": "Segment",
+  "tr": "ផ្នែក"
+ },{
+  "en": "Select",
+  "tr": "ជ្រើសរើស"
+ },{
+  "en": "Select All",
+  "tr": "ជ្រើសរើសទាំងអស់"
+ },{
+  "en": "Select Column To",
+  "tr": "ជ្រើសជួរឈរទៅ"
+ },{
+  "en": "Select copy folder",
+  "tr": "ជ្រើសរើសថតចម្លង"
+ },{
+  "en": "Select copy items",
+  "tr": "ជ្រើសរើសធាតុចម្លង"
+ },{
+  "en": "Select directory to receive",
+  "tr": "ជ្រើសរើសថតដើម្បីទទួល"
+ },{
+  "en": "Select download folder",
+  "tr": "ជ្រើសរើសថតទាញយក"
+ },{
+  "en": "Select files to send",
+  "tr": "ជ្រើសរើសឯកសារដែលត្រូវផ្ញើ"
+ },{
+  "en": "Select Fold",
+  "tr": "ជ្រើសរើស Fold"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "ជ្រើសរើសកំណាត់ថយក្រោយ"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "ជ្រើសរើសកំណាត់បញ្ជូនបន្ត"
+ },{
+  "en": "Select To",
+  "tr": "ជ្រើសទៅ"
+ },{
+  "en": "Select upload items",
+  "tr": "ជ្រើសរើសធាតុផ្ទុកឡើង"
+ },{
+  "en": "Selected position",
+  "tr": "មុខតំណែងដែលបានជ្រើសរើស"
+ },{
+  "en": "Selected Sessions",
+  "tr": "វគ្គដែលបានជ្រើសរើស"
+ },{
+  "en": "Selection",
+  "tr": "ការជ្រើសរើស"
+ },{
+  "en": "Send",
+  "tr": "ផ្ញើ"
+ },{
+  "en": "Send line By line",
+  "tr": "ផ្ញើតាមបន្ទាត់"
+ },{
+  "en": "Send Text",
+  "tr": "ផ្ញើអត្ថបទ"
+ },{
+  "en": "Send XModem",
+  "tr": "ផ្ញើ XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "ផ្ញើ YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "ផ្ញើ ZModem"
+ },{
+  "en": "Sender",
+  "tr": "អ្នកផ្ញើ"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "ការផ្ញើ %1 បានបរាជ័យ៖ %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "កំពុងផ្ញើ៖ %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "ផ្ញើកញ្ចប់ព័ត៌មានទទេដើម្បីរក្សាសម័យបន្ត"
+ },{
+  "en": "sent",
+  "tr": "បានផ្ញើ"
+ },{
+  "en": "Serial",
+  "tr": "សៀរៀល"
+ },{
+  "en": "Server",
+  "tr": "ម៉ាស៊ីនបម្រើ"
+ },{
+  "en": "Session",
+  "tr": "សម័យ"
+ },{
+  "en": "session",
+  "tr": "សម័យ"
+ },{
+  "en": "Session Group",
+  "tr": "ក្រុមសម័យ"
+ },{
+  "en": "Session Log",
+  "tr": "កំណត់ហេតុសម័យ"
+ },{
+  "en": "Session name",
+  "tr": "ឈ្មោះសម័យ"
+ },{
+  "en": "Session Settings",
+  "tr": "ការកំណត់សម័យ"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "សម័យនៅក្នុងវីនដូទាំងអស់"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "វគ្គនៅក្នុងក្រុមបច្ចុប្បន្ន"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "សម័យនៅក្នុងបង្អួចបច្ចុប្បន្ន"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "សម័យក្នុងក្រុម %1"
+ },{
+  "en": "Set default editor",
+  "tr": "កំណត់កម្មវិធីនិពន្ធលំនាំដើម"
+ },{
+  "en": "Set Tab Color",
+  "tr": "កំណត់ពណ៌ផ្ទាំង"
+ },{
+  "en": "Settings",
+  "tr": "ការកំណត់"
+ },{
+  "en": "SHA1",
+  "tr": "អេសអេអេ ១"
+ },{
+  "en": "Shape",
+  "tr": "រាង"
+ },{
+  "en": "Shell",
+  "tr": "សែល"
+ },{
+  "en": "Shell sessions",
+  "tr": "វគ្គសែល"
+ },{
+  "en": "Shell Sessions",
+  "tr": "សែលសែល"
+ },{
+  "en": "Short Time/Date",
+  "tr": "ពេលវេលា/កាលបរិច្ឆេទខ្លី"
+ },{
+  "en": "Show",
+  "tr": "បង្ហាញ"
+ },{
+  "en": "Show All",
+  "tr": "បង្ហាញទាំងអស់"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "បង្ហាញកម្មវិធីនិពន្ធដែលបានបើកនិងថ្មីៗទាំងអស់"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "បង្ហាញស្ថានីយដែលបានបើកនិងថ្មីៗទាំងអស់"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "បង្ហាញនិងដំណើរការសកម្មភាព"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "បង្ហាញប្រអប់បញ្ជាក់ផ្ទាំងបិទ"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "បង្ហាញប្រអប់បញ្ជាក់បង្អួចបិទ"
+ },{
+  "en": "Show column markers",
+  "tr": "បង្ហាញសញ្ញាសម្គាល់ជួរឈរ"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "បង្ហាញពាក្យបញ្ជាតាមលំដាប់អក្សរក្រម"
+ },{
+  "en": "Show current %1 property",
+  "tr": "បង្ហាញលក្ខណសម្បត្តិ %1 បច្ចុប្បន្ន"
+ },{
+  "en": "Show group commands in order",
+  "tr": "បង្ហាញការបញ្ជាជាក្រុមតាមលំដាប់"
+ },{
+  "en": "Show group title",
+  "tr": "បង្ហាញចំណងជើងក្រុម"
+ },{
+  "en": "Show hidden items",
+  "tr": "បង្ហាញធាតុដែលលាក់"
+ },{
+  "en": "Show in %1",
+  "tr": "បង្ហាញក្នុង %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "បង្ហាញនៅចុងបន្ទាត់"
+ },{
+  "en": "Show In Line Start",
+  "tr": "បង្ហាញនៅក្នុងបន្ទាត់ចាប់ផ្តើម"
+ },{
+  "en": "Show In Selection",
+  "tr": "បង្ហាញក្នុងជម្រើស"
+ },{
+  "en": "Show indent guide",
+  "tr": "បង្ហាញការណែនាំចូលបន្ទាត់"
+ },{
+  "en": "Show line endings",
+  "tr": "បង្ហាញការបញ្ចប់បន្ទាត់"
+ },{
+  "en": "Show menu",
+  "tr": "បង្ហាញម៉ឺនុយ"
+ },{
+  "en": "Show More Tools",
+  "tr": "បង្ហាញឧបករណ៍បន្ថែម"
+ },{
+  "en": "Show multiple groups",
+  "tr": "បង្ហាញក្រុមច្រើន"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "បង្ហាញប្រអប់បិទភ្ជាប់នៅលើអេក្រង់ជំនួស"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "បង្ហាញប្រអប់បិទភ្ជាប់នៅលើអេក្រង់មេ"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "បង្ហាញចន្លោះនិងផ្ទាំង"
+ },{
+  "en": "Show Tabs",
+  "tr": "បង្ហាញផ្ទាំង"
+ },{
+  "en": "Show Text",
+  "tr": "បង្ហាញអត្ថបទ"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "បង្ហាញលេខផ្ទាំងនៅលើផ្ទាំង"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "បង្ហាញប្រអប់នេះនៅពេលដែលរបៀបផ្តោតអារម្មណ៍ចាប់ផ្តើម"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "បង្ហាញនិមិត្តសញ្ញារុំ"
+ },{
+  "en": "Shrink",
+  "tr": "បង្រួញ"
+ },{
+  "en": "Size",
+  "tr": "ទំហំ"
+ },{
+  "en": "Skip",
+  "tr": "រំលង"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "ស្រោមជើង v5 ប្រូកស៊ី"
+ },{
+  "en": "Soft Reset",
+  "tr": "កំណត់ឡើងវិញទន់"
+ },{
+  "en": "Sort",
+  "tr": "តម្រៀប"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "ករណីតម្រៀបតាមបន្ទាត់ដែលមិនមានលក្ខណៈ"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "តម្រៀបជួរអក្សរតូចធំ"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "តម្រៀបជួរតាមលំដាប់ចៃដន្យ"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "តម្រៀបជួរតាមលំដាប់បញ្ច្រាស"
+ },{
+  "en": "spaces",
+  "tr": "ចន្លោះ"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "ចន្លោះទៅផ្ទាំង"
+ },{
+  "en": "Spacing",
+  "tr": "គម្លាត"
+ },{
+  "en": "Special",
+  "tr": "ពិសេស"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "បញ្ជាក់ពិធីការនៅពេលអូសនិងទម្លាក់ឯកសារ"
+ },{
+  "en": "Speed",
+  "tr": "ល្បឿន"
+ },{
+  "en": "Split",
+  "tr": "បំបែក"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "ពុះក្រុមផ្ដេក"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "ពុះក្រុមបញ្ឈរ"
+ },{
+  "en": "Split Lines",
+  "tr": "បន្ទាត់បំបែក"
+ },{
+  "en": "Split Selection",
+  "tr": "បំបែកការជ្រើសរើស"
+ },{
+  "en": "Split To Group",
+  "tr": "បំបែកជាក្រុម"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "ពុះទិដ្ឋភាពផ្ដេក"
+ },{
+  "en": "Split View Vertically",
+  "tr": "ពុះទិដ្ឋភាពបញ្ឈរ"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "ចាប់ផ្តើម"
+ },{
+  "en": "Start Of Document",
+  "tr": "ការចាប់ផ្តើមឯកសារ"
+ },{
+  "en": "Start Of Line",
+  "tr": "ចាប់ផ្តើមបន្ទាត់"
+ },{
+  "en": "Start Of Pair",
+  "tr": "ការចាប់ផ្តើមនៃគូ"
+ },{
+  "en": "Startup",
+  "tr": "ចាប់ផ្តើម"
+ },{
+  "en": "Stash",
+  "tr": "Stash"
+ },{
+  "en": "Status Bar",
+  "tr": "របារស្ថានភាព"
+ },{
+  "en": "Stdin",
+  "tr": "ស្តាឌីន"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "ដែកខៀវ"
+ },{
+  "en": "Sticky",
+  "tr": "ស្អិត"
+ },{
+  "en": "Stop",
+  "tr": "ឈប់"
+ },{
+  "en": "Stop Bits",
+  "tr": "បញ្ឈប់ប៊ីត"
+ },{
+  "en": "Stop loading",
+  "tr": "ឈប់ផ្ទុក"
+ },{
+  "en": "Stop sender",
+  "tr": "បញ្ឈប់អ្នកផ្ញើ"
+ },{
+  "en": "Stop Tools",
+  "tr": "បញ្ឈប់ឧបករណ៍"
+ },{
+  "en": "Stop watching this file",
+  "tr": "ឈប់មើលឯកសារនេះ"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "ប្តូរស្ទ្រីមនិងជួរឈរ"
+ },{
+  "en": "switch to tab",
+  "tr": "ប្តូរទៅផ្ទាំង"
+ },{
+  "en": "Symbols",
+  "tr": "និមិត្តសញ្ញា"
+ },{
+  "en": "Sync channel",
+  "tr": "ធ្វើសមកាលកម្មឆានែល"
+ },{
+  "en": "Sync Edit",
+  "tr": "ធ្វើសមកាលកម្មកែសម្រួល"
+ },{
+  "en": "Sync Input",
+  "tr": "បញ្ចូលសមកាលកម្ម"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "ធ្វើសមកាលកម្មការបញ្ចូលក្នុងឆានែល %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "គ្រោងការណ៍វាក្យសម្ព័ន្ធ"
+ },{
+  "en": "System",
+  "tr": "ប្រព័ន្ធ"
+ },{
+  "en": "Tab",
+  "tr": "ថេប"
+ },{
+  "en": "Tab Color",
+  "tr": "ពណ៌ផ្ទាំង"
+ },{
+  "en": "Tab Features",
+  "tr": "លក្ខណៈពិសេសថេប"
+ },{
+  "en": "Tab Group",
+  "tr": "ក្រុមថេប"
+ },{
+  "en": "Tab Index",
+  "tr": "សន្ទស្សន៍ផ្ទាំង"
+ },{
+  "en": "Tab size",
+  "tr": "ទំហំផ្ទាំង"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "របៀបផ្ទាំងអត្ថបទ elide"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "ផ្ទាំងរូបភាពតូចផ្ទាំង"
+ },{
+  "en": "Tab Title",
+  "tr": "ចំណងជើងផ្ទាំង"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "កំណត់ជួរដែលបានជ្រើសរើស"
+ },{
+  "en": "Tabs",
+  "tr": "ថេប"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "ថេបទៅចន្លោះ"
+ },{
+  "en": "Target",
+  "tr": "គោលដៅ"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "ថតគោលដៅ"
+ },{
+  "en": "Targets",
+  "tr": "គោលដៅ"
+ },{
+  "en": "TCP connection options",
+  "tr": "ជម្រើសភ្ជាប់ TCP"
+ },{
+  "en": "Teal",
+  "tr": "តែម"
+ },{
+  "en": "Term",
+  "tr": "រយៈពេល"
+ },{
+  "en": "Terminal",
+  "tr": "ស្ថានីយ"
+ },{
+  "en": "terminal",
+  "tr": "ស្ថានីយ"
+ },{
+  "en": "Terminal Settings",
+  "tr": "ការកំណត់ស្ថានីយ"
+ },{
+  "en": "Text",
+  "tr": "អត្ថបទ"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "អត្ថបទ៖ %1 បន្ទាត់, %2 តួអក្សរ"
+ },{
+  "en": "The % sign",
+  "tr": "សញ្ញា"
+ },{
+  "en": "The actual text to log",
+  "tr": "អត្ថបទពិតប្រាកដដើម្បីកត់ត្រា"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "ថតទិសដៅគឺជាថតរងនៃថតប្រភព៖ (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "ឯកសារត្រូវបានកែប្រែ។ ( តើអ្នកចង់រក្សាទុកការផ្លាស់ប្តូររបស់អ្នកទេ?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "បន្សំគ្រាប់ចុច(%1) មិនមែនជាពាក្យបញ្ជាទេ។"
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "lrzsz មិនត្រូវបានរកឃើញទេ។ សូមដំឡើង lrzsz ជាមុនសិន។"
+ },{
+  "en": "The master password has been changed.",
+  "tr": "ពាក្យសម្ងាត់មេត្រូវបានផ្លាស់ប្តូរ។"
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "ការបញ្ជាក់ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ។"
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "ម៉ាស៊ីនមេបានលុបចោលការបញ្ជូន។"
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "វេនត្រូវបាន <b> ផ្តាច់ </b> សូមចុច <b> បញ្ចូល </b> ដើម្បីភ្ជាប់ឡើងវិញ។"
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "ការផ្ទេរត្រូវបានលុបចោលដោយសារកញ្ចប់មួយមិនមាន %1 នៅក្នុងដែនកំណត់នៃការព្យាយាមម្តងទៀត។"
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "ការផ្ទេរនេះត្រូវបានលុបចោលពីព្រោះលេខលំដាប់កញ្ចប់ខុស។"
+ },{
+  "en": "Theme",
+  "tr": "ស្បែក"
+ },{
+  "en": "Thin",
+  "tr": "ស្តើង"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "កម្រិតសម្រាប់ឯកសារធំ"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "ទ្រង់ទ្រាយពេលវេលា"
+ },{
+  "en": "Time left",
+  "tr": "ពេលវេលានៅសល់"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "ត្រាពេលវេលានៃបន្ទាត់"
+ },{
+  "en": "To Inverse Case",
+  "tr": "ទៅករណីបញ្ច្រាស"
+ },{
+  "en": "To Line End",
+  "tr": "ដល់បន្ទាត់បញ្ចប់"
+ },{
+  "en": "To Line Start",
+  "tr": "ទៅបន្ទាត់ចាប់ផ្តើម"
+ },{
+  "en": "To Lower Case",
+  "tr": "ទៅអក្សរតូច"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "ទៅ MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "ទៅចំណងជើងករណី"
+ },{
+  "en": "To Unix LF",
+  "tr": "ទៅយូនីក LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "ទៅករណីខាងលើ"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "ទៅវីនដូ CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "ដល់ពាក្យបញ្ចប់"
+ },{
+  "en": "To Word Start",
+  "tr": "ទៅពាក្យចាប់ផ្តើម"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "បិទបើក"
+ },{
+  "en": "Tool",
+  "tr": "ឧបករណ៍"
+ },{
+  "en": "Toolbar",
+  "tr": "របារឧបករណ៍"
+ },{
+  "en": "Top Group",
+  "tr": "ក្រុមកំពូល"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "ជ្រើសជម្រើសអត្ថបទនៅមែកធាង"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "តាមដានការជ្រើសរើសមែកធាងនៅក្នុងអត្ថបទ"
+ },{
+  "en": "Tracking Events",
+  "tr": "ព្រឹត្តិការណ៍តាមដាន"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "ចន្លោះទទេ"
+ },{
+  "en": "Trailing position",
+  "tr": "ទីតាំងតាមពីក្រោយ"
+ },{
+  "en": "Transfer",
+  "tr": "ផ្ទេរ"
+ },{
+  "en": "Transfer Bar",
+  "tr": "របារផ្ទេរ"
+ },{
+  "en": "Transfer Binary",
+  "tr": "ផ្ទេរគោលពីរ"
+ },{
+  "en": "Transfer complete",
+  "tr": "ការផ្ទេរបានបញ្ចប់"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "ផ្ទេរមិនពេញលេញ"
+ },{
+  "en": "Translucent",
+  "tr": "ល្អក់"
+ },{
+  "en": "Transparent",
+  "tr": "ថ្លា"
+ },{
+  "en": "Transpose",
+  "tr": "ប្តូរ"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "កាត់កន្លែងដកឃ្លាដែលនៅពីក្រោយរក្សាទុក"
+ },{
+  "en": "Trust this host",
+  "tr": "ជឿជាក់លើម្ចាស់ផ្ទះនេះ"
+ },{
+  "en": "Tunnels",
+  "tr": "ផ្លូវរូងក្នុងដី"
+ },{
+  "en": "Type",
+  "tr": "ប្រភេទ"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "វាយ '?' ដើម្បីទទួលបានជំនួយលើសកម្មភាពអ្នកអាចវាយនៅទីនេះ"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "ការជ្រើសរើសមិនអើពើ"
+ },{
+  "en": "Underline",
+  "tr": "គូសបញ្ជាក់"
+ },{
+  "en": "underLine",
+  "tr": "ក្រោមបន្ទាត់"
+ },{
+  "en": "Undo",
+  "tr": "មិនធ្វើវិញ"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "មិនធ្វើវិញនូវសកម្មភាព %1"
+ },{
+  "en": "Unfold",
+  "tr": "ពន្លា"
+ },{
+  "en": "Unfold All",
+  "tr": "ពន្លាទាំងអស់"
+ },{
+  "en": "Unfold Category",
+  "tr": "ពន្លាប្រភេទ"
+ },{
+  "en": "Unfold Inside",
+  "tr": "បើកខាងក្នុង"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "បង្រួបបង្រួមការបញ្ចប់បន្ទាត់លើរក្សាទុក"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "យូនីកភីធីធី"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "យូនីកភីធី៖ ផ្លូវឯកសារសែលត្រូវតែដាច់ខាត"
+ },{
+  "en": "Unknown",
+  "tr": "មិនស្គាល់"
+ },{
+  "en": "unknown",
+  "tr": "មិនស្គាល់"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "កំណត់ឈ្មោះបន្ទាត់ដែលបានជ្រើស"
+ },{
+  "en": "Untitled",
+  "tr": "គ្មានចំណងជើង"
+ },{
+  "en": "Untrust this host",
+  "tr": "កុំទុកចិត្តម្ចាស់ផ្ទះនេះ"
+ },{
+  "en": "upload",
+  "tr": "ផ្ទុកឡើង"
+ },{
+  "en": "Upload command",
+  "tr": "ពាក្យបញ្ជាផ្ទុកឡើង"
+ },{
+  "en": "Upload directory",
+  "tr": "ផ្ទុកឡើងថត"
+ },{
+  "en": "Upload file",
+  "tr": "ផ្ទុកឯកសារឡើង"
+ },{
+  "en": "Upload to current folder",
+  "tr": "ផ្ទុកឡើងទៅថតបច្ចុប្បន្ន"
+ },{
+  "en": "uploaded",
+  "tr": "បានផ្ទុកឡើង"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL ដែលមាន %q ជំនួសឱ្យសំនួរ"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "ប្រើពណ៌ផ្ទៃខាងក្រោយដើម្បីលុបអេក្រង់"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "ប្រើការផ្ទេរល្បឿនលឿន"
+ },{
+  "en": "Use system line ending",
+  "tr": "ប្រើការបញ្ចប់បន្ទាត់ប្រព័ន្ធ"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "ប្រើវាជាលំនាំដើមហើយកុំសួរម្តងទៀត"
+ },{
+  "en": "User",
+  "tr": "អ្នក​ប្រើ"
+ },{
+  "en": "Username echo mode",
+  "tr": "របៀបអេកូឈ្មោះអ្នកប្រើ"
+ },{
+  "en": "Value",
+  "tr": "តម្លៃ"
+ },{
+  "en": "Variable",
+  "tr": "អថេរ"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "ការផ្ទៀងផ្ទាត់ស្នាមម្រាមដៃរបស់ម៉ាស៊ីនមេ"
+ },{
+  "en": "View",
+  "tr": "មើល"
+ },{
+  "en": "Virtual Space",
+  "tr": "ចន្លោះនិម្មិត"
+ },{
+  "en": "Waiting",
+  "tr": "កំពុងរង់ចាំ"
+ },{
+  "en": "Warning",
+  "tr": "ការព្រមាន"
+ },{
+  "en": "Wheel event",
+  "tr": "ព្រឹត្តិការណ៍កង់"
+ },{
+  "en": "When destination file exists",
+  "tr": "នៅពេលឯកសារគោលដៅមាន"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "នៅពេលបិទភ្ជាប់បន្ទាត់ជាច្រើន"
+ },{
+  "en": "When remote title is changed",
+  "tr": "នៅពេលចំណងជើងពីចម្ងាយត្រូវបានផ្លាស់ប្តូរ"
+ },{
+  "en": "When session is authenticated",
+  "tr": "នៅពេលវេនត្រូវបានផ្ទៀងផ្ទាត់"
+ },{
+  "en": "When session is authenticating",
+  "tr": "នៅពេលវគ្គកំពុងផ្ទៀងផ្ទាត់"
+ },{
+  "en": "When window is resized",
+  "tr": "នៅពេលបង្អួចត្រូវបានប្តូរទំហំ"
+ },{
+  "en": "Where",
+  "tr": "កន្លែងណា"
+ },{
+  "en": "White Spaces",
+  "tr": "ចន្លោះពណ៌ស"
+ },{
+  "en": "Whole Line",
+  "tr": "បន្ទាត់ទាំងមូល"
+ },{
+  "en": "Whole Word",
+  "tr": "ពាក្យទាំងមូល"
+ },{
+  "en": "Widgets",
+  "tr": "ធាតុក្រាហ្វិក"
+ },{
+  "en": "Width",
+  "tr": "ទទឹង"
+ },{
+  "en": "Window",
+  "tr": "បង្អួច"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "គែមបង្អួច"
+ },{
+  "en": "Window Opacity",
+  "tr": "ភាពស្រអាប់បង្អួច"
+ },{
+  "en": "Window opacity",
+  "tr": "ភាពស្រអាប់នៃបង្អួច"
+ },{
+  "en": "Windows Manager",
+  "tr": "កម្មវិធីគ្រប់គ្រងវីនដូ"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "រកមិនឃើញ winpty-agent.exe ឬ winpty.dll!"
+ },{
+  "en": "Word",
+  "tr": "ពាក្យ"
+ },{
+  "en": "Word Separators",
+  "tr": "កម្មវិធីបំបែកពាក្យ"
+ },{
+  "en": "Word Wrap",
+  "tr": "រុំពាក្យ"
+ },{
+  "en": "Working directory",
+  "tr": "បញ្ជីការងារ"
+ },{
+  "en": "Wrap",
+  "tr": "រុំ"
+ },{
+  "en": "Wrap by character",
+  "tr": "រុំដោយតួអក្សរ"
+ },{
+  "en": "Wrap by word",
+  "tr": "រុំដោយពាក្យ"
+ },{
+  "en": "Wrap column",
+  "tr": "រុំជួរឈរ"
+ },{
+  "en": "Wrap mode",
+  "tr": "របៀបរុំ"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "និមិត្តសញ្ញារុំ"
+ },{
+  "en": "Wrong master password.",
+  "tr": "ពាក្យសម្ងាត់មេខុស"
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "ម៉ូដឹម X/Y/Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "ម៉ូដឹម X/Y/Z មិនអាចបញ្ជូនថតឬឯកសារធំជាង ៤ ជីកាបៃ៖ %១ ។"
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "ពិធីការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ X11"
+ },{
+  "en": "X11 display",
+  "tr": "ការបង្ហាញ X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "ឆ្នាំជាលេខ ២ ខ្ទង់"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "ឆ្នាំជាលេខ ៤ ខ្ទង់"
+ },{
+  "en": "Yes",
+  "tr": "បាទ"
+ },{
+  "en": "Zero",
+  "tr": "សូន្យ"
+ },{
+  "en": "Zoom",
+  "tr": "ពង្រីក"
+ },{
+  "en": "Zoom In",
+  "tr": "ពង្រីក"
+ },{
+  "en": "Zoom level",
+  "tr": "កម្រិតពង្រីក"
+ },{
+  "en": "Zoom Out",
+  "tr": "បង្រួម"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[បានបុកនៅ %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[ទទេ]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[កំហុស៖ %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[បានបញ្ចប់ក្នុង %1s, លេខកូដចេញ %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[បានបញ្ចប់ក្នុង %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[បញ្ជីក្រុមគឺទទេ]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[បញ្ជីរុករកគឺទទេ]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[គ្មានម៉ាស៊ីនស្វែងរក]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[url ថ្មីៗគឺទទេ]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[បញ្ជីឡើងវិញគឺទទេ]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[បញ្ជីគ្រោងការណ៍គឺទទេ]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[បញ្ជីប្រធានបទគឺទទេ]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[បញ្ជីរបារឧបករណ៍គឺទទេ]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[បញ្ជីមិនធ្វើវិញគឺទទេ]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[អ្នកប្រើប្រាស់បានបោះបង់]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[អ្នកប្រើប្រាស់@] ឈ្មោះម៉ាស៊ីន"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[បញ្ជីវីនដូគឺទទេ]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

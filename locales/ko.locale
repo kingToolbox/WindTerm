@@ -1,0 +1,3513 @@
+{
+ "language": "Korean - 한국어",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Scheme) 도구"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2은(는) %3에서 지원하지 않습니다."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 복사됨"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 다운로드됨"
+ },{
+  "en": "%1 File",
+  "tr": "%1 파일"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1개 항목이 실패했습니다"
+ },{
+  "en": "%1 items",
+  "tr": "%1개 항목"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1개 항목이 실패했습니다"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1개 항목/초"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1/%2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1이(가) 제거됨"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 이 %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 업로드됨"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 속도: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2번은 암호 시도에 실패했습니다."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br><b>변경</b> 및 <b>새로고침</b>했으며, 큰 파일에는 실행취소가 <b>허용되지 않습니다</b>."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br><b>변경</b>하고 <b>다시 로드</b>했으며 실행 취소가 허용됩니다."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br><b>변경</b>했습니다. 다시 로드하시겠습니까?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br><b>이동 또는 삭제</b>되었습니다."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1)을(를) 눌렀습니다. 추가 키를 기다리는 중"
+ },{
+  "en": "1 Char",
+  "tr": "1 문자"
+ },{
+  "en": "16 Columns",
+  "tr": "16 열"
+ },{
+  "en": "2 Chars",
+  "tr": "2자"
+ },{
+  "en": "24 Columns",
+  "tr": "24 열"
+ },{
+  "en": "32 Columns",
+  "tr": "32 열"
+ },{
+  "en": "4 Chars",
+  "tr": "4자"
+ },{
+  "en": "8 Chars",
+  "tr": "8자"
+ },{
+  "en": "8 Columns",
+  "tr": "8 열"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "마스터 비밀번호는 SSH 비밀번호와 같은 민감한 정보를 보호하는 데 사용됩니다."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "이름은 255자 미만이어야 하며 다음 문자를 포함할 수 없습니다. / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "원격 파일이 수정되었습니다.\n이 파일을 서버에 다시 업로드하시겠습니까?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "특정 세션 또는 세션 집합"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "약식 월 이름"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "축약된 요일 이름"
+ },{
+  "en": "Accept local connections only",
+  "tr": "로컬 연결만 허용"
+ },{
+  "en": "Accessed",
+  "tr": "액세스"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "다중 캐럿(M) 활성화"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "다음 선택 활성화"
+ },{
+  "en": "Activate Next View",
+  "tr": "다음 보기 활성화"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "이전 선택(P) 활성화"
+ },{
+  "en": "Activate Previous View",
+  "tr": "이전 보기 활성화"
+ },{
+  "en": "Activate the left tab",
+  "tr": "왼쪽 탭 활성화"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "이전에 선택한 탭 활성화"
+ },{
+  "en": "Activate the right tab",
+  "tr": "오른쪽 탭 활성화"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "닫은 후 탭 활성화"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "마우스를 가져간 후 탭 활성화"
+ },{
+  "en": "Add",
+  "tr": "을 추가하다)"
+ },{
+  "en": "Add All",
+  "tr": "모두 추가"
+ },{
+  "en": "Add Command",
+  "tr": "명령 추가"
+ },{
+  "en": "Add Group",
+  "tr": "그룹 추가"
+ },{
+  "en": "Add Sender",
+  "tr": "발신인 추가"
+ },{
+  "en": "Add Tab",
+  "tr": "탭 추가"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "창 행과 열 조정"
+ },{
+  "en": "Advanced Sort",
+  "tr": "고급 정렬"
+ },{
+  "en": "Agent",
+  "tr": "에이전트"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "에이전트 인증에 실패했습니다. 다른 방법을 시도하십시오."
+ },{
+  "en": "All",
+  "tr": "모두"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "모든 %1 세션이 삭제됩니다.\n세션 가져오기를 계속하시겠습니까?"
+ },{
+  "en": "All session output",
+  "tr": "모든 세션 출력"
+ },{
+  "en": "All Sessions",
+  "tr": "모든 세션"
+ },{
+  "en": "All tabs",
+  "tr": "모든 탭"
+ },{
+  "en": "Alternate column background color",
+  "tr": "대체 열 배경색"
+ },{
+  "en": "Alternate line background color",
+  "tr": "대체 라인 배경색"
+ },{
+  "en": "Always On Top",
+  "tr": "항상 상단"
+ },{
+  "en": "Always on top",
+  "tr": "항상 상단에"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "%1 프로세스에서 읽으려고 시도하는 동안 오류가 발생했습니다."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "%1 프로세스에 쓰는 동안 오류가 발생했습니다."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "%1 프로세스에서 알 수 없는 오류가 발생했습니다."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI에서 OEM으로"
+ },{
+  "en": "Answer back",
+  "tr": "답장"
+ },{
+  "en": "Any",
+  "tr": "어느"
+ },{
+  "en": "Anything Palette",
+  "tr": "아무거나 팔레트"
+ },{
+  "en": "Anywhere",
+  "tr": "어딘가에"
+ },{
+  "en": "Appearance",
+  "tr": "모습"
+ },{
+  "en": "Append",
+  "tr": "추가"
+ },{
+  "en": "Append log file",
+  "tr": "로그 파일 추가"
+ },{
+  "en": "Application",
+  "tr": "애플리케이션"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "선택한 %1개 항목을 삭제하시겠습니까?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "<b>%1</b> 항목을 삭제하시겠습니까?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "현재 파일을 다시 로드하고 WindEdit에서 변경한 내용을 지우시겠습니까?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "현재 발신자를 중지하시겠습니까?"
+ },{
+  "en": "Arguments",
+  "tr": "인수"
+ },{
+  "en": "At Caret",
+  "tr": "캐럿(C)에서"
+ },{
+  "en": "At End",
+  "tr": "끝에서"
+ },{
+  "en": "At Start",
+  "tr": "시작 시"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "gssapi-with-mic 인증 시도"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "키보드 대화형 인증(K) 시도"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "미인대회 인증 시도"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "비밀번호 인증 시도"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "공개키 인증(P) 시도"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "ssh-agent 인증 시도"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "부분 성공으로 인증되었습니다. 다른 방법을 시도하십시오."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "%1이(가) 인증하는 중"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "%1 및 %2에 의한 인증"
+ },{
+  "en": "Authentication",
+  "tr": "입증"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "인증이 거부되었습니다. 다시 시도하십시오."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "인증이 실패했습니다. 다시 시도 해주세요."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "자동 닫기 HTML/XML 태그"
+ },{
+  "en": "Auto login",
+  "tr": "자동 로그인"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "자동 로그인에 실패했습니다. 다시 시도해 주세요."
+ },{
+  "en": "Auto login next time",
+  "tr": "다음에 자동 로그인"
+ },{
+  "en": "Automatic",
+  "tr": "자동적 인"
+ },{
+  "en": "automatic",
+  "tr": "자동적 인"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "자동 인증 방법"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "선택 항목 자동 복사"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "들여쓰기(A) 자동 감지"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "패딩 자동 트리밍"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "배경 마커"
+ },{
+  "en": "Backspace",
+  "tr": "백스페이스"
+ },{
+  "en": "Backspace sends",
+  "tr": "백스페이스 보내기"
+ },{
+  "en": "Backward",
+  "tr": "뒤로"
+ },{
+  "en": "Bars",
+  "tr": "바"
+ },{
+  "en": "Baud Rate",
+  "tr": "전송 속도"
+ },{
+  "en": "Beep When Finished",
+  "tr": "완료되면 경고음"
+ },{
+  "en": "Binary",
+  "tr": "바이너리"
+ },{
+  "en": "Binary base",
+  "tr": "바이너리 베이스"
+ },{
+  "en": "Binary columns",
+  "tr": "바이너리 컬럼"
+ },{
+  "en": "Binary devision columns",
+  "tr": "이진 분할 열"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "이진 그룹화 문자"
+ },{
+  "en": "Black",
+  "tr": "검은 색"
+ },{
+  "en": "Blink",
+  "tr": "깜박임"
+ },{
+  "en": "blinking block",
+  "tr": "깜박이는 블록"
+ },{
+  "en": "blinking line",
+  "tr": "깜박이는 선"
+ },{
+  "en": "blinking rectangle",
+  "tr": "깜박이는 직사각형"
+ },{
+  "en": "blinking underLine",
+  "tr": "깜박이는 밑줄"
+ },{
+  "en": "Block",
+  "tr": "블록"
+ },{
+  "en": "block",
+  "tr": "블록"
+ },{
+  "en": "Bold",
+  "tr": "용감한"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "굵은 글꼴은 고정 너비 글꼴을 나타냅니다."
+ },{
+  "en": "Bottom Docks",
+  "tr": "바텀 독"
+ },{
+  "en": "Bottom Group",
+  "tr": "하단 그룹"
+ },{
+  "en": "Browse",
+  "tr": "검색"
+ },{
+  "en": "Browse Directory",
+  "tr": "디렉토리 찾아보기"
+ },{
+  "en": "Browse File",
+  "tr": "파일 찾아보기"
+ },{
+  "en": "Browser",
+  "tr": "브라우저"
+ },{
+  "en": "Build",
+  "tr": "빌드"
+ },{
+  "en": "By",
+  "tr": "에 의해"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "계산 중"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "파일을 여는 데 적합한 프로그램을 찾을 수 없습니다.\n%1\n기본 편집기를 사용하여 열어보십시오."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "디렉토리 %1을(를) 만들 수 없습니다."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "파일 %1을(를) 만들 수 없습니다."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "%1 링크를 만들 수 없습니다."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "%1 디렉터리를 제거할 수 없습니다."
+ },{
+  "en": "Cancel",
+  "tr": "취소"
+ },{
+  "en": "Cancel Build",
+  "tr": "빌드 취소"
+ },{
+  "en": "Cancel Selection",
+  "tr": "선택 취소"
+ },{
+  "en": "Caret",
+  "tr": "탈자 부호"
+ },{
+  "en": "Caret Style",
+  "tr": "캐럿 스타일"
+ },{
+  "en": "Carriage Return",
+  "tr": "캐리지 리턴"
+ },{
+  "en": "Case Sensitive",
+  "tr": "대소문자 구분"
+ },{
+  "en": "Cdup",
+  "tr": "CD업"
+ },{
+  "en": "Change Master Password",
+  "tr": "마스터 비밀번호 변경"
+ },{
+  "en": "Change master password",
+  "tr": "마스터 비밀번호 변경"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "마스터 암호 변경에 실패했습니다."
+ },{
+  "en": "Change the tab title",
+  "tr": "탭 제목 변경"
+ },{
+  "en": "Changed",
+  "tr": "변경됨"
+ },{
+  "en": "Channel",
+  "tr": "채널"
+ },{
+  "en": "Char",
+  "tr": "숯"
+ },{
+  "en": "Char Left",
+  "tr": "왼쪽 문자"
+ },{
+  "en": "Char Right",
+  "tr": "문자 오른쪽"
+ },{
+  "en": "Character spacing",
+  "tr": "문자 간격"
+ },{
+  "en": "character width",
+  "tr": "문자 너비"
+ },{
+  "en": "Charset",
+  "tr": "문자 집합"
+ },{
+  "en": "Choose a default editor",
+  "tr": "기본 편집기 선택"
+ },{
+  "en": "Ciphers",
+  "tr": "암호"
+ },{
+  "en": "Ciphers order",
+  "tr": "암호 주문"
+ },{
+  "en": "Clear",
+  "tr": "분명한"
+ },{
+  "en": "Clear All",
+  "tr": "모두 지우기"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "최근 URL 지우기"
+ },{
+  "en": "Clear Screen",
+  "tr": "클리어 스크린"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "스크롤백 지우기"
+ },{
+  "en": "Clear Sender",
+  "tr": "보낸 사람 지우기"
+ },{
+  "en": "Click event",
+  "tr": "클릭 이벤트"
+ },{
+  "en": "Close",
+  "tr": "닫다"
+ },{
+  "en": "Close All Views",
+  "tr": "모든 보기 닫기"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "활성(A)을 제외한 모든 보기 닫기"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "오른쪽으로 모든 보기 닫기"
+ },{
+  "en": "Close And Exit",
+  "tr": "닫기 및 종료"
+ },{
+  "en": "Close Channel",
+  "tr": "채널 닫기"
+ },{
+  "en": "Close Dock",
+  "tr": "도크 닫기"
+ },{
+  "en": "Close Group",
+  "tr": "그룹 닫기"
+ },{
+  "en": "Close Session",
+  "tr": "세션 닫기"
+ },{
+  "en": "Close Tab",
+  "tr": "탭 닫기"
+ },{
+  "en": "Close tab",
+  "tr": "탭 닫기"
+ },{
+  "en": "Close View",
+  "tr": "보기 닫기"
+ },{
+  "en": "Close Window",
+  "tr": "창 닫기"
+ },{
+  "en": "Color",
+  "tr": "색상"
+ },{
+  "en": "Column Edit",
+  "tr": "열 편집"
+ },{
+  "en": "Column Marker",
+  "tr": "열 마커"
+ },{
+  "en": "Columns",
+  "tr": "열"
+ },{
+  "en": "columns",
+  "tr": "기둥"
+ },{
+  "en": "Command",
+  "tr": "명령"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "명령 팔레트"
+ },{
+  "en": "Comment",
+  "tr": "댓글"
+ },{
+  "en": "Comment Selection",
+  "tr": "코멘트 선택"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "주석 선택(차단 모드)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "주석 선택(라인 모드)"
+ },{
+  "en": "Complete Word",
+  "tr": "완전한 단어"
+ },{
+  "en": "Config",
+  "tr": "구성"
+ },{
+  "en": "Confirm Password",
+  "tr": "비밀번호 확인"
+ },{
+  "en": "Confirm password",
+  "tr": "비밀번호 확인"
+ },{
+  "en": "Connect",
+  "tr": "연결하다"
+ },{
+  "en": "Connection",
+  "tr": "연결"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "문맥"
+ },{
+  "en": "Continue",
+  "tr": "계속하다"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "CRLF 및 LF를 CR(C)로 변환"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "탭을 공백으로 변환"
+ },{
+  "en": "copied",
+  "tr": "복사"
+ },{
+  "en": "Copy",
+  "tr": "복사"
+ },{
+  "en": "copy",
+  "tr": "복사"
+ },{
+  "en": "Copy And Paste",
+  "tr": "복사 및 붙여넣기"
+ },{
+  "en": "Copy File Name",
+  "tr": "파일 이름 복사"
+ },{
+  "en": "Copy File Path",
+  "tr": "파일 경로 복사"
+ },{
+  "en": "Copy from",
+  "tr": "복사 위치"
+ },{
+  "en": "Copy names",
+  "tr": "이름 복사"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "터미널(C)에 이름 복사"
+ },{
+  "en": "Copy Output",
+  "tr": "복사 출력"
+ },{
+  "en": "Copy paths",
+  "tr": "경로 복사"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "터미널(C)에 경로 복사"
+ },{
+  "en": "Copy Session Name",
+  "tr": "세션 이름 복사"
+ },{
+  "en": "Copy Session Url",
+  "tr": "세션 URL 복사"
+ },{
+  "en": "Copy to",
+  "tr": "복사 대상"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "터미널(T)로 복사"
+ },{
+  "en": "Count",
+  "tr": "세다"
+ },{
+  "en": "Create Directory",
+  "tr": "디렉토리 생성"
+ },{
+  "en": "Create File",
+  "tr": "파일 생성"
+ },{
+  "en": "Create Link",
+  "tr": "링크 만들기"
+ },{
+  "en": "Created",
+  "tr": "만들어진"
+ },{
+  "en": "Critical",
+  "tr": "비판적인"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "현재 세션"
+ },{
+  "en": "Custom",
+  "tr": "관습"
+ },{
+  "en": "Custom Opacity",
+  "tr": "사용자 정의 불투명도"
+ },{
+  "en": "Customize",
+  "tr": "사용자 정의"
+ },{
+  "en": "Cut",
+  "tr": "컷"
+ },{
+  "en": "Dark Cyan",
+  "tr": "다크 시안"
+ },{
+  "en": "Data",
+  "tr": "데이터"
+ },{
+  "en": "Data Bits",
+  "tr": "데이터 비트"
+ },{
+  "en": "Datetime format",
+  "tr": "날짜/시간 형식"
+ },{
+  "en": "Day of month",
+  "tr": "01-31일"
+ },{
+  "en": "Debug Mode",
+  "tr": "디버그 모드"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "줄 들여쓰기(D) 줄이기"
+ },{
+  "en": "Deep Pink",
+  "tr": "딥핑크"
+ },{
+  "en": "default",
+  "tr": "기본"
+ },{
+  "en": "Default editor",
+  "tr": "기본 편집기"
+ },{
+  "en": "Default Font",
+  "tr": "기본 글꼴"
+ },{
+  "en": "Default line ending",
+  "tr": "기본 줄 끝"
+ },{
+  "en": "Delete",
+  "tr": "삭제"
+ },{
+  "en": "Delete sends",
+  "tr": "전송 삭제"
+ },{
+  "en": "deleted",
+  "tr": "삭제"
+ },{
+  "en": "DemiBold",
+  "tr": "데미볼드"
+ },{
+  "en": "Destination Host",
+  "tr": "대상 호스트"
+ },{
+  "en": "Destination Port",
+  "tr": "목적지 포트"
+ },{
+  "en": "Dir",
+  "tr": "감독"
+ },{
+  "en": "dir",
+  "tr": "디렉토리"
+ },{
+  "en": "Directory",
+  "tr": "예배 규칙서"
+ },{
+  "en": "Directory Link",
+  "tr": "디렉토리 링크"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Nagle 알고리즘 비활성화(TCP_NODELAY 옵션)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "세션 연결 해제"
+ },{
+  "en": "Disk",
+  "tr": "디스크"
+ },{
+  "en": "Do not echo characters",
+  "tr": "문자를 에코하지 않음"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "현재 세션을 닫으시겠습니까?"
+ },{
+  "en": "Document",
+  "tr": "문서"
+ },{
+  "en": "Don't show this message again",
+  "tr": "이 메시지를 다시 표시하지 않음"
+ },{
+  "en": "Double click",
+  "tr": "더블클릭"
+ },{
+  "en": "Double click event",
+  "tr": "더블클릭 이벤트"
+ },{
+  "en": "Download",
+  "tr": "다운로드"
+ },{
+  "en": "download",
+  "tr": "다운로드"
+ },{
+  "en": "Download directory",
+  "tr": "다운로드 디렉토리"
+ },{
+  "en": "downloaded",
+  "tr": "다운로드"
+ },{
+  "en": "Drop Selection",
+  "tr": "드롭 선택"
+ },{
+  "en": "Duplicate",
+  "tr": "복제하다"
+ },{
+  "en": "Duplicate Command",
+  "tr": "중복 명령"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "중복 보기"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "동적 포워딩"
+ },{
+  "en": "Echo every character entered",
+  "tr": "입력한 모든 문자를 에코"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "편집할 때 모든 문자를 에코합니다."
+ },{
+  "en": "Echo random characters",
+  "tr": "에코 임의의 문자"
+ },{
+  "en": "Edit",
+  "tr": "편집"
+ },{
+  "en": "Editor",
+  "tr": "편집자"
+ },{
+  "en": "editor",
+  "tr": "편집자"
+ },{
+  "en": "Editor Settings",
+  "tr": "에디터 설정"
+ },{
+  "en": "Elapsed",
+  "tr": "경과"
+ },{
+  "en": "Elide left",
+  "tr": "엘리드 왼쪽"
+ },{
+  "en": "Elide middle",
+  "tr": "엘리드 미들"
+ },{
+  "en": "Elide right",
+  "tr": "오른쪽 생략"
+ },{
+  "en": "Empty",
+  "tr": "비어있는"
+ },{
+  "en": "Enable command mode",
+  "tr": "명령 모드 활성화"
+ },{
+  "en": "Enable local mode",
+  "tr": "로컬 모드 활성화"
+ },{
+  "en": "Enable SFTP",
+  "tr": "SFTP(S) 활성화"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "TCP keepalive 활성화(SO_KEEPALIVE 옵션)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "가상 공간 활성화"
+ },{
+  "en": "End Of Document",
+  "tr": "문서 끝"
+ },{
+  "en": "End Of Line",
+  "tr": "줄 끝"
+ },{
+  "en": "End Of Pair",
+  "tr": "쌍 끝"
+ },{
+  "en": "Engine",
+  "tr": "엔진"
+ },{
+  "en": "Environment Variable",
+  "tr": "환경 변수"
+ },{
+  "en": "Environment variables",
+  "tr": "환경변수"
+ },{
+  "en": "Error",
+  "tr": "오류"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "캐럿 및 앵커 교환"
+ },{
+  "en": "Execute",
+  "tr": "실행"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "인증(E) 후 명령어 실행"
+ },{
+  "en": "Execute command after start",
+  "tr": "시작(E) 후 명령 실행"
+ },{
+  "en": "Execute File",
+  "tr": "파일 실행"
+ },{
+  "en": "Exit",
+  "tr": "종료"
+ },{
+  "en": "Expand",
+  "tr": "확장하다"
+ },{
+  "en": "Expand Snippet",
+  "tr": "스니펫 확장"
+ },{
+  "en": "Explorer",
+  "tr": "탐침"
+ },{
+  "en": "External Tools",
+  "tr": "외부 도구"
+ },{
+  "en": "External X display",
+  "tr": "외부 X 디스플레이"
+ },{
+  "en": "ExtraBold",
+  "tr": "엑스트라볼드"
+ },{
+  "en": "ExtraLight",
+  "tr": "엑스트라 라이트"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "임시 파일을 작성하지 못했습니다:\n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "디렉토리를 열지 못했습니다: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "호스트 지문을 검색하지 못했습니다!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "파일 업로드 실패: %1,\n파일이 없거나 열 수 있는 권한이 없습니다."
+ },{
+  "en": "Fast",
+  "tr": "빠른"
+ },{
+  "en": "Favorites",
+  "tr": "즐겨찾기"
+ },{
+  "en": "Features",
+  "tr": "특징"
+ },{
+  "en": "File",
+  "tr": "파일"
+ },{
+  "en": "file",
+  "tr": "파일"
+ },{
+  "en": "File Link",
+  "tr": "파일 링크"
+ },{
+  "en": "File Name",
+  "tr": "파일 이름"
+ },{
+  "en": "File name",
+  "tr": "파일 이름"
+ },{
+  "en": "File Path",
+  "tr": "파일 경로"
+ },{
+  "en": "Filer",
+  "tr": "파일러"
+ },{
+  "en": "filer",
+  "tr": "파일러"
+ },{
+  "en": "Filter",
+  "tr": "필터"
+ },{
+  "en": "Find",
+  "tr": "찾기"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "모두 찾기"
+ },{
+  "en": "Find in Files",
+  "tr": "파일에서 찾기"
+ },{
+  "en": "Find Next",
+  "tr": "다음 찾기"
+ },{
+  "en": "Find Next Selection",
+  "tr": "다음 선택 찾기"
+ },{
+  "en": "Find Previous",
+  "tr": "이전 찾기"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "이전 선택 찾기"
+ },{
+  "en": "Fingerprint",
+  "tr": "지문"
+ },{
+  "en": "First nine tabs",
+  "tr": "처음 9개 탭"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "부동 소수점"
+ },{
+  "en": "Flow Control",
+  "tr": "흐름 제어"
+ },{
+  "en": "Focus Mode",
+  "tr": "초점 모드"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "초점 모드 설정"
+ },{
+  "en": "Fold",
+  "tr": "접기"
+ },{
+  "en": "Fold All",
+  "tr": "모두 접기"
+ },{
+  "en": "Fold Category",
+  "tr": "접기 카테고리"
+ },{
+  "en": "Fold Inside",
+  "tr": "안쪽으로 접기"
+ },{
+  "en": "Folds",
+  "tr": "접기"
+ },{
+  "en": "Font",
+  "tr": "폰트"
+ },{
+  "en": "Font family",
+  "tr": "글꼴 모음"
+ },{
+  "en": "Font size",
+  "tr": "글꼴 크기"
+ },{
+  "en": "Font weight",
+  "tr": "글꼴 두께"
+ },{
+  "en": "Forest Green",
+  "tr": "포레스트 그린"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "형식 선택"
+ },{
+  "en": "Found",
+  "tr": "설립하다"
+ },{
+  "en": "Full month name",
+  "tr": "전체 월 이름"
+ },{
+  "en": "Full Screen",
+  "tr": "전체 화면"
+ },{
+  "en": "Full screen",
+  "tr": "전체 화면"
+ },{
+  "en": "Full weekday name",
+  "tr": "전체 요일 이름"
+ },{
+  "en": "Go Backward",
+  "tr": "뒤로 이동"
+ },{
+  "en": "Go Forward",
+  "tr": "앞으로 이동"
+ },{
+  "en": "Go to",
+  "tr": "이동"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "현재 보기에서 기호로 이동"
+ },{
+  "en": "Goldenrod",
+  "tr": "골든로드"
+ },{
+  "en": "Goto",
+  "tr": "고토"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "주소 표시줄로 이동"
+ },{
+  "en": "Goto File",
+  "tr": "파일로 이동"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto 접기 헤더"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "다음 접기 헤더(N)로 이동"
+ },{
+  "en": "Goto Position",
+  "tr": "이동 위치"
+ },{
+  "en": "Goto Session",
+  "tr": "고토 세션"
+ },{
+  "en": "Goto Symbol",
+  "tr": "고토 기호"
+ },{
+  "en": "Group",
+  "tr": "그룹"
+ },{
+  "en": "Group %1",
+  "tr": "그룹% 1"
+ },{
+  "en": "Groups",
+  "tr": "여러 떼"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "마이크가 있는 그싸피"
+ },{
+  "en": "Hard Reset",
+  "tr": "하드 리셋"
+ },{
+  "en": "Help",
+  "tr": "도움말"
+ },{
+  "en": "Hex",
+  "tr": "16진수"
+ },{
+  "en": "Hex Base",
+  "tr": "육각 베이스"
+ },{
+  "en": "Hex Columns",
+  "tr": "육각 열"
+ },{
+  "en": "Hex Edit",
+  "tr": "16진수 편집"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "16진수 그룹 문자"
+ },{
+  "en": "Hidden",
+  "tr": "숨겨진"
+ },{
+  "en": "Hide",
+  "tr": "숨다"
+ },{
+  "en": "Hide All",
+  "tr": "모두 숨기기"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "입력 시 커서 숨기기"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "텍스트 숨기기"
+ },{
+  "en": "Highlight",
+  "tr": "가장 밝은 부분"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "하이라이트 캐럿 라인"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "하이라이트 매칭 쌍"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "캐럿 라인(L) 강조 표시"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "캐럿 단어(W) 강조 표시"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "현재 접기(F) 강조 표시"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "현재 쌍(P) 강조 표시"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "증분 검색(S) 강조 표시"
+ },{
+  "en": "History",
+  "tr": "역사"
+ },{
+  "en": "Home Of Line",
+  "tr": "홈 오브 라인"
+ },{
+  "en": "Host",
+  "tr": "주인"
+ },{
+  "en": "Host address",
+  "tr": "호스트 주소"
+ },{
+  "en": "Host Based",
+  "tr": "호스트 기반"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "12 형식의 시간"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "24 형식의 시간"
+ },{
+  "en": "Http proxy",
+  "tr": "HTTP 프록시"
+ },{
+  "en": "Huge File",
+  "tr": "거대한 파일"
+ },{
+  "en": "Icon",
+  "tr": "상"
+ },{
+  "en": "Identity file",
+  "tr": "ID 파일"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "인증용 ID 파일"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "마스터 비밀번호를 생성하면 WindTerm가 마스터 비밀번호로 보호되는 저장된 정보를 검색할 때 입력하라는 메시지가 표시됩니다."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "마스터 비밀번호를 잊어버리면 마스터 비밀번호로 보호되는 정보에 액세스할 수 없습니다."
+ },{
+  "en": "Import",
+  "tr": "가져오기"
+ },{
+  "en": "Import sessions",
+  "tr": "세션 가져오기"
+ },{
+  "en": "In Selection",
+  "tr": "선택 중"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "줄 들여쓰기(I) 늘리기"
+ },{
+  "en": "Incremental",
+  "tr": "증분"
+ },{
+  "en": "Indent",
+  "tr": "톱니 모양"
+ },{
+  "en": "Indent guide style",
+  "tr": "들여쓰기 가이드 스타일"
+ },{
+  "en": "Indent Guides",
+  "tr": "들여쓰기 가이드"
+ },{
+  "en": "Indent size",
+  "tr": "들여쓰기 크기"
+ },{
+  "en": "Indentation",
+  "tr": "들여 쓰기"
+ },{
+  "en": "Indian Red",
+  "tr": "인디언 레드"
+ },{
+  "en": "Information",
+  "tr": "정보"
+ },{
+  "en": "Insert",
+  "tr": "삽입"
+ },{
+  "en": "Insert File",
+  "tr": "파일 삽입"
+ },{
+  "en": "Insert Lines",
+  "tr": "줄 삽입"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Tab 키(I)를 누를 때 탭 삽입"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "공백 삽입 및 삭제는 탭 정지(I)를 따릅니다."
+ },{
+  "en": "Inserting file",
+  "tr": "파일 삽입"
+ },{
+  "en": "Internal X display",
+  "tr": "내부 X 디스플레이"
+ },{
+  "en": "Interval",
+  "tr": "간격"
+ },{
+  "en": "Invert Selection",
+  "tr": "선택 반전"
+ },{
+  "en": "item failed",
+  "tr": "아이템 실패"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "아이템 실패"
+ },{
+  "en": "Join Channel A",
+  "tr": "채널 A(A) 가입"
+ },{
+  "en": "Join Channel B",
+  "tr": "채널 B(B) 가입"
+ },{
+  "en": "Join Channel C",
+  "tr": "채널 C(C) 가입"
+ },{
+  "en": "Join Channel D",
+  "tr": "채널 D(D) 가입"
+ },{
+  "en": "Join Lines",
+  "tr": "조인 라인"
+ },{
+  "en": "Joined",
+  "tr": "가입"
+ },{
+  "en": "Jump Server",
+  "tr": "점프 서버"
+ },{
+  "en": "Jump server",
+  "tr": "점프 서버"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "점프 서버"
+ },{
+  "en": "Key Exchange",
+  "tr": "키 교환"
+ },{
+  "en": "Key exchange order",
+  "tr": "키 교환 주문"
+ },{
+  "en": "Key re-exchange",
+  "tr": "키 재교환"
+ },{
+  "en": "Keyboard",
+  "tr": "건반"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "키보드 인터랙티브"
+ },{
+  "en": "Kit Bar",
+  "tr": "키트 바"
+ },{
+  "en": "Known",
+  "tr": "모두 다 아는"
+ },{
+  "en": "Label",
+  "tr": "상표"
+ },{
+  "en": "Language",
+  "tr": "언어"
+ },{
+  "en": "Last sessions",
+  "tr": "마지막 세션"
+ },{
+  "en": "Layout",
+  "tr": "형세"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "선행 및 후행 공백"
+ },{
+  "en": "Leading Blanks",
+  "tr": "선행 공백"
+ },{
+  "en": "Leading position",
+  "tr": "선두 위치"
+ },{
+  "en": "Leave All Channels",
+  "tr": "모든 채널 나가기"
+ },{
+  "en": "Leave all channels",
+  "tr": "모든 채널 나가기"
+ },{
+  "en": "Leave Channel",
+  "tr": "채널 나가기"
+ },{
+  "en": "Left Docks",
+  "tr": "왼쪽 도크"
+ },{
+  "en": "Left Group",
+  "tr": "왼쪽 그룹"
+ },{
+  "en": "Light",
+  "tr": "빛"
+ },{
+  "en": "Line",
+  "tr": "선"
+ },{
+  "en": "line",
+  "tr": "선"
+ },{
+  "en": "line at a time",
+  "tr": "한 번에 줄"
+ },{
+  "en": "Line Down",
+  "tr": "줄바꿈"
+ },{
+  "en": "Line Ending",
+  "tr": "줄 끝"
+ },{
+  "en": "Line Endings",
+  "tr": "줄 끝"
+ },{
+  "en": "Line Feed",
+  "tr": "줄 바꿈"
+ },{
+  "en": "line height",
+  "tr": "라인 높이"
+ },{
+  "en": "Line marker",
+  "tr": "라인 마커"
+ },{
+  "en": "Line spacing",
+  "tr": "줄 간격"
+ },{
+  "en": "Line Up",
+  "tr": "라인업"
+ },{
+  "en": "lines at a time",
+  "tr": "한 번에 라인"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "스크롤백 라인"
+ },{
+  "en": "Link",
+  "tr": "링크"
+ },{
+  "en": "Link to",
+  "tr": "다음으로 연결"
+ },{
+  "en": "List Tab",
+  "tr": "목록 탭"
+ },{
+  "en": "Listen Port",
+  "tr": "수신 포트"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "로컬 포워딩"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "메시지 찾기"
+ },{
+  "en": "Location",
+  "tr": "위치"
+ },{
+  "en": "Lock Screen",
+  "tr": "잠금 화면"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "잠금 화면 시간 초과"
+ },{
+  "en": "Lock Selection",
+  "tr": "선택 잠금"
+ },{
+  "en": "Log",
+  "tr": "로그"
+ },{
+  "en": "Log all session output",
+  "tr": "모든 세션 출력 기록"
+ },{
+  "en": "Log content pattern",
+  "tr": "로그 콘텐츠 패턴"
+ },{
+  "en": "Log Dialog",
+  "tr": "로그 대화 상자"
+ },{
+  "en": "Log file",
+  "tr": "로그 파일"
+ },{
+  "en": "Log file name",
+  "tr": "로그 파일 이름"
+ },{
+  "en": "Log maximum size",
+  "tr": "로그 최대 크기"
+ },{
+  "en": "Log nothing",
+  "tr": "아무것도 기록하지 않음"
+ },{
+  "en": "Log option",
+  "tr": "로그 옵션"
+ },{
+  "en": "Log options",
+  "tr": "로그 옵션"
+ },{
+  "en": "Log pattern",
+  "tr": "로그 패턴"
+ },{
+  "en": "Log printable output",
+  "tr": "인쇄 가능한 출력(P) 기록"
+ },{
+  "en": "Log type",
+  "tr": "로그 유형"
+ },{
+  "en": "Log types",
+  "tr": "로그 유형"
+ },{
+  "en": "Logging",
+  "tr": "벌채 반출"
+ },{
+  "en": "Login",
+  "tr": "로그인"
+ },{
+  "en": "Login Wizard",
+  "tr": "로그인 마법사"
+ },{
+  "en": "Long Time/Date",
+  "tr": "긴 시간/날짜"
+ },{
+  "en": "Look both guide",
+  "tr": "두 가이드 모두 보기"
+ },{
+  "en": "Look forward guide",
+  "tr": "기대 가이드"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC 해시"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC 해시 순서"
+ },{
+  "en": "Margin Blank",
+  "tr": "여백 공백"
+ },{
+  "en": "Margin Fold",
+  "tr": "여백 접기"
+ },{
+  "en": "Margin Number",
+  "tr": "여백 번호"
+ },{
+  "en": "Margin Symbol",
+  "tr": "여백 기호"
+ },{
+  "en": "Margin Text",
+  "tr": "여백 텍스트"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "마진 타임스탬프"
+ },{
+  "en": "Margins",
+  "tr": "여백"
+ },{
+  "en": "Marker style",
+  "tr": "마커 스타일"
+ },{
+  "en": "Master Password",
+  "tr": "마스터 비밀번호"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "키 다시 입력 전 최대 데이터(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "키 다시 입력 전 최대 시간(분)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "최대 연결 시간 초과"
+ },{
+  "en": "MB",
+  "tr": "메가바이트"
+ },{
+  "en": "Medium",
+  "tr": "중간"
+ },{
+  "en": "Medium Orchid",
+  "tr": "미디엄 오키드"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "미디엄 슬레이트 블루"
+ },{
+  "en": "Menu Bar",
+  "tr": "메뉴바"
+ },{
+  "en": "Merge To Group",
+  "tr": "그룹에 병합"
+ },{
+  "en": "Middle click",
+  "tr": "가운데 클릭"
+ },{
+  "en": "Middle click event",
+  "tr": "가운데 클릭 이벤트"
+ },{
+  "en": "Milliseconds",
+  "tr": "밀리초"
+ },{
+  "en": "Minutes",
+  "tr": "분"
+ },{
+  "en": "minutes",
+  "tr": "분"
+ },{
+  "en": "Mismatched",
+  "tr": "일치하지 않음"
+ },{
+  "en": "Mode",
+  "tr": "모드"
+ },{
+  "en": "Modem waiting",
+  "tr": "모뎀 대기 중"
+ },{
+  "en": "Modes",
+  "tr": "모드"
+ },{
+  "en": "Modified",
+  "tr": "수정됨"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "수정"
+ },{
+  "en": "Modify Lines",
+  "tr": "라인 수정"
+ },{
+  "en": "Month",
+  "tr": "월"
+ },{
+  "en": "More",
+  "tr": "더보기"
+ },{
+  "en": "Mouse Actions",
+  "tr": "마우스 동작"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "마우스 추적"
+ },{
+  "en": "Move Down",
+  "tr": "아래로 이동"
+ },{
+  "en": "Move event",
+  "tr": "이벤트 이동"
+ },{
+  "en": "Move to",
+  "tr": "이동"
+ },{
+  "en": "Move To Group",
+  "tr": "그룹으로 이동"
+ },{
+  "en": "Move Up",
+  "tr": "이동"
+ },{
+  "en": "Multiple Caret",
+  "tr": "다중 캐럿"
+ },{
+  "en": "Name",
+  "tr": "이름"
+ },{
+  "en": "nesting groups",
+  "tr": "중첩 그룹"
+ },{
+  "en": "Never",
+  "tr": "절대"
+ },{
+  "en": "New directory",
+  "tr": "새 디렉토리"
+ },{
+  "en": "New File",
+  "tr": "새 파일"
+ },{
+  "en": "New file",
+  "tr": "새 파일"
+ },{
+  "en": "New Line",
+  "tr": "새 줄"
+ },{
+  "en": "New link",
+  "tr": "새 링크"
+ },{
+  "en": "New password",
+  "tr": "새 비밀번호"
+ },{
+  "en": "New Session",
+  "tr": "새 세션"
+ },{
+  "en": "New Window",
+  "tr": "새 창"
+ },{
+  "en": "Next Char",
+  "tr": "다음 문자"
+ },{
+  "en": "Next Fold",
+  "tr": "다음 접기"
+ },{
+  "en": "Next Indentation",
+  "tr": "다음 들여쓰기"
+ },{
+  "en": "Next Line",
+  "tr": "다음 줄"
+ },{
+  "en": "Next Message",
+  "tr": "다음 메시지"
+ },{
+  "en": "Next Page",
+  "tr": "다음 페이지"
+ },{
+  "en": "Next Pair",
+  "tr": "다음 쌍"
+ },{
+  "en": "Next Paragraph",
+  "tr": "다음 단락"
+ },{
+  "en": "Next Scope",
+  "tr": "다음 범위"
+ },{
+  "en": "Next Segment End",
+  "tr": "다음 세그먼트 끝"
+ },{
+  "en": "Next Segment Start",
+  "tr": "다음 세그먼트 시작"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "다음 끊김 페이지"
+ },{
+  "en": "Next Word",
+  "tr": "다음 단어"
+ },{
+  "en": "Next Word End",
+  "tr": "다음 단어 끝"
+ },{
+  "en": "Next Word Part",
+  "tr": "다음 단어 부분"
+ },{
+  "en": "No",
+  "tr": "아니요"
+ },{
+  "en": "No action",
+  "tr": "조치 없음"
+ },{
+  "en": "No Dirs",
+  "tr": "디렉토리 없음"
+ },{
+  "en": "No elide",
+  "tr": "엘라이드 없음"
+ },{
+  "en": "No file opened",
+  "tr": "열린 파일 없음"
+ },{
+  "en": "No filer available",
+  "tr": "사용 가능한 파일러 없음"
+ },{
+  "en": "No Files",
+  "tr": "파일 없음"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "전송할 파일을 선택하지 않았습니다."
+ },{
+  "en": "No item opened",
+  "tr": "열린 항목 없음"
+ },{
+  "en": "No outline available",
+  "tr": "개요 없음"
+ },{
+  "en": "No proxy",
+  "tr": "프록시 없음"
+ },{
+  "en": "No session",
+  "tr": "세션 없음"
+ },{
+  "en": "No session available",
+  "tr": "사용 가능한 세션이 없습니다."
+ },{
+  "en": "No session opened",
+  "tr": "열린 세션 없음"
+ },{
+  "en": "No Sessions",
+  "tr": "세션 없음"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "지원되는 인증 방법이 없습니다."
+ },{
+  "en": "No transfer available",
+  "tr": "양도 불가"
+ },{
+  "en": "No wrap",
+  "tr": "랩 없음"
+ },{
+  "en": "No X display",
+  "tr": "X 표시 없음"
+ },{
+  "en": "None",
+  "tr": "없음"
+ },{
+  "en": "None tabs",
+  "tr": "탭 없음"
+ },{
+  "en": "Normal",
+  "tr": "정상"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "지금"
+ },{
+  "en": "Nowhere",
+  "tr": "아무데도"
+ },{
+  "en": "Octal",
+  "tr": "8진수"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM에서 ANSI(O)로"
+ },{
+  "en": "Off",
+  "tr": "끄다"
+ },{
+  "en": "off",
+  "tr": "끄다"
+ },{
+  "en": "Ok",
+  "tr": "확인"
+ },{
+  "en": "Old",
+  "tr": "오래된"
+ },{
+  "en": "Old password",
+  "tr": "기존 비밀번호"
+ },{
+  "en": "Olive",
+  "tr": "올리브"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "하나 이상의 세션이 열려 있습니다. \n현재 창을 닫으시겠습니까?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "디스크 파일만 다시 로드할 수 있습니다!"
+ },{
+  "en": "Only indentation",
+  "tr": "들여쓰기만"
+ },{
+  "en": "Opaque",
+  "tr": "불투명체"
+ },{
+  "en": "Open",
+  "tr": "열기"
+ },{
+  "en": "open",
+  "tr": "열려있는"
+ },{
+  "en": "Open directory after created",
+  "tr": "생성 후 디렉토리 열기"
+ },{
+  "en": "Open directory after download",
+  "tr": "다운로드 후 디렉토리 열기"
+ },{
+  "en": "Open File",
+  "tr": "파일 열기"
+ },{
+  "en": "Open file",
+  "tr": "파일 열기"
+ },{
+  "en": "Open file after created",
+  "tr": "생성 후 파일 열기"
+ },{
+  "en": "Open file failed!",
+  "tr": "파일 열기 실패!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "점프 서버 열기 실패!"
+ },{
+  "en": "Open Log File",
+  "tr": "로그 파일 열기"
+ },{
+  "en": "Open Log Folder",
+  "tr": "로그 폴더 열기"
+ },{
+  "en": "Open Recent",
+  "tr": "최근 열기"
+ },{
+  "en": "Open Selection",
+  "tr": "선택 열기"
+ },{
+  "en": "Open Session",
+  "tr": "세션 열기"
+ },{
+  "en": "Open session failed!",
+  "tr": "세션 열기 실패!"
+ },{
+  "en": "Open target directory",
+  "tr": "대상 디렉토리 열기"
+ },{
+  "en": "Open with default editor",
+  "tr": "기본 편집기(E)로 열기"
+ },{
+  "en": "Opened",
+  "tr": "열림"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh 세션"
+ },{
+  "en": "Others",
+  "tr": "기타"
+ },{
+  "en": "Outline",
+  "tr": "개요"
+ },{
+  "en": "Output",
+  "tr": "산출"
+ },{
+  "en": "Overtype",
+  "tr": "덮어쓰기"
+ },{
+  "en": "Overwrite",
+  "tr": "덮어쓰기"
+ },{
+  "en": "Overwrite log file",
+  "tr": "로그 파일 덮어쓰기"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "소스 파일이 최신일 때 덮어쓰기"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "소스 파일이 최신이거나 더 길 때 덮어쓰기"
+ },{
+  "en": "Owner",
+  "tr": "소유자"
+ },{
+  "en": "Packet padding char",
+  "tr": "패킷 패딩 문자"
+ },{
+  "en": "Packet size",
+  "tr": "패킷 크기"
+ },{
+  "en": "Page",
+  "tr": "페이지"
+ },{
+  "en": "page",
+  "tr": "페이지"
+ },{
+  "en": "Pair",
+  "tr": "쌍"
+ },{
+  "en": "Panes",
+  "tr": "창"
+ },{
+  "en": "Paragraph",
+  "tr": "단락"
+ },{
+  "en": "Parity",
+  "tr": "패리티"
+ },{
+  "en": "Passphrase",
+  "tr": "암호"
+ },{
+  "en": "Password",
+  "tr": "비밀번호"
+ },{
+  "en": "Password quality meter",
+  "tr": "비밀번호 품질 측정기"
+ },{
+  "en": "Paste",
+  "tr": "반죽"
+ },{
+  "en": "Paste Dialog",
+  "tr": "붙여넣기 대화 상자"
+ },{
+  "en": "Paste text",
+  "tr": "텍스트 붙여넣기"
+ },{
+  "en": "Pause",
+  "tr": "일시중지"
+ },{
+  "en": "Paused",
+  "tr": "일시중지됨"
+ },{
+  "en": "Pausing",
+  "tr": "일시중지"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "프록시(D)로 DNS 조회 수행"
+ },{
+  "en": "Period",
+  "tr": "기간"
+ },{
+  "en": "Permissions",
+  "tr": "권한"
+ },{
+  "en": "pixels",
+  "tr": "픽셀"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "이 보기의 새 이름을 입력하십시오"
+ },{
+  "en": "Please input master password",
+  "tr": "마스터 비밀번호를 입력해주세요"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "마스터 비밀번호를 입력하세요. 비활성화하려면 비어 있거나 취소하세요."
+ },{
+  "en": "Please input new group",
+  "tr": "새 그룹을 입력하세요."
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "설정한 마스터 비밀번호를 반드시 기억해 두시기 바랍니다."
+ },{
+  "en": "Port",
+  "tr": "포트"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "테마 글꼴 선호"
+ },{
+  "en": "Preferences",
+  "tr": "기본 설정"
+ },{
+  "en": "Preserve",
+  "tr": "보존하다"
+ },{
+  "en": "Preview All",
+  "tr": "모두 미리보기"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "미리보기 기호"
+ },{
+  "en": "Previous Char",
+  "tr": "이전 문자"
+ },{
+  "en": "Previous Fold",
+  "tr": "이전 접기"
+ },{
+  "en": "Previous Indentation",
+  "tr": "이전 들여쓰기"
+ },{
+  "en": "Previous Line",
+  "tr": "이전 줄"
+ },{
+  "en": "Previous Message",
+  "tr": "이전 메시지"
+ },{
+  "en": "Previous Page",
+  "tr": "이전 페이지"
+ },{
+  "en": "Previous Pair",
+  "tr": "이전 쌍"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "이전 단락"
+ },{
+  "en": "Previous Scope",
+  "tr": "이전 범위"
+ },{
+  "en": "Previous Segment End",
+  "tr": "이전 세그먼트 끝"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "이전 세그먼트 시작"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "이전에 끊긴 페이지"
+ },{
+  "en": "Previous Word",
+  "tr": "이전 단어"
+ },{
+  "en": "Previous Word End",
+  "tr": "이전 단어 끝"
+ },{
+  "en": "Previous Word Part",
+  "tr": "이전 단어 부분"
+ },{
+  "en": "Printable output",
+  "tr": "인쇄 가능한 출력"
+ },{
+  "en": "Process",
+  "tr": "프로세스"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "프로세스 %1이(가) 충돌했습니다."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "%1 프로세스를 시작하지 못했습니다."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "프로세스 %1 시간이 초과되었습니다."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "프로그램 [인수]"
+ },{
+  "en": "Project",
+  "tr": "프로젝트"
+ },{
+  "en": "Properties",
+  "tr": "속성"
+ },{
+  "en": "Property",
+  "tr": "재산"
+ },{
+  "en": "Protocol",
+  "tr": "규약"
+ },{
+  "en": "Proxy",
+  "tr": "대리"
+ },{
+  "en": "Proxy Host",
+  "tr": "프록시 호스트"
+ },{
+  "en": "Proxy Port",
+  "tr": "프록시 포트"
+ },{
+  "en": "Proxy Settings",
+  "tr": "프록시 설정"
+ },{
+  "en": "Proxy Type",
+  "tr": "프록시 유형"
+ },{
+  "en": "Public Key",
+  "tr": "공개 키"
+ },{
+  "en": "Public Keys",
+  "tr": "공개 키"
+ },{
+  "en": "Public keys order",
+  "tr": "공개 키 순서"
+ },{
+  "en": "Putty sessions",
+  "tr": "퍼티 세션"
+ },{
+  "en": "Query URL",
+  "tr": "쿼리 URL"
+ },{
+  "en": "Question",
+  "tr": "질문"
+ },{
+  "en": "Quick",
+  "tr": "빠른"
+ },{
+  "en": "Quick Bar",
+  "tr": "퀵바"
+ },{
+  "en": "Quick Commands",
+  "tr": "빠른 명령"
+ },{
+  "en": "Read Only",
+  "tr": "읽기 전용"
+ },{
+  "en": "Ready",
+  "tr": "준비가 된"
+ },{
+  "en": "Real guide",
+  "tr": "실제 가이드"
+ },{
+  "en": "Receive XModem",
+  "tr": "XModem(X) 수신"
+ },{
+  "en": "Receive YModem",
+  "tr": "Y모뎀(Y) 수신"
+ },{
+  "en": "Receive ZModem",
+  "tr": "ZModem(Z) 수신"
+ },{
+  "en": "received",
+  "tr": "받았다"
+ },{
+  "en": "Recent",
+  "tr": "최근의"
+ },{
+  "en": "Recent Sessions",
+  "tr": "최근 세션"
+ },{
+  "en": "Reconnect Session",
+  "tr": "세션 재연결"
+ },{
+  "en": "Rectangle",
+  "tr": "직사각형"
+ },{
+  "en": "rectangle",
+  "tr": "직사각형"
+ },{
+  "en": "Red",
+  "tr": "빨강"
+ },{
+  "en": "Redo",
+  "tr": "다시 실행"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "%1 작업 다시 실행"
+ },{
+  "en": "Refresh",
+  "tr": "새로 고침"
+ },{
+  "en": "Regular Expression",
+  "tr": "정규식"
+ },{
+  "en": "Reload",
+  "tr": "새로고침"
+ },{
+  "en": "Reload File",
+  "tr": "파일 다시 로드"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "인코딩으로 다시 로드"
+ },{
+  "en": "Remote forwarding",
+  "tr": "원격 포워딩"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "원격 경로"
+ },{
+  "en": "Remove",
+  "tr": "박리제)"
+ },{
+  "en": "remove",
+  "tr": "제거하다"
+ },{
+  "en": "Remove All",
+  "tr": "모두 제거"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "빈 줄 제거"
+ },{
+  "en": "Remove Command",
+  "tr": "제거 명령"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "중복 라인 제거"
+ },{
+  "en": "Remove Group",
+  "tr": "그룹 제거"
+ },{
+  "en": "Remove items",
+  "tr": "항목 제거"
+ },{
+  "en": "Remove Sender",
+  "tr": "보낸 사람 제거"
+ },{
+  "en": "Removing",
+  "tr": "풀이"
+ },{
+  "en": "Rename",
+  "tr": "이름 바꾸기"
+ },{
+  "en": "Rename Group",
+  "tr": "그룹 이름 바꾸기"
+ },{
+  "en": "Rename tab",
+  "tr": "탭 이름 바꾸기"
+ },{
+  "en": "Rename View",
+  "tr": "보기 이름 바꾸기"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "닫힌 보기 다시 열기"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "마지막 명령 반복"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "반복 실행"
+ },{
+  "en": "Replace",
+  "tr": "바꾸기"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "모두 바꾸기"
+ },{
+  "en": "Replace in Files",
+  "tr": "파일에서 바꾸기"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "적용하려면 다시 시작해야 합니다."
+ },{
+  "en": "Reset",
+  "tr": "재설정"
+ },{
+  "en": "Reset Character Set",
+  "tr": "문자 집합 재설정"
+ },{
+  "en": "Reset Zoom",
+  "tr": "확대/축소 재설정"
+ },{
+  "en": "Resume",
+  "tr": "재개하다"
+ },{
+  "en": "Resuming",
+  "tr": "재개"
+ },{
+  "en": "Right click",
+  "tr": "오른쪽 클릭"
+ },{
+  "en": "Right click event",
+  "tr": "우클릭 이벤트"
+ },{
+  "en": "Right Docks",
+  "tr": "오른쪽 도크"
+ },{
+  "en": "Right Group",
+  "tr": "오른쪽 그룹"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "스크롤하려면 마우스 휠을 굴립니다."
+ },{
+  "en": "Rows",
+  "tr": "행"
+ },{
+  "en": "Royal Blue",
+  "tr": "로얄 블루"
+ },{
+  "en": "Run Tool",
+  "tr": "도구 실행"
+ },{
+  "en": "Save",
+  "tr": "구하다"
+ },{
+  "en": "Save All",
+  "tr": "모두 저장"
+ },{
+  "en": "Save As",
+  "tr": "다른 이름으로 저장"
+ },{
+  "en": "Save Copy As",
+  "tr": "다른 이름으로 사본 저장"
+ },{
+  "en": "Save file failed!",
+  "tr": "파일 저장 실패!"
+ },{
+  "en": "Save Selection As",
+  "tr": "다른 이름으로 선택 저장"
+ },{
+  "en": "Save Session",
+  "tr": "세션 저장"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "자동인증저장"
+ },{
+  "en": "Scheme Tools",
+  "tr": "계획 도구"
+ },{
+  "en": "Scope",
+  "tr": "범위"
+ },{
+  "en": "Screen Locked",
+  "tr": "화면 잠김"
+ },{
+  "en": "Scroll Left",
+  "tr": "왼쪽으로 스크롤"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "줄 아래로 스크롤"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "스크롤 정렬"
+ },{
+  "en": "Scroll Right",
+  "tr": "오른쪽으로 스크롤"
+ },{
+  "en": "Search",
+  "tr": "찾다"
+ },{
+  "en": "Search engine",
+  "tr": "검색 엔진)"
+ },{
+  "en": "Search Engine",
+  "tr": "검색 엔진"
+ },{
+  "en": "Search Engines",
+  "tr": "검색 엔진"
+ },{
+  "en": "Search Online",
+  "tr": "온라인 검색"
+ },{
+  "en": "Search or enter address",
+  "tr": "주소 검색 또는 입력"
+ },{
+  "en": "Searching",
+  "tr": "수색"
+ },{
+  "en": "Seconds",
+  "tr": "초"
+ },{
+  "en": "seconds",
+  "tr": "초"
+ },{
+  "en": "Security",
+  "tr": "보안"
+ },{
+  "en": "Segment",
+  "tr": "세그먼트"
+ },{
+  "en": "Select",
+  "tr": "선택"
+ },{
+  "en": "Select All",
+  "tr": "모두 선택"
+ },{
+  "en": "Select Column To",
+  "tr": "열 선택 대상"
+ },{
+  "en": "Select copy folder",
+  "tr": "복사 폴더 선택"
+ },{
+  "en": "Select copy items",
+  "tr": "복사 항목 선택"
+ },{
+  "en": "Select directory to receive",
+  "tr": "받을 디렉토리 선택"
+ },{
+  "en": "Select download folder",
+  "tr": "다운로드 폴더 선택"
+ },{
+  "en": "Select files to send",
+  "tr": "보낼 파일 선택"
+ },{
+  "en": "Select Fold",
+  "tr": "접기(F) 선택"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "스니펫 뒤로(B) 선택"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "스니펫 앞으로(F) 선택"
+ },{
+  "en": "Select To",
+  "tr": "선택"
+ },{
+  "en": "Select upload items",
+  "tr": "업로드 항목 선택"
+ },{
+  "en": "Selected position",
+  "tr": "선택한 위치"
+ },{
+  "en": "Selected Sessions",
+  "tr": "선택한 세션"
+ },{
+  "en": "Selection",
+  "tr": "선택"
+ },{
+  "en": "Send",
+  "tr": "보내다"
+ },{
+  "en": "Send line By line",
+  "tr": "라인별 보내기"
+ },{
+  "en": "Send Text",
+  "tr": "문자를 보내다"
+ },{
+  "en": "Send XModem",
+  "tr": "XModem 보내기"
+ },{
+  "en": "Send YModem",
+  "tr": "Y모뎀 보내기"
+ },{
+  "en": "Send ZModem",
+  "tr": "Z모뎀(Z) 보내기"
+ },{
+  "en": "Sender",
+  "tr": "보내는 사람"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "%1 보내기 실패: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "보내는 중: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "세션을 활성 상태로 유지하기 위해 null 패킷을 보냅니다(S)."
+ },{
+  "en": "sent",
+  "tr": "전송 된"
+ },{
+  "en": "Serial",
+  "tr": "시리얼"
+ },{
+  "en": "Server",
+  "tr": "섬기는 사람"
+ },{
+  "en": "Session",
+  "tr": "세션"
+ },{
+  "en": "session",
+  "tr": "세션"
+ },{
+  "en": "Session Group",
+  "tr": "세션 그룹"
+ },{
+  "en": "Session Log",
+  "tr": "세션 로그"
+ },{
+  "en": "Session name",
+  "tr": "세션 이름"
+ },{
+  "en": "Session Settings",
+  "tr": "세션 설정"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "모든 Windows의 세션"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "현재 그룹의 세션"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "현재 창의 세션"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "그룹% 1의세션"
+ },{
+  "en": "Set default editor",
+  "tr": "기본 편집기 설정"
+ },{
+  "en": "Set Tab Color",
+  "tr": "탭 색상 설정"
+ },{
+  "en": "Settings",
+  "tr": "설정"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "모양"
+ },{
+  "en": "Shell",
+  "tr": "껍데기"
+ },{
+  "en": "Shell sessions",
+  "tr": "쉘 세션"
+ },{
+  "en": "Shell Sessions",
+  "tr": "셸 세션"
+ },{
+  "en": "Short Time/Date",
+  "tr": "짧은 시간/날짜"
+ },{
+  "en": "Show",
+  "tr": "보여 주다"
+ },{
+  "en": "Show All",
+  "tr": "모두 표시"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "열린 모든 편집자 및 최근 편집자 표시"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "열린 모든 터미널 및 최근 터미널 표시"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "작업 표시 및 실행"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "탭 닫기 확인 대화 상자 표시"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "창 닫기 확인 대화 상자 표시"
+ },{
+  "en": "Show column markers",
+  "tr": "열 마커 표시"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "알파벳 순서로 명령 표시"
+ },{
+  "en": "Show current %1 property",
+  "tr": "현재 %1 속성 표시"
+ },{
+  "en": "Show group commands in order",
+  "tr": "그룹 명령을 순서대로 표시"
+ },{
+  "en": "Show group title",
+  "tr": "그룹 제목 표시"
+ },{
+  "en": "Show hidden items",
+  "tr": "숨겨진 항목 표시"
+ },{
+  "en": "Show in %1",
+  "tr": "%1에 표시"
+ },{
+  "en": "Show In Line End",
+  "tr": "줄 끝 표시"
+ },{
+  "en": "Show In Line Start",
+  "tr": "줄 시작 표시"
+ },{
+  "en": "Show In Selection",
+  "tr": "선택 항목에 표시"
+ },{
+  "en": "Show indent guide",
+  "tr": "들여쓰기 안내 표시"
+ },{
+  "en": "Show line endings",
+  "tr": "줄 끝 표시"
+ },{
+  "en": "Show menu",
+  "tr": "메뉴 표시"
+ },{
+  "en": "Show More Tools",
+  "tr": "더 많은 도구 표시"
+ },{
+  "en": "Show multiple groups",
+  "tr": "여러 그룹 표시"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "대체 화면에 붙여넣기 대화 상자 표시"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "메인 화면에 붙여넣기 대화 상자 표시"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "공백 및 탭 표시"
+ },{
+  "en": "Show Tabs",
+  "tr": "탭 표시"
+ },{
+  "en": "Show Text",
+  "tr": "텍스트 표시"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "탭(S)에 탭 번호 표시"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "초점 모드가 시작될 때 이 대화 상자 표시"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "줄 바꿈 기호(S) 표시"
+ },{
+  "en": "Shrink",
+  "tr": "수축"
+ },{
+  "en": "Size",
+  "tr": "크기"
+ },{
+  "en": "Skip",
+  "tr": "건너 뛰다"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "양말 v5 프록시"
+ },{
+  "en": "Soft Reset",
+  "tr": "소프트 리셋"
+ },{
+  "en": "Sort",
+  "tr": "정렬"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "대소문자를 구분하지 않는 정렬 라인"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "대소문자 구분(S) 행 정렬"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "무작위 순서로 줄 정렬"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "역순으로 줄 정렬"
+ },{
+  "en": "spaces",
+  "tr": "공백"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "탭(S)에 공백"
+ },{
+  "en": "Spacing",
+  "tr": "간격"
+ },{
+  "en": "Special",
+  "tr": "특별한"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "파일을 끌어다 놓을 때 프로토콜 지정"
+ },{
+  "en": "Speed",
+  "tr": "속도"
+ },{
+  "en": "Split",
+  "tr": "분할"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "그룹을 수평으로 분할"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "수직으로 그룹 분할"
+ },{
+  "en": "Split Lines",
+  "tr": "분할선"
+ },{
+  "en": "Split Selection",
+  "tr": "분할 선택"
+ },{
+  "en": "Split To Group",
+  "tr": "그룹으로 분할"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "가로로 분할 보기"
+ },{
+  "en": "Split View Vertically",
+  "tr": "세로 분할 보기"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "시작"
+ },{
+  "en": "Start Of Document",
+  "tr": "문서 시작"
+ },{
+  "en": "Start Of Line",
+  "tr": "줄 시작"
+ },{
+  "en": "Start Of Pair",
+  "tr": "쌍 시작"
+ },{
+  "en": "Startup",
+  "tr": "시작"
+ },{
+  "en": "Stash",
+  "tr": "보관함"
+ },{
+  "en": "Status Bar",
+  "tr": "상태 표시 줄"
+ },{
+  "en": "Stdin",
+  "tr": "표준"
+ },{
+  "en": "Stdout",
+  "tr": "표준 출력"
+ },{
+  "en": "Steel Blue",
+  "tr": "스틸 블루"
+ },{
+  "en": "Sticky",
+  "tr": "끈끈한"
+ },{
+  "en": "Stop",
+  "tr": "중지"
+ },{
+  "en": "Stop Bits",
+  "tr": "정지 비트"
+ },{
+  "en": "Stop loading",
+  "tr": "로딩 중지"
+ },{
+  "en": "Stop sender",
+  "tr": "발신자 중지"
+ },{
+  "en": "Stop Tools",
+  "tr": "도구 중지"
+ },{
+  "en": "Stop watching this file",
+  "tr": "이 파일 시청 중지"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "스트림 및 열 전환"
+ },{
+  "en": "switch to tab",
+  "tr": "탭으로 전환"
+ },{
+  "en": "Symbols",
+  "tr": "기호"
+ },{
+  "en": "Sync channel",
+  "tr": "채널 동기화"
+ },{
+  "en": "Sync Edit",
+  "tr": "동기화 편집"
+ },{
+  "en": "Sync Input",
+  "tr": "동기화 입력"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "채널% 1의입력동기화중"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "구문 체계"
+ },{
+  "en": "System",
+  "tr": "시스템"
+ },{
+  "en": "Tab",
+  "tr": "탭"
+ },{
+  "en": "Tab Color",
+  "tr": "탭 색상"
+ },{
+  "en": "Tab Features",
+  "tr": "탭 기능"
+ },{
+  "en": "Tab Group",
+  "tr": "탭 그룹"
+ },{
+  "en": "Tab Index",
+  "tr": "탭 색인"
+ },{
+  "en": "Tab size",
+  "tr": "탭 크기"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "탭 텍스트 생략 모드"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "탭 썸네일 라디오"
+ },{
+  "en": "Tab Title",
+  "tr": "탭 제목"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "선택한 줄(T)을 Tabify"
+ },{
+  "en": "Tabs",
+  "tr": "탭"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "탭에서 공백으로"
+ },{
+  "en": "Target",
+  "tr": "표적"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "대상 폴더"
+ },{
+  "en": "Targets",
+  "tr": "대상"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP 연결 옵션"
+ },{
+  "en": "Teal",
+  "tr": "청록"
+ },{
+  "en": "Term",
+  "tr": "기간"
+ },{
+  "en": "Terminal",
+  "tr": "단말기"
+ },{
+  "en": "terminal",
+  "tr": "단말기"
+ },{
+  "en": "Terminal Settings",
+  "tr": "터미널 설정"
+ },{
+  "en": "Text",
+  "tr": "텍스트"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "텍스트: %1줄, %2자"
+ },{
+  "en": "The % sign",
+  "tr": "그 신호"
+ },{
+  "en": "The actual text to log",
+  "tr": "기록할 실제 텍스트"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "대상 폴더는 원본 폴더의 하위 폴더입니다.\n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "문서가 수정되었습니다.\n변경 사항을 저장하시겠습니까?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "키 조합(%1)은 명령이 아닙니다."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "lrzsz가 감지되지 않습니다. lrzsz를 먼저 설치하십시오."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "마스터 비밀번호가 변경되었습니다."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "비밀번호 확인이 일치하지 않습니다."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "서버가 전송을 취소했습니다."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "세션이 <b>연결 해제</b>되었습니다. 다시 연결하려면 <b>Enter</b> 키를 누르십시오."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "패킷이 %1 재시도 제한 내에 있지 않기 때문에 전송이 취소되었습니다."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "패킷 시퀀스 번호가 잘못되어 전송이 취소되었습니다."
+ },{
+  "en": "Theme",
+  "tr": "테마"
+ },{
+  "en": "Thin",
+  "tr": "얇은"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "대용량 파일(T)에 대한 임계값"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "시간 형식"
+ },{
+  "en": "Time left",
+  "tr": "남은 시간"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "라인의 타임스탬프"
+ },{
+  "en": "To Inverse Case",
+  "tr": "역 케이스"
+ },{
+  "en": "To Line End",
+  "tr": "줄 끝(E)으로"
+ },{
+  "en": "To Line Start",
+  "tr": "라인 시작까지"
+ },{
+  "en": "To Lower Case",
+  "tr": "소문자로"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "MacOS 9 CR(M)으로"
+ },{
+  "en": "To Title Case",
+  "tr": "제목 케이스(T)로"
+ },{
+  "en": "To Unix LF",
+  "tr": "유닉스 LF(U)로"
+ },{
+  "en": "To Upper Case",
+  "tr": "대문자로"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Windows CRLF(W)로"
+ },{
+  "en": "To Word End",
+  "tr": "단어 끝으로"
+ },{
+  "en": "To Word Start",
+  "tr": "워드 시작으로"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "접기 전환"
+ },{
+  "en": "Tool",
+  "tr": "도구"
+ },{
+  "en": "Toolbar",
+  "tr": "도구 모음"
+ },{
+  "en": "Top Group",
+  "tr": "상위 그룹"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "트리에서 텍스트 선택 추적"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "텍스트(T)에서 트리 선택 추적"
+ },{
+  "en": "Tracking Events",
+  "tr": "이벤트 추적"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "후행 공백"
+ },{
+  "en": "Trailing position",
+  "tr": "후행 위치"
+ },{
+  "en": "Transfer",
+  "tr": "옮기다"
+ },{
+  "en": "Transfer Bar",
+  "tr": "트랜스퍼 바"
+ },{
+  "en": "Transfer Binary",
+  "tr": "바이너리 전송"
+ },{
+  "en": "Transfer complete",
+  "tr": "전송 완료"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "전송이 완료되지 않음"
+ },{
+  "en": "Translucent",
+  "tr": "반투명"
+ },{
+  "en": "Transparent",
+  "tr": "투명한"
+ },{
+  "en": "Transpose",
+  "tr": "조옮김"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "저장 시 후행 공백 제거"
+ },{
+  "en": "Trust this host",
+  "tr": "이 호스트를 신뢰하십시오"
+ },{
+  "en": "Tunnels",
+  "tr": "터널"
+ },{
+  "en": "Type",
+  "tr": "유형"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "유형 '?' 여기에 입력할 수 있는 작업에 대한 도움말을 보려면"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "선택 해제"
+ },{
+  "en": "Underline",
+  "tr": "밑줄"
+ },{
+  "en": "underLine",
+  "tr": "밑줄"
+ },{
+  "en": "Undo",
+  "tr": "실행 취소"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "%1 작업 실행 취소"
+ },{
+  "en": "Unfold",
+  "tr": "펼치기"
+ },{
+  "en": "Unfold All",
+  "tr": "모두 펼치기"
+ },{
+  "en": "Unfold Category",
+  "tr": "카테고리 펼치기"
+ },{
+  "en": "Unfold Inside",
+  "tr": "안쪽으로 펼치기"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "저장 시 줄 끝 통합"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "유닉스Pty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: 셸 파일 경로는 절대 경로여야 합니다."
+ },{
+  "en": "Unknown",
+  "tr": "알려지지 않은"
+ },{
+  "en": "unknown",
+  "tr": "알려지지 않은"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "선택한 라인 탭 해제"
+ },{
+  "en": "Untitled",
+  "tr": "무제"
+ },{
+  "en": "Untrust this host",
+  "tr": "이 호스트를 신뢰하지 않음"
+ },{
+  "en": "upload",
+  "tr": "업로드"
+ },{
+  "en": "Upload command",
+  "tr": "업로드 명령"
+ },{
+  "en": "Upload directory",
+  "tr": "디렉토리 업로드"
+ },{
+  "en": "Upload file",
+  "tr": "파일 업로드"
+ },{
+  "en": "Upload to current folder",
+  "tr": "현재 폴더에 업로드"
+ },{
+  "en": "uploaded",
+  "tr": "업로드"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "쿼리(U) 대신 %q가 있는 URL"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "배경색을 사용하여 화면 지우기"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "고속 전송(H) 사용"
+ },{
+  "en": "Use system line ending",
+  "tr": "시스템 줄 끝 사용"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "기본값으로 사용하고 다시 묻지 않음"
+ },{
+  "en": "User",
+  "tr": "사용자"
+ },{
+  "en": "Username echo mode",
+  "tr": "사용자 이름 에코 모드"
+ },{
+  "en": "Value",
+  "tr": "값"
+ },{
+  "en": "Variable",
+  "tr": "변하기 쉬운"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "서버의 지문(V) 확인"
+ },{
+  "en": "View",
+  "tr": "보기"
+ },{
+  "en": "Virtual Space",
+  "tr": "가상공간"
+ },{
+  "en": "Waiting",
+  "tr": "대기 중"
+ },{
+  "en": "Warning",
+  "tr": "경고"
+ },{
+  "en": "Wheel event",
+  "tr": "휠 이벤트"
+ },{
+  "en": "When destination file exists",
+  "tr": "대상 파일이 있는 경우"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "여러 줄을 붙여넣을 때"
+ },{
+  "en": "When remote title is changed",
+  "tr": "리모트 타이틀이 변경된 경우"
+ },{
+  "en": "When session is authenticated",
+  "tr": "세션이 인증될 때"
+ },{
+  "en": "When session is authenticating",
+  "tr": "세션이 인증 중일 때"
+ },{
+  "en": "When window is resized",
+  "tr": "창의 크기를 조정할 때"
+ },{
+  "en": "Where",
+  "tr": "어디에"
+ },{
+  "en": "White Spaces",
+  "tr": "공백"
+ },{
+  "en": "Whole Line",
+  "tr": "전체 라인"
+ },{
+  "en": "Whole Word",
+  "tr": "전체 단어"
+ },{
+  "en": "Widgets",
+  "tr": "위젯"
+ },{
+  "en": "Width",
+  "tr": "너비"
+ },{
+  "en": "Window",
+  "tr": "창문"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "창 가장자리"
+ },{
+  "en": "Window Opacity",
+  "tr": "창 불투명도"
+ },{
+  "en": "Window opacity",
+  "tr": "창 불투명도"
+ },{
+  "en": "Windows Manager",
+  "tr": "윈도우 매니저"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe 또는 winpty.dll을 찾을 수 없습니다!."
+ },{
+  "en": "Word",
+  "tr": "단어"
+ },{
+  "en": "Word Separators",
+  "tr": "단어 구분 기호"
+ },{
+  "en": "Word Wrap",
+  "tr": "줄바꿈"
+ },{
+  "en": "Working directory",
+  "tr": "작업 디렉토리"
+ },{
+  "en": "Wrap",
+  "tr": "포장하다"
+ },{
+  "en": "Wrap by character",
+  "tr": "문자로 줄바꿈"
+ },{
+  "en": "Wrap by word",
+  "tr": "단어로 감싸기"
+ },{
+  "en": "Wrap column",
+  "tr": "랩 컬럼"
+ },{
+  "en": "Wrap mode",
+  "tr": "랩 모드"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "줄 바꿈 기호"
+ },{
+  "en": "Wrong master password.",
+  "tr": "잘못된 마스터 비밀번호입니다."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z 모뎀"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z 모뎀은 4GB보다 큰 폴더나 파일을 전송할 수 없습니다: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 인증 프로토콜"
+ },{
+  "en": "X11 display",
+  "tr": "X11 디스플레이"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "2자리 연도"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "4자리 연도"
+ },{
+  "en": "Yes",
+  "tr": "예"
+ },{
+  "en": "Zero",
+  "tr": "영"
+ },{
+  "en": "Zoom",
+  "tr": "줌"
+ },{
+  "en": "Zoom In",
+  "tr": "확대"
+ },{
+  "en": "Zoom level",
+  "tr": "줌 레벨"
+ },{
+  "en": "Zoom Out",
+  "tr": "축소"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[%1s에서 충돌]"
+ },{
+  "en": "[Empty]",
+  "tr": "[비어있는]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[오류: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[%1s에서 완료됨, 종료 코드 %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[%1s에 완료됨]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[그룹 목록이 비어 있습니다.]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[탐색 목록이 비어 있습니다]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[검색 엔진 없음]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[최근 URL이 비어 있습니다.]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[다시 실행 목록이 비어 있습니다.]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[구성표 목록이 비어 있습니다.]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[테마 목록이 비어 있습니다.]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[도구 모음 목록이 비어 있습니다.]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[실행 취소 목록이 비어 있습니다.]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[사용자 취소]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[사용자@]호스트 이름"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[윈도우 목록이 비어 있습니다.]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

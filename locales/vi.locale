@@ -1,0 +1,3513 @@
+{
+ "language": "Vietnamese - Tiếng Việt",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "Công cụ $ (Scheme) "
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1%2 không được hỗ trợ bởi%3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 đã sao chép"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 được tải xuống"
+ },{
+  "en": "%1 File",
+  "tr": "%1 Tệp"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 mục không thành công"
+ },{
+  "en": "%1 items",
+  "tr": "%1 mục"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 mục không thành công"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 mục / s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 của 2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 đã bị xóa"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 này%2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 được tải lên"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1 /%2 Tốc độ:%3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1:%2 lần nhập mật khẩu không thành công."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> Đã <b> thay đổi </b> và <b> tải lại </b>, việc hoàn tác <b> KHÔNG </b> được phép đối với tệp lớn."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> Đã <b> thay đổi </b> và <b> tải lại </b>, được phép hoàn tác."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> Đã <b> thay đổi </b>, Bạn có muốn tải lại không?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> Đã được <b> di chuyển hoặc xóa </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) đã được nhấn. Đang đợi thêm chìa khóa"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 Cột"
+ },{
+  "en": "2 Chars",
+  "tr": "2 ký tự"
+ },{
+  "en": "24 Columns",
+  "tr": "24 Cột"
+ },{
+  "en": "32 Columns",
+  "tr": "32 Cột"
+ },{
+  "en": "4 Chars",
+  "tr": "4 ký tự"
+ },{
+  "en": "8 Chars",
+  "tr": "8 ký tự"
+ },{
+  "en": "8 Columns",
+  "tr": "8 Cột"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Mật khẩu chính được sử dụng để bảo vệ thông tin nhạy cảm như mật khẩu SSH."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Tên phải ít hơn 255 ký tự và không được chứa bất kỳ ký tự nào sau đây: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Một tệp từ xa đã được sửa đổi. \nBạn có muốn tải tệp này trở lại máy chủ không?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Một phiên cụ thể hoặc một tập hợp các phiên "
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Tên tháng viết tắt"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Tên ngày trong tuần viết tắt"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Chỉ chấp nhận các kết nối cục bộ "
+ },{
+  "en": "Accessed",
+  "tr": "Đã truy cập"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Kích hoạt nhiều dấu mũ "
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Kích hoạt Lựa chọn Tiếp theo "
+ },{
+  "en": "Activate Next View",
+  "tr": "Kích hoạt Chế độ xem tiếp theo "
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Kích hoạt Lựa chọn Trước "
+ },{
+  "en": "Activate Previous View",
+  "tr": "Kích hoạt Chế độ xem trước "
+ },{
+  "en": "Activate the left tab",
+  "tr": "Kích hoạt tab bên trái"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Kích hoạt tab đã chọn trước đó"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Kích hoạt tab bên phải"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Kích hoạt tab sau khi đóng "
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Kích hoạt tab sau khi di chuột qua "
+ },{
+  "en": "Add",
+  "tr": "Thêm "
+ },{
+  "en": "Add All",
+  "tr": "Thêm tất cả "
+ },{
+  "en": "Add Command",
+  "tr": "Thêm lệnh"
+ },{
+  "en": "Add Group",
+  "tr": "Thêm nhóm"
+ },{
+  "en": "Add Sender",
+  "tr": "Thêm người gửi "
+ },{
+  "en": "Add Tab",
+  "tr": "Thêm tab"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Điều chỉnh các hàng và cột trong cửa sổ "
+ },{
+  "en": "Advanced Sort",
+  "tr": "Sắp xếp nâng cao"
+ },{
+  "en": "Agent",
+  "tr": "Đại lý"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Xác thực đại lý không thành công, vui lòng thử một phương pháp khác"
+ },{
+  "en": "All",
+  "tr": "Tất cả "
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Tất cả%1 phiên sẽ bị xóa. \nBạn có muốn tiếp tục nhập phiên không?"
+ },{
+  "en": "All session output",
+  "tr": "Tất cả đầu ra phiên "
+ },{
+  "en": "All Sessions",
+  "tr": "Tất cả các phiên "
+ },{
+  "en": "All tabs",
+  "tr": "Tất cả các tab"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Màu nền cột thay thế "
+ },{
+  "en": "Alternate line background color",
+  "tr": "Màu nền đường thay thế "
+ },{
+  "en": "Always On Top",
+  "tr": "Luôn ở trên cùng "
+ },{
+  "en": "Always on top",
+  "tr": "Luôn luôn trên đầu trang"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Đã xảy ra lỗi khi cố đọc từ quá trình%1."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Đã xảy ra lỗi khi cố gắng ghi vào quy trình%1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Đã xảy ra lỗi không xác định trong quá trình%1."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI đến OEM "
+ },{
+  "en": "Answer back",
+  "tr": "Trả lời lại "
+ },{
+  "en": "Any",
+  "tr": "Không tí nào"
+ },{
+  "en": "Anything Palette",
+  "tr": "Bảng màu bất kỳ "
+ },{
+  "en": "Anywhere",
+  "tr": "Bất cứ nơi nào"
+ },{
+  "en": "Appearance",
+  "tr": "Ngoại hình"
+ },{
+  "en": "Append",
+  "tr": "Nối"
+ },{
+  "en": "Append log file",
+  "tr": "Nối tệp nhật ký "
+ },{
+  "en": "Application",
+  "tr": "Ứng dụng"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Bạn có chắc chắn muốn xóa%1 mục đã chọn không?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Bạn có chắc chắn muốn xóa mục <b>%1 </b> không?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Bạn có chắc chắn muốn tải lại tệp hiện tại và mất các thay đổi được thực hiện trong WindEdit không?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Bạn có chắc chắn muốn dừng người gửi hiện tại không?"
+ },{
+  "en": "Arguments",
+  "tr": "Đối số "
+ },{
+  "en": "At Caret",
+  "tr": "Tại Caret "
+ },{
+  "en": "At End",
+  "tr": "Ở cuối "
+ },{
+  "en": "At Start",
+  "tr": "Lúc bắt đầu "
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Cố gắng xác thực gssapi-with-mic "
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Cố gắng xác thực tương tác với bàn phím "
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Cố gắng xác thực cuộc thi "
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Cố gắng xác thực mật khẩu "
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Cố gắng xác thực khóa công khai "
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Cố gắng xác thực ssh-agent "
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Đã xác thực thành công một phần, vui lòng thử một phương pháp khác."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Xác thực theo%1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Xác thực theo%1 và%2"
+ },{
+  "en": "Authentication",
+  "tr": "Xác thực"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Xác thực bị từ chối, vui lòng thử lại."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Lỗi xảy ra trong quá trình xác thực. Xin thử lại lần nữa."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Tự động đóng thẻ HTML / XML "
+ },{
+  "en": "Auto login",
+  "tr": "Tự động đăng nhập"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Đăng nhập tự động không thành công, vui lòng thử lại."
+ },{
+  "en": "Auto login next time",
+  "tr": "Tự động đăng nhập lần sau "
+ },{
+  "en": "Automatic",
+  "tr": "Tự động"
+ },{
+  "en": "automatic",
+  "tr": "tự động"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Các phương pháp xác thực tự động"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Tự động sao chép lựa chọn "
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Tự động phát hiện thụt lề "
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Tự động cắt bỏ phần đệm "
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Điểm đánh dấu nền"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace "
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace gửi"
+ },{
+  "en": "Backward",
+  "tr": "Phía sau"
+ },{
+  "en": "Bars",
+  "tr": "Thanh"
+ },{
+  "en": "Baud Rate",
+  "tr": "Tốc độ truyền "
+ },{
+  "en": "Beep When Finished",
+  "tr": "Bíp khi hoàn thành"
+ },{
+  "en": "Binary",
+  "tr": "Nhị phân"
+ },{
+  "en": "Binary base",
+  "tr": "Cơ số nhị phân "
+ },{
+  "en": "Binary columns",
+  "tr": "Cột nhị phân "
+ },{
+  "en": "Binary devision columns",
+  "tr": "Cột biểu tượng nhị phân "
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Các ký tự được nhóm nhị phân "
+ },{
+  "en": "Black",
+  "tr": "Màu đen"
+ },{
+  "en": "Blink",
+  "tr": "Nháy mắt "
+ },{
+  "en": "blinking block",
+  "tr": "khối nhấp nháy"
+ },{
+  "en": "blinking line",
+  "tr": "dòng nhấp nháy"
+ },{
+  "en": "blinking rectangle",
+  "tr": "hình chữ nhật nhấp nháy"
+ },{
+  "en": "blinking underLine",
+  "tr": "nhấp nháy dưới dòng"
+ },{
+  "en": "Block",
+  "tr": "Khối"
+ },{
+  "en": "block",
+  "tr": "khối"
+ },{
+  "en": "Bold",
+  "tr": "In đậm"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Kiểu in đậm cho biết phông chữ có chiều rộng cố định"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Bottom Docks "
+ },{
+  "en": "Bottom Group",
+  "tr": "Nhóm dưới cùng "
+ },{
+  "en": "Browse",
+  "tr": "Duyệt qua"
+ },{
+  "en": "Browse Directory",
+  "tr": "Duyệt thư mục"
+ },{
+  "en": "Browse File",
+  "tr": "Chọn thư mục"
+ },{
+  "en": "Browser",
+  "tr": "Trình duyệt "
+ },{
+  "en": "Build",
+  "tr": "Xây dựng "
+ },{
+  "en": "By",
+  "tr": "Qua"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Tính toán"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Không thể tìm thấy chương trình phù hợp để mở tệp: (%1 (Hãy thử sử dụng trình chỉnh sửa mặc định để mở tệp."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Không thể tạo thư mục%1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Không thể tạo tệp%1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Không thể tạo liên kết%1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Không thể xóa thư mục%1."
+ },{
+  "en": "Cancel",
+  "tr": "Hủy bỏ"
+ },{
+  "en": "Cancel Build",
+  "tr": "Hủy bản dựng "
+ },{
+  "en": "Cancel Selection",
+  "tr": "Hủy lựa chọn "
+ },{
+  "en": "Caret",
+  "tr": "Con mũ"
+ },{
+  "en": "Caret Style",
+  "tr": "Kiểu con mũ "
+ },{
+  "en": "Carriage Return",
+  "tr": "Vận chuyển trở lại"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Trường hợp nhạy cảm"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup "
+ },{
+  "en": "Change Master Password",
+  "tr": "Thay đổi mật khẩu chính "
+ },{
+  "en": "Change master password",
+  "tr": "Thay đổi mật khẩu chính"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Thay đổi mật khẩu chính không thành công."
+ },{
+  "en": "Change the tab title",
+  "tr": "Thay đổi tiêu đề tab "
+ },{
+  "en": "Changed",
+  "tr": "Đã thay đổi"
+ },{
+  "en": "Channel",
+  "tr": "Kênh"
+ },{
+  "en": "Char",
+  "tr": "Char "
+ },{
+  "en": "Char Left",
+  "tr": "Char Left "
+ },{
+  "en": "Char Right",
+  "tr": "Char Right "
+ },{
+  "en": "Character spacing",
+  "tr": "Khoảng cách ký tự "
+ },{
+  "en": "character width",
+  "tr": "chiều rộng ký tự"
+ },{
+  "en": "Charset",
+  "tr": "Bộ chữ "
+ },{
+  "en": "Choose a default editor",
+  "tr": "Chọn một trình chỉnh sửa mặc định"
+ },{
+  "en": "Ciphers",
+  "tr": "Mật mã"
+ },{
+  "en": "Ciphers order",
+  "tr": "Thứ tự mật mã "
+ },{
+  "en": "Clear",
+  "tr": "Sạch"
+ },{
+  "en": "Clear All",
+  "tr": "Xóa tất cả "
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Xóa các Url Gần đây "
+ },{
+  "en": "Clear Screen",
+  "tr": "Xóa màn hình "
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Xóa cuộn ngược "
+ },{
+  "en": "Clear Sender",
+  "tr": "Xóa người gửi "
+ },{
+  "en": "Click event",
+  "tr": "Nhấp vào sự kiện "
+ },{
+  "en": "Close",
+  "tr": "Gần"
+ },{
+  "en": "Close All Views",
+  "tr": "Đóng tất cả các chế độ xem "
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Đóng tất cả các chế độ xem nhưng hoạt động "
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Đóng tất cả các chế độ xem sang bên phải "
+ },{
+  "en": "Close And Exit",
+  "tr": "Đóng và thoát"
+ },{
+  "en": "Close Channel",
+  "tr": "Đóng kênh "
+ },{
+  "en": "Close Dock",
+  "tr": "Đóng Dock"
+ },{
+  "en": "Close Group",
+  "tr": "Đóng nhóm"
+ },{
+  "en": "Close Session",
+  "tr": "Đóng phiên"
+ },{
+  "en": "Close Tab",
+  "tr": "Đóng tab"
+ },{
+  "en": "Close tab",
+  "tr": "Đóng tab"
+ },{
+  "en": "Close View",
+  "tr": "Đóng Chế độ xem "
+ },{
+  "en": "Close Window",
+  "tr": "Đóng cửa sổ "
+ },{
+  "en": "Color",
+  "tr": "Màu "
+ },{
+  "en": "Column Edit",
+  "tr": "Chỉnh sửa cột "
+ },{
+  "en": "Column Marker",
+  "tr": "Điểm đánh dấu cột"
+ },{
+  "en": "Columns",
+  "tr": "Cột "
+ },{
+  "en": "columns",
+  "tr": "cột"
+ },{
+  "en": "Command",
+  "tr": "Lệnh "
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Bảng lệnh "
+ },{
+  "en": "Comment",
+  "tr": "Nhận xét "
+ },{
+  "en": "Comment Selection",
+  "tr": "Lựa chọn Nhận xét "
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Lựa chọn Nhận xét (Chế độ Chặn) "
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Lựa chọn chú thích (Chế độ dòng) "
+ },{
+  "en": "Complete Word",
+  "tr": "Từ hoàn chỉnh "
+ },{
+  "en": "Config",
+  "tr": "Cấu hình"
+ },{
+  "en": "Confirm Password",
+  "tr": "Xác nhận mật khẩu"
+ },{
+  "en": "Confirm password",
+  "tr": "Xác nhận mật khẩu"
+ },{
+  "en": "Connect",
+  "tr": "Liên kết"
+ },{
+  "en": "Connection",
+  "tr": "Sự liên quan"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Định nghĩa bài văn"
+ },{
+  "en": "Continue",
+  "tr": "Tiếp tục"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Chuyển đổi CRLF và LF sang CR "
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Chuyển đổi tab thành dấu cách "
+ },{
+  "en": "copied",
+  "tr": "đã sao chép"
+ },{
+  "en": "Copy",
+  "tr": "Sao chép"
+ },{
+  "en": "copy",
+  "tr": "sao chép"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Sao chép và dán "
+ },{
+  "en": "Copy File Name",
+  "tr": "Sao chép tên tệp "
+ },{
+  "en": "Copy File Path",
+  "tr": "Sao chép đường dẫn tệp "
+ },{
+  "en": "Copy from",
+  "tr": "Sao chép từ "
+ },{
+  "en": "Copy names",
+  "tr": "Sao chép tên "
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Sao chép tên vào thiết bị đầu cuối "
+ },{
+  "en": "Copy Output",
+  "tr": "Sao chép đầu ra "
+ },{
+  "en": "Copy paths",
+  "tr": "Sao chép đường dẫn "
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Sao chép đường dẫn đến thiết bị đầu cuối "
+ },{
+  "en": "Copy Session Name",
+  "tr": "Sao chép tên phiên "
+ },{
+  "en": "Copy Session Url",
+  "tr": "Sao chép Url phiên "
+ },{
+  "en": "Copy to",
+  "tr": "Sao chép vào "
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Sao chép vào thiết bị đầu cuối "
+ },{
+  "en": "Count",
+  "tr": "Đếm"
+ },{
+  "en": "Create Directory",
+  "tr": "Tạo thư mục"
+ },{
+  "en": "Create File",
+  "tr": "Tạo tệp"
+ },{
+  "en": "Create Link",
+  "tr": "Tạo đường link"
+ },{
+  "en": "Created",
+  "tr": "Tạo"
+ },{
+  "en": "Critical",
+  "tr": "Phê bình"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Phiên hiện tại"
+ },{
+  "en": "Custom",
+  "tr": "Tập quán"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Độ mờ tùy chỉnh "
+ },{
+  "en": "Customize",
+  "tr": "Tùy chỉnh "
+ },{
+  "en": "Cut",
+  "tr": "Cắt "
+ },{
+  "en": "Dark Cyan",
+  "tr": "Lục lam đậm "
+ },{
+  "en": "Data",
+  "tr": "Dữ liệu "
+ },{
+  "en": "Data Bits",
+  "tr": "Dữ liệu bit "
+ },{
+  "en": "Datetime format",
+  "tr": "Định dạng ngày giờ "
+ },{
+  "en": "Day of month",
+  "tr": "Ngày trong tháng"
+ },{
+  "en": "Debug Mode",
+  "tr": "Chế độ gỡ lỗi "
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Giảm thụt lề dòng "
+ },{
+  "en": "Deep Pink",
+  "tr": "Màu hồng đậm "
+ },{
+  "en": "default",
+  "tr": "vỡ nợ"
+ },{
+  "en": "Default editor",
+  "tr": "Trình chỉnh sửa mặc định"
+ },{
+  "en": "Default Font",
+  "tr": "Phông chữ mặc định"
+ },{
+  "en": "Default line ending",
+  "tr": "Kết thúc dòng mặc định "
+ },{
+  "en": "Delete",
+  "tr": "Xóa "
+ },{
+  "en": "Delete sends",
+  "tr": "Xóa các lần gửi"
+ },{
+  "en": "deleted",
+  "tr": "đã xóa"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Máy chủ đích "
+ },{
+  "en": "Destination Port",
+  "tr": "Cảng đích "
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Danh mục"
+ },{
+  "en": "Directory Link",
+  "tr": "Liên kết thư mục"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Vô hiệu hóa thuật toán của Nagle (tùy chọn TCP_NODELAY) "
+ },{
+  "en": "Disconnect Session",
+  "tr": "Ngắt kết nối phiên "
+ },{
+  "en": "Disk",
+  "tr": "Đĩa"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Không lặp lại các ký tự"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Bạn có muốn đóng phiên hiện tại không?"
+ },{
+  "en": "Document",
+  "tr": "Tài liệu "
+ },{
+  "en": "Don't show this message again",
+  "tr": "Không hiển thị lại thông báo này"
+ },{
+  "en": "Double click",
+  "tr": "Nhấp đúp "
+ },{
+  "en": "Double click event",
+  "tr": "Nhấp đúp vào sự kiện "
+ },{
+  "en": "Download",
+  "tr": "Tải xuống "
+ },{
+  "en": "download",
+  "tr": "Tải xuống"
+ },{
+  "en": "Download directory",
+  "tr": "Tải xuống thư mục "
+ },{
+  "en": "downloaded",
+  "tr": "đã tải xuống"
+ },{
+  "en": "Drop Selection",
+  "tr": "Thả lựa chọn "
+ },{
+  "en": "Duplicate",
+  "tr": "Bản sao"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Lệnh trùng lặp"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Chế độ xem trùng lặp "
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Chuyển tiếp động"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Echo mọi ký tự đã nhập"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Phát ra mọi ký tự khi chỉnh sửa"
+ },{
+  "en": "Echo random characters",
+  "tr": "Echo các ký tự ngẫu nhiên"
+ },{
+  "en": "Edit",
+  "tr": "Chỉnh sửa"
+ },{
+  "en": "Editor",
+  "tr": "Biên tập viên"
+ },{
+  "en": "editor",
+  "tr": "biên tập viên"
+ },{
+  "en": "Editor Settings",
+  "tr": "Cài đặt trình chỉnh sửa"
+ },{
+  "en": "Elapsed",
+  "tr": "Đã trôi qua"
+ },{
+  "en": "Elide left",
+  "tr": "Elide left"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide giữa"
+ },{
+  "en": "Elide right",
+  "tr": "Rẽ phải"
+ },{
+  "en": "Empty",
+  "tr": "Trống"
+ },{
+  "en": "Enable command mode",
+  "tr": "Bật chế độ lệnh "
+ },{
+  "en": "Enable local mode",
+  "tr": "Bật chế độ cục bộ "
+ },{
+  "en": "Enable SFTP",
+  "tr": "Bật SFTP "
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Bật Keepalives TCP (tùy chọn SO_KEEPALIVE) "
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Bật không gian ảo "
+ },{
+  "en": "End Of Document",
+  "tr": "Cuối tài liệu "
+ },{
+  "en": "End Of Line",
+  "tr": "Cuối dòng "
+ },{
+  "en": "End Of Pair",
+  "tr": "Kết thúc cặp "
+ },{
+  "en": "Engine",
+  "tr": "Động cơ"
+ },{
+  "en": "Environment Variable",
+  "tr": "Biến môi trường"
+ },{
+  "en": "Environment variables",
+  "tr": "Biến môi trường "
+ },{
+  "en": "Error",
+  "tr": "Lỗi"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Exchange Caret And Anchor "
+ },{
+  "en": "Execute",
+  "tr": "Thực thi "
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Thực thi lệnh sau khi xác thực "
+ },{
+  "en": "Execute command after start",
+  "tr": "Thực thi lệnh sau khi bắt đầu "
+ },{
+  "en": "Execute File",
+  "tr": "Thực thi tệp"
+ },{
+  "en": "Exit",
+  "tr": "Thoát "
+ },{
+  "en": "Expand",
+  "tr": "Mở rộng"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Mở rộng đoạn mã "
+ },{
+  "en": "Explorer",
+  "tr": "nhà thám hiểm"
+ },{
+  "en": "External Tools",
+  "tr": "Công cụ bên ngoài "
+ },{
+  "en": "External X display",
+  "tr": "Màn hình X bên ngoài "
+ },{
+  "en": "ExtraBold",
+  "tr": "Thêm in đậm"
+ },{
+  "en": "ExtraLight",
+  "tr": "Đèn dự phòng"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Không tạo được tệp tạm thời: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Không mở được thư mục:%1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Không truy xuất được dấu vân tay của máy chủ!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Không thể tải tệp lên:%1, (Tệp có thể không tồn tại hoặc không được phép mở."
+ },{
+  "en": "Fast",
+  "tr": "Nhanh"
+ },{
+  "en": "Favorites",
+  "tr": "Yêu thích "
+ },{
+  "en": "Features",
+  "tr": "Đặc trưng"
+ },{
+  "en": "File",
+  "tr": "Tập tin"
+ },{
+  "en": "file",
+  "tr": "tập tin"
+ },{
+  "en": "File Link",
+  "tr": "Liên kết tệp"
+ },{
+  "en": "File Name",
+  "tr": "Tên tệp "
+ },{
+  "en": "File name",
+  "tr": "Tên tệp"
+ },{
+  "en": "File Path",
+  "tr": "Đường dẫn tệp "
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "người quay phim"
+ },{
+  "en": "Filter",
+  "tr": "Lọc"
+ },{
+  "en": "Find",
+  "tr": "Tìm "
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Tìm tất cả "
+ },{
+  "en": "Find in Files",
+  "tr": "Tìm trong Tệp "
+ },{
+  "en": "Find Next",
+  "tr": "Tìm tiếp theo "
+ },{
+  "en": "Find Next Selection",
+  "tr": "Tìm lựa chọn tiếp theo "
+ },{
+  "en": "Find Previous",
+  "tr": "Tìm trước "
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Tìm lựa chọn trước "
+ },{
+  "en": "Fingerprint",
+  "tr": "Vân tay"
+ },{
+  "en": "First nine tabs",
+  "tr": "Chín tab đầu tiên"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Phao "
+ },{
+  "en": "Flow Control",
+  "tr": "Kiểm soát dòng chảy "
+ },{
+  "en": "Focus Mode",
+  "tr": "Chế độ tập trung"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Cài đặt Chế độ lấy nét "
+ },{
+  "en": "Fold",
+  "tr": "Gấp "
+ },{
+  "en": "Fold All",
+  "tr": "Gấp tất cả "
+ },{
+  "en": "Fold Category",
+  "tr": "Danh mục Gấp "
+ },{
+  "en": "Fold Inside",
+  "tr": "Gấp vào trong "
+ },{
+  "en": "Folds",
+  "tr": "Nếp gấp "
+ },{
+  "en": "Font",
+  "tr": "Nét chữ"
+ },{
+  "en": "Font family",
+  "tr": "Họ phông chữ"
+ },{
+  "en": "Font size",
+  "tr": "Kích thước phông chữ "
+ },{
+  "en": "Font weight",
+  "tr": "Độ đậm phông chữ "
+ },{
+  "en": "Forest Green",
+  "tr": "Rừng xanh "
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Lựa chọn định dạng "
+ },{
+  "en": "Found",
+  "tr": "Tìm"
+ },{
+  "en": "Full month name",
+  "tr": "Tên đầy đủ của tháng"
+ },{
+  "en": "Full Screen",
+  "tr": "Toàn màn hình "
+ },{
+  "en": "Full screen",
+  "tr": "Toàn màn hình"
+ },{
+  "en": "Full weekday name",
+  "tr": "Tên đầy đủ các ngày trong tuần"
+ },{
+  "en": "Go Backward",
+  "tr": "Lùi lại "
+ },{
+  "en": "Go Forward",
+  "tr": "Tiến lên "
+ },{
+  "en": "Go to",
+  "tr": "Đi đến"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Đi tới Biểu tượng trong Chế độ xem Hiện tại"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod "
+ },{
+  "en": "Goto",
+  "tr": "Goto"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Thanh địa chỉ Goto "
+ },{
+  "en": "Goto File",
+  "tr": "Goto Tệp "
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto Fold Header "
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Goto Tiêu đề thư mục tiếp theo "
+ },{
+  "en": "Goto Position",
+  "tr": "Vị trí Goto "
+ },{
+  "en": "Goto Session",
+  "tr": "Phiên Goto "
+ },{
+  "en": "Goto Symbol",
+  "tr": "Biểu tượng Goto "
+ },{
+  "en": "Group",
+  "tr": "Tập đoàn"
+ },{
+  "en": "Group %1",
+  "tr": "Nhóm 1"
+ },{
+  "en": "Groups",
+  "tr": "Các nhóm"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi có Mic"
+ },{
+  "en": "Hard Reset",
+  "tr": "Hard Reset "
+ },{
+  "en": "Help",
+  "tr": "Trợ giúp "
+ },{
+  "en": "Hex",
+  "tr": "Hex "
+ },{
+  "en": "Hex Base",
+  "tr": "Cơ sở Hex "
+ },{
+  "en": "Hex Columns",
+  "tr": "Cột Hex "
+ },{
+  "en": "Hex Edit",
+  "tr": "Chỉnh sửa Hex "
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Mã nhóm Hex "
+ },{
+  "en": "Hidden",
+  "tr": "Ẩn giấu"
+ },{
+  "en": "Hide",
+  "tr": "Ẩn giấu"
+ },{
+  "en": "Hide All",
+  "tr": "Ẩn tất cả "
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Ẩn con trỏ khi nhập "
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Ẩn văn bản"
+ },{
+  "en": "Highlight",
+  "tr": "Điểm nổi bật"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Đánh dấu dòng Caret "
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Làm nổi bật cặp đối sánh "
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Đánh dấu dòng dấu mũ "
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Đánh dấu từ dấu mũ "
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Đánh dấu nếp gấp hiện tại "
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Đánh dấu cặp hiện tại "
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Đánh dấu tìm kiếm gia tăng "
+ },{
+  "en": "History",
+  "tr": "Môn lịch sử"
+ },{
+  "en": "Home Of Line",
+  "tr": "Trang chủ của dòng "
+ },{
+  "en": "Host",
+  "tr": "Tổ chức"
+ },{
+  "en": "Host address",
+  "tr": "Địa chỉ máy chủ"
+ },{
+  "en": "Host Based",
+  "tr": "Dựa trên máy chủ"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Giờ ở định dạng 12 từ"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Giờ ở định dạng 24"
+ },{
+  "en": "Http proxy",
+  "tr": "Proxy Http "
+ },{
+  "en": "Huge File",
+  "tr": "Tệp lớn"
+ },{
+  "en": "Icon",
+  "tr": "Biểu tượng"
+ },{
+  "en": "Identity file",
+  "tr": "Tệp danh tính "
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Tệp nhận dạng để xác thực "
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Nếu bạn tạo Mật khẩu chính, bạn sẽ được yêu cầu nhập mật khẩu đó khi WindTerm truy xuất thông tin đã lưu được bảo vệ bởi Mật khẩu chính."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Nếu bạn quên Mật khẩu chính của mình, bạn sẽ không thể truy cập bất kỳ thông tin nào được bảo vệ bởi nó."
+ },{
+  "en": "Import",
+  "tr": "Nhập "
+ },{
+  "en": "Import sessions",
+  "tr": "Nhập phiên"
+ },{
+  "en": "In Selection",
+  "tr": "Đang lựa chọn"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Tăng thụt lề dòng "
+ },{
+  "en": "Incremental",
+  "tr": "Tăng dần"
+ },{
+  "en": "Indent",
+  "tr": "Thụt lề"
+ },{
+  "en": "Indent guide style",
+  "tr": "Kiểu hướng dẫn thụt lề "
+ },{
+  "en": "Indent Guides",
+  "tr": "Hướng dẫn thụt lề "
+ },{
+  "en": "Indent size",
+  "tr": "Kích thước thụt lề "
+ },{
+  "en": "Indentation",
+  "tr": "Thụt lề"
+ },{
+  "en": "Indian Red",
+  "tr": "Đỏ Ấn Độ "
+ },{
+  "en": "Information",
+  "tr": "Thông tin"
+ },{
+  "en": "Insert",
+  "tr": "Chèn "
+ },{
+  "en": "Insert File",
+  "tr": "Chèn tập tin"
+ },{
+  "en": "Insert Lines",
+  "tr": "Chèn dòng "
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Chèn tab khi nhấn phím TAB "
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Chèn và xóa khoảng trắng sau các điểm dừng tab "
+ },{
+  "en": "Inserting file",
+  "tr": "Chèn tệp"
+ },{
+  "en": "Internal X display",
+  "tr": "Màn hình X bên trong "
+ },{
+  "en": "Interval",
+  "tr": "Khoảng thời gian "
+ },{
+  "en": "Invert Selection",
+  "tr": "Đảo ngược lựa chọn "
+ },{
+  "en": "item failed",
+  "tr": "mục không thành công"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "mục không thành công"
+ },{
+  "en": "Join Channel A",
+  "tr": "Tham gia kênh A "
+ },{
+  "en": "Join Channel B",
+  "tr": "Tham gia kênh B "
+ },{
+  "en": "Join Channel C",
+  "tr": "Tham gia Kênh C "
+ },{
+  "en": "Join Channel D",
+  "tr": "Tham gia Kênh D "
+ },{
+  "en": "Join Lines",
+  "tr": "Tham gia Lines "
+ },{
+  "en": "Joined",
+  "tr": "Đã tham gia"
+ },{
+  "en": "Jump Server",
+  "tr": "Jump Server"
+ },{
+  "en": "Jump server",
+  "tr": "Nhảy máy chủ"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Máy chủ nhảy "
+ },{
+  "en": "Key Exchange",
+  "tr": "Trao đổi chính"
+ },{
+  "en": "Key exchange order",
+  "tr": "Lệnh trao đổi chìa khóa "
+ },{
+  "en": "Key re-exchange",
+  "tr": "Trao đổi lại chìa khóa"
+ },{
+  "en": "Keyboard",
+  "tr": "Bàn phím"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Bàn phím tương tác"
+ },{
+  "en": "Kit Bar",
+  "tr": "Thanh Kit"
+ },{
+  "en": "Known",
+  "tr": "Đã biết"
+ },{
+  "en": "Label",
+  "tr": "Nhãn mác"
+ },{
+  "en": "Language",
+  "tr": "Ngôn ngữ "
+ },{
+  "en": "Last sessions",
+  "tr": "Phiên cuối cùng "
+ },{
+  "en": "Layout",
+  "tr": "Bố trí"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Khoảng trống hàng đầu và theo sau "
+ },{
+  "en": "Leading Blanks",
+  "tr": "Khoảng trống hàng đầu "
+ },{
+  "en": "Leading position",
+  "tr": "Vị trí dẫn đầu"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Rời khỏi tất cả các kênh "
+ },{
+  "en": "Leave all channels",
+  "tr": "Rời khỏi tất cả các kênh"
+ },{
+  "en": "Leave Channel",
+  "tr": "Rời khỏi Kênh "
+ },{
+  "en": "Left Docks",
+  "tr": "Bến bên trái "
+ },{
+  "en": "Left Group",
+  "tr": "Nhóm bên trái "
+ },{
+  "en": "Light",
+  "tr": "Soi rọi"
+ },{
+  "en": "Line",
+  "tr": "Hàng"
+ },{
+  "en": "line",
+  "tr": "hàng"
+ },{
+  "en": "line at a time",
+  "tr": "dòng tại một thời điểm"
+ },{
+  "en": "Line Down",
+  "tr": "Xuống dòng "
+ },{
+  "en": "Line Ending",
+  "tr": "Kết thúc dòng"
+ },{
+  "en": "Line Endings",
+  "tr": "Kết thúc Dòng "
+ },{
+  "en": "Line Feed",
+  "tr": "Nguồn cấp dòng"
+ },{
+  "en": "line height",
+  "tr": "chiều cao giữa các dòng"
+ },{
+  "en": "Line marker",
+  "tr": "Điểm đánh dấu dòng"
+ },{
+  "en": "Line spacing",
+  "tr": "Giãn cách dòng "
+ },{
+  "en": "Line Up",
+  "tr": "Xếp hàng "
+ },{
+  "en": "lines at a time",
+  "tr": "các dòng tại một thời điểm"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Dòng cuộn ngược "
+ },{
+  "en": "Link",
+  "tr": "Liên kết "
+ },{
+  "en": "Link to",
+  "tr": "Liên kết đến"
+ },{
+  "en": "List Tab",
+  "tr": "Tab danh sách"
+ },{
+  "en": "Listen Port",
+  "tr": "Cổng Nghe "
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Chuyển tiếp cục bộ"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Xác định vị trí tin nhắn "
+ },{
+  "en": "Location",
+  "tr": "Vị trí"
+ },{
+  "en": "Lock Screen",
+  "tr": "Màn hình khóa"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Khóa màn hình thời gian chờ "
+ },{
+  "en": "Lock Selection",
+  "tr": "Khóa lựa chọn "
+ },{
+  "en": "Log",
+  "tr": "Nhật ký "
+ },{
+  "en": "Log all session output",
+  "tr": "Ghi nhật ký tất cả đầu ra của phiên "
+ },{
+  "en": "Log content pattern",
+  "tr": "Mẫu nội dung nhật ký "
+ },{
+  "en": "Log Dialog",
+  "tr": "Hộp thoại ghi nhật ký"
+ },{
+  "en": "Log file",
+  "tr": "Tệp nhật ký "
+ },{
+  "en": "Log file name",
+  "tr": "Tên tệp nhật ký "
+ },{
+  "en": "Log maximum size",
+  "tr": "Kích thước tối đa của nhật ký "
+ },{
+  "en": "Log nothing",
+  "tr": "Không ghi nhật ký gì "
+ },{
+  "en": "Log option",
+  "tr": "Tùy chọn nhật ký"
+ },{
+  "en": "Log options",
+  "tr": "Tùy chọn nhật ký"
+ },{
+  "en": "Log pattern",
+  "tr": "Mẫu nhật ký "
+ },{
+  "en": "Log printable output",
+  "tr": "Nhật ký đầu ra có thể in "
+ },{
+  "en": "Log type",
+  "tr": "Loại nhật ký"
+ },{
+  "en": "Log types",
+  "tr": "Các loại nhật ký"
+ },{
+  "en": "Logging",
+  "tr": "Ghi nhật ký"
+ },{
+  "en": "Login",
+  "tr": "Đăng nhập"
+ },{
+  "en": "Login Wizard",
+  "tr": "Trình hướng dẫn Đăng nhập"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Thời gian dài / Ngày "
+ },{
+  "en": "Look both guide",
+  "tr": "Nhìn cả hai hướng dẫn"
+ },{
+  "en": "Look forward guide",
+  "tr": "Rất mong được hướng dẫn"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "Lệnh băm MAC "
+ },{
+  "en": "Margin Blank",
+  "tr": "Ký quỹ trống "
+ },{
+  "en": "Margin Fold",
+  "tr": "Gấp lề "
+ },{
+  "en": "Margin Number",
+  "tr": "Số ký quỹ "
+ },{
+  "en": "Margin Symbol",
+  "tr": "Ký hiệu lề "
+ },{
+  "en": "Margin Text",
+  "tr": "Văn bản lề "
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Dấu thời gian ký quỹ "
+ },{
+  "en": "Margins",
+  "tr": "Lề "
+ },{
+  "en": "Marker style",
+  "tr": "Kiểu điểm đánh dấu "
+ },{
+  "en": "Master Password",
+  "tr": "Mật khẩu cấp cao"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Dữ liệu tối đa trước khi khóa lại (MBytes) "
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Thời gian tối đa trước khi khóa lại (Phút) "
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Thời gian chờ kết nối tối đa "
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Trung bình"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Phong lan trung bình "
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Xanh phiến đá trung bình "
+ },{
+  "en": "Menu Bar",
+  "tr": "Thanh menu"
+ },{
+  "en": "Merge To Group",
+  "tr": "Hợp nhất thành nhóm "
+ },{
+  "en": "Middle click",
+  "tr": "Nhấp chuột giữa "
+ },{
+  "en": "Middle click event",
+  "tr": "Sự kiện nhấp chuột giữa "
+ },{
+  "en": "Milliseconds",
+  "tr": "Mili giây"
+ },{
+  "en": "Minutes",
+  "tr": "Phút"
+ },{
+  "en": "minutes",
+  "tr": "phút"
+ },{
+  "en": "Mismatched",
+  "tr": "Không khớp"
+ },{
+  "en": "Mode",
+  "tr": "Chế độ"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modem đang chờ"
+ },{
+  "en": "Modes",
+  "tr": "Các chế độ"
+ },{
+  "en": "Modified",
+  "tr": "Đã sửa đổi"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Sửa đổi "
+ },{
+  "en": "Modify Lines",
+  "tr": "Sửa đổi Dòng "
+ },{
+  "en": "Month",
+  "tr": "Tháng"
+ },{
+  "en": "More",
+  "tr": "Thêm "
+ },{
+  "en": "Mouse Actions",
+  "tr": "Thao tác chuột"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Theo dõi chuột"
+ },{
+  "en": "Move Down",
+  "tr": "Đi xuống"
+ },{
+  "en": "Move event",
+  "tr": "Di chuyển sự kiện "
+ },{
+  "en": "Move to",
+  "tr": "Chuyển tới"
+ },{
+  "en": "Move To Group",
+  "tr": "Di chuyển tới nhóm "
+ },{
+  "en": "Move Up",
+  "tr": "Đi lên"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Multiple Caret "
+ },{
+  "en": "Name",
+  "tr": "Tên"
+ },{
+  "en": "nesting groups",
+  "tr": "các nhóm làm tổ"
+ },{
+  "en": "Never",
+  "tr": "Không bao giờ"
+ },{
+  "en": "New directory",
+  "tr": "Thư mục mới "
+ },{
+  "en": "New File",
+  "tr": "Tệp mới "
+ },{
+  "en": "New file",
+  "tr": "Tệp mới "
+ },{
+  "en": "New Line",
+  "tr": "Dòng mới "
+ },{
+  "en": "New link",
+  "tr": "Liên kết mới "
+ },{
+  "en": "New password",
+  "tr": "Mật khẩu mới"
+ },{
+  "en": "New Session",
+  "tr": "Phiên mới"
+ },{
+  "en": "New Window",
+  "tr": "Cửa sổ mới "
+ },{
+  "en": "Next Char",
+  "tr": "Biểu đồ tiếp theo "
+ },{
+  "en": "Next Fold",
+  "tr": "Thư mục tiếp theo "
+ },{
+  "en": "Next Indentation",
+  "tr": "Thụt lề tiếp theo "
+ },{
+  "en": "Next Line",
+  "tr": "Dòng tiếp theo "
+ },{
+  "en": "Next Message",
+  "tr": "Tin nhắn tiếp theo "
+ },{
+  "en": "Next Page",
+  "tr": "Trang tiếp theo "
+ },{
+  "en": "Next Pair",
+  "tr": "Cặp tiếp theo "
+ },{
+  "en": "Next Paragraph",
+  "tr": "Đoạn tiếp theo "
+ },{
+  "en": "Next Scope",
+  "tr": "Phạm vi tiếp theo "
+ },{
+  "en": "Next Segment End",
+  "tr": "Kết thúc phân đoạn tiếp theo "
+ },{
+  "en": "Next Segment Start",
+  "tr": "Bắt đầu phân đoạn tiếp theo "
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Trang nói lắp tiếp theo "
+ },{
+  "en": "Next Word",
+  "tr": "Từ Tiếp theo "
+ },{
+  "en": "Next Word End",
+  "tr": "Kết thúc từ tiếp theo "
+ },{
+  "en": "Next Word Part",
+  "tr": "Phần từ tiếp theo "
+ },{
+  "en": "No",
+  "tr": "Không"
+ },{
+  "en": "No action",
+  "tr": "Không có hành động"
+ },{
+  "en": "No Dirs",
+  "tr": "Không có Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Không trốn tránh"
+ },{
+  "en": "No file opened",
+  "tr": "Không có tệp nào được mở"
+ },{
+  "en": "No filer available",
+  "tr": "Không có bộ lọc nào"
+ },{
+  "en": "No Files",
+  "tr": "Không có tệp"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Không có tệp nào được chọn để chuyển."
+ },{
+  "en": "No item opened",
+  "tr": "Không có mục nào được mở"
+ },{
+  "en": "No outline available",
+  "tr": "Không có sẵn dàn ý"
+ },{
+  "en": "No proxy",
+  "tr": "Không có proxy "
+ },{
+  "en": "No session",
+  "tr": "Không có phiên "
+ },{
+  "en": "No session available",
+  "tr": "Không có phiên nào"
+ },{
+  "en": "No session opened",
+  "tr": "Không có phiên nào được mở"
+ },{
+  "en": "No Sessions",
+  "tr": "Không có phiên"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Không có phương pháp xác thực nào được hỗ trợ."
+ },{
+  "en": "No transfer available",
+  "tr": "Không có chuyển khoản"
+ },{
+  "en": "No wrap",
+  "tr": "Không quấn"
+ },{
+  "en": "No X display",
+  "tr": "Không có màn hình X "
+ },{
+  "en": "None",
+  "tr": "Không có"
+ },{
+  "en": "None tabs",
+  "tr": "Không có tab"
+ },{
+  "en": "Normal",
+  "tr": "Bình thường"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Bây giờ"
+ },{
+  "en": "Nowhere",
+  "tr": "Hư không"
+ },{
+  "en": "Octal",
+  "tr": "Hệ bát phân "
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM thành ANSI "
+ },{
+  "en": "Off",
+  "tr": "Tắt"
+ },{
+  "en": "off",
+  "tr": "tắt"
+ },{
+  "en": "Ok",
+  "tr": "Vâng"
+ },{
+  "en": "Old",
+  "tr": "Cũ"
+ },{
+  "en": "Old password",
+  "tr": "Mật khẩu cũ"
+ },{
+  "en": "Olive",
+  "tr": "Ô liu "
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Một hoặc nhiều phiên đang mở, (Bạn có muốn đóng cửa sổ hiện tại không?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Chỉ có thể tải lại tệp đĩa!"
+ },{
+  "en": "Only indentation",
+  "tr": "Chỉ thụt lề"
+ },{
+  "en": "Opaque",
+  "tr": "Mờ mịt"
+ },{
+  "en": "Open",
+  "tr": "Mở "
+ },{
+  "en": "open",
+  "tr": "mở ra"
+ },{
+  "en": "Open directory after created",
+  "tr": "Mở thư mục sau khi tạo "
+ },{
+  "en": "Open directory after download",
+  "tr": "Mở thư mục sau khi tải xuống "
+ },{
+  "en": "Open File",
+  "tr": "Mở tệp "
+ },{
+  "en": "Open file",
+  "tr": "Mở tệp"
+ },{
+  "en": "Open file after created",
+  "tr": "Mở tệp sau khi tạo "
+ },{
+  "en": "Open file failed!",
+  "tr": "Không mở được tệp!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Mở máy chủ nhảy không thành công!"
+ },{
+  "en": "Open Log File",
+  "tr": "Mở tệp nhật ký "
+ },{
+  "en": "Open Log Folder",
+  "tr": "Mở Thư mục Nhật ký "
+ },{
+  "en": "Open Recent",
+  "tr": "Mở Gần đây "
+ },{
+  "en": "Open Selection",
+  "tr": "Mở Lựa chọn "
+ },{
+  "en": "Open Session",
+  "tr": "Phiên mở "
+ },{
+  "en": "Open session failed!",
+  "tr": "Phiên mở không thành công!"
+ },{
+  "en": "Open target directory",
+  "tr": "Mở thư mục đích "
+ },{
+  "en": "Open with default editor",
+  "tr": "Mở bằng trình chỉnh sửa mặc định "
+ },{
+  "en": "Opened",
+  "tr": "Mở ra"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Phiên xử lý sự cố "
+ },{
+  "en": "Others",
+  "tr": "Khác"
+ },{
+  "en": "Outline",
+  "tr": "Đề cương"
+ },{
+  "en": "Output",
+  "tr": "Đầu ra"
+ },{
+  "en": "Overtype",
+  "tr": "Overtype "
+ },{
+  "en": "Overwrite",
+  "tr": "Ghi đè"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Ghi đè tệp nhật ký "
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Ghi đè khi tệp nguồn mới hơn"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Ghi đè khi tệp nguồn mới hơn hoặc lâu hơn"
+ },{
+  "en": "Owner",
+  "tr": "Chủ nhân"
+ },{
+  "en": "Packet padding char",
+  "tr": "Ký tự đệm gói "
+ },{
+  "en": "Packet size",
+  "tr": "Kích thước gói"
+ },{
+  "en": "Page",
+  "tr": "Trang "
+ },{
+  "en": "page",
+  "tr": "trang"
+ },{
+  "en": "Pair",
+  "tr": "Ghép nối "
+ },{
+  "en": "Panes",
+  "tr": "Panes"
+ },{
+  "en": "Paragraph",
+  "tr": "Đoạn "
+ },{
+  "en": "Parity",
+  "tr": "Chẵn lẻ "
+ },{
+  "en": "Passphrase",
+  "tr": "Cụm mật khẩu "
+ },{
+  "en": "Password",
+  "tr": "Mật khẩu"
+ },{
+  "en": "Password quality meter",
+  "tr": "Máy đo chất lượng mật khẩu"
+ },{
+  "en": "Paste",
+  "tr": "Dán"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Dán hộp thoại"
+ },{
+  "en": "Paste text",
+  "tr": "Dán văn bản"
+ },{
+  "en": "Pause",
+  "tr": "Tạm dừng "
+ },{
+  "en": "Paused",
+  "tr": "Bị tạm dừng"
+ },{
+  "en": "Pausing",
+  "tr": "Đang tạm dừng"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Thực hiện tra cứu DNS với proxy "
+ },{
+  "en": "Period",
+  "tr": "Kỳ "
+ },{
+  "en": "Permissions",
+  "tr": "Quyền"
+ },{
+  "en": "pixels",
+  "tr": "điểm ảnh"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Vui lòng nhập tên mới cho chế độ xem này"
+ },{
+  "en": "Please input master password",
+  "tr": "Vui lòng nhập mật khẩu chính"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Vui lòng nhập mật khẩu chính, trống hoặc hủy để tắt"
+ },{
+  "en": "Please input new group",
+  "tr": "Vui lòng nhập nhóm mới"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Hãy đảm bảo rằng bạn nhớ Mật khẩu chính mà bạn đã đặt."
+ },{
+  "en": "Port",
+  "tr": "Hải cảng"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Ưu tiên phông chữ chủ đề "
+ },{
+  "en": "Preferences",
+  "tr": "Tùy chọn "
+ },{
+  "en": "Preserve",
+  "tr": "Bảo tồn"
+ },{
+  "en": "Preview All",
+  "tr": "Xem trước tất cả "
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Biểu tượng xem trước "
+ },{
+  "en": "Previous Char",
+  "tr": "Char trước "
+ },{
+  "en": "Previous Fold",
+  "tr": "Gấp trước "
+ },{
+  "en": "Previous Indentation",
+  "tr": "Thụt lề trước "
+ },{
+  "en": "Previous Line",
+  "tr": "Dòng trước "
+ },{
+  "en": "Previous Message",
+  "tr": "Tin nhắn trước "
+ },{
+  "en": "Previous Page",
+  "tr": "Trang trước "
+ },{
+  "en": "Previous Pair",
+  "tr": "Cặp trước "
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Đoạn trước "
+ },{
+  "en": "Previous Scope",
+  "tr": "Phạm vi trước đó "
+ },{
+  "en": "Previous Segment End",
+  "tr": "Kết thúc phân đoạn trước "
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Bắt đầu phân đoạn trước "
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Trang nói lắp trước đó "
+ },{
+  "en": "Previous Word",
+  "tr": "Từ trước "
+ },{
+  "en": "Previous Word End",
+  "tr": "Kết thúc từ trước "
+ },{
+  "en": "Previous Word Part",
+  "tr": "Phần từ trước "
+ },{
+  "en": "Printable output",
+  "tr": "Đầu ra có thể in "
+ },{
+  "en": "Process",
+  "tr": "Tiến trình"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Quá trình%1 bị lỗi."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Quá trình%1 không bắt đầu được."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Xử lý%1 thời gian chờ."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Chương trình [Đối số]"
+ },{
+  "en": "Project",
+  "tr": "Dự án "
+ },{
+  "en": "Properties",
+  "tr": "Thuộc tính "
+ },{
+  "en": "Property",
+  "tr": "Bất động sản"
+ },{
+  "en": "Protocol",
+  "tr": "Giao thức"
+ },{
+  "en": "Proxy",
+  "tr": "Ủy quyền"
+ },{
+  "en": "Proxy Host",
+  "tr": "Máy chủ proxy"
+ },{
+  "en": "Proxy Port",
+  "tr": "Cổng giao thức"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Cài đặt proxy"
+ },{
+  "en": "Proxy Type",
+  "tr": "Loại proxy"
+ },{
+  "en": "Public Key",
+  "tr": "Khóa công khai"
+ },{
+  "en": "Public Keys",
+  "tr": "Khóa công khai"
+ },{
+  "en": "Public keys order",
+  "tr": "Thứ tự khóa công khai "
+ },{
+  "en": "Putty sessions",
+  "tr": "Phiên Putty "
+ },{
+  "en": "Query URL",
+  "tr": "URL truy vấn"
+ },{
+  "en": "Question",
+  "tr": "Câu hỏi"
+ },{
+  "en": "Quick",
+  "tr": "Nhanh chóng"
+ },{
+  "en": "Quick Bar",
+  "tr": "Thanh nhanh"
+ },{
+  "en": "Quick Commands",
+  "tr": "Lệnh nhanh"
+ },{
+  "en": "Read Only",
+  "tr": "Chỉ đọc "
+ },{
+  "en": "Ready",
+  "tr": "Sẵn sàng"
+ },{
+  "en": "Real guide",
+  "tr": "Hướng dẫn thực sự"
+ },{
+  "en": "Receive XModem",
+  "tr": "Nhận XModem "
+ },{
+  "en": "Receive YModem",
+  "tr": "Nhận YModem "
+ },{
+  "en": "Receive ZModem",
+  "tr": "Nhận ZModem "
+ },{
+  "en": "received",
+  "tr": "nhận"
+ },{
+  "en": "Recent",
+  "tr": "Gần đây"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Phiên gần đây"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Kết nối lại phiên "
+ },{
+  "en": "Rectangle",
+  "tr": "Hình chữ nhật"
+ },{
+  "en": "rectangle",
+  "tr": "hình chữ nhật"
+ },{
+  "en": "Red",
+  "tr": "Đỏ "
+ },{
+  "en": "Redo",
+  "tr": "Làm lại "
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Làm lại%1 hành động"
+ },{
+  "en": "Refresh",
+  "tr": "Làm mới "
+ },{
+  "en": "Regular Expression",
+  "tr": "Biểu hiện thông thường"
+ },{
+  "en": "Reload",
+  "tr": "Nạp lại"
+ },{
+  "en": "Reload File",
+  "tr": "Tải lại tệp"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Tải lại bằng mã hóa "
+ },{
+  "en": "Remote forwarding",
+  "tr": "Chuyển tiếp từ xa"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Đường đi từ xa"
+ },{
+  "en": "Remove",
+  "tr": "Xóa "
+ },{
+  "en": "remove",
+  "tr": "tẩy"
+ },{
+  "en": "Remove All",
+  "tr": "Xóa tất cả "
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Xóa Dòng trống "
+ },{
+  "en": "Remove Command",
+  "tr": "Xóa lệnh"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Loại bỏ các dòng trùng lặp "
+ },{
+  "en": "Remove Group",
+  "tr": "Xóa nhóm"
+ },{
+  "en": "Remove items",
+  "tr": "Loại bỏ các mục"
+ },{
+  "en": "Remove Sender",
+  "tr": "Xóa người gửi "
+ },{
+  "en": "Removing",
+  "tr": "Loại bỏ"
+ },{
+  "en": "Rename",
+  "tr": "Đổi tên"
+ },{
+  "en": "Rename Group",
+  "tr": "Đổi tên nhóm"
+ },{
+  "en": "Rename tab",
+  "tr": "Đổi tên tab"
+ },{
+  "en": "Rename View",
+  "tr": "Đổi tên chế độ xem"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Mở lại Chế độ xem đã đóng "
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Lặp lại lệnh cuối cùng "
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Thực hiện lặp lại "
+ },{
+  "en": "Replace",
+  "tr": "Thay thế "
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Thay thế tất cả "
+ },{
+  "en": "Replace in Files",
+  "tr": "Thay thế trong Tệp "
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Yêu cầu khởi động lại để có ảnh hưởng"
+ },{
+  "en": "Reset",
+  "tr": "Đặt lại "
+ },{
+  "en": "Reset Character Set",
+  "tr": "Đặt lại Bộ ký tự "
+ },{
+  "en": "Reset Zoom",
+  "tr": "Đặt lại Thu phóng "
+ },{
+  "en": "Resume",
+  "tr": "Bản tóm tắt"
+ },{
+  "en": "Resuming",
+  "tr": "Tiếp tục"
+ },{
+  "en": "Right click",
+  "tr": "Nhấp chuột phải "
+ },{
+  "en": "Right click event",
+  "tr": "Sự kiện nhấp chuột phải "
+ },{
+  "en": "Right Docks",
+  "tr": "Docks bên phải "
+ },{
+  "en": "Right Group",
+  "tr": "Nhóm bên phải "
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Cuộn con lăn chuột để cuộn"
+ },{
+  "en": "Rows",
+  "tr": "Hàng "
+ },{
+  "en": "Royal Blue",
+  "tr": "Xanh hoàng gia "
+ },{
+  "en": "Run Tool",
+  "tr": "Chạy công cụ"
+ },{
+  "en": "Save",
+  "tr": "Cứu"
+ },{
+  "en": "Save All",
+  "tr": "Lưu tất cả "
+ },{
+  "en": "Save As",
+  "tr": "Lưu dưới dạng "
+ },{
+  "en": "Save Copy As",
+  "tr": "Lưu bản sao dưới dạng "
+ },{
+  "en": "Save file failed!",
+  "tr": "Lưu tệp không thành công!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Lưu lựa chọn dưới dạng "
+ },{
+  "en": "Save Session",
+  "tr": "Lưu phiên "
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Xác thực tự động đã lưu "
+ },{
+  "en": "Scheme Tools",
+  "tr": "Công cụ lược đồ "
+ },{
+  "en": "Scope",
+  "tr": "Phạm vi "
+ },{
+  "en": "Screen Locked",
+  "tr": "Màn hình đã khóa"
+ },{
+  "en": "Scroll Left",
+  "tr": "Di chuyển sang trái"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Cuộn xuống dòng "
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Cuộn lên dòng "
+ },{
+  "en": "Scroll Right",
+  "tr": "Cuộn sang phải"
+ },{
+  "en": "Search",
+  "tr": "Tìm kiếm"
+ },{
+  "en": "Search engine",
+  "tr": "Công cụ tìm kiếm "
+ },{
+  "en": "Search Engine",
+  "tr": "Máy tìm kiếm"
+ },{
+  "en": "Search Engines",
+  "tr": "Công cụ Tìm kiếm "
+ },{
+  "en": "Search Online",
+  "tr": "Tìm kiếm Trực tuyến "
+ },{
+  "en": "Search or enter address",
+  "tr": "Tìm kiếm hoặc nhập địa chỉ"
+ },{
+  "en": "Searching",
+  "tr": "Đang tìm kiếm"
+ },{
+  "en": "Seconds",
+  "tr": "Giây"
+ },{
+  "en": "seconds",
+  "tr": "giây"
+ },{
+  "en": "Security",
+  "tr": "Bảo vệ"
+ },{
+  "en": "Segment",
+  "tr": "Phân đoạn "
+ },{
+  "en": "Select",
+  "tr": "Chọn "
+ },{
+  "en": "Select All",
+  "tr": "Chọn Tất cả "
+ },{
+  "en": "Select Column To",
+  "tr": "Chọn cột Tới "
+ },{
+  "en": "Select copy folder",
+  "tr": "Chọn thư mục sao chép"
+ },{
+  "en": "Select copy items",
+  "tr": "Chọn các mục sao chép"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Chọn thư mục để nhận"
+ },{
+  "en": "Select download folder",
+  "tr": "Chọn thư mục tải xuống"
+ },{
+  "en": "Select files to send",
+  "tr": "Chọn tệp để gửi"
+ },{
+  "en": "Select Fold",
+  "tr": "Chọn Gấp "
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Chọn Lùi lại đoạn trích "
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Chọn Chuyển tiếp đoạn mã "
+ },{
+  "en": "Select To",
+  "tr": "Chọn Đến "
+ },{
+  "en": "Select upload items",
+  "tr": "Chọn các mục tải lên"
+ },{
+  "en": "Selected position",
+  "tr": "Vị trí đã chọn"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Phiên đã chọn"
+ },{
+  "en": "Selection",
+  "tr": "Lựa chọn"
+ },{
+  "en": "Send",
+  "tr": "Gửi"
+ },{
+  "en": "Send line By line",
+  "tr": "Gửi từng dòng "
+ },{
+  "en": "Send Text",
+  "tr": "Gửi tin nhắn"
+ },{
+  "en": "Send XModem",
+  "tr": "Gửi XModem "
+ },{
+  "en": "Send YModem",
+  "tr": "Gửi YModem "
+ },{
+  "en": "Send ZModem",
+  "tr": "Gửi ZModem "
+ },{
+  "en": "Sender",
+  "tr": "Người gửi"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Gửi%1 không thành công:%2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Đang gửi:%1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Gửi gói rỗng để giữ cho phiên hoạt động "
+ },{
+  "en": "sent",
+  "tr": "đã gửi"
+ },{
+  "en": "Serial",
+  "tr": "Serial "
+ },{
+  "en": "Server",
+  "tr": "Người phục vụ"
+ },{
+  "en": "Session",
+  "tr": "Phiên họp"
+ },{
+  "en": "session",
+  "tr": "phiên họp"
+ },{
+  "en": "Session Group",
+  "tr": "Nhóm phiên"
+ },{
+  "en": "Session Log",
+  "tr": "Nhật ký phiên"
+ },{
+  "en": "Session name",
+  "tr": "Tên phiên"
+ },{
+  "en": "Session Settings",
+  "tr": "Cài đặt phiên"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Phiên trong tất cả Windows"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Phiên trong nhóm hiện tại"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Phiên trong cửa sổ hiện tại"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Phiên trong nhóm%1"
+ },{
+  "en": "Set default editor",
+  "tr": "Đặt trình chỉnh sửa mặc định "
+ },{
+  "en": "Set Tab Color",
+  "tr": "Đặt màu tab "
+ },{
+  "en": "Settings",
+  "tr": "Cài đặt"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Hình dạng)"
+ },{
+  "en": "Shell",
+  "tr": "Vỏ bọc"
+ },{
+  "en": "Shell sessions",
+  "tr": "Phiên shell "
+ },{
+  "en": "Shell Sessions",
+  "tr": "Shell Sessions"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Thời gian / Ngày ngắn "
+ },{
+  "en": "Show",
+  "tr": "Chỉ"
+ },{
+  "en": "Show All",
+  "tr": "Hiển thị Tất cả "
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Hiển thị tất cả các trình chỉnh sửa đã mở và gần đây"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Hiển thị tất cả các thiết bị đầu cuối đã mở và gần đây"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Hiển thị và Chạy các Hành động"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Hiển thị hộp thoại xác nhận đóng tab "
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Hiển thị hộp thoại xác nhận đóng cửa sổ "
+ },{
+  "en": "Show column markers",
+  "tr": "Hiển thị các điểm đánh dấu cột "
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Hiển thị các lệnh theo thứ tự bảng chữ cái "
+ },{
+  "en": "Show current %1 property",
+  "tr": "Hiển thị thuộc tính%1 hiện tại"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Hiển thị các lệnh nhóm theo thứ tự "
+ },{
+  "en": "Show group title",
+  "tr": "Hiển thị tiêu đề nhóm "
+ },{
+  "en": "Show hidden items",
+  "tr": "Hiển thị các mục ẩn "
+ },{
+  "en": "Show in %1",
+  "tr": "Hiển thị trong%1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Hiển thị Cuối Dòng "
+ },{
+  "en": "Show In Line Start",
+  "tr": "Hiển thị Trong Dòng Bắt đầu "
+ },{
+  "en": "Show In Selection",
+  "tr": "Hiển thị trong Lựa chọn "
+ },{
+  "en": "Show indent guide",
+  "tr": "Hiển thị hướng dẫn thụt lề "
+ },{
+  "en": "Show line endings",
+  "tr": "Hiển thị phần cuối dòng "
+ },{
+  "en": "Show menu",
+  "tr": "Hiển thị menu"
+ },{
+  "en": "Show More Tools",
+  "tr": "Hiển thị thêm Công cụ "
+ },{
+  "en": "Show multiple groups",
+  "tr": "Hiển thị nhiều nhóm "
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Hiển thị hộp thoại dán trên màn hình thay thế "
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Hiển thị hộp thoại dán trên màn hình chính "
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Hiển thị khoảng trắng và tab "
+ },{
+  "en": "Show Tabs",
+  "tr": "Hiển thị các tab"
+ },{
+  "en": "Show Text",
+  "tr": "Hiển thị văn bản"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Hiển thị số tab trên các tab "
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Hiển thị hộp thoại này khi chế độ lấy nét bắt đầu "
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Hiển thị các ký hiệu bọc "
+ },{
+  "en": "Shrink",
+  "tr": "Co lại"
+ },{
+  "en": "Size",
+  "tr": "Kích thước"
+ },{
+  "en": "Skip",
+  "tr": "Nhảy"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 proxy "
+ },{
+  "en": "Soft Reset",
+  "tr": "Đặt lại mềm "
+ },{
+  "en": "Sort",
+  "tr": "Sắp xếp "
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Sắp xếp Dòng Không phân biệt chữ hoa chữ thường "
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Sắp xếp dòng Phân biệt chữ hoa chữ thường "
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Sắp xếp các dòng theo thứ tự ngẫu nhiên "
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Sắp xếp các dòng theo thứ tự ngược lại "
+ },{
+  "en": "spaces",
+  "tr": "không gian"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Dấu cách cho các tab "
+ },{
+  "en": "Spacing",
+  "tr": "khoảng cách"
+ },{
+  "en": "Special",
+  "tr": "Đặc biệt"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Chỉ định giao thức khi kéo và thả tệp"
+ },{
+  "en": "Speed",
+  "tr": "Tốc độ, vận tốc"
+ },{
+  "en": "Split",
+  "tr": "Tách "
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Chia nhóm theo chiều ngang "
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Chia nhóm theo chiều dọc "
+ },{
+  "en": "Split Lines",
+  "tr": "Dòng tách "
+ },{
+  "en": "Split Selection",
+  "tr": "Lựa chọn phân tách "
+ },{
+  "en": "Split To Group",
+  "tr": "Chia thành nhóm "
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Chia chế độ xem theo chiều ngang "
+ },{
+  "en": "Split View Vertically",
+  "tr": "Chế độ xem chia tách theo chiều dọc "
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Bắt đầu "
+ },{
+  "en": "Start Of Document",
+  "tr": "Bắt đầu tài liệu "
+ },{
+  "en": "Start Of Line",
+  "tr": "Bắt đầu Dòng "
+ },{
+  "en": "Start Of Pair",
+  "tr": "Bắt đầu theo cặp "
+ },{
+  "en": "Startup",
+  "tr": "Khởi động"
+ },{
+  "en": "Stash",
+  "tr": "Stash "
+ },{
+  "en": "Status Bar",
+  "tr": "Thanh trạng thái"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Màu xanh thép "
+ },{
+  "en": "Sticky",
+  "tr": "Dính "
+ },{
+  "en": "Stop",
+  "tr": "Ngừng lại"
+ },{
+  "en": "Stop Bits",
+  "tr": "Dừng bit "
+ },{
+  "en": "Stop loading",
+  "tr": "Dừng tải"
+ },{
+  "en": "Stop sender",
+  "tr": "Dừng người gửi"
+ },{
+  "en": "Stop Tools",
+  "tr": "Công cụ dừng"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Ngừng xem tệp này"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Chuyển đổi luồng và cột "
+ },{
+  "en": "switch to tab",
+  "tr": "chuyển tab mới"
+ },{
+  "en": "Symbols",
+  "tr": "Ký hiệu "
+ },{
+  "en": "Sync channel",
+  "tr": "Đồng bộ hóa kênh"
+ },{
+  "en": "Sync Edit",
+  "tr": "Đồng bộ hóa Chỉnh sửa "
+ },{
+  "en": "Sync Input",
+  "tr": "Đồng bộ hóa đầu vào"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Đồng bộ hóa đầu vào trong kênh%1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Lược đồ cú pháp "
+ },{
+  "en": "System",
+  "tr": "Hệ thống "
+ },{
+  "en": "Tab",
+  "tr": "Chuyển hướng"
+ },{
+  "en": "Tab Color",
+  "tr": "Màu tab"
+ },{
+  "en": "Tab Features",
+  "tr": "Tính năng tab"
+ },{
+  "en": "Tab Group",
+  "tr": "Nhóm tab"
+ },{
+  "en": "Tab Index",
+  "tr": "Chỉ mục tab"
+ },{
+  "en": "Tab size",
+  "tr": "Kích thước tab "
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Chế độ lướt văn bản tab "
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Đài hình thu nhỏ tab "
+ },{
+  "en": "Tab Title",
+  "tr": "Tiêu đề tab"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify các Dòng đã Chọn "
+ },{
+  "en": "Tabs",
+  "tr": "Các tab"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Tab cho Spaces "
+ },{
+  "en": "Target",
+  "tr": "Mục tiêu"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Thư mục đích "
+ },{
+  "en": "Targets",
+  "tr": "Mục tiêu"
+ },{
+  "en": "TCP connection options",
+  "tr": "Tùy chọn kết nối TCP"
+ },{
+  "en": "Teal",
+  "tr": "Màu xanh lam "
+ },{
+  "en": "Term",
+  "tr": "Thời hạn "
+ },{
+  "en": "Terminal",
+  "tr": "Phần cuối"
+ },{
+  "en": "terminal",
+  "tr": "phần cuối"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Cài đặt thiết bị đầu cuối"
+ },{
+  "en": "Text",
+  "tr": "Chữ"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Văn bản:%1 dòng,%2 ký tự "
+ },{
+  "en": "The % sign",
+  "tr": "Dấu hiệu"
+ },{
+  "en": "The actual text to log",
+  "tr": "Văn bản thực tế để ghi lại"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Thư mục đích là một thư mục con của thư mục nguồn: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Tài liệu đã được sửa đổi. \nBạn có muốn lưu các thay đổi của mình không?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Tổ hợp phím (%1) không phải là lệnh."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Lrzsz không được phát hiện. Vui lòng cài đặt lrzsz trước."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Mật khẩu chính đã được thay đổi."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Xác nhận mật khẩu không khớp."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Máy chủ đã hủy truyền."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Phiên bị <b> ngắt kết nối </b>, nhấn <b> Enter </b> để kết nối lại."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Quá trình chuyển bị hủy vì gói không phải là%1 trong giới hạn thử lại."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Quá trình chuyển bị hủy do số thứ tự của gói tin bị sai."
+ },{
+  "en": "Theme",
+  "tr": "Cuộc hẹn)"
+ },{
+  "en": "Thin",
+  "tr": "Gầy"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Ngưỡng cho tệp lớn "
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Định dạng thời gian "
+ },{
+  "en": "Time left",
+  "tr": "Thời gian còn lại"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Dấu thời gian của dòng"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Đối với trường hợp nghịch đảo "
+ },{
+  "en": "To Line End",
+  "tr": "Đến cuối dòng "
+ },{
+  "en": "To Line Start",
+  "tr": "Đến Dòng Bắt đầu "
+ },{
+  "en": "To Lower Case",
+  "tr": "Thành chữ thường "
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Tới MacOS 9 CR "
+ },{
+  "en": "To Title Case",
+  "tr": "Để viết hoa tiêu đề "
+ },{
+  "en": "To Unix LF",
+  "tr": "Tới Unix LF "
+ },{
+  "en": "To Upper Case",
+  "tr": "Thành chữ hoa "
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Tới Windows CRLF "
+ },{
+  "en": "To Word End",
+  "tr": "Tới Word End "
+ },{
+  "en": "To Word Start",
+  "tr": "Để Bắt đầu Word "
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Chuyển đổi Gấp "
+ },{
+  "en": "Tool",
+  "tr": "Công cụ"
+ },{
+  "en": "Toolbar",
+  "tr": "Thanh công cụ "
+ },{
+  "en": "Top Group",
+  "tr": "Nhóm hàng đầu "
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Theo dõi lựa chọn văn bản trong cây "
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Theo dõi lựa chọn cây trong văn bản "
+ },{
+  "en": "Tracking Events",
+  "tr": "Theo dõi sự kiện"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Khoảng trống sau "
+ },{
+  "en": "Trailing position",
+  "tr": "Vị trí theo dõi"
+ },{
+  "en": "Transfer",
+  "tr": "Chuyển giao"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Thanh chuyển"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Chuyển nhị phân "
+ },{
+  "en": "Transfer complete",
+  "tr": "Chuyển hoàn tất"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Chuyển chưa hoàn thành"
+ },{
+  "en": "Translucent",
+  "tr": "Mờ "
+ },{
+  "en": "Transparent",
+  "tr": "Trong suốt"
+ },{
+  "en": "Transpose",
+  "tr": "Transpose "
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Cắt bỏ khoảng trắng ở cuối khi lưu "
+ },{
+  "en": "Trust this host",
+  "tr": "Tin tưởng máy chủ này"
+ },{
+  "en": "Tunnels",
+  "tr": "Địa đạo"
+ },{
+  "en": "Type",
+  "tr": "Kiểu"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Kiểu '?' để được trợ giúp về các thao tác bạn có thể nhập vào đây"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Lựa chọn bỏ ghi chú "
+ },{
+  "en": "Underline",
+  "tr": "Gạch chân"
+ },{
+  "en": "underLine",
+  "tr": "underLine"
+ },{
+  "en": "Undo",
+  "tr": "Hoàn tác "
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Hoàn tác%1 hành động"
+ },{
+  "en": "Unfold",
+  "tr": "Mở ra "
+ },{
+  "en": "Unfold All",
+  "tr": "Mở ra tất cả "
+ },{
+  "en": "Unfold Category",
+  "tr": "Danh mục chưa được mở rộng "
+ },{
+  "en": "Unfold Inside",
+  "tr": "Mở ra bên trong "
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Hợp nhất các kết thúc dòng khi lưu "
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: đường dẫn tệp shell phải là tuyệt đối"
+ },{
+  "en": "Unknown",
+  "tr": "không xác định"
+ },{
+  "en": "unknown",
+  "tr": "không xác định"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Bỏ gắn nhãn các dòng đã chọn "
+ },{
+  "en": "Untitled",
+  "tr": "Không có tiêu đề"
+ },{
+  "en": "Untrust this host",
+  "tr": "Không tin tưởng máy chủ này"
+ },{
+  "en": "upload",
+  "tr": "tải lên"
+ },{
+  "en": "Upload command",
+  "tr": "Tải lên lệnh "
+ },{
+  "en": "Upload directory",
+  "tr": "Tải lên thư mục "
+ },{
+  "en": "Upload file",
+  "tr": "Cập nhật dử liệu"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Tải lên thư mục hiện tại "
+ },{
+  "en": "uploaded",
+  "tr": "đã tải lên"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL có% q thay cho truy vấn "
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Sử dụng màu nền để xóa màn hình "
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Sử dụng truyền tốc độ cao "
+ },{
+  "en": "Use system line ending",
+  "tr": "Sử dụng kết thúc dòng hệ thống"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Sử dụng điều này làm mặc định và không hỏi lại "
+ },{
+  "en": "User",
+  "tr": "Người sử dụng"
+ },{
+  "en": "Username echo mode",
+  "tr": "Chế độ vọng lại tên người dùng "
+ },{
+  "en": "Value",
+  "tr": "Giá trị"
+ },{
+  "en": "Variable",
+  "tr": "Biến đổi"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Xác minh dấu vân tay của máy chủ "
+ },{
+  "en": "View",
+  "tr": "Xem"
+ },{
+  "en": "Virtual Space",
+  "tr": "Không gian ảo "
+ },{
+  "en": "Waiting",
+  "tr": "Đang chờ đợi"
+ },{
+  "en": "Warning",
+  "tr": "Cảnh báo"
+ },{
+  "en": "Wheel event",
+  "tr": "Sự kiện bánh xe "
+ },{
+  "en": "When destination file exists",
+  "tr": "Khi tệp đích tồn tại "
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Khi dán nhiều dòng"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Khi tiêu đề từ xa được thay đổi"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Khi phiên được xác thực"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Khi phiên được xác thực"
+ },{
+  "en": "When window is resized",
+  "tr": "Khi cửa sổ được thay đổi kích thước"
+ },{
+  "en": "Where",
+  "tr": "Ở đâu "
+ },{
+  "en": "White Spaces",
+  "tr": "Khoảng trắng "
+ },{
+  "en": "Whole Line",
+  "tr": "Toàn bộ dòng "
+ },{
+  "en": "Whole Word",
+  "tr": "Cả từ"
+ },{
+  "en": "Widgets",
+  "tr": "Vật dụng"
+ },{
+  "en": "Width",
+  "tr": "Chiều rộng "
+ },{
+  "en": "Window",
+  "tr": "Cửa sổ"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Cạnh cửa sổ"
+ },{
+  "en": "Window Opacity",
+  "tr": "Độ mờ cửa sổ "
+ },{
+  "en": "Window opacity",
+  "tr": "Độ mờ cửa sổ"
+ },{
+  "en": "Windows Manager",
+  "tr": "Trình quản lý Windows "
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Không tìm thấy winpty-agent.exe hoặc winpty.dll !."
+ },{
+  "en": "Word",
+  "tr": "Word "
+ },{
+  "en": "Word Separators",
+  "tr": "Dấu phân tách từ "
+ },{
+  "en": "Word Wrap",
+  "tr": "Word Wrap "
+ },{
+  "en": "Working directory",
+  "tr": "Thư mục làm việc "
+ },{
+  "en": "Wrap",
+  "tr": "Bọc"
+ },{
+  "en": "Wrap by character",
+  "tr": "Bọc theo nhân vật"
+ },{
+  "en": "Wrap by word",
+  "tr": "Kết thúc từng từ một"
+ },{
+  "en": "Wrap column",
+  "tr": "Wrap cột "
+ },{
+  "en": "Wrap mode",
+  "tr": "Chế độ quấn "
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Ký hiệu bọc "
+ },{
+  "en": "Wrong master password.",
+  "tr": "Mật khẩu chính không chính xác."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "Modem X / Y / Z"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "Modem X / Y / Z không thể truyền các thư mục hoặc tệp lớn hơn 4GB:%1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "Giao thức xác thực X11"
+ },{
+  "en": "X11 display",
+  "tr": "Màn hình X11"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Năm có 2 chữ số"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Năm có 4 chữ số"
+ },{
+  "en": "Yes",
+  "tr": "đúng"
+ },{
+  "en": "Zero",
+  "tr": "Số không"
+ },{
+  "en": "Zoom",
+  "tr": "Phóng"
+ },{
+  "en": "Zoom In",
+  "tr": "Phóng to "
+ },{
+  "en": "Zoom level",
+  "tr": "Mức thu phóng "
+ },{
+  "en": "Zoom Out",
+  "tr": "Thu nhỏ "
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Đã gặp sự cố sau%1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Trống]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Lỗi:%1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Hoàn thành sau%1s, mã thoát%2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Hoàn thành sau%1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Danh sách nhóm trống]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Danh sách điều hướng trống]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Không có công cụ tìm kiếm]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Các url gần đây trống]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Danh sách làm lại trống]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Danh sách sơ đồ trống]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Danh sách chủ đề trống]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Danh sách thanh công cụ trống]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Danh sách hoàn tác trống]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Người dùng bị hủy]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[user @] tên máy chủ"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Danh sách Windows trống]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

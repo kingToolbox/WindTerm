@@ -1,0 +1,3513 @@
+{
+ "language": "Urdu - اُردو",
+ "layoutDirection": "RightToLeft",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$ (سکیم) کے اوزار "
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1%2%3 کے ذریعہ تعاون یافتہ نہیں ہے۔"
+ },{
+  "en": "%1 copied",
+  "tr": "%1 کاپی"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 ڈاؤن لوڈ ہو گیا"
+ },{
+  "en": "%1 File",
+  "tr": "%1 فائل"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 آئٹم ناکام"
+ },{
+  "en": "%1 items",
+  "tr": "%1 آئٹمز"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 آئٹمز ناکام۔"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 آئٹمز"
+ },{
+  "en": "%1 of %2",
+  "tr": "%2 کا%1"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 ہٹا دیا گیا"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 یہ%2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 اپ لوڈ ہو گیا"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 رفتار:%3۔"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1:%2 پاس ورڈ کی ناکام کوششیں"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> تبدیل </b> اور <b> دوبارہ لوڈ </b> ہے ، بڑی فائل کے لیے کالعدم کرنے کی اجازت <b> نہیں </b> ہے۔"
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> کیا <b> تبدیل ہو گیا </b> اور <b> دوبارہ لوڈ کیا گیا </b> ، کالعدم کرنے کی اجازت ہے۔"
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> کیا <b> تبدیل ہو گیا </b> ، کیا آپ اسے دوبارہ لوڈ کرنا چاہتے ہیں؟"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> <b> منتقل یا حذف کر دیا گیا ہے </b>۔"
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) دبایا گیا۔ مزید چابیاں کا انتظار ہے۔"
+ },{
+  "en": "1 Char",
+  "tr": "اور 1 چار"
+ },{
+  "en": "16 Columns",
+  "tr": "اور 16 کالم۔"
+ },{
+  "en": "2 Chars",
+  "tr": "اور 2 حروف"
+ },{
+  "en": "24 Columns",
+  "tr": "اور 24 کالم۔"
+ },{
+  "en": "32 Columns",
+  "tr": "اور 32 کالم۔"
+ },{
+  "en": "4 Chars",
+  "tr": "اور 4 حروف۔"
+ },{
+  "en": "8 Chars",
+  "tr": "اور 8 حروف۔"
+ },{
+  "en": "8 Columns",
+  "tr": "اور 8 کالم۔"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "ایس ایس ایچ پاس ورڈ جیسی حساس معلومات کی حفاظت کے لیے ماسٹر پاس ورڈ استعمال کیا جاتا ہے۔"
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "ایک نام 255 حروف سے کم ہونا چاہیے اور مندرجہ ذیل حروف میں سے کسی پر مشتمل نہیں ہونا چاہیے: / NUL۔"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "ایک ریموٹ فائل میں ترمیم کی گئی ہے۔ n کیا آپ اس فائل کو دوبارہ سرور پر اپ لوڈ کرنا چاہتے ہیں؟"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "ایک مخصوص سیشن یا سیشن کا سیٹ "
+ },{
+  "en": "Abbreviated month name",
+  "tr": "مہینے کا مختصر نام۔"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "ہفتے کے دن کا مختصر نام۔"
+ },{
+  "en": "Accept local connections only",
+  "tr": "صرف مقامی کنکشن قبول کریں "
+ },{
+  "en": "Accessed",
+  "tr": "رسائی حاصل کی۔"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "ایک سے زیادہ کیریٹس (اور M) کو چالو کریں"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "اگلا انتخاب چالو کریں "
+ },{
+  "en": "Activate Next View",
+  "tr": "اگلا منظر فعال کریں "
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "پچھلا انتخاب چالو کریں "
+ },{
+  "en": "Activate Previous View",
+  "tr": "پچھلا منظر (P) چالو کریں"
+ },{
+  "en": "Activate the left tab",
+  "tr": "بائیں ٹیب کو چالو کریں۔"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "پہلے منتخب کردہ ٹیب کو چالو کریں۔"
+ },{
+  "en": "Activate the right tab",
+  "tr": "دائیں ٹیب کو چالو کریں۔"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "بند کرنے کے بعد ٹیب کو چالو کریں "
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "منڈلانے کے بعد ٹیب کو چالو کریں "
+ },{
+  "en": "Add",
+  "tr": "شامل کریں "
+ },{
+  "en": "Add All",
+  "tr": "سب شامل کریں "
+ },{
+  "en": "Add Command",
+  "tr": "کمانڈ شامل کریں۔"
+ },{
+  "en": "Add Group",
+  "tr": "گروپ شامل کریں۔"
+ },{
+  "en": "Add Sender",
+  "tr": "بھیجنے والے کو شامل کریں "
+ },{
+  "en": "Add Tab",
+  "tr": "ٹیب شامل کریں۔"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "کھڑکی کی قطاروں اور کالموں کو ایڈجسٹ کریں "
+ },{
+  "en": "Advanced Sort",
+  "tr": "اعلی درجے کی ترتیب"
+ },{
+  "en": "Agent",
+  "tr": "ایجنٹ"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "ایجنٹ کی توثیق ناکام ہوگئی ، براہ کرم دوسرا طریقہ آزمائیں۔"
+ },{
+  "en": "All",
+  "tr": "تمام "
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "تمام%1 سیشنز حذف ہو جائیں گے۔ you n کیا آپ سیشن درآمد کرنا جاری رکھنا چاہتے ہیں؟"
+ },{
+  "en": "All session output",
+  "tr": "تمام سیشن آؤٹ پٹ "
+ },{
+  "en": "All Sessions",
+  "tr": "تمام سیشن "
+ },{
+  "en": "All tabs",
+  "tr": "تمام ٹیبز۔"
+ },{
+  "en": "Alternate column background color",
+  "tr": "متبادل کالم پس منظر کا رنگ "
+ },{
+  "en": "Alternate line background color",
+  "tr": "متبادل لائن پس منظر کا رنگ "
+ },{
+  "en": "Always On Top",
+  "tr": "ہمیشہ اوپر "
+ },{
+  "en": "Always on top",
+  "tr": "ہمیشہ اوپر"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "%1 عمل سے پڑھنے کی کوشش کرتے وقت ایک خرابی پیش آگئی۔"
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "%1 عمل کو لکھنے کی کوشش کرتے وقت ایک خرابی پیش آئی۔"
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "%1 عمل میں ایک نامعلوم خرابی پیش آگئی۔"
+ },{
+  "en": "ANSI to OEM",
+  "tr": "اے این ایس آئی سے OEM "
+ },{
+  "en": "Answer back",
+  "tr": "جواب واپس "
+ },{
+  "en": "Any",
+  "tr": "کوئی بھی۔"
+ },{
+  "en": "Anything Palette",
+  "tr": "کچھ بھی پیلیٹ "
+ },{
+  "en": "Anywhere",
+  "tr": "کہیں بھی۔"
+ },{
+  "en": "Appearance",
+  "tr": "ظہور"
+ },{
+  "en": "Append",
+  "tr": "شامل کریں"
+ },{
+  "en": "Append log file",
+  "tr": "لاگ فائل شامل کریں "
+ },{
+  "en": "Application",
+  "tr": "درخواست"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "کیا آپ واقعی%1 منتخب کردہ آئٹمز کو حذف کرنا چاہتے ہیں؟"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "کیا آپ واقعی آئٹم <b>%1 </b> کو حذف کرنا چاہتے ہیں؟"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "کیا آپ کو یقین ہے کہ آپ موجودہ فائل کو دوبارہ لوڈ کرنا چاہتے ہیں اور WindEditE میں کی گئی تبدیلیوں کو کھو دینا چاہتے ہیں؟"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "کیا آپ واقعی بھیجنے والے کو روکنا چاہتے ہیں؟"
+ },{
+  "en": "Arguments",
+  "tr": "دلائل "
+ },{
+  "en": "At Caret",
+  "tr": "کیریٹ میں "
+ },{
+  "en": "At End",
+  "tr": "آخر میں "
+ },{
+  "en": "At Start",
+  "tr": "شروع میں "
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "gssapi-with-mic authentication (G) کی کوشش کریں"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "کی بورڈ انٹرایکٹو تصدیق کی کوشش کریں "
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "پیجینٹ توثیق کی کوشش کریں "
+ },{
+  "en": "Attempt password authentication",
+  "tr": "پاس ورڈ کی تصدیق کی کوشش کریں "
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "عوامی کلیدی تصدیق کی کوشش کریں "
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "ایس ایس ایچ ایجنٹ کی توثیق کی کوشش کریں "
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "جزوی کامیابی کے ساتھ تصدیق شدہ ، براہ کرم دوسرا طریقہ آزمائیں۔"
+ },{
+  "en": "Authenticating by %1",
+  "tr": "%1 کی توثیق"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "%1 اور%2 کی توثیق"
+ },{
+  "en": "Authentication",
+  "tr": "توثیق۔"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "توثیق مسترد ، براہ کرم دوبارہ کوشش کریں۔"
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "تصدیق میں ناکام رہے. دوبارہ کوشش کریں."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "آٹو بند HTML/XML ٹیگز "
+ },{
+  "en": "Auto login",
+  "tr": "آٹو لاگ ان۔"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "آٹو لاگ ان ناکام ہو گیا ، براہ کرم دوبارہ کوشش کریں۔"
+ },{
+  "en": "Auto login next time",
+  "tr": "اگلی بار آٹو لاگ ان "
+ },{
+  "en": "Automatic",
+  "tr": "خودکار۔"
+ },{
+  "en": "automatic",
+  "tr": "خودکار"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "خودکار تصدیق کے طریقے"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "انتخاب کو خود بخود کاپی کریں "
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "خودکار طور پر انڈینٹیشن کا پتہ لگائیں "
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "پیڈنگ کو خود بخود تراشیں "
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "پس منظر مارکر۔"
+ },{
+  "en": "Backspace",
+  "tr": "بیک اسپیس "
+ },{
+  "en": "Backspace sends",
+  "tr": "بیک اسپیس بھیجتا ہے۔"
+ },{
+  "en": "Backward",
+  "tr": "پسماندہ۔"
+ },{
+  "en": "Bars",
+  "tr": "باریں"
+ },{
+  "en": "Baud Rate",
+  "tr": "باؤڈ ریٹ "
+ },{
+  "en": "Beep When Finished",
+  "tr": "ختم ہونے پر بیپ کریں۔"
+ },{
+  "en": "Binary",
+  "tr": "ثنائی۔"
+ },{
+  "en": "Binary base",
+  "tr": "بائنری بیس "
+ },{
+  "en": "Binary columns",
+  "tr": "ثنائی کالم "
+ },{
+  "en": "Binary devision columns",
+  "tr": "ثنائی انحراف کالم "
+ },{
+  "en": "Binary grouped characters",
+  "tr": "ثنائی گروپ کردہ حروف "
+ },{
+  "en": "Black",
+  "tr": "سیاہ"
+ },{
+  "en": "Blink",
+  "tr": "پلک جھپکنا "
+ },{
+  "en": "blinking block",
+  "tr": "ٹمٹمانے والا بلاک"
+ },{
+  "en": "blinking line",
+  "tr": "ٹمٹمانے والی لکیر"
+ },{
+  "en": "blinking rectangle",
+  "tr": "چمکتا ہوا مستطیل"
+ },{
+  "en": "blinking underLine",
+  "tr": "لائن کے نیچے ٹمٹمانا"
+ },{
+  "en": "Block",
+  "tr": "بلاک"
+ },{
+  "en": "block",
+  "tr": "بلاک"
+ },{
+  "en": "Bold",
+  "tr": "بولڈ"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "بولڈ قسم فکسڈ چوڑائی فونٹس کی نشاندہی کرتی ہے۔"
+ },{
+  "en": "Bottom Docks",
+  "tr": "نیچے ڈاکس "
+ },{
+  "en": "Bottom Group",
+  "tr": "نیچے گروپ "
+ },{
+  "en": "Browse",
+  "tr": "براؤز کریں"
+ },{
+  "en": "Browse Directory",
+  "tr": "براؤز ڈائریکٹری"
+ },{
+  "en": "Browse File",
+  "tr": "فائل براؤز کریں۔"
+ },{
+  "en": "Browser",
+  "tr": "براؤزر "
+ },{
+  "en": "Build",
+  "tr": "تعمیر "
+ },{
+  "en": "By",
+  "tr": "کی طرف سے"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "حساب لگا رہا ہے۔"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "فائل کھولنے کے لیے مناسب پروگرام نہیں مل سکا:٪ n%1 ( اسے کھولنے کے لیے ڈیفالٹ ایڈیٹر استعمال کرنے کی کوشش کریں۔"
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "ڈائریکٹری%1 نہیں بن سکتی"
+ },{
+  "en": "Can not make file %1.",
+  "tr": "فائل%1 نہیں بنائی جا سکتی"
+ },{
+  "en": "Can not make link %1.",
+  "tr": "لنک%1 نہیں بنایا جا سکتا"
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "ڈائریکٹری%1 کو نہیں ہٹا سکتا۔"
+ },{
+  "en": "Cancel",
+  "tr": "منسوخ کریں"
+ },{
+  "en": "Cancel Build",
+  "tr": "تعمیر منسوخ کریں "
+ },{
+  "en": "Cancel Selection",
+  "tr": "انتخاب منسوخ کریں "
+ },{
+  "en": "Caret",
+  "tr": "کیریٹ۔"
+ },{
+  "en": "Caret Style",
+  "tr": "کیریٹ سٹائل "
+ },{
+  "en": "Carriage Return",
+  "tr": "کیریج ریٹرن۔"
+ },{
+  "en": "Case Sensitive",
+  "tr": "حساس کیس"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup "
+ },{
+  "en": "Change Master Password",
+  "tr": "ماسٹر پاس ورڈ تبدیل کریں "
+ },{
+  "en": "Change master password",
+  "tr": "ماسٹر پاس ورڈ تبدیل کریں۔"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "ماسٹر پاس ورڈ تبدیل کرنے میں ناکام۔"
+ },{
+  "en": "Change the tab title",
+  "tr": "ٹیب کا عنوان تبدیل کریں "
+ },{
+  "en": "Changed",
+  "tr": "تبدیل کر دیا گیا۔"
+ },{
+  "en": "Channel",
+  "tr": "چینل۔"
+ },{
+  "en": "Char",
+  "tr": "چار "
+ },{
+  "en": "Char Left",
+  "tr": "چار بائیں "
+ },{
+  "en": "Char Right",
+  "tr": "چار دائیں "
+ },{
+  "en": "Character spacing",
+  "tr": "حروف کا فاصلہ "
+ },{
+  "en": "character width",
+  "tr": "کردار کی چوڑائی"
+ },{
+  "en": "Charset",
+  "tr": "چارسیٹ "
+ },{
+  "en": "Choose a default editor",
+  "tr": "پہلے سے طے شدہ ایڈیٹر منتخب کریں۔"
+ },{
+  "en": "Ciphers",
+  "tr": "سائفرز"
+ },{
+  "en": "Ciphers order",
+  "tr": "سائفرز آرڈر "
+ },{
+  "en": "Clear",
+  "tr": "صاف"
+ },{
+  "en": "Clear All",
+  "tr": "تمام (اور A) صاف کریں"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "حالیہ یو آر ایل صاف کریں "
+ },{
+  "en": "Clear Screen",
+  "tr": "صاف سکرین "
+ },{
+  "en": "Clear Scrollback",
+  "tr": "صاف سکرول بیک "
+ },{
+  "en": "Clear Sender",
+  "tr": "صاف بھیجنے والا "
+ },{
+  "en": "Click event",
+  "tr": "ایونٹ پر کلک کریں "
+ },{
+  "en": "Close",
+  "tr": "بند کریں"
+ },{
+  "en": "Close All Views",
+  "tr": "تمام مناظر بند کریں "
+ },{
+  "en": "Close All Views But Active",
+  "tr": "تمام مناظر بند کریں لیکن فعال "
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "دائیں طرف تمام مناظر بند کریں "
+ },{
+  "en": "Close And Exit",
+  "tr": "بند کریں اور باہر نکلیں۔"
+ },{
+  "en": "Close Channel",
+  "tr": "چینل بند کریں "
+ },{
+  "en": "Close Dock",
+  "tr": "گودی بند کریں۔"
+ },{
+  "en": "Close Group",
+  "tr": "گروپ بند کریں۔"
+ },{
+  "en": "Close Session",
+  "tr": "سیشن بند کریں۔"
+ },{
+  "en": "Close Tab",
+  "tr": "ٹیب بند کریں۔"
+ },{
+  "en": "Close tab",
+  "tr": "ٹیب بند کریں۔"
+ },{
+  "en": "Close View",
+  "tr": "بند ویو "
+ },{
+  "en": "Close Window",
+  "tr": "کھڑکی بند کریں "
+ },{
+  "en": "Color",
+  "tr": "رنگ "
+ },{
+  "en": "Column Edit",
+  "tr": "کالم میں ترمیم "
+ },{
+  "en": "Column Marker",
+  "tr": "کالم مارکر۔"
+ },{
+  "en": "Columns",
+  "tr": "کالم "
+ },{
+  "en": "columns",
+  "tr": "کالم"
+ },{
+  "en": "Command",
+  "tr": "کمانڈ "
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "کمانڈ پیلیٹ "
+ },{
+  "en": "Comment",
+  "tr": "تبصرہ "
+ },{
+  "en": "Comment Selection",
+  "tr": "تبصرے کا انتخاب "
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "تبصرے کا انتخاب (بلاک موڈ) "
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "تبصرے کا انتخاب (لائن موڈ) "
+ },{
+  "en": "Complete Word",
+  "tr": "مکمل لفظ "
+ },{
+  "en": "Config",
+  "tr": "ترتیب"
+ },{
+  "en": "Confirm Password",
+  "tr": "پاس ورڈ کی تصدیق کریں۔"
+ },{
+  "en": "Confirm password",
+  "tr": "پاس ورڈ کی تصدیق کریں۔"
+ },{
+  "en": "Connect",
+  "tr": "جڑیں۔"
+ },{
+  "en": "Connection",
+  "tr": "کنکشن"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "خیال، سیاق"
+ },{
+  "en": "Continue",
+  "tr": "جاری رہے"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "CRLF اور LF کو CR (C) میں تبدیل کریں"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "ٹیب کو خالی جگہوں میں تبدیل کریں "
+ },{
+  "en": "copied",
+  "tr": "کاپی"
+ },{
+  "en": "Copy",
+  "tr": "کاپی"
+ },{
+  "en": "copy",
+  "tr": "کاپی"
+ },{
+  "en": "Copy And Paste",
+  "tr": "کاپی اور پیسٹ "
+ },{
+  "en": "Copy File Name",
+  "tr": "فائل کا نام (N) کاپی کریں"
+ },{
+  "en": "Copy File Path",
+  "tr": "فائل پاتھ کاپی کریں "
+ },{
+  "en": "Copy from",
+  "tr": "(اور ایف) سے کاپی"
+ },{
+  "en": "Copy names",
+  "tr": "کاپی نام "
+ },{
+  "en": "Copy names to terminal",
+  "tr": "ٹرمینل میں نام کاپی کریں "
+ },{
+  "en": "Copy Output",
+  "tr": "کاپی آؤٹ پٹ "
+ },{
+  "en": "Copy paths",
+  "tr": "راستے کاپی کریں "
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "ٹرمینل میں راستے کاپی کریں "
+ },{
+  "en": "Copy Session Name",
+  "tr": "کاپی سیشن کا نام "
+ },{
+  "en": "Copy Session Url",
+  "tr": "کاپی سیشن یو آر ایل "
+ },{
+  "en": "Copy to",
+  "tr": "(C) پر کاپی کریں"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "کاپی ٹرمینل (T) پر"
+ },{
+  "en": "Count",
+  "tr": "شمار"
+ },{
+  "en": "Create Directory",
+  "tr": "ڈائریکٹری بنائیں۔"
+ },{
+  "en": "Create File",
+  "tr": "فائل بنائیں۔"
+ },{
+  "en": "Create Link",
+  "tr": "لنک بنائیں۔"
+ },{
+  "en": "Created",
+  "tr": "تخلیق کیا۔"
+ },{
+  "en": "Critical",
+  "tr": "تنقیدی"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "موجودہ سیشن"
+ },{
+  "en": "Custom",
+  "tr": "اپنی مرضی کے مطابق"
+ },{
+  "en": "Custom Opacity",
+  "tr": "اپنی مرضی کے مطابق دھندلاپن "
+ },{
+  "en": "Customize",
+  "tr": "حسب ضرورت "
+ },{
+  "en": "Cut",
+  "tr": "کٹ "
+ },{
+  "en": "Dark Cyan",
+  "tr": "ڈارک سیان "
+ },{
+  "en": "Data",
+  "tr": "ڈیٹا "
+ },{
+  "en": "Data Bits",
+  "tr": "ڈیٹا بٹس "
+ },{
+  "en": "Datetime format",
+  "tr": "ڈیٹ ٹائم فارمیٹ "
+ },{
+  "en": "Day of month",
+  "tr": "مہینے کا دن۔"
+ },{
+  "en": "Debug Mode",
+  "tr": "ڈیبگ موڈ "
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "لائن انڈینٹ کم کریں "
+ },{
+  "en": "Deep Pink",
+  "tr": "گہرا گلابی "
+ },{
+  "en": "default",
+  "tr": "پہلے سے طے شدہ"
+ },{
+  "en": "Default editor",
+  "tr": "ڈیفالٹ ایڈیٹر۔"
+ },{
+  "en": "Default Font",
+  "tr": "ڈیفالٹ فونٹ۔"
+ },{
+  "en": "Default line ending",
+  "tr": "ڈیفالٹ لائن ختم "
+ },{
+  "en": "Delete",
+  "tr": "حذف کریں "
+ },{
+  "en": "Delete sends",
+  "tr": "بھیجیں حذف کریں۔"
+ },{
+  "en": "deleted",
+  "tr": "حذف کر دیا"
+ },{
+  "en": "DemiBold",
+  "tr": "ڈیمی بولڈ۔"
+ },{
+  "en": "Destination Host",
+  "tr": "منزل کا میزبان "
+ },{
+  "en": "Destination Port",
+  "tr": "منزل پورٹ "
+ },{
+  "en": "Dir",
+  "tr": "دیر۔"
+ },{
+  "en": "dir",
+  "tr": "ڈائر"
+ },{
+  "en": "Directory",
+  "tr": "ڈائریکٹری"
+ },{
+  "en": "Directory Link",
+  "tr": "ڈائریکٹری لنک۔"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "ناگل کے الگورتھم کو غیر فعال کریں (TCP_NODELAY آپشن) "
+ },{
+  "en": "Disconnect Session",
+  "tr": "سیشن منقطع کریں "
+ },{
+  "en": "Disk",
+  "tr": "ڈسک"
+ },{
+  "en": "Do not echo characters",
+  "tr": "حروف کی بازگشت نہ کریں۔"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "کیا آپ موجودہ سیشن کو بند کرنا چاہتے ہیں؟"
+ },{
+  "en": "Document",
+  "tr": "دستاویز "
+ },{
+  "en": "Don't show this message again",
+  "tr": "یہ پیغام دوبارہ نہ دکھائیں۔"
+ },{
+  "en": "Double click",
+  "tr": "ڈبل کلک "
+ },{
+  "en": "Double click event",
+  "tr": "ڈبل کلک ایونٹ "
+ },{
+  "en": "Download",
+  "tr": "ڈاؤن لوڈ کریں "
+ },{
+  "en": "download",
+  "tr": "ڈاؤن لوڈ کریں"
+ },{
+  "en": "Download directory",
+  "tr": "ڈائرکٹری ڈاؤن لوڈ کریں "
+ },{
+  "en": "downloaded",
+  "tr": "ڈاؤن لوڈ کیا"
+ },{
+  "en": "Drop Selection",
+  "tr": "ڈراپ سلیکشن "
+ },{
+  "en": "Duplicate",
+  "tr": "ڈپلیکیٹ"
+ },{
+  "en": "Duplicate Command",
+  "tr": "ڈپلیکیٹ کمانڈ۔"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "ڈپلیکیٹ ویو "
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "متحرک فارورڈنگ۔"
+ },{
+  "en": "Echo every character entered",
+  "tr": "ہر کردار داخل ہونے کی گونج۔"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "ترمیم کرتے وقت ہر کردار کی بازگشت کریں۔"
+ },{
+  "en": "Echo random characters",
+  "tr": "بے ترتیب حروف کی بازگشت۔"
+ },{
+  "en": "Edit",
+  "tr": "ترمیم کریں "
+ },{
+  "en": "Editor",
+  "tr": "ایڈیٹر۔"
+ },{
+  "en": "editor",
+  "tr": "ایڈیٹر"
+ },{
+  "en": "Editor Settings",
+  "tr": "ایڈیٹر کی ترتیبات۔"
+ },{
+  "en": "Elapsed",
+  "tr": "گزر گیا۔"
+ },{
+  "en": "Elide left",
+  "tr": "ایلائڈ بائیں"
+ },{
+  "en": "Elide middle",
+  "tr": "ایلائیڈ درمیانی۔"
+ },{
+  "en": "Elide right",
+  "tr": "دائیں بائیں۔"
+ },{
+  "en": "Empty",
+  "tr": "خالی۔"
+ },{
+  "en": "Enable command mode",
+  "tr": "کمانڈ موڈ کو فعال کریں "
+ },{
+  "en": "Enable local mode",
+  "tr": "مقامی موڈ کو فعال کریں "
+ },{
+  "en": "Enable SFTP",
+  "tr": "SFTP (S) کو فعال کریں"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "TCP keepalives کو فعال کریں (SO_KEEPALIVE آپشن) "
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "ورچوئل اسپیسز کو فعال کریں "
+ },{
+  "en": "End Of Document",
+  "tr": "دستاویز کا اختتام "
+ },{
+  "en": "End Of Line",
+  "tr": "لائن کا اختتام "
+ },{
+  "en": "End Of Pair",
+  "tr": "جوڑی کا اختتام "
+ },{
+  "en": "Engine",
+  "tr": "انجن۔"
+ },{
+  "en": "Environment Variable",
+  "tr": "ماحولیاتی متغیر۔"
+ },{
+  "en": "Environment variables",
+  "tr": "ماحولیاتی متغیرات "
+ },{
+  "en": "Error",
+  "tr": "خرابی"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "ایکسچینج کیریٹ اور اینکر "
+ },{
+  "en": "Execute",
+  "tr": "عملدرآمد "
+ },{
+  "en": "Execute command after authentication",
+  "tr": "تصدیق کے بعد کمانڈ پر عمل کریں "
+ },{
+  "en": "Execute command after start",
+  "tr": "شروع کرنے کے بعد کمانڈ پر عمل کریں "
+ },{
+  "en": "Execute File",
+  "tr": "فائل پر عمل کریں۔"
+ },{
+  "en": "Exit",
+  "tr": "باہر نکلیں "
+ },{
+  "en": "Expand",
+  "tr": "پھیلائیں۔"
+ },{
+  "en": "Expand Snippet",
+  "tr": "سنیپٹ کو وسیع کریں "
+ },{
+  "en": "Explorer",
+  "tr": "ایکسپلورر"
+ },{
+  "en": "External Tools",
+  "tr": "بیرونی اوزار "
+ },{
+  "en": "External X display",
+  "tr": "بیرونی ایکس ڈسپلے "
+ },{
+  "en": "ExtraBold",
+  "tr": "ایکسٹرا بولڈ۔"
+ },{
+  "en": "ExtraLight",
+  "tr": "ایکسٹرا لائٹ۔"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "عارضی فائل بنانے میں ناکام:٪ n%1۔"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "ڈائریکٹری کھولنے میں ناکام:%1۔"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "میزبان فنگر پرنٹ بازیافت کرنے میں ناکام!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "فائل اپ لوڈ کرنے میں ناکام:%1 ، file n فائل موجود نہ ہو یا اسے کھولنے کی اجازت نہ ہو۔"
+ },{
+  "en": "Fast",
+  "tr": "تیز"
+ },{
+  "en": "Favorites",
+  "tr": "پسندیدہ "
+ },{
+  "en": "Features",
+  "tr": "خصوصیات"
+ },{
+  "en": "File",
+  "tr": "فائل۔"
+ },{
+  "en": "file",
+  "tr": "فائل"
+ },{
+  "en": "File Link",
+  "tr": "فائل لنک۔"
+ },{
+  "en": "File Name",
+  "tr": "فائل کا نام "
+ },{
+  "en": "File name",
+  "tr": "فائل کا نام"
+ },{
+  "en": "File Path",
+  "tr": "فائل پاتھ "
+ },{
+  "en": "Filer",
+  "tr": "فائلر۔"
+ },{
+  "en": "filer",
+  "tr": "فائلر"
+ },{
+  "en": "Filter",
+  "tr": "فلٹر"
+ },{
+  "en": "Find",
+  "tr": "تلاش کریں "
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "تمام (اور A) تلاش کریں"
+ },{
+  "en": "Find in Files",
+  "tr": "فائلوں میں تلاش کریں "
+ },{
+  "en": "Find Next",
+  "tr": "اگلا تلاش کریں "
+ },{
+  "en": "Find Next Selection",
+  "tr": "اگلا انتخاب تلاش کریں "
+ },{
+  "en": "Find Previous",
+  "tr": "پچھلا تلاش کریں "
+ },{
+  "en": "Find Previous Selection",
+  "tr": "پچھلا انتخاب تلاش کریں "
+ },{
+  "en": "Fingerprint",
+  "tr": "فنگر پرنٹ"
+ },{
+  "en": "First nine tabs",
+  "tr": "پہلے نو ٹیبز۔"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "فلوٹ "
+ },{
+  "en": "Flow Control",
+  "tr": "بہاؤ کنٹرول "
+ },{
+  "en": "Focus Mode",
+  "tr": "فوکس موڈ"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "فوکس موڈ کی ترتیبات "
+ },{
+  "en": "Fold",
+  "tr": "فولڈ "
+ },{
+  "en": "Fold All",
+  "tr": "سب کو فولڈ کریں "
+ },{
+  "en": "Fold Category",
+  "tr": "فولڈ زمرہ "
+ },{
+  "en": "Fold Inside",
+  "tr": "اندر فولڈ "
+ },{
+  "en": "Folds",
+  "tr": "فولڈز "
+ },{
+  "en": "Font",
+  "tr": "فونٹ"
+ },{
+  "en": "Font family",
+  "tr": "فونٹ فیملی۔"
+ },{
+  "en": "Font size",
+  "tr": "فونٹ سائز "
+ },{
+  "en": "Font weight",
+  "tr": "فونٹ وزن "
+ },{
+  "en": "Forest Green",
+  "tr": "جنگل سبز "
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "فارمیٹ سلیکشن "
+ },{
+  "en": "Found",
+  "tr": "ملا۔"
+ },{
+  "en": "Full month name",
+  "tr": "پورے مہینے کا نام۔"
+ },{
+  "en": "Full Screen",
+  "tr": "فل سکرین "
+ },{
+  "en": "Full screen",
+  "tr": "مکمل اسکرین یا بڑی اسکرین"
+ },{
+  "en": "Full weekday name",
+  "tr": "ہفتے کے دن کا مکمل نام۔"
+ },{
+  "en": "Go Backward",
+  "tr": "پیچھے جائیں "
+ },{
+  "en": "Go Forward",
+  "tr": "آگے بڑھو "
+ },{
+  "en": "Go to",
+  "tr": "کے پاس جاؤ"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "کرنٹ ویو میں سمبل پر جائیں۔"
+ },{
+  "en": "Goldenrod",
+  "tr": "گولڈنروڈ "
+ },{
+  "en": "Goto",
+  "tr": "گوٹو "
+ },{
+  "en": "Goto Address Bar",
+  "tr": "گوٹو ایڈریس بار "
+ },{
+  "en": "Goto File",
+  "tr": "گوٹو فائل "
+ },{
+  "en": "Goto Fold Header",
+  "tr": "گوٹو فولڈر ہیڈر "
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "گوٹو نیکسٹ فولڈر ہیڈر "
+ },{
+  "en": "Goto Position",
+  "tr": "پوٹو پوزیشن "
+ },{
+  "en": "Goto Session",
+  "tr": "گوٹو سیشن "
+ },{
+  "en": "Goto Symbol",
+  "tr": "گوٹو سمبل "
+ },{
+  "en": "Group",
+  "tr": "گروپ"
+ },{
+  "en": "Group %1",
+  "tr": "گروپ%1"
+ },{
+  "en": "Groups",
+  "tr": "گروپس"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "مائیک کے ساتھ Gssapi۔"
+ },{
+  "en": "Hard Reset",
+  "tr": "ہارڈ ری سیٹ "
+ },{
+  "en": "Help",
+  "tr": "مدد "
+ },{
+  "en": "Hex",
+  "tr": "ہیکس "
+ },{
+  "en": "Hex Base",
+  "tr": "ہیکس بیس "
+ },{
+  "en": "Hex Columns",
+  "tr": "ہیکس کالم "
+ },{
+  "en": "Hex Edit",
+  "tr": "ہیکس ترمیم "
+ },{
+  "en": "Hex Group Chars",
+  "tr": "ہیکس گروپ چارز "
+ },{
+  "en": "Hidden",
+  "tr": "پوشیدہ۔"
+ },{
+  "en": "Hide",
+  "tr": "چھپانا۔"
+ },{
+  "en": "Hide All",
+  "tr": "سب کو چھپائیں "
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "ٹائپ کرتے وقت کرسر چھپائیں "
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "متن چھپائیں۔"
+ },{
+  "en": "Highlight",
+  "tr": "نمایاں کریں۔"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "کیریٹ لائن کو نمایاں کریں "
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "مماثل جوڑا نمایاں کریں "
+ },{
+  "en": "Highlight the caret line",
+  "tr": "کیریٹ لائن کو نمایاں کریں "
+ },{
+  "en": "Highlight the caret word",
+  "tr": "کیریٹ لفظ کو نمایاں کریں "
+ },{
+  "en": "Highlight the current fold",
+  "tr": "موجودہ فولڈ کو نمایاں کریں "
+ },{
+  "en": "Highlight the current pair",
+  "tr": "موجودہ جوڑی کو نمایاں کریں "
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "بڑھتی ہوئی تلاش کو نمایاں کریں "
+ },{
+  "en": "History",
+  "tr": "تاریخ"
+ },{
+  "en": "Home Of Line",
+  "tr": "ہوم آف لائن "
+ },{
+  "en": "Host",
+  "tr": "میزبان"
+ },{
+  "en": "Host address",
+  "tr": "میزبان کا پتہ۔"
+ },{
+  "en": "Host Based",
+  "tr": "میزبان کی بنیاد پر۔"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "12 فارمیٹ میں گھنٹے۔"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "گھنٹے 24 فارمیٹ میں۔"
+ },{
+  "en": "Http proxy",
+  "tr": "ایچ ٹی ٹی پی پراکسی "
+ },{
+  "en": "Huge File",
+  "tr": "بہت بڑی فائل۔"
+ },{
+  "en": "Icon",
+  "tr": "شبیہ"
+ },{
+  "en": "Identity file",
+  "tr": "شناختی فائل "
+ },{
+  "en": "Identity file for authentication",
+  "tr": "شناخت کے لیے شناختی فائل "
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "اگر آپ ماسٹر پاس ورڈ بناتے ہیں تو آپ سے پوچھا جائے گا کہ جب اسے WindTerm ماسٹر پاس ورڈ کے ذریعے محفوظ کردہ معلومات واپس لے گا۔"
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "اگر آپ اپنا ماسٹر پاس ورڈ بھول جاتے ہیں ، تو آپ اس سے محفوظ کردہ کسی بھی معلومات تک رسائی حاصل کرنے سے قاصر ہوں گے۔"
+ },{
+  "en": "Import",
+  "tr": "درآمد "
+ },{
+  "en": "Import sessions",
+  "tr": "سیشن درآمد کریں۔"
+ },{
+  "en": "In Selection",
+  "tr": "سلیکشن میں۔"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "لائن انڈینٹ میں اضافہ کریں "
+ },{
+  "en": "Incremental",
+  "tr": "اضافہ کرنے والا۔"
+ },{
+  "en": "Indent",
+  "tr": "حاشیہ"
+ },{
+  "en": "Indent guide style",
+  "tr": "انڈینٹ گائیڈ سٹائل "
+ },{
+  "en": "Indent Guides",
+  "tr": "انڈینٹ گائیڈز "
+ },{
+  "en": "Indent size",
+  "tr": "انڈینٹ سائز "
+ },{
+  "en": "Indentation",
+  "tr": "حاشیہ"
+ },{
+  "en": "Indian Red",
+  "tr": "انڈین ریڈ "
+ },{
+  "en": "Information",
+  "tr": "معلومات"
+ },{
+  "en": "Insert",
+  "tr": "داخل کریں "
+ },{
+  "en": "Insert File",
+  "tr": "فائل داخل کریں۔"
+ },{
+  "en": "Insert Lines",
+  "tr": "لائنز داخل کریں "
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "ٹیب کی دبانے پر ٹیب داخل کریں "
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "وائٹ اسپیس داخل کرنا اور حذف کرنا ٹیب اسٹاپس کی پیروی کرتا ہے "
+ },{
+  "en": "Inserting file",
+  "tr": "فائل داخل کرنا۔"
+ },{
+  "en": "Internal X display",
+  "tr": "اندرونی ایکس ڈسپلے "
+ },{
+  "en": "Interval",
+  "tr": "وقفہ "
+ },{
+  "en": "Invert Selection",
+  "tr": "الٹ سلیکشن "
+ },{
+  "en": "item failed",
+  "tr": "آئٹم ناکام"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "اشیاء ناکام"
+ },{
+  "en": "Join Channel A",
+  "tr": "چینل اے (اور اے) میں شامل ہوں"
+ },{
+  "en": "Join Channel B",
+  "tr": "چینل B (اور B) میں شامل ہوں"
+ },{
+  "en": "Join Channel C",
+  "tr": "چینل C (C) میں شامل ہوں"
+ },{
+  "en": "Join Channel D",
+  "tr": "چینل D (D) میں شامل ہوں"
+ },{
+  "en": "Join Lines",
+  "tr": "لائنز میں شامل ہوں "
+ },{
+  "en": "Joined",
+  "tr": "شامل ہوا۔"
+ },{
+  "en": "Jump Server",
+  "tr": "جمپ سرور۔"
+ },{
+  "en": "Jump server",
+  "tr": "سرور چھلانگ"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "جمپ سرورز "
+ },{
+  "en": "Key Exchange",
+  "tr": "کلیدی تبادلہ۔"
+ },{
+  "en": "Key exchange order",
+  "tr": "کلیدی تبادلہ آرڈر "
+ },{
+  "en": "Key re-exchange",
+  "tr": "کلیدی دوبارہ تبادلہ۔"
+ },{
+  "en": "Keyboard",
+  "tr": "کی بورڈ"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "کی بورڈ انٹرایکٹو"
+ },{
+  "en": "Kit Bar",
+  "tr": "کٹ بار۔"
+ },{
+  "en": "Known",
+  "tr": "جانا جاتا ہے۔"
+ },{
+  "en": "Label",
+  "tr": "لیبل"
+ },{
+  "en": "Language",
+  "tr": "زبان "
+ },{
+  "en": "Last sessions",
+  "tr": "آخری سیشن "
+ },{
+  "en": "Layout",
+  "tr": "ترتیب"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "لیڈنگ اور ٹریلنگ بلینک "
+ },{
+  "en": "Leading Blanks",
+  "tr": "معروف خالی جگہیں "
+ },{
+  "en": "Leading position",
+  "tr": "لیڈنگ پوزیشن۔"
+ },{
+  "en": "Leave All Channels",
+  "tr": "تمام چینلز چھوڑیں "
+ },{
+  "en": "Leave all channels",
+  "tr": "تمام چینلز چھوڑ دیں۔"
+ },{
+  "en": "Leave Channel",
+  "tr": "چینل چھوڑیں "
+ },{
+  "en": "Left Docks",
+  "tr": "بائیں ڈاک "
+ },{
+  "en": "Left Group",
+  "tr": "بائیں گروپ "
+ },{
+  "en": "Light",
+  "tr": "روشنی"
+ },{
+  "en": "Line",
+  "tr": "لائن۔"
+ },{
+  "en": "line",
+  "tr": "لائن"
+ },{
+  "en": "line at a time",
+  "tr": "ایک وقت میں لائن"
+ },{
+  "en": "Line Down",
+  "tr": "لائن ڈاون "
+ },{
+  "en": "Line Ending",
+  "tr": "لائن ختم"
+ },{
+  "en": "Line Endings",
+  "tr": "لائن اختتام "
+ },{
+  "en": "Line Feed",
+  "tr": "لائن فیڈ۔"
+ },{
+  "en": "line height",
+  "tr": "لکیر کی اونچائی"
+ },{
+  "en": "Line marker",
+  "tr": "لائن مارکر۔"
+ },{
+  "en": "Line spacing",
+  "tr": "لائن فاصلے "
+ },{
+  "en": "Line Up",
+  "tr": "لائن اپ "
+ },{
+  "en": "lines at a time",
+  "tr": "ایک وقت میں لائنیں"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "اسکرول بیک کی لائنز "
+ },{
+  "en": "Link",
+  "tr": "لنک "
+ },{
+  "en": "Link to",
+  "tr": "سے لنک کریں۔"
+ },{
+  "en": "List Tab",
+  "tr": "فہرست ٹیب۔"
+ },{
+  "en": "Listen Port",
+  "tr": "سنیں پورٹ "
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "لوکل فارورڈنگ۔"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "پیغام تلاش کریں "
+ },{
+  "en": "Location",
+  "tr": "مقام"
+ },{
+  "en": "Lock Screen",
+  "tr": "اسکرین کو لاک کرنا"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "لاک اسکرین ٹائم آؤٹ "
+ },{
+  "en": "Lock Selection",
+  "tr": "لاک سلیکشن "
+ },{
+  "en": "Log",
+  "tr": "لاگ "
+ },{
+  "en": "Log all session output",
+  "tr": "تمام سیشن آؤٹ پٹ کو لاگ ان کریں "
+ },{
+  "en": "Log content pattern",
+  "tr": "لاگ مواد کا پیٹرن "
+ },{
+  "en": "Log Dialog",
+  "tr": "لاگ ڈائیلاگ۔"
+ },{
+  "en": "Log file",
+  "tr": "لاگ فائل "
+ },{
+  "en": "Log file name",
+  "tr": "لاگ فائل کا نام "
+ },{
+  "en": "Log maximum size",
+  "tr": "لاگ زیادہ سے زیادہ سائز "
+ },{
+  "en": "Log nothing",
+  "tr": "کچھ بھی لاگ نہ کریں "
+ },{
+  "en": "Log option",
+  "tr": "لاگ آپشن۔"
+ },{
+  "en": "Log options",
+  "tr": "لاگ کے اختیارات۔"
+ },{
+  "en": "Log pattern",
+  "tr": "لاگ پیٹرن "
+ },{
+  "en": "Log printable output",
+  "tr": "لاگ پرنٹ ایبل آؤٹ پٹ "
+ },{
+  "en": "Log type",
+  "tr": "لاگ ٹائپ۔"
+ },{
+  "en": "Log types",
+  "tr": "لاگ کی اقسام۔"
+ },{
+  "en": "Logging",
+  "tr": "لاگنگ"
+ },{
+  "en": "Login",
+  "tr": "لاگ ان کریں"
+ },{
+  "en": "Login Wizard",
+  "tr": "لاگ ان وزرڈ۔"
+ },{
+  "en": "Long Time/Date",
+  "tr": "طویل وقت/تاریخ "
+ },{
+  "en": "Look both guide",
+  "tr": "دونوں رہنما دیکھیں۔"
+ },{
+  "en": "Look forward guide",
+  "tr": "آگے گائیڈ دیکھیں۔"
+ },{
+  "en": "MAC Hashes",
+  "tr": "میک ہیشز۔"
+ },{
+  "en": "MAC hashes order",
+  "tr": "میک ہیش آرڈر "
+ },{
+  "en": "Margin Blank",
+  "tr": "مارجن خالی "
+ },{
+  "en": "Margin Fold",
+  "tr": "مارجن فولڈ "
+ },{
+  "en": "Margin Number",
+  "tr": "مارجن نمبر "
+ },{
+  "en": "Margin Symbol",
+  "tr": "حاشیہ کی علامت "
+ },{
+  "en": "Margin Text",
+  "tr": "مارجن ٹیکسٹ "
+ },{
+  "en": "Margin Timestamp",
+  "tr": "مارجن ٹائم سٹیمپ "
+ },{
+  "en": "Margins",
+  "tr": "حاشیے "
+ },{
+  "en": "Marker style",
+  "tr": "مارکر سٹائل "
+ },{
+  "en": "Master Password",
+  "tr": "ماسٹر پاس ورڈ"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "ریک سے پہلے زیادہ سے زیادہ ڈیٹا (MBytes) "
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "ریک سے پہلے زیادہ سے زیادہ وقت (منٹ) "
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "زیادہ سے زیادہ کنکشن ٹائم آؤٹ "
+ },{
+  "en": "MB",
+  "tr": "ایم بی"
+ },{
+  "en": "Medium",
+  "tr": "میڈیم"
+ },{
+  "en": "Medium Orchid",
+  "tr": "درمیانی آرکڈ "
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "میڈیم سلیٹ بلیو "
+ },{
+  "en": "Menu Bar",
+  "tr": "مینو بار۔"
+ },{
+  "en": "Merge To Group",
+  "tr": "گروپ میں ضم "
+ },{
+  "en": "Middle click",
+  "tr": "درمیانی کلک "
+ },{
+  "en": "Middle click event",
+  "tr": "مڈل کلک ایونٹ "
+ },{
+  "en": "Milliseconds",
+  "tr": "ملی سیکنڈ"
+ },{
+  "en": "Minutes",
+  "tr": "منٹ"
+ },{
+  "en": "minutes",
+  "tr": "منٹ"
+ },{
+  "en": "Mismatched",
+  "tr": "غیر مماثل۔"
+ },{
+  "en": "Mode",
+  "tr": "موڈ "
+ },{
+  "en": "Modem waiting",
+  "tr": "موڈیم انتظار کر رہا ہے۔"
+ },{
+  "en": "Modes",
+  "tr": "موڈز"
+ },{
+  "en": "Modified",
+  "tr": "ترمیم شدہ"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "ترمیم کریں "
+ },{
+  "en": "Modify Lines",
+  "tr": "لائنوں میں ترمیم کریں "
+ },{
+  "en": "Month",
+  "tr": "مہینہ۔"
+ },{
+  "en": "More",
+  "tr": "مزید "
+ },{
+  "en": "Mouse Actions",
+  "tr": "ماؤس ایکشنز۔"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "ماؤس ٹریکنگ۔"
+ },{
+  "en": "Move Down",
+  "tr": "نیچے منتقل"
+ },{
+  "en": "Move event",
+  "tr": "ایونٹ منتقل کریں "
+ },{
+  "en": "Move to",
+  "tr": "پر منتقل"
+ },{
+  "en": "Move To Group",
+  "tr": "گروپ (اور M) میں منتقل کریں"
+ },{
+  "en": "Move Up",
+  "tr": "آگے ہو جاو"
+ },{
+  "en": "Multiple Caret",
+  "tr": "ایک سے زیادہ کیریٹ "
+ },{
+  "en": "Name",
+  "tr": "نام۔"
+ },{
+  "en": "nesting groups",
+  "tr": "گھوںسلا کرنے والے گروپ"
+ },{
+  "en": "Never",
+  "tr": "کبھی نہیں۔"
+ },{
+  "en": "New directory",
+  "tr": "نئی ڈائریکٹری "
+ },{
+  "en": "New File",
+  "tr": "نئی فائل "
+ },{
+  "en": "New file",
+  "tr": "نئی فائل "
+ },{
+  "en": "New Line",
+  "tr": "نئی لائن "
+ },{
+  "en": "New link",
+  "tr": "نیا لنک "
+ },{
+  "en": "New password",
+  "tr": "نیا پاس ورڈ"
+ },{
+  "en": "New Session",
+  "tr": "نیا سیشن۔"
+ },{
+  "en": "New Window",
+  "tr": "نئی ونڈو "
+ },{
+  "en": "Next Char",
+  "tr": "اگلا چار "
+ },{
+  "en": "Next Fold",
+  "tr": "اگلا فولڈ "
+ },{
+  "en": "Next Indentation",
+  "tr": "اگلا حاشیہ "
+ },{
+  "en": "Next Line",
+  "tr": "اگلی لائن "
+ },{
+  "en": "Next Message",
+  "tr": "اگلا پیغام "
+ },{
+  "en": "Next Page",
+  "tr": "اگلا صفحہ "
+ },{
+  "en": "Next Pair",
+  "tr": "اگلی جوڑی "
+ },{
+  "en": "Next Paragraph",
+  "tr": "اگلا پیراگراف "
+ },{
+  "en": "Next Scope",
+  "tr": "اگلا دائرہ کار "
+ },{
+  "en": "Next Segment End",
+  "tr": "اگلے حصے کا اختتام "
+ },{
+  "en": "Next Segment Start",
+  "tr": "اگلا حصہ شروع "
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "اگلا ہٹا ہوا صفحہ "
+ },{
+  "en": "Next Word",
+  "tr": "اگلا لفظ "
+ },{
+  "en": "Next Word End",
+  "tr": "اگلا لفظ اختتام "
+ },{
+  "en": "Next Word Part",
+  "tr": "اگلا لفظ حصہ "
+ },{
+  "en": "No",
+  "tr": "نہیں"
+ },{
+  "en": "No action",
+  "tr": "کوئی کارروائی نہیں"
+ },{
+  "en": "No Dirs",
+  "tr": "کوئی ڈیرس نہیں۔"
+ },{
+  "en": "No elide",
+  "tr": "کوئی ایلائڈ نہیں۔"
+ },{
+  "en": "No file opened",
+  "tr": "کوئی فائل نہیں کھلی۔"
+ },{
+  "en": "No filer available",
+  "tr": "کوئی فائلر دستیاب نہیں ہے۔"
+ },{
+  "en": "No Files",
+  "tr": "کوئی فائل نہیں"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "منتقلی کے لیے کوئی فائل منتخب نہیں ہے۔"
+ },{
+  "en": "No item opened",
+  "tr": "کوئی شے نہیں کھلی۔"
+ },{
+  "en": "No outline available",
+  "tr": "کوئی خاکہ دستیاب نہیں"
+ },{
+  "en": "No proxy",
+  "tr": "کوئی پراکسی نہیں "
+ },{
+  "en": "No session",
+  "tr": "کوئی سیشن نہیں "
+ },{
+  "en": "No session available",
+  "tr": "کوئی سیشن دستیاب نہیں"
+ },{
+  "en": "No session opened",
+  "tr": "کوئی سیشن نہیں کھلا۔"
+ },{
+  "en": "No Sessions",
+  "tr": "کوئی سیشن نہیں"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "تصدیق شدہ کوئی طریقہ دستیاب نہیں ہے۔"
+ },{
+  "en": "No transfer available",
+  "tr": "کوئی منتقلی دستیاب نہیں ہے۔"
+ },{
+  "en": "No wrap",
+  "tr": "کوئی لپیٹ نہیں۔"
+ },{
+  "en": "No X display",
+  "tr": "کوئی ایکس ڈسپلے نہیں "
+ },{
+  "en": "None",
+  "tr": "کوئی نہیں"
+ },{
+  "en": "None tabs",
+  "tr": "کوئی ٹیب نہیں۔"
+ },{
+  "en": "Normal",
+  "tr": "نارمل"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "ابھی"
+ },{
+  "en": "Nowhere",
+  "tr": "کہیں نہیں۔"
+ },{
+  "en": "Octal",
+  "tr": "آکٹل "
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM سے ANSI "
+ },{
+  "en": "Off",
+  "tr": "بند"
+ },{
+  "en": "off",
+  "tr": "بند"
+ },{
+  "en": "Ok",
+  "tr": "ٹھیک ہے"
+ },{
+  "en": "Old",
+  "tr": "پرانا"
+ },{
+  "en": "Old password",
+  "tr": "پرانا پاسورڈ"
+ },{
+  "en": "Olive",
+  "tr": "زیتون "
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "ایک یا زیادہ سیشن کھل رہے ہیں ، n کیا آپ موجودہ ونڈو کو بند کرنا چاہتے ہیں؟"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "صرف ڈسک فائل کو دوبارہ لوڈ کیا جا سکتا ہے!"
+ },{
+  "en": "Only indentation",
+  "tr": "صرف انڈینٹیشن۔"
+ },{
+  "en": "Opaque",
+  "tr": "مبہم۔"
+ },{
+  "en": "Open",
+  "tr": "کھولیں "
+ },{
+  "en": "open",
+  "tr": "کھلا"
+ },{
+  "en": "Open directory after created",
+  "tr": "بننے کے بعد ڈائریکٹری کھولیں "
+ },{
+  "en": "Open directory after download",
+  "tr": "ڈاؤن لوڈ کے بعد ڈائریکٹری کھولیں "
+ },{
+  "en": "Open File",
+  "tr": "فائل کھولیں "
+ },{
+  "en": "Open file",
+  "tr": "فائل کھولو"
+ },{
+  "en": "Open file after created",
+  "tr": "فائل بنانے کے بعد کھولیں "
+ },{
+  "en": "Open file failed!",
+  "tr": "اوپن فائل ناکام!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "اوپن جمپ سرور ناکام!"
+ },{
+  "en": "Open Log File",
+  "tr": "لاگ فائل کھولیں "
+ },{
+  "en": "Open Log Folder",
+  "tr": "لاگ فولڈر کھولیں "
+ },{
+  "en": "Open Recent",
+  "tr": "حالیہ (اور N) کھولیں"
+ },{
+  "en": "Open Selection",
+  "tr": "انتخاب کھولیں "
+ },{
+  "en": "Open Session",
+  "tr": "اوپن سیشن "
+ },{
+  "en": "Open session failed!",
+  "tr": "اوپن سیشن ناکام!"
+ },{
+  "en": "Open target directory",
+  "tr": "ٹارگٹ ڈائریکٹری کھولیں "
+ },{
+  "en": "Open with default editor",
+  "tr": "ڈیفالٹ ایڈیٹر (اور ای) کے ساتھ کھولیں"
+ },{
+  "en": "Opened",
+  "tr": "کھول دیا"
+ },{
+  "en": "Openssh sessions",
+  "tr": "اوپنش سیشن "
+ },{
+  "en": "Others",
+  "tr": "دوسرے"
+ },{
+  "en": "Outline",
+  "tr": "خاکہ"
+ },{
+  "en": "Output",
+  "tr": "آؤٹ پٹ۔"
+ },{
+  "en": "Overtype",
+  "tr": "اوور ٹائپ "
+ },{
+  "en": "Overwrite",
+  "tr": "اوور رائٹ۔"
+ },{
+  "en": "Overwrite log file",
+  "tr": "لاگ فائل کو اوور رائٹ کریں "
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "جب سورس فائل نئی ہو تو اوور رائٹ کریں۔"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "جب سورس فائل نئی یا لمبی ہو تو اوور رائٹ کریں۔"
+ },{
+  "en": "Owner",
+  "tr": "مالک۔"
+ },{
+  "en": "Packet padding char",
+  "tr": "پیکٹ پیڈنگ چار "
+ },{
+  "en": "Packet size",
+  "tr": "پیکٹ کا سائز۔"
+ },{
+  "en": "Page",
+  "tr": "صفحہ "
+ },{
+  "en": "page",
+  "tr": "صفحہ"
+ },{
+  "en": "Pair",
+  "tr": "جوڑا "
+ },{
+  "en": "Panes",
+  "tr": "پینز"
+ },{
+  "en": "Paragraph",
+  "tr": "پیراگراف "
+ },{
+  "en": "Parity",
+  "tr": "برابری "
+ },{
+  "en": "Passphrase",
+  "tr": "پاس فریز "
+ },{
+  "en": "Password",
+  "tr": "پاس ورڈ"
+ },{
+  "en": "Password quality meter",
+  "tr": "پاس ورڈ کا معیار میٹر"
+ },{
+  "en": "Paste",
+  "tr": "پیسٹ کریں"
+ },{
+  "en": "Paste Dialog",
+  "tr": "ڈائیلاگ پیسٹ کریں۔"
+ },{
+  "en": "Paste text",
+  "tr": "متن چسپاں کریں۔"
+ },{
+  "en": "Pause",
+  "tr": "روکیں "
+ },{
+  "en": "Paused",
+  "tr": "موقوف۔"
+ },{
+  "en": "Pausing",
+  "tr": "رکنا۔"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "پراکسی (D) کے ساتھ DNS تلاش کریں"
+ },{
+  "en": "Period",
+  "tr": "مدت "
+ },{
+  "en": "Permissions",
+  "tr": "اجازتیں۔"
+ },{
+  "en": "pixels",
+  "tr": "پکسلز"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "براہ کرم اس نظارے کے لیے ایک نیا نام درج کریں۔"
+ },{
+  "en": "Please input master password",
+  "tr": "براہ کرم ماسٹر پاس ورڈ داخل کریں۔"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "براہ کرم ماسٹر پاس ورڈ داخل کریں ، غیر فعال کرنے کے لیے خالی یا منسوخ کریں۔"
+ },{
+  "en": "Please input new group",
+  "tr": "براہ کرم نیا گروپ داخل کریں۔"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "براہ کرم یقینی بنائیں کہ آپ نے جو ماسٹر پاس ورڈ ترتیب دیا ہے اسے یاد رکھیں۔"
+ },{
+  "en": "Port",
+  "tr": "بندرگاہ"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "تھیم فونٹس کو ترجیح دیں "
+ },{
+  "en": "Preferences",
+  "tr": "ترجیحات "
+ },{
+  "en": "Preserve",
+  "tr": "محفوظ رکھنا۔"
+ },{
+  "en": "Preview All",
+  "tr": "تمام (P) کا پیش نظارہ کریں"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "پیش نظارہ علامت "
+ },{
+  "en": "Previous Char",
+  "tr": "پچھلا چار "
+ },{
+  "en": "Previous Fold",
+  "tr": "پچھلا فولڈ "
+ },{
+  "en": "Previous Indentation",
+  "tr": "سابقہ ​​حاشیہ "
+ },{
+  "en": "Previous Line",
+  "tr": "پچھلی لائن "
+ },{
+  "en": "Previous Message",
+  "tr": "پچھلا پیغام "
+ },{
+  "en": "Previous Page",
+  "tr": "پچھلا صفحہ "
+ },{
+  "en": "Previous Pair",
+  "tr": "پچھلی جوڑی "
+ },{
+  "en": "Previous Paragraph",
+  "tr": "پچھلا پیراگراف "
+ },{
+  "en": "Previous Scope",
+  "tr": "پچھلا دائرہ کار "
+ },{
+  "en": "Previous Segment End",
+  "tr": "پچھلے حصے کا اختتام "
+ },{
+  "en": "Previous Segment Start",
+  "tr": "پچھلے حصے کا آغاز "
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "پچھلا ہٹا ہوا صفحہ "
+ },{
+  "en": "Previous Word",
+  "tr": "پچھلا لفظ "
+ },{
+  "en": "Previous Word End",
+  "tr": "پچھلے لفظ کا اختتام "
+ },{
+  "en": "Previous Word Part",
+  "tr": "پچھلا لفظ حصہ "
+ },{
+  "en": "Printable output",
+  "tr": "پرنٹ ایبل آؤٹ پٹ "
+ },{
+  "en": "Process",
+  "tr": "عمل"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "عمل%1 کریش ہو گیا۔"
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "عمل%1 شروع کرنے میں ناکام"
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "پروسیس%1 ٹائم آؤٹ۔"
+ },{
+  "en": "Program [Arguments]",
+  "tr": "پروگرام [دلائل]"
+ },{
+  "en": "Project",
+  "tr": "پروجیکٹ "
+ },{
+  "en": "Properties",
+  "tr": "پراپرٹیز "
+ },{
+  "en": "Property",
+  "tr": "جائیداد۔"
+ },{
+  "en": "Protocol",
+  "tr": "پروٹوکول"
+ },{
+  "en": "Proxy",
+  "tr": "پراکسی"
+ },{
+  "en": "Proxy Host",
+  "tr": "پراکسی میزبان۔"
+ },{
+  "en": "Proxy Port",
+  "tr": "پراکسی پورٹ۔"
+ },{
+  "en": "Proxy Settings",
+  "tr": "پراکسی ترتیبات۔"
+ },{
+  "en": "Proxy Type",
+  "tr": "پراکسی قسم۔"
+ },{
+  "en": "Public Key",
+  "tr": "عوامی کلید۔"
+ },{
+  "en": "Public Keys",
+  "tr": "عوامی چابیاں"
+ },{
+  "en": "Public keys order",
+  "tr": "پبلک کیز آرڈر "
+ },{
+  "en": "Putty sessions",
+  "tr": "پٹی سیشن "
+ },{
+  "en": "Query URL",
+  "tr": "استفسار یو آر ایل۔"
+ },{
+  "en": "Question",
+  "tr": "سوال"
+ },{
+  "en": "Quick",
+  "tr": "فوری"
+ },{
+  "en": "Quick Bar",
+  "tr": "کوئیک بار۔"
+ },{
+  "en": "Quick Commands",
+  "tr": "فوری احکامات۔"
+ },{
+  "en": "Read Only",
+  "tr": "صرف پڑھیں "
+ },{
+  "en": "Ready",
+  "tr": "تیار"
+ },{
+  "en": "Real guide",
+  "tr": "حقیقی رہنما۔"
+ },{
+  "en": "Receive XModem",
+  "tr": "XModem وصول کریں "
+ },{
+  "en": "Receive YModem",
+  "tr": "YModem وصول کریں "
+ },{
+  "en": "Receive ZModem",
+  "tr": "ZModem وصول کریں "
+ },{
+  "en": "received",
+  "tr": "موصول"
+ },{
+  "en": "Recent",
+  "tr": "حالیہ۔"
+ },{
+  "en": "Recent Sessions",
+  "tr": "حالیہ سیشن۔"
+ },{
+  "en": "Reconnect Session",
+  "tr": "دوبارہ رابطہ سیشن "
+ },{
+  "en": "Rectangle",
+  "tr": "مستطیل"
+ },{
+  "en": "rectangle",
+  "tr": "مستطیل"
+ },{
+  "en": "Red",
+  "tr": "سرخ "
+ },{
+  "en": "Redo",
+  "tr": "دوبارہ کریں "
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "%1 عمل دوبارہ کریں۔"
+ },{
+  "en": "Refresh",
+  "tr": "ریفریش کریں "
+ },{
+  "en": "Regular Expression",
+  "tr": "باقاعدہ اظہار"
+ },{
+  "en": "Reload",
+  "tr": "دوبارہ لوڈ کریں۔"
+ },{
+  "en": "Reload File",
+  "tr": "فائل دوبارہ لوڈ کریں۔"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "انکوڈنگ کے ساتھ دوبارہ لوڈ کریں "
+ },{
+  "en": "Remote forwarding",
+  "tr": "ریموٹ فارورڈنگ۔"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "دور دراز راستہ۔"
+ },{
+  "en": "Remove",
+  "tr": "ہٹائیں "
+ },{
+  "en": "remove",
+  "tr": "دور"
+ },{
+  "en": "Remove All",
+  "tr": "تمام (اور ای) کو ہٹا دیں"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "خالی لائنیں ہٹائیں "
+ },{
+  "en": "Remove Command",
+  "tr": "کمانڈ ہٹائیں۔"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "ڈپلیکیٹ لائنز کو ہٹا دیں "
+ },{
+  "en": "Remove Group",
+  "tr": "گروپ ہٹائیں۔"
+ },{
+  "en": "Remove items",
+  "tr": "اشیاء کو ہٹا دیں۔"
+ },{
+  "en": "Remove Sender",
+  "tr": "بھیجنے والے کو ہٹا دیں "
+ },{
+  "en": "Removing",
+  "tr": "ہٹانا۔"
+ },{
+  "en": "Rename",
+  "tr": "نام تبدیل کریں"
+ },{
+  "en": "Rename Group",
+  "tr": "گروپ کا نام تبدیل کریں۔"
+ },{
+  "en": "Rename tab",
+  "tr": "ٹیب کا نام تبدیل کریں۔"
+ },{
+  "en": "Rename View",
+  "tr": "ویو کا نام تبدیل کریں۔"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "بند ویو کو دوبارہ کھولیں "
+ },{
+  "en": "Repeat Last Command",
+  "tr": "آخری کمانڈ کو دہرائیں "
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "بار بار عمل کریں "
+ },{
+  "en": "Replace",
+  "tr": "تبدیل کریں "
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "سب کو تبدیل کریں "
+ },{
+  "en": "Replace in Files",
+  "tr": "فائلوں میں تبدیل کریں "
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "اثر لینے کے لیے دوبارہ شروع کرنے کی ضرورت ہے۔"
+ },{
+  "en": "Reset",
+  "tr": "دوبارہ ترتیب دیں "
+ },{
+  "en": "Reset Character Set",
+  "tr": "کریکٹر سیٹ ری سیٹ کریں "
+ },{
+  "en": "Reset Zoom",
+  "tr": "زوم کو دوبارہ ترتیب دیں "
+ },{
+  "en": "Resume",
+  "tr": "دوبارہ شروع کریں"
+ },{
+  "en": "Resuming",
+  "tr": "دوبارہ شروع ہو رہا ہے۔"
+ },{
+  "en": "Right click",
+  "tr": "دائیں کلک کریں "
+ },{
+  "en": "Right click event",
+  "tr": "رائٹ کلک ایونٹ "
+ },{
+  "en": "Right Docks",
+  "tr": "دائیں ڈاکس "
+ },{
+  "en": "Right Group",
+  "tr": "دائیں گروپ "
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "سکرول کرنے کے لیے ماؤس وہیل کو رول کریں۔"
+ },{
+  "en": "Rows",
+  "tr": "قطاریں "
+ },{
+  "en": "Royal Blue",
+  "tr": "رائل بلیو "
+ },{
+  "en": "Run Tool",
+  "tr": "ٹول چلائیں۔"
+ },{
+  "en": "Save",
+  "tr": "محفوظ کریں"
+ },{
+  "en": "Save All",
+  "tr": "سب کو محفوظ کریں "
+ },{
+  "en": "Save As",
+  "tr": "بطور محفوظ کریں "
+ },{
+  "en": "Save Copy As",
+  "tr": "کاپی کو بطور محفوظ کریں "
+ },{
+  "en": "Save file failed!",
+  "tr": "فائل کو محفوظ کرنے میں ناکام!"
+ },{
+  "en": "Save Selection As",
+  "tr": "انتخاب کو بطور (S) محفوظ کریں"
+ },{
+  "en": "Save Session",
+  "tr": "سیشن محفوظ کریں "
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "محفوظ شدہ خودکار تصدیق "
+ },{
+  "en": "Scheme Tools",
+  "tr": "اسکیم کے اوزار "
+ },{
+  "en": "Scope",
+  "tr": "دائرہ کار "
+ },{
+  "en": "Screen Locked",
+  "tr": "سکرین مقفل ہے۔"
+ },{
+  "en": "Scroll Left",
+  "tr": "بائیں طرف سکرول کریں۔"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "لائن نیچے سکرول کریں "
+ },{
+  "en": "Scroll Line Up",
+  "tr": "سکرول لائن اپ "
+ },{
+  "en": "Scroll Right",
+  "tr": "دائیں طرف سکرول کریں۔"
+ },{
+  "en": "Search",
+  "tr": "تلاش کریں۔"
+ },{
+  "en": "Search engine",
+  "tr": "تلاش کار)"
+ },{
+  "en": "Search Engine",
+  "tr": "سرچ انجن"
+ },{
+  "en": "Search Engines",
+  "tr": "سرچ انجن "
+ },{
+  "en": "Search Online",
+  "tr": "آن لائن تلاش کریں "
+ },{
+  "en": "Search or enter address",
+  "tr": "تلاش کریں یا پتہ درج کریں۔"
+ },{
+  "en": "Searching",
+  "tr": "تلاش کر رہا ہے۔"
+ },{
+  "en": "Seconds",
+  "tr": "سیکنڈ"
+ },{
+  "en": "seconds",
+  "tr": "سیکنڈ"
+ },{
+  "en": "Security",
+  "tr": "سیکورٹی"
+ },{
+  "en": "Segment",
+  "tr": "طبقہ "
+ },{
+  "en": "Select",
+  "tr": "منتخب کریں "
+ },{
+  "en": "Select All",
+  "tr": "سب کو منتخب کریں "
+ },{
+  "en": "Select Column To",
+  "tr": "کالم ٹو (اور سی) منتخب کریں"
+ },{
+  "en": "Select copy folder",
+  "tr": "کاپی فولڈر منتخب کریں۔"
+ },{
+  "en": "Select copy items",
+  "tr": "کاپی آئٹمز منتخب کریں۔"
+ },{
+  "en": "Select directory to receive",
+  "tr": "وصول کرنے کے لیے ڈائریکٹری منتخب کریں۔"
+ },{
+  "en": "Select download folder",
+  "tr": "ڈاؤن لوڈ فولڈر منتخب کریں۔"
+ },{
+  "en": "Select files to send",
+  "tr": "بھیجنے کے لیے فائلیں منتخب کریں۔"
+ },{
+  "en": "Select Fold",
+  "tr": "فولڈ (اور ایف) کو منتخب کریں"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "پیچھے ٹکڑا منتخب کریں "
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "اسنیپٹ فارورڈ کو منتخب کریں "
+ },{
+  "en": "Select To",
+  "tr": "منتخب کریں "
+ },{
+  "en": "Select upload items",
+  "tr": "اپ لوڈ آئٹمز منتخب کریں۔"
+ },{
+  "en": "Selected position",
+  "tr": "منتخب کردہ پوزیشن۔"
+ },{
+  "en": "Selected Sessions",
+  "tr": "منتخب سیشن۔"
+ },{
+  "en": "Selection",
+  "tr": "انتخاب"
+ },{
+  "en": "Send",
+  "tr": "بھیجیں"
+ },{
+  "en": "Send line By line",
+  "tr": "لائن بذریعہ لائن بھیجیں "
+ },{
+  "en": "Send Text",
+  "tr": "ٹیکسٹ بھیجیں۔"
+ },{
+  "en": "Send XModem",
+  "tr": "XModem بھیجیں "
+ },{
+  "en": "Send YModem",
+  "tr": "YModem بھیجیں "
+ },{
+  "en": "Send ZModem",
+  "tr": "ZModem بھیجیں "
+ },{
+  "en": "Sender",
+  "tr": "بھیجنے والا۔"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "%1 بھیجنا ناکام رہا:%2۔"
+ },{
+  "en": "Sending: %1",
+  "tr": "بھیج رہا ہے:%1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "سیشن کو زندہ رکھنے کے لیے نال پیکٹ بھیجتا ہے "
+ },{
+  "en": "sent",
+  "tr": "بھیجا"
+ },{
+  "en": "Serial",
+  "tr": "سیریل "
+ },{
+  "en": "Server",
+  "tr": "سرور۔"
+ },{
+  "en": "Session",
+  "tr": "اجلاس"
+ },{
+  "en": "session",
+  "tr": "اجلاس"
+ },{
+  "en": "Session Group",
+  "tr": "سیشن گروپ۔"
+ },{
+  "en": "Session Log",
+  "tr": "سیشن لاگ۔"
+ },{
+  "en": "Session name",
+  "tr": "سیشن کا نام۔"
+ },{
+  "en": "Session Settings",
+  "tr": "سیشن کی ترتیبات۔"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "تمام ونڈوز میں سیشن۔"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "موجودہ گروپ میں سیشن۔"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "موجودہ ونڈو میں سیشن۔"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "گروپ%1 میں سیشن"
+ },{
+  "en": "Set default editor",
+  "tr": "ڈیفالٹ ایڈیٹر (S) سیٹ کریں"
+ },{
+  "en": "Set Tab Color",
+  "tr": "ٹیب کا رنگ سیٹ کریں "
+ },{
+  "en": "Settings",
+  "tr": "ترتیبات"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1۔"
+ },{
+  "en": "Shape",
+  "tr": "شکل "
+ },{
+  "en": "Shell",
+  "tr": "شیل"
+ },{
+  "en": "Shell sessions",
+  "tr": "شیل سیشن "
+ },{
+  "en": "Shell Sessions",
+  "tr": "شیل سیشن۔"
+ },{
+  "en": "Short Time/Date",
+  "tr": "مختصر وقت/تاریخ "
+ },{
+  "en": "Show",
+  "tr": "دکھائیں۔"
+ },{
+  "en": "Show All",
+  "tr": "سب دکھائیں "
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "تمام کھلے اور حالیہ ایڈیٹر دکھائیں۔"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "تمام کھلے اور حالیہ ٹرمینلز دکھائیں۔"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "عمل دکھائیں اور چلائیں۔"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "ٹیب کی تصدیق کا ڈائیلاگ بند کریں "
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "کھڑکی کی تصدیق کا ڈائیلاگ دکھائیں "
+ },{
+  "en": "Show column markers",
+  "tr": "کالم مارکر دکھائیں "
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "حروف تہجی کی ترتیب میں حکم دکھائیں "
+ },{
+  "en": "Show current %1 property",
+  "tr": "موجودہ%1 پراپرٹی دکھائیں۔"
+ },{
+  "en": "Show group commands in order",
+  "tr": "گروپ کمانڈز کو ترتیب سے دکھائیں "
+ },{
+  "en": "Show group title",
+  "tr": "گروپ کا عنوان دکھائیں "
+ },{
+  "en": "Show hidden items",
+  "tr": "چھپی ہوئی اشیاء دکھائیں "
+ },{
+  "en": "Show in %1",
+  "tr": "%1 میں دکھائیں"
+ },{
+  "en": "Show In Line End",
+  "tr": "لائن اینڈ (اور ایل) میں دکھائیں"
+ },{
+  "en": "Show In Line Start",
+  "tr": "لائن اسٹارٹ میں دکھائیں "
+ },{
+  "en": "Show In Selection",
+  "tr": "انتخاب میں دکھائیں "
+ },{
+  "en": "Show indent guide",
+  "tr": "انڈینٹ گائیڈ دکھائیں "
+ },{
+  "en": "Show line endings",
+  "tr": "لائن کے اختتام دکھائیں "
+ },{
+  "en": "Show menu",
+  "tr": "مینو دکھائیں۔"
+ },{
+  "en": "Show More Tools",
+  "tr": "مزید ٹولز دکھائیں "
+ },{
+  "en": "Show multiple groups",
+  "tr": "متعدد گروپس دکھائیں "
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "متبادل اسکرین پر پیسٹ ڈائیلاگ دکھائیں "
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "مرکزی اسکرین پر پیسٹ ڈائیلاگ دکھائیں "
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "خالی جگہیں اور ٹیبز دکھائیں "
+ },{
+  "en": "Show Tabs",
+  "tr": "ٹیبز دکھائیں۔"
+ },{
+  "en": "Show Text",
+  "tr": "متن دکھائیں۔"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "ٹیب پر ٹیب نمبر دکھائیں "
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "فوکس موڈ شروع ہونے پر یہ ڈائیلاگ دکھائیں "
+ },{
+  "en": "Show wrap symbols",
+  "tr": "لفاف کی علامتیں دکھائیں "
+ },{
+  "en": "Shrink",
+  "tr": "سکڑنا۔"
+ },{
+  "en": "Size",
+  "tr": "سائز"
+ },{
+  "en": "Skip",
+  "tr": "چھوڑ دو"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "جرابیں v5 پراکسی "
+ },{
+  "en": "Soft Reset",
+  "tr": "نرم ری سیٹ "
+ },{
+  "en": "Sort",
+  "tr": "ترتیب دیں "
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "ترتیب دیں لائنز کیس غیر حساس "
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "ترتیب دیں لائنز کیس حساس "
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "بے ترتیب ترتیب میں لائنیں ترتیب دیں "
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "لائنز کو ریورس آرڈر میں ترتیب دیں "
+ },{
+  "en": "spaces",
+  "tr": "خالی جگہیں"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "خالی جگہیں ٹیبز "
+ },{
+  "en": "Spacing",
+  "tr": "فاصلے"
+ },{
+  "en": "Special",
+  "tr": "خاص۔"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "فائلوں کو گھسیٹنے اور چھوڑتے وقت پروٹوکول کی وضاحت کریں۔"
+ },{
+  "en": "Speed",
+  "tr": "رفتار"
+ },{
+  "en": "Split",
+  "tr": "تقسیم "
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "افقی طور پر گروپ کو تقسیم کریں "
+ },{
+  "en": "Split Group Vertically",
+  "tr": "عمودی طور پر گروپ تقسیم کریں "
+ },{
+  "en": "Split Lines",
+  "tr": "اسپلٹ لائنز "
+ },{
+  "en": "Split Selection",
+  "tr": "تقسیم کا انتخاب "
+ },{
+  "en": "Split To Group",
+  "tr": "گروپ میں تقسیم "
+ },{
+  "en": "Split View Horizontally",
+  "tr": "افقی طور پر منظر دیکھیں "
+ },{
+  "en": "Split View Vertically",
+  "tr": "عمودی طور پر منظر دیکھیں "
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "شروع کریں "
+ },{
+  "en": "Start Of Document",
+  "tr": "دستاویز کا آغاز "
+ },{
+  "en": "Start Of Line",
+  "tr": "لائن کا آغاز "
+ },{
+  "en": "Start Of Pair",
+  "tr": "جوڑی کا آغاز "
+ },{
+  "en": "Startup",
+  "tr": "شروع"
+ },{
+  "en": "Stash",
+  "tr": "اسٹش "
+ },{
+  "en": "Status Bar",
+  "tr": "اسٹیٹس بار"
+ },{
+  "en": "Stdin",
+  "tr": "سٹڈن۔"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "سٹیل بلیو "
+ },{
+  "en": "Sticky",
+  "tr": "چپچپا "
+ },{
+  "en": "Stop",
+  "tr": "رک جاؤ۔"
+ },{
+  "en": "Stop Bits",
+  "tr": "سٹاپ بٹس "
+ },{
+  "en": "Stop loading",
+  "tr": "لوڈ کرنا بند کریں۔"
+ },{
+  "en": "Stop sender",
+  "tr": "بھیجنے والے کو روکیں۔"
+ },{
+  "en": "Stop Tools",
+  "tr": "ٹولز کو روکیں۔"
+ },{
+  "en": "Stop watching this file",
+  "tr": "اس فائل کو دیکھنا بند کریں۔"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "اسٹریم اور کالم کو تبدیل کریں "
+ },{
+  "en": "switch to tab",
+  "tr": "ٹیب پر سوئچ کریں"
+ },{
+  "en": "Symbols",
+  "tr": "علامات "
+ },{
+  "en": "Sync channel",
+  "tr": "چینل کو مطابقت پذیر بنائیں۔"
+ },{
+  "en": "Sync Edit",
+  "tr": "مطابقت پذیری ترمیم "
+ },{
+  "en": "Sync Input",
+  "tr": "ہم آہنگی ان پٹ۔"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "چینل%1 میں ان پٹ کی ہم وقت سازی"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "نحو سکیمیں "
+ },{
+  "en": "System",
+  "tr": "سسٹم "
+ },{
+  "en": "Tab",
+  "tr": "ٹیب"
+ },{
+  "en": "Tab Color",
+  "tr": "ٹیب کا رنگ۔"
+ },{
+  "en": "Tab Features",
+  "tr": "ٹیب کی خصوصیات"
+ },{
+  "en": "Tab Group",
+  "tr": "ٹیب گروپ۔"
+ },{
+  "en": "Tab Index",
+  "tr": "ٹیب انڈیکس۔"
+ },{
+  "en": "Tab size",
+  "tr": "ٹیب سائز "
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "ٹیب ٹیکسٹ ایلائڈ موڈ "
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "ٹیب تھمب نیل ریڈیو "
+ },{
+  "en": "Tab Title",
+  "tr": "ٹیب کا عنوان۔"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "منتخب لائنوں کو ٹیبائیف کریں "
+ },{
+  "en": "Tabs",
+  "tr": "ٹیبز۔"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "خالی جگہوں پر ٹیبز "
+ },{
+  "en": "Target",
+  "tr": "ہدف۔"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "ٹارگٹ فولڈر "
+ },{
+  "en": "Targets",
+  "tr": "اہداف۔"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP کنکشن کے اختیارات"
+ },{
+  "en": "Teal",
+  "tr": "ٹیل "
+ },{
+  "en": "Term",
+  "tr": "مدت "
+ },{
+  "en": "Terminal",
+  "tr": "ٹرمینل"
+ },{
+  "en": "terminal",
+  "tr": "ٹرمینل"
+ },{
+  "en": "Terminal Settings",
+  "tr": "ٹرمینل کی ترتیبات۔"
+ },{
+  "en": "Text",
+  "tr": "متن"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "متن:%1 لائنز ،%2 حروف "
+ },{
+  "en": "The % sign",
+  "tr": "علامت"
+ },{
+  "en": "The actual text to log",
+  "tr": "لاگ ان کرنے کے لیے اصل متن۔"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "منزل کا فولڈر سورس فولڈر کا ذیلی فولڈر ہے:٪ n%1۔"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "دستاویز میں ترمیم کی گئی ہے۔ n کیا آپ اپنی تبدیلیاں محفوظ کرنا چاہتے ہیں؟"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "کلیدی مجموعہ (%1) کمانڈ نہیں ہے۔"
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "lrzsz کا پتہ نہیں چلا ہے۔ براہ کرم پہلے lrzsz انسٹال کریں۔"
+ },{
+  "en": "The master password has been changed.",
+  "tr": "ماسٹر پاس ورڈ تبدیل کر دیا گیا ہے۔"
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "پاس ورڈ کی تصدیق مماثل نہیں ہے۔"
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "سرور نے ٹرانسمیشن منسوخ کر دی۔"
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "سیشن <b> منقطع </b> ہے ، دوبارہ جوڑنے کے لیے <b> انٹر </b> دبائیں۔"
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "منتقلی منسوخ کر دی گئی کیونکہ ایک پیکٹ دوبارہ کوشش کی حد میں%1 نہیں تھا۔"
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "ٹرانسفر منسوخ کر دیا گیا کیونکہ پیکٹ تسلسل نمبر غلط تھا۔"
+ },{
+  "en": "Theme",
+  "tr": "تھیم "
+ },{
+  "en": "Thin",
+  "tr": "پتلی"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "بڑی فائل کے لیے دہلیز "
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "وقت کی شکل "
+ },{
+  "en": "Time left",
+  "tr": "وقت باقی ہے۔"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "لائنوں کا ٹائم اسٹیمپ۔"
+ },{
+  "en": "To Inverse Case",
+  "tr": "الٹا کیس "
+ },{
+  "en": "To Line End",
+  "tr": "لائن کے اختتام پر "
+ },{
+  "en": "To Line Start",
+  "tr": "لائن شروع کرنے کے لیے "
+ },{
+  "en": "To Lower Case",
+  "tr": "لوئر کیس "
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "MacOS 9 CR (M) کو"
+ },{
+  "en": "To Title Case",
+  "tr": "ٹائٹل کیس "
+ },{
+  "en": "To Unix LF",
+  "tr": "یونیکس ایل ایف "
+ },{
+  "en": "To Upper Case",
+  "tr": "اپر کیس "
+ },{
+  "en": "To Windows CRLF",
+  "tr": "ونڈوز سی آر ایل ایف (اور ڈبلیو) کو"
+ },{
+  "en": "To Word End",
+  "tr": "لفظ کے اختتام تک "
+ },{
+  "en": "To Word Start",
+  "tr": "لفظ شروع کرنے کے لیے "
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "ٹوگل فولڈ "
+ },{
+  "en": "Tool",
+  "tr": "ٹول "
+ },{
+  "en": "Toolbar",
+  "tr": "ٹول بار "
+ },{
+  "en": "Top Group",
+  "tr": "ٹاپ گروپ "
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "درخت میں متن کا انتخاب ٹریک کریں "
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "درخت کے انتخاب کو متن میں ٹریک کریں "
+ },{
+  "en": "Tracking Events",
+  "tr": "ٹریکنگ ایونٹس۔"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "پیچھے والی جگہیں "
+ },{
+  "en": "Trailing position",
+  "tr": "پچھلی پوزیشن۔"
+ },{
+  "en": "Transfer",
+  "tr": "منتقلی"
+ },{
+  "en": "Transfer Bar",
+  "tr": "ٹرانسفر بار۔"
+ },{
+  "en": "Transfer Binary",
+  "tr": "ٹرانسفر بائنری "
+ },{
+  "en": "Transfer complete",
+  "tr": "منتقلی مکمل۔"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "منتقلی نامکمل۔"
+ },{
+  "en": "Translucent",
+  "tr": "پارباسی "
+ },{
+  "en": "Transparent",
+  "tr": "شفاف۔"
+ },{
+  "en": "Transpose",
+  "tr": "ٹرانسپوز "
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "پچھلی سفید جگہ کو محفوظ کریں "
+ },{
+  "en": "Trust this host",
+  "tr": "اس میزبان پر اعتماد کریں۔"
+ },{
+  "en": "Tunnels",
+  "tr": "سرنگیں۔"
+ },{
+  "en": "Type",
+  "tr": "ٹائپ کریں۔"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "ٹائپ کریں '؟' ان اعمال پر مدد حاصل کرنے کے لیے جو آپ یہاں ٹائپ کر سکتے ہیں۔"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "غیر تبصرہ انتخاب "
+ },{
+  "en": "Underline",
+  "tr": "انڈر لائن۔"
+ },{
+  "en": "underLine",
+  "tr": "انڈر لائن"
+ },{
+  "en": "Undo",
+  "tr": "کالعدم کریں "
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "%1 کارروائیوں کو کالعدم کریں۔"
+ },{
+  "en": "Unfold",
+  "tr": "کھولیں "
+ },{
+  "en": "Unfold All",
+  "tr": "سب کو کھولیں "
+ },{
+  "en": "Unfold Category",
+  "tr": "زمرہ کھولیں "
+ },{
+  "en": "Unfold Inside",
+  "tr": "اندر کھولیں "
+ },{
+  "en": "Unify line endings on save",
+  "tr": "لائن کے اختتام کو محفوظ کریں "
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty۔"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: شیل فائل کا راستہ مطلق ہونا چاہیے۔"
+ },{
+  "en": "Unknown",
+  "tr": "نامعلوم"
+ },{
+  "en": "unknown",
+  "tr": "نامعلوم"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "منتخب لائنوں کو غیر مستحکم کریں "
+ },{
+  "en": "Untitled",
+  "tr": "بلا عنوان"
+ },{
+  "en": "Untrust this host",
+  "tr": "اس میزبان پر اعتماد نہ کریں۔"
+ },{
+  "en": "upload",
+  "tr": "اپ لوڈ"
+ },{
+  "en": "Upload command",
+  "tr": "اپ لوڈ کمانڈ "
+ },{
+  "en": "Upload directory",
+  "tr": "اپ لوڈ ڈائریکٹری "
+ },{
+  "en": "Upload file",
+  "tr": "اپ لوڈ فائل"
+ },{
+  "en": "Upload to current folder",
+  "tr": "موجودہ فولڈر پر اپ لوڈ کریں "
+ },{
+  "en": "uploaded",
+  "tr": "اپ لوڈ کیا"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "استفسار کی جگہ٪ q کے ساتھ یو آر ایل "
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "اسکرین کو مٹانے کے لیے پس منظر کا رنگ استعمال کریں "
+ },{
+  "en": "Use high speed transfer",
+  "tr": "تیز رفتار منتقلی (اور H) استعمال کریں"
+ },{
+  "en": "Use system line ending",
+  "tr": "سسٹم لائن کا اختتام استعمال کریں۔"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "اسے بطور ڈیفالٹ استعمال کریں اور دوبارہ نہ پوچھیں "
+ },{
+  "en": "User",
+  "tr": "صارف۔"
+ },{
+  "en": "Username echo mode",
+  "tr": "صارف نام ایکو موڈ "
+ },{
+  "en": "Value",
+  "tr": "قدر"
+ },{
+  "en": "Variable",
+  "tr": "متغیر"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "سرور کے فنگر پرنٹ کی تصدیق "
+ },{
+  "en": "View",
+  "tr": "دیکھیں "
+ },{
+  "en": "Virtual Space",
+  "tr": "ورچوئل اسپیس "
+ },{
+  "en": "Waiting",
+  "tr": "انتظار کر رہا ہے۔"
+ },{
+  "en": "Warning",
+  "tr": "انتباہ"
+ },{
+  "en": "Wheel event",
+  "tr": "وہیل ایونٹ "
+ },{
+  "en": "When destination file exists",
+  "tr": "جب منزل فائل موجود ہو "
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "ایک سے زیادہ لائنیں چسپاں کرتے وقت۔"
+ },{
+  "en": "When remote title is changed",
+  "tr": "جب ریموٹ ٹائٹل تبدیل کیا جاتا ہے۔"
+ },{
+  "en": "When session is authenticated",
+  "tr": "جب سیشن تصدیق شدہ ہو۔"
+ },{
+  "en": "When session is authenticating",
+  "tr": "جب سیشن مستند ہو رہا ہو۔"
+ },{
+  "en": "When window is resized",
+  "tr": "جب ونڈو کا سائز تبدیل کیا جائے۔"
+ },{
+  "en": "Where",
+  "tr": "کہاں "
+ },{
+  "en": "White Spaces",
+  "tr": "سفید جگہیں "
+ },{
+  "en": "Whole Line",
+  "tr": "پوری لائن "
+ },{
+  "en": "Whole Word",
+  "tr": "پورا کلام۔"
+ },{
+  "en": "Widgets",
+  "tr": "ویجٹ"
+ },{
+  "en": "Width",
+  "tr": "چوڑائی "
+ },{
+  "en": "Window",
+  "tr": "کھڑکی"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "کھڑکی کا کنارہ۔"
+ },{
+  "en": "Window Opacity",
+  "tr": "کھڑکی کی دھندلاپن "
+ },{
+  "en": "Window opacity",
+  "tr": "کھڑکی کی دھندلاپن"
+ },{
+  "en": "Windows Manager",
+  "tr": "ونڈوز مینیجر "
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe یا winpty.dll نہیں ملا!"
+ },{
+  "en": "Word",
+  "tr": "لفظ "
+ },{
+  "en": "Word Separators",
+  "tr": "لفظ جدا کرنے والے "
+ },{
+  "en": "Word Wrap",
+  "tr": "ورڈ ریپ "
+ },{
+  "en": "Working directory",
+  "tr": "ورکنگ ڈائرکٹری "
+ },{
+  "en": "Wrap",
+  "tr": "لپیٹنا۔"
+ },{
+  "en": "Wrap by character",
+  "tr": "کردار کے لحاظ سے لپیٹیں۔"
+ },{
+  "en": "Wrap by word",
+  "tr": "لفظ سے لپیٹیں۔"
+ },{
+  "en": "Wrap column",
+  "tr": "کالم لپیٹیں "
+ },{
+  "en": "Wrap mode",
+  "tr": "ریپ موڈ "
+ },{
+  "en": "Wrap Symbols",
+  "tr": "سمیٹیں سمیٹیں "
+ },{
+  "en": "Wrong master password.",
+  "tr": "غلط ماسٹر پاس ورڈ۔"
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z موڈیم۔"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z موڈیم 4GB سے بڑے فولڈرز یا فائلوں کو منتقل نہیں کر سکتا:%1۔"
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 تصدیق کا پروٹوکول"
+ },{
+  "en": "X11 display",
+  "tr": "ایکس 11 ڈسپلے۔"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "سال 2 ہندسوں میں۔"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "سال 4 ہندسوں میں۔"
+ },{
+  "en": "Yes",
+  "tr": "جی ہاں"
+ },{
+  "en": "Zero",
+  "tr": "صفر۔"
+ },{
+  "en": "Zoom",
+  "tr": "زوم"
+ },{
+  "en": "Zoom In",
+  "tr": "زوم ان "
+ },{
+  "en": "Zoom level",
+  "tr": "زوم لیول "
+ },{
+  "en": "Zoom Out",
+  "tr": "زوم آؤٹ "
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[%1s میں کریش ہو گیا]"
+ },{
+  "en": "[Empty]",
+  "tr": "[خالی]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[خرابی:%1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[%1s میں ختم ، کوڈ%2 سے باہر نکلیں]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[%1s میں ختم ہوا]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[گروپ کی فہرست خالی ہے]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[نیویگیشن لسٹ خالی ہے]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[کوئی سرچ انجن نہیں]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[حالیہ یو آر ایل خالی ہیں]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[دوبارہ فہرست خالی ہے]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[سکیم کی فہرست خالی ہے]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[تھیم لسٹ خالی ہے]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[ٹول بار کی فہرست خالی ہے]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[کالعدم فہرست خالی ہے]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[صارف منسوخ]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[user@] میزبان نام۔"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[ونڈوز کی فہرست خالی ہے]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

@@ -1,0 +1,3513 @@
+{
+ "language": "Swedish - Svenska",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Schema) Verktyg"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 stöds inte av %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 kopierades"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 nedladdad"
+ },{
+  "en": "%1 File",
+  "tr": "%1 fil"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 objekt misslyckades"
+ },{
+  "en": "%1 items",
+  "tr": "%1 objekt"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 objekt misslyckades"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 objekt/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 av %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 borttaget"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 detta %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 laddade upp"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 Hastighet: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 misslyckade lösenordsförsök."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> Har <b> ändrats </b> och <b> laddat om </b>, ångra är <b> INTE </b> tillåtet för stor fil."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> Har <b> ändrats </b> och <b> laddat om </b>, ångra är tillåtet."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> Har <b> ändrats </b>, vill du ladda om det?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> Har <b> flyttats eller tagits bort </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) trycktes in. Väntar på fler nycklar"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 kolumner"
+ },{
+  "en": "2 Chars",
+  "tr": "2 tecken"
+ },{
+  "en": "24 Columns",
+  "tr": "24 kolumner"
+ },{
+  "en": "32 Columns",
+  "tr": "32 kolumner"
+ },{
+  "en": "4 Chars",
+  "tr": "4 tecken"
+ },{
+  "en": "8 Chars",
+  "tr": "8 tecken"
+ },{
+  "en": "8 Columns",
+  "tr": "8 kolumner"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Ett huvudlösenord används för att skydda känslig information som SSH -lösenord."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Ett namn bör vara mindre än 255 tecken och får inte innehålla något av följande tecken: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "En fjärrfil har ändrats. \nVill du ladda upp den här filen till servern igen?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "En specifik session eller uppsättning sessioner"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Förkortat månadsnamn"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Förkortat vardagens namn"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Acceptera endast lokala anslutningar"
+ },{
+  "en": "Accessed",
+  "tr": "Åtkomst"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Aktivera flera carets"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Aktivera nästa markering"
+ },{
+  "en": "Activate Next View",
+  "tr": "Aktivera nästa vy"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Aktivera föregående urval"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Aktivera föregående vy"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Aktivera den vänstra fliken"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Aktivera den tidigare valda fliken"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Aktivera den högra fliken"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Aktivera fliken efter stängning"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Aktivera fliken efter svängning"
+ },{
+  "en": "Add",
+  "tr": "Lägg till en)"
+ },{
+  "en": "Add All",
+  "tr": "Lägg till alla"
+ },{
+  "en": "Add Command",
+  "tr": "Lägg till kommando"
+ },{
+  "en": "Add Group",
+  "tr": "Lägg till grupp"
+ },{
+  "en": "Add Sender",
+  "tr": "Lägg till avsändare"
+ },{
+  "en": "Add Tab",
+  "tr": "Lägg till flik"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Justera fönsterraderna och kolumnerna"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Avancerad sortering"
+ },{
+  "en": "Agent",
+  "tr": "Ombud"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Agentautentisering misslyckades, försök med en annan metod"
+ },{
+  "en": "All",
+  "tr": "Alla"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Alla %1 sessioner raderas. \nVill du fortsätta importera sessioner?"
+ },{
+  "en": "All session output",
+  "tr": "All sessionsutmatning"
+ },{
+  "en": "All Sessions",
+  "tr": "Alla sessioner"
+ },{
+  "en": "All tabs",
+  "tr": "Alla flikar"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Alternativ kolumnbakgrundsfärg"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Alternativ bakgrundsfärg"
+ },{
+  "en": "Always On Top",
+  "tr": "Alltid på topp"
+ },{
+  "en": "Always on top",
+  "tr": "Alltid på topp"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Ett fel uppstod vid försök att läsa från %1 -processen."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Ett fel uppstod när du försökte skriva till %1 -processen."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Ett okänt fel uppstod i %1 -processen."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI till OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Svara tillbaka"
+ },{
+  "en": "Any",
+  "tr": "Några"
+ },{
+  "en": "Anything Palette",
+  "tr": "Anything Palette"
+ },{
+  "en": "Anywhere",
+  "tr": "Var som helst"
+ },{
+  "en": "Appearance",
+  "tr": "Utseende"
+ },{
+  "en": "Append",
+  "tr": "Bifoga"
+ },{
+  "en": "Append log file",
+  "tr": "Lägg till loggfil"
+ },{
+  "en": "Application",
+  "tr": "Ansökan"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Är du säker på att du vill radera %1 valda objekt?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Är du säker på att du vill radera objektet <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Är du säker på att du vill ladda om den aktuella filen och tappa ändringarna i WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Är du säker på att du vill stoppa den nuvarande avsändaren?"
+ },{
+  "en": "Arguments",
+  "tr": "Argument"
+ },{
+  "en": "At Caret",
+  "tr": "At Caret"
+ },{
+  "en": "At End",
+  "tr": "I slutet"
+ },{
+  "en": "At Start",
+  "tr": "Vid Start"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Försök med gssapi-with-mic-autentisering"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Försök med tangentbord-interaktiv autentisering"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Försök med tävlingsautentisering"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Försök med lösenordsautentisering"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Försök med offentlig nyckelautentisering"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Försök med ssh-agent-autentisering"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Autentiserad med delvis framgång, prova en annan metod."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Autentisering med %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Autentisering med %1 och %2"
+ },{
+  "en": "Authentication",
+  "tr": "Autentisering"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Autentisering nekad. Försök igen."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Autentiseringen misslyckades. Försök igen."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Stäng automatiskt HTML/XML -taggar"
+ },{
+  "en": "Auto login",
+  "tr": "Automatisk inloggning"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Automatisk inloggning misslyckades. Försök igen."
+ },{
+  "en": "Auto login next time",
+  "tr": "Automatisk inloggning nästa gång"
+ },{
+  "en": "Automatic",
+  "tr": "Automatisk"
+ },{
+  "en": "automatic",
+  "tr": "automatisk"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Automatiska autentiseringsmetoder"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Kopiera urval automatiskt"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Identifiera automatiskt indrag"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Trimma automatiskt vadderingen"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Bakgrundsmarkör"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace"
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace skickar"
+ },{
+  "en": "Backward",
+  "tr": "Bakåt"
+ },{
+  "en": "Bars",
+  "tr": "Barer"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baud Rate"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Pip när den är klar"
+ },{
+  "en": "Binary",
+  "tr": "Binär"
+ },{
+  "en": "Binary base",
+  "tr": "Binär bas"
+ },{
+  "en": "Binary columns",
+  "tr": "Binära kolumner"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Kolumner för binär devision"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Binärt grupperade tecken"
+ },{
+  "en": "Black",
+  "tr": "Svart"
+ },{
+  "en": "Blink",
+  "tr": "Blink"
+ },{
+  "en": "blinking block",
+  "tr": "blinkande block"
+ },{
+  "en": "blinking line",
+  "tr": "blinkande linje"
+ },{
+  "en": "blinking rectangle",
+  "tr": "blinkande rektangel"
+ },{
+  "en": "blinking underLine",
+  "tr": "blinkar under linjen"
+ },{
+  "en": "Block",
+  "tr": "Blockera"
+ },{
+  "en": "block",
+  "tr": "blockera"
+ },{
+  "en": "Bold",
+  "tr": "Djärv"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Fet typ anger teckensnitt med fast bredd"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Bottom Docks"
+ },{
+  "en": "Bottom Group",
+  "tr": "Bottengrupp"
+ },{
+  "en": "Browse",
+  "tr": "Bläddra"
+ },{
+  "en": "Browse Directory",
+  "tr": "Bläddra i katalogen"
+ },{
+  "en": "Browse File",
+  "tr": "Bläddra i filen"
+ },{
+  "en": "Browser",
+  "tr": "Webbläsare"
+ },{
+  "en": "Build",
+  "tr": "Bygg"
+ },{
+  "en": "By",
+  "tr": "Förbi"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Beräknande"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Kan inte hitta lämpligt program för att öppna filen: (%1 (Försök använda standardredigeraren för att öppna den."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Kan inte skapa katalog %1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Kan inte göra filen %1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Kan inte skapa länk %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Det går inte att ta bort katalogen %1."
+ },{
+  "en": "Cancel",
+  "tr": "Avbryt"
+ },{
+  "en": "Cancel Build",
+  "tr": "Avbryt build"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Avbryt val"
+ },{
+  "en": "Caret",
+  "tr": "Markör"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret Style"
+ },{
+  "en": "Carriage Return",
+  "tr": "Vagnretur"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Skiftlägeskänsliga"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Ändra huvudlösenord"
+ },{
+  "en": "Change master password",
+  "tr": "Ändra huvudlösenord"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Ändra huvudlösenordet misslyckades."
+ },{
+  "en": "Change the tab title",
+  "tr": "Ändra flikrubriken"
+ },{
+  "en": "Changed",
+  "tr": "Ändrats"
+ },{
+  "en": "Channel",
+  "tr": "Kanal"
+ },{
+  "en": "Char",
+  "tr": "Röding"
+ },{
+  "en": "Char Left",
+  "tr": "Röding vänster"
+ },{
+  "en": "Char Right",
+  "tr": "Char Right"
+ },{
+  "en": "Character spacing",
+  "tr": "Teckenavstånd"
+ },{
+  "en": "character width",
+  "tr": "teckenbredd"
+ },{
+  "en": "Charset",
+  "tr": "Teckenuppsättning"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Välj en standardredigerare"
+ },{
+  "en": "Ciphers",
+  "tr": "Chiffer"
+ },{
+  "en": "Ciphers order",
+  "tr": "Chiffer beställer"
+ },{
+  "en": "Clear",
+  "tr": "Klar"
+ },{
+  "en": "Clear All",
+  "tr": "Rensa alla"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Rensa senaste webbadresser"
+ },{
+  "en": "Clear Screen",
+  "tr": "Rensa skärmen"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Rensa Scrollback"
+ },{
+  "en": "Clear Sender",
+  "tr": "Rensa avsändare"
+ },{
+  "en": "Click event",
+  "tr": "Klicka på händelse"
+ },{
+  "en": "Close",
+  "tr": "Stänga"
+ },{
+  "en": "Close All Views",
+  "tr": "Stäng alla vyer"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Stäng alla vyer men aktiv"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Stäng alla vyer till höger"
+ },{
+  "en": "Close And Exit",
+  "tr": "Stäng och lämna"
+ },{
+  "en": "Close Channel",
+  "tr": "Stäng kanal"
+ },{
+  "en": "Close Dock",
+  "tr": "Stäng Dock"
+ },{
+  "en": "Close Group",
+  "tr": "Stäng grupp"
+ },{
+  "en": "Close Session",
+  "tr": "Stäng sessionen"
+ },{
+  "en": "Close Tab",
+  "tr": "Stäng flik"
+ },{
+  "en": "Close tab",
+  "tr": "Stäng flik"
+ },{
+  "en": "Close View",
+  "tr": "Stäng vy"
+ },{
+  "en": "Close Window",
+  "tr": "Stäng fönster"
+ },{
+  "en": "Color",
+  "tr": "Färg"
+ },{
+  "en": "Column Edit",
+  "tr": "Kolumnredigering"
+ },{
+  "en": "Column Marker",
+  "tr": "Kolumnmarkör"
+ },{
+  "en": "Columns",
+  "tr": "Kolumner"
+ },{
+  "en": "columns",
+  "tr": "kolumner"
+ },{
+  "en": "Command",
+  "tr": "Kommando"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Kommandopalett"
+ },{
+  "en": "Comment",
+  "tr": "Kommentar"
+ },{
+  "en": "Comment Selection",
+  "tr": "Kommentarval"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Kommentarval(Blockläge)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Kommentarval(linjeläge)"
+ },{
+  "en": "Complete Word",
+  "tr": "Komplett ord"
+ },{
+  "en": "Config",
+  "tr": "Konfig"
+ },{
+  "en": "Confirm Password",
+  "tr": "Bekräfta lösenord"
+ },{
+  "en": "Confirm password",
+  "tr": "Bekräfta lösenord"
+ },{
+  "en": "Connect",
+  "tr": "Ansluta"
+ },{
+  "en": "Connection",
+  "tr": "Förbindelse"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Sammanhang"
+ },{
+  "en": "Continue",
+  "tr": "Fortsätta"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Konvertera CRLF och LF till CR"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Konvertera flik till mellanslag"
+ },{
+  "en": "copied",
+  "tr": "kopieras"
+ },{
+  "en": "Copy",
+  "tr": "Kopiera"
+ },{
+  "en": "copy",
+  "tr": "kopiera"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Kopiera och klistra in"
+ },{
+  "en": "Copy File Name",
+  "tr": "Kopiera filnamn"
+ },{
+  "en": "Copy File Path",
+  "tr": "Kopiera filväg"
+ },{
+  "en": "Copy from",
+  "tr": "Kopiera från"
+ },{
+  "en": "Copy names",
+  "tr": "Kopiera namn"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Kopiera namn till terminal"
+ },{
+  "en": "Copy Output",
+  "tr": "Kopiera utmatning"
+ },{
+  "en": "Copy paths",
+  "tr": "Kopiera sökvägar"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Kopiera sökvägar till terminal"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Kopiera sessionsnamn"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Kopiera sessionsadress"
+ },{
+  "en": "Copy to",
+  "tr": "Kopiera till"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Kopiera till terminal"
+ },{
+  "en": "Count",
+  "tr": "Räkna"
+ },{
+  "en": "Create Directory",
+  "tr": "Skapa katalog"
+ },{
+  "en": "Create File",
+  "tr": "Skapa fil"
+ },{
+  "en": "Create Link",
+  "tr": "Skapa länk"
+ },{
+  "en": "Created",
+  "tr": "Skapad"
+ },{
+  "en": "Critical",
+  "tr": "Kritisk"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Nuvarande session"
+ },{
+  "en": "Custom",
+  "tr": "Beställnings"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Anpassad opacitet"
+ },{
+  "en": "Customize",
+  "tr": "Anpassa"
+ },{
+  "en": "Cut",
+  "tr": "Klipp"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Mörk cyan"
+ },{
+  "en": "Data",
+  "tr": "Data"
+ },{
+  "en": "Data Bits",
+  "tr": "Databit"
+ },{
+  "en": "Datetime format",
+  "tr": "Datetime -format"
+ },{
+  "en": "Day of month",
+  "tr": "Dag i månaden"
+ },{
+  "en": "Debug Mode",
+  "tr": "Debug Mode"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Minska radindrag"
+ },{
+  "en": "Deep Pink",
+  "tr": "Djuprosa"
+ },{
+  "en": "default",
+  "tr": "standard"
+ },{
+  "en": "Default editor",
+  "tr": "Standardredigerare"
+ },{
+  "en": "Default Font",
+  "tr": "Standardteckensnitt"
+ },{
+  "en": "Default line ending",
+  "tr": "Standardrad slut"
+ },{
+  "en": "Delete",
+  "tr": "Raderade)"
+ },{
+  "en": "Delete sends",
+  "tr": "Radera sändningar"
+ },{
+  "en": "deleted",
+  "tr": "raderade"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Destinationsvärd"
+ },{
+  "en": "Destination Port",
+  "tr": "Destinationsport"
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Katalog"
+ },{
+  "en": "Directory Link",
+  "tr": "Kataloglänk"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Inaktivera Nagles algoritm(alternativet TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Koppla bort session"
+ },{
+  "en": "Disk",
+  "tr": "Disk"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Eka inte tecken"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Vill du stänga den aktuella sessionen?"
+ },{
+  "en": "Document",
+  "tr": "Dokument"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Visa inte detta meddelande igen"
+ },{
+  "en": "Double click",
+  "tr": "Dubbelklicka"
+ },{
+  "en": "Double click event",
+  "tr": "Dubbelklicka på händelse"
+ },{
+  "en": "Download",
+  "tr": "Ladda ner"
+ },{
+  "en": "download",
+  "tr": "ladda ner"
+ },{
+  "en": "Download directory",
+  "tr": "Ladda ner katalog"
+ },{
+  "en": "downloaded",
+  "tr": "nedladdad"
+ },{
+  "en": "Drop Selection",
+  "tr": "Släpp markering"
+ },{
+  "en": "Duplicate",
+  "tr": "Duplicera"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Dubblett kommando"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Dubblettvy"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dynamisk vidarebefordran"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Echo varje inmatad karaktär"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Echo varje tecken när du redigerar"
+ },{
+  "en": "Echo random characters",
+  "tr": "Echo slumpmässiga tecken"
+ },{
+  "en": "Edit",
+  "tr": "Redigera"
+ },{
+  "en": "Editor",
+  "tr": "Redaktör"
+ },{
+  "en": "editor",
+  "tr": "redaktör"
+ },{
+  "en": "Editor Settings",
+  "tr": "Editor -inställningar"
+ },{
+  "en": "Elapsed",
+  "tr": "Förflutet"
+ },{
+  "en": "Elide left",
+  "tr": "Elide vänster"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide mitt"
+ },{
+  "en": "Elide right",
+  "tr": "Elide rätt"
+ },{
+  "en": "Empty",
+  "tr": "Tömma"
+ },{
+  "en": "Enable command mode",
+  "tr": "Aktivera kommandoläge"
+ },{
+  "en": "Enable local mode",
+  "tr": "Aktivera lokalt läge"
+ },{
+  "en": "Enable SFTP",
+  "tr": "Aktivera SFTP"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Aktivera TCP keepalives(alternativet SO_KEEPALIVE)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Aktivera virtuella mellanslag"
+ },{
+  "en": "End Of Document",
+  "tr": "Slut på dokument"
+ },{
+  "en": "End Of Line",
+  "tr": "End Of Line"
+ },{
+  "en": "End Of Pair",
+  "tr": "End Of Pair"
+ },{
+  "en": "Engine",
+  "tr": "Motor"
+ },{
+  "en": "Environment Variable",
+  "tr": "Miljöfaktor"
+ },{
+  "en": "Environment variables",
+  "tr": "Miljövariabler"
+ },{
+  "en": "Error",
+  "tr": "Fel"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Byt vakt och ankare"
+ },{
+  "en": "Execute",
+  "tr": "Utför"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Utför kommando efter autentisering"
+ },{
+  "en": "Execute command after start",
+  "tr": "Utför kommando efter start"
+ },{
+  "en": "Execute File",
+  "tr": "Kör fil"
+ },{
+  "en": "Exit",
+  "tr": "Avsluta"
+ },{
+  "en": "Expand",
+  "tr": "Bygga ut"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Expandera kodavsnitt"
+ },{
+  "en": "Explorer",
+  "tr": "Utforskare"
+ },{
+  "en": "External Tools",
+  "tr": "Externa verktyg"
+ },{
+  "en": "External X display",
+  "tr": "Extern X -display"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "Extra ljus"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Det gick inte att skapa en tillfällig fil: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Det gick inte att öppna katalogen: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Det gick inte att hämta värdens fingeravtryck!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Det gick inte att ladda upp filen: %1, (Filen kanske inte finns eller inte har behörighet att öppna den."
+ },{
+  "en": "Fast",
+  "tr": "Snabb"
+ },{
+  "en": "Favorites",
+  "tr": "Favoriter"
+ },{
+  "en": "Features",
+  "tr": "Funktioner"
+ },{
+  "en": "File",
+  "tr": "Fil"
+ },{
+  "en": "file",
+  "tr": "fil"
+ },{
+  "en": "File Link",
+  "tr": "Fillänk"
+ },{
+  "en": "File Name",
+  "tr": "Filnamn"
+ },{
+  "en": "File name",
+  "tr": "Filnamn"
+ },{
+  "en": "File Path",
+  "tr": "Filväg"
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "filer"
+ },{
+  "en": "Filter",
+  "tr": "Filtrera"
+ },{
+  "en": "Find",
+  "tr": "Hitta"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Hitta alla"
+ },{
+  "en": "Find in Files",
+  "tr": "Hitta i filer"
+ },{
+  "en": "Find Next",
+  "tr": "Hitta nästa"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Hitta nästa markering"
+ },{
+  "en": "Find Previous",
+  "tr": "Hitta föregående"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Hitta föregående urval"
+ },{
+  "en": "Fingerprint",
+  "tr": "Fingeravtryck"
+ },{
+  "en": "First nine tabs",
+  "tr": "Första nio flikarna"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Flyta"
+ },{
+  "en": "Flow Control",
+  "tr": "Flödeskontroll"
+ },{
+  "en": "Focus Mode",
+  "tr": "Fokuserat läge"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Fokuslägesinställningar"
+ },{
+  "en": "Fold",
+  "tr": "Vik"
+ },{
+  "en": "Fold All",
+  "tr": "Vik alla"
+ },{
+  "en": "Fold Category",
+  "tr": "Vik kategori"
+ },{
+  "en": "Fold Inside",
+  "tr": "Vik inuti"
+ },{
+  "en": "Folds",
+  "tr": "Vik"
+ },{
+  "en": "Font",
+  "tr": "Font"
+ },{
+  "en": "Font family",
+  "tr": "Typsnittsfamilj"
+ },{
+  "en": "Font size",
+  "tr": "Teckensnitt"
+ },{
+  "en": "Font weight",
+  "tr": "Teckensnittsvikt"
+ },{
+  "en": "Forest Green",
+  "tr": "Forest Green"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Formatval"
+ },{
+  "en": "Found",
+  "tr": "Hittades"
+ },{
+  "en": "Full month name",
+  "tr": "Hel månad namn"
+ },{
+  "en": "Full Screen",
+  "tr": "Helskärm"
+ },{
+  "en": "Full screen",
+  "tr": "Fullskärm"
+ },{
+  "en": "Full weekday name",
+  "tr": "Hela vardagens namn"
+ },{
+  "en": "Go Backward",
+  "tr": "Gå bakåt"
+ },{
+  "en": "Go Forward",
+  "tr": "Gå framåt"
+ },{
+  "en": "Go to",
+  "tr": "Gå till"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Gå till Symbol i aktuell vy"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod"
+ },{
+  "en": "Goto",
+  "tr": "Gå till"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Gå till adressfältet"
+ },{
+  "en": "Goto File",
+  "tr": "Gå till fil"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto Fold Header"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Gå till nästa vikningsrubrik"
+ },{
+  "en": "Goto Position",
+  "tr": "Gå till position"
+ },{
+  "en": "Goto Session",
+  "tr": "Gå till session"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Gå till symbol"
+ },{
+  "en": "Group",
+  "tr": "Grupp"
+ },{
+  "en": "Group %1",
+  "tr": "Grupp 1"
+ },{
+  "en": "Groups",
+  "tr": "Grupper"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi med mikrofon"
+ },{
+  "en": "Hard Reset",
+  "tr": "Hård återställning"
+ },{
+  "en": "Help",
+  "tr": "Hjälp"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Hexbas"
+ },{
+  "en": "Hex Columns",
+  "tr": "Hexkolumner"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex Edit"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex Group Chars"
+ },{
+  "en": "Hidden",
+  "tr": "Dold"
+ },{
+  "en": "Hide",
+  "tr": "Dölj"
+ },{
+  "en": "Hide All",
+  "tr": "Dölj alla"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Dölj markören när du skriver"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Dölj text"
+ },{
+  "en": "Highlight",
+  "tr": "Markera"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Markera Caret Line"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Markera matchande par"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Markera linjen"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Markera huvudordet"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Markera den aktuella vikningen"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Markera det aktuella paret"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Markera den inkrementella sökningen"
+ },{
+  "en": "History",
+  "tr": "Historia"
+ },{
+  "en": "Home Of Line",
+  "tr": "Home Of Line"
+ },{
+  "en": "Host",
+  "tr": "Värd"
+ },{
+  "en": "Host address",
+  "tr": "Värdadress"
+ },{
+  "en": "Host Based",
+  "tr": "Värdbaserad"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Timmar i 12 format"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Timmar i 24 format"
+ },{
+  "en": "Http proxy",
+  "tr": "HTTP -proxy"
+ },{
+  "en": "Huge File",
+  "tr": "Stor fil"
+ },{
+  "en": "Icon",
+  "tr": "Ikon"
+ },{
+  "en": "Identity file",
+  "tr": "Identitetsfil"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Identitetsfil för autentisering"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Om du skapar ett huvudlösenord kommer du att bli ombedd att ange det när WindTerm hämtar sparad information som skyddas av huvudlösenordet."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Om du glömmer ditt huvudlösenord kommer du inte att få åtkomst till all information som skyddas av det."
+ },{
+  "en": "Import",
+  "tr": "Importera"
+ },{
+  "en": "Import sessions",
+  "tr": "Importera sessioner"
+ },{
+  "en": "In Selection",
+  "tr": "I urval"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Öka radindrag"
+ },{
+  "en": "Incremental",
+  "tr": "Inkrementell"
+ },{
+  "en": "Indent",
+  "tr": "Indrag"
+ },{
+  "en": "Indent guide style",
+  "tr": "Indragningsguide"
+ },{
+  "en": "Indent Guides",
+  "tr": "Indragningsguider"
+ },{
+  "en": "Indent size",
+  "tr": "Indragningsstorlek"
+ },{
+  "en": "Indentation",
+  "tr": "Indrag"
+ },{
+  "en": "Indian Red",
+  "tr": "Indian Red"
+ },{
+  "en": "Information",
+  "tr": "Information"
+ },{
+  "en": "Insert",
+  "tr": "Infoga"
+ },{
+  "en": "Insert File",
+  "tr": "Infoga fil"
+ },{
+  "en": "Insert Lines",
+  "tr": "Infoga linjer"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Infoga flik när du trycker på TAB -tangenten"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Infoga och ta bort blanksteg följer tabbstopp"
+ },{
+  "en": "Inserting file",
+  "tr": "Infoga fil"
+ },{
+  "en": "Internal X display",
+  "tr": "Intern X -display"
+ },{
+  "en": "Interval",
+  "tr": "Intervall"
+ },{
+  "en": "Invert Selection",
+  "tr": "Invertera markering"
+ },{
+  "en": "item failed",
+  "tr": "objektet misslyckades"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "objekt misslyckades"
+ },{
+  "en": "Join Channel A",
+  "tr": "Gå med i kanal A"
+ },{
+  "en": "Join Channel B",
+  "tr": "Gå med i kanal B"
+ },{
+  "en": "Join Channel C",
+  "tr": "Gå med i kanal C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Gå med i kanal D"
+ },{
+  "en": "Join Lines",
+  "tr": "Join Lines"
+ },{
+  "en": "Joined",
+  "tr": "Gick med"
+ },{
+  "en": "Jump Server",
+  "tr": "Jump Server"
+ },{
+  "en": "Jump server",
+  "tr": "Hopp -server"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Hoppservrar"
+ },{
+  "en": "Key Exchange",
+  "tr": "Nyckelbyte"
+ },{
+  "en": "Key exchange order",
+  "tr": "Nyckelbytesorder"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Ny byte av nycklar"
+ },{
+  "en": "Keyboard",
+  "tr": "Tangentbord"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Tangentbord interaktivt"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Bar"
+ },{
+  "en": "Known",
+  "tr": "Känd"
+ },{
+  "en": "Label",
+  "tr": "Märka"
+ },{
+  "en": "Language",
+  "tr": "Språk"
+ },{
+  "en": "Last sessions",
+  "tr": "Senaste sessioner"
+ },{
+  "en": "Layout",
+  "tr": "Layout"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Ledande och släpande ämnen"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Ledande ämnen"
+ },{
+  "en": "Leading position",
+  "tr": "Ledande position"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Lämna alla kanaler"
+ },{
+  "en": "Leave all channels",
+  "tr": "Lämna alla kanaler"
+ },{
+  "en": "Leave Channel",
+  "tr": "Lämna kanal"
+ },{
+  "en": "Left Docks",
+  "tr": "Vänster hamnar"
+ },{
+  "en": "Left Group",
+  "tr": "Vänster grupp"
+ },{
+  "en": "Light",
+  "tr": "Ljus"
+ },{
+  "en": "Line",
+  "tr": "Linje"
+ },{
+  "en": "line",
+  "tr": "linje"
+ },{
+  "en": "line at a time",
+  "tr": "rad åt gången"
+ },{
+  "en": "Line Down",
+  "tr": "Line Down"
+ },{
+  "en": "Line Ending",
+  "tr": "Linjeavslutning"
+ },{
+  "en": "Line Endings",
+  "tr": "Linjeändelser"
+ },{
+  "en": "Line Feed",
+  "tr": "Radmatning"
+ },{
+  "en": "line height",
+  "tr": "radavstånd"
+ },{
+  "en": "Line marker",
+  "tr": "Linjemarkör"
+ },{
+  "en": "Line spacing",
+  "tr": "Linjeavstånd"
+ },{
+  "en": "Line Up",
+  "tr": "Uppställning"
+ },{
+  "en": "lines at a time",
+  "tr": "rader åt gången"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Rader bakåt"
+ },{
+  "en": "Link",
+  "tr": "Länk"
+ },{
+  "en": "Link to",
+  "tr": "Anknyta till"
+ },{
+  "en": "List Tab",
+  "tr": "Flik List"
+ },{
+  "en": "Listen Port",
+  "tr": "Lyssna Port"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Lokal vidarebefordran"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Hitta meddelande"
+ },{
+  "en": "Location",
+  "tr": "Plats"
+ },{
+  "en": "Lock Screen",
+  "tr": "Låsskärm"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Tidsgräns för låsskärm"
+ },{
+  "en": "Lock Selection",
+  "tr": "Låsval"
+ },{
+  "en": "Log",
+  "tr": "Logga"
+ },{
+  "en": "Log all session output",
+  "tr": "Logga alla sessionens utdata"
+ },{
+  "en": "Log content pattern",
+  "tr": "Innehållsmönster för logg"
+ },{
+  "en": "Log Dialog",
+  "tr": "Loggdialog"
+ },{
+  "en": "Log file",
+  "tr": "Loggfil"
+ },{
+  "en": "Log file name",
+  "tr": "Loggfilnamn"
+ },{
+  "en": "Log maximum size",
+  "tr": "Maximal loggstorlek"
+ },{
+  "en": "Log nothing",
+  "tr": "Logga ingenting"
+ },{
+  "en": "Log option",
+  "tr": "Logga alternativ"
+ },{
+  "en": "Log options",
+  "tr": "Loggalternativ"
+ },{
+  "en": "Log pattern",
+  "tr": "Loggmönster"
+ },{
+  "en": "Log printable output",
+  "tr": "Logga utskrivbar utmatning"
+ },{
+  "en": "Log type",
+  "tr": "Loggtyp"
+ },{
+  "en": "Log types",
+  "tr": "Loggtyper"
+ },{
+  "en": "Logging",
+  "tr": "Skogsavverkning"
+ },{
+  "en": "Login",
+  "tr": "Logga in"
+ },{
+  "en": "Login Wizard",
+  "tr": "Inloggningsguiden"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Lång tid/datum"
+ },{
+  "en": "Look both guide",
+  "tr": "Se båda guiderna"
+ },{
+  "en": "Look forward guide",
+  "tr": "Se framåt guide"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC hash -ordning"
+ },{
+  "en": "Margin Blank",
+  "tr": "Marginal tom"
+ },{
+  "en": "Margin Fold",
+  "tr": "Marginalvikning"
+ },{
+  "en": "Margin Number",
+  "tr": "Marginalnummer"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Marginsymbol"
+ },{
+  "en": "Margin Text",
+  "tr": "Marginaltext"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Marginalstämpel"
+ },{
+  "en": "Margins",
+  "tr": "Marginaler"
+ },{
+  "en": "Marker style",
+  "tr": "Markörstil"
+ },{
+  "en": "Master Password",
+  "tr": "Huvudlösenord"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Max data före rekey(MBytes)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Max tid före rekey(minuter)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Maximal anslutningstid"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Medium"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Medium Orchid"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Medium Skifferblå"
+ },{
+  "en": "Menu Bar",
+  "tr": "Menyfältet"
+ },{
+  "en": "Merge To Group",
+  "tr": "Slå ihop till grupp"
+ },{
+  "en": "Middle click",
+  "tr": "Mittklick"
+ },{
+  "en": "Middle click event",
+  "tr": "Händelse i mittenklick"
+ },{
+  "en": "Milliseconds",
+  "tr": "Millisekunder"
+ },{
+  "en": "Minutes",
+  "tr": "Protokoll"
+ },{
+  "en": "minutes",
+  "tr": "minuter"
+ },{
+  "en": "Mismatched",
+  "tr": "Missformat"
+ },{
+  "en": "Mode",
+  "tr": "Läge"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modem väntar"
+ },{
+  "en": "Modes",
+  "tr": "Lägen"
+ },{
+  "en": "Modified",
+  "tr": "Ändrad"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Ändra"
+ },{
+  "en": "Modify Lines",
+  "tr": "Ändra linjer"
+ },{
+  "en": "Month",
+  "tr": "Månad"
+ },{
+  "en": "More",
+  "tr": "Mer"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Musåtgärder"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Musspårning"
+ },{
+  "en": "Move Down",
+  "tr": "Flytta ner"
+ },{
+  "en": "Move event",
+  "tr": "Flytta händelse"
+ },{
+  "en": "Move to",
+  "tr": "Flytta till"
+ },{
+  "en": "Move To Group",
+  "tr": "Flytta till grupp"
+ },{
+  "en": "Move Up",
+  "tr": "Flytta upp"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Multipel Caret"
+ },{
+  "en": "Name",
+  "tr": "namn"
+ },{
+  "en": "nesting groups",
+  "tr": "häckande grupper"
+ },{
+  "en": "Never",
+  "tr": "Aldrig"
+ },{
+  "en": "New directory",
+  "tr": "Ny katalog"
+ },{
+  "en": "New File",
+  "tr": "Ny fil"
+ },{
+  "en": "New file",
+  "tr": "Ny fil"
+ },{
+  "en": "New Line",
+  "tr": "Ny rad"
+ },{
+  "en": "New link",
+  "tr": "Ny länk"
+ },{
+  "en": "New password",
+  "tr": "Nytt lösenord"
+ },{
+  "en": "New Session",
+  "tr": "Ny session"
+ },{
+  "en": "New Window",
+  "tr": "Nytt fönster"
+ },{
+  "en": "Next Char",
+  "tr": "Nästa Char"
+ },{
+  "en": "Next Fold",
+  "tr": "Nästa vikning"
+ },{
+  "en": "Next Indentation",
+  "tr": "Nästa indrag"
+ },{
+  "en": "Next Line",
+  "tr": "Nästa rad"
+ },{
+  "en": "Next Message",
+  "tr": "Nästa meddelande"
+ },{
+  "en": "Next Page",
+  "tr": "Nästa sida"
+ },{
+  "en": "Next Pair",
+  "tr": "Nästa par"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Nästa stycke"
+ },{
+  "en": "Next Scope",
+  "tr": "Nästa räckvidd"
+ },{
+  "en": "Next Segment End",
+  "tr": "Nästa segment slut"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Nästa segmentstart"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Nästa stammade sida"
+ },{
+  "en": "Next Word",
+  "tr": "Nästa ord"
+ },{
+  "en": "Next Word End",
+  "tr": "Nästa ordslut"
+ },{
+  "en": "Next Word Part",
+  "tr": "Nästa orddel"
+ },{
+  "en": "No",
+  "tr": "Nej"
+ },{
+  "en": "No action",
+  "tr": "Ingen action"
+ },{
+  "en": "No Dirs",
+  "tr": "Inga Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Ingen elide"
+ },{
+  "en": "No file opened",
+  "tr": "Ingen fil har öppnats"
+ },{
+  "en": "No filer available",
+  "tr": "Inga filer tillgängliga"
+ },{
+  "en": "No Files",
+  "tr": "Inga filer"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Inga filer valda att överföra."
+ },{
+  "en": "No item opened",
+  "tr": "Inget objekt har öppnats"
+ },{
+  "en": "No outline available",
+  "tr": "Ingen disposition tillgänglig"
+ },{
+  "en": "No proxy",
+  "tr": "Ingen proxy"
+ },{
+  "en": "No session",
+  "tr": "Ingen session"
+ },{
+  "en": "No session available",
+  "tr": "Ingen session tillgänglig"
+ },{
+  "en": "No session opened",
+  "tr": "Ingen session har öppnats"
+ },{
+  "en": "No Sessions",
+  "tr": "Inga sessioner"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Inga autentiseringsmetoder som stöds tillgängliga."
+ },{
+  "en": "No transfer available",
+  "tr": "Ingen överföring tillgänglig"
+ },{
+  "en": "No wrap",
+  "tr": "Ingen omslag"
+ },{
+  "en": "No X display",
+  "tr": "Ingen X -display"
+ },{
+  "en": "None",
+  "tr": "Ingen"
+ },{
+  "en": "None tabs",
+  "tr": "Inga flikar"
+ },{
+  "en": "Normal",
+  "tr": "Vanligt"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Nu"
+ },{
+  "en": "Nowhere",
+  "tr": "Ingenstans"
+ },{
+  "en": "Octal",
+  "tr": "Oktal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM till ANSI"
+ },{
+  "en": "Off",
+  "tr": "Av"
+ },{
+  "en": "off",
+  "tr": "av"
+ },{
+  "en": "Ok",
+  "tr": "Ok"
+ },{
+  "en": "Old",
+  "tr": "Gammal"
+ },{
+  "en": "Old password",
+  "tr": "Gammalt lösenord"
+ },{
+  "en": "Olive",
+  "tr": "Oliv"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "En eller flera sessioner öppnas. \nVill du stänga det aktuella fönstret?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Endast diskfil kan laddas om!"
+ },{
+  "en": "Only indentation",
+  "tr": "Endast indragning"
+ },{
+  "en": "Opaque",
+  "tr": "Ogenomskinlig"
+ },{
+  "en": "Open",
+  "tr": "Öppna"
+ },{
+  "en": "open",
+  "tr": "öppen"
+ },{
+  "en": "Open directory after created",
+  "tr": "Öppna katalogen efter skapad"
+ },{
+  "en": "Open directory after download",
+  "tr": "Öppna katalogen efter nedladdning"
+ },{
+  "en": "Open File",
+  "tr": "Öppna fil"
+ },{
+  "en": "Open file",
+  "tr": "Öppna fil"
+ },{
+  "en": "Open file after created",
+  "tr": "Öppna filen efter skapad"
+ },{
+  "en": "Open file failed!",
+  "tr": "Öppnad fil misslyckades!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Öppen hoppserver misslyckades!"
+ },{
+  "en": "Open Log File",
+  "tr": "Öppna loggfil"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Öppna loggmapp"
+ },{
+  "en": "Open Recent",
+  "tr": "Öppna senaste"
+ },{
+  "en": "Open Selection",
+  "tr": "Öppet urval"
+ },{
+  "en": "Open Session",
+  "tr": "Öppen session"
+ },{
+  "en": "Open session failed!",
+  "tr": "Öppen session misslyckades!"
+ },{
+  "en": "Open target directory",
+  "tr": "Öppna målkatalogen"
+ },{
+  "en": "Open with default editor",
+  "tr": "Öppna med standardredigerare"
+ },{
+  "en": "Opened",
+  "tr": "Öppnad"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh -sessioner"
+ },{
+  "en": "Others",
+  "tr": "Andra"
+ },{
+  "en": "Outline",
+  "tr": "Översikt"
+ },{
+  "en": "Output",
+  "tr": "Produktion"
+ },{
+  "en": "Overtype",
+  "tr": "Övertyp"
+ },{
+  "en": "Overwrite",
+  "tr": "Skriva över"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Skriv över loggfil"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Skriv över när källfilen är nyare"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Skriv över när källfilen är nyare eller längre"
+ },{
+  "en": "Owner",
+  "tr": "Ägare"
+ },{
+  "en": "Packet padding char",
+  "tr": "Packing padding char"
+ },{
+  "en": "Packet size",
+  "tr": "Paketstorlek"
+ },{
+  "en": "Page",
+  "tr": "Sida"
+ },{
+  "en": "page",
+  "tr": "sida"
+ },{
+  "en": "Pair",
+  "tr": "Par"
+ },{
+  "en": "Panes",
+  "tr": "Fönster"
+ },{
+  "en": "Paragraph",
+  "tr": "Stycke"
+ },{
+  "en": "Parity",
+  "tr": "Paritet"
+ },{
+  "en": "Passphrase",
+  "tr": "Lösenfras"
+ },{
+  "en": "Password",
+  "tr": "Lösenord"
+ },{
+  "en": "Password quality meter",
+  "tr": "Lösenordskvalitetsmätare"
+ },{
+  "en": "Paste",
+  "tr": "Klistra"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Klistra in dialogrutan"
+ },{
+  "en": "Paste text",
+  "tr": "Klistra in text"
+ },{
+  "en": "Pause",
+  "tr": "Paus"
+ },{
+  "en": "Paused",
+  "tr": "Pausad"
+ },{
+  "en": "Pausing",
+  "tr": "Pausar"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Utför DNS -sökning med proxy"
+ },{
+  "en": "Period",
+  "tr": "Period"
+ },{
+  "en": "Permissions",
+  "tr": "Behörigheter"
+ },{
+  "en": "pixels",
+  "tr": "pixlar"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Ange ett nytt namn för den här vyn"
+ },{
+  "en": "Please input master password",
+  "tr": "Ange huvudlösenord"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Ange huvudlösenord, töm eller avbryt för att inaktivera"
+ },{
+  "en": "Please input new group",
+  "tr": "Ange ny grupp"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Se till att du kommer ihåg huvudlösenordet som du har angett."
+ },{
+  "en": "Port",
+  "tr": "Hamn"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Föredrar temateckensnitt"
+ },{
+  "en": "Preferences",
+  "tr": "Inställningar"
+ },{
+  "en": "Preserve",
+  "tr": "Bevara"
+ },{
+  "en": "Preview All",
+  "tr": "Förhandsgranska alla"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Förhandsgranskningssymbol"
+ },{
+  "en": "Previous Char",
+  "tr": "Föregående Char"
+ },{
+  "en": "Previous Fold",
+  "tr": "Föregående Fold"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Tidigare indrag"
+ },{
+  "en": "Previous Line",
+  "tr": "Föregående rad"
+ },{
+  "en": "Previous Message",
+  "tr": "Föregående meddelande"
+ },{
+  "en": "Previous Page",
+  "tr": "Föregående sida"
+ },{
+  "en": "Previous Pair",
+  "tr": "Föregående par"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Föregående stycke"
+ },{
+  "en": "Previous Scope",
+  "tr": "Föregående tillämpningsområde"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Föregående segment slut"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Föregående segmentstart"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Föregående stammad sida"
+ },{
+  "en": "Previous Word",
+  "tr": "Föregående ord"
+ },{
+  "en": "Previous Word End",
+  "tr": "Föregående ordslut"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Föregående orddel"
+ },{
+  "en": "Printable output",
+  "tr": "Utskrivbar utmatning"
+ },{
+  "en": "Process",
+  "tr": "Bearbeta"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Process %1 kraschade."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Processen %1 kunde inte startas."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Bearbeta %1 timeout."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Program [Argument]"
+ },{
+  "en": "Project",
+  "tr": "Projekt"
+ },{
+  "en": "Properties",
+  "tr": "Egenskaper"
+ },{
+  "en": "Property",
+  "tr": "Fast egendom"
+ },{
+  "en": "Protocol",
+  "tr": "Protokoll"
+ },{
+  "en": "Proxy",
+  "tr": "Ombud"
+ },{
+  "en": "Proxy Host",
+  "tr": "Proxyvärd"
+ },{
+  "en": "Proxy Port",
+  "tr": "Proxy -port"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Proxyinställningar"
+ },{
+  "en": "Proxy Type",
+  "tr": "Proxy -typ"
+ },{
+  "en": "Public Key",
+  "tr": "Offentlig nyckel"
+ },{
+  "en": "Public Keys",
+  "tr": "Offentliga nycklar"
+ },{
+  "en": "Public keys order",
+  "tr": "Offentliga nycklar ordning"
+ },{
+  "en": "Putty sessions",
+  "tr": "Spackelsessioner"
+ },{
+  "en": "Query URL",
+  "tr": "Fråge -URL"
+ },{
+  "en": "Question",
+  "tr": "Fråga"
+ },{
+  "en": "Quick",
+  "tr": "Snabbt"
+ },{
+  "en": "Quick Bar",
+  "tr": "Quick Bar"
+ },{
+  "en": "Quick Commands",
+  "tr": "Snabba kommandon"
+ },{
+  "en": "Read Only",
+  "tr": "Skrivskyddad"
+ },{
+  "en": "Ready",
+  "tr": "Redo"
+ },{
+  "en": "Real guide",
+  "tr": "Riktig guide"
+ },{
+  "en": "Receive XModem",
+  "tr": "Ta emot XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Ta emot YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Ta emot ZModem"
+ },{
+  "en": "received",
+  "tr": "mottagen"
+ },{
+  "en": "Recent",
+  "tr": "Nyligen"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Senaste sessioner"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Återanslut session"
+ },{
+  "en": "Rectangle",
+  "tr": "Rektangel"
+ },{
+  "en": "rectangle",
+  "tr": "rektangel"
+ },{
+  "en": "Red",
+  "tr": "Röd"
+ },{
+  "en": "Redo",
+  "tr": "Gör om"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Gör om %1 åtgärder"
+ },{
+  "en": "Refresh",
+  "tr": "Uppdatera"
+ },{
+  "en": "Regular Expression",
+  "tr": "Vanligt uttryck"
+ },{
+  "en": "Reload",
+  "tr": "Ladda om"
+ },{
+  "en": "Reload File",
+  "tr": "Ladda om filen"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Ladda om med kodning"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Fjärrsändning"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Fjärrväg"
+ },{
+  "en": "Remove",
+  "tr": "Remover)"
+ },{
+  "en": "remove",
+  "tr": "avlägsna"
+ },{
+  "en": "Remove All",
+  "tr": "Ta bort alla"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Ta bort tomma linjer"
+ },{
+  "en": "Remove Command",
+  "tr": "Ta bort kommando"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Ta bort dubbletter"
+ },{
+  "en": "Remove Group",
+  "tr": "Ta bort grupp"
+ },{
+  "en": "Remove items",
+  "tr": "Ta bort objekt"
+ },{
+  "en": "Remove Sender",
+  "tr": "Ta bort avsändaren"
+ },{
+  "en": "Removing",
+  "tr": "Ta bort"
+ },{
+  "en": "Rename",
+  "tr": "Döp om"
+ },{
+  "en": "Rename Group",
+  "tr": "Byt namn på gruppen"
+ },{
+  "en": "Rename tab",
+  "tr": "Byt namn på fliken"
+ },{
+  "en": "Rename View",
+  "tr": "Byt namn på vyn"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Öppna igen stängd vy"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Upprepa senaste kommando"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Upprepade gånger"
+ },{
+  "en": "Replace",
+  "tr": "Ersätt"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Ersätt alla"
+ },{
+  "en": "Replace in Files",
+  "tr": "Ersätt i filer"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Kräver en omstart för att påverka"
+ },{
+  "en": "Reset",
+  "tr": "Återställ"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Återställ teckenuppsättning"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Återställ zoom"
+ },{
+  "en": "Resume",
+  "tr": "Återuppta"
+ },{
+  "en": "Resuming",
+  "tr": "Återupptar"
+ },{
+  "en": "Right click",
+  "tr": "Högerklicka"
+ },{
+  "en": "Right click event",
+  "tr": "Högerklickhändelse"
+ },{
+  "en": "Right Docks",
+  "tr": "Höger Docks"
+ },{
+  "en": "Right Group",
+  "tr": "Höger grupp"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Rulla mushjulet för att rulla"
+ },{
+  "en": "Rows",
+  "tr": "Rader"
+ },{
+  "en": "Royal Blue",
+  "tr": "Royal Blue"
+ },{
+  "en": "Run Tool",
+  "tr": "Kör verktyg"
+ },{
+  "en": "Save",
+  "tr": "Spara"
+ },{
+  "en": "Save All",
+  "tr": "Spara alla"
+ },{
+  "en": "Save As",
+  "tr": "Spara som"
+ },{
+  "en": "Save Copy As",
+  "tr": "Spara kopia som"
+ },{
+  "en": "Save file failed!",
+  "tr": "Spara filen misslyckades!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Spara markering som"
+ },{
+  "en": "Save Session",
+  "tr": "Spara session"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Sparad automatisk autentisering"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Schemaverktyg"
+ },{
+  "en": "Scope",
+  "tr": "Omfattning"
+ },{
+  "en": "Screen Locked",
+  "tr": "Skärmen låst"
+ },{
+  "en": "Scroll Left",
+  "tr": "Bläddra till vänster"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Rulla nedåt"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Rulla upp"
+ },{
+  "en": "Scroll Right",
+  "tr": "Bläddra åt höger"
+ },{
+  "en": "Search",
+  "tr": "Sök"
+ },{
+  "en": "Search engine",
+  "tr": "Sökmotorer)"
+ },{
+  "en": "Search Engine",
+  "tr": "Sökmotor"
+ },{
+  "en": "Search Engines",
+  "tr": "Sökmotorer"
+ },{
+  "en": "Search Online",
+  "tr": "Sök online"
+ },{
+  "en": "Search or enter address",
+  "tr": "Sök eller ange adress"
+ },{
+  "en": "Searching",
+  "tr": "Sökande"
+ },{
+  "en": "Seconds",
+  "tr": "Sekunder"
+ },{
+  "en": "seconds",
+  "tr": "sekunder"
+ },{
+  "en": "Security",
+  "tr": "säkerhet"
+ },{
+  "en": "Segment",
+  "tr": "Segment"
+ },{
+  "en": "Select",
+  "tr": "Välj"
+ },{
+  "en": "Select All",
+  "tr": "Välj alla"
+ },{
+  "en": "Select Column To",
+  "tr": "Välj kolumn till"
+ },{
+  "en": "Select copy folder",
+  "tr": "Välj kopieringsmapp"
+ },{
+  "en": "Select copy items",
+  "tr": "Välj kopieringsobjekt"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Välj katalog att ta emot"
+ },{
+  "en": "Select download folder",
+  "tr": "Välj nedladdningsmapp"
+ },{
+  "en": "Select files to send",
+  "tr": "Välj filer att skicka"
+ },{
+  "en": "Select Fold",
+  "tr": "Välj Fold"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Välj utdrag bakåt"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Välj Snippet Forward"
+ },{
+  "en": "Select To",
+  "tr": "Välj Till"
+ },{
+  "en": "Select upload items",
+  "tr": "Välj ladda upp objekt"
+ },{
+  "en": "Selected position",
+  "tr": "Vald position"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Utvalda sessioner"
+ },{
+  "en": "Selection",
+  "tr": "Urval"
+ },{
+  "en": "Send",
+  "tr": "Skicka"
+ },{
+  "en": "Send line By line",
+  "tr": "Skicka rad för rad"
+ },{
+  "en": "Send Text",
+  "tr": "Skicka text"
+ },{
+  "en": "Send XModem",
+  "tr": "Skicka XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Skicka YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Skicka ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Avsändare"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Skickade %1 misslyckades: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Skickar: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Skickar ett nollpaket för att hålla sessionen vid liv"
+ },{
+  "en": "sent",
+  "tr": "skickat"
+ },{
+  "en": "Serial",
+  "tr": "Seriell"
+ },{
+  "en": "Server",
+  "tr": "Server"
+ },{
+  "en": "Session",
+  "tr": "Session"
+ },{
+  "en": "session",
+  "tr": "session"
+ },{
+  "en": "Session Group",
+  "tr": "Sessionsgrupp"
+ },{
+  "en": "Session Log",
+  "tr": "Session Log"
+ },{
+  "en": "Session name",
+  "tr": "Sessionens namn"
+ },{
+  "en": "Session Settings",
+  "tr": "Sessionsinställningar"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Sessioner i alla Windows"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Sessioner i nuvarande grupp"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Sessioner i det aktuella fönstret"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Sessioner i grupp %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Ange standardredigerare"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Ange flikfärg"
+ },{
+  "en": "Settings",
+  "tr": "inställningar"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Form"
+ },{
+  "en": "Shell",
+  "tr": "Skal"
+ },{
+  "en": "Shell sessions",
+  "tr": "Shell -sessioner"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Shell -sessioner"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Kort tid/datum"
+ },{
+  "en": "Show",
+  "tr": "Show"
+ },{
+  "en": "Show All",
+  "tr": "Visa alla"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Visa alla öppnade och nya redaktörer"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Visa alla öppnade och senaste terminaler"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Visa och kör åtgärder"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Visa dialogrutan för bekräftelse av stängningsflik"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Visa dialogrutan för stängningsfönster"
+ },{
+  "en": "Show column markers",
+  "tr": "Visa kolumnmarkörer"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Visa kommandon i alfabetisk ordning"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Visa nuvarande %1 egendom"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Visa gruppkommandon i ordning"
+ },{
+  "en": "Show group title",
+  "tr": "Visa grupptitel"
+ },{
+  "en": "Show hidden items",
+  "tr": "Visa dolda objekt"
+ },{
+  "en": "Show in %1",
+  "tr": "Visa i %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Show In Line End"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Visa i radstart"
+ },{
+  "en": "Show In Selection",
+  "tr": "Visa i urval"
+ },{
+  "en": "Show indent guide",
+  "tr": "Visa indragningsguide"
+ },{
+  "en": "Show line endings",
+  "tr": "Visa radändelser"
+ },{
+  "en": "Show menu",
+  "tr": "Visa meny"
+ },{
+  "en": "Show More Tools",
+  "tr": "Visa fler verktyg"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Visa flera grupper"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Visa klistra in dialogrutan på den alternativa skärmen"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Visa klistra in dialogrutan på huvudskärmen"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Visa mellanslag och flikar"
+ },{
+  "en": "Show Tabs",
+  "tr": "Visa flikar"
+ },{
+  "en": "Show Text",
+  "tr": "Visa text"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Visa fliknumret på flikar"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Visa denna dialogruta när fokusläget startar"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Visa omslutningssymboler"
+ },{
+  "en": "Shrink",
+  "tr": "Krympa"
+ },{
+  "en": "Size",
+  "tr": "Storlek"
+ },{
+  "en": "Skip",
+  "tr": "Hoppa"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "Mjuk återställning"
+ },{
+  "en": "Sort",
+  "tr": "Sortera"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Sortera linjer skiftlägeskänslig"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Sort Lines Case Sensitive"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Sortera rader i slumpmässig ordning"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Sortera rader i omvänd ordning"
+ },{
+  "en": "spaces",
+  "tr": "mellanslag"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Utrymmen till flikar"
+ },{
+  "en": "Spacing",
+  "tr": "Mellanrum"
+ },{
+  "en": "Special",
+  "tr": "Särskild"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Ange protokollet när du drar och släpper filer"
+ },{
+  "en": "Speed",
+  "tr": "Fart"
+ },{
+  "en": "Split",
+  "tr": "Delar upp)"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Dela gruppen horisontellt"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Dela gruppen vertikalt"
+ },{
+  "en": "Split Lines",
+  "tr": "Split Lines"
+ },{
+  "en": "Split Selection",
+  "tr": "Dela urval"
+ },{
+  "en": "Split To Group",
+  "tr": "Dela till grupp"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Delad vy horisontellt"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Delad vy vertikalt"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Start"
+ },{
+  "en": "Start Of Document",
+  "tr": "Start av dokument"
+ },{
+  "en": "Start Of Line",
+  "tr": "Start Of Line"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Start av par"
+ },{
+  "en": "Startup",
+  "tr": "Börja"
+ },{
+  "en": "Stash",
+  "tr": "Stash"
+ },{
+  "en": "Status Bar",
+  "tr": "Statusfältet"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Steel Blue"
+ },{
+  "en": "Sticky",
+  "tr": "Klibbig"
+ },{
+  "en": "Stop",
+  "tr": "Sluta"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stoppbitar"
+ },{
+  "en": "Stop loading",
+  "tr": "Sluta ladda"
+ },{
+  "en": "Stop sender",
+  "tr": "Stoppa avsändaren"
+ },{
+  "en": "Stop Tools",
+  "tr": "Stoppa verktyg"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Sluta titta på den här filen"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Byt ström och kolumn"
+ },{
+  "en": "switch to tab",
+  "tr": "växla till fliken"
+ },{
+  "en": "Symbols",
+  "tr": "Symboler"
+ },{
+  "en": "Sync channel",
+  "tr": "Synkronisera kanal"
+ },{
+  "en": "Sync Edit",
+  "tr": "Synkronisera redigering"
+ },{
+  "en": "Sync Input",
+  "tr": "Synkroniseringsingång"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Synkroniserar ingång i kanal %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Syntaxscheman"
+ },{
+  "en": "System",
+  "tr": "System"
+ },{
+  "en": "Tab",
+  "tr": "Flik"
+ },{
+  "en": "Tab Color",
+  "tr": "Flikfärg"
+ },{
+  "en": "Tab Features",
+  "tr": "Flikfunktioner"
+ },{
+  "en": "Tab Group",
+  "tr": "Flikgrupp"
+ },{
+  "en": "Tab Index",
+  "tr": "Flikindex"
+ },{
+  "en": "Tab size",
+  "tr": "Flikstorlek"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Elitläge för fliktext"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Flikens miniatyrradio"
+ },{
+  "en": "Tab Title",
+  "tr": "Fliktitel"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabifiera utvalda linjer"
+ },{
+  "en": "Tabs",
+  "tr": "Flikar"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Flikar till mellanslag"
+ },{
+  "en": "Target",
+  "tr": "Mål"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Målmapp"
+ },{
+  "en": "Targets",
+  "tr": "Mål"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP -anslutningsalternativ"
+ },{
+  "en": "Teal",
+  "tr": "Blågrön"
+ },{
+  "en": "Term",
+  "tr": "Term"
+ },{
+  "en": "Terminal",
+  "tr": "Terminal"
+ },{
+  "en": "terminal",
+  "tr": "terminal"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Terminalinställningar"
+ },{
+  "en": "Text",
+  "tr": "Text"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Text: %1 rader, %2 tecken"
+ },{
+  "en": "The % sign",
+  "tr": "Skylten"
+ },{
+  "en": "The actual text to log",
+  "tr": "Själva texten att logga"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Målmappen är en undermapp till källmappen: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Dokumentet har ändrats. \nVill du spara dina ändringar?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Nyckelkombinationen(%1) är inte ett kommando."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Lrzsz upptäcks inte. Installera lrzsz först."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Huvudlösenordet har ändrats."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Lösenordsbekräftelsen matchar inte."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Servern avbröt överföringen."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Sessionen är <b> frånkopplad </b>, tryck på <b> Retur </b> för att återansluta."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Överföringen avbröts eftersom ett paket inte var %1 inom gränsen för försök igen."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Överföringen avbröts eftersom paketsekvensnumret var fel."
+ },{
+  "en": "Theme",
+  "tr": "Tema"
+ },{
+  "en": "Thin",
+  "tr": "Tunn"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Tröskel för stor fil"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Tidsformat"
+ },{
+  "en": "Time left",
+  "tr": "Tid kvar"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Tidsstämpel av rader"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Till omvänt fall"
+ },{
+  "en": "To Line End",
+  "tr": "Till Line End"
+ },{
+  "en": "To Line Start",
+  "tr": "Till linjestart"
+ },{
+  "en": "To Lower Case",
+  "tr": "Till små bokstäver"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Till MacOS 9 CR"
+ },{
+  "en": "To Title Case",
+  "tr": "Till titelfall"
+ },{
+  "en": "To Unix LF",
+  "tr": "Till Unix LF"
+ },{
+  "en": "To Upper Case",
+  "tr": "Till versaler"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Till Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Till Word End"
+ },{
+  "en": "To Word Start",
+  "tr": "Till Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Toggle Fold"
+ },{
+  "en": "Tool",
+  "tr": "Verktyg"
+ },{
+  "en": "Toolbar",
+  "tr": "Verktygsfält"
+ },{
+  "en": "Top Group",
+  "tr": "Toppgrupp"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Spåra textval i träd"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Spåra trädval i text"
+ },{
+  "en": "Tracking Events",
+  "tr": "Spåra händelser"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Släpande ämnen"
+ },{
+  "en": "Trailing position",
+  "tr": "Efterläge"
+ },{
+  "en": "Transfer",
+  "tr": "Överföra"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Transfer Bar"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Överför binär"
+ },{
+  "en": "Transfer complete",
+  "tr": "Överföringen klar"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Överföringen ofullständig"
+ },{
+  "en": "Translucent",
+  "tr": "Genomskinlig"
+ },{
+  "en": "Transparent",
+  "tr": "Transparent"
+ },{
+  "en": "Transpose",
+  "tr": "Transponera"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Trimma efterföljande blanksteg på spara"
+ },{
+  "en": "Trust this host",
+  "tr": "Lita på den här värden"
+ },{
+  "en": "Tunnels",
+  "tr": "Tunnlar"
+ },{
+  "en": "Type",
+  "tr": "Typ"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Skriv '?' för att få hjälp med åtgärderna kan du skriva här"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Urval av kommentarer"
+ },{
+  "en": "Underline",
+  "tr": "Understrykning"
+ },{
+  "en": "underLine",
+  "tr": "Understrykning"
+ },{
+  "en": "Undo",
+  "tr": "Ångra"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Ångra %1 åtgärder"
+ },{
+  "en": "Unfold",
+  "tr": "Vik ut"
+ },{
+  "en": "Unfold All",
+  "tr": "Vik ut alla"
+ },{
+  "en": "Unfold Category",
+  "tr": "Vik upp kategori"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Vik ut inuti"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Unify line endings on save"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: sökväg för skalfil måste vara absolut"
+ },{
+  "en": "Unknown",
+  "tr": "Okänd"
+ },{
+  "en": "unknown",
+  "tr": "okänd"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Avmarkera utvalda linjer"
+ },{
+  "en": "Untitled",
+  "tr": "Ofrälse"
+ },{
+  "en": "Untrust this host",
+  "tr": "Lita på den här värden"
+ },{
+  "en": "upload",
+  "tr": "ladda upp"
+ },{
+  "en": "Upload command",
+  "tr": "Ladda upp kommando"
+ },{
+  "en": "Upload directory",
+  "tr": "Ladda upp katalog"
+ },{
+  "en": "Upload file",
+  "tr": "Ladda upp fil"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Ladda upp till aktuell mapp"
+ },{
+  "en": "uploaded",
+  "tr": "laddat upp"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL med %q i stället för frågan"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Använd bakgrundsfärg för att radera skärmen"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Använd höghastighetsöverföring"
+ },{
+  "en": "Use system line ending",
+  "tr": "Använd slut på systemrad"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Använd detta som standard och fråga inte igen"
+ },{
+  "en": "User",
+  "tr": "Användare"
+ },{
+  "en": "Username echo mode",
+  "tr": "Ekoläge för användarnamn"
+ },{
+  "en": "Value",
+  "tr": "Värde"
+ },{
+  "en": "Variable",
+  "tr": "Variabel"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Verifiera serverns fingeravtryck"
+ },{
+  "en": "View",
+  "tr": "Visa"
+ },{
+  "en": "Virtual Space",
+  "tr": "Virtuellt utrymme"
+ },{
+  "en": "Waiting",
+  "tr": "Väntar"
+ },{
+  "en": "Warning",
+  "tr": "Varning"
+ },{
+  "en": "Wheel event",
+  "tr": "Wheel event"
+ },{
+  "en": "When destination file exists",
+  "tr": "När målfilen finns"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "När du klistrar in flera rader"
+ },{
+  "en": "When remote title is changed",
+  "tr": "När fjärrtitel ändras"
+ },{
+  "en": "When session is authenticated",
+  "tr": "När sessionen är autentiserad"
+ },{
+  "en": "When session is authenticating",
+  "tr": "När sessionen autentiseras"
+ },{
+  "en": "When window is resized",
+  "tr": "När fönstret ändras"
+ },{
+  "en": "Where",
+  "tr": "Var"
+ },{
+  "en": "White Spaces",
+  "tr": "White Spaces"
+ },{
+  "en": "Whole Line",
+  "tr": "Hela linjen"
+ },{
+  "en": "Whole Word",
+  "tr": "Hela världen"
+ },{
+  "en": "Widgets",
+  "tr": "Widgets"
+ },{
+  "en": "Width",
+  "tr": "Bredd"
+ },{
+  "en": "Window",
+  "tr": "Fönster"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Fönsterkant"
+ },{
+  "en": "Window Opacity",
+  "tr": "Fönsterns opacitet"
+ },{
+  "en": "Window opacity",
+  "tr": "Fönsterens opacitet"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Manager"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe eller winpty.dll hittades inte !."
+ },{
+  "en": "Word",
+  "tr": "Ord"
+ },{
+  "en": "Word Separators",
+  "tr": "Ordavgränsare"
+ },{
+  "en": "Word Wrap",
+  "tr": "Word Wrap"
+ },{
+  "en": "Working directory",
+  "tr": "Arbetsbok"
+ },{
+  "en": "Wrap",
+  "tr": "Slå in"
+ },{
+  "en": "Wrap by character",
+  "tr": "Wrap efter karaktär"
+ },{
+  "en": "Wrap by word",
+  "tr": "Wrap by word"
+ },{
+  "en": "Wrap column",
+  "tr": "Wrap -kolumn"
+ },{
+  "en": "Wrap mode",
+  "tr": "Wrap -läge"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Wrap -symboler"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Fel huvudlösenord."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z -modem"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z -modem kan inte överföra mappar eller filer som är större än 4 GB: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 -autentiseringsprotokoll"
+ },{
+  "en": "X11 display",
+  "tr": "X11 display"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "År i två siffror"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "År i 4 siffror"
+ },{
+  "en": "Yes",
+  "tr": "Ja"
+ },{
+  "en": "Zero",
+  "tr": "Noll"
+ },{
+  "en": "Zoom",
+  "tr": "Zoom"
+ },{
+  "en": "Zoom In",
+  "tr": "Zooma in"
+ },{
+  "en": "Zoom level",
+  "tr": "Zoomnivå"
+ },{
+  "en": "Zoom Out",
+  "tr": "Zooma ut"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Kraschade i %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Tömma]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Fel: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Avslutad om %1s, utgångskod %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Avslutad om %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Grupplistan är tom]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Navigationslistan är tom]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Ingen sökmotor]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[De senaste webbadresserna är tomma]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Gör om listan är tom]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Schematlistan är tom]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Temalistan är tom]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Verktygsfältlistan är tom]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Ångra listan är tom]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Användaren avbruten]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[användare@] värdnamn"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows -listan är tom]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

@@ -1,0 +1,3513 @@
+{
+ "language": "Icelandic - íslenska",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Áætlun) verkfæri "
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 er ekki studd af %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 afritað"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 sótt"
+ },{
+  "en": "%1 File",
+  "tr": "%1 skrá"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 atriði mistókst"
+ },{
+  "en": "%1 items",
+  "tr": "%1 atriði"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 atriði mistókst"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 atriði/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 af %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 fjarlægt"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 þetta %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 hlaðið upp"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 Hraði: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 mistókst lykilorðatilraunir."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> Hefur <b> breyst </b> og <b> endurhlaðið </b>, afturköllun er <b> EKKI </b> leyfð fyrir stóra skrá."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> Hefur <b> breyst </b> og <b> endurhlaðið </b>, afturköllun er leyfð."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> Hefur <b> breyst </b>, viltu endurhlaða það?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> Hefur verið <b> flutt eða eytt </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) var ýtt. Bíð eftir fleiri lyklum"
+ },{
+  "en": "1 Char",
+  "tr": "1 stafr"
+ },{
+  "en": "16 Columns",
+  "tr": "16 dálkar"
+ },{
+  "en": "2 Chars",
+  "tr": "2 bleikjur"
+ },{
+  "en": "24 Columns",
+  "tr": "24 dálkar"
+ },{
+  "en": "32 Columns",
+  "tr": "32 dálkar"
+ },{
+  "en": "4 Chars",
+  "tr": "4 bleikjur"
+ },{
+  "en": "8 Chars",
+  "tr": "8 bleikjur"
+ },{
+  "en": "8 Columns",
+  "tr": "8 dálkar"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Aðal lykilorð er notað til að vernda viðkvæmar upplýsingar eins og SSH lykilorð."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Nafn ætti að vera minna en 255 stafir og má ekki innihalda neinn af eftirfarandi stöfum: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Fjarskrá hefur verið breytt. \nViltu senda þessa skrá aftur á netþjóninn?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Sérstök lota eða setur "
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Stytt mánaðarheiti"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Skammstafað virka daga nafn"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Samþykkja aðeins staðbundnar tengingar "
+ },{
+  "en": "Accessed",
+  "tr": "Aðgangur"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Virkja marga carets "
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Virkja næsta val "
+ },{
+  "en": "Activate Next View",
+  "tr": "Virkja næsta útsýni "
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Virkja fyrra val "
+ },{
+  "en": "Activate Previous View",
+  "tr": "Virkja fyrri sýn "
+ },{
+  "en": "Activate the left tab",
+  "tr": "Virkjaðu vinstri flipann"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Virkjaðu áður valinn flipa"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Virkjaðu hægri flipann"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Virkjaðu flipann eftir lokun "
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Virkjaðu flipann eftir að hafa haldið sveimi "
+ },{
+  "en": "Add",
+  "tr": "Bæta við "
+ },{
+  "en": "Add All",
+  "tr": "Bæta við öllu "
+ },{
+  "en": "Add Command",
+  "tr": "Bættu við skipun"
+ },{
+  "en": "Add Group",
+  "tr": "Bæta við hóp"
+ },{
+  "en": "Add Sender",
+  "tr": "Bæta við sendanda "
+ },{
+  "en": "Add Tab",
+  "tr": "Bæta við flipa"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Stilltu gluggaraðirnar og dálkana "
+ },{
+  "en": "Advanced Sort",
+  "tr": "Ítarlegri flokkun"
+ },{
+  "en": "Agent",
+  "tr": "Umboðsmaður"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Staðfesting umboðsmanns mistókst. Reyndu aðra aðferð"
+ },{
+  "en": "All",
+  "tr": "Allt "
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Öllum %1 fundum verður eytt. \nViltu halda áfram að flytja fundi inn?"
+ },{
+  "en": "All session output",
+  "tr": "Öll framleiðsla lotu "
+ },{
+  "en": "All Sessions",
+  "tr": "Allar lotur "
+ },{
+  "en": "All tabs",
+  "tr": "Allir flipar"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Annar bakgrunnslitur dálks "
+ },{
+  "en": "Alternate line background color",
+  "tr": "Bakgrunnslitur línu "
+ },{
+  "en": "Always On Top",
+  "tr": "Alltaf á toppnum "
+ },{
+  "en": "Always on top",
+  "tr": "Alltaf á toppnum"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Villa kom upp þegar reynt var að lesa úr %1 ferlinu."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Villa kom upp þegar reynt var að skrifa í ferlið %1."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Óþekkt villa kom upp í %1 ferli."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI til OEM "
+ },{
+  "en": "Answer back",
+  "tr": "Svaraðu aftur "
+ },{
+  "en": "Any",
+  "tr": "Einhver"
+ },{
+  "en": "Anything Palette",
+  "tr": "Anything Palette "
+ },{
+  "en": "Anywhere",
+  "tr": "Hvar sem er"
+ },{
+  "en": "Appearance",
+  "tr": "Útlit"
+ },{
+  "en": "Append",
+  "tr": "Bæta við"
+ },{
+  "en": "Append log file",
+  "tr": "Bæta við annál "
+ },{
+  "en": "Application",
+  "tr": "Umsókn"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Ertu viss um að þú viljir eyða %1 völdum atriðum?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Ertu viss um að þú viljir eyða atriðinu <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Ertu viss um að þú viljir endurhlaða núverandi skrá og missa breytingarnar sem gerðar voru á WindEdit?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Ertu viss um að þú viljir stöðva núverandi sendanda?"
+ },{
+  "en": "Arguments",
+  "tr": "Rök "
+ },{
+  "en": "At Caret",
+  "tr": "Á Caret "
+ },{
+  "en": "At End",
+  "tr": "Í lok "
+ },{
+  "en": "At Start",
+  "tr": "Við upphaf "
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Reyndu gssapi-með-mic auðkenningu "
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Reyndu lyklaborðs-gagnvirka auðkenningu "
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Tilraun til staðfestingar á keppni "
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Reyndu að auðkenna lykilorð "
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Reyndu opinbera lykilvottun "
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Reyndu staðfestingu ssh-umboðsmanns "
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Staðfest með árangri að hluta, reyndu aðra aðferð."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Staðfesting með %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Staðfesting með %1 og %2"
+ },{
+  "en": "Authentication",
+  "tr": "Auðkenning"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Staðfestingu hafnað, reyndu aftur."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Staðfesting mistókst. Reyndu aftur."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Loka sjálfkrafa HTML/XML merkjum "
+ },{
+  "en": "Auto login",
+  "tr": "Sjálfvirk innskráning"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Sjálfvirk innskráning mistókst. Reyndu aftur."
+ },{
+  "en": "Auto login next time",
+  "tr": "Sjálfvirk innskráning næst "
+ },{
+  "en": "Automatic",
+  "tr": "Sjálfvirk"
+ },{
+  "en": "automatic",
+  "tr": "sjálfvirkur"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Sjálfvirkar auðkenningaraðferðir"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Afritaðu valið sjálfkrafa "
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Uppgötva sjálfkrafa inndrátt "
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Snyrta fóðrið sjálfkrafa "
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Bakgrunnsmerki"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace "
+ },{
+  "en": "Backspace sends",
+  "tr": "Backspace sendir"
+ },{
+  "en": "Backward",
+  "tr": "Aftur á bak"
+ },{
+  "en": "Bars",
+  "tr": "Barir"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baud hlutfall "
+ },{
+  "en": "Beep When Finished",
+  "tr": "Píp þegar því er lokið"
+ },{
+  "en": "Binary",
+  "tr": "Tvöfaldur"
+ },{
+  "en": "Binary base",
+  "tr": "Tvöfaldur grunnur "
+ },{
+  "en": "Binary columns",
+  "tr": "Tvöfaldir dálkar "
+ },{
+  "en": "Binary devision columns",
+  "tr": "Dreifingar dálka "
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Tvöfaldir flokkaðir stafir "
+ },{
+  "en": "Black",
+  "tr": "Svartur"
+ },{
+  "en": "Blink",
+  "tr": "Blikk "
+ },{
+  "en": "blinking block",
+  "tr": "blikkandi blokk"
+ },{
+  "en": "blinking line",
+  "tr": "blikkandi lína"
+ },{
+  "en": "blinking rectangle",
+  "tr": "blikkandi rétthyrningur"
+ },{
+  "en": "blinking underLine",
+  "tr": "blikkandi undir línu"
+ },{
+  "en": "Block",
+  "tr": "Block"
+ },{
+  "en": "block",
+  "tr": "blokk"
+ },{
+  "en": "Bold",
+  "tr": "Djarfur"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Djörf letur gefur til kynna leturgerðir með fastri breidd"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Neðstu hafnar "
+ },{
+  "en": "Bottom Group",
+  "tr": "Neðsti hópur "
+ },{
+  "en": "Browse",
+  "tr": "Vafra"
+ },{
+  "en": "Browse Directory",
+  "tr": "Skoðaðu Directory"
+ },{
+  "en": "Browse File",
+  "tr": "Skoða skrá"
+ },{
+  "en": "Browser",
+  "tr": "Vafri "
+ },{
+  "en": "Build",
+  "tr": "Smíða "
+ },{
+  "en": "By",
+  "tr": "Eftir"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Reikna"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Get ekki fundið viðeigandi forrit til að opna skrá: \n%1 \nPrófaðu að nota sjálfgefinn ritstjóra til að opna hana."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Get ekki búið til skrá %1."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Get ekki búið til skrá %1."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Get ekki búið til tengil %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Ekki er hægt að fjarlægja möppuna %1."
+ },{
+  "en": "Cancel",
+  "tr": "Hætta við"
+ },{
+  "en": "Cancel Build",
+  "tr": "Hætta við smíði "
+ },{
+  "en": "Cancel Selection",
+  "tr": "Hætta við val "
+ },{
+  "en": "Caret",
+  "tr": "Caret"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret Style "
+ },{
+  "en": "Carriage Return",
+  "tr": "Flutningaskil"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Fallnæmur"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup "
+ },{
+  "en": "Change Master Password",
+  "tr": "Breyta aðal lykilorði "
+ },{
+  "en": "Change master password",
+  "tr": "Breyttu aðal lykilorði"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Mistókst að breyta aðal lykilorði."
+ },{
+  "en": "Change the tab title",
+  "tr": "Breyttu titli flipans "
+ },{
+  "en": "Changed",
+  "tr": "Breytt"
+ },{
+  "en": "Channel",
+  "tr": "Rás"
+ },{
+  "en": "Char",
+  "tr": "Bleikja "
+ },{
+  "en": "Char Left",
+  "tr": "Bleikja vinstri "
+ },{
+  "en": "Char Right",
+  "tr": "Bleikja hægri "
+ },{
+  "en": "Character spacing",
+  "tr": "Bilstöf "
+ },{
+  "en": "character width",
+  "tr": "stafbreidd"
+ },{
+  "en": "Charset",
+  "tr": "Táknmynd "
+ },{
+  "en": "Choose a default editor",
+  "tr": "Veldu sjálfgefinn ritstjóra"
+ },{
+  "en": "Ciphers",
+  "tr": "Dulmál"
+ },{
+  "en": "Ciphers order",
+  "tr": "Chiphers panta "
+ },{
+  "en": "Clear",
+  "tr": "Hreinsa"
+ },{
+  "en": "Clear All",
+  "tr": "Hreinsa allt "
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Hreinsa nýlegar slóðir "
+ },{
+  "en": "Clear Screen",
+  "tr": "Hreinsa skjá "
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Hreinsa skrun "
+ },{
+  "en": "Clear Sender",
+  "tr": "Hreinsa sendanda "
+ },{
+  "en": "Click event",
+  "tr": "Smelltu á viðburð "
+ },{
+  "en": "Close",
+  "tr": "Loka"
+ },{
+  "en": "Close All Views",
+  "tr": "Loka öllum skoðunum "
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Loka öllum skoðunum en virkum "
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Loka öllum skoðunum til hægri "
+ },{
+  "en": "Close And Exit",
+  "tr": "Loka og hætta"
+ },{
+  "en": "Close Channel",
+  "tr": "Loka rás "
+ },{
+  "en": "Close Dock",
+  "tr": "Loka bryggju"
+ },{
+  "en": "Close Group",
+  "tr": "Loka hóp"
+ },{
+  "en": "Close Session",
+  "tr": "Loka fundi"
+ },{
+  "en": "Close Tab",
+  "tr": "Loka flipa"
+ },{
+  "en": "Close tab",
+  "tr": "Loka flipa"
+ },{
+  "en": "Close View",
+  "tr": "Loka útsýni "
+ },{
+  "en": "Close Window",
+  "tr": "Loka glugga "
+ },{
+  "en": "Color",
+  "tr": "Litur "
+ },{
+  "en": "Column Edit",
+  "tr": "Breyta dálki "
+ },{
+  "en": "Column Marker",
+  "tr": "Dálkamerki"
+ },{
+  "en": "Columns",
+  "tr": "Dálkar "
+ },{
+  "en": "columns",
+  "tr": "dálka"
+ },{
+  "en": "Command",
+  "tr": "Skipun "
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Stjórnborð "
+ },{
+  "en": "Comment",
+  "tr": "Athugasemd "
+ },{
+  "en": "Comment Selection",
+  "tr": "Val á ummælum "
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Val á ummælum (blokkastilling) "
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Athugasemdaval (línustilling) "
+ },{
+  "en": "Complete Word",
+  "tr": "Heill orð "
+ },{
+  "en": "Config",
+  "tr": "Config"
+ },{
+  "en": "Confirm Password",
+  "tr": "Staðfesta lykilorð"
+ },{
+  "en": "Confirm password",
+  "tr": "Staðfesta lykilorð"
+ },{
+  "en": "Connect",
+  "tr": "Tengjast"
+ },{
+  "en": "Connection",
+  "tr": "Tenging"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Samhengi"
+ },{
+  "en": "Continue",
+  "tr": "Áfram"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Breyta CRLF og LF í CR "
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Breyta flipa í bil "
+ },{
+  "en": "copied",
+  "tr": "afritað"
+ },{
+  "en": "Copy",
+  "tr": "Afrita"
+ },{
+  "en": "copy",
+  "tr": "afrit"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Afrita og líma "
+ },{
+  "en": "Copy File Name",
+  "tr": "Afrita skráarnafn "
+ },{
+  "en": "Copy File Path",
+  "tr": "Afrita skráarslóð "
+ },{
+  "en": "Copy from",
+  "tr": "Afrita úr "
+ },{
+  "en": "Copy names",
+  "tr": "Afritaðu nöfn "
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Afritaðu nöfn í flugstöð "
+ },{
+  "en": "Copy Output",
+  "tr": "Afritunarútgangur "
+ },{
+  "en": "Copy paths",
+  "tr": "Afrita slóðir "
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Afritaðu slóðir í flugstöð "
+ },{
+  "en": "Copy Session Name",
+  "tr": "Afrita heiti fundar "
+ },{
+  "en": "Copy Session Url",
+  "tr": "Afrita fundarslóð "
+ },{
+  "en": "Copy to",
+  "tr": "Afrita í "
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Afrita í flugstöð "
+ },{
+  "en": "Count",
+  "tr": "Telja"
+ },{
+  "en": "Create Directory",
+  "tr": "Búa til skráasafn"
+ },{
+  "en": "Create File",
+  "tr": "Búa til skrá"
+ },{
+  "en": "Create Link",
+  "tr": "Búa til tengil"
+ },{
+  "en": "Created",
+  "tr": "Búið til"
+ },{
+  "en": "Critical",
+  "tr": "Gagnrýnin"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Núverandi fundur"
+ },{
+  "en": "Custom",
+  "tr": "Sérsniðin"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Sérsniðin ógagnsæi "
+ },{
+  "en": "Customize",
+  "tr": "Sérsníða "
+ },{
+  "en": "Cut",
+  "tr": "Skera "
+ },{
+  "en": "Dark Cyan",
+  "tr": "Dökkbláan "
+ },{
+  "en": "Data",
+  "tr": "Gögn "
+ },{
+  "en": "Data Bits",
+  "tr": "Gagnabitar "
+ },{
+  "en": "Datetime format",
+  "tr": "Dagsetningarsnið "
+ },{
+  "en": "Day of month",
+  "tr": "Dagur mánaðar"
+ },{
+  "en": "Debug Mode",
+  "tr": "Kembiforrit "
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Minnka línuinndrátt "
+ },{
+  "en": "Deep Pink",
+  "tr": "Djúpbleikt "
+ },{
+  "en": "default",
+  "tr": "sjálfgefið"
+ },{
+  "en": "Default editor",
+  "tr": "Sjálfgefinn ritstjóri"
+ },{
+  "en": "Default Font",
+  "tr": "Sjálfgefið leturgerð"
+ },{
+  "en": "Default line ending",
+  "tr": "Sjálfgefin línaendi "
+ },{
+  "en": "Delete",
+  "tr": "Eyða "
+ },{
+  "en": "Delete sends",
+  "tr": "Eyða sendum"
+ },{
+  "en": "deleted",
+  "tr": "eytt"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Áfangastjóri "
+ },{
+  "en": "Destination Port",
+  "tr": "Áfangastaður "
+ },{
+  "en": "Dir",
+  "tr": "Leikstjóri"
+ },{
+  "en": "dir",
+  "tr": "leikstjóri"
+ },{
+  "en": "Directory",
+  "tr": "Skrá"
+ },{
+  "en": "Directory Link",
+  "tr": "Skráatengill"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Slökkva á reiknirit Nagle (valkostur TCP_NODELAY) "
+ },{
+  "en": "Disconnect Session",
+  "tr": "Aftengja fund "
+ },{
+  "en": "Disk",
+  "tr": "Diskur"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Ekki bergmálast á stafina"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Viltu loka núverandi fundi?"
+ },{
+  "en": "Document",
+  "tr": "Skjal "
+ },{
+  "en": "Don't show this message again",
+  "tr": "Ekki sýna þessi skilaboð aftur"
+ },{
+  "en": "Double click",
+  "tr": "Tvísmella "
+ },{
+  "en": "Double click event",
+  "tr": "Tvöfaldur smellur atburður "
+ },{
+  "en": "Download",
+  "tr": "Sækja "
+ },{
+  "en": "download",
+  "tr": "sækja"
+ },{
+  "en": "Download directory",
+  "tr": "Sæktu skrá "
+ },{
+  "en": "downloaded",
+  "tr": "sótt"
+ },{
+  "en": "Drop Selection",
+  "tr": "Sleppa vali "
+ },{
+  "en": "Duplicate",
+  "tr": "Afrit"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Tvítekið skipun"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Tvítekið útsýni "
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dynamísk áframsending"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Bergmál hver stafur inn"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Bergmál af hverjum staf þegar þú vinnur"
+ },{
+  "en": "Echo random characters",
+  "tr": "Bergmál af handahófi stöfum"
+ },{
+  "en": "Edit",
+  "tr": "Breyta"
+ },{
+  "en": "Editor",
+  "tr": "Ritstjóri"
+ },{
+  "en": "editor",
+  "tr": "ritstjóri"
+ },{
+  "en": "Editor Settings",
+  "tr": "Stillingar ritstjóra"
+ },{
+  "en": "Elapsed",
+  "tr": "Liðinn"
+ },{
+  "en": "Elide left",
+  "tr": "Elide fór"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide miðja"
+ },{
+  "en": "Elide right",
+  "tr": "Elide rétt"
+ },{
+  "en": "Empty",
+  "tr": "Tómt"
+ },{
+  "en": "Enable command mode",
+  "tr": "Virkja skipunarham "
+ },{
+  "en": "Enable local mode",
+  "tr": "Virkja staðbundna stillingu "
+ },{
+  "en": "Enable SFTP",
+  "tr": "Virkja SFTP "
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Virkja TCP keepalives (SO_KEEPALIVE valkostur) "
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Virkja sýndarrými "
+ },{
+  "en": "End Of Document",
+  "tr": "Lok skjals "
+ },{
+  "en": "End Of Line",
+  "tr": "End Of Line "
+ },{
+  "en": "End Of Pair",
+  "tr": "Endapar "
+ },{
+  "en": "Engine",
+  "tr": "Vél"
+ },{
+  "en": "Environment Variable",
+  "tr": "Umhverfisbreytileg"
+ },{
+  "en": "Environment variables",
+  "tr": "Umhverfisbreytur "
+ },{
+  "en": "Error",
+  "tr": "Villa"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Skiptu um húsvörð og akkeri "
+ },{
+  "en": "Execute",
+  "tr": "Framkvæma "
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Framkvæma skipun eftir auðkenningu "
+ },{
+  "en": "Execute command after start",
+  "tr": "Framkvæma skipun eftir upphaf "
+ },{
+  "en": "Execute File",
+  "tr": "Framkvæma skrá"
+ },{
+  "en": "Exit",
+  "tr": "Hætta "
+ },{
+  "en": "Expand",
+  "tr": "Stækka"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Stækka bút "
+ },{
+  "en": "Explorer",
+  "tr": "Könnuður"
+ },{
+  "en": "External Tools",
+  "tr": "Ytri tæki "
+ },{
+  "en": "External X display",
+  "tr": "Ytri X skjár "
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Mistókst að búa til tímabundna skrá: \n%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Mistókst að opna möppu: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Mistókst að sækja fingrafar gestgjafa!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Mistókst að hlaða upp skrá: %1, \nSkráin er kannski ekki til eða hefur ekki leyfi til að opna hana."
+ },{
+  "en": "Fast",
+  "tr": "Hratt"
+ },{
+  "en": "Favorites",
+  "tr": "Uppáhald "
+ },{
+  "en": "Features",
+  "tr": "Lögun"
+ },{
+  "en": "File",
+  "tr": "Skrá"
+ },{
+  "en": "file",
+  "tr": "skrá"
+ },{
+  "en": "File Link",
+  "tr": "Skráatengill"
+ },{
+  "en": "File Name",
+  "tr": "Skráarnafn "
+ },{
+  "en": "File name",
+  "tr": "Skráarnafn"
+ },{
+  "en": "File Path",
+  "tr": "Skráarslóð "
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "skjalavörður"
+ },{
+  "en": "Filter",
+  "tr": "Sía"
+ },{
+  "en": "Find",
+  "tr": "Finndu "
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Finna allt "
+ },{
+  "en": "Find in Files",
+  "tr": "Finna í skrám "
+ },{
+  "en": "Find Next",
+  "tr": "Finndu næsta "
+ },{
+  "en": "Find Next Selection",
+  "tr": "Finndu næsta úrval "
+ },{
+  "en": "Find Previous",
+  "tr": "Finna fyrri "
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Finna fyrra úrval "
+ },{
+  "en": "Fingerprint",
+  "tr": "Fingraför"
+ },{
+  "en": "First nine tabs",
+  "tr": "Fyrstu níu fliparnir"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Flota "
+ },{
+  "en": "Flow Control",
+  "tr": "Flæðistjórnun "
+ },{
+  "en": "Focus Mode",
+  "tr": "Fókusstilling"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Fókusstillingar "
+ },{
+  "en": "Fold",
+  "tr": "Fold "
+ },{
+  "en": "Fold All",
+  "tr": "Brjóta allt saman "
+ },{
+  "en": "Fold Category",
+  "tr": "Brjóta flokk "
+ },{
+  "en": "Fold Inside",
+  "tr": "Fold innan "
+ },{
+  "en": "Folds",
+  "tr": "Fold "
+ },{
+  "en": "Font",
+  "tr": "Leturgerð"
+ },{
+  "en": "Font family",
+  "tr": "Leturfjölskylda"
+ },{
+  "en": "Font size",
+  "tr": "Leturstærð "
+ },{
+  "en": "Font weight",
+  "tr": "Leturþyngd "
+ },{
+  "en": "Forest Green",
+  "tr": "Forest Green "
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Sniðval "
+ },{
+  "en": "Found",
+  "tr": "Fundið"
+ },{
+  "en": "Full month name",
+  "tr": "Heilt mánaðar nafn"
+ },{
+  "en": "Full Screen",
+  "tr": "Full skjár "
+ },{
+  "en": "Full screen",
+  "tr": "Fullur skjár"
+ },{
+  "en": "Full weekday name",
+  "tr": "Fullt nafn virka daga"
+ },{
+  "en": "Go Backward",
+  "tr": "Fara afturábak "
+ },{
+  "en": "Go Forward",
+  "tr": "Áfram "
+ },{
+  "en": "Go to",
+  "tr": "Fara til"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Farðu í tákn í núverandi sýn"
+ },{
+  "en": "Goldenrod",
+  "tr": "Goldenrod "
+ },{
+  "en": "Goto",
+  "tr": "Farið"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Farðu á heimilisfangastikuna "
+ },{
+  "en": "Goto File",
+  "tr": "Farið í skrá "
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Farið í hausinn "
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Farðu í hausinn fyrir næstu brjóta "
+ },{
+  "en": "Goto Position",
+  "tr": "Farið í stöðu "
+ },{
+  "en": "Goto Session",
+  "tr": "Farið á fund "
+ },{
+  "en": "Goto Symbol",
+  "tr": "Farið á tákn "
+ },{
+  "en": "Group",
+  "tr": "Hópur"
+ },{
+  "en": "Group %1",
+  "tr": "Hópur %1"
+ },{
+  "en": "Groups",
+  "tr": "Hópar"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi Með Mic"
+ },{
+  "en": "Hard Reset",
+  "tr": "Harður endurstilla "
+ },{
+  "en": "Help",
+  "tr": "Hjálp "
+ },{
+  "en": "Hex",
+  "tr": "Hex "
+ },{
+  "en": "Hex Base",
+  "tr": "Hex Base "
+ },{
+  "en": "Hex Columns",
+  "tr": "Hex dálkar "
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex Edit "
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex Group bleikjur "
+ },{
+  "en": "Hidden",
+  "tr": "Falið"
+ },{
+  "en": "Hide",
+  "tr": "Fela"
+ },{
+  "en": "Hide All",
+  "tr": "Fela allt "
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Fela bendil þegar þú slærð "
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Fela texta"
+ },{
+  "en": "Highlight",
+  "tr": "Hápunktur"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Leggðu áherslu á Caret Line "
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Hápunktur samsvörunarpar "
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Leggðu áherslu á upphafslínu "
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Leggðu áherslu á leturorðið "
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Merktu við núverandi fellingu "
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Merktu við núverandi par "
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Leggðu áherslu á stigvaxandi leit "
+ },{
+  "en": "History",
+  "tr": "Saga"
+ },{
+  "en": "Home Of Line",
+  "tr": "Home Of Line "
+ },{
+  "en": "Host",
+  "tr": "Gestgjafi"
+ },{
+  "en": "Host address",
+  "tr": "Vistfang gestgjafa"
+ },{
+  "en": "Host Based",
+  "tr": "Gestgjafi byggður"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Tímar í 12 sniði"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Tímar í 24 sniði"
+ },{
+  "en": "Http proxy",
+  "tr": "HTTP umboð "
+ },{
+  "en": "Huge File",
+  "tr": "Stór skrá"
+ },{
+  "en": "Icon",
+  "tr": "Tákn"
+ },{
+  "en": "Identity file",
+  "tr": "Kennimyndaskrá "
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Persónuskilríki til staðfestingar "
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Ef þú býrð til aðal lykilorð verður þú beðinn um að slá það inn þegar WindTerm sækir vistaðar upplýsingar sem verndaðar eru með aðal lykilorðinu."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Ef þú gleymir aðal lykilorðinu þínu muntu ekki geta nálgast upplýsingarnar sem það verndar."
+ },{
+  "en": "Import",
+  "tr": "Flytja inn "
+ },{
+  "en": "Import sessions",
+  "tr": "Flytja inn fundi"
+ },{
+  "en": "In Selection",
+  "tr": "Í úrvali"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Auka línuinndrátt "
+ },{
+  "en": "Incremental",
+  "tr": "Stigvaxandi"
+ },{
+  "en": "Indent",
+  "tr": "Inndráttur"
+ },{
+  "en": "Indent guide style",
+  "tr": "Leiðbeiningarstíll "
+ },{
+  "en": "Indent Guides",
+  "tr": "Inndráttarleiðbeiningar "
+ },{
+  "en": "Indent size",
+  "tr": "Inndráttar stærð "
+ },{
+  "en": "Indentation",
+  "tr": "Inndráttur"
+ },{
+  "en": "Indian Red",
+  "tr": "Indian Red "
+ },{
+  "en": "Information",
+  "tr": "Upplýsingar"
+ },{
+  "en": "Insert",
+  "tr": "Setja inn "
+ },{
+  "en": "Insert File",
+  "tr": "Settu inn skrá"
+ },{
+  "en": "Insert Lines",
+  "tr": "Setja inn línur "
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Settu flipann inn þegar ýtt er á TAB takkann "
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Setja inn og eyða hvítu bili fylgir flipastoppum "
+ },{
+  "en": "Inserting file",
+  "tr": "Setur inn skrá"
+ },{
+  "en": "Internal X display",
+  "tr": "Innri X skjár "
+ },{
+  "en": "Interval",
+  "tr": "Bil "
+ },{
+  "en": "Invert Selection",
+  "tr": "Snúa vali við "
+ },{
+  "en": "item failed",
+  "tr": "atriði mistókst"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "atriði mistókst"
+ },{
+  "en": "Join Channel A",
+  "tr": "Skráðu þig á rás A "
+ },{
+  "en": "Join Channel B",
+  "tr": "Skráðu þig á rás B "
+ },{
+  "en": "Join Channel C",
+  "tr": "Skráðu þig á rás C "
+ },{
+  "en": "Join Channel D",
+  "tr": "Skráðu þig á rás D "
+ },{
+  "en": "Join Lines",
+  "tr": "Join Lines "
+ },{
+  "en": "Joined",
+  "tr": "Skráður"
+ },{
+  "en": "Jump Server",
+  "tr": "Jump Server"
+ },{
+  "en": "Jump server",
+  "tr": "Jump miðlara"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Stökkþjónar "
+ },{
+  "en": "Key Exchange",
+  "tr": "Lyklaskipti"
+ },{
+  "en": "Key exchange order",
+  "tr": "Lyklaskiptapöntun "
+ },{
+  "en": "Key re-exchange",
+  "tr": "Endurnýjun lykla"
+ },{
+  "en": "Keyboard",
+  "tr": "Lyklaborð"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Lyklaborð gagnvirkt"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit Bar"
+ },{
+  "en": "Known",
+  "tr": "Þekkt"
+ },{
+  "en": "Label",
+  "tr": "Merki"
+ },{
+  "en": "Language",
+  "tr": "Tungumál "
+ },{
+  "en": "Last sessions",
+  "tr": "Síðustu lotur "
+ },{
+  "en": "Layout",
+  "tr": "Skipulag"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Leiðarljós "
+ },{
+  "en": "Leading Blanks",
+  "tr": "Fremstu eyður "
+ },{
+  "en": "Leading position",
+  "tr": "Leiðandi staða"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Skildu eftir öllum rásum "
+ },{
+  "en": "Leave all channels",
+  "tr": "Farðu frá öllum rásum"
+ },{
+  "en": "Leave Channel",
+  "tr": "Farðu frá rás "
+ },{
+  "en": "Left Docks",
+  "tr": "Vinstri bryggjur "
+ },{
+  "en": "Left Group",
+  "tr": "Vinstri hópur "
+ },{
+  "en": "Light",
+  "tr": "Ljós"
+ },{
+  "en": "Line",
+  "tr": "Lína"
+ },{
+  "en": "line",
+  "tr": "línu"
+ },{
+  "en": "line at a time",
+  "tr": "línu í einu"
+ },{
+  "en": "Line Down",
+  "tr": "Lína niður "
+ },{
+  "en": "Line Ending",
+  "tr": "Línulok"
+ },{
+  "en": "Line Endings",
+  "tr": "Línulok "
+ },{
+  "en": "Line Feed",
+  "tr": "Line Feed"
+ },{
+  "en": "line height",
+  "tr": "línuhæð"
+ },{
+  "en": "Line marker",
+  "tr": "Línumerki"
+ },{
+  "en": "Line spacing",
+  "tr": "Línubil "
+ },{
+  "en": "Line Up",
+  "tr": "Uppstilling "
+ },{
+  "en": "lines at a time",
+  "tr": "línur í einu"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Línur til baka "
+ },{
+  "en": "Link",
+  "tr": "Tengill "
+ },{
+  "en": "Link to",
+  "tr": "Tengill á"
+ },{
+  "en": "List Tab",
+  "tr": "Listaflipi"
+ },{
+  "en": "Listen Port",
+  "tr": "Hlustaðu höfn "
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Framsending á staðnum"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Finndu skilaboð "
+ },{
+  "en": "Location",
+  "tr": "Staðsetning"
+ },{
+  "en": "Lock Screen",
+  "tr": "Læsa skjá"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Tímamörk fyrir læsiskjá "
+ },{
+  "en": "Lock Selection",
+  "tr": "Lásaval "
+ },{
+  "en": "Log",
+  "tr": "Log "
+ },{
+  "en": "Log all session output",
+  "tr": "Skráðu öll vinnslufund "
+ },{
+  "en": "Log content pattern",
+  "tr": "Innihaldsmynstur "
+ },{
+  "en": "Log Dialog",
+  "tr": "Log Dialog"
+ },{
+  "en": "Log file",
+  "tr": "Log skrá "
+ },{
+  "en": "Log file name",
+  "tr": "Nafn skrár "
+ },{
+  "en": "Log maximum size",
+  "tr": "Hámarksstærð logs "
+ },{
+  "en": "Log nothing",
+  "tr": "Skrá ekkert "
+ },{
+  "en": "Log option",
+  "tr": "Log valkostur"
+ },{
+  "en": "Log options",
+  "tr": "Log valkostir"
+ },{
+  "en": "Log pattern",
+  "tr": "Logmynstur "
+ },{
+  "en": "Log printable output",
+  "tr": "Prentvæn útgangur "
+ },{
+  "en": "Log type",
+  "tr": "Tegund logs"
+ },{
+  "en": "Log types",
+  "tr": "Loggerðir"
+ },{
+  "en": "Logging",
+  "tr": "Skógarhögg"
+ },{
+  "en": "Login",
+  "tr": "Skrá inn"
+ },{
+  "en": "Login Wizard",
+  "tr": "Innskráningarhjálpari"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Langur tími/dagsetning "
+ },{
+  "en": "Look both guide",
+  "tr": "Horfðu á báðar leiðbeiningarnar"
+ },{
+  "en": "Look forward guide",
+  "tr": "Hlakka til leiðsögumaður"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC Hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC raðað röð "
+ },{
+  "en": "Margin Blank",
+  "tr": "Framlegðarmörk "
+ },{
+  "en": "Margin Fold",
+  "tr": "Framlegð "
+ },{
+  "en": "Margin Number",
+  "tr": "Framlegð "
+ },{
+  "en": "Margin Symbol",
+  "tr": "Framlegðartákn "
+ },{
+  "en": "Margin Text",
+  "tr": "Framlegðartexti "
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Framlegð tímamerki "
+ },{
+  "en": "Margins",
+  "tr": "Framlegðir "
+ },{
+  "en": "Marker style",
+  "tr": "Merkistíll "
+ },{
+  "en": "Master Password",
+  "tr": "Aðal lykilorð"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Hámarks gögn fyrir endurhleðslu (MBytes) "
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Hámarks tími fyrir endurhlaup (mínútur) "
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Hámarks tími fyrir tengingu "
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Miðlungs"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Medium Orchid "
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Miðblár blár "
+ },{
+  "en": "Menu Bar",
+  "tr": "Matseðill"
+ },{
+  "en": "Merge To Group",
+  "tr": "Sameinast í hóp "
+ },{
+  "en": "Middle click",
+  "tr": "Miðsmellur "
+ },{
+  "en": "Middle click event",
+  "tr": "Viðburður í miðsmelli "
+ },{
+  "en": "Milliseconds",
+  "tr": "Millisekúndur"
+ },{
+  "en": "Minutes",
+  "tr": "Fundargerð"
+ },{
+  "en": "minutes",
+  "tr": "mínútur"
+ },{
+  "en": "Mismatched",
+  "tr": "Ósamræmi"
+ },{
+  "en": "Mode",
+  "tr": "Mode"
+ },{
+  "en": "Modem waiting",
+  "tr": "Mótald bíður"
+ },{
+  "en": "Modes",
+  "tr": "Aðferðir"
+ },{
+  "en": "Modified",
+  "tr": "Breytt"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Breyta "
+ },{
+  "en": "Modify Lines",
+  "tr": "Breyta línum "
+ },{
+  "en": "Month",
+  "tr": "Mánuður"
+ },{
+  "en": "More",
+  "tr": "Meira "
+ },{
+  "en": "Mouse Actions",
+  "tr": "Músaraðgerðir"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Mælingar mælingar"
+ },{
+  "en": "Move Down",
+  "tr": "Færðu þig niður"
+ },{
+  "en": "Move event",
+  "tr": "Færa viðburð "
+ },{
+  "en": "Move to",
+  "tr": "Flytja til"
+ },{
+  "en": "Move To Group",
+  "tr": "Færa í hóp "
+ },{
+  "en": "Move Up",
+  "tr": "Fara upp"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Margfeldi caret "
+ },{
+  "en": "Name",
+  "tr": "Nafn"
+ },{
+  "en": "nesting groups",
+  "tr": "hreiðurhópa"
+ },{
+  "en": "Never",
+  "tr": "Aldrei"
+ },{
+  "en": "New directory",
+  "tr": "Ný skrá "
+ },{
+  "en": "New File",
+  "tr": "Ný skrá "
+ },{
+  "en": "New file",
+  "tr": "Ný skrá "
+ },{
+  "en": "New Line",
+  "tr": "Ný lína "
+ },{
+  "en": "New link",
+  "tr": "Nýr tengill "
+ },{
+  "en": "New password",
+  "tr": "Nýtt lykilorð"
+ },{
+  "en": "New Session",
+  "tr": "Ný fundur"
+ },{
+  "en": "New Window",
+  "tr": "Nýr gluggi "
+ },{
+  "en": "Next Char",
+  "tr": "Næsta bleikja "
+ },{
+  "en": "Next Fold",
+  "tr": "Næsta brot "
+ },{
+  "en": "Next Indentation",
+  "tr": "Næsta inndráttur "
+ },{
+  "en": "Next Line",
+  "tr": "Næsta lína "
+ },{
+  "en": "Next Message",
+  "tr": "Næstu skilaboð "
+ },{
+  "en": "Next Page",
+  "tr": "Næsta síða "
+ },{
+  "en": "Next Pair",
+  "tr": "Næsta par "
+ },{
+  "en": "Next Paragraph",
+  "tr": "Næsta málsgrein "
+ },{
+  "en": "Next Scope",
+  "tr": "Næsta gildissvið "
+ },{
+  "en": "Next Segment End",
+  "tr": "Lok næsta hluta "
+ },{
+  "en": "Next Segment Start",
+  "tr": "Byrjun næsta hluta "
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Næsta stamaða síða "
+ },{
+  "en": "Next Word",
+  "tr": "Næsta orð "
+ },{
+  "en": "Next Word End",
+  "tr": "Næsta orðalok "
+ },{
+  "en": "Next Word Part",
+  "tr": "Næsta orðshluti "
+ },{
+  "en": "No",
+  "tr": "Nei"
+ },{
+  "en": "No action",
+  "tr": "Engin aðgerð"
+ },{
+  "en": "No Dirs",
+  "tr": "Engir leikstjórar"
+ },{
+  "en": "No elide",
+  "tr": "Engin flótti"
+ },{
+  "en": "No file opened",
+  "tr": "Engin skrá opnuð"
+ },{
+  "en": "No filer available",
+  "tr": "Enginn skjalavist í boði"
+ },{
+  "en": "No Files",
+  "tr": "Engar skrár"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Engar skrár valdar til að flytja."
+ },{
+  "en": "No item opened",
+  "tr": "Enginn hlutur opnaður"
+ },{
+  "en": "No outline available",
+  "tr": "Engin útlínur í boði"
+ },{
+  "en": "No proxy",
+  "tr": "Enginn umboð "
+ },{
+  "en": "No session",
+  "tr": "Engin lota "
+ },{
+  "en": "No session available",
+  "tr": "Engin fundur í boði"
+ },{
+  "en": "No session opened",
+  "tr": "Engin fundur opnaður"
+ },{
+  "en": "No Sessions",
+  "tr": "Engar lotur"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Engar studdar auðkenningaraðferðir tiltækar."
+ },{
+  "en": "No transfer available",
+  "tr": "Engin millifærsla í boði"
+ },{
+  "en": "No wrap",
+  "tr": "Engin umbúðir"
+ },{
+  "en": "No X display",
+  "tr": "Engin X skjár "
+ },{
+  "en": "None",
+  "tr": "Enginn"
+ },{
+  "en": "None tabs",
+  "tr": "Enginn flipi"
+ },{
+  "en": "Normal",
+  "tr": "Venjulegt"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Nú"
+ },{
+  "en": "Nowhere",
+  "tr": "Hvergi"
+ },{
+  "en": "Octal",
+  "tr": "Octal "
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM til ANSI "
+ },{
+  "en": "Off",
+  "tr": "Af"
+ },{
+  "en": "off",
+  "tr": "af"
+ },{
+  "en": "Ok",
+  "tr": "Ok"
+ },{
+  "en": "Old",
+  "tr": "Gamall"
+ },{
+  "en": "Old password",
+  "tr": "Gamalt lykilorð"
+ },{
+  "en": "Olive",
+  "tr": "Ólífa "
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Ein eða fleiri fundir eru að opnast, \nViltu loka núverandi glugga?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Aðeins er hægt að endurhlaða diskaskrá!"
+ },{
+  "en": "Only indentation",
+  "tr": "Aðeins innskot"
+ },{
+  "en": "Opaque",
+  "tr": "Ógagnsæ"
+ },{
+  "en": "Open",
+  "tr": "Opið "
+ },{
+  "en": "open",
+  "tr": "opið"
+ },{
+  "en": "Open directory after created",
+  "tr": "Opna skrá eftir að búið er til "
+ },{
+  "en": "Open directory after download",
+  "tr": "Opna skrá eftir niðurhal "
+ },{
+  "en": "Open File",
+  "tr": "Opna skrá "
+ },{
+  "en": "Open file",
+  "tr": "Opna skrá"
+ },{
+  "en": "Open file after created",
+  "tr": "Opna skrá eftir að búið er til "
+ },{
+  "en": "Open file failed!",
+  "tr": "Opna skrá mistókst!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Opinn stökkþjónn mistókst!"
+ },{
+  "en": "Open Log File",
+  "tr": "Opna annál "
+ },{
+  "en": "Open Log Folder",
+  "tr": "Opna annálsmöppu "
+ },{
+  "en": "Open Recent",
+  "tr": "Opna nýlegt "
+ },{
+  "en": "Open Selection",
+  "tr": "Opið val "
+ },{
+  "en": "Open Session",
+  "tr": "Opið fundur "
+ },{
+  "en": "Open session failed!",
+  "tr": "Opinn fundur mistókst!"
+ },{
+  "en": "Open target directory",
+  "tr": "Opna markaskrá "
+ },{
+  "en": "Open with default editor",
+  "tr": "Opnað með sjálfgefnum ritstjóra "
+ },{
+  "en": "Opened",
+  "tr": "Opnað"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh fundir "
+ },{
+  "en": "Others",
+  "tr": "Aðrir"
+ },{
+  "en": "Outline",
+  "tr": "Yfirlit"
+ },{
+  "en": "Output",
+  "tr": "Framleiðsla"
+ },{
+  "en": "Overtype",
+  "tr": "Yfirtegund "
+ },{
+  "en": "Overwrite",
+  "tr": "Skrifa yfir"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Yfirskrifa annál "
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Skrifa yfir þegar heimildaskrá er nýrri"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Skrifa yfir þegar heimildaskrá er nýrri eða lengri"
+ },{
+  "en": "Owner",
+  "tr": "Eigandi"
+ },{
+  "en": "Packet padding char",
+  "tr": "Pakkapúði "
+ },{
+  "en": "Packet size",
+  "tr": "Pakkastærð"
+ },{
+  "en": "Page",
+  "tr": "Síða "
+ },{
+  "en": "page",
+  "tr": "síðu"
+ },{
+  "en": "Pair",
+  "tr": "Para "
+ },{
+  "en": "Panes",
+  "tr": "Gluggar"
+ },{
+  "en": "Paragraph",
+  "tr": "Málsgrein "
+ },{
+  "en": "Parity",
+  "tr": "Jafnrétti "
+ },{
+  "en": "Passphrase",
+  "tr": "Lykilorð "
+ },{
+  "en": "Password",
+  "tr": "Lykilorð"
+ },{
+  "en": "Password quality meter",
+  "tr": "Gæðamælir lykilorð"
+ },{
+  "en": "Paste",
+  "tr": "Líma"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Líma valmynd"
+ },{
+  "en": "Paste text",
+  "tr": "Líma texta"
+ },{
+  "en": "Pause",
+  "tr": "Gera hlé "
+ },{
+  "en": "Paused",
+  "tr": "Hlé"
+ },{
+  "en": "Pausing",
+  "tr": "Hlé"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Framkvæma DNS leit með umboð "
+ },{
+  "en": "Period",
+  "tr": "Tímabil "
+ },{
+  "en": "Permissions",
+  "tr": "Leyfi"
+ },{
+  "en": "pixels",
+  "tr": "pixlar"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Sláðu inn nýtt nafn fyrir þessa skoðun"
+ },{
+  "en": "Please input master password",
+  "tr": "Sláðu inn aðal lykilorð"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Sláðu inn aðal lykilorð, tæmdu eða hætta við til að slökkva"
+ },{
+  "en": "Please input new group",
+  "tr": "Vinsamlegast sláðu inn nýjan hóp"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Gakktu úr skugga um að þú munir aðal lykilorðið sem þú hefur sett."
+ },{
+  "en": "Port",
+  "tr": "Höfn"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Kjósa þema leturgerðir "
+ },{
+  "en": "Preferences",
+  "tr": "Valmöguleikar "
+ },{
+  "en": "Preserve",
+  "tr": "Varðveita"
+ },{
+  "en": "Preview All",
+  "tr": "Forskoða allt "
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Forskoðunartákn "
+ },{
+  "en": "Previous Char",
+  "tr": "Fyrri bleikja "
+ },{
+  "en": "Previous Fold",
+  "tr": "Fyrri brot "
+ },{
+  "en": "Previous Indentation",
+  "tr": "Fyrri inndráttur "
+ },{
+  "en": "Previous Line",
+  "tr": "Fyrri lína "
+ },{
+  "en": "Previous Message",
+  "tr": "Fyrri skilaboð "
+ },{
+  "en": "Previous Page",
+  "tr": "Fyrri síða "
+ },{
+  "en": "Previous Pair",
+  "tr": "Fyrra par "
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Fyrri málsgrein "
+ },{
+  "en": "Previous Scope",
+  "tr": "Fyrra gildissvið "
+ },{
+  "en": "Previous Segment End",
+  "tr": "Fyrri hluti hluta "
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Fyrri hluti upphafs "
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Fyrri stamuð síða "
+ },{
+  "en": "Previous Word",
+  "tr": "Fyrra orð "
+ },{
+  "en": "Previous Word End",
+  "tr": "Fyrri orðalok "
+ },{
+  "en": "Previous Word Part",
+  "tr": "Fyrri orðhluti "
+ },{
+  "en": "Printable output",
+  "tr": "Prentvæn framleiðsla "
+ },{
+  "en": "Process",
+  "tr": "Ferli"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Ferli %1 hrundi."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Mistókst að ræsa %1."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Vinnsla %1 tímamörk."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Forrit [rök]"
+ },{
+  "en": "Project",
+  "tr": "Verkefni "
+ },{
+  "en": "Properties",
+  "tr": "Eignir "
+ },{
+  "en": "Property",
+  "tr": "Eign"
+ },{
+  "en": "Protocol",
+  "tr": "Bókun"
+ },{
+  "en": "Proxy",
+  "tr": "Umboð"
+ },{
+  "en": "Proxy Host",
+  "tr": "Umboðsgestgjafi"
+ },{
+  "en": "Proxy Port",
+  "tr": "Umboðshöfn"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Umboðsstillingar"
+ },{
+  "en": "Proxy Type",
+  "tr": "Umboðstegund"
+ },{
+  "en": "Public Key",
+  "tr": "Opinber lykill"
+ },{
+  "en": "Public Keys",
+  "tr": "Opinberir lyklar"
+ },{
+  "en": "Public keys order",
+  "tr": "Opinber lyklar "
+ },{
+  "en": "Putty sessions",
+  "tr": "Kítti "
+ },{
+  "en": "Query URL",
+  "tr": "Fyrirspurnarslóð"
+ },{
+  "en": "Question",
+  "tr": "Spurning"
+ },{
+  "en": "Quick",
+  "tr": "Fljótlegt"
+ },{
+  "en": "Quick Bar",
+  "tr": "Quick Bar"
+ },{
+  "en": "Quick Commands",
+  "tr": "Fljótleg skipun"
+ },{
+  "en": "Read Only",
+  "tr": "Aðeins lesið "
+ },{
+  "en": "Ready",
+  "tr": "Tilbúinn"
+ },{
+  "en": "Real guide",
+  "tr": "Alvöru leiðsögumaður"
+ },{
+  "en": "Receive XModem",
+  "tr": "Fáðu XModem "
+ },{
+  "en": "Receive YModem",
+  "tr": "Fáðu YModem "
+ },{
+  "en": "Receive ZModem",
+  "tr": "Fáðu ZModem "
+ },{
+  "en": "received",
+  "tr": "fengið"
+ },{
+  "en": "Recent",
+  "tr": "Nýlega"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Nýlegar fundir"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Tengja fund aftur "
+ },{
+  "en": "Rectangle",
+  "tr": "Rétthyrningur"
+ },{
+  "en": "rectangle",
+  "tr": "rétthyrningur"
+ },{
+  "en": "Red",
+  "tr": "Rauður "
+ },{
+  "en": "Redo",
+  "tr": "Endurtaka "
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Endurtaka %1 aðgerðir"
+ },{
+  "en": "Refresh",
+  "tr": "Uppfæra "
+ },{
+  "en": "Regular Expression",
+  "tr": "Regluleg tjáning"
+ },{
+  "en": "Reload",
+  "tr": "Endurhlaða"
+ },{
+  "en": "Reload File",
+  "tr": "Endurhlaða skrá"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Endurhlaða með kóðun "
+ },{
+  "en": "Remote forwarding",
+  "tr": "Fjarframsending"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Afskekkt slóð"
+ },{
+  "en": "Remove",
+  "tr": "Fjarlægja "
+ },{
+  "en": "remove",
+  "tr": "fjarlægja"
+ },{
+  "en": "Remove All",
+  "tr": "Fjarlægja allt "
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Fjarlægja eyða línur "
+ },{
+  "en": "Remove Command",
+  "tr": "Fjarlægðu skipun"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Fjarlægja afritarlínur "
+ },{
+  "en": "Remove Group",
+  "tr": "Fjarlægja hóp"
+ },{
+  "en": "Remove items",
+  "tr": "Fjarlægðu atriði"
+ },{
+  "en": "Remove Sender",
+  "tr": "Fjarlægja sendanda "
+ },{
+  "en": "Removing",
+  "tr": "Fjarlægir"
+ },{
+  "en": "Rename",
+  "tr": "Endurnefna"
+ },{
+  "en": "Rename Group",
+  "tr": "Endurnefna hóp"
+ },{
+  "en": "Rename tab",
+  "tr": "Endurnefna flipa"
+ },{
+  "en": "Rename View",
+  "tr": "Endurnefna útsýni"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Opna lokað útsýni "
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Endurtaktu síðustu skipun "
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Endurtekið "
+ },{
+  "en": "Replace",
+  "tr": "Skipta um "
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Skipta út öllum "
+ },{
+  "en": "Replace in Files",
+  "tr": "Skipta út í skrám "
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Krefst endurræsingar til að hafa áhrif"
+ },{
+  "en": "Reset",
+  "tr": "Endurstilla "
+ },{
+  "en": "Reset Character Set",
+  "tr": "Endurstilla stafasett "
+ },{
+  "en": "Reset Zoom",
+  "tr": "Endurstilla aðdrátt "
+ },{
+  "en": "Resume",
+  "tr": "Halda áfram"
+ },{
+  "en": "Resuming",
+  "tr": "Halda áfram"
+ },{
+  "en": "Right click",
+  "tr": "Hægri smellur "
+ },{
+  "en": "Right click event",
+  "tr": "Hægri smellur atburður "
+ },{
+  "en": "Right Docks",
+  "tr": "Hægri bryggjur "
+ },{
+  "en": "Right Group",
+  "tr": "Hægri hópur "
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Snúðu músahjólinu til að fletta"
+ },{
+  "en": "Rows",
+  "tr": "Raðir "
+ },{
+  "en": "Royal Blue",
+  "tr": "Royal Blue "
+ },{
+  "en": "Run Tool",
+  "tr": "Run Tool"
+ },{
+  "en": "Save",
+  "tr": "Vista"
+ },{
+  "en": "Save All",
+  "tr": "Vista allt "
+ },{
+  "en": "Save As",
+  "tr": "Vista sem "
+ },{
+  "en": "Save Copy As",
+  "tr": "Vista afrit sem "
+ },{
+  "en": "Save file failed!",
+  "tr": "Vista skrá mistókst!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Vista val sem "
+ },{
+  "en": "Save Session",
+  "tr": "Vista fund "
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Vistuð sjálfvirk auðkenning "
+ },{
+  "en": "Scheme Tools",
+  "tr": "Kerfisverkfæri "
+ },{
+  "en": "Scope",
+  "tr": "Gildissvið "
+ },{
+  "en": "Screen Locked",
+  "tr": "Skjár læstur"
+ },{
+  "en": "Scroll Left",
+  "tr": "Skrunaðu til vinstri"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Fletta niður línu "
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Fletta upp "
+ },{
+  "en": "Scroll Right",
+  "tr": "Skrunaðu til hægri"
+ },{
+  "en": "Search",
+  "tr": "Leit"
+ },{
+  "en": "Search engine",
+  "tr": "Leitarvél)"
+ },{
+  "en": "Search Engine",
+  "tr": "Leitarvél"
+ },{
+  "en": "Search Engines",
+  "tr": "Leitarvélar "
+ },{
+  "en": "Search Online",
+  "tr": "Leita á netinu "
+ },{
+  "en": "Search or enter address",
+  "tr": "Leitaðu eða sláðu inn heimilisfang"
+ },{
+  "en": "Searching",
+  "tr": "Leita"
+ },{
+  "en": "Seconds",
+  "tr": "Sekúndur"
+ },{
+  "en": "seconds",
+  "tr": "sekúndur"
+ },{
+  "en": "Security",
+  "tr": "Öryggi"
+ },{
+  "en": "Segment",
+  "tr": "Hluti "
+ },{
+  "en": "Select",
+  "tr": "Veldu "
+ },{
+  "en": "Select All",
+  "tr": "Veldu allt "
+ },{
+  "en": "Select Column To",
+  "tr": "Veldu dálk til "
+ },{
+  "en": "Select copy folder",
+  "tr": "Veldu afrita möppu"
+ },{
+  "en": "Select copy items",
+  "tr": "Veldu afrita atriði"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Veldu skrá til að taka á móti"
+ },{
+  "en": "Select download folder",
+  "tr": "Veldu niðurhalsmöppu"
+ },{
+  "en": "Select files to send",
+  "tr": "Veldu skrár til að senda"
+ },{
+  "en": "Select Fold",
+  "tr": "Veldu Fold "
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Veldu bút afturábak "
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Veldu Snippet Forward "
+ },{
+  "en": "Select To",
+  "tr": "Veldu Til "
+ },{
+  "en": "Select upload items",
+  "tr": "Veldu upphleðsluatriði"
+ },{
+  "en": "Selected position",
+  "tr": "Valin staða"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Valdar lotur"
+ },{
+  "en": "Selection",
+  "tr": "Val"
+ },{
+  "en": "Send",
+  "tr": "Senda"
+ },{
+  "en": "Send line By line",
+  "tr": "Senda línu eftir línu "
+ },{
+  "en": "Send Text",
+  "tr": "Senda texta"
+ },{
+  "en": "Send XModem",
+  "tr": "Senda XModem "
+ },{
+  "en": "Send YModem",
+  "tr": "Senda YModem "
+ },{
+  "en": "Send ZModem",
+  "tr": "Senda ZModem "
+ },{
+  "en": "Sender",
+  "tr": "Sendandi"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Sending %1 mistókst: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Sendir: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Sendir núllpakka til að halda fundinum á lífi "
+ },{
+  "en": "sent",
+  "tr": "sent"
+ },{
+  "en": "Serial",
+  "tr": "Serial "
+ },{
+  "en": "Server",
+  "tr": "Server"
+ },{
+  "en": "Session",
+  "tr": "Fundur"
+ },{
+  "en": "session",
+  "tr": "fundur"
+ },{
+  "en": "Session Group",
+  "tr": "Fundarhópur"
+ },{
+  "en": "Session Log",
+  "tr": "Fundarskrá"
+ },{
+  "en": "Session name",
+  "tr": "Heiti fundar"
+ },{
+  "en": "Session Settings",
+  "tr": "Setustofur"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Fundir í öllum Windows"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Fundir í núverandi hópi"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Fundir í núverandi glugga"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Fundir í hópi %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Stilltu sjálfgefinn ritstjóra "
+ },{
+  "en": "Set Tab Color",
+  "tr": "Stilltu flipalit "
+ },{
+  "en": "Settings",
+  "tr": "Stillingar"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Lögun "
+ },{
+  "en": "Shell",
+  "tr": "Skel"
+ },{
+  "en": "Shell sessions",
+  "tr": "Skel lotur "
+ },{
+  "en": "Shell Sessions",
+  "tr": "Skeljarfundir"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Stuttur tími/dagsetning "
+ },{
+  "en": "Show",
+  "tr": "Sýna"
+ },{
+  "en": "Show All",
+  "tr": "Sýna allt "
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Sýna alla opna og nýlega ritstjóra"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Sýna allar opnaðar og nýlegar flugstöðvar"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Sýna og keyra aðgerðir"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Sýna staðfestingarglugga fyrir loka flipa "
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Sýna lokunarglugga staðfestingarglugga "
+ },{
+  "en": "Show column markers",
+  "tr": "Sýna dálkamerki "
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Sýna skipanir í stafrófsröð "
+ },{
+  "en": "Show current %1 property",
+  "tr": "Sýna núverandi %1 eign"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Sýna hópskipanir í röð "
+ },{
+  "en": "Show group title",
+  "tr": "Sýna titil hóps "
+ },{
+  "en": "Show hidden items",
+  "tr": "Sýna falda hluti "
+ },{
+  "en": "Show in %1",
+  "tr": "Sýna í %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Sýna í lok enda "
+ },{
+  "en": "Show In Line Start",
+  "tr": "Sýna í upphafi línu "
+ },{
+  "en": "Show In Selection",
+  "tr": "Sýna í vali "
+ },{
+  "en": "Show indent guide",
+  "tr": "Sýna inndráttarleiðbeiningar "
+ },{
+  "en": "Show line endings",
+  "tr": "Sýna línulok "
+ },{
+  "en": "Show menu",
+  "tr": "Sýna matseðil"
+ },{
+  "en": "Show More Tools",
+  "tr": "Sýna fleiri verkfæri "
+ },{
+  "en": "Show multiple groups",
+  "tr": "Sýna marga hópa "
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Sýna líma valmynd á öðrum skjánum "
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Sýna líma valmynd á aðalskjánum "
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Sýna bil og flipa "
+ },{
+  "en": "Show Tabs",
+  "tr": "Sýna flipa"
+ },{
+  "en": "Show Text",
+  "tr": "Sýna texta"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Sýna flipanúmer á flipum "
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Sýna þennan glugga þegar fókusstilling byrjar "
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Sýna umslagstákn "
+ },{
+  "en": "Shrink",
+  "tr": "Minnka"
+ },{
+  "en": "Size",
+  "tr": "Stærð"
+ },{
+  "en": "Skip",
+  "tr": "Slepptu"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 umboð "
+ },{
+  "en": "Soft Reset",
+  "tr": "Mjúk endurstilling "
+ },{
+  "en": "Sort",
+  "tr": "Raða "
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Raða línur með tilfellum ónæmar "
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Raða línur Næmar og næmar "
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Raða línum í handahófi "
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Raða línum í öfugri röð "
+ },{
+  "en": "spaces",
+  "tr": "bil"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Bil á flipa "
+ },{
+  "en": "Spacing",
+  "tr": "Bil"
+ },{
+  "en": "Special",
+  "tr": "Sérstakt"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Tilgreindu bókunina þegar þú dregur og sleppir skrám"
+ },{
+  "en": "Speed",
+  "tr": "Hraði"
+ },{
+  "en": "Split",
+  "tr": "Skipta "
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Skiptu hópnum lárétt "
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Skiptu hópnum lóðrétt "
+ },{
+  "en": "Split Lines",
+  "tr": "Skipta línum "
+ },{
+  "en": "Split Selection",
+  "tr": "Skipta vali "
+ },{
+  "en": "Split To Group",
+  "tr": "Skipt í hóp "
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Klofið útsýni lárétt "
+ },{
+  "en": "Split View Vertically",
+  "tr": "Skipta útsýni lóðrétt "
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Byrja "
+ },{
+  "en": "Start Of Document",
+  "tr": "Upphaf skjals "
+ },{
+  "en": "Start Of Line",
+  "tr": "Start Of Line "
+ },{
+  "en": "Start Of Pair",
+  "tr": "Start of Pair "
+ },{
+  "en": "Startup",
+  "tr": "Gangsetning"
+ },{
+  "en": "Stash",
+  "tr": "Stash "
+ },{
+  "en": "Status Bar",
+  "tr": "Stöðustika"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Stálblár "
+ },{
+  "en": "Sticky",
+  "tr": "Sticky "
+ },{
+  "en": "Stop",
+  "tr": "Hættu"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stoppbitar "
+ },{
+  "en": "Stop loading",
+  "tr": "Hætta að hlaða"
+ },{
+  "en": "Stop sender",
+  "tr": "Hættu sendanda"
+ },{
+  "en": "Stop Tools",
+  "tr": "Stöðva verkfæri"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Hættu að horfa á þessa skrá"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Skipta um straum og dálk "
+ },{
+  "en": "switch to tab",
+  "tr": "skipta yfir í flipa"
+ },{
+  "en": "Symbols",
+  "tr": "Tákn "
+ },{
+  "en": "Sync channel",
+  "tr": "Samstilla rás"
+ },{
+  "en": "Sync Edit",
+  "tr": "Samstilla breytingar "
+ },{
+  "en": "Sync Input",
+  "tr": "Samstilla inntak"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Samstilla inntak í rás %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Setningaforrit "
+ },{
+  "en": "System",
+  "tr": "Kerfi "
+ },{
+  "en": "Tab",
+  "tr": "Tab"
+ },{
+  "en": "Tab Color",
+  "tr": "Litur flipa"
+ },{
+  "en": "Tab Features",
+  "tr": "Tab eiginleikar"
+ },{
+  "en": "Tab Group",
+  "tr": "Flipahópur"
+ },{
+  "en": "Tab Index",
+  "tr": "Tab flipi"
+ },{
+  "en": "Tab size",
+  "tr": "Stærð flipa "
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Færsla ham fyrir flipa "
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Smámyndaútvarp flipa "
+ },{
+  "en": "Tab Title",
+  "tr": "Tab titill"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Táknaðu valdar línur "
+ },{
+  "en": "Tabs",
+  "tr": "Tabs"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Flipar í bil "
+ },{
+  "en": "Target",
+  "tr": "Skotmark"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Markmappa "
+ },{
+  "en": "Targets",
+  "tr": "Markmið"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP tengimöguleikar"
+ },{
+  "en": "Teal",
+  "tr": "Teal "
+ },{
+  "en": "Term",
+  "tr": "Hugtak "
+ },{
+  "en": "Terminal",
+  "tr": "Flugstöð"
+ },{
+  "en": "terminal",
+  "tr": "flugstöð"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Flugstöðvarstillingar"
+ },{
+  "en": "Text",
+  "tr": "Texti"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Texti: %1 línur, %2 stafir "
+ },{
+  "en": "The % sign",
+  "tr": "Merkið"
+ },{
+  "en": "The actual text to log",
+  "tr": "Raunverulegur texti til að skrá þig inn"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Áfangamöppan er undirmöppu upprunamöppunnar: \n%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Skjalinu hefur verið breytt. \nViltu vista breytingarnar?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Lykilsamsetningin (%1) er ekki skipun."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Lrzsz finnst ekki. Vinsamlegast settu upp lrzsz fyrst."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Aðal lykilorðinu hefur verið breytt."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Staðfesting lykilorðs passar ekki."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Miðlarinn hætti við sendinguna."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Þingið er <b> aftengt </b>, ýttu á <b> Enter </b> til að tengjast aftur."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Flutningnum var aflýst vegna þess að pakki var ekki %1 innan viðmiðunarmarka."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Flutningnum var aflýst vegna þess að pakkaröðarnúmerið var rangt."
+ },{
+  "en": "Theme",
+  "tr": "Þema "
+ },{
+  "en": "Thin",
+  "tr": "Þunnt"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Þröskuldur fyrir mikla skrá "
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Tímasnið "
+ },{
+  "en": "Time left",
+  "tr": "Tími eftir"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Tímastimpill lína"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Í öfugt tilfelli "
+ },{
+  "en": "To Line End",
+  "tr": "Að línu enda "
+ },{
+  "en": "To Line Start",
+  "tr": "Að byrja í línu "
+ },{
+  "en": "To Lower Case",
+  "tr": "Í lágstafi "
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "Til MacOS 9 CR "
+ },{
+  "en": "To Title Case",
+  "tr": "Til titils máls "
+ },{
+  "en": "To Unix LF",
+  "tr": "Til Unix LF "
+ },{
+  "en": "To Upper Case",
+  "tr": "Í hástafi "
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Til Windows CRLF "
+ },{
+  "en": "To Word End",
+  "tr": "Að orðalagi "
+ },{
+  "en": "To Word Start",
+  "tr": "Til Word Start "
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Togla Fold "
+ },{
+  "en": "Tool",
+  "tr": "Tól"
+ },{
+  "en": "Toolbar",
+  "tr": "Tækjastika "
+ },{
+  "en": "Top Group",
+  "tr": "Efsti hópur "
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Velja textaval í tré "
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Velja val tré í texta "
+ },{
+  "en": "Tracking Events",
+  "tr": "Rekja atburði"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Sleppt eyði "
+ },{
+  "en": "Trailing position",
+  "tr": "Eftirstaða"
+ },{
+  "en": "Transfer",
+  "tr": "Flytja"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Flutningsbar"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Flytja tvöfaldur "
+ },{
+  "en": "Transfer complete",
+  "tr": "Flutningi lokið"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Flutningur ófullnægjandi"
+ },{
+  "en": "Translucent",
+  "tr": "Gegnsætt "
+ },{
+  "en": "Transparent",
+  "tr": "Gegnsætt"
+ },{
+  "en": "Transpose",
+  "tr": "Gera "
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Klippið eftir hvítt bil á vistun "
+ },{
+  "en": "Trust this host",
+  "tr": "Treystu þessum gestgjafa"
+ },{
+  "en": "Tunnels",
+  "tr": "Göng"
+ },{
+  "en": "Type",
+  "tr": "Gerð"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Gerð '?' til að fá aðstoð við aðgerðirnar sem þú getur slegið hér inn"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Val án athugasemda "
+ },{
+  "en": "Underline",
+  "tr": "Undirstrika"
+ },{
+  "en": "underLine",
+  "tr": "undirlína"
+ },{
+  "en": "Undo",
+  "tr": "Afturkalla "
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Afturkalla %1 aðgerðir"
+ },{
+  "en": "Unfold",
+  "tr": "Opna "
+ },{
+  "en": "Unfold All",
+  "tr": "Vafið upp allt "
+ },{
+  "en": "Unfold Category",
+  "tr": "Bættu út flokki "
+ },{
+  "en": "Unfold Inside",
+  "tr": "Bættu út að innan "
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Sameina línuendi við vistun "
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: slóð skelaskrár verður að vera alger"
+ },{
+  "en": "Unknown",
+  "tr": "Óþekktur"
+ },{
+  "en": "unknown",
+  "tr": "Óþekktur"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Afmerka valdar línur "
+ },{
+  "en": "Untitled",
+  "tr": "Án titils"
+ },{
+  "en": "Untrust this host",
+  "tr": "Ekki treysta þessum gestgjafa"
+ },{
+  "en": "upload",
+  "tr": "hlaða upp"
+ },{
+  "en": "Upload command",
+  "tr": "Hlaða inn skipun "
+ },{
+  "en": "Upload directory",
+  "tr": "Hlaða upp skrá "
+ },{
+  "en": "Upload file",
+  "tr": "Hlaða inn skrá"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Hlaða upp í núverandi möppu "
+ },{
+  "en": "uploaded",
+  "tr": "hlaðið upp"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "Vefslóð með %q í stað fyrirspurnar "
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Notaðu bakgrunnslit til að eyða skjá "
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Notaðu háhraða flutning "
+ },{
+  "en": "Use system line ending",
+  "tr": "Notaðu kerfislínulok"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Notaðu þetta sem sjálfgefið og ekki spyrja aftur "
+ },{
+  "en": "User",
+  "tr": "Notandi"
+ },{
+  "en": "Username echo mode",
+  "tr": "Echo mode notendanafns "
+ },{
+  "en": "Value",
+  "tr": "Verðmæti"
+ },{
+  "en": "Variable",
+  "tr": "Breytilegt"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Staðfestir fingrafar miðlara "
+ },{
+  "en": "View",
+  "tr": "Skoða"
+ },{
+  "en": "Virtual Space",
+  "tr": "Raunverulegt rými "
+ },{
+  "en": "Waiting",
+  "tr": "Bíð"
+ },{
+  "en": "Warning",
+  "tr": "Viðvörun"
+ },{
+  "en": "Wheel event",
+  "tr": "Hjólaviðburður "
+ },{
+  "en": "When destination file exists",
+  "tr": "Þegar áfangaskrá er til "
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Þegar límt er með mörgum línum"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Þegar fjarlægur titill er breytt"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Þegar fundur er staðfestur"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Þegar fundur er staðfesting"
+ },{
+  "en": "When window is resized",
+  "tr": "Þegar stærð glugga er breytt"
+ },{
+  "en": "Where",
+  "tr": "Hvar "
+ },{
+  "en": "White Spaces",
+  "tr": "Hvítt bil "
+ },{
+  "en": "Whole Line",
+  "tr": "Heildarlína "
+ },{
+  "en": "Whole Word",
+  "tr": "Heilt orð"
+ },{
+  "en": "Widgets",
+  "tr": "Búnaður"
+ },{
+  "en": "Width",
+  "tr": "Breidd "
+ },{
+  "en": "Window",
+  "tr": "Gluggi"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Gluggakantur"
+ },{
+  "en": "Window Opacity",
+  "tr": "Ógagnsæi glugga "
+ },{
+  "en": "Window opacity",
+  "tr": "Ógagnsæi glugga"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Manager "
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe eða winpty.dll finnst ekki !."
+ },{
+  "en": "Word",
+  "tr": "Orð "
+ },{
+  "en": "Word Separators",
+  "tr": "Orðaskil "
+ },{
+  "en": "Word Wrap",
+  "tr": "Orðasláttur "
+ },{
+  "en": "Working directory",
+  "tr": "Vinnuskrá "
+ },{
+  "en": "Wrap",
+  "tr": "Umbúðir"
+ },{
+  "en": "Wrap by character",
+  "tr": "Vefjið eftir eðli"
+ },{
+  "en": "Wrap by word",
+  "tr": "Vefjið eftir orði"
+ },{
+  "en": "Wrap column",
+  "tr": "Snúðu dálki "
+ },{
+  "en": "Wrap mode",
+  "tr": "Umbúðir "
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Vefjatákn "
+ },{
+  "en": "Wrong master password.",
+  "tr": "Rangt aðal lykilorð."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z mótald"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z mótald getur ekki sent möppur eða skrár stærri en 4GB: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 auðkenningarreglur"
+ },{
+  "en": "X11 display",
+  "tr": "X11 skjár"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Ár í tveimur tölustöfum"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Ár í 4 tölustöfum"
+ },{
+  "en": "Yes",
+  "tr": "Já"
+ },{
+  "en": "Zero",
+  "tr": "Núll"
+ },{
+  "en": "Zoom",
+  "tr": "Aðdráttur"
+ },{
+  "en": "Zoom In",
+  "tr": "Stækka "
+ },{
+  "en": "Zoom level",
+  "tr": "Aðdráttarstig "
+ },{
+  "en": "Zoom Out",
+  "tr": "Aðdráttur út "
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Hrunið í %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Tómt]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Villa: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Klárað eftir %1s, útgöngukóða %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Klárað eftir %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Hópalisti er tómur]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Leiðarlistinn er tómur]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Engin leitarvél]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Nýlegar slóðir eru tómar]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Endurmenntunarlistinn er tómur]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Dagskráin er tóm]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Þemalistinn er tómur]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Tækjastikulistinn er tómur]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Afturkalla lista er tóm]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Notanda hætt]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[notandi@] gestgjafanafn"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows listi er tómur]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

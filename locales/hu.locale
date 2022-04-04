@@ -1,0 +1,3513 @@
+{
+ "language": "Hungarian - magyar",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Scheme) Eszközök"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 %2 nem támogatja a %3."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 másolva"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 letöltve"
+ },{
+  "en": "%1 File",
+  "tr": "%1 fájl"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 elem sikertelen"
+ },{
+  "en": "%1 items",
+  "tr": "%1 elem"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 elem sikertelen"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 elem/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 / %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 eltávolítva"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 ez %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 feltöltve"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 Sebesség: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 sikertelen jelszókísérlet."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> megváltozott </b> és <b> újratöltődött </b>, a visszavonás <b> NEM </b> engedélyezett nagy fájlok esetén."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> <b> megváltozott </b> és <b> újratöltődött </b>, a visszavonás engedélyezett."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> <b> megváltozott </b>, szeretné újra betölteni?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> <b> áthelyezve vagy törölve </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) megnyomásra került. Várom a további kulcsokat"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 oszlop"
+ },{
+  "en": "2 Chars",
+  "tr": "2 karakter"
+ },{
+  "en": "24 Columns",
+  "tr": "24 oszlop"
+ },{
+  "en": "32 Columns",
+  "tr": "32 oszlop"
+ },{
+  "en": "4 Chars",
+  "tr": "4 karakter"
+ },{
+  "en": "8 Chars",
+  "tr": "8 karakter"
+ },{
+  "en": "8 Columns",
+  "tr": "8 oszlop"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "A fő jelszót az érzékeny információk, például az SSH jelszavak védelmére használják."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "A névnek 255 karakternél rövidebbnek kell lennie, és nem tartalmazhatja a következő karakterek egyikét: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Egy távoli fájl módosult. \nVissza szeretné feltölteni ezt a fájlt a szerverre?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Egy adott munkamenet vagy munkamenetek halmaza"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "A hónap rövidített neve"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Rövidített hétköznapi név"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Csak helyi kapcsolatok elfogadása"
+ },{
+  "en": "Accessed",
+  "tr": "Hozzáférve"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Több gondozás aktiválása"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Következő kijelölés aktiválása"
+ },{
+  "en": "Activate Next View",
+  "tr": "Következő nézet aktiválása"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Az előző kijelölés aktiválása"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Az előző nézet aktiválása"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Aktiválja a bal oldali fület"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Aktiválja az előzőleg kiválasztott lapot"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Aktiválja a jobb oldali lapot"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "A lap aktiválása bezárás után"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "A lap aktiválása lebegés után"
+ },{
+  "en": "Add",
+  "tr": "Hozzáadás"
+ },{
+  "en": "Add All",
+  "tr": "Összes hozzáadása"
+ },{
+  "en": "Add Command",
+  "tr": "Parancs hozzáadása"
+ },{
+  "en": "Add Group",
+  "tr": "Csoport hozzáadása"
+ },{
+  "en": "Add Sender",
+  "tr": "Feladó hozzáadása"
+ },{
+  "en": "Add Tab",
+  "tr": "Fül hozzáadása"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Állítsa be az ablak sorait és oszlopait"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Speciális rendezés"
+ },{
+  "en": "Agent",
+  "tr": "Ügynök"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Az ügynök hitelesítése sikertelen, próbálkozzon másik módszerrel"
+ },{
+  "en": "All",
+  "tr": "Minden"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Minden %1 munkamenet törlődik. \nFolytatja a munkamenetek importálását?"
+ },{
+  "en": "All session output",
+  "tr": "Minden munkamenet kimenete"
+ },{
+  "en": "All Sessions",
+  "tr": "Minden munkamenet"
+ },{
+  "en": "All tabs",
+  "tr": "Minden lap"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Alternatív oszlop háttérszíne"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Alternatív vonal háttérszíne"
+ },{
+  "en": "Always On Top",
+  "tr": "Mindig a tetején"
+ },{
+  "en": "Always on top",
+  "tr": "Mindig a tetején"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Hiba történt a %1 folyamatból való olvasás során."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Hiba történt, amikor megpróbált írni a(z) %1 folyamatba."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Ismeretlen hiba történt a %1 folyamatban."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI - OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Válasz vissza"
+ },{
+  "en": "Any",
+  "tr": "Bármi"
+ },{
+  "en": "Anything Palette",
+  "tr": "Bármi paletta"
+ },{
+  "en": "Anywhere",
+  "tr": "Bárhol"
+ },{
+  "en": "Appearance",
+  "tr": "Megjelenés"
+ },{
+  "en": "Append",
+  "tr": "Mellékel"
+ },{
+  "en": "Append log file",
+  "tr": "Naplófájl hozzáfűzése"
+ },{
+  "en": "Application",
+  "tr": "Alkalmazás"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Biztosan törli %1 kijelölt elemet?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Biztosan törli a(z) <b>%1 </b> elemet?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Biztos benne, hogy újra szeretné tölteni az aktuális fájlt, és elveszíti az WindEdit -ben végrehajtott módosításokat?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Biztosan le szeretné állítani a jelenlegi feladót?"
+ },{
+  "en": "Arguments",
+  "tr": "Érvek"
+ },{
+  "en": "At Caret",
+  "tr": "A Caret -nél"
+ },{
+  "en": "At End",
+  "tr": "A végén"
+ },{
+  "en": "At Start",
+  "tr": "Kezdetben"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "A gssapi-with-mic hitelesítés(G) kísérlete"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Interaktív billentyűzet-hitelesítés"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Színdarab -hitelesítés"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Jelszó -hitelesítési kísérlet"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Nyilvános kulcsú hitelesítés"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Kísérlet az ssh-agent hitelesítésre"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Részleges sikerrel hitelesítve, próbálkozzon másik módszerrel."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Hitelesítés %1 által"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Hitelesítés: %1 és %2"
+ },{
+  "en": "Authentication",
+  "tr": "Hitelesítés"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "A hitelesítés megtagadva. Kérjük, próbálja újra."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Sikertelen azonosítás. Kérlek próbáld újra."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "HTML/XML címkék automatikus bezárása"
+ },{
+  "en": "Auto login",
+  "tr": "Automatikus bejelentkezés"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Az automatikus bejelentkezés nem sikerült, próbálja újra."
+ },{
+  "en": "Auto login next time",
+  "tr": "Automatikus bejelentkezés legközelebb"
+ },{
+  "en": "Automatic",
+  "tr": "Automatikus"
+ },{
+  "en": "automatic",
+  "tr": "automatikus"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Automatikus hitelesítési módszerek"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "A kijelölés automatikus másolása"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "A behúzás automatikus észlelése"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "A párnázás automatikus vágása"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Háttérjelző"
+ },{
+  "en": "Backspace",
+  "tr": "Backspace"
+ },{
+  "en": "Backspace sends",
+  "tr": "A Backspace küld"
+ },{
+  "en": "Backward",
+  "tr": "Hátrafelé"
+ },{
+  "en": "Bars",
+  "tr": "Bárok"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baud arány"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Hangjelzés, ha kész"
+ },{
+  "en": "Binary",
+  "tr": "Bináris"
+ },{
+  "en": "Binary base",
+  "tr": "Bináris bázis"
+ },{
+  "en": "Binary columns",
+  "tr": "Bináris oszlopok"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Bináris elosztási oszlopok"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Binárisan csoportosított karakterek"
+ },{
+  "en": "Black",
+  "tr": "Fekete"
+ },{
+  "en": "Blink",
+  "tr": "Villog"
+ },{
+  "en": "blinking block",
+  "tr": "villogó blokk"
+ },{
+  "en": "blinking line",
+  "tr": "villogó vonal"
+ },{
+  "en": "blinking rectangle",
+  "tr": "villogó téglalap"
+ },{
+  "en": "blinking underLine",
+  "tr": "villog a vonal alatt"
+ },{
+  "en": "Block",
+  "tr": "Blokk"
+ },{
+  "en": "block",
+  "tr": "Blokk"
+ },{
+  "en": "Bold",
+  "tr": "Bátor"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "A félkövér típus rögzített szélességű betűtípusokat jelez"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Alsó dokkok"
+ },{
+  "en": "Bottom Group",
+  "tr": "Alsó csoport"
+ },{
+  "en": "Browse",
+  "tr": "Böngészés"
+ },{
+  "en": "Browse Directory",
+  "tr": "Böngészés a könyvtárban"
+ },{
+  "en": "Browse File",
+  "tr": "Fájl tallózása"
+ },{
+  "en": "Browser",
+  "tr": "Böngésző"
+ },{
+  "en": "Build",
+  "tr": "Építés"
+ },{
+  "en": "By",
+  "tr": "Által"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Számító"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Nem találja a megfelelő programot a fájl megnyitásához: (%1 (Próbálja meg használni az alapértelmezett szerkesztőt."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Nem sikerült létrehozni a(z %1 könyvtárat."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Nem sikerült létrehozni a(z %1 fájlt."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Nem sikerült létrehozni a linket %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Nem sikerült eltávolítani a(z %1 könyvtárat."
+ },{
+  "en": "Cancel",
+  "tr": "Megszünteti"
+ },{
+  "en": "Cancel Build",
+  "tr": "Építés törlése"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Kijelölés törlése"
+ },{
+  "en": "Caret",
+  "tr": "Hiányjel"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret stílus"
+ },{
+  "en": "Carriage Return",
+  "tr": "Kocsi vissza"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Kis-nagybetű érzékeny"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Fő jelszó(és C) módosítása"
+ },{
+  "en": "Change master password",
+  "tr": "Változtassa meg a fő jelszót"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "A fő jelszó megváltoztatása sikertelen."
+ },{
+  "en": "Change the tab title",
+  "tr": "A lap címének módosítása"
+ },{
+  "en": "Changed",
+  "tr": "Megváltozott"
+ },{
+  "en": "Channel",
+  "tr": "Csatorna"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char bal"
+ },{
+  "en": "Char Right",
+  "tr": "Char jobbra"
+ },{
+  "en": "Character spacing",
+  "tr": "Karakterköz"
+ },{
+  "en": "character width",
+  "tr": "karakter szélessége"
+ },{
+  "en": "Charset",
+  "tr": "Karakterkészlet"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Válasszon alapértelmezett szerkesztőt"
+ },{
+  "en": "Ciphers",
+  "tr": "Ciphers"
+ },{
+  "en": "Ciphers order",
+  "tr": "Titkosítási sorrend"
+ },{
+  "en": "Clear",
+  "tr": "Egyértelmű"
+ },{
+  "en": "Clear All",
+  "tr": "Összes törlése"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Legutóbbi URL -ek törlése"
+ },{
+  "en": "Clear Screen",
+  "tr": "Képernyő törlése"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Scrollback törlése"
+ },{
+  "en": "Clear Sender",
+  "tr": "Feladó törlése"
+ },{
+  "en": "Click event",
+  "tr": "Kattintási esemény"
+ },{
+  "en": "Close",
+  "tr": "Bezárás"
+ },{
+  "en": "Close All Views",
+  "tr": "Összes nézet bezárása"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Az összes nézet bezárása, de nem aktív"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Az összes nézet bezárása jobbra"
+ },{
+  "en": "Close And Exit",
+  "tr": "Bezárás és kilépés"
+ },{
+  "en": "Close Channel",
+  "tr": "Csatorna bezárása"
+ },{
+  "en": "Close Dock",
+  "tr": "Zárja be a dokkot"
+ },{
+  "en": "Close Group",
+  "tr": "Csoport bezárása"
+ },{
+  "en": "Close Session",
+  "tr": "Zárja le a munkamenetet"
+ },{
+  "en": "Close Tab",
+  "tr": "Tab bezárása"
+ },{
+  "en": "Close tab",
+  "tr": "Lap bezárása"
+ },{
+  "en": "Close View",
+  "tr": "Nézet bezárása"
+ },{
+  "en": "Close Window",
+  "tr": "Ablak bezárása"
+ },{
+  "en": "Color",
+  "tr": "Szín"
+ },{
+  "en": "Column Edit",
+  "tr": "Oszlopszerkesztés"
+ },{
+  "en": "Column Marker",
+  "tr": "Oszlopjelölő"
+ },{
+  "en": "Columns",
+  "tr": "Oszlopok"
+ },{
+  "en": "columns",
+  "tr": "oszlopok"
+ },{
+  "en": "Command",
+  "tr": "Parancs"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Parancspaletta"
+ },{
+  "en": "Comment",
+  "tr": "Megjegyzés"
+ },{
+  "en": "Comment Selection",
+  "tr": "Megjegyzés kiválasztása"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Megjegyzés kiválasztása(Blokk mód)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Megjegyzés kiválasztása(soros mód)"
+ },{
+  "en": "Complete Word",
+  "tr": "Teljes Word"
+ },{
+  "en": "Config",
+  "tr": "Config"
+ },{
+  "en": "Confirm Password",
+  "tr": "Jelszó megerősítése"
+ },{
+  "en": "Confirm password",
+  "tr": "Jelszó megerősítése"
+ },{
+  "en": "Connect",
+  "tr": "Csatlakozás"
+ },{
+  "en": "Connection",
+  "tr": "Kapcsolat"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Kontextus"
+ },{
+  "en": "Continue",
+  "tr": "Folytatni"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "CRLF és LF konvertálása CR -re"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Tab átalakítása szóközökké"
+ },{
+  "en": "copied",
+  "tr": "másolt"
+ },{
+  "en": "Copy",
+  "tr": "Másolat"
+ },{
+  "en": "copy",
+  "tr": "másolat"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Másolás és beillesztés"
+ },{
+  "en": "Copy File Name",
+  "tr": "Fájlnév másolása"
+ },{
+  "en": "Copy File Path",
+  "tr": "Fájl útvonalának másolása"
+ },{
+  "en": "Copy from",
+  "tr": "Másolás innen:"
+ },{
+  "en": "Copy names",
+  "tr": "Nevek másolása"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Nevek másolása a terminálra"
+ },{
+  "en": "Copy Output",
+  "tr": "Másolási kimenet"
+ },{
+  "en": "Copy paths",
+  "tr": "Útvonalak másolása"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Útvonalak másolása a terminálra"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Munkamenet másolása"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Munkamenet URL -jének másolása"
+ },{
+  "en": "Copy to",
+  "tr": "Másolás ide:"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Másolás a terminálra"
+ },{
+  "en": "Count",
+  "tr": "Számol"
+ },{
+  "en": "Create Directory",
+  "tr": "Könyvtár létrehozása"
+ },{
+  "en": "Create File",
+  "tr": "Fájl létrehozása"
+ },{
+  "en": "Create Link",
+  "tr": "Link létrehozása"
+ },{
+  "en": "Created",
+  "tr": "Létrehozva"
+ },{
+  "en": "Critical",
+  "tr": "Kritikai"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Aktuális munkamenet"
+ },{
+  "en": "Custom",
+  "tr": "Egyedi"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Egyéni átlátszatlanság"
+ },{
+  "en": "Customize",
+  "tr": "Testreszabás"
+ },{
+  "en": "Cut",
+  "tr": "Kivágás"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Sötét cián"
+ },{
+  "en": "Data",
+  "tr": "Adatok"
+ },{
+  "en": "Data Bits",
+  "tr": "Adatbitek"
+ },{
+  "en": "Datetime format",
+  "tr": "Dátum / idő formátum"
+ },{
+  "en": "Day of month",
+  "tr": "01-31 hónap napja"
+ },{
+  "en": "Debug Mode",
+  "tr": "Hibakeresési mód"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Sor behúzásának csökkentése"
+ },{
+  "en": "Deep Pink",
+  "tr": "Mély rózsaszín"
+ },{
+  "en": "default",
+  "tr": "alapértelmezett"
+ },{
+  "en": "Default editor",
+  "tr": "Alapértelmezett szerkesztő"
+ },{
+  "en": "Default Font",
+  "tr": "Alapértelmezett betűtípus"
+ },{
+  "en": "Default line ending",
+  "tr": "Alapértelmezett sorvég"
+ },{
+  "en": "Delete",
+  "tr": "Törlés"
+ },{
+  "en": "Delete sends",
+  "tr": "A küldések törlése"
+ },{
+  "en": "deleted",
+  "tr": "törölve"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Célgazda"
+ },{
+  "en": "Destination Port",
+  "tr": "Célport"
+ },{
+  "en": "Dir",
+  "tr": "Dir"
+ },{
+  "en": "dir",
+  "tr": "dir"
+ },{
+  "en": "Directory",
+  "tr": "Könyvtár"
+ },{
+  "en": "Directory Link",
+  "tr": "Directory link"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Nagle algoritmusának letiltása(TCP_NODELAY opció)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Szekció leválasztása"
+ },{
+  "en": "Disk",
+  "tr": "Korong"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Ne visszhangozza a karaktereket"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Be szeretné zárni az aktuális munkamenetet?"
+ },{
+  "en": "Document",
+  "tr": "Dokumentum"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Ne jelenítse meg újra ezt az üzenetet"
+ },{
+  "en": "Double click",
+  "tr": "Dupla kattintás"
+ },{
+  "en": "Double click event",
+  "tr": "Dupla kattintás esemény"
+ },{
+  "en": "Download",
+  "tr": "Letöltés"
+ },{
+  "en": "download",
+  "tr": "Letöltés"
+ },{
+  "en": "Download directory",
+  "tr": "Letöltési könyvtár"
+ },{
+  "en": "downloaded",
+  "tr": "letöltve"
+ },{
+  "en": "Drop Selection",
+  "tr": "Kijelölés"
+ },{
+  "en": "Duplicate",
+  "tr": "Másolat"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Ismétlődő parancs"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Ismétlődő nézet"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dinamikus továbbítás"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Minden beírt karakter visszhangja"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Szerkesztéskor minden karaktert visszhangozzon"
+ },{
+  "en": "Echo random characters",
+  "tr": "Véletlen karakterek visszhangja"
+ },{
+  "en": "Edit",
+  "tr": "Szerkesztés"
+ },{
+  "en": "Editor",
+  "tr": "Szerkesztő"
+ },{
+  "en": "editor",
+  "tr": "szerkesztő"
+ },{
+  "en": "Editor Settings",
+  "tr": "Szerkesztő beállításai"
+ },{
+  "en": "Elapsed",
+  "tr": "Eltelt"
+ },{
+  "en": "Elide left",
+  "tr": "Elide elment"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide középen"
+ },{
+  "en": "Elide right",
+  "tr": "Elide jobbra"
+ },{
+  "en": "Empty",
+  "tr": "Üres"
+ },{
+  "en": "Enable command mode",
+  "tr": "Parancs mód engedélyezése"
+ },{
+  "en": "Enable local mode",
+  "tr": "Helyi mód engedélyezése"
+ },{
+  "en": "Enable SFTP",
+  "tr": "SFTP(és S) engedélyezése"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "TCP -tárolók engedélyezése(SO_KEEPALIVE opció)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Virtuális terek engedélyezése"
+ },{
+  "en": "End Of Document",
+  "tr": "Dokumentum vége"
+ },{
+  "en": "End Of Line",
+  "tr": "Sor vége"
+ },{
+  "en": "End Of Pair",
+  "tr": "Pár vége"
+ },{
+  "en": "Engine",
+  "tr": "Motor"
+ },{
+  "en": "Environment Variable",
+  "tr": "Környezeti változó"
+ },{
+  "en": "Environment variables",
+  "tr": "Környezeti változók"
+ },{
+  "en": "Error",
+  "tr": "Hiba"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Csere Caret és Anchor"
+ },{
+  "en": "Execute",
+  "tr": "Végrehajtás"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Parancs végrehajtása hitelesítés után"
+ },{
+  "en": "Execute command after start",
+  "tr": "Parancs végrehajtása indítás után"
+ },{
+  "en": "Execute File",
+  "tr": "Fájl végrehajtása"
+ },{
+  "en": "Exit",
+  "tr": "Kilépés"
+ },{
+  "en": "Expand",
+  "tr": "Kiterjed"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Részlet kibontása"
+ },{
+  "en": "Explorer",
+  "tr": "Felfedező"
+ },{
+  "en": "External Tools",
+  "tr": "Külső eszközök"
+ },{
+  "en": "External X display",
+  "tr": "Külső X kijelző"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Nem sikerült létrehozni az ideiglenes fájlt: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Nem sikerült megnyitni a könyvtárat: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Nem sikerült lekérni a gazdagép ujjlenyomatát!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Nem sikerült feltölteni a fájlt: %1, (A fájl esetleg nem létezik, vagy nem rendelkezik jogosultsággal a megnyitásához."
+ },{
+  "en": "Fast",
+  "tr": "Gyors"
+ },{
+  "en": "Favorites",
+  "tr": "Kedvencek"
+ },{
+  "en": "Features",
+  "tr": "Jellemzők"
+ },{
+  "en": "File",
+  "tr": "Fájl"
+ },{
+  "en": "file",
+  "tr": "fájlt"
+ },{
+  "en": "File Link",
+  "tr": "Fájl link"
+ },{
+  "en": "File Name",
+  "tr": "Fájlnév"
+ },{
+  "en": "File name",
+  "tr": "Fájl név"
+ },{
+  "en": "File Path",
+  "tr": "Fájl elérési útja"
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "reszelő"
+ },{
+  "en": "Filter",
+  "tr": "Szűrő"
+ },{
+  "en": "Find",
+  "tr": "Keresés"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Összes keresése"
+ },{
+  "en": "Find in Files",
+  "tr": "Keresés a fájlokban"
+ },{
+  "en": "Find Next",
+  "tr": "Következő keresése"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Következő kiválasztás keresése"
+ },{
+  "en": "Find Previous",
+  "tr": "Előző keresése"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Előző kiválasztás keresése"
+ },{
+  "en": "Fingerprint",
+  "tr": "Ujjlenyomat"
+ },{
+  "en": "First nine tabs",
+  "tr": "Első kilenc lap"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Úszó"
+ },{
+  "en": "Flow Control",
+  "tr": "Áramlásszabályozás"
+ },{
+  "en": "Focus Mode",
+  "tr": "Fókusz mód"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Fókusz mód beállításai"
+ },{
+  "en": "Fold",
+  "tr": "Hajtogatás"
+ },{
+  "en": "Fold All",
+  "tr": "Összes összehajtása"
+ },{
+  "en": "Fold Category",
+  "tr": "Hajtogatási kategória"
+ },{
+  "en": "Fold Inside",
+  "tr": "Összehajtás"
+ },{
+  "en": "Folds",
+  "tr": "Hajtogatások"
+ },{
+  "en": "Font",
+  "tr": "Betűtípus"
+ },{
+  "en": "Font family",
+  "tr": "Betűtípus család"
+ },{
+  "en": "Font size",
+  "tr": "Betűméret"
+ },{
+  "en": "Font weight",
+  "tr": "Betű súlya"
+ },{
+  "en": "Forest Green",
+  "tr": "Erdei zöld"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Formátumválasztás"
+ },{
+  "en": "Found",
+  "tr": "Megtalált"
+ },{
+  "en": "Full month name",
+  "tr": "Teljes hónap neve"
+ },{
+  "en": "Full Screen",
+  "tr": "Teljes képernyő"
+ },{
+  "en": "Full screen",
+  "tr": "Teljes képernyő"
+ },{
+  "en": "Full weekday name",
+  "tr": "Teljes hétköznapi név"
+ },{
+  "en": "Go Backward",
+  "tr": "Menj vissza"
+ },{
+  "en": "Go Forward",
+  "tr": "Ugrás előre"
+ },{
+  "en": "Go to",
+  "tr": "Menj"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Nyissa meg a Szimbólum lehetőséget az aktuális nézetben"
+ },{
+  "en": "Goldenrod",
+  "tr": "Aranyrúd"
+ },{
+  "en": "Goto",
+  "tr": "Goto"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Ugrás a címsorba"
+ },{
+  "en": "Goto File",
+  "tr": "Goto fájl"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto Fold fejléc"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Ugrás a következő hajtás fejlécéhez"
+ },{
+  "en": "Goto Position",
+  "tr": "Menj a pozícióba"
+ },{
+  "en": "Goto Session",
+  "tr": "Goto munkamenet"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Goto szimbólum"
+ },{
+  "en": "Group",
+  "tr": "Csoport"
+ },{
+  "en": "Group %1",
+  "tr": "Csoport %1"
+ },{
+  "en": "Groups",
+  "tr": "Csoportok"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi mikrofonnal"
+ },{
+  "en": "Hard Reset",
+  "tr": "Hard Reset"
+ },{
+  "en": "Help",
+  "tr": "Súgó"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Hexa alap"
+ },{
+  "en": "Hex Columns",
+  "tr": "Hatlapú oszlopok"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hexa szerkesztés"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex csoportos karakterek"
+ },{
+  "en": "Hidden",
+  "tr": "Rejtett"
+ },{
+  "en": "Hide",
+  "tr": "Elrejt"
+ },{
+  "en": "Hide All",
+  "tr": "Az összes elrejtése"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Kurzor elrejtése gépelés közben"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Szöveg elrejtése"
+ },{
+  "en": "Highlight",
+  "tr": "Kiemel"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Caret vonal kiemelése"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Egyező pár kiemelése"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Emelje ki a betétvonalat"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "A jelszó kiemelése"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Az aktuális hajtás kiemelése"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Az aktuális pár kiemelése"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "A növekményes keresés kiemelése"
+ },{
+  "en": "History",
+  "tr": "Történelem"
+ },{
+  "en": "Home Of Line",
+  "tr": "Home Of Line"
+ },{
+  "en": "Host",
+  "tr": "Házigazda"
+ },{
+  "en": "Host address",
+  "tr": "Gazdagép címe"
+ },{
+  "en": "Host Based",
+  "tr": "Host alapú"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Óra 12 formátumban"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Óra 24 formátumban"
+ },{
+  "en": "Http proxy",
+  "tr": "Http proxy"
+ },{
+  "en": "Huge File",
+  "tr": "Hatalmas fájl"
+ },{
+  "en": "Icon",
+  "tr": "Ikon"
+ },{
+  "en": "Identity file",
+  "tr": "Azonosító fájl"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Azonosító fájl a hitelesítéshez"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Ha létrehoz egy mester jelszót, akkor meg kell adnia, amikor a WindTerm lekéri a mester jelszóval védett mentett információkat."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Ha elfelejti mesterjelszavát, akkor nem férhet hozzá az általa védett információkhoz."
+ },{
+  "en": "Import",
+  "tr": "Importálás"
+ },{
+  "en": "Import sessions",
+  "tr": "Munkamenetek importálása"
+ },{
+  "en": "In Selection",
+  "tr": "A kiválasztásban"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Vonalbehúzás növelése"
+ },{
+  "en": "Incremental",
+  "tr": "Járulékos"
+ },{
+  "en": "Indent",
+  "tr": "Behúzás"
+ },{
+  "en": "Indent guide style",
+  "tr": "Bevezetési útmutató stílusa"
+ },{
+  "en": "Indent Guides",
+  "tr": "Behúzási útmutatók"
+ },{
+  "en": "Indent size",
+  "tr": "Behúzás mérete"
+ },{
+  "en": "Indentation",
+  "tr": "Behúzás"
+ },{
+  "en": "Indian Red",
+  "tr": "Indiai vörös"
+ },{
+  "en": "Information",
+  "tr": "Információ"
+ },{
+  "en": "Insert",
+  "tr": "Beszúrás"
+ },{
+  "en": "Insert File",
+  "tr": "Fájl beszúrása"
+ },{
+  "en": "Insert Lines",
+  "tr": "Sorok beszúrása"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Fül beszúrása a TAB billentyű(I) megnyomásakor"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "A szóközök beillesztése és törlése a tabulátorokat követi"
+ },{
+  "en": "Inserting file",
+  "tr": "Fájl beszúrása"
+ },{
+  "en": "Internal X display",
+  "tr": "Belső X kijelző"
+ },{
+  "en": "Interval",
+  "tr": "Időköz"
+ },{
+  "en": "Invert Selection",
+  "tr": "Kijelölés megfordítása"
+ },{
+  "en": "item failed",
+  "tr": "elem sikertelen"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "elemek sikertelenek"
+ },{
+  "en": "Join Channel A",
+  "tr": "Csatlakozás az A(A) csatornához"
+ },{
+  "en": "Join Channel B",
+  "tr": "Csatlakozz a B(B) csatornához"
+ },{
+  "en": "Join Channel C",
+  "tr": "Csatlakozás a C(C) csatornához"
+ },{
+  "en": "Join Channel D",
+  "tr": "Csatlakozás a D csatornához"
+ },{
+  "en": "Join Lines",
+  "tr": "Csatlakozás a vonalakhoz"
+ },{
+  "en": "Joined",
+  "tr": "Csatlakozott"
+ },{
+  "en": "Jump Server",
+  "tr": "Ugrás szerver"
+ },{
+  "en": "Jump server",
+  "tr": "Ugrás szerver"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Ugrószerverek"
+ },{
+  "en": "Key Exchange",
+  "tr": "Kulcscsere"
+ },{
+  "en": "Key exchange order",
+  "tr": "Kulcscsere rendelés"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Kulcscsere"
+ },{
+  "en": "Keyboard",
+  "tr": "Billentyűzet"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Interaktív billentyűzet"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit bár"
+ },{
+  "en": "Known",
+  "tr": "Ismert"
+ },{
+  "en": "Label",
+  "tr": "Címke"
+ },{
+  "en": "Language",
+  "tr": "Nyelv"
+ },{
+  "en": "Last sessions",
+  "tr": "Utolsó ülések"
+ },{
+  "en": "Layout",
+  "tr": "Elrendezés"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Vezető és követő üres részek"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Vezető üres"
+ },{
+  "en": "Leading position",
+  "tr": "Vezető pozíció"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Kilépés az összes csatornából"
+ },{
+  "en": "Leave all channels",
+  "tr": "Hagyja el az összes csatornát"
+ },{
+  "en": "Leave Channel",
+  "tr": "Kilépés a csatornából"
+ },{
+  "en": "Left Docks",
+  "tr": "Bal dokkok"
+ },{
+  "en": "Left Group",
+  "tr": "Bal csoport"
+ },{
+  "en": "Light",
+  "tr": "Könnyű"
+ },{
+  "en": "Line",
+  "tr": "Vonal"
+ },{
+  "en": "line",
+  "tr": "vonal"
+ },{
+  "en": "line at a time",
+  "tr": "sor egyszerre"
+ },{
+  "en": "Line Down",
+  "tr": "Sor lefelé"
+ },{
+  "en": "Line Ending",
+  "tr": "Sor vége"
+ },{
+  "en": "Line Endings",
+  "tr": "Sorvég"
+ },{
+  "en": "Line Feed",
+  "tr": "Soremelés"
+ },{
+  "en": "line height",
+  "tr": "vonal magassága"
+ },{
+  "en": "Line marker",
+  "tr": "Vonaljelölő"
+ },{
+  "en": "Line spacing",
+  "tr": "Sorköz"
+ },{
+  "en": "Line Up",
+  "tr": "Felállás"
+ },{
+  "en": "lines at a time",
+  "tr": "sorokat egyszerre"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Scrollback(​​L) sorok"
+ },{
+  "en": "Link",
+  "tr": "Link"
+ },{
+  "en": "Link to",
+  "tr": "Link ehhez"
+ },{
+  "en": "List Tab",
+  "tr": "Lista fül"
+ },{
+  "en": "Listen Port",
+  "tr": "Hallgatási port"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Helyi továbbítás"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Üzenet keresése"
+ },{
+  "en": "Location",
+  "tr": "Elhelyezkedés"
+ },{
+  "en": "Lock Screen",
+  "tr": "Képernyő lezárása"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Lezárási képernyő időtúllépése"
+ },{
+  "en": "Lock Selection",
+  "tr": "Zár kiválasztása"
+ },{
+  "en": "Log",
+  "tr": "Napló"
+ },{
+  "en": "Log all session output",
+  "tr": "Az összes munkamenet kimenetének naplózása"
+ },{
+  "en": "Log content pattern",
+  "tr": "Napló tartalmi mintája"
+ },{
+  "en": "Log Dialog",
+  "tr": "Napló párbeszédpanel"
+ },{
+  "en": "Log file",
+  "tr": "Naplófájl"
+ },{
+  "en": "Log file name",
+  "tr": "Naplófájl neve"
+ },{
+  "en": "Log maximum size",
+  "tr": "A napló maximális mérete"
+ },{
+  "en": "Log nothing",
+  "tr": "Semmi naplózása"
+ },{
+  "en": "Log option",
+  "tr": "Napló lehetőség"
+ },{
+  "en": "Log options",
+  "tr": "Napló beállításai"
+ },{
+  "en": "Log pattern",
+  "tr": "Napló minta"
+ },{
+  "en": "Log printable output",
+  "tr": "Naplóból nyomtatható kimenet"
+ },{
+  "en": "Log type",
+  "tr": "Napló típusa"
+ },{
+  "en": "Log types",
+  "tr": "Naplófajták"
+ },{
+  "en": "Logging",
+  "tr": "Fakitermelés"
+ },{
+  "en": "Login",
+  "tr": "Belépés"
+ },{
+  "en": "Login Wizard",
+  "tr": "Bejelentkezés varázsló"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Hosszú idő/dátum"
+ },{
+  "en": "Look both guide",
+  "tr": "Nézze meg mindkét útmutatót"
+ },{
+  "en": "Look forward guide",
+  "tr": "Nézd előre útmutató"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC hashes"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC -kivonatrend"
+ },{
+  "en": "Margin Blank",
+  "tr": "Üres margó"
+ },{
+  "en": "Margin Fold",
+  "tr": "Margóhajtás"
+ },{
+  "en": "Margin Number",
+  "tr": "Margószám"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Margószimbólum"
+ },{
+  "en": "Margin Text",
+  "tr": "Margószöveg"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Margó időbélyege"
+ },{
+  "en": "Margins",
+  "tr": "Margó"
+ },{
+  "en": "Marker style",
+  "tr": "Jelölő stílus"
+ },{
+  "en": "Master Password",
+  "tr": "Mesterjelszó"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Maximális adat ismétlés előtt(MByte)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Az ismétlés előtti maximális idő(perc)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Maximális csatlakozási időtúllépés"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Közepes"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Közepes orchidea"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Közepes pala kék"
+ },{
+  "en": "Menu Bar",
+  "tr": "Menüsor"
+ },{
+  "en": "Merge To Group",
+  "tr": "Egyesítés csoportba"
+ },{
+  "en": "Middle click",
+  "tr": "Középső kattintás"
+ },{
+  "en": "Middle click event",
+  "tr": "Középső kattintás esemény"
+ },{
+  "en": "Milliseconds",
+  "tr": "Ezredmásodperc"
+ },{
+  "en": "Minutes",
+  "tr": "Jegyzőkönyv"
+ },{
+  "en": "minutes",
+  "tr": "percek"
+ },{
+  "en": "Mismatched",
+  "tr": "Nem egyezik"
+ },{
+  "en": "Mode",
+  "tr": "Mód"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modem vár"
+ },{
+  "en": "Modes",
+  "tr": "Módok"
+ },{
+  "en": "Modified",
+  "tr": "Módosított"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Módosítás"
+ },{
+  "en": "Modify Lines",
+  "tr": "Vonalak módosítása"
+ },{
+  "en": "Month",
+  "tr": " hónap"
+ },{
+  "en": "More",
+  "tr": "Továbbiak"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Egérműveletek"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Egérkövetés"
+ },{
+  "en": "Move Down",
+  "tr": "Lépés lefelé"
+ },{
+  "en": "Move event",
+  "tr": "Esemény áthelyezése"
+ },{
+  "en": "Move to",
+  "tr": "Költözik"
+ },{
+  "en": "Move To Group",
+  "tr": "Áthelyezés a csoportba"
+ },{
+  "en": "Move Up",
+  "tr": "Lépjen felfelé"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Több Caret"
+ },{
+  "en": "Name",
+  "tr": "Név"
+ },{
+  "en": "nesting groups",
+  "tr": "fészkelő csoportok"
+ },{
+  "en": "Never",
+  "tr": "Soha"
+ },{
+  "en": "New directory",
+  "tr": "Új könyvtár"
+ },{
+  "en": "New File",
+  "tr": "Új fájl"
+ },{
+  "en": "New file",
+  "tr": "Új fájl"
+ },{
+  "en": "New Line",
+  "tr": "Új sor"
+ },{
+  "en": "New link",
+  "tr": "Új link"
+ },{
+  "en": "New password",
+  "tr": "Új jelszó"
+ },{
+  "en": "New Session",
+  "tr": "Új munkamenet"
+ },{
+  "en": "New Window",
+  "tr": "Új ablak"
+ },{
+  "en": "Next Char",
+  "tr": "Következő karakter"
+ },{
+  "en": "Next Fold",
+  "tr": "Következő hajtás"
+ },{
+  "en": "Next Indentation",
+  "tr": "Következő behúzás"
+ },{
+  "en": "Next Line",
+  "tr": "Következő sor"
+ },{
+  "en": "Next Message",
+  "tr": "Következő üzenet"
+ },{
+  "en": "Next Page",
+  "tr": "Következő oldal"
+ },{
+  "en": "Next Pair",
+  "tr": "Következő pár"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Következő bekezdés"
+ },{
+  "en": "Next Scope",
+  "tr": "Következő hatókör"
+ },{
+  "en": "Next Segment End",
+  "tr": "Következő szegmens vége"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Következő szegmens kezdete"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Következő akadozó oldal"
+ },{
+  "en": "Next Word",
+  "tr": "Következő szó"
+ },{
+  "en": "Next Word End",
+  "tr": "Következő szó vége"
+ },{
+  "en": "Next Word Part",
+  "tr": "Következő szórész"
+ },{
+  "en": "No",
+  "tr": "Nem"
+ },{
+  "en": "No action",
+  "tr": "Nincs művelet"
+ },{
+  "en": "No Dirs",
+  "tr": "Nincs Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Nincs elid"
+ },{
+  "en": "No file opened",
+  "tr": "Nincs fájl megnyitva"
+ },{
+  "en": "No filer available",
+  "tr": "Nem áll rendelkezésre fájlrendező"
+ },{
+  "en": "No Files",
+  "tr": "Nincsenek fájlok"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Nincs kiválasztva fájl az átvitelhez."
+ },{
+  "en": "No item opened",
+  "tr": "Nincs elem megnyitva"
+ },{
+  "en": "No outline available",
+  "tr": "Nincs vázlat"
+ },{
+  "en": "No proxy",
+  "tr": "Nincs proxy"
+ },{
+  "en": "No session",
+  "tr": "Nincs munkamenet"
+ },{
+  "en": "No session available",
+  "tr": "Nincs elérhető munkamenet"
+ },{
+  "en": "No session opened",
+  "tr": "Nincs megnyitva munkamenet"
+ },{
+  "en": "No Sessions",
+  "tr": "Nincs munkamenet"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Nem állnak rendelkezésre támogatott hitelesítési módszerek."
+ },{
+  "en": "No transfer available",
+  "tr": "Transzfer nem áll rendelkezésre"
+ },{
+  "en": "No wrap",
+  "tr": "Nincs pakolás"
+ },{
+  "en": "No X display",
+  "tr": "Nincs X kijelző"
+ },{
+  "en": "None",
+  "tr": "Egyik sem"
+ },{
+  "en": "None tabs",
+  "tr": "Nincs lap"
+ },{
+  "en": "Normal",
+  "tr": "Normál"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Most"
+ },{
+  "en": "Nowhere",
+  "tr": "Most itt"
+ },{
+  "en": "Octal",
+  "tr": "Oktál"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM - ANSI"
+ },{
+  "en": "Off",
+  "tr": "Ki"
+ },{
+  "en": "off",
+  "tr": "ki"
+ },{
+  "en": "Ok",
+  "tr": "Rendben"
+ },{
+  "en": "Old",
+  "tr": "Régi"
+ },{
+  "en": "Old password",
+  "tr": "Régi jelszó"
+ },{
+  "en": "Olive",
+  "tr": "Olajbogyó"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Egy vagy több munkamenet nyílik meg. \nBe szeretné zárni az aktuális ablakot?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Csak a lemezfájlt lehet újratölteni!"
+ },{
+  "en": "Only indentation",
+  "tr": "Csak behúzás"
+ },{
+  "en": "Opaque",
+  "tr": "Áttetsző"
+ },{
+  "en": "Open",
+  "tr": "Nyitva"
+ },{
+  "en": "open",
+  "tr": "nyisd ki"
+ },{
+  "en": "Open directory after created",
+  "tr": "A könyvtár megnyitása a létrehozás után"
+ },{
+  "en": "Open directory after download",
+  "tr": "Könyvtár megnyitása letöltés után"
+ },{
+  "en": "Open File",
+  "tr": "Fájl megnyitása"
+ },{
+  "en": "Open file",
+  "tr": "Fájl megnyitása"
+ },{
+  "en": "Open file after created",
+  "tr": "Fájl megnyitása létrehozás után"
+ },{
+  "en": "Open file failed!",
+  "tr": "A fájl megnyitása sikertelen!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Az ugrószerver megnyitása sikertelen!"
+ },{
+  "en": "Open Log File",
+  "tr": "Naplófájl megnyitása"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Naplómappa megnyitása"
+ },{
+  "en": "Open Recent",
+  "tr": "Legutóbbi megnyitása"
+ },{
+  "en": "Open Selection",
+  "tr": "Kijelölés megnyitása"
+ },{
+  "en": "Open Session",
+  "tr": "Nyílt munkamenet"
+ },{
+  "en": "Open session failed!",
+  "tr": "A nyílt munkamenet sikertelen!"
+ },{
+  "en": "Open target directory",
+  "tr": "Célkönyvtár megnyitása"
+ },{
+  "en": "Open with default editor",
+  "tr": "Megnyitás alapértelmezett szerkesztővel"
+ },{
+  "en": "Opened",
+  "tr": "Nyitott"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh munkamenetek"
+ },{
+  "en": "Others",
+  "tr": "Mások"
+ },{
+  "en": "Outline",
+  "tr": "Vázlat"
+ },{
+  "en": "Output",
+  "tr": "Kimenet"
+ },{
+  "en": "Overtype",
+  "tr": "Szegénység"
+ },{
+  "en": "Overwrite",
+  "tr": "Átír"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Naplófájl felülírása"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Írja felül, ha a forrásfájl újabb"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Felülírás, ha a forrásfájl újabb vagy hosszabb"
+ },{
+  "en": "Owner",
+  "tr": "Tulajdonos"
+ },{
+  "en": "Packet padding char",
+  "tr": "Csomagolt párnázás"
+ },{
+  "en": "Packet size",
+  "tr": "Csomag mérete"
+ },{
+  "en": "Page",
+  "tr": "Oldal"
+ },{
+  "en": "page",
+  "tr": "oldal"
+ },{
+  "en": "Pair",
+  "tr": "Párosítás"
+ },{
+  "en": "Panes",
+  "tr": "Táblák"
+ },{
+  "en": "Paragraph",
+  "tr": "(P) bekezdés"
+ },{
+  "en": "Parity",
+  "tr": "Paritás"
+ },{
+  "en": "Passphrase",
+  "tr": "Jelszó"
+ },{
+  "en": "Password",
+  "tr": "Jelszó"
+ },{
+  "en": "Password quality meter",
+  "tr": "Jelszó minőségmérő"
+ },{
+  "en": "Paste",
+  "tr": "Paszta"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Beillesztés párbeszédpanel"
+ },{
+  "en": "Paste text",
+  "tr": "Szöveg beillesztése"
+ },{
+  "en": "Pause",
+  "tr": "Szünet"
+ },{
+  "en": "Paused",
+  "tr": "Szünet"
+ },{
+  "en": "Pausing",
+  "tr": "Szüneteltetés"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "DNS -keresés végrehajtása proxy segítségével"
+ },{
+  "en": "Period",
+  "tr": "Időszak"
+ },{
+  "en": "Permissions",
+  "tr": "Engedélyek"
+ },{
+  "en": "pixels",
+  "tr": "pixel"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Kérjük, adjon meg egy új nevet ehhez a nézethez"
+ },{
+  "en": "Please input master password",
+  "tr": "Kérjük, adja meg a fő jelszót"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Kérjük, adja meg a fő jelszót, ürítse ki vagy törölje a letiltáshoz"
+ },{
+  "en": "Please input new group",
+  "tr": "Kérjük, adjon meg új csoportot"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Kérjük, ügyeljen arra, hogy emlékezzen a beállított fő jelszóra."
+ },{
+  "en": "Port",
+  "tr": "Kikötő"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "A téma betűtípusainak előnyben részesítése"
+ },{
+  "en": "Preferences",
+  "tr": "Beállítások"
+ },{
+  "en": "Preserve",
+  "tr": "Őrizze meg"
+ },{
+  "en": "Preview All",
+  "tr": "Összes előnézete"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Előnézet szimbólum"
+ },{
+  "en": "Previous Char",
+  "tr": "Előző Char"
+ },{
+  "en": "Previous Fold",
+  "tr": "Előző hajtás"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Előző behúzás"
+ },{
+  "en": "Previous Line",
+  "tr": "Előző sor"
+ },{
+  "en": "Previous Message",
+  "tr": "Előző üzenet"
+ },{
+  "en": "Previous Page",
+  "tr": "Előző oldal"
+ },{
+  "en": "Previous Pair",
+  "tr": "Előző párosítás"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Előző bekezdés"
+ },{
+  "en": "Previous Scope",
+  "tr": "Előző hatály"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Előző szegmens vége"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Előző szegmens kezdete"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Előző akadozott oldal"
+ },{
+  "en": "Previous Word",
+  "tr": "Előző szó"
+ },{
+  "en": "Previous Word End",
+  "tr": "Előző szóvég"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Előző szórész"
+ },{
+  "en": "Printable output",
+  "tr": "Nyomtatható kimenet"
+ },{
+  "en": "Process",
+  "tr": "Folyamat"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "A(z) %1 folyamat összeomlott."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "A(z %1 folyamat elindítása sikertelen."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Process %1 timeout."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Program [érvek]"
+ },{
+  "en": "Project",
+  "tr": "Projekt"
+ },{
+  "en": "Properties",
+  "tr": "Tulajdonságok"
+ },{
+  "en": "Property",
+  "tr": "Ingatlan"
+ },{
+  "en": "Protocol",
+  "tr": "Jegyzőkönyv"
+ },{
+  "en": "Proxy",
+  "tr": "Meghatalmazott"
+ },{
+  "en": "Proxy Host",
+  "tr": "Proxy gazdagép"
+ },{
+  "en": "Proxy Port",
+  "tr": "Proxyport"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Proxy beállítások"
+ },{
+  "en": "Proxy Type",
+  "tr": "Proxy típusa"
+ },{
+  "en": "Public Key",
+  "tr": "Nyilvános kulcs"
+ },{
+  "en": "Public Keys",
+  "tr": "Nyilvános kulcsok"
+ },{
+  "en": "Public keys order",
+  "tr": "Nyilvános kulcsok rendelése"
+ },{
+  "en": "Putty sessions",
+  "tr": "Putty ülések"
+ },{
+  "en": "Query URL",
+  "tr": "URL lekérdezése"
+ },{
+  "en": "Question",
+  "tr": "Kérdés"
+ },{
+  "en": "Quick",
+  "tr": "Gyors"
+ },{
+  "en": "Quick Bar",
+  "tr": "Gyors bár"
+ },{
+  "en": "Quick Commands",
+  "tr": "Gyors parancsok"
+ },{
+  "en": "Read Only",
+  "tr": "Csak olvasható"
+ },{
+  "en": "Ready",
+  "tr": "Kész"
+ },{
+  "en": "Real guide",
+  "tr": "Igazi kalauz"
+ },{
+  "en": "Receive XModem",
+  "tr": "XModem(X) fogadása"
+ },{
+  "en": "Receive YModem",
+  "tr": "YModem(Y) fogadása"
+ },{
+  "en": "Receive ZModem",
+  "tr": "ZModem(Z) fogadása"
+ },{
+  "en": "received",
+  "tr": "kapott"
+ },{
+  "en": "Recent",
+  "tr": "Friss"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Legutóbbi munkamenetek"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Munkamenet újracsatlakoztatása"
+ },{
+  "en": "Rectangle",
+  "tr": "Téglalap"
+ },{
+  "en": "rectangle",
+  "tr": "téglalap"
+ },{
+  "en": "Red",
+  "tr": "Piros"
+ },{
+  "en": "Redo",
+  "tr": "Újra"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "%1 műveletek visszaállítása"
+ },{
+  "en": "Refresh",
+  "tr": "Frissítés"
+ },{
+  "en": "Regular Expression",
+  "tr": "Reguláris kifejezés"
+ },{
+  "en": "Reload",
+  "tr": "Újratöltés"
+ },{
+  "en": "Reload File",
+  "tr": "Fájl újratöltése"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Újratöltés kódolással"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Távoli továbbítás"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Távoli út"
+ },{
+  "en": "Remove",
+  "tr": "Eltávolítás"
+ },{
+  "en": "remove",
+  "tr": "távolítsa el"
+ },{
+  "en": "Remove All",
+  "tr": "Összes eltávolítása"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Üres sorok eltávolítása"
+ },{
+  "en": "Remove Command",
+  "tr": "Parancs eltávolítása"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Ismétlődő sorok eltávolítása"
+ },{
+  "en": "Remove Group",
+  "tr": "Csoport eltávolítása"
+ },{
+  "en": "Remove items",
+  "tr": "Elemek eltávolítása"
+ },{
+  "en": "Remove Sender",
+  "tr": "Feladó(R) eltávolítása"
+ },{
+  "en": "Removing",
+  "tr": "Eltávolítás"
+ },{
+  "en": "Rename",
+  "tr": "Átnevezés"
+ },{
+  "en": "Rename Group",
+  "tr": "Csoport átnevezése"
+ },{
+  "en": "Rename tab",
+  "tr": "Fül átnevezése"
+ },{
+  "en": "Rename View",
+  "tr": "Nézet átnevezése"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Zárt nézet újbóli megnyitása"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Az utolsó parancs megismétlése"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Ismételt végrehajtás"
+ },{
+  "en": "Replace",
+  "tr": "Csere"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Összes cseréje"
+ },{
+  "en": "Replace in Files",
+  "tr": "Csere a fájlokban"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Újraindítás szükséges a hatás eléréséhez"
+ },{
+  "en": "Reset",
+  "tr": "Visszaállítás"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Karakterkészlet visszaállítása"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Nagyítás visszaállítása"
+ },{
+  "en": "Resume",
+  "tr": "Önéletrajz"
+ },{
+  "en": "Resuming",
+  "tr": "Folytatás"
+ },{
+  "en": "Right click",
+  "tr": "Jobb klikk"
+ },{
+  "en": "Right click event",
+  "tr": "Jobb klikk esemény"
+ },{
+  "en": "Right Docks",
+  "tr": "Jobb dokkok"
+ },{
+  "en": "Right Group",
+  "tr": "Jobb csoport"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Görgessen az egér görgőjével"
+ },{
+  "en": "Rows",
+  "tr": "Sorok"
+ },{
+  "en": "Royal Blue",
+  "tr": "Királykék"
+ },{
+  "en": "Run Tool",
+  "tr": "Futtatás eszköz"
+ },{
+  "en": "Save",
+  "tr": "Megment"
+ },{
+  "en": "Save All",
+  "tr": "Összes mentése"
+ },{
+  "en": "Save As",
+  "tr": "Mentés másként"
+ },{
+  "en": "Save Copy As",
+  "tr": "Másolás mentése más néven"
+ },{
+  "en": "Save file failed!",
+  "tr": "A fájl mentése nem sikerült!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Kijelölés mentése másként"
+ },{
+  "en": "Save Session",
+  "tr": "Munkamenet mentése"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Mentett automatikus hitelesítés"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Sémaeszközök"
+ },{
+  "en": "Scope",
+  "tr": "Hatály"
+ },{
+  "en": "Screen Locked",
+  "tr": "Képernyő zárolva"
+ },{
+  "en": "Scroll Left",
+  "tr": "Görgessen balra"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Görgetés lefelé"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Görgetés felfelé"
+ },{
+  "en": "Scroll Right",
+  "tr": "Görgessen jobbra"
+ },{
+  "en": "Search",
+  "tr": "Keresés"
+ },{
+  "en": "Search engine",
+  "tr": "Kereső motorok)"
+ },{
+  "en": "Search Engine",
+  "tr": "Keresőmotor"
+ },{
+  "en": "Search Engines",
+  "tr": "Keresőmotorok"
+ },{
+  "en": "Search Online",
+  "tr": "Keresés online"
+ },{
+  "en": "Search or enter address",
+  "tr": "Keresse meg vagy írja be a címet"
+ },{
+  "en": "Searching",
+  "tr": "Keresés"
+ },{
+  "en": "Seconds",
+  "tr": "Másodpercek"
+ },{
+  "en": "seconds",
+  "tr": "másodperc"
+ },{
+  "en": "Security",
+  "tr": "Biztonság"
+ },{
+  "en": "Segment",
+  "tr": "Szegmens"
+ },{
+  "en": "Select",
+  "tr": "Kiválasztás"
+ },{
+  "en": "Select All",
+  "tr": "Az összes kijelölése"
+ },{
+  "en": "Select Column To",
+  "tr": "Oszlop kiválasztása"
+ },{
+  "en": "Select copy folder",
+  "tr": "Válassza ki a másolási mappát"
+ },{
+  "en": "Select copy items",
+  "tr": "Válassza ki az elemek másolását"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Válassza ki a fogadni kívánt könyvtárat"
+ },{
+  "en": "Select download folder",
+  "tr": "Válassza ki a letöltési mappát"
+ },{
+  "en": "Select files to send",
+  "tr": "Válassza ki a küldeni kívánt fájlokat"
+ },{
+  "en": "Select Fold",
+  "tr": "Fold(F) kiválasztása"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Kivonat visszafelé kiválasztása"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Kiválasztás a kivonattovábbításhoz"
+ },{
+  "en": "Select To",
+  "tr": "Válassza a Címzett lehetőséget"
+ },{
+  "en": "Select upload items",
+  "tr": "Válassza ki az elemek feltöltését"
+ },{
+  "en": "Selected position",
+  "tr": "Kiválasztott pozíció"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Kiválasztott munkamenetek"
+ },{
+  "en": "Selection",
+  "tr": "Kiválasztás"
+ },{
+  "en": "Send",
+  "tr": "Küld"
+ },{
+  "en": "Send line By line",
+  "tr": "Sor küldése soronként"
+ },{
+  "en": "Send Text",
+  "tr": "Szöveg küldése"
+ },{
+  "en": "Send XModem",
+  "tr": "XModem(X) küldése"
+ },{
+  "en": "Send YModem",
+  "tr": "YModem(Y) küldése"
+ },{
+  "en": "Send ZModem",
+  "tr": "ZModem(Z) küldése"
+ },{
+  "en": "Sender",
+  "tr": "Feladó"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "A(z %1 küldése nem sikerült: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Küldés: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Null csomagot küld a munkamenet életben tartásához"
+ },{
+  "en": "sent",
+  "tr": "küldött"
+ },{
+  "en": "Serial",
+  "tr": "Sorozat"
+ },{
+  "en": "Server",
+  "tr": "szerver"
+ },{
+  "en": "Session",
+  "tr": "Ülés"
+ },{
+  "en": "session",
+  "tr": "ülés"
+ },{
+  "en": "Session Group",
+  "tr": "Session Group"
+ },{
+  "en": "Session Log",
+  "tr": "Munkamenet -napló"
+ },{
+  "en": "Session name",
+  "tr": "Munkamenet neve"
+ },{
+  "en": "Session Settings",
+  "tr": "A munkamenet beállításai"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Ülések minden Windowsban"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Munkamenetek az aktuális csoportban"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Munkamenetek az aktuális ablakban"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Munkamenetek a %1 csoportban"
+ },{
+  "en": "Set default editor",
+  "tr": "Alapértelmezett szerkesztő beállítása"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Lap színének beállítása"
+ },{
+  "en": "Settings",
+  "tr": "Beállítások"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Alak"
+ },{
+  "en": "Shell",
+  "tr": "Héj"
+ },{
+  "en": "Shell sessions",
+  "tr": "Shell -munkamenetek"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Shell Sessions"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Rövid idő/dátum"
+ },{
+  "en": "Show",
+  "tr": "Előadás"
+ },{
+  "en": "Show All",
+  "tr": "Összes megjelenítése"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Az összes megnyitott és legutóbbi szerkesztő megjelenítése"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Az összes megnyitott és legutóbbi terminál megjelenítése"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Műveletek megjelenítése és futtatása"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Bezárás lap megerősítő párbeszédpanel megjelenítése"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Ablak bezárását megerősítő párbeszédpanel megjelenítése"
+ },{
+  "en": "Show column markers",
+  "tr": "Oszlopjelzők(M) megjelenítése"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Parancsok megjelenítése betűrendben"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Jelenlegi %1 tulajdonság megjelenítése"
+ },{
+  "en": "Show group commands in order",
+  "tr": "A csoportparancsok megjelenítése sorrendben"
+ },{
+  "en": "Show group title",
+  "tr": "A csoport címének megjelenítése"
+ },{
+  "en": "Show hidden items",
+  "tr": "Rejtett elemek megjelenítése"
+ },{
+  "en": "Show in %1",
+  "tr": "Megjelenítés %1 -ben"
+ },{
+  "en": "Show In Line End",
+  "tr": "Megjelenítés sor végén"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Megjelenítés sorban"
+ },{
+  "en": "Show In Selection",
+  "tr": "Megjelenítés a kiválasztásban"
+ },{
+  "en": "Show indent guide",
+  "tr": "Behúzási útmutató megjelenítése"
+ },{
+  "en": "Show line endings",
+  "tr": "Sorvégződés(S) megjelenítése"
+ },{
+  "en": "Show menu",
+  "tr": "Menü megjelenítése"
+ },{
+  "en": "Show More Tools",
+  "tr": "További eszközök megjelenítése"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Több csoport megjelenítése"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Beillesztés párbeszédpanel megjelenítése az alternatív képernyőn"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Beillesztés párbeszédpanel megjelenítése a főképernyőn"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Szóközök és tabulátorok(S) megjelenítése"
+ },{
+  "en": "Show Tabs",
+  "tr": "Lapok megjelenítése"
+ },{
+  "en": "Show Text",
+  "tr": "Szöveg megjelenítése"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "A lapszám megjelenítése a lapokon"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "A párbeszédpanel megjelenítése, amikor a fókuszmód elindul"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Tekerési szimbólumok(S) megjelenítése"
+ },{
+  "en": "Shrink",
+  "tr": "Összezsugorodik"
+ },{
+  "en": "Size",
+  "tr": "Méret"
+ },{
+  "en": "Skip",
+  "tr": "Átugrani"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Socks v5 proxy"
+ },{
+  "en": "Soft Reset",
+  "tr": "Soft Reset"
+ },{
+  "en": "Sort",
+  "tr": "Rendezés"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "A kis- és nagybetűk megkülönböztetése"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Sorok rendezése kis- és nagybetűk"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Sorok rendezése véletlen sorrendben"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Sorok rendezése fordított sorrendben"
+ },{
+  "en": "spaces",
+  "tr": "terek"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Szóközök a lapokhoz"
+ },{
+  "en": "Spacing",
+  "tr": "Távolság"
+ },{
+  "en": "Special",
+  "tr": "Különleges"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Adja meg a protokollt fájlok húzásakor"
+ },{
+  "en": "Speed",
+  "tr": "Sebesség"
+ },{
+  "en": "Split",
+  "tr": "Split"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Csoport felosztása vízszintesen"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Csoport felosztása függőlegesen"
+ },{
+  "en": "Split Lines",
+  "tr": "Osztott vonalak"
+ },{
+  "en": "Split Selection",
+  "tr": "Kijelölés felosztása"
+ },{
+  "en": "Split To Group",
+  "tr": "Felosztás csoportra"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Osztott nézet vízszintesen"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Osztott nézet függőlegesen"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Start"
+ },{
+  "en": "Start Of Document",
+  "tr": "A dokumentum kezdete"
+ },{
+  "en": "Start Of Line",
+  "tr": "Sor kezdete"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Pár kezdete"
+ },{
+  "en": "Startup",
+  "tr": "üzembe helyezés"
+ },{
+  "en": "Stash",
+  "tr": "Stash"
+ },{
+  "en": "Status Bar",
+  "tr": "Állapotsor"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Acélkék"
+ },{
+  "en": "Sticky",
+  "tr": "Ragadós"
+ },{
+  "en": "Stop",
+  "tr": "Álljon meg"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stop bitek"
+ },{
+  "en": "Stop loading",
+  "tr": "A betöltés leállítása"
+ },{
+  "en": "Stop sender",
+  "tr": "Állítsa le a feladót"
+ },{
+  "en": "Stop Tools",
+  "tr": "Stop Tools"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Ne nézze meg ezt a fájlt"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Áram és oszlop váltása"
+ },{
+  "en": "switch to tab",
+  "tr": "váltson lapra"
+ },{
+  "en": "Symbols",
+  "tr": "Szimbólumok"
+ },{
+  "en": "Sync channel",
+  "tr": "Csatorna szinkronizálása"
+ },{
+  "en": "Sync Edit",
+  "tr": "Szinkronizálás szerkesztése"
+ },{
+  "en": "Sync Input",
+  "tr": "Szinkron bemenet"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "A bemenet szinkronizálása a %1 csatornában"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Szintaxisémák"
+ },{
+  "en": "System",
+  "tr": "Rendszer"
+ },{
+  "en": "Tab",
+  "tr": "Tab"
+ },{
+  "en": "Tab Color",
+  "tr": "Fül színe"
+ },{
+  "en": "Tab Features",
+  "tr": "Fül tulajdonságai"
+ },{
+  "en": "Tab Group",
+  "tr": "Tab csoport"
+ },{
+  "en": "Tab Index",
+  "tr": "Tab Index"
+ },{
+  "en": "Tab size",
+  "tr": "A lap mérete"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Tab szöveg elide mód"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Lap miniatűr rádiója"
+ },{
+  "en": "Tab Title",
+  "tr": "Lap címe"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "A kijelölt vonalak tabifikálása"
+ },{
+  "en": "Tabs",
+  "tr": "Lapok"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Lapok és szóközök"
+ },{
+  "en": "Target",
+  "tr": "Cél"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Célmappa"
+ },{
+  "en": "Targets",
+  "tr": "Célok"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP csatlakozási lehetőségek"
+ },{
+  "en": "Teal",
+  "tr": "Teal"
+ },{
+  "en": "Term",
+  "tr": "Term"
+ },{
+  "en": "Terminal",
+  "tr": "Terminál"
+ },{
+  "en": "terminal",
+  "tr": "terminál"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Terminál beállítások"
+ },{
+  "en": "Text",
+  "tr": "Szöveg"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Szöveg: %1 sor, %2 karakter"
+ },{
+  "en": "The % sign",
+  "tr": "A jel"
+ },{
+  "en": "The actual text to log",
+  "tr": "A tényleges naplózandó szöveg"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "A célmappa a forrásmappa almappája: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "A dokumentum módosult. \nMenti a módosításokat?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "A billentyűkombináció(%1) nem parancs."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Az lrzsz nem észlelhető. Kérjük, először telepítse az lrzsz -t."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "A fő jelszó megváltozott."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "A jelszó megerősítése nem egyezik."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "A szerver megszakította az átvitelt."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "A munkamenet <b> le van bontva </b>, nyomja meg az <b> Enter </b> gombot az újracsatlakozáshoz."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Az átvitelt törölték, mert egy csomag nem volt %1 az újrapróbálkozási korláton belül."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Az átvitelt törölték, mert a csomag sorszáma hibás volt."
+ },{
+  "en": "Theme",
+  "tr": "Téma"
+ },{
+  "en": "Thin",
+  "tr": "Vékony"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "A hatalmas fájlok küszöbértéke"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Időformátum"
+ },{
+  "en": "Time left",
+  "tr": "Idő maradt"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "A sorok időbélyege"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Fordított esetben"
+ },{
+  "en": "To Line End",
+  "tr": "A sor végéig"
+ },{
+  "en": "To Line Start",
+  "tr": "A vonal kezdetéhez"
+ },{
+  "en": "To Lower Case",
+  "tr": "Kisbetűs"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "MacOS 9 CR(M) rendszerhez"
+ },{
+  "en": "To Title Case",
+  "tr": "Cím megnevezése"
+ },{
+  "en": "To Unix LF",
+  "tr": "Unix LF -hez"
+ },{
+  "en": "To Upper Case",
+  "tr": "Nagybetűkre"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "A Windows CRLF -hez"
+ },{
+  "en": "To Word End",
+  "tr": "A szó végére"
+ },{
+  "en": "To Word Start",
+  "tr": "Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Hajtogatás váltása"
+ },{
+  "en": "Tool",
+  "tr": "Eszköz"
+ },{
+  "en": "Toolbar",
+  "tr": "Eszköztár"
+ },{
+  "en": "Top Group",
+  "tr": "Legjobb csoport"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "A szöveg szövegválasztása a fában"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Nyomvonal kiválasztása szövegben"
+ },{
+  "en": "Tracking Events",
+  "tr": "Események követése"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Nyomólapok"
+ },{
+  "en": "Trailing position",
+  "tr": "Hátsó pozíció"
+ },{
+  "en": "Transfer",
+  "tr": "Átruházás"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Transzfer bár"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Bináris átvitel"
+ },{
+  "en": "Transfer complete",
+  "tr": "Az átvitel kész"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Az átvitel befejezetlen"
+ },{
+  "en": "Translucent",
+  "tr": "Áttetsző"
+ },{
+  "en": "Transparent",
+  "tr": "Átlátszó"
+ },{
+  "en": "Transpose",
+  "tr": "Átültetés"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Vágja a szóközöket a mentéskor"
+ },{
+  "en": "Trust this host",
+  "tr": "Bízz ebben a házigazdában"
+ },{
+  "en": "Tunnels",
+  "tr": "Alagutak"
+ },{
+  "en": "Type",
+  "tr": "típus"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Típus '?' hogy segítséget kapjon az itt beírt műveletekhez"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Megjegyzés megszüntetése"
+ },{
+  "en": "Underline",
+  "tr": "Aláhúzás"
+ },{
+  "en": "underLine",
+  "tr": "aláhúzás"
+ },{
+  "en": "Undo",
+  "tr": "Visszavonás"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "%1 műveletek visszavonása"
+ },{
+  "en": "Unfold",
+  "tr": "Kibontás"
+ },{
+  "en": "Unfold All",
+  "tr": "Összes kibontása"
+ },{
+  "en": "Unfold Category",
+  "tr": "Kategória kibontása"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Kibontás belül"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "A sorvégződések egyesítése mentéskor"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: a shell fájl elérési útjának abszolútnak kell lennie"
+ },{
+  "en": "Unknown",
+  "tr": "Ismeretlen"
+ },{
+  "en": "unknown",
+  "tr": "ismeretlen"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "A kijelölt vonalak(U) visszavonása"
+ },{
+  "en": "Untitled",
+  "tr": "Névtelen"
+ },{
+  "en": "Untrust this host",
+  "tr": "Bízzon ebben a házigazdában"
+ },{
+  "en": "upload",
+  "tr": "feltölteni"
+ },{
+  "en": "Upload command",
+  "tr": "Feltöltési parancs"
+ },{
+  "en": "Upload directory",
+  "tr": "Könyvtár feltöltése"
+ },{
+  "en": "Upload file",
+  "tr": "Fájl feltöltés"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Feltöltés az aktuális mappába"
+ },{
+  "en": "uploaded",
+  "tr": "feltöltve"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL %q a lekérdezés helyett"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "A háttérszín használata a képernyő törléséhez"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Nagy sebességű átvitel(H) használata"
+ },{
+  "en": "Use system line ending",
+  "tr": "Használja a rendszersor végét"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Használja ezt alapértelmezettként, és ne kérdezzen újra"
+ },{
+  "en": "User",
+  "tr": "Felhasználó"
+ },{
+  "en": "Username echo mode",
+  "tr": "Felhasználónév visszhang mód"
+ },{
+  "en": "Value",
+  "tr": "Érték"
+ },{
+  "en": "Variable",
+  "tr": "Változó"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "A szerver ujjlenyomatának ellenőrzése"
+ },{
+  "en": "View",
+  "tr": "Nézet"
+ },{
+  "en": "Virtual Space",
+  "tr": "Virtuális tér"
+ },{
+  "en": "Waiting",
+  "tr": "Várakozás"
+ },{
+  "en": "Warning",
+  "tr": "Figyelem"
+ },{
+  "en": "Wheel event",
+  "tr": "Kerékesemény"
+ },{
+  "en": "When destination file exists",
+  "tr": "Amikor létezik célfájl"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Több sor beillesztésekor"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Amikor a távoli cím megváltozik"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Amikor a munkamenet hitelesítésre kerül"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Amikor a munkamenet hitelesítésre kerül"
+ },{
+  "en": "When window is resized",
+  "tr": "Az ablak átméretezésekor"
+ },{
+  "en": "Where",
+  "tr": "Hol"
+ },{
+  "en": "White Spaces",
+  "tr": "Fehér szóközök"
+ },{
+  "en": "Whole Line",
+  "tr": "Egész sor"
+ },{
+  "en": "Whole Word",
+  "tr": "Egész világ"
+ },{
+  "en": "Widgets",
+  "tr": "Modulok"
+ },{
+  "en": "Width",
+  "tr": "Szélesség"
+ },{
+  "en": "Window",
+  "tr": "Ablak"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Ablak széle"
+ },{
+  "en": "Window Opacity",
+  "tr": "Ablak átlátszatlansága"
+ },{
+  "en": "Window opacity",
+  "tr": "Ablak homályossága"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Manager"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "A Winpty-agent.exe vagy a winpty.dll nem található !."
+ },{
+  "en": "Word",
+  "tr": "Szó"
+ },{
+  "en": "Word Separators",
+  "tr": "Szóelválasztók"
+ },{
+  "en": "Word Wrap",
+  "tr": "Szótörés"
+ },{
+  "en": "Working directory",
+  "tr": "Munkakönyvtár"
+ },{
+  "en": "Wrap",
+  "tr": "Betakar"
+ },{
+  "en": "Wrap by character",
+  "tr": "Csomagolás karakter szerint"
+ },{
+  "en": "Wrap by word",
+  "tr": "Csomagolás szó szerint"
+ },{
+  "en": "Wrap column",
+  "tr": "Burkolási oszlop"
+ },{
+  "en": "Wrap mode",
+  "tr": "Tekerési mód"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Wrap szimbólumok"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Hibás fő jelszó."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z modem"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "Az X/Y/Z modem nem tud 4 GB -nál nagyobb mappákat vagy fájlokat továbbítani: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 hitelesítési protokoll"
+ },{
+  "en": "X11 display",
+  "tr": "X11 kijelző"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Év 2 számjegyben"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Év 4 számjegyben"
+ },{
+  "en": "Yes",
+  "tr": "Igen"
+ },{
+  "en": "Zero",
+  "tr": "Nulla"
+ },{
+  "en": "Zoom",
+  "tr": "Zoomolás"
+ },{
+  "en": "Zoom In",
+  "tr": "Nagyítás"
+ },{
+  "en": "Zoom level",
+  "tr": "Nagyítás"
+ },{
+  "en": "Zoom Out",
+  "tr": "Kicsinyítés"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Összeomlott: %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Üres]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Hiba: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Befejezés: %1s, kilépési kód: %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[ %1s múlva befejeződött]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[A csoportlista üres]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[A navigációs lista üres]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Nincs kereső]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[A legújabb URL -címek üresek]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Az újraindítási lista üres]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[A séma lista üres]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[A téma lista üres]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Az eszköztár üres]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[A visszavonási lista üres]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Felhasználó törölve]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[felhasználó@] gazdagépnév"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[A Windows lista üres]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

@@ -1,0 +1,3513 @@
+{
+ "language": "Finnish - suomi",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "$(Scheme) Tools",
+  "tr": "$(Scheme) Työkalut"
+ },{
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1 ei tue %1 %2."
+ },{
+  "en": "%1 copied",
+  "tr": "%1 kopioitu"
+ },{
+  "en": "%1 downloaded",
+  "tr": "%1 ladattu"
+ },{
+  "en": "%1 File",
+  "tr": "%1 Tiedosto"
+ },{
+  "en": "%1 item failed",
+  "tr": "%1 kohde epäonnistui"
+ },{
+  "en": "%1 items",
+  "tr": "%1 kohdetta"
+ },{
+  "en": "%1 items failed",
+  "tr": "%1 kohdetta epäonnistui"
+ },{
+  "en": "%1 items/s",
+  "tr": "%1 kohdetta/s"
+ },{
+  "en": "%1 of %2",
+  "tr": "%1 / %2"
+ },{
+  "en": "%1 removed",
+  "tr": "%1 poistettu"
+ },{
+  "en": "%1 this %2",
+  "tr": "%1 tämä %2"
+ },{
+  "en": "%1 uploaded",
+  "tr": "%1 ladattu"
+ },{
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/ %2 Nopeus: %3"
+ },{
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 epäonnistuneet salasanayritykset."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1 <br> <b> on muuttunut </b> ja <b> ladattu uudelleen </b>, kumoaminen on <b> EI </b> sallittu suurille tiedostoille."
+ },{
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1 <br> <b> on muuttunut </b> ja <b> ladattu uudelleen </b>, kumoaminen on sallittu."
+ },{
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1 <br> Onko <b> muuttunut </b>, haluatko ladata sen uudelleen?"
+ },{
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1 <br> on <b> siirretty tai poistettu </b>."
+ },{
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "(%1) painettiin. Lisää avaimia odotellessa"
+ },{
+  "en": "1 Char",
+  "tr": "1 Char"
+ },{
+  "en": "16 Columns",
+  "tr": "16 saraketta"
+ },{
+  "en": "2 Chars",
+  "tr": "2 merkkiä"
+ },{
+  "en": "24 Columns",
+  "tr": "24 saraketta"
+ },{
+  "en": "32 Columns",
+  "tr": "32 saraketta"
+ },{
+  "en": "4 Chars",
+  "tr": "4 merkkiä"
+ },{
+  "en": "8 Chars",
+  "tr": "8 merkkiä"
+ },{
+  "en": "8 Columns",
+  "tr": "8 saraketta"
+ },{
+  "en": "A label cannot contain any of the following characters: %1"
+ },{
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Pääsalasanaa käytetään suojaamaan arkaluonteisia tietoja, kuten SSH -salasanoja."
+ },{
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters: / NUL",
+  "tr": "Nimen on oltava alle 255 merkkiä eikä se saa sisältää mitään seuraavista merkeistä: / NUL"
+ },{
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Etätiedostoa on muutettu. \nHaluatko lähettää tämän tiedoston takaisin palvelimelle?"
+ },{
+  "en": "A specific session or set of sessions",
+  "tr": "Tietty istunto tai istuntojoukko"
+ },{
+  "en": "Abbreviated month name",
+  "tr": "Lyhennetty kuukauden nimi"
+ },{
+  "en": "Abbreviated weekday name",
+  "tr": "Lyhennetty arkipäivän nimi"
+ },{
+  "en": "Accept local connections only",
+  "tr": "Hyväksy vain paikalliset yhteydet"
+ },{
+  "en": "Accessed",
+  "tr": "Käytetty"
+ },{
+  "en": "Activate multiple carets",
+  "tr": "Aktivoi useita hoitoja"
+ },{
+  "en": "Activate Next Selection",
+  "tr": "Aktivoi seuraava valinta"
+ },{
+  "en": "Activate Next View",
+  "tr": "Aktivoi seuraava näkymä"
+ },{
+  "en": "Activate Previous Selection",
+  "tr": "Aktivoi edellinen valinta"
+ },{
+  "en": "Activate Previous View",
+  "tr": "Aktivoi edellinen näkymä"
+ },{
+  "en": "Activate the left tab",
+  "tr": "Aktivoi vasen välilehti"
+ },{
+  "en": "Activate the previously selected tab",
+  "tr": "Aktivoi aiemmin valittu välilehti"
+ },{
+  "en": "Activate the right tab",
+  "tr": "Aktivoi oikea välilehti"
+ },{
+  "en": "Activate the tab after closing",
+  "tr": "Aktivoi välilehti sulkemisen jälkeen"
+ },{
+  "en": "Activate the tab after hovering",
+  "tr": "Aktivoi välilehti hiiren osoittamisen jälkeen"
+ },{
+  "en": "Add",
+  "tr": "Lisää)"
+ },{
+  "en": "Add All",
+  "tr": "Lisää kaikki"
+ },{
+  "en": "Add Command",
+  "tr": "Lisää komento"
+ },{
+  "en": "Add Group",
+  "tr": "Lisää ryhmä"
+ },{
+  "en": "Add Sender",
+  "tr": "Lisää lähettäjä"
+ },{
+  "en": "Add Tab",
+  "tr": "Lisää välilehti"
+ },{
+  "en": "Adjust the window rows and columns",
+  "tr": "Säädä ikkunarivejä ja -sarakkeita"
+ },{
+  "en": "Advanced Sort",
+  "tr": "Edistynyt lajittelu"
+ },{
+  "en": "Agent",
+  "tr": "Agentti"
+ },{
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Agentin todennus epäonnistui. Kokeile toista menetelmää"
+ },{
+  "en": "All",
+  "tr": "Kaikki"
+ },{
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Kaikki %1 istunnot poistetaan. \nHaluatko jatkaa istuntojen tuontia?"
+ },{
+  "en": "All session output",
+  "tr": "Kaikki istunnon tulokset"
+ },{
+  "en": "All Sessions",
+  "tr": "Kaikki istunnot"
+ },{
+  "en": "All tabs",
+  "tr": "Kaikki välilehdet"
+ },{
+  "en": "Alternate column background color",
+  "tr": "Vaihtoehtoinen sarakkeen taustaväri"
+ },{
+  "en": "Alternate line background color",
+  "tr": "Vaihtoehtoinen viivan taustaväri"
+ },{
+  "en": "Always On Top",
+  "tr": "Aina päällä"
+ },{
+  "en": "Always on top",
+  "tr": "Aina päällä"
+ },{
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Tapahtui virhe yritettäessä lukea %1 -prosessista."
+ },{
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Virhe yritettäessä kirjoittaa %1 -prosessiin."
+ },{
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "%1 -prosessissa tapahtui tuntematon virhe."
+ },{
+  "en": "ANSI to OEM",
+  "tr": "ANSI - OEM"
+ },{
+  "en": "Answer back",
+  "tr": "Vastaa takaisin"
+ },{
+  "en": "Any",
+  "tr": "Minkä tahansa"
+ },{
+  "en": "Anything Palette",
+  "tr": "Kaikki paletti"
+ },{
+  "en": "Anywhere",
+  "tr": "Missä vain"
+ },{
+  "en": "Appearance",
+  "tr": "Ulkomuoto"
+ },{
+  "en": "Append",
+  "tr": "Liitä"
+ },{
+  "en": "Append log file",
+  "tr": "Liitä lokitiedosto"
+ },{
+  "en": "Application",
+  "tr": "Sovellus"
+ },{
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Haluatko varmasti poistaa %1 valittua kohdetta?"
+ },{
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Haluatko varmasti poistaa kohteen <b>%1 </b>?"
+ },{
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Haluatko varmasti ladata nykyisen tiedoston uudelleen ja menettää WindEdit: ssä tehdyt muutokset?"
+ },{
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Haluatko varmasti pysäyttää nykyisen lähettäjän?"
+ },{
+  "en": "Arguments",
+  "tr": "Argumentit"
+ },{
+  "en": "At Caret",
+  "tr": "At Caret"
+ },{
+  "en": "At End",
+  "tr": "Lopussa"
+ },{
+  "en": "At Start",
+  "tr": "Alussa"
+ },{
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Yritä gssapi-with-mic-todennusta"
+ },{
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Yritä vuorovaikutteista näppäimistön todennusta"
+ },{
+  "en": "Attempt pageant authentication",
+  "tr": "Yritä esiintymistodennusta"
+ },{
+  "en": "Attempt password authentication",
+  "tr": "Yritä todentaa salasana"
+ },{
+  "en": "Attempt public-key authentication",
+  "tr": "Yritä julkisen avaimen todennusta"
+ },{
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Yritä ssh-agenttitodennusta"
+ },{
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Todennettu osittain, kokeile toista menetelmää."
+ },{
+  "en": "Authenticating by %1",
+  "tr": "Todentaa %1"
+ },{
+  "en": "Authenticating by %1 and %2",
+  "tr": "Todennetaan käyttäjillä %1 ja %2"
+ },{
+  "en": "Authentication",
+  "tr": "Todentaminen"
+ },{
+  "en": "Authentication denied, please try again.",
+  "tr": "Todennus estetty. Yritä uudelleen."
+ },{
+  "en": "Authentication failed, please try again.",
+  "tr": "Varmistus epäonnistui. Ole hyvä ja yritä uudelleen."
+ },{
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Sulje HTML/XML -tunnisteet automaattisesti"
+ },{
+  "en": "Auto login",
+  "tr": "Automaattinen sisäänkirjautuminen"
+ },{
+  "en": "Auto login failed, please try again.",
+  "tr": "Automaattinen kirjautuminen epäonnistui. Yritä uudelleen."
+ },{
+  "en": "Auto login next time",
+  "tr": "Automaattinen kirjautuminen seuraavan kerran"
+ },{
+  "en": "Automatic",
+  "tr": "Automaattinen"
+ },{
+  "en": "automatic",
+  "tr": "Automaattinen"
+ },{
+  "en": "Automatic authentication methods",
+  "tr": "Automaattiset todennusmenetelmät"
+ },{
+  "en": "Automatically copy selection",
+  "tr": "Kopioi valinta automaattisesti"
+ },{
+  "en": "Automatically detect indentation",
+  "tr": "Tunnista sisennys automaattisesti"
+ },{
+  "en": "Automatically trim the padding",
+  "tr": "Leikkaa pehmuste automaattisesti"
+ },{
+  "en": "Average Speed"
+ },{
+  "en": "Background marker",
+  "tr": "Taustamerkki"
+ },{
+  "en": "Backspace",
+  "tr": "Askelpalautin"
+ },{
+  "en": "Backspace sends",
+  "tr": "Askelpalautin lähettää"
+ },{
+  "en": "Backward",
+  "tr": "Taaksepäin"
+ },{
+  "en": "Bars",
+  "tr": "Baarit"
+ },{
+  "en": "Baud Rate",
+  "tr": "Baudinopeus"
+ },{
+  "en": "Beep When Finished",
+  "tr": "Äänimerkki, kun olet valmis"
+ },{
+  "en": "Binary",
+  "tr": "Binääri"
+ },{
+  "en": "Binary base",
+  "tr": "Binaarinen perusta"
+ },{
+  "en": "Binary columns",
+  "tr": "Binäärisarakkeet"
+ },{
+  "en": "Binary devision columns",
+  "tr": "Binaariset devision -sarakkeet"
+ },{
+  "en": "Binary grouped characters",
+  "tr": "Binaariryhmitetyt merkit"
+ },{
+  "en": "Black",
+  "tr": "Musta"
+ },{
+  "en": "Blink",
+  "tr": "Vilkkuu"
+ },{
+  "en": "blinking block",
+  "tr": "vilkkuva lohko"
+ },{
+  "en": "blinking line",
+  "tr": "vilkkuva viiva"
+ },{
+  "en": "blinking rectangle",
+  "tr": "vilkkuva suorakulmio"
+ },{
+  "en": "blinking underLine",
+  "tr": "vilkkuu rivin alla"
+ },{
+  "en": "Block",
+  "tr": "Lohko"
+ },{
+  "en": "block",
+  "tr": "lohko"
+ },{
+  "en": "Bold",
+  "tr": "Lihavoitu"
+ },{
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Lihavoitu tyyppi osoittaa kiinteän leveyden fontteja"
+ },{
+  "en": "Bottom Docks",
+  "tr": "Pohjatelakat"
+ },{
+  "en": "Bottom Group",
+  "tr": "Alaryhmä"
+ },{
+  "en": "Browse",
+  "tr": "Selaa"
+ },{
+  "en": "Browse Directory",
+  "tr": "Selaa hakemistoa"
+ },{
+  "en": "Browse File",
+  "tr": "Selaa tiedostoa"
+ },{
+  "en": "Browser",
+  "tr": "Selain"
+ },{
+  "en": "Build",
+  "tr": "Rakenna"
+ },{
+  "en": "By",
+  "tr": "Lähettäjä"
+ },{
+  "en": "Bytes"
+ },{
+  "en": "Calculating",
+  "tr": "Lasketaan"
+ },{
+  "en": "Can not find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Tiedoston avaamiseen ei löydy sopivaa ohjelmaa: (%1 (Kokeile avata oletuseditori."
+ },{
+  "en": "Can not make directory %1.",
+  "tr": "Hakemistoa %1 ei voi luoda."
+ },{
+  "en": "Can not make file %1.",
+  "tr": "Tiedostoa %1 ei voi luoda."
+ },{
+  "en": "Can not make link %1.",
+  "tr": "Ei voi luoda linkkiä %1."
+ },{
+  "en": "Can not remove the directory %1.",
+  "tr": "Hakemistoa %1 ei voi poistaa."
+ },{
+  "en": "Cancel",
+  "tr": "Peruuttaa"
+ },{
+  "en": "Cancel Build",
+  "tr": "Peruuta koontiversio"
+ },{
+  "en": "Cancel Selection",
+  "tr": "Peruuta valinta"
+ },{
+  "en": "Caret",
+  "tr": "Caret"
+ },{
+  "en": "Caret Style",
+  "tr": "Caret -tyyli"
+ },{
+  "en": "Carriage Return",
+  "tr": "Vaunun paluu"
+ },{
+  "en": "Case Sensitive",
+  "tr": "Kirjainkoko on herkkä"
+ },{
+  "en": "Cdup",
+  "tr": "Cdup"
+ },{
+  "en": "Change Master Password",
+  "tr": "Vaihda pääsalasana"
+ },{
+  "en": "Change master password",
+  "tr": "Vaihda pääsalasana"
+ },{
+  "en": "Change the master password failed.",
+  "tr": "Pääsalasanan vaihtaminen epäonnistui."
+ },{
+  "en": "Change the tab title",
+  "tr": "Vaihda välilehden otsikko"
+ },{
+  "en": "Changed",
+  "tr": "Muutettu"
+ },{
+  "en": "Channel",
+  "tr": "Kanava"
+ },{
+  "en": "Char",
+  "tr": "Char"
+ },{
+  "en": "Char Left",
+  "tr": "Char vasen"
+ },{
+  "en": "Char Right",
+  "tr": "Char oikea"
+ },{
+  "en": "Character spacing",
+  "tr": "Merkkiväli"
+ },{
+  "en": "character width",
+  "tr": "merkin leveys"
+ },{
+  "en": "Charset",
+  "tr": "Merkistö"
+ },{
+  "en": "Choose a default editor",
+  "tr": "Valitse oletuseditori"
+ },{
+  "en": "Ciphers",
+  "tr": "Ciphers"
+ },{
+  "en": "Ciphers order",
+  "tr": "Salausjärjestys"
+ },{
+  "en": "Clear",
+  "tr": "Asia selvä"
+ },{
+  "en": "Clear All",
+  "tr": "Tyhjennä kaikki"
+ },{
+  "en": "Clear Recent Urls",
+  "tr": "Tyhjennä viimeisimmät URL -osoitteet"
+ },{
+  "en": "Clear Screen",
+  "tr": "Tyhjennä näyttö"
+ },{
+  "en": "Clear Scrollback",
+  "tr": "Tyhjennä vieritys"
+ },{
+  "en": "Clear Sender",
+  "tr": "Tyhjennä lähettäjä"
+ },{
+  "en": "Click event",
+  "tr": "Napsauta tapahtumaa"
+ },{
+  "en": "Close",
+  "tr": "kiinni"
+ },{
+  "en": "Close All Views",
+  "tr": "Sulje kaikki näkymät"
+ },{
+  "en": "Close All Views But Active",
+  "tr": "Sulje kaikki näkymät, mutta eivät aktiivisia"
+ },{
+  "en": "Close All Views To The Right",
+  "tr": "Sulje kaikki näkymät oikealle"
+ },{
+  "en": "Close And Exit",
+  "tr": "Sulje ja poistu"
+ },{
+  "en": "Close Channel",
+  "tr": "Sulje kanava"
+ },{
+  "en": "Close Dock",
+  "tr": "Sulje telakka"
+ },{
+  "en": "Close Group",
+  "tr": "Sulje ryhmä"
+ },{
+  "en": "Close Session",
+  "tr": "Sulje istunto"
+ },{
+  "en": "Close Tab",
+  "tr": "Sulje välilehti"
+ },{
+  "en": "Close tab",
+  "tr": "Sulje välilehti"
+ },{
+  "en": "Close View",
+  "tr": "Sulje näkymä"
+ },{
+  "en": "Close Window",
+  "tr": "Sulje ikkuna"
+ },{
+  "en": "Color",
+  "tr": "Väri"
+ },{
+  "en": "Column Edit",
+  "tr": "Sarakkeen muokkaus"
+ },{
+  "en": "Column Marker",
+  "tr": "Sarakkeen merkki"
+ },{
+  "en": "Columns",
+  "tr": "Sarakkeet"
+ },{
+  "en": "columns",
+  "tr": "sarakkeet"
+ },{
+  "en": "Command",
+  "tr": "Komento"
+ },{
+  "en": "Command Mode"
+ },{
+  "en": "Command Palette",
+  "tr": "Komentopaletti"
+ },{
+  "en": "Comment",
+  "tr": "Kommentti"
+ },{
+  "en": "Comment Selection",
+  "tr": "Kommenttien valinta"
+ },{
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Kommenttien valinta(Block Mode)"
+ },{
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Kommenttien valinta(rivitila)"
+ },{
+  "en": "Complete Word",
+  "tr": "Täydellinen sana"
+ },{
+  "en": "Config",
+  "tr": "Config"
+ },{
+  "en": "Confirm Password",
+  "tr": "Vahvista salasana"
+ },{
+  "en": "Confirm password",
+  "tr": "Vahvista salasana"
+ },{
+  "en": "Connect",
+  "tr": "Kytkeä"
+ },{
+  "en": "Connection",
+  "tr": "Yhteys"
+ },{
+  "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Context",
+  "tr": "Konteksti"
+ },{
+  "en": "Continue",
+  "tr": "Jatkaa"
+ },{
+  "en": "Convert"
+ },{
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Muunna CRLF ja LF CR: ksi"
+ },{
+  "en": "Convert tab to spaces",
+  "tr": "Muunna välilehti välilyönteiksi"
+ },{
+  "en": "copied",
+  "tr": "kopioitu"
+ },{
+  "en": "Copy",
+  "tr": "Kopio"
+ },{
+  "en": "copy",
+  "tr": "kopio"
+ },{
+  "en": "Copy And Paste",
+  "tr": "Kopioi ja liitä"
+ },{
+  "en": "Copy File Name",
+  "tr": "Kopioi tiedostonimi"
+ },{
+  "en": "Copy File Path",
+  "tr": "Kopioi tiedoston polku"
+ },{
+  "en": "Copy from",
+  "tr": "Kopioi"
+ },{
+  "en": "Copy names",
+  "tr": "Kopioi nimet"
+ },{
+  "en": "Copy names to terminal",
+  "tr": "Kopioi nimet terminaaliin"
+ },{
+  "en": "Copy Output",
+  "tr": "Kopiointi"
+ },{
+  "en": "Copy paths",
+  "tr": "Kopioi polut"
+ },{
+  "en": "Copy paths to terminal",
+  "tr": "Kopioi polut terminaaliin"
+ },{
+  "en": "Copy Session Name",
+  "tr": "Kopioi istunnon nimi"
+ },{
+  "en": "Copy Session Url",
+  "tr": "Kopioi istunnon URL -osoite"
+ },{
+  "en": "Copy to",
+  "tr": "Kopioi kohteeseen"
+ },{
+  "en": "Copy To Terminal",
+  "tr": "Kopioi terminaaliin"
+ },{
+  "en": "Count",
+  "tr": "Kreivi"
+ },{
+  "en": "Create Directory",
+  "tr": "Luo hakemisto"
+ },{
+  "en": "Create File",
+  "tr": "Luo tiedosto"
+ },{
+  "en": "Create Link",
+  "tr": "Luo linkki"
+ },{
+  "en": "Created",
+  "tr": "Luotu"
+ },{
+  "en": "Critical",
+  "tr": "Kriittinen"
+ },{
+  "en": "Current Item"
+ },{
+  "en": "Current Session",
+  "tr": "Nykyinen istunto"
+ },{
+  "en": "Custom",
+  "tr": "Mukautettu"
+ },{
+  "en": "Custom Opacity",
+  "tr": "Mukautettu läpinäkyvyys"
+ },{
+  "en": "Customize",
+  "tr": "Muokkaa"
+ },{
+  "en": "Cut",
+  "tr": "Leikkaa"
+ },{
+  "en": "Dark Cyan",
+  "tr": "Tumma syaani"
+ },{
+  "en": "Data",
+  "tr": "Tiedot"
+ },{
+  "en": "Data Bits",
+  "tr": "Databitit"
+ },{
+  "en": "Datetime format",
+  "tr": "Päivämäärän muoto"
+ },{
+  "en": "Day of month",
+  "tr": "Kuukauden päivä"
+ },{
+  "en": "Debug Mode",
+  "tr": "Virheenkorjaustila"
+ },{
+  "en": "Decrease Line Indent",
+  "tr": "Pienennä rivin sisennystä"
+ },{
+  "en": "Deep Pink",
+  "tr": "Syvä vaaleanpunainen"
+ },{
+  "en": "default",
+  "tr": "oletusarvo"
+ },{
+  "en": "Default editor",
+  "tr": "Oletuseditori"
+ },{
+  "en": "Default Font",
+  "tr": "Oletusfontti"
+ },{
+  "en": "Default line ending",
+  "tr": "Rivin oletuspääte"
+ },{
+  "en": "Delete",
+  "tr": "Poista"
+ },{
+  "en": "Delete sends",
+  "tr": "Poista lähetykset"
+ },{
+  "en": "deleted",
+  "tr": "poistettu"
+ },{
+  "en": "DemiBold",
+  "tr": "DemiBold"
+ },{
+  "en": "Destination Host",
+  "tr": "Kohdeisäntä"
+ },{
+  "en": "Destination Port",
+  "tr": "Määränpää"
+ },{
+  "en": "Dir",
+  "tr": "Ohjaaja"
+ },{
+  "en": "dir",
+  "tr": "ohj"
+ },{
+  "en": "Directory",
+  "tr": "Hakemisto"
+ },{
+  "en": "Directory Link",
+  "tr": "Hakemistolinkki"
+ },{
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Poista Naglen algoritmi käytöstä(vaihtoehto TCP_NODELAY)"
+ },{
+  "en": "Disconnect Session",
+  "tr": "Katkaise istunto"
+ },{
+  "en": "Disk",
+  "tr": "Levy"
+ },{
+  "en": "Do not echo characters",
+  "tr": "Älä kaiku merkkejä"
+ },{
+  "en": "Do you want to close the current session?",
+  "tr": "Haluatko sulkea nykyisen istunnon?"
+ },{
+  "en": "Document",
+  "tr": "Asiakirja"
+ },{
+  "en": "Don't show this message again",
+  "tr": "Älä näytä tätä viestiä uudelleen"
+ },{
+  "en": "Double click",
+  "tr": "Kaksoisnapsauta"
+ },{
+  "en": "Double click event",
+  "tr": "Kaksoisnapsautustapahtuma"
+ },{
+  "en": "Download",
+  "tr": "Lataa"
+ },{
+  "en": "download",
+  "tr": "ladata"
+ },{
+  "en": "Download directory",
+  "tr": "Lataa hakemisto"
+ },{
+  "en": "downloaded",
+  "tr": "ladattu"
+ },{
+  "en": "Drop Selection",
+  "tr": "Pudota valinta"
+ },{
+  "en": "Duplicate",
+  "tr": "Monista"
+ },{
+  "en": "Duplicate Command",
+  "tr": "Kopioi komento"
+ },{
+  "en": "Duplicate tab"
+ },{
+  "en": "Duplicate View",
+  "tr": "Päällekkäinen näkymä"
+ },{
+  "en": "Dynamic forwarding",
+  "tr": "Dynaaminen edelleenlähetys"
+ },{
+  "en": "Echo every character entered",
+  "tr": "Toista jokainen syötetty merkki"
+ },{
+  "en": "Echo every character when editing",
+  "tr": "Kaiku jokainen merkki muokattaessa"
+ },{
+  "en": "Echo random characters",
+  "tr": "Kaiku satunnaisia ​​merkkejä"
+ },{
+  "en": "Edit",
+  "tr": "Muokkaa"
+ },{
+  "en": "Editor",
+  "tr": "Toimittaja"
+ },{
+  "en": "editor",
+  "tr": "toimittaja"
+ },{
+  "en": "Editor Settings",
+  "tr": "Editorin asetukset"
+ },{
+  "en": "Elapsed",
+  "tr": "Kulunut"
+ },{
+  "en": "Elide left",
+  "tr": "Elide lähti"
+ },{
+  "en": "Elide middle",
+  "tr": "Elide keskellä"
+ },{
+  "en": "Elide right",
+  "tr": "Elide oikeassa"
+ },{
+  "en": "Empty",
+  "tr": "Tyhjä"
+ },{
+  "en": "Enable command mode",
+  "tr": "Ota komennotila käyttöön"
+ },{
+  "en": "Enable local mode",
+  "tr": "Ota paikallinen tila käyttöön"
+ },{
+  "en": "Enable SFTP",
+  "tr": "Ota SFTP(S) käyttöön"
+ },{
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Ota käyttöön TCP -säilytystiedot(SO_KEEPALIVE -vaihtoehto)"
+ },{
+  "en": "Enable virtual spaces",
+  "tr": "Ota virtuaalitilat käyttöön"
+ },{
+  "en": "End Of Document",
+  "tr": "Asiakirjan loppu"
+ },{
+  "en": "End Of Line",
+  "tr": "Rivin loppu"
+ },{
+  "en": "End Of Pair",
+  "tr": "Parin loppu"
+ },{
+  "en": "Engine",
+  "tr": "Moottori"
+ },{
+  "en": "Environment Variable",
+  "tr": "Ympäristömuuttuja"
+ },{
+  "en": "Environment variables",
+  "tr": "Ympäristömuuttujat"
+ },{
+  "en": "Error",
+  "tr": "Virhe"
+ },{
+  "en": "Exchange Caret And Anchor",
+  "tr": "Vaihda huolto ja ankkuri"
+ },{
+  "en": "Execute",
+  "tr": "Suorita"
+ },{
+  "en": "Execute command after authentication",
+  "tr": "Suorita komento todennuksen jälkeen"
+ },{
+  "en": "Execute command after start",
+  "tr": "Suorita komento käynnistyksen jälkeen"
+ },{
+  "en": "Execute File",
+  "tr": "Suorita tiedosto"
+ },{
+  "en": "Exit",
+  "tr": "Poistu"
+ },{
+  "en": "Expand",
+  "tr": "Laajentaa"
+ },{
+  "en": "Expand Snippet",
+  "tr": "Laajenna katkelma"
+ },{
+  "en": "Explorer",
+  "tr": "tutkimusmatkailija"
+ },{
+  "en": "External Tools",
+  "tr": "Ulkoiset työkalut"
+ },{
+  "en": "External X display",
+  "tr": "Ulkoinen X -näyttö"
+ },{
+  "en": "ExtraBold",
+  "tr": "ExtraBold"
+ },{
+  "en": "ExtraLight",
+  "tr": "ExtraLight"
+ },{
+  "en": "Failed items"
+ },{
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Väliaikaisen tiedoston luominen epäonnistui: (%1"
+ },{
+  "en": "Failed to open directory: %1",
+  "tr": "Hakemiston avaaminen epäonnistui: %1"
+ },{
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Isännän sormenjäljen noutaminen epäonnistui!"
+ },{
+  "en": "Failed to upload file: %1,\nThe file may not exist or not have permission to open it.",
+  "tr": "Tiedoston lataaminen epäonnistui: %1, (Tiedostoa ei ehkä ole olemassa tai sillä ei ole lupaa avata sitä."
+ },{
+  "en": "Fast",
+  "tr": "Nopeasti"
+ },{
+  "en": "Favorites",
+  "tr": "Suosikit"
+ },{
+  "en": "Features",
+  "tr": "ominaisuudet"
+ },{
+  "en": "File",
+  "tr": "Tiedosto"
+ },{
+  "en": "file",
+  "tr": "tiedosto"
+ },{
+  "en": "File Link",
+  "tr": "Tiedoston linkki"
+ },{
+  "en": "File Name",
+  "tr": "Tiedostonimi"
+ },{
+  "en": "File name",
+  "tr": "Tiedoston nimi"
+ },{
+  "en": "File Path",
+  "tr": "Tiedoston polku"
+ },{
+  "en": "Filer",
+  "tr": "Filer"
+ },{
+  "en": "filer",
+  "tr": "arkistoija"
+ },{
+  "en": "Filter",
+  "tr": "Suodattaa"
+ },{
+  "en": "Find",
+  "tr": "Etsi"
+ },{
+  "en": "Find %1 in \\\"%2\\\""
+ },{
+  "en": "Find All",
+  "tr": "Etsi kaikki"
+ },{
+  "en": "Find in Files",
+  "tr": "Etsi tiedostoista"
+ },{
+  "en": "Find Next",
+  "tr": "Etsi seuraava"
+ },{
+  "en": "Find Next Selection",
+  "tr": "Etsi seuraava valinta"
+ },{
+  "en": "Find Previous",
+  "tr": "Etsi edellinen"
+ },{
+  "en": "Find Previous Selection",
+  "tr": "Etsi edellinen valinta"
+ },{
+  "en": "Fingerprint",
+  "tr": "Sormenjälki"
+ },{
+  "en": "First nine tabs",
+  "tr": "Ensimmäiset yhdeksän välilehteä"
+ },{
+  "en": "Fixterm format"
+ },{
+  "en": "Float",
+  "tr": "Float"
+ },{
+  "en": "Flow Control",
+  "tr": "Virtauksen ohjaus"
+ },{
+  "en": "Focus Mode",
+  "tr": "Tarkennustila"
+ },{
+  "en": "Focus Mode Settings",
+  "tr": "Tarkennustilan asetukset"
+ },{
+  "en": "Fold",
+  "tr": "Taita"
+ },{
+  "en": "Fold All",
+  "tr": "Taita kaikki"
+ },{
+  "en": "Fold Category",
+  "tr": "Taittoluokka"
+ },{
+  "en": "Fold Inside",
+  "tr": "Taita sisälle"
+ },{
+  "en": "Folds",
+  "tr": "Taitokset"
+ },{
+  "en": "Font",
+  "tr": "Fontti"
+ },{
+  "en": "Font family",
+  "tr": "Fonttiperhe"
+ },{
+  "en": "Font size",
+  "tr": "Fonttikoko"
+ },{
+  "en": "Font weight",
+  "tr": "Fontin paino"
+ },{
+  "en": "Forest Green",
+  "tr": "Metsänvihreä"
+ },{
+  "en": "Format"
+ },{
+  "en": "Format Selection",
+  "tr": "Muotovalinta"
+ },{
+  "en": "Found",
+  "tr": "Löytyi"
+ },{
+  "en": "Full month name",
+  "tr": "Koko kuukauden nimi"
+ },{
+  "en": "Full Screen",
+  "tr": "Koko näyttö"
+ },{
+  "en": "Full screen",
+  "tr": "Koko näyttö"
+ },{
+  "en": "Full weekday name",
+  "tr": "Koko viikonpäivän nimi"
+ },{
+  "en": "Go Backward",
+  "tr": "Siirry taaksepäin"
+ },{
+  "en": "Go Forward",
+  "tr": "Siirry eteenpäin"
+ },{
+  "en": "Go to",
+  "tr": "Mene"
+ },{
+  "en": "Go to Symbol in Current View",
+  "tr": "Siirry Symboliin nykyisessä näkymässä"
+ },{
+  "en": "Goldenrod",
+  "tr": "Kultapiisku"
+ },{
+  "en": "Goto",
+  "tr": "Siirry"
+ },{
+  "en": "Goto Address Bar",
+  "tr": "Siirry osoiteriville"
+ },{
+  "en": "Goto File",
+  "tr": "Siirry tiedostoon"
+ },{
+  "en": "Goto Fold Header",
+  "tr": "Goto Fold Header"
+ },{
+  "en": "Goto Next Fold Header",
+  "tr": "Siirry seuraavan taiton otsikkoon"
+ },{
+  "en": "Goto Position",
+  "tr": "Siirry sijainti"
+ },{
+  "en": "Goto Session",
+  "tr": "Siirry istuntoon"
+ },{
+  "en": "Goto Symbol",
+  "tr": "Goto -symboli"
+ },{
+  "en": "Group",
+  "tr": "Ryhmä"
+ },{
+  "en": "Group %1",
+  "tr": "Ryhmä %1"
+ },{
+  "en": "Groups",
+  "tr": "Ryhmät"
+ },{
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi mikrofonilla"
+ },{
+  "en": "Hard Reset",
+  "tr": "Kova nollaus"
+ },{
+  "en": "Help",
+  "tr": "Ohje"
+ },{
+  "en": "Hex",
+  "tr": "Hex"
+ },{
+  "en": "Hex Base",
+  "tr": "Kuusiokanta"
+ },{
+  "en": "Hex Columns",
+  "tr": "Hex -sarakkeet"
+ },{
+  "en": "Hex Edit",
+  "tr": "Hex -muokkaus"
+ },{
+  "en": "Hex Group Chars",
+  "tr": "Hex -ryhmämerkit"
+ },{
+  "en": "Hidden",
+  "tr": "Piilotettu"
+ },{
+  "en": "Hide",
+  "tr": "Piilottaa"
+ },{
+  "en": "Hide All",
+  "tr": "Piilota kaikki"
+ },{
+  "en": "Hide cursor when typing",
+  "tr": "Piilota kohdistin kirjoitettaessa"
+ },{
+  "en": "Hide Tabs"
+ },{
+  "en": "Hide Text",
+  "tr": "Piilota teksti"
+ },{
+  "en": "Highlight",
+  "tr": "Kohokohta"
+ },{
+  "en": "Highlight Caret Line",
+  "tr": "Korosta Caret Line"
+ },{
+  "en": "Highlight Matching Pair",
+  "tr": "Korosta vastaava pari"
+ },{
+  "en": "Highlight the caret line",
+  "tr": "Korosta viiva"
+ },{
+  "en": "Highlight the caret word",
+  "tr": "Korosta varoitussana"
+ },{
+  "en": "Highlight the current fold",
+  "tr": "Korosta nykyinen taitto"
+ },{
+  "en": "Highlight the current pair",
+  "tr": "Korosta nykyinen pari"
+ },{
+  "en": "Highlight the incremental search",
+  "tr": "Korosta lisähaku"
+ },{
+  "en": "History",
+  "tr": "Historia"
+ },{
+  "en": "Home Of Line",
+  "tr": "Linjan koti"
+ },{
+  "en": "Host",
+  "tr": "Isäntä"
+ },{
+  "en": "Host address",
+  "tr": "Isännän osoite"
+ },{
+  "en": "Host Based",
+  "tr": "Isäntäpohjainen"
+ },{
+  "en": "Hours in 12 format",
+  "tr": "Tunnit 12 muodossa"
+ },{
+  "en": "Hours in 24 format",
+  "tr": "Aukioloajat 24 muodossa"
+ },{
+  "en": "Http proxy",
+  "tr": "Http -välityspalvelin"
+ },{
+  "en": "Huge File",
+  "tr": "Valtava tiedosto"
+ },{
+  "en": "Icon",
+  "tr": "Kuvake"
+ },{
+  "en": "Identity file",
+  "tr": "Henkilötiedosto"
+ },{
+  "en": "Identity file for authentication",
+  "tr": "Tunnistautumistiedosto"
+ },{
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Jos luot pääsalasanan, sinua pyydetään antamaan se, kun WindTerm hakee pääsalasanalla suojatut tallennetut tiedot."
+ },{
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Jos unohdat pääsalasanasi, et voi käyttää mitään sen suojaamia tietoja."
+ },{
+  "en": "Import",
+  "tr": "Tuo"
+ },{
+  "en": "Import sessions",
+  "tr": "Tuo istuntoja"
+ },{
+  "en": "In Selection",
+  "tr": "Valinnassa"
+ },{
+  "en": "Increase Line Indent",
+  "tr": "Lisää rivin sisennystä"
+ },{
+  "en": "Incremental",
+  "tr": "Lisääntyvä"
+ },{
+  "en": "Indent",
+  "tr": "Sisennys"
+ },{
+  "en": "Indent guide style",
+  "tr": "Sisennysohjaimen tyyli"
+ },{
+  "en": "Indent Guides",
+  "tr": "Sisennysohjaimet"
+ },{
+  "en": "Indent size",
+  "tr": "Sisennyksen koko"
+ },{
+  "en": "Indentation",
+  "tr": "Sisennys"
+ },{
+  "en": "Indian Red",
+  "tr": "Intian punainen"
+ },{
+  "en": "Information",
+  "tr": "Tiedot"
+ },{
+  "en": "Insert",
+  "tr": "Lisää"
+ },{
+  "en": "Insert File",
+  "tr": "Lisää tiedosto"
+ },{
+  "en": "Insert Lines",
+  "tr": "Lisää rivejä"
+ },{
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Lisää välilehti, kun painat TAB -näppäintä"
+ },{
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Välilyönnin lisääminen ja poistaminen seuraa sarkaimia"
+ },{
+  "en": "Inserting file",
+  "tr": "Lisätään tiedosto"
+ },{
+  "en": "Internal X display",
+  "tr": "Sisäinen X -näyttö"
+ },{
+  "en": "Interval",
+  "tr": "Väli"
+ },{
+  "en": "Invert Selection",
+  "tr": "Käännä valinta"
+ },{
+  "en": "item failed",
+  "tr": "kohde epäonnistui"
+ },{
+  "en": "Items"
+ },{
+  "en": "items failed",
+  "tr": "kohteet epäonnistuivat"
+ },{
+  "en": "Join Channel A",
+  "tr": "Liity kanavalle A"
+ },{
+  "en": "Join Channel B",
+  "tr": "Liity kanavaan B"
+ },{
+  "en": "Join Channel C",
+  "tr": "Liity kanavaan C"
+ },{
+  "en": "Join Channel D",
+  "tr": "Liity kanavaan D"
+ },{
+  "en": "Join Lines",
+  "tr": "Liity linjoihin"
+ },{
+  "en": "Joined",
+  "tr": "Liittyi"
+ },{
+  "en": "Jump Server",
+  "tr": "Hyppypalvelin"
+ },{
+  "en": "Jump server",
+  "tr": "Hyppypalvelin"
+ },{
+  "en": "Jump server \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Jump servers",
+  "tr": "Hyppypalvelimet"
+ },{
+  "en": "Key Exchange",
+  "tr": "Avainten vaihto"
+ },{
+  "en": "Key exchange order",
+  "tr": "Avainten vaihtojärjestys"
+ },{
+  "en": "Key re-exchange",
+  "tr": "Avaimen vaihto"
+ },{
+  "en": "Keyboard",
+  "tr": "Näppäimistö"
+ },{
+  "en": "Keyboard Interactive",
+  "tr": "Interaktiivinen näppäimistö"
+ },{
+  "en": "Kit Bar",
+  "tr": "Kit -baari"
+ },{
+  "en": "Known",
+  "tr": "Tunnettu"
+ },{
+  "en": "Label",
+  "tr": "Etiketti"
+ },{
+  "en": "Language",
+  "tr": "Kieli"
+ },{
+  "en": "Last sessions",
+  "tr": "Viimeiset istunnot"
+ },{
+  "en": "Layout",
+  "tr": "Layout"
+ },{
+  "en": "Leading And Trailing Blanks",
+  "tr": "Johtavat ja perässä olevat aihiot"
+ },{
+  "en": "Leading Blanks",
+  "tr": "Johtavat aihiot"
+ },{
+  "en": "Leading position",
+  "tr": "Johtava asema"
+ },{
+  "en": "Leave All Channels",
+  "tr": "Poistu kaikista kanavista"
+ },{
+  "en": "Leave all channels",
+  "tr": "Jätä kaikki kanavat"
+ },{
+  "en": "Leave Channel",
+  "tr": "Poistu kanavalta"
+ },{
+  "en": "Left Docks",
+  "tr": "Vasemmat telakat"
+ },{
+  "en": "Left Group",
+  "tr": "Vasen ryhmä"
+ },{
+  "en": "Light",
+  "tr": "Valo"
+ },{
+  "en": "Line",
+  "tr": "Linja"
+ },{
+  "en": "line",
+  "tr": "linja"
+ },{
+  "en": "line at a time",
+  "tr": "rivi kerrallaan"
+ },{
+  "en": "Line Down",
+  "tr": "Linja alas"
+ },{
+  "en": "Line Ending",
+  "tr": "Rivin loppu"
+ },{
+  "en": "Line Endings",
+  "tr": "Rivin päätteet"
+ },{
+  "en": "Line Feed",
+  "tr": "Linjasyöttö"
+ },{
+  "en": "line height",
+  "tr": "viivankorkeus"
+ },{
+  "en": "Line marker",
+  "tr": "Viivanmerkki"
+ },{
+  "en": "Line spacing",
+  "tr": "Riviväli"
+ },{
+  "en": "Line Up",
+  "tr": "Kokoonpano"
+ },{
+  "en": "lines at a time",
+  "tr": "rivit kerrallaan"
+ },{
+  "en": "Lines of scrollback",
+  "tr": "Scrollback -rivit"
+ },{
+  "en": "Link",
+  "tr": "Linkki"
+ },{
+  "en": "Link to",
+  "tr": "Linkki"
+ },{
+  "en": "List Tab",
+  "tr": "Luettelo -välilehti"
+ },{
+  "en": "Listen Port",
+  "tr": "Kuunteluportti"
+ },{
+  "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local forwarding",
+  "tr": "Paikallinen edelleenlähetys"
+ },{
+  "en": "Local Mode"
+ },{
+  "en": "Locate Message",
+  "tr": "Etsi viesti"
+ },{
+  "en": "Location",
+  "tr": "Sijainti"
+ },{
+  "en": "Lock Screen",
+  "tr": "Lukitusnäyttö"
+ },{
+  "en": "Lock screen timeout",
+  "tr": "Lukitusnäytön aikakatkaisu"
+ },{
+  "en": "Lock Selection",
+  "tr": "Lukituksen valinta"
+ },{
+  "en": "Log",
+  "tr": "Loki"
+ },{
+  "en": "Log all session output",
+  "tr": "Kirjaa kaikki istunnon tulokset"
+ },{
+  "en": "Log content pattern",
+  "tr": "Lokin sisällön malli"
+ },{
+  "en": "Log Dialog",
+  "tr": "Loki -valintaikkuna"
+ },{
+  "en": "Log file",
+  "tr": "Lokitiedosto"
+ },{
+  "en": "Log file name",
+  "tr": "Lokitiedoston nimi"
+ },{
+  "en": "Log maximum size",
+  "tr": "Lokin enimmäiskoko"
+ },{
+  "en": "Log nothing",
+  "tr": "Kirjaa mitään"
+ },{
+  "en": "Log option",
+  "tr": "Lokivaihtoehto"
+ },{
+  "en": "Log options",
+  "tr": "Lokivaihtoehdot"
+ },{
+  "en": "Log pattern",
+  "tr": "Lokikuvio"
+ },{
+  "en": "Log printable output",
+  "tr": "Lokitulostus"
+ },{
+  "en": "Log type",
+  "tr": "Lokityyppi"
+ },{
+  "en": "Log types",
+  "tr": "Lokityypit"
+ },{
+  "en": "Logging",
+  "tr": "Kirjaaminen"
+ },{
+  "en": "Login",
+  "tr": "Kirjaudu sisään"
+ },{
+  "en": "Login Wizard",
+  "tr": "Kirjautumisvelho"
+ },{
+  "en": "Long Time/Date",
+  "tr": "Pitkä aika/päivämäärä"
+ },{
+  "en": "Look both guide",
+  "tr": "Katso molemmat oppaat"
+ },{
+  "en": "Look forward guide",
+  "tr": "Odota opas"
+ },{
+  "en": "MAC Hashes",
+  "tr": "MAC -hajautukset"
+ },{
+  "en": "MAC hashes order",
+  "tr": "MAC -tiivisteiden järjestys"
+ },{
+  "en": "Margin Blank",
+  "tr": "Marginaali tyhjä"
+ },{
+  "en": "Margin Fold",
+  "tr": "Marginaalitaitto"
+ },{
+  "en": "Margin Number",
+  "tr": "Marginaalin numero"
+ },{
+  "en": "Margin Symbol",
+  "tr": "Marginaalimerkki"
+ },{
+  "en": "Margin Text",
+  "tr": "Reunusteksti"
+ },{
+  "en": "Margin Timestamp",
+  "tr": "Marginaalin aikaleima"
+ },{
+  "en": "Margins",
+  "tr": "Reunukset"
+ },{
+  "en": "Marker style",
+  "tr": "Merkkityyli"
+ },{
+  "en": "Master Password",
+  "tr": "Pääsalasana"
+ },{
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Suurin data ennen uudelleenavainta(megatavua)"
+ },{
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Enimmäisaika ennen toistoa(minuuttia)"
+ },{
+  "en": "Maximum connection timeout",
+  "tr": "Suurin yhteyden aikakatkaisu"
+ },{
+  "en": "MB",
+  "tr": "MB"
+ },{
+  "en": "Medium",
+  "tr": "Keskikokoinen"
+ },{
+  "en": "Medium Orchid",
+  "tr": "Keskikokoinen orkidea"
+ },{
+  "en": "Medium Slate Blue",
+  "tr": "Keskikokoinen liuskekivi sininen"
+ },{
+  "en": "Menu Bar",
+  "tr": "Valikkopalkki"
+ },{
+  "en": "Merge To Group",
+  "tr": "Yhdistä ryhmään"
+ },{
+  "en": "Middle click",
+  "tr": "Keskimmäinen napsautus"
+ },{
+  "en": "Middle click event",
+  "tr": "Keskimmäisen napsautuksen tapahtuma"
+ },{
+  "en": "Milliseconds",
+  "tr": "Millisekuntia"
+ },{
+  "en": "Minutes",
+  "tr": "Pöytäkirja"
+ },{
+  "en": "minutes",
+  "tr": "pöytäkirja"
+ },{
+  "en": "Mismatched",
+  "tr": "Ei täsmää"
+ },{
+  "en": "Mode",
+  "tr": "Tila"
+ },{
+  "en": "Modem waiting",
+  "tr": "Modeemi odottaa"
+ },{
+  "en": "Modes",
+  "tr": "Tilat"
+ },{
+  "en": "Modified",
+  "tr": "Muokattu"
+ },{
+  "en": "Modified other keys sends"
+ },{
+  "en": "Modify",
+  "tr": "Muokkaa"
+ },{
+  "en": "Modify Lines",
+  "tr": "Muokkaa viivoja"
+ },{
+  "en": "Month",
+  "tr": "Kuukausi"
+ },{
+  "en": "More",
+  "tr": "Lisää"
+ },{
+  "en": "Mouse Actions",
+  "tr": "Hiiren toiminnot"
+ },{
+  "en": "Mouse Tracking",
+  "tr": "Hiiren seuranta"
+ },{
+  "en": "Move Down",
+  "tr": "Siirry alas"
+ },{
+  "en": "Move event",
+  "tr": "Siirrä tapahtuma"
+ },{
+  "en": "Move to",
+  "tr": "Muuttaa"
+ },{
+  "en": "Move To Group",
+  "tr": "Siirrä ryhmään"
+ },{
+  "en": "Move Up",
+  "tr": "Liiku ylös"
+ },{
+  "en": "Multiple Caret",
+  "tr": "Useita Caret"
+ },{
+  "en": "Name",
+  "tr": "Nimi"
+ },{
+  "en": "nesting groups",
+  "tr": "pesivät ryhmät"
+ },{
+  "en": "Never",
+  "tr": "Ei milloinkaan"
+ },{
+  "en": "New directory",
+  "tr": "Uusi hakemisto"
+ },{
+  "en": "New File",
+  "tr": "Uusi tiedosto"
+ },{
+  "en": "New file",
+  "tr": "Uusi tiedosto"
+ },{
+  "en": "New Line",
+  "tr": "Uusi rivi"
+ },{
+  "en": "New link",
+  "tr": "Uusi linkki"
+ },{
+  "en": "New password",
+  "tr": "Uusi salasana"
+ },{
+  "en": "New Session",
+  "tr": "Uusi istunto"
+ },{
+  "en": "New Window",
+  "tr": "Uusi ikkuna"
+ },{
+  "en": "Next Char",
+  "tr": "Seuraava merkki"
+ },{
+  "en": "Next Fold",
+  "tr": "Seuraava taitto"
+ },{
+  "en": "Next Indentation",
+  "tr": "Seuraava sisennys"
+ },{
+  "en": "Next Line",
+  "tr": "Seuraava rivi"
+ },{
+  "en": "Next Message",
+  "tr": "Seuraava viesti"
+ },{
+  "en": "Next Page",
+  "tr": "Seuraava sivu"
+ },{
+  "en": "Next Pair",
+  "tr": "Seuraava pari"
+ },{
+  "en": "Next Paragraph",
+  "tr": "Seuraava kappale"
+ },{
+  "en": "Next Scope",
+  "tr": "Seuraava soveltamisala"
+ },{
+  "en": "Next Segment End",
+  "tr": "Seuraavan segmentin loppu"
+ },{
+  "en": "Next Segment Start",
+  "tr": "Seuraavan segmentin aloitus"
+ },{
+  "en": "Next Stuttered Page",
+  "tr": "Seuraava änkytetty sivu"
+ },{
+  "en": "Next Word",
+  "tr": "Seuraava sana"
+ },{
+  "en": "Next Word End",
+  "tr": "Seuraava sanan loppu"
+ },{
+  "en": "Next Word Part",
+  "tr": "Seuraava sanaosa"
+ },{
+  "en": "No",
+  "tr": "Ei"
+ },{
+  "en": "No action",
+  "tr": "Ei toimintaa"
+ },{
+  "en": "No Dirs",
+  "tr": "Ei Dirs"
+ },{
+  "en": "No elide",
+  "tr": "Ei eliteä"
+ },{
+  "en": "No file opened",
+  "tr": "Tiedostoa ei avattu"
+ },{
+  "en": "No filer available",
+  "tr": "Tiedostoa ei ole saatavilla"
+ },{
+  "en": "No Files",
+  "tr": "Ei tiedostoja"
+ },{
+  "en": "No files selected to transfer.",
+  "tr": "Siirrettäviä tiedostoja ei ole valittu."
+ },{
+  "en": "No item opened",
+  "tr": "Yksikään kohde ei avattu"
+ },{
+  "en": "No outline available",
+  "tr": "Ei hahmotelmaa"
+ },{
+  "en": "No proxy",
+  "tr": "Ei välityspalvelinta"
+ },{
+  "en": "No session",
+  "tr": "Ei istuntoa"
+ },{
+  "en": "No session available",
+  "tr": "Istuntoa ei ole saatavilla"
+ },{
+  "en": "No session opened",
+  "tr": "Istuntoa ei avattu"
+ },{
+  "en": "No Sessions",
+  "tr": "Ei istuntoja"
+ },{
+  "en": "No supported authentication methods available.",
+  "tr": "Tuettuja todennusmenetelmiä ei ole saatavilla."
+ },{
+  "en": "No transfer available",
+  "tr": "Siirtoa ei ole saatavilla"
+ },{
+  "en": "No wrap",
+  "tr": "Ei käärettä"
+ },{
+  "en": "No X display",
+  "tr": "Ei X -näyttöä"
+ },{
+  "en": "None",
+  "tr": "Ei mitään"
+ },{
+  "en": "None tabs",
+  "tr": "Ei välilehtiä"
+ },{
+  "en": "Normal",
+  "tr": "Normaali"
+ },{
+  "en": "Normal Mode"
+ },{
+  "en": "Now",
+  "tr": "Nyt"
+ },{
+  "en": "Nowhere",
+  "tr": "Ei mihinkään"
+ },{
+  "en": "Octal",
+  "tr": "Octal"
+ },{
+  "en": "OEM to ANSI",
+  "tr": "OEM - ANSI"
+ },{
+  "en": "Off",
+  "tr": "Vinossa"
+ },{
+  "en": "off",
+  "tr": "vinossa"
+ },{
+  "en": "Ok",
+  "tr": "Ok"
+ },{
+  "en": "Old",
+  "tr": "Vanha"
+ },{
+  "en": "Old password",
+  "tr": "Vanha salasana"
+ },{
+  "en": "Olive",
+  "tr": "Oliivi"
+ },{
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Vähintään yksi istunto on auki. \nHaluatko sulkea nykyisen ikkunan?"
+ },{
+  "en": "Only disk file can be reloaded!",
+  "tr": "Vain levytiedosto voidaan ladata uudelleen!"
+ },{
+  "en": "Only indentation",
+  "tr": "Vain sisennys"
+ },{
+  "en": "Opaque",
+  "tr": "Läpinäkymätön"
+ },{
+  "en": "Open",
+  "tr": "Avaa"
+ },{
+  "en": "open",
+  "tr": "avata"
+ },{
+  "en": "Open directory after created",
+  "tr": "Avaa hakemisto luomisen jälkeen"
+ },{
+  "en": "Open directory after download",
+  "tr": "Avaa hakemisto latauksen jälkeen"
+ },{
+  "en": "Open File",
+  "tr": "Avaa tiedosto"
+ },{
+  "en": "Open file",
+  "tr": "Avaa tiedosto"
+ },{
+  "en": "Open file after created",
+  "tr": "Avaa tiedosto luomisen jälkeen"
+ },{
+  "en": "Open file failed!",
+  "tr": "Tiedoston avaaminen epäonnistui!"
+ },{
+  "en": "Open jump server failed!",
+  "tr": "Avaa hyppypalvelin epäonnistui!"
+ },{
+  "en": "Open Log File",
+  "tr": "Avaa lokitiedosto"
+ },{
+  "en": "Open Log Folder",
+  "tr": "Avaa lokikansio"
+ },{
+  "en": "Open Recent",
+  "tr": "Avaa viimeaikaiset"
+ },{
+  "en": "Open Selection",
+  "tr": "Avaa valinta"
+ },{
+  "en": "Open Session",
+  "tr": "Avoin istunto"
+ },{
+  "en": "Open session failed!",
+  "tr": "Avoin istunto epäonnistui!"
+ },{
+  "en": "Open target directory",
+  "tr": "Avaa kohdehakemisto"
+ },{
+  "en": "Open with default editor",
+  "tr": "Avaa oletuseditorilla"
+ },{
+  "en": "Opened",
+  "tr": "Avattu"
+ },{
+  "en": "Openssh sessions",
+  "tr": "Openssh -istunnot"
+ },{
+  "en": "Others",
+  "tr": "Muut"
+ },{
+  "en": "Outline",
+  "tr": "Ääriviivat"
+ },{
+  "en": "Output",
+  "tr": "Lähtö"
+ },{
+  "en": "Overtype",
+  "tr": "Köyhyys"
+ },{
+  "en": "Overwrite",
+  "tr": "Korvaa"
+ },{
+  "en": "Overwrite log file",
+  "tr": "Korvaa lokitiedosto"
+ },{
+  "en": "Overwrite when source file newer",
+  "tr": "Korvaa, kun lähdetiedosto on uudempi"
+ },{
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Korvaa, kun lähdetiedosto on uudempi tai pidempi"
+ },{
+  "en": "Owner",
+  "tr": "Omistaja"
+ },{
+  "en": "Packet padding char",
+  "tr": "Pakkauspehmuste"
+ },{
+  "en": "Packet size",
+  "tr": "Paketin koko"
+ },{
+  "en": "Page",
+  "tr": "Sivu"
+ },{
+  "en": "page",
+  "tr": "sivu"
+ },{
+  "en": "Pair",
+  "tr": "Yhdistä"
+ },{
+  "en": "Panes",
+  "tr": "Lasit"
+ },{
+  "en": "Paragraph",
+  "tr": "Kappale"
+ },{
+  "en": "Parity",
+  "tr": "Pariteetti"
+ },{
+  "en": "Passphrase",
+  "tr": "Tunnuslause"
+ },{
+  "en": "Password",
+  "tr": "Salasana"
+ },{
+  "en": "Password quality meter",
+  "tr": "Salasanan laatumittari"
+ },{
+  "en": "Paste",
+  "tr": "Liitä"
+ },{
+  "en": "Paste Dialog",
+  "tr": "Liitä -valintaikkuna"
+ },{
+  "en": "Paste text",
+  "tr": "Liitä teksti"
+ },{
+  "en": "Pause",
+  "tr": "Keskeytä"
+ },{
+  "en": "Paused",
+  "tr": "Keskeytetty"
+ },{
+  "en": "Pausing",
+  "tr": "Keskeytys"
+ },{
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Suorita DNS -haku välityspalvelimen avulla"
+ },{
+  "en": "Period",
+  "tr": "Jakso"
+ },{
+  "en": "Permissions",
+  "tr": "Käyttöoikeudet"
+ },{
+  "en": "pixels",
+  "tr": "pikseliä"
+ },{
+  "en": "Please input a new name for this view",
+  "tr": "Anna tälle näkymälle uusi nimi"
+ },{
+  "en": "Please input master password",
+  "tr": "Anna pääsalasana"
+ },{
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Anna pääsalasana, tyhjennä tai peruuta poistaminen käytöstä"
+ },{
+  "en": "Please input new group",
+  "tr": "Anna uusi ryhmä"
+ },{
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Muista muistaa asettamasi pääsalasana."
+ },{
+  "en": "Port",
+  "tr": "Portti"
+ },{
+  "en": "Prefer theme fonts",
+  "tr": "Teemafontit"
+ },{
+  "en": "Preferences",
+  "tr": "Asetukset"
+ },{
+  "en": "Preserve",
+  "tr": "Suojella"
+ },{
+  "en": "Preview All",
+  "tr": "Esikatsele kaikki"
+ },{
+  "en": "Preview of replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Preview Symbol",
+  "tr": "Esikatselusymboli"
+ },{
+  "en": "Previous Char",
+  "tr": "Edellinen Char"
+ },{
+  "en": "Previous Fold",
+  "tr": "Edellinen taitto"
+ },{
+  "en": "Previous Indentation",
+  "tr": "Edellinen sisennys"
+ },{
+  "en": "Previous Line",
+  "tr": "Edellinen rivi"
+ },{
+  "en": "Previous Message",
+  "tr": "Edellinen viesti"
+ },{
+  "en": "Previous Page",
+  "tr": "Edellinen sivu"
+ },{
+  "en": "Previous Pair",
+  "tr": "Edellinen pari"
+ },{
+  "en": "Previous Paragraph",
+  "tr": "Edellinen kappale"
+ },{
+  "en": "Previous Scope",
+  "tr": "Edellinen soveltamisala"
+ },{
+  "en": "Previous Segment End",
+  "tr": "Edellisen segmentin loppu"
+ },{
+  "en": "Previous Segment Start",
+  "tr": "Edellisen segmentin aloitus"
+ },{
+  "en": "Previous Stuttered Page",
+  "tr": "Edellinen änkytetty sivu"
+ },{
+  "en": "Previous Word",
+  "tr": "Edellinen sana"
+ },{
+  "en": "Previous Word End",
+  "tr": "Edellinen sanan loppu"
+ },{
+  "en": "Previous Word Part",
+  "tr": "Edellinen sanaosa"
+ },{
+  "en": "Printable output",
+  "tr": "Tulostettava tulostus"
+ },{
+  "en": "Process",
+  "tr": "Käsitellä asiaa"
+ },{
+  "en": "Process %1 crashed.",
+  "tr": "Prosessi %1 kaatui."
+ },{
+  "en": "Process %1 failed to start.",
+  "tr": "Prosessi %1 ei käynnistynyt."
+ },{
+  "en": "Process %1 timeout.",
+  "tr": "Prosessi %1 aikakatkaisu."
+ },{
+  "en": "Program [Arguments]",
+  "tr": "Ohjelma [Argumentit]"
+ },{
+  "en": "Project",
+  "tr": "Projekti"
+ },{
+  "en": "Properties",
+  "tr": "Ominaisuudet"
+ },{
+  "en": "Property",
+  "tr": "Omaisuus"
+ },{
+  "en": "Protocol",
+  "tr": "Pöytäkirja"
+ },{
+  "en": "Proxy",
+  "tr": "Välityspalvelin"
+ },{
+  "en": "Proxy Host",
+  "tr": "Välityspalvelin"
+ },{
+  "en": "Proxy Port",
+  "tr": "Välityspalvelimen portti"
+ },{
+  "en": "Proxy Settings",
+  "tr": "Välityspalvelimen asetukset"
+ },{
+  "en": "Proxy Type",
+  "tr": "Välityspalvelimen tyyppi"
+ },{
+  "en": "Public Key",
+  "tr": "Julkinen avain"
+ },{
+  "en": "Public Keys",
+  "tr": "Julkiset avaimet"
+ },{
+  "en": "Public keys order",
+  "tr": "Julkisten avainten tilaus"
+ },{
+  "en": "Putty sessions",
+  "tr": "Putty -istunnot"
+ },{
+  "en": "Query URL",
+  "tr": "Kyselyn URL -osoite"
+ },{
+  "en": "Question",
+  "tr": "Kysymys"
+ },{
+  "en": "Quick",
+  "tr": "Nopea"
+ },{
+  "en": "Quick Bar",
+  "tr": "Nopea baari"
+ },{
+  "en": "Quick Commands",
+  "tr": "Pikakomennot"
+ },{
+  "en": "Read Only",
+  "tr": "Vain luku"
+ },{
+  "en": "Ready",
+  "tr": "Valmis"
+ },{
+  "en": "Real guide",
+  "tr": "Todellinen opas"
+ },{
+  "en": "Receive XModem",
+  "tr": "Vastaanota XModem"
+ },{
+  "en": "Receive YModem",
+  "tr": "Vastaanota YModem"
+ },{
+  "en": "Receive ZModem",
+  "tr": "Vastaanota ZModem"
+ },{
+  "en": "received",
+  "tr": "otettu vastaan"
+ },{
+  "en": "Recent",
+  "tr": "Viimeaikaiset"
+ },{
+  "en": "Recent Sessions",
+  "tr": "Viimeisimmät istunnot"
+ },{
+  "en": "Reconnect Session",
+  "tr": "Yhdistä istunto uudelleen"
+ },{
+  "en": "Rectangle",
+  "tr": "Suorakulmio"
+ },{
+  "en": "rectangle",
+  "tr": "suorakulmio"
+ },{
+  "en": "Red",
+  "tr": "Punainen"
+ },{
+  "en": "Redo",
+  "tr": "Toista"
+ },{
+  "en": "Redo %1 Actions",
+  "tr": "Toista %1 toimintoa"
+ },{
+  "en": "Refresh",
+  "tr": "Päivitä"
+ },{
+  "en": "Regular Expression",
+  "tr": "Tavallinen ilme"
+ },{
+  "en": "Reload",
+  "tr": "Lataa uudelleen"
+ },{
+  "en": "Reload File",
+  "tr": "Lataa tiedosto uudelleen"
+ },{
+  "en": "Reload With Encoding",
+  "tr": "Lataa uudelleen koodauksella"
+ },{
+  "en": "Remote forwarding",
+  "tr": "Etälähetys"
+ },{
+  "en": "Remote Mode"
+ },{
+  "en": "Remote path",
+  "tr": "Etäinen polku"
+ },{
+  "en": "Remove",
+  "tr": "Poista"
+ },{
+  "en": "remove",
+  "tr": "Poista"
+ },{
+  "en": "Remove All",
+  "tr": "Poista kaikki"
+ },{
+  "en": "Remove Blank Lines",
+  "tr": "Poista tyhjät rivit"
+ },{
+  "en": "Remove Command",
+  "tr": "Poista komento"
+ },{
+  "en": "Remove Duplicate Lines",
+  "tr": "Poista päällekkäiset rivit"
+ },{
+  "en": "Remove Group",
+  "tr": "Poista ryhmä"
+ },{
+  "en": "Remove items",
+  "tr": "Poista kohteet"
+ },{
+  "en": "Remove Sender",
+  "tr": "Poista lähettäjä"
+ },{
+  "en": "Removing",
+  "tr": "Poistetaan"
+ },{
+  "en": "Rename",
+  "tr": "Nimeä uudelleen"
+ },{
+  "en": "Rename Group",
+  "tr": "Nimeä ryhmä uudelleen"
+ },{
+  "en": "Rename tab",
+  "tr": "Nimeä välilehti uudelleen"
+ },{
+  "en": "Rename View",
+  "tr": "Nimeä näkymä uudelleen"
+ },{
+  "en": "Reopen Closed View",
+  "tr": "Avaa suljettu näkymä uudelleen"
+ },{
+  "en": "Repeat Last Command",
+  "tr": "Toista viimeinen komento"
+ },{
+  "en": "Repeatedly Execute",
+  "tr": "Suorita toistuvasti"
+ },{
+  "en": "Replace",
+  "tr": "Korvaa"
+ },{
+  "en": "Replace %1 with %3 in \\\"%2\\\""
+ },{
+  "en": "Replace All",
+  "tr": "Korvaa kaikki"
+ },{
+  "en": "Replace in Files",
+  "tr": "Korvaa tiedostoissa"
+ },{
+  "en": "Requires a restart to take affect",
+  "tr": "Vaatii uudelleenkäynnistyksen vaikuttaakseen"
+ },{
+  "en": "Reset",
+  "tr": "Nollaa"
+ },{
+  "en": "Reset Character Set",
+  "tr": "Nollaa merkistö"
+ },{
+  "en": "Reset Zoom",
+  "tr": "Nollaa zoomaus"
+ },{
+  "en": "Resume",
+  "tr": "Jatkaa"
+ },{
+  "en": "Resuming",
+  "tr": "Jatketaan"
+ },{
+  "en": "Right click",
+  "tr": "Napsauta hiiren kakkospainikkeella"
+ },{
+  "en": "Right click event",
+  "tr": "Tapahtuma hiiren kakkospainikkeella"
+ },{
+  "en": "Right Docks",
+  "tr": "Oikeat telakat"
+ },{
+  "en": "Right Group",
+  "tr": "Oikea ryhmä"
+ },{
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Vieritä hiiren rullaa"
+ },{
+  "en": "Rows",
+  "tr": "Rivit"
+ },{
+  "en": "Royal Blue",
+  "tr": "Kuninkaallinen"
+ },{
+  "en": "Run Tool",
+  "tr": "Suorita työkalu"
+ },{
+  "en": "Save",
+  "tr": "Tallentaa"
+ },{
+  "en": "Save All",
+  "tr": "Tallenna kaikki"
+ },{
+  "en": "Save As",
+  "tr": "Tallenna nimellä"
+ },{
+  "en": "Save Copy As",
+  "tr": "Tallenna kopio nimellä"
+ },{
+  "en": "Save file failed!",
+  "tr": "Tiedoston tallennus epäonnistui!"
+ },{
+  "en": "Save Selection As",
+  "tr": "Tallenna valinta nimellä"
+ },{
+  "en": "Save Session",
+  "tr": "Tallenna istunto"
+ },{
+  "en": "Saved automatic authentication",
+  "tr": "Tallennettu automaattinen todennus"
+ },{
+  "en": "Scheme Tools",
+  "tr": "Järjestelmän työkalut"
+ },{
+  "en": "Scope",
+  "tr": "Soveltamisala"
+ },{
+  "en": "Screen Locked",
+  "tr": "Näyttö lukittu"
+ },{
+  "en": "Scroll Left",
+  "tr": "Vieritä vasemmalle"
+ },{
+  "en": "Scroll Line Down",
+  "tr": "Vieritä rivi alas"
+ },{
+  "en": "Scroll Line Up",
+  "tr": "Scroll Line Up"
+ },{
+  "en": "Scroll Right",
+  "tr": "Vieritä oikealle"
+ },{
+  "en": "Search",
+  "tr": "Hae"
+ },{
+  "en": "Search engine",
+  "tr": "Hakukoneet)"
+ },{
+  "en": "Search Engine",
+  "tr": "Hakukone"
+ },{
+  "en": "Search Engines",
+  "tr": "Hakukoneet"
+ },{
+  "en": "Search Online",
+  "tr": "Hae verkosta"
+ },{
+  "en": "Search or enter address",
+  "tr": "Hae tai kirjoita osoite"
+ },{
+  "en": "Searching",
+  "tr": "Etsitään"
+ },{
+  "en": "Seconds",
+  "tr": "Sekunnit"
+ },{
+  "en": "seconds",
+  "tr": "sekuntia"
+ },{
+  "en": "Security",
+  "tr": "Turvallisuus"
+ },{
+  "en": "Segment",
+  "tr": "Segmentti"
+ },{
+  "en": "Select",
+  "tr": "Valitse"
+ },{
+  "en": "Select All",
+  "tr": "Valitse kaikki"
+ },{
+  "en": "Select Column To",
+  "tr": "Valitse sarake"
+ },{
+  "en": "Select copy folder",
+  "tr": "Valitse kopiointikansio"
+ },{
+  "en": "Select copy items",
+  "tr": "Valitse kopioi kohteet"
+ },{
+  "en": "Select directory to receive",
+  "tr": "Valitse vastaanotettava hakemisto"
+ },{
+  "en": "Select download folder",
+  "tr": "Valitse latauskansio"
+ },{
+  "en": "Select files to send",
+  "tr": "Valitse lähetettävät tiedostot"
+ },{
+  "en": "Select Fold",
+  "tr": "Valitse taitto"
+ },{
+  "en": "Select Snippet Backward",
+  "tr": "Valitse katkelma taaksepäin"
+ },{
+  "en": "Select Snippet Forward",
+  "tr": "Valitse katkelman edelleenlähetys"
+ },{
+  "en": "Select To",
+  "tr": "Valitse"
+ },{
+  "en": "Select upload items",
+  "tr": "Valitse lähetettävät kohteet"
+ },{
+  "en": "Selected position",
+  "tr": "Valittu sijainti"
+ },{
+  "en": "Selected Sessions",
+  "tr": "Valitut istunnot"
+ },{
+  "en": "Selection",
+  "tr": "Valinta"
+ },{
+  "en": "Send",
+  "tr": "Lähettää"
+ },{
+  "en": "Send line By line",
+  "tr": "Lähetä rivi riviltä"
+ },{
+  "en": "Send Text",
+  "tr": "Lähetä teksti"
+ },{
+  "en": "Send XModem",
+  "tr": "Lähetä XModem"
+ },{
+  "en": "Send YModem",
+  "tr": "Lähetä YModem"
+ },{
+  "en": "Send ZModem",
+  "tr": "Lähetä ZModem"
+ },{
+  "en": "Sender",
+  "tr": "Lähettäjä"
+ },{
+  "en": "Sending %1 failed: %2",
+  "tr": "Lähetys %1 epäonnistui: %2"
+ },{
+  "en": "Sending: %1",
+  "tr": "Lähetetään: %1"
+ },{
+  "en": "Sends null packet to keep session alive",
+  "tr": "Lähettää nollapaketin pitääkseen istunnon hengissä"
+ },{
+  "en": "sent",
+  "tr": "lähetetty"
+ },{
+  "en": "Serial",
+  "tr": "Sarja"
+ },{
+  "en": "Server",
+  "tr": "Palvelin"
+ },{
+  "en": "Session",
+  "tr": "Istunto"
+ },{
+  "en": "session",
+  "tr": "istunto"
+ },{
+  "en": "Session Group",
+  "tr": "Istuntoryhmä"
+ },{
+  "en": "Session Log",
+  "tr": "Istunnon loki"
+ },{
+  "en": "Session name",
+  "tr": "Istunnon nimi"
+ },{
+  "en": "Session Settings",
+  "tr": "Istuntoasetukset"
+ },{
+  "en": "Session \\\"%1\\\" is missing or corrupt."
+ },{
+  "en": "Sessions In All Windows",
+  "tr": "Istunnot kaikissa ikkunoissa"
+ },{
+  "en": "Sessions In Current Group",
+  "tr": "Istunnot nykyisessä ryhmässä"
+ },{
+  "en": "Sessions In Current Window",
+  "tr": "Istunnot nykyisessä ikkunassa"
+ },{
+  "en": "Sessions In Group %1",
+  "tr": "Istunnot ryhmässä %1"
+ },{
+  "en": "Set default editor",
+  "tr": "Aseta oletuseditori"
+ },{
+  "en": "Set Tab Color",
+  "tr": "Aseta välilehden väri"
+ },{
+  "en": "Settings",
+  "tr": "asetukset"
+ },{
+  "en": "SHA1",
+  "tr": "SHA1"
+ },{
+  "en": "Shape",
+  "tr": "Muodot)"
+ },{
+  "en": "Shell",
+  "tr": "Kuori"
+ },{
+  "en": "Shell sessions",
+  "tr": "Shell -istunnot"
+ },{
+  "en": "Shell Sessions",
+  "tr": "Shell -istunnot"
+ },{
+  "en": "Short Time/Date",
+  "tr": "Lyhyt aika/päivämäärä"
+ },{
+  "en": "Show",
+  "tr": "Näytä"
+ },{
+  "en": "Show All",
+  "tr": "Näytä kaikki"
+ },{
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Näytä kaikki avatut ja viimeaikaiset editorit"
+ },{
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Näytä kaikki avatut ja viimeisimmät terminaalit"
+ },{
+  "en": "Show and Run Actions",
+  "tr": "Näytä ja suorita toimintoja"
+ },{
+  "en": "Show close tab confirmation dialog",
+  "tr": "Näytä suljetun välilehden vahvistusikkuna"
+ },{
+  "en": "Show close window confirmation dialog",
+  "tr": "Näytä sulkeutuvan ikkunan vahvistusikkuna"
+ },{
+  "en": "Show column markers",
+  "tr": "Näytä sarakemerkit"
+ },{
+  "en": "Show commands in alphabetical order",
+  "tr": "Näytä komennot aakkosjärjestyksessä"
+ },{
+  "en": "Show current %1 property",
+  "tr": "Näytä nykyinen %1 -ominaisuus"
+ },{
+  "en": "Show group commands in order",
+  "tr": "Näytä ryhmäkomennot järjestyksessä"
+ },{
+  "en": "Show group title",
+  "tr": "Näytä ryhmän nimi"
+ },{
+  "en": "Show hidden items",
+  "tr": "Näytä piilotetut kohteet"
+ },{
+  "en": "Show in %1",
+  "tr": "Näytä %1"
+ },{
+  "en": "Show In Line End",
+  "tr": "Näytä rivin lopussa"
+ },{
+  "en": "Show In Line Start",
+  "tr": "Näytä rivin alku"
+ },{
+  "en": "Show In Selection",
+  "tr": "Näytä valikoimassa"
+ },{
+  "en": "Show indent guide",
+  "tr": "Näytä sisennysopas"
+ },{
+  "en": "Show line endings",
+  "tr": "Näytä rivin päätteet"
+ },{
+  "en": "Show menu",
+  "tr": "Näytä valikko"
+ },{
+  "en": "Show More Tools",
+  "tr": "Näytä lisää työkaluja"
+ },{
+  "en": "Show multiple groups",
+  "tr": "Näytä useita ryhmiä"
+ },{
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Näytä liitä -valintaikkuna vaihtoehtoisessa näytössä"
+ },{
+  "en": "Show paste dialog on the main screen",
+  "tr": "Näytä liitä -valintaikkuna päänäytössä"
+ },{
+  "en": "Show spaces and tabs",
+  "tr": "Näytä välilyönnit ja välilehdet"
+ },{
+  "en": "Show Tabs",
+  "tr": "Näytä välilehdet"
+ },{
+  "en": "Show Text",
+  "tr": "Näytä teksti"
+ },{
+  "en": "Show the tab number on tabs",
+  "tr": "Näytä välilehden numero välilehdillä"
+ },{
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Näytä tämä valintaikkuna, kun tarkennustila käynnistyy"
+ },{
+  "en": "Show wrap symbols",
+  "tr": "Näytä rivityssymbolit"
+ },{
+  "en": "Shrink",
+  "tr": "Kutistua"
+ },{
+  "en": "Size",
+  "tr": "Koko"
+ },{
+  "en": "Skip",
+  "tr": "Ohita"
+ },{
+  "en": "Socks v5 proxy",
+  "tr": "Sukat v5 -välityspalvelin"
+ },{
+  "en": "Soft Reset",
+  "tr": "Pehmeä nollaus"
+ },{
+  "en": "Sort",
+  "tr": "Lajittele"
+ },{
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Lajittele rivit, kirjainkoko ei erota"
+ },{
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Lajittelulinjojen kirjainkoko"
+ },{
+  "en": "Sort Lines In Random Order",
+  "tr": "Lajittele rivit satunnaisessa järjestyksessä"
+ },{
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Lajittele rivit päinvastaisessa järjestyksessä"
+ },{
+  "en": "spaces",
+  "tr": "välilyöntejä"
+ },{
+  "en": "Spaces"
+ },{
+  "en": "Spaces to Tabs",
+  "tr": "Välilyönnit"
+ },{
+  "en": "Spacing",
+  "tr": "Välilyönti"
+ },{
+  "en": "Special",
+  "tr": "Erityinen"
+ },{
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Määritä protokolla, kun vedät ja pudotat tiedostoja"
+ },{
+  "en": "Speed",
+  "tr": "Nopeus"
+ },{
+  "en": "Split",
+  "tr": "Split"
+ },{
+  "en": "Split Group Horizontally",
+  "tr": "Jaa ryhmä vaakasuunnassa"
+ },{
+  "en": "Split Group Vertically",
+  "tr": "Jaa ryhmä pystysuunnassa"
+ },{
+  "en": "Split Lines",
+  "tr": "Jaetut linjat"
+ },{
+  "en": "Split Selection",
+  "tr": "Jaa valinta"
+ },{
+  "en": "Split To Group",
+  "tr": "Jaettu ryhmään"
+ },{
+  "en": "Split View Horizontally",
+  "tr": "Jaettu näkymä vaakasuunnassa"
+ },{
+  "en": "Split View Vertically",
+  "tr": "Jaettu näkymä pystysuunnassa"
+ },{
+  "en": "Standard"
+ },{
+  "en": "Start",
+  "tr": "Aloita"
+ },{
+  "en": "Start Of Document",
+  "tr": "Asiakirjan alku"
+ },{
+  "en": "Start Of Line",
+  "tr": "Linjan alku"
+ },{
+  "en": "Start Of Pair",
+  "tr": "Parin alku"
+ },{
+  "en": "Startup",
+  "tr": "Aloittaa"
+ },{
+  "en": "Stash",
+  "tr": "Varasto"
+ },{
+  "en": "Status Bar",
+  "tr": "Tilarivi"
+ },{
+  "en": "Stdin",
+  "tr": "Stdin"
+ },{
+  "en": "Stdout",
+  "tr": "Stdout"
+ },{
+  "en": "Steel Blue",
+  "tr": "Terässininen"
+ },{
+  "en": "Sticky",
+  "tr": "Tahmea"
+ },{
+  "en": "Stop",
+  "tr": "Lopettaa"
+ },{
+  "en": "Stop Bits",
+  "tr": "Stop -bitit"
+ },{
+  "en": "Stop loading",
+  "tr": "Lopeta lataaminen"
+ },{
+  "en": "Stop sender",
+  "tr": "Pysäytä lähettäjä"
+ },{
+  "en": "Stop Tools",
+  "tr": "Pysäytystyökalut"
+ },{
+  "en": "Stop watching this file",
+  "tr": "Lopeta tämän tiedoston katselu"
+ },{
+  "en": "Switch Stream And Column",
+  "tr": "Vaihda virtaa ja saraketta"
+ },{
+  "en": "switch to tab",
+  "tr": "vaihda välilehdelle"
+ },{
+  "en": "Symbols",
+  "tr": "Symbolit"
+ },{
+  "en": "Sync channel",
+  "tr": "Synkronoi kanava"
+ },{
+  "en": "Sync Edit",
+  "tr": "Synkronoinnin muokkaus"
+ },{
+  "en": "Sync Input",
+  "tr": "Synkronointitulo"
+ },{
+  "en": "Synchronizing input in channel %1",
+  "tr": "Synkronoidaan tuloa kanavalla %1"
+ },{
+  "en": "Syntax Schemes",
+  "tr": "Syntaksimallit"
+ },{
+  "en": "System",
+  "tr": "Järjestelmä"
+ },{
+  "en": "Tab",
+  "tr": "Välilehti"
+ },{
+  "en": "Tab Color",
+  "tr": "Välilehden väri"
+ },{
+  "en": "Tab Features",
+  "tr": "Välilehden ominaisuudet"
+ },{
+  "en": "Tab Group",
+  "tr": "Sarkainryhmä"
+ },{
+  "en": "Tab Index",
+  "tr": "Välilehti Hakemisto"
+ },{
+  "en": "Tab size",
+  "tr": "Välilehden koko"
+ },{
+  "en": "Tab Size"
+ },{
+  "en": "Tab text elide mode",
+  "tr": "Välilehtitekstin tila"
+ },{
+  "en": "Tab thumbnail radio",
+  "tr": "Välilehden pikkukuvaradio"
+ },{
+  "en": "Tab Title",
+  "tr": "Välilehden otsikko"
+ },{
+  "en": "Tabify Selected Lines",
+  "tr": "Tabify Valitut rivit"
+ },{
+  "en": "Tabs",
+  "tr": "Välilehdet"
+ },{
+  "en": "Tabs to Spaces",
+  "tr": "Välilehdet välilyönteihin"
+ },{
+  "en": "Target",
+  "tr": "Kohde"
+ },{
+  "en": "Target directory"
+ },{
+  "en": "Target folder",
+  "tr": "Kohdekansio"
+ },{
+  "en": "Targets",
+  "tr": "Tavoitteet"
+ },{
+  "en": "TCP connection options",
+  "tr": "TCP -yhteysvaihtoehdot"
+ },{
+  "en": "Teal",
+  "tr": "Teal"
+ },{
+  "en": "Term",
+  "tr": "Termi"
+ },{
+  "en": "Terminal",
+  "tr": "Terminaali"
+ },{
+  "en": "terminal",
+  "tr": "päätelaite"
+ },{
+  "en": "Terminal Settings",
+  "tr": "Päätelaitteen asetukset"
+ },{
+  "en": "Text",
+  "tr": "Teksti"
+ },{
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Teksti: %1 riviä, %2 merkkiä"
+ },{
+  "en": "The % sign",
+  "tr": "Merkki"
+ },{
+  "en": "The actual text to log",
+  "tr": "Varsinainen kirjattava teksti"
+ },{
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Kohdekansio on lähdekansion alikansio: (%1"
+ },{
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Asiakirjaa on muutettu. \nHaluatko tallentaa muutokset?"
+ },{
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Näppäinyhdistelmä(%1) ei ole komento."
+ },{
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "Lrzsz: tä ei havaita. Asenna ensin lrzsz."
+ },{
+  "en": "The master password has been changed.",
+  "tr": "Pääsalasana on vaihdettu."
+ },{
+  "en": "The password confirmation does not match.",
+  "tr": "Salasanan vahvistus ei täsmää."
+ },{
+  "en": "The server canceled the transmission.",
+  "tr": "Palvelin peruutti lähetyksen."
+ },{
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Istunto on <b> katkaistu </b>, muodosta yhteys painamalla <b> Enter </b>."
+ },{
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Siirto peruutettiin, koska paketti ei ollut %1 uudelleenyritysrajan sisällä."
+ },{
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Siirto peruutettiin, koska paketin järjestysnumero oli väärä."
+ },{
+  "en": "Theme",
+  "tr": "Teema"
+ },{
+  "en": "Thin",
+  "tr": "Ohut"
+ },{
+  "en": "Threshold for huge file",
+  "tr": "Valtavan tiedoston kynnys"
+ },{
+  "en": "Time elapsed"
+ },{
+  "en": "Time format",
+  "tr": "Aikamuoto"
+ },{
+  "en": "Time left",
+  "tr": "Aikaa jäljellä"
+ },{
+  "en": "Timestamp of lines",
+  "tr": "Rivien aikaleima"
+ },{
+  "en": "To Inverse Case",
+  "tr": "Käänteinen tapaus"
+ },{
+  "en": "To Line End",
+  "tr": "Rivin loppuun"
+ },{
+  "en": "To Line Start",
+  "tr": "Linjan alkuun"
+ },{
+  "en": "To Lower Case",
+  "tr": "Pienille kirjaimille"
+ },{
+  "en": "To MacOS 9 CR",
+  "tr": "MacOS 9 CR: lle"
+ },{
+  "en": "To Title Case",
+  "tr": "Nimikkeen tapaukseen"
+ },{
+  "en": "To Unix LF",
+  "tr": "Unix LF: lle"
+ },{
+  "en": "To Upper Case",
+  "tr": "Isot kirjaimet"
+ },{
+  "en": "To Windows CRLF",
+  "tr": "Windows CRLF"
+ },{
+  "en": "To Word End",
+  "tr": "Sanan loppuun"
+ },{
+  "en": "To Word Start",
+  "tr": "Word Start"
+ },{
+  "en": "Toggle"
+ },{
+  "en": "Toggle Fold",
+  "tr": "Vaihda taitto"
+ },{
+  "en": "Tool",
+  "tr": "Työkalu"
+ },{
+  "en": "Toolbar",
+  "tr": "Työkalupalkki"
+ },{
+  "en": "Top Group",
+  "tr": "Huippuryhmä"
+ },{
+  "en": "Track Text Selection In Tree",
+  "tr": "Raidatekstin valinta puussa"
+ },{
+  "en": "Track Tree Selection In Text",
+  "tr": "Jälkipuun valinta tekstissä"
+ },{
+  "en": "Tracking Events",
+  "tr": "Tapahtumien seuranta"
+ },{
+  "en": "Trailing Blanks",
+  "tr": "Jäljellä olevat aihiot"
+ },{
+  "en": "Trailing position",
+  "tr": "Jälkiasento"
+ },{
+  "en": "Transfer",
+  "tr": "Siirtää"
+ },{
+  "en": "Transfer Bar",
+  "tr": "Siirtopalkki"
+ },{
+  "en": "Transfer Binary",
+  "tr": "Siirrä binääri"
+ },{
+  "en": "Transfer complete",
+  "tr": "Siirto valmis"
+ },{
+  "en": "Transfer incomplete",
+  "tr": "Siirto epätäydellinen"
+ },{
+  "en": "Translucent",
+  "tr": "Läpikuultava"
+ },{
+  "en": "Transparent",
+  "tr": "Läpinäkyvä"
+ },{
+  "en": "Transpose",
+  "tr": "Transponoi"
+ },{
+  "en": "Trim trailing whitespace on save",
+  "tr": "Rajaa tyhjä välilyönti tallennuksen aikana"
+ },{
+  "en": "Trust this host",
+  "tr": "Luota tähän isäntään"
+ },{
+  "en": "Tunnels",
+  "tr": "Tunnelit"
+ },{
+  "en": "Type",
+  "tr": "Tyyppi"
+ },{
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Kirjoita '?' saadaksesi apua kirjoittamiisi toimintoihin"
+ },{
+  "en": "Uncomment Selection",
+  "tr": "Kommenttien valinta"
+ },{
+  "en": "Underline",
+  "tr": "Korostaa"
+ },{
+  "en": "underLine",
+  "tr": "korostaa"
+ },{
+  "en": "Undo",
+  "tr": "Kumoa"
+ },{
+  "en": "Undo %1 Actions",
+  "tr": "Kumoa %1 toimintoa"
+ },{
+  "en": "Unfold",
+  "tr": "Avaa"
+ },{
+  "en": "Unfold All",
+  "tr": "Avaa kaikki"
+ },{
+  "en": "Unfold Category",
+  "tr": "Avaa luokka"
+ },{
+  "en": "Unfold Inside",
+  "tr": "Avaa sisäpuolella"
+ },{
+  "en": "Unify line endings on save",
+  "tr": "Yhdistä rivin päätteet tallennuksen yhteydessä"
+ },{
+  "en": "Unit"
+ },{
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },{
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: shell -tiedoston polun on oltava ehdoton"
+ },{
+  "en": "Unknown",
+  "tr": "Tuntematon"
+ },{
+  "en": "unknown",
+  "tr": "tuntematon"
+ },{
+  "en": "Untabify Selected Lines",
+  "tr": "Poista valitut rivit"
+ },{
+  "en": "Untitled",
+  "tr": "Nimetön"
+ },{
+  "en": "Untrust this host",
+  "tr": "Älä luota tähän isäntään"
+ },{
+  "en": "upload",
+  "tr": "lataa"
+ },{
+  "en": "Upload command",
+  "tr": "Lähetä komento"
+ },{
+  "en": "Upload directory",
+  "tr": "Lähetä hakemisto"
+ },{
+  "en": "Upload file",
+  "tr": "Lataa tiedosto"
+ },{
+  "en": "Upload to current folder",
+  "tr": "Lataa nykyiseen kansioon"
+ },{
+  "en": "uploaded",
+  "tr": "ladattu"
+ },{
+  "en": "URL with %q in place of query",
+  "tr": "URL, jossa %q on kyselyn sijasta"
+ },{
+  "en": "Use background color to erase screen",
+  "tr": "Käytä taustaväriä näytön pyyhkimiseen"
+ },{
+  "en": "Use high speed transfer",
+  "tr": "Käytä nopeaa siirtoa"
+ },{
+  "en": "Use system line ending",
+  "tr": "Käytä järjestelmärivin päättymistä"
+ },{
+  "en": "Use this as the default and do not ask again",
+  "tr": "Käytä tätä oletuksena äläkä kysy uudelleen"
+ },{
+  "en": "User",
+  "tr": "Käyttäjä"
+ },{
+  "en": "Username echo mode",
+  "tr": "Käyttäjänimen kaiun tila"
+ },{
+  "en": "Value",
+  "tr": "Arvo"
+ },{
+  "en": "Variable",
+  "tr": "Muuttuva"
+ },{
+  "en": "Verifying the server's fingerprint",
+  "tr": "Palvelimen sormenjäljen tarkistaminen"
+ },{
+  "en": "View",
+  "tr": "Näytä"
+ },{
+  "en": "Virtual Space",
+  "tr": "Virtuaalitila"
+ },{
+  "en": "Waiting",
+  "tr": "Odottaa"
+ },{
+  "en": "Warning",
+  "tr": "Varoitus"
+ },{
+  "en": "Wheel event",
+  "tr": "Pyörätapahtuma"
+ },{
+  "en": "When destination file exists",
+  "tr": "Kun kohdetiedosto on olemassa"
+ },{
+  "en": "When pasting multiple lines",
+  "tr": "Kun liität useita rivejä"
+ },{
+  "en": "When remote title is changed",
+  "tr": "Kun etäotsikkoa muutetaan"
+ },{
+  "en": "When session is authenticated",
+  "tr": "Kun istunto todennetaan"
+ },{
+  "en": "When session is authenticating",
+  "tr": "Kun istunto todennetaan"
+ },{
+  "en": "When window is resized",
+  "tr": "Kun ikkunan kokoa muutetaan"
+ },{
+  "en": "Where",
+  "tr": "Missä"
+ },{
+  "en": "White Spaces",
+  "tr": "Valkoiset välilyönnit"
+ },{
+  "en": "Whole Line",
+  "tr": "Koko linja"
+ },{
+  "en": "Whole Word",
+  "tr": "Koko maailma"
+ },{
+  "en": "Widgets",
+  "tr": "Widgetit"
+ },{
+  "en": "Width",
+  "tr": "Leveys"
+ },{
+  "en": "Window",
+  "tr": "Ikkuna"
+ },{
+  "en": "Window %1×%2"
+ },{
+  "en": "Window edge",
+  "tr": "Ikkunan reuna"
+ },{
+  "en": "Window Opacity",
+  "tr": "Ikkunan läpinäkyvyys"
+ },{
+  "en": "Window opacity",
+  "tr": "Ikkunan peittävyys"
+ },{
+  "en": "Windows Manager",
+  "tr": "Windows Manager"
+ },{
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe tai winpty.dll ei löydy !."
+ },{
+  "en": "Word",
+  "tr": "Sana"
+ },{
+  "en": "Word Separators",
+  "tr": "Sananerottimet"
+ },{
+  "en": "Word Wrap",
+  "tr": "Word Wrap"
+ },{
+  "en": "Working directory",
+  "tr": "Työhakemisto"
+ },{
+  "en": "Wrap",
+  "tr": "Kääri"
+ },{
+  "en": "Wrap by character",
+  "tr": "Kääri hahmon mukaan"
+ },{
+  "en": "Wrap by word",
+  "tr": "Kääri sanalla"
+ },{
+  "en": "Wrap column",
+  "tr": "Kierrä sarake"
+ },{
+  "en": "Wrap mode",
+  "tr": "Käärintätila"
+ },{
+  "en": "Wrap Symbols",
+  "tr": "Kääre -symbolit"
+ },{
+  "en": "Wrong master password.",
+  "tr": "Väärä pääsalasana."
+ },{
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z -modeemi"
+ },{
+  "en": "X/Y/Z modem can not transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z -modeemi ei voi lähettää yli 4 Gt: n kansioita tai tiedostoja: %1."
+ },{
+  "en": "X11 authentication protocol",
+  "tr": "X11 -todennusprotokolla"
+ },{
+  "en": "X11 display",
+  "tr": "X11 näyttö"
+ },{
+  "en": "XTerm format"
+ },{
+  "en": "Year in 2 digits",
+  "tr": "Vuosi 2 numeroa"
+ },{
+  "en": "Year in 4 digits",
+  "tr": "Vuosi 4 numeroa"
+ },{
+  "en": "Yes",
+  "tr": "Joo"
+ },{
+  "en": "Zero",
+  "tr": "Nolla"
+ },{
+  "en": "Zoom",
+  "tr": "Zoomaus"
+ },{
+  "en": "Zoom In",
+  "tr": "Lähennä"
+ },{
+  "en": "Zoom level",
+  "tr": "Zoomaustaso"
+ },{
+  "en": "Zoom Out",
+  "tr": "Loitonna"
+ },{
+  "en": "[Crashed in %1s]",
+  "tr": "[Kaatui %1s]"
+ },{
+  "en": "[Empty]",
+  "tr": "[Tyhjä]"
+ },{
+  "en": "[Error: %1]",
+  "tr": "[Virhe: %1]"
+ },{
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Valmis %1s, poistumiskoodi %2]"
+ },{
+  "en": "[Finished in %1s]",
+  "tr": "[Valmis %1s]"
+ },{
+  "en": "[Group list is empty]",
+  "tr": "[Ryhmäluettelo on tyhjä]"
+ },{
+  "en": "[Navigation list is empty]",
+  "tr": "[Navigointiluettelo on tyhjä]"
+ },{
+  "en": "[No search engine]",
+  "tr": "[Ei hakukonetta]"
+ },{
+  "en": "[Recent urls is empty]",
+  "tr": "[Viimeisimmät URL -osoitteet ovat tyhjiä]"
+ },{
+  "en": "[Redo list is empty]",
+  "tr": "[Toistoluettelo on tyhjä]"
+ },{
+  "en": "[Scheme list is empty]",
+  "tr": "[Ohjelmalista on tyhjä]"
+ },{
+  "en": "[Theme list is empty]",
+  "tr": "[Teemaluettelo on tyhjä]"
+ },{
+  "en": "[Toolbar list is empty]",
+  "tr": "[Työkalupalkin luettelo on tyhjä]"
+ },{
+  "en": "[Undo list is empty]",
+  "tr": "[Kumoa luettelo on tyhjä]"
+ },{
+  "en": "[User Canceled]",
+  "tr": "[Käyttäjä peruutettu]"
+ },{
+  "en": "[user@]hostname",
+  "tr": "[user@] isäntänimi"
+ },{
+  "en": "[Windows list is empty]",
+  "tr": "[Windows -luettelo on tyhjä]"
+ },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
+ },{
+  "en": "Allow",
+  "tr": ""
+ },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
+  "en": "Ask",
+  "tr": ""
+ },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
+ },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
+  "en": "Closed",
+  "tr": ""
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
+ },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
+ },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
+ },{
+  "en": "Description",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
+ },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
+  "en": "Forbit",
+  "tr": ""
+ },{
+  "en": "Full day name",
+  "tr": ""
+ },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
+  "en": "Initial modes",
+  "tr": ""
+ },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
+  "en": "Local",
+  "tr": ""
+ },{
+  "en": "Menu",
+  "tr": ""
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
+ },{
+  "en": "Open link",
+  "tr": ""
+ },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
+  "en": "Proxy command",
+  "tr": ""
+ },{
+  "en": "Redo List",
+  "tr": ""
+ },{
+  "en": "Refresh tunnels after closing the dialog",
+  "tr": ""
+ },{
+  "en": "Remote",
+  "tr": ""
+ },{
+  "en": "Remove sessions",
+  "tr": ""
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
+ },{
+  "en": "Session Color",
+  "tr": ""
+ },{
+  "en": "Session Icon",
+  "tr": ""
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
+ },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
+ },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
+  "en": "Timezone",
+  "tr": ""
+ },{
+  "en": "Tool Bar",
+  "tr": ""
+ },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
+  "en": "Undo List",
+  "tr": ""
+ },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
+  "en": "UTC time zone",
+  "tr": ""
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
+ },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
+  "en": "Working Directory",
+  "tr": ""
+ }
+ ]
+}

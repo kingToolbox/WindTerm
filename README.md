@@ -67,6 +67,7 @@ DigeWhite Theme:
 - **Supports Multilingual User Interface.**
 - Supports Unicode 13.
 - Session dialog and session tree.
+- **Free Type Mode.** [Intro Video](https://kingtoolbox.github.io/2022/04/12/free_type_mode/)
 - **Focus Mode.** [Intro Video](https://kingtoolbox.github.io/2021/06/28/ui_focus_mode/)
 - **Sync Input.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/sync-input/)
 - **Enhanced protection of the session username and password.** [Intro Video](https://kingtoolbox.github.io/2021/03/11/protection-username-password/)
@@ -105,6 +106,7 @@ DigeWhite Theme:
 - Restore last sessions and layouts when restart. [Intro Video](https://kingtoolbox.github.io/2020/01/22/restore-sessions/)
 - Supports opening a specific session or set of sessions on startup.
 ### Performance
+- Dynamic memory compression, typically `20%` to `90%` of the working memory load can be reduced.
 - High performance, low memory, low latency. [Intro Video](https://kingtoolbox.github.io/2020/01/23/windterm-putty-performance/)
 
 # Sftp Performance
@@ -352,21 +354,19 @@ DIGEdit is the text component of WindTerm.
 
   1~2 weeks
 
-# Roadmap of v2.4 (Mid-March, for reference only)
-- **Dynamic memory compression**
-- **Improved Filer**
-- **Improved XServer**
-- **Improved SSH tunnels** 
-- **Move Caret By Mouse** #239 
-- **Free Type Mode**
-- Automatic Completion (Postponed to a later version )
-- Command Snippet [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488) (Postponed to a later version )
+# Roadmap of v2.5 (Late-May, for reference only)
+- **New memory allocator and manager and garbage collector**
+- Improved Filer
+- Improved Transfer
+- Improved Quickbar
+- **SSH Agent**
+- **Automatic Completion**
+- **Command Snippet** [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488)
 - SSH GSSAPI Authentication (Postponed to a later version )
 - SSH Agent Forwaring (Postponed to a later version )
-- New memory allocator and manager and garbage collector. (Postponed to a later version )
 - Search in sessions. (Postponed to a later version )
 
-Download: [WindTerm 2.4.0 Prerelease 1](https://github.com/kingToolbox/WindTerm/releases/tag/2.4-prerelease) (2022-3-20)
+Download: [WindTerm 2.4.0](https://github.com/kingToolbox/WindTerm/releases/tag/2.4) (2022-4-17)
 
 **Roadmap of version 2.x:**
 - External tools

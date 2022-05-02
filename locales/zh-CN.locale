@@ -3492,94 +3492,94 @@
   "tr": "[Windows 列表为空]"
  },{
   "en": "Additional parameters for VcXsrv",
-  "tr": ""
+  "tr": "VcXsrv的附加参数"
  },{
   "en": "Advanced",
-  "tr": ""
+  "tr": "高级"
  },{
   "en": "Buffer Characters",
-  "tr": ""
+  "tr": "缓冲区字符"
  },{
   "en": "Buffer Lines",
-  "tr": ""
+  "tr": "缓冲区线"
  },{
   "en": "Clipboard",
-  "tr": ""
+  "tr": "剪贴板"
  },{
   "en": "Connect Time",
-  "tr": ""
+  "tr": "连接时间"
  },{
   "en": "Delay",
-  "tr": ""
+  "tr": "延迟"
  },{
   "en": "Display number",
-  "tr": ""
+  "tr": "显示号码"
  },{
   "en": "Display",
-  "tr": ""
+  "tr": "显示"
  },{
   "en": "Elapsed Time",
-  "tr": ""
+  "tr": "经过的时间"
  },{
   "en": "Enable the clipboard",
-  "tr": ""
+  "tr": "启用剪贴板"
  },{
   "en": "Extensions",
-  "tr": ""
+  "tr": "扩展"
  },{
   "en": "Grab special Windows keys like Alt-Tab",
-  "tr": ""
+  "tr": "抓取特殊的Windows键，如Alt-Tab"
  },{
   "en": "Keyboard layout",
-  "tr": ""
+  "tr": "键盘布局"
  },{
   "en": "Keyboard model",
-  "tr": ""
+  "tr": "键盘模式"
  },{
   "en": "Not available",
-  "tr": ""
+  "tr": "不适用"
  },{
   "en": "Profiles Directory",
-  "tr": ""
+  "tr": "个人资料目录"
  },{
   "en": "Server IP",
-  "tr": ""
+  "tr": "服务器IP地址"
  },{
   "en": "Show the tray icon",
-  "tr": ""
+  "tr": "显示托盘图标"
  },{
   "en": "SOCKS 5 address length is invalid.",
-  "tr": ""
+  "tr": "SOCKS 5地址长度无效。"
  },{
   "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
-  "tr": ""
+  "tr": "SOCKS 5握手请求无效（请求长度：%1）。"
  },{
   "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
-  "tr": ""
+  "tr": "SOCKS 5握手请求无效（请求版本：%1）。"
  },{
   "en": "SOCKS 5 request is invalid (requested length: %1).",
-  "tr": ""
+  "tr": "SOCKS 5请求无效（请求长度：%1）。"
  },{
   "en": "SOCKS 5 request is invalid (requested version: %1).",
-  "tr": ""
+  "tr": "SOCKS 5请求无效（请求版本：%1）。"
  },{
   "en": "SOCKS 5 request is not supported (requested address type: %1).",
-  "tr": ""
+  "tr": "不支持的SOCKS 5请求（请求的地址类型：%1）。"
  },{
   "en": "SOCKS 5 request is not supported (requested command: %1).",
-  "tr": ""
+  "tr": "不支持的SOCKS 5请求（请求的命令：%1）。"
  },{
   "en": "Tunnels will be refreshed after closing the dialog",
-  "tr": ""
+  "tr": "关闭对话框后，隧道将被刷新。"
  },{
   "en": "Window mode",
-  "tr": ""
+  "tr": "窗口模式"
  },{
   "en": "X Server Settings",
-  "tr": ""
+  "tr": "X Server设置"
  },{
   "en": "X Server",
-  "tr": ""
+  "tr": "X Server"
  }
  ]
 }

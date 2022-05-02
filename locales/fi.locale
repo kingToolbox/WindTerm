@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "Etätiedostoa on muutettu. \nHaluatko lähettää tämän tiedoston takaisin palvelimelle?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "Tietty istunto tai istuntojoukko"
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "Lyhennetty kuukauden nimi"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "Aktivoi välilehti hiiren osoittamisen jälkeen"
  },{
-  "en": "Add",
-  "tr": "Lisää)"
- },{
-  "en": "Add All",
-  "tr": "Lisää kaikki"
- },{
-  "en": "Add Command",
-  "tr": "Lisää komento"
- },{
   "en": "Add Group",
   "tr": "Lisää ryhmä"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "Kaikki välilehdet"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "Vaihtoehtoinen sarakkeen taustaväri"
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "Sovellus"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "Haluatko varmasti poistaa %1 valittua kohdetta?"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "Argumentit"
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "At Caret"
@@ -309,10 +315,10 @@
   "en": "Auto login next time",
   "tr": "Automaattinen kirjautuminen seuraavan kerran"
  },{
-  "en": "Automatic",
-  "tr": "Automaattinen"
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
  },{
-  "en": "automatic",
+  "en": "Automatic",
   "tr": "Automaattinen"
  },{
   "en": "Automatic authentication methods",
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "Tunnista sisennys automaattisesti"
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "Leikkaa pehmuste automaattisesti"
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "Valitse oletuseditori"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "Ciphers"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "Sulje ikkuna"
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "Väri"
  },{
@@ -622,6 +640,9 @@
   "tr": "Yhteys"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "Konteksti"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "Kreivi"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "Luo hakemisto"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "Kriittinen"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "Nykyinen istunto"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "Mukautettu"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "oletusarvo"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "Oletuseditori"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "Oletusfontti"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "DemiBold"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "Kohdeisäntä"
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "Haluatko sulkea nykyisen istunnon?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "Asiakirja"
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "Monista"
  },{
-  "en": "Duplicate Command",
-  "tr": "Kopioi komento"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "Päällekkäinen näkymä"
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "Dynaaminen edelleenlähetys"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "Toista jokainen syötetty merkki"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "Fontin paino"
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "Metsänvihreä"
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "Löytyi"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "Koko kuukauden nimi"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "Historia"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "Linjan koti"
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "Aukioloajat 24 muodossa"
- },{
-  "en": "Http proxy",
-  "tr": "Http -välityspalvelin"
  },{
   "en": "Huge File",
   "tr": "Valtava tiedosto"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "Tiedot"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "Lisää"
@@ -1347,9 +1404,6 @@
   "tr": "Hyppypalvelin"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "Hyppypalvelimet"
  },{
   "en": "Key Exchange",
   "tr": "Avainten vaihto"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "Kuunteluportti"
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "Paikallinen edelleenlähetys"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "Hiiren seuranta"
  },{
-  "en": "Move Down",
-  "tr": "Siirry alas"
- },{
   "en": "Move event",
   "tr": "Siirrä tapahtuma"
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "Siirrä ryhmään"
- },{
-  "en": "Move Up",
-  "tr": "Liiku ylös"
  },{
   "en": "Multiple Caret",
   "tr": "Useita Caret"
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "Uusi rivi"
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "Uusi linkki"
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "Ei hahmotelmaa"
  },{
-  "en": "No proxy",
-  "tr": "Ei välityspalvelinta"
- },{
   "en": "No session",
   "tr": "Ei istuntoa"
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "Ei mihinkään"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "Octal"
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "Avaa hyppypalvelin epäonnistui!"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "Avaa lokitiedosto"
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "Muista muistaa asettamasi pääsalasana."
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "Portti"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "Välityspalvelin"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "Välityspalvelin"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "Toista %1 toimintoa"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "Päivitä"
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "Lataa uudelleen koodauksella"
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "Etälähetys"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "Poista"
  },{
-  "en": "Remove All",
-  "tr": "Poista kaikki"
- },{
   "en": "Remove Blank Lines",
   "tr": "Poista tyhjät rivit"
- },{
-  "en": "Remove Command",
-  "tr": "Poista komento"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "Poista päällekkäiset rivit"
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "Poista lähettäjä"
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "Poistetaan"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "Jatketaan"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "Napsauta hiiren kakkospainikkeella"
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "istunto"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "Istuntoryhmä"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "Istunnon loki"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "Ohita"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "Sukat v5 -välityspalvelin"
- },{
   "en": "Soft Reset",
   "tr": "Pehmeä nollaus"
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "Varasto"
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "Tilarivi"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "Näppäinyhdistelmä(%1) ei ole komento."
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "Lrzsz: tä ei havaita. Asenna ensin lrzsz."
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "Salasanan vahvistus ei täsmää."
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "Palvelin peruutti lähetyksen."
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "Istunto on <b> katkaistu </b>, muodosta yhteys painamalla <b> Enter </b>."
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "Ohut"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "Valtavan tiedoston kynnys"
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "Rivien aikaleima"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "Käänteinen tapaus"
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "Word Start"
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "Vaihda taitto"
  },{
   "en": "Tool",
   "tr": "Työkalu"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "Työkalupalkki"
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "Luota tähän isäntään"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "Tunnelit"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "Kumoa %1 toimintoa"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "Avaa"
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "Käytä järjestelmärivin päättymistä"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "Käytä tätä oletuksena äläkä kysy uudelleen"
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "Käyttäjänimen kaiun tila"
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "Arvo"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "Odottaa"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "Varoitus"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "Kun istunto todennetaan"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "Kun ikkunan kokoa muutetaan"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "Ikkunan peittävyys"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "Windows Manager"
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "Sananerottimet"
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "Word Wrap"
  },{
   "en": "Working directory",
   "tr": "Työhakemisto"
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "Kääri"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[Windows -luettelo on tyhjä]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

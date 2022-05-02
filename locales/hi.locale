@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "एक दूरस्थ फ़ाइल को संशोधित किया गया है।\nक्या आप इस फ़ाइल को सर्वर पर वापस अपलोड करना चाहते हैं?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "एक विशिष्ट सत्र या सत्रों का सेट"
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "संक्षिप्त महीने का नाम"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "होवर करने के बाद टैब सक्रिय करें"
  },{
-  "en": "Add",
-  "tr": "एक जोड़ना)"
- },{
-  "en": "Add All",
-  "tr": "सभी जोड़ें"
- },{
-  "en": "Add Command",
-  "tr": "कमांड जोड़ें"
- },{
   "en": "Add Group",
   "tr": "समूह जोड़ें"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "सभी टैब"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "वैकल्पिक स्तंभ पृष्ठभूमि रंग"
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "आवेदन"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "क्या आप वाक़ई%1 चयनित आइटम हटाना चाहते हैं?"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "तर्क"
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "कैरेट में"
@@ -309,10 +315,10 @@
   "en": "Auto login next time",
   "tr": "अगली बार ऑटो लॉगिन"
  },{
-  "en": "Automatic",
-  "tr": "स्वचालित"
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
  },{
-  "en": "automatic",
+  "en": "Automatic",
   "tr": "स्वचालित"
  },{
   "en": "Automatic authentication methods",
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "स्वचालित रूप से इंडेंटेशन का पता लगाएं"
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "पैडिंग को स्वचालित रूप से ट्रिम करें"
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "एक डिफ़ॉल्ट संपादक चुनें"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "सिफर"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "विंडो बंद करें"
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "रंग"
  },{
@@ -622,6 +640,9 @@
   "tr": "संबंध"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "संदर्भ"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "गिनती"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "निर्देशिका बनाओ"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "नाजुक"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "वर्तमान सत्र"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "रीति"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "चूक जाना"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "डिफ़ॉल्ट संपादक"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "मूलभूत अक्षर"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "डेमीबोल्ड"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "गंतव्य होस्ट"
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "क्या आप वर्तमान सत्र को बंद करना चाहते हैं?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "दस्तावेज़"
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "डुप्लिकेट"
  },{
-  "en": "Duplicate Command",
-  "tr": "डुप्लिकेट कमांड"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "डुप्लीकेट दृश्य"
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "गतिशील अग्रेषण"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "दर्ज किए गए प्रत्येक वर्ण को प्रतिध्वनित करें"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "फ़ॉन्ट वजन"
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "वन हरा"
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "मिला"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "पूरे महीने का नाम"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "इतिहास"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "होम ऑफ़ लाइन"
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "24 प्रारूप में घंटे"
- },{
-  "en": "Http proxy",
-  "tr": "एचटीपी प्रॉक्सी"
  },{
   "en": "Huge File",
   "tr": "विशाल फ़ाइल"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "जानकारी"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "सम्मिलित करें"
@@ -1347,9 +1404,6 @@
   "tr": "जंप सर्वर"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "जंप सर्वर"
  },{
   "en": "Key Exchange",
   "tr": "कुंजी विनिमय"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "पोर्ट(एल) सुनो"
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "स्थानीय अग्रेषण"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "माउस ट्रैकिंग"
  },{
-  "en": "Move Down",
-  "tr": "नीचे की ओर"
- },{
   "en": "Move event",
   "tr": "ईवेंट ले जाएँ"
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "समूह में ले जाएँ"
- },{
-  "en": "Move Up",
-  "tr": "बढ़ाना"
  },{
   "en": "Multiple Caret",
   "tr": "एकाधिक कैरेट"
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "नई लाइन"
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "नया लिंक"
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "कोई रूपरेखा उपलब्ध नहीं"
  },{
-  "en": "No proxy",
-  "tr": "कोई प्रॉक्सी नहीं"
- },{
   "en": "No session",
   "tr": "कोई सत्र नहीं"
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "कहीं भी नहीं"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "अष्टक"
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "ओपन जंप सर्वर विफल!"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "लॉग फ़ाइल खोलें"
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "कृपया सुनिश्चित करें कि आपके द्वारा सेट किया गया मास्टर पासवर्ड आपको याद है।"
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "बंदरगाह"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "प्रतिनिधि"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "छद्म मेजबान"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "पुन:%1क्रियाएँ"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "ताज़ा करें"
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "एन्कोडिंग के साथ पुनः लोड करें"
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "दूरस्थ अग्रेषण"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "हटाना"
  },{
-  "en": "Remove All",
-  "tr": "सभी निकालें"
- },{
   "en": "Remove Blank Lines",
   "tr": "रिक्त रेखाएँ हटाएँ"
- },{
-  "en": "Remove Command",
-  "tr": "कमांड हटाएं"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "डुप्लिकेट लाइनें निकालें"
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "प्रेषक निकालें"
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "निकाला जा रहा है"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "फिर से शुरू करना"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "राइट क्लिक"
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "सत्र"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "सत्र समूह"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "सत्र लॉग"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "छोड़ें"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "सॉक्स v5 प्रॉक्सी"
- },{
   "en": "Soft Reset",
   "tr": "सॉफ्ट रीसेट"
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "छिपाने की जगह"
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "स्टेटस बार"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "कुंजी संयोजन(%1) कमांड नहीं है।"
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "lrzsz का पता नहीं चला है। कृपया पहले lrzsz स्थापित करें।"
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "पासवर्ड पुष्टिकरण मेल नहीं खाता।"
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "सर्वर ने ट्रांसमिशन रद्द कर दिया।"
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "सत्र <b>डिस्कनेक्ट</b> है, फिर से कनेक्ट करने के लिए <b>Enter</b> दबाएं।"
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "पतला"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "विशाल फ़ाइल(T) के लिए दहलीज"
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "लाइनों का टाइमस्टैम्प"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "उलटा मामला(I) के लिए"
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "वर्ड स्टार्ट(S) के लिए"
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "फ़ोल्ड टॉगल करें"
  },{
   "en": "Tool",
   "tr": "उपकरण"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "टूलबार"
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "इस मेजबान पर भरोसा करें"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "सुरंगों"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "पूर्ववत%1क्रियाएँ"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "अनफोल्ड"
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "सिस्टम लाइन एंडिंग का उपयोग करें"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "इसे डिफ़ॉल्ट के रूप में उपयोग करें और फिर से न पूछें"
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "उपयोगकर्ता नाम इको मोड"
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "मूल्य"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "इंतज़ार कर रही"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "चेतावनी"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "जब सत्र प्रमाणित हो रहा हो"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "जब विंडो का आकार बदला जाता है"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "खिड़की की अस्पष्टता"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "विंडोज मैनेजर"
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "वर्ड सेपरेटर्स"
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "वर्ड रैप"
  },{
   "en": "Working directory",
   "tr": "कार्य निर्देशिका"
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "चादर"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[विंडोज़ सूची खाली है]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "遠程文件已被修改。\n是否要將此文件上傳回服務器？"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "一個特定的會話或一組會話（S）"
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "縮寫的月份名稱"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "懸停後激活選項卡（H）"
  },{
-  "en": "Add",
-  "tr": "添加"
- },{
-  "en": "Add All",
-  "tr": "添加全部"
- },{
-  "en": "Add Command",
-  "tr": "添加命令"
- },{
   "en": "Add Group",
   "tr": "添加組"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "所有標籤"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "備用列背景顏色"
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "應用"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "您確定要刪除 %1 個選定的項目嗎？"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "參數"
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "在插入符號 "
@@ -309,10 +315,10 @@
   "en": "Auto login next time",
   "tr": "下次自動登錄"
  },{
-  "en": "Automatic",
-  "tr": "自動的"
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
  },{
-  "en": "automatic",
+  "en": "Automatic",
   "tr": "自動的"
  },{
   "en": "Automatic authentication methods",
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "自動檢測縮進"
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "自動修剪內邊距"
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "選擇默認編輯器"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "密碼"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "關閉窗口"
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "顏色"
  },{
@@ -622,6 +640,9 @@
   "tr": "聯繫"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "語境"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "數數"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "創建目錄"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "危急"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "當前會話"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "風俗"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "默認"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "默認編輯器"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "默認字體"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "半粗體"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "目標主機"
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "是否要關閉當前會話？"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "文檔"
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "複製"
  },{
-  "en": "Duplicate Command",
-  "tr": "重複命令"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "重複視圖"
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "動態轉發"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "回顯輸入的每個字符"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "字體粗細"
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "森林綠"
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "成立"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "完整的月份名稱"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "歷史"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "線之家"
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "24 小時格式"
- },{
-  "en": "Http proxy",
-  "tr": "Http代理"
  },{
   "en": "Huge File",
   "tr": "巨大的文件"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "信息"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "插入"
@@ -1347,9 +1404,6 @@
   "tr": "跳轉服務器"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "跳轉服務器"
  },{
   "en": "Key Exchange",
   "tr": "密鑰交換"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "監聽端口"
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "本地轉發"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "鼠標追踪"
  },{
-  "en": "Move Down",
-  "tr": "下移"
- },{
   "en": "Move event",
   "tr": "移動事件"
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "移至組"
- },{
-  "en": "Move Up",
-  "tr": "提升"
  },{
   "en": "Multiple Caret",
   "tr": "多個插入符號 "
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "換行"
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "新鏈接"
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "沒有可用的大綱"
  },{
-  "en": "No proxy",
-  "tr": "無代理"
- },{
   "en": "No session",
   "tr": "無會話"
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "無處"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "八進制"
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "打開跳轉服務器失敗！"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "打開日誌文件"
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "請確保您記住您設置的主密碼。"
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "港口"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "代理"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "代理主機"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "重做 %1 操作"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "刷新"
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "重新加載編碼"
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "遠程轉發"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "消除"
  },{
-  "en": "Remove All",
-  "tr": "全部刪除"
- },{
   "en": "Remove Blank Lines",
   "tr": "刪除空行"
- },{
-  "en": "Remove Command",
-  "tr": "刪除命令"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "刪除重複行"
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "刪除發件人"
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "刪除"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "恢復"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "右鍵單擊"
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "會議"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "會話組"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "會話日誌"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "跳過"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "Socks v5 代理"
- },{
   "en": "Soft Reset",
   "tr": "軟復位"
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "藏匿處"
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "狀態欄"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "組合鍵 (%1) 不是命令。"
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "未檢測到 lrzsz。請先安裝lrzsz。"
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "密碼確認不匹配。"
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "服務器取消了傳輸。"
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "會話<b>斷開連接</b>，按<b>回車</b>重新連接。"
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "薄的"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "大文件的閾值（T）"
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "行的時間戳"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "反轉大小寫"
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "到字開頭"
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "切換折疊"
  },{
   "en": "Tool",
   "tr": "工具"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "工具欄"
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "信任這個主機"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "隧道"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "撤消 %1 操作"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "展開"
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "使用系統行結尾"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "使用此作為默認值，不再詢問"
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "用戶名回顯模式"
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "價值"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "等待"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "警告"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "會話進行身份驗證時"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "調整窗口大小時"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "窗口不透明度"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "視窗管理器"
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "分詞符"
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "自動換行"
  },{
   "en": "Working directory",
   "tr": "工作目錄"
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "裹"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[Windows 列表為空]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

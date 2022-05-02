@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "Một tệp từ xa đã được sửa đổi. \nBạn có muốn tải tệp này trở lại máy chủ không?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "Một phiên cụ thể hoặc một tập hợp các phiên "
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "Tên tháng viết tắt"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "Kích hoạt tab sau khi di chuột qua "
  },{
-  "en": "Add",
-  "tr": "Thêm "
- },{
-  "en": "Add All",
-  "tr": "Thêm tất cả "
- },{
-  "en": "Add Command",
-  "tr": "Thêm lệnh"
- },{
   "en": "Add Group",
   "tr": "Thêm nhóm"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "Tất cả các tab"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "Màu nền cột thay thế "
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "Ứng dụng"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "Bạn có chắc chắn muốn xóa%1 mục đã chọn không?"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "Đối số "
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "Tại Caret "
@@ -309,11 +315,11 @@
   "en": "Auto login next time",
   "tr": "Tự động đăng nhập lần sau "
  },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
   "en": "Automatic",
   "tr": "Tự động"
- },{
-  "en": "automatic",
-  "tr": "tự động"
  },{
   "en": "Automatic authentication methods",
   "tr": "Các phương pháp xác thực tự động"
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "Tự động phát hiện thụt lề "
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "Tự động cắt bỏ phần đệm "
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "Chọn một trình chỉnh sửa mặc định"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "Mật mã"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "Đóng cửa sổ "
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "Màu "
  },{
@@ -622,6 +640,9 @@
   "tr": "Sự liên quan"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "Định nghĩa bài văn"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "Đếm"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "Tạo thư mục"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "Phê bình"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "Phiên hiện tại"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "Tập quán"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "vỡ nợ"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "Trình chỉnh sửa mặc định"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "Phông chữ mặc định"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "DemiBold"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "Máy chủ đích "
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "Bạn có muốn đóng phiên hiện tại không?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "Tài liệu "
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "Bản sao"
  },{
-  "en": "Duplicate Command",
-  "tr": "Lệnh trùng lặp"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "Chế độ xem trùng lặp "
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "Chuyển tiếp động"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "Echo mọi ký tự đã nhập"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "Độ đậm phông chữ "
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "Rừng xanh "
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "Tìm"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "Tên đầy đủ của tháng"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "Môn lịch sử"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "Trang chủ của dòng "
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "Giờ ở định dạng 24"
- },{
-  "en": "Http proxy",
-  "tr": "Proxy Http "
  },{
   "en": "Huge File",
   "tr": "Tệp lớn"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "Thông tin"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "Chèn "
@@ -1347,9 +1404,6 @@
   "tr": "Nhảy máy chủ"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "Máy chủ nhảy "
  },{
   "en": "Key Exchange",
   "tr": "Trao đổi chính"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "Cổng Nghe "
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "Chuyển tiếp cục bộ"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "Theo dõi chuột"
  },{
-  "en": "Move Down",
-  "tr": "Đi xuống"
- },{
   "en": "Move event",
   "tr": "Di chuyển sự kiện "
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "Di chuyển tới nhóm "
- },{
-  "en": "Move Up",
-  "tr": "Đi lên"
  },{
   "en": "Multiple Caret",
   "tr": "Multiple Caret "
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "Dòng mới "
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "Liên kết mới "
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "Không có sẵn dàn ý"
  },{
-  "en": "No proxy",
-  "tr": "Không có proxy "
- },{
   "en": "No session",
   "tr": "Không có phiên "
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "Hư không"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "Hệ bát phân "
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "Mở máy chủ nhảy không thành công!"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "Mở tệp nhật ký "
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "Hãy đảm bảo rằng bạn nhớ Mật khẩu chính mà bạn đã đặt."
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "Hải cảng"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "Ủy quyền"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "Máy chủ proxy"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "Làm lại%1 hành động"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "Làm mới "
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "Tải lại bằng mã hóa "
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "Chuyển tiếp từ xa"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "tẩy"
  },{
-  "en": "Remove All",
-  "tr": "Xóa tất cả "
- },{
   "en": "Remove Blank Lines",
   "tr": "Xóa Dòng trống "
- },{
-  "en": "Remove Command",
-  "tr": "Xóa lệnh"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "Loại bỏ các dòng trùng lặp "
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "Xóa người gửi "
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "Loại bỏ"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "Tiếp tục"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "Nhấp chuột phải "
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "phiên họp"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "Nhóm phiên"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "Nhật ký phiên"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "Nhảy"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "Socks v5 proxy "
- },{
   "en": "Soft Reset",
   "tr": "Đặt lại mềm "
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "Stash "
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "Thanh trạng thái"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "Tổ hợp phím (%1) không phải là lệnh."
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "Lrzsz không được phát hiện. Vui lòng cài đặt lrzsz trước."
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "Xác nhận mật khẩu không khớp."
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "Máy chủ đã hủy truyền."
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "Phiên bị <b> ngắt kết nối </b>, nhấn <b> Enter </b> để kết nối lại."
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "Gầy"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "Ngưỡng cho tệp lớn "
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "Dấu thời gian của dòng"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "Đối với trường hợp nghịch đảo "
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "Để Bắt đầu Word "
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "Chuyển đổi Gấp "
  },{
   "en": "Tool",
   "tr": "Công cụ"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "Thanh công cụ "
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "Tin tưởng máy chủ này"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "Địa đạo"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "Hoàn tác%1 hành động"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "Mở ra "
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "Sử dụng kết thúc dòng hệ thống"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "Sử dụng điều này làm mặc định và không hỏi lại "
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "Chế độ vọng lại tên người dùng "
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "Giá trị"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "Đang chờ đợi"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "Cảnh báo"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "Khi phiên được xác thực"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "Khi cửa sổ được thay đổi kích thước"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "Độ mờ cửa sổ"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "Trình quản lý Windows "
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "Dấu phân tách từ "
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "Word Wrap "
  },{
   "en": "Working directory",
   "tr": "Thư mục làm việc "
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "Bọc"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[Danh sách Windows trống]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "Віддалений файл було змінено. \nВи хочете завантажити цей файл назад на сервер?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "Конкретний сеанс або набір сеансів "
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "Скорочена назва місяця"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "Активуйте вкладку після наведення курсору миші "
  },{
-  "en": "Add",
-  "tr": "Додати "
- },{
-  "en": "Add All",
-  "tr": "Додати все "
- },{
-  "en": "Add Command",
-  "tr": "Додати команду"
- },{
   "en": "Add Group",
   "tr": "Додати групу"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "Усі вкладки"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "Альтернативний колір фону стовпця "
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "Застосування"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "Дійсно видалити %1 вибраний елемент?"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "Аргументи "
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "У Кареті "
@@ -309,11 +315,11 @@
   "en": "Auto login next time",
   "tr": "Автоматичний вхід наступного разу "
  },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
   "en": "Automatic",
   "tr": "Автоматичний"
- },{
-  "en": "automatic",
-  "tr": "автоматичний"
  },{
   "en": "Automatic authentication methods",
   "tr": "Методи автоматичної автентифікації"
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "Автоматично виявляти відступи "
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "Автоматично обрізати прокладки "
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "Виберіть редактор за замовчуванням"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "Шифри"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "Закрити вікно "
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "Колір "
  },{
@@ -622,6 +640,9 @@
   "tr": "З'єднання"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "Контекст"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "Рахувати"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "Створити каталог"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "Критично"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "Поточна сесія"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "На замовлення"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "за замовчуванням"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "Редактор за замовчуванням"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "Шрифт за замовчуванням"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "DemiBold"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "Хост призначення "
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "Закрити поточну сесію?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "Документ "
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "Дублікат"
  },{
-  "en": "Duplicate Command",
-  "tr": "Дублікат команди"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "Дубльований вид "
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "Динамічне пересилання"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "Ехо кожного введеного персонажа"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "Вага шрифту "
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "Лісовий зелений "
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "Знайдено"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "Повна назва місяця"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "Історія"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "Home Of Line "
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "Години у форматі 24"
- },{
-  "en": "Http proxy",
-  "tr": "Проксі HTTP "
  },{
   "en": "Huge File",
   "tr": "Величезний файл"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "Інформація"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "Вставити "
@@ -1347,9 +1404,6 @@
   "tr": "Перехідний сервер"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "Перехідні сервери "
  },{
   "en": "Key Exchange",
   "tr": "Обмін ключами"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "Слухати порт "
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "Локальна експедиція"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "Відстеження миші"
  },{
-  "en": "Move Down",
-  "tr": "Рухатися вниз"
- },{
   "en": "Move event",
   "tr": "Перемістити подію "
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "Перемістити до групи "
- },{
-  "en": "Move Up",
-  "tr": "Рухатися вгору"
  },{
   "en": "Multiple Caret",
   "tr": "Множинна каретка "
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "Нова лінія "
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "Нове посилання "
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "Немає контуру"
  },{
-  "en": "No proxy",
-  "tr": "Немає проксі "
- },{
   "en": "No session",
   "tr": "Без сеансу "
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "Ніде"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "Вісімкові "
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "Помилка відкриття сервера стрибка!"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "Відкрити файл журналу "
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "Будь ласка, переконайтеся, що ви запам’ятали основний пароль, який ви встановили."
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "Порт"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "Проксі"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "Проксі -хост"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "Повторити %1 дії"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "Оновити "
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "Перезавантажити за допомогою кодування "
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "Дистанційна переадресація"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "видалити"
  },{
-  "en": "Remove All",
-  "tr": "Видалити всі "
- },{
   "en": "Remove Blank Lines",
   "tr": "Видалити порожні рядки "
- },{
-  "en": "Remove Command",
-  "tr": "Видалити команду"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "Видалити повторювані лінії "
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "Видалити відправника "
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "Видалення"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "Відновлення"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "Клацніть правою кнопкою миші "
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "сесії"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "Сесійна група"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "Журнал сеансів"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "Пропустити"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "Шкарпетки v5 проксі "
- },{
   "en": "Soft Reset",
   "tr": "М'яке скидання "
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "Тайник "
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "Рядок стану"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "Комбінація клавіш (%1) - це не команда."
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "Lrzsz не виявлено. Будь ласка, спочатку встановіть lrzsz."
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "Підтвердження пароля не збігається."
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "Сервер скасував передачу."
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "Сеанс <b> відключено </b>, натисніть <b> Enter </b>, щоб повторно підключитися."
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "Тонкий"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "Поріг величезного файлу "
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "Мітка часу рядків"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "До зворотного регістру "
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "До Word Start "
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "Перемикати складання "
  },{
   "en": "Tool",
   "tr": "Інструмент"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "Панель інструментів "
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "Довіряйте цьому господареві"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "Тунелі"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "Скасувати %1 дії"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "Розгорнути "
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "Використовуйте закінчення системного рядка"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "Використовуйте це за замовчуванням і більше не питайте "
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "Ехо -режим користувача "
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "Цінність"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "Очікування"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "Увага"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "Коли аутентифікація сеансу"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "При зміні розміру вікна"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "Непрозорість вікна"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "Менеджер Windows "
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "Роздільники слів "
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "Перенесення слів "
  },{
   "en": "Working directory",
   "tr": "Робочий каталог "
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "Обернути"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[Список Windows порожній]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

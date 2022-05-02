@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "ឯកសារពីចម្ងាយត្រូវបានកែប្រែ។ ( តើអ្នកចង់ផ្ទុកឯកសារនេះត្រលប់ទៅម៉ាស៊ីនមេវិញទេ?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "វគ្គឬសំណុំជាក់លាក់"
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "ឈ្មោះខែសង្ខេប"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "បើកដំណើរការផ្ទាំងបន្ទាប់ពីដាក់នៅលើ"
  },{
-  "en": "Add",
-  "tr": "បន្ថែម)"
- },{
-  "en": "Add All",
-  "tr": "បន្ថែមទាំងអស់"
- },{
-  "en": "Add Command",
-  "tr": "បន្ថែមពាក្យបញ្ជា"
- },{
   "en": "Add Group",
   "tr": "បន្ថែមក្រុម"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "ផ្ទាំងទាំងអស់"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "ពណ៌ផ្ទៃខាងក្រោយជួរឈរជំនួស"
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "ការដាក់ពាក្យ"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "តើអ្នកប្រាកដថាចង់លុបធាតុដែលបានជ្រើសរើស %1?"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "អាគុយម៉ង់"
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "នៅខារ៉េត"
@@ -309,10 +315,10 @@
   "en": "Auto login next time",
   "tr": "ចូលដោយស្វ័យប្រវត្តិពេលក្រោយ"
  },{
-  "en": "Automatic",
-  "tr": "ស្វ័យប្រវត្តិ"
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
  },{
-  "en": "automatic",
+  "en": "Automatic",
   "tr": "ស្វ័យប្រវត្តិ"
  },{
   "en": "Automatic authentication methods",
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "រកឃើញការចូលបន្ទាត់ដោយស្វ័យប្រវត្តិ"
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "កាត់ក្តារបន្ទះដោយស្វ័យប្រវត្តិ"
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "ជ្រើសរើសកម្មវិធីនិពន្ធលំនាំដើម"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "លេខកូដសម្ងាត់"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "បិទបង្អួច"
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "ពណ៌"
  },{
@@ -622,6 +640,9 @@
   "tr": "ការតភ្ជាប់"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "បរិបទ"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "រាប់"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "បង្កើតបញ្ជីឈ្មោះ"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "សំខាន់"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "សម័យបច្ចុប្បន្ន"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "ផ្ទាល់ខ្លួន"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "លំនាំដើម"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "កម្មវិធីនិពន្ធលំនាំដើម"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "ពុម្ពអក្សរលំនាំដើម"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "DemiBold"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "ម្ចាស់ផ្ទះគោលដៅ"
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "តើអ្នកចង់បិទសម័យបច្ចុប្បន្នទេ?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "ឯកសារ"
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "ស្ទួន"
  },{
-  "en": "Duplicate Command",
-  "tr": "ពាក្យបញ្ជាស្ទួន"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "ទិដ្ឋភាពស្ទួន"
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "ការបញ្ជូនបន្តថាមវន្ត"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "អេកូរាល់តួអក្សរដែលបានបញ្ចូល"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "ទម្ងន់ពុម្ពអក្សរ"
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "បៃតងព្រៃ"
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "រកឃើញ"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "ឈ្មោះពេញមួយខែ"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "ប្រវត្តិសាស្រ្ត"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "ទំព័រដើមនៃជួរ"
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "ម៉ោងក្នុងទម្រង់ ២៤ ០០-២៣"
- },{
-  "en": "Http proxy",
-  "tr": "ប្រូកស៊ី Http"
  },{
   "en": "Huge File",
   "tr": "ឯកសារធំ"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "ព័ត៌មាន"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "បញ្ចូល"
@@ -1347,9 +1404,6 @@
   "tr": "ម៉ាស៊ីនបម្រើលោត"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "ម៉ាស៊ីនមេលោត"
  },{
   "en": "Key Exchange",
   "tr": "ការផ្លាស់ប្តូរគន្លឹះ"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "ស្តាប់ច្រក"
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "ការបញ្ជូនបន្តក្នុងស្រុក"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "ការតាមដានកណ្តុរ"
  },{
-  "en": "Move Down",
-  "tr": "ទៅ​ក្រោម"
- },{
   "en": "Move event",
   "tr": "ផ្លាស់ទីព្រឹត្តិការណ៍"
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "ផ្លាស់ទីទៅក្រុម"
- },{
-  "en": "Move Up",
-  "tr": "ផ្លាស់ទីឡើងលើ"
  },{
   "en": "Multiple Caret",
   "tr": "ពហុឃែត"
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "បន្ទាត់ថ្មី"
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "តំណថ្មី"
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "មិនមានគ្រោងទេ"
  },{
-  "en": "No proxy",
-  "tr": "គ្មានប្រូកស៊ី"
- },{
   "en": "No session",
   "tr": "គ្មានសម័យ"
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "គ្មានកន្លែងណាទេ"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "Octal"
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "បើកម៉ាស៊ីនមេលោតបានបរាជ័យ!"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "បើកឯកសារកំណត់ហេតុ"
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "សូមប្រាកដថាអ្នកចងចាំពាក្យសម្ងាត់មេដែលអ្នកបានកំណត់។"
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "កំពង់ផែ"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "ប្រូកស៊ី"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "ម្ចាស់ផ្ទះប្រូកស៊ី"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "ធ្វើសកម្មភាព %1 ឡើងវិញ"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "ធ្វើឱ្យស្រស់"
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "ផ្ទុកឡើងវិញដោយការអ៊ិនកូដ"
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "ការបញ្ជូនពីចម្ងាយ"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "យកចេញ"
  },{
-  "en": "Remove All",
-  "tr": "យកទាំងអស់ចេញ"
- },{
   "en": "Remove Blank Lines",
   "tr": "យកបន្ទាត់ទទេចេញ"
- },{
-  "en": "Remove Command",
-  "tr": "យកពាក្យបញ្ជាចេញ"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "លុបបន្ទាត់ស្ទួន"
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "លុបអ្នកផ្ញើ"
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "ការយកចេញ"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "កំពុងបន្ត"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "ចុចកណ្ដុរខាងស្ដាំ"
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "សម័យ"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "ក្រុមសម័យ"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "កំណត់ហេតុសម័យ"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "រំលង"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "ស្រោមជើង v5 ប្រូកស៊ី"
- },{
   "en": "Soft Reset",
   "tr": "កំណត់ឡើងវិញទន់"
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "Stash"
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "របារស្ថានភាព"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "បន្សំគ្រាប់ចុច(%1) មិនមែនជាពាក្យបញ្ជាទេ។"
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "lrzsz មិនត្រូវបានរកឃើញទេ។ សូមដំឡើង lrzsz ជាមុនសិន។"
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "ការបញ្ជាក់ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ។"
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "ម៉ាស៊ីនមេបានលុបចោលការបញ្ជូន។"
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "វេនត្រូវបាន <b> ផ្តាច់ </b> សូមចុច <b> បញ្ចូល </b> ដើម្បីភ្ជាប់ឡើងវិញ។"
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "ស្តើង"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "កម្រិតសម្រាប់ឯកសារធំ"
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "ត្រាពេលវេលានៃបន្ទាត់"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "ទៅករណីបញ្ច្រាស"
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "ទៅពាក្យចាប់ផ្តើម"
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "បិទបើក"
  },{
   "en": "Tool",
   "tr": "ឧបករណ៍"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "របារឧបករណ៍"
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "ជឿជាក់លើម្ចាស់ផ្ទះនេះ"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "ផ្លូវរូងក្នុងដី"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "មិនធ្វើវិញនូវសកម្មភាព %1"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "ពន្លា"
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "ប្រើការបញ្ចប់បន្ទាត់ប្រព័ន្ធ"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "ប្រើវាជាលំនាំដើមហើយកុំសួរម្តងទៀត"
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "របៀបអេកូឈ្មោះអ្នកប្រើ"
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "តម្លៃ"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "កំពុងរង់ចាំ"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "ការព្រមាន"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "នៅពេលវគ្គកំពុងផ្ទៀងផ្ទាត់"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "នៅពេលបង្អួចត្រូវបានប្តូរទំហំ"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "ភាពស្រអាប់នៃបង្អួច"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "កម្មវិធីគ្រប់គ្រងវីនដូ"
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "កម្មវិធីបំបែកពាក្យ"
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "រុំពាក្យ"
  },{
   "en": "Working directory",
   "tr": "បញ្ជីការងារ"
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "រុំ"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[បញ្ជីវីនដូគឺទទេ]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

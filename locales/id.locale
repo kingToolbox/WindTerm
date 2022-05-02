@@ -99,8 +99,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "File jarak jauh telah dimodifikasi.\nApakah Anda ingin mengunggah file ini kembali ke server?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "Sesi atau kumpulan sesi(S) tertentu"
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "Nama bulan disingkat"
@@ -144,15 +150,6 @@
   "en": "Activate the tab after hovering",
   "tr": "Aktifkan tab setelah mengarahkan"
  },{
-  "en": "Add",
-  "tr": "Tambah sebuah)"
- },{
-  "en": "Add All",
-  "tr": "Tambahkan Semua"
- },{
-  "en": "Add Command",
-  "tr": "Tambahkan Perintah"
- },{
   "en": "Add Group",
   "tr": "Tambahkan Grup"
  },{
@@ -188,6 +185,9 @@
  },{
   "en": "All tabs",
   "tr": "Semua tab"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "Warna latar belakang kolom alternatif"
@@ -237,6 +237,9 @@
   "en": "Application",
   "tr": "Aplikasi"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "Anda yakin ingin menghapus %1 item yang dipilih?"
  },{
@@ -251,6 +254,9 @@
  },{
   "en": "Arguments",
   "tr": "Argumen"
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "Di Caret"
@@ -309,11 +315,11 @@
   "en": "Auto login next time",
   "tr": "Login otomatis lain kali"
  },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
   "en": "Automatic",
   "tr": "Otomatis"
- },{
-  "en": "automatic",
-  "tr": "otomatis"
  },{
   "en": "Automatic authentication methods",
   "tr": "Metode otentikasi otomatis"
@@ -323,6 +329,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "Secara otomatis mendeteksi lekukan"
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "Secara otomatis memangkas padding"
@@ -502,6 +514,9 @@
   "en": "Choose a default editor",
   "tr": "Pilih editor default"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "sandi"
  },{
@@ -568,6 +583,9 @@
   "en": "Close Window",
   "tr": "Tutup Jendela"
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "Warna"
  },{
@@ -622,6 +640,9 @@
   "tr": "Koneksi"
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "Konteks"
@@ -688,6 +709,9 @@
   "en": "Count",
   "tr": "Menghitung"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "Buat Direktori"
  },{
@@ -703,10 +727,16 @@
   "en": "Critical",
   "tr": "Kritis"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item"
  },{
   "en": "Current Session",
   "tr": "Sesi Sekarang"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "Kebiasaan"
@@ -747,8 +777,14 @@
   "en": "default",
   "tr": "bawaan"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "Editor bawaan"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "Font Bawaan"
@@ -767,6 +803,9 @@
  },{
   "en": "DemiBold",
   "tr": "DemiBold"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "Tuan Rumah Tujuan"
@@ -801,6 +840,12 @@
   "en": "Do you want to close the current session?",
   "tr": "Apakah Anda ingin menutup sesi saat ini?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "Dokumen"
  },{
@@ -831,16 +876,19 @@
   "en": "Duplicate",
   "tr": "Duplikat"
  },{
-  "en": "Duplicate Command",
-  "tr": "Perintah Duplikat"
- },{
   "en": "Duplicate tab"
  },{
   "en": "Duplicate View",
   "tr": "Tampilan Duplikat"
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "Penerusan dinamis"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "Gema setiap karakter yang dimasukkan"
@@ -1073,6 +1121,9 @@
   "en": "Font weight",
   "tr": "Berat font"
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "Hutan Hijau"
  },{
@@ -1083,6 +1134,9 @@
  },{
   "en": "Found",
   "tr": "Ditemukan"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "Nama bulan penuh"
@@ -1212,6 +1266,9 @@
   "en": "History",
   "tr": "Sejarah"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "Beranda Garis"
  },{
@@ -1229,9 +1286,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "Jam dalam format 24"
- },{
-  "en": "Http proxy",
-  "tr": "Proksi HTTP"
  },{
   "en": "Huge File",
   "tr": "File Besar"
@@ -1286,6 +1340,9 @@
  },{
   "en": "Information",
   "tr": "Informasi"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "Sisipkan"
@@ -1347,9 +1404,6 @@
   "tr": "Langsung server"
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt."
- },{
-  "en": "Jump servers",
-  "tr": "Langsung server"
  },{
   "en": "Key Exchange",
   "tr": "Pertukaran Kunci"
@@ -1462,7 +1516,13 @@
   "en": "Listen Port",
   "tr": "Dengarkan Port"
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "Penerusan lokal"
@@ -1654,9 +1714,6 @@
   "en": "Mouse Tracking",
   "tr": "Pelacakan Tikus"
  },{
-  "en": "Move Down",
-  "tr": "Turunkan"
- },{
   "en": "Move event",
   "tr": "Pindahkan acara"
  },{
@@ -1665,9 +1722,6 @@
  },{
   "en": "Move To Group",
   "tr": "Pindah Ke Grup"
- },{
-  "en": "Move Up",
-  "tr": "Pindah ke atas"
  },{
   "en": "Multiple Caret",
   "tr": "Beberapa Caret"
@@ -1692,6 +1746,9 @@
  },{
   "en": "New Line",
   "tr": "Baris Baru"
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "Tautan baru"
@@ -1780,9 +1837,6 @@
   "en": "No outline available",
   "tr": "Tidak ada garis besar yang tersedia"
  },{
-  "en": "No proxy",
-  "tr": "Tidak ada proxy"
- },{
   "en": "No session",
   "tr": "Tidak ada sesi"
  },{
@@ -1823,6 +1877,9 @@
  },{
   "en": "Nowhere",
   "tr": "Tidak kemana-mana"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "Oktal"
@@ -1886,6 +1943,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "Buka server lompat gagal!"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "Buka File Log"
@@ -2022,6 +2082,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "Harap pastikan Anda mengingat Master Password yang telah Anda tetapkan."
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "Pelabuhan"
  },{
@@ -2120,6 +2183,9 @@
   "en": "Proxy",
   "tr": "Proksi"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "Tuan Rumah Proksi"
  },{
@@ -2204,6 +2270,9 @@
   "en": "Redo %1 Actions",
   "tr": "Ulangi %1 Tindakan"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "Segarkan"
  },{
@@ -2219,6 +2288,9 @@
   "en": "Reload With Encoding",
   "tr": "Muat Ulang Dengan Encoding"
  },{
+  "en": "Remote",
+  "tr": ""
+ },{
   "en": "Remote forwarding",
   "tr": "Penerusan jarak jauh"
  },{
@@ -2233,14 +2305,8 @@
   "en": "remove",
   "tr": "menghapus"
  },{
-  "en": "Remove All",
-  "tr": "Hapus Semua"
- },{
   "en": "Remove Blank Lines",
   "tr": "Hapus Baris Kosong"
- },{
-  "en": "Remove Command",
-  "tr": "Hapus Perintah"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "Hapus Baris Duplikat"
@@ -2253,6 +2319,9 @@
  },{
   "en": "Remove Sender",
   "tr": "Hapus Pengirim"
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "Menghapus"
@@ -2306,6 +2375,9 @@
  },{
   "en": "Resuming",
   "tr": "Melanjutkan"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "Klik kanan"
@@ -2502,8 +2574,14 @@
   "en": "session",
   "tr": "sidang"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "Grup Sesi"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "Log Sesi"
@@ -2654,9 +2732,6 @@
   "en": "Skip",
   "tr": "Melewati"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "Proksi kaus kaki v5"
- },{
   "en": "Soft Reset",
   "tr": "Atur Ulang Lunak"
  },{
@@ -2738,6 +2813,12 @@
  },{
   "en": "Stash",
   "tr": "Simpanan"
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "Status bar"
@@ -2887,6 +2968,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "Kombinasi tombol(%1) bukan perintah."
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "lrzsz tidak terdeteksi. Silahkan install lrzsz terlebih dahulu."
  },{
@@ -2896,8 +2980,20 @@
   "en": "The password confirmation does not match.",
   "tr": "Konfirmasi kata sandi tidak cocok."
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "Server membatalkan transmisi."
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "Sesi <b>terputus</b>, tekan <b>Enter</b> untuk menyambung kembali."
@@ -2914,6 +3010,9 @@
   "en": "Thin",
   "tr": "Tipis"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "Ambang untuk file besar"
  },{
@@ -2927,6 +3026,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "Stempel waktu baris"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "Ke Kasus Invers"
@@ -2961,13 +3063,14 @@
   "en": "To Word Start",
   "tr": "Ke Word Start"
  },{
-  "en": "Toggle"
- },{
   "en": "Toggle Fold",
   "tr": "Beralih Lipat"
  },{
   "en": "Tool",
   "tr": "Alat"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "Bilah Alat"
@@ -3020,6 +3123,9 @@
   "en": "Trust this host",
   "tr": "Percayai tuan rumah ini"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "Terowongan"
  },{
@@ -3043,6 +3149,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "Urungkan %1 Tindakan"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "Buka"
@@ -3112,6 +3221,9 @@
   "en": "Use system line ending",
   "tr": "Gunakan akhiran baris sistem"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "Gunakan ini sebagai default dan jangan tanya lagi"
  },{
@@ -3120,6 +3232,9 @@
  },{
   "en": "Username echo mode",
   "tr": "Mode gema nama pengguna"
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "Nilai"
@@ -3138,6 +3253,12 @@
  },{
   "en": "Waiting",
   "tr": "Menunggu"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "Peringatan"
@@ -3159,6 +3280,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "Saat sesi diautentikasi"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "Ketika jendela diubah ukurannya"
@@ -3195,6 +3322,9 @@
   "en": "Window opacity",
   "tr": "Opasitas jendela"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "Manajer Windows"
  },{
@@ -3207,11 +3337,17 @@
   "en": "Word Separators",
   "tr": "Pemisah Kata"
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "Bungkus Kata"
  },{
   "en": "Working directory",
   "tr": "Direktori kerja"
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "Membungkus"
@@ -3323,190 +3459,94 @@
   "en": "[Windows list is empty]",
   "tr": "[Daftar Windows kosong]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

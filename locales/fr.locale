@@ -103,8 +103,14 @@
   "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
   "tr": "Un fichier distant a été modifié.\nVoulez-vous télécharger à nouveau ce fichier sur le serveur ?"
  },{
+  "en": "A specific directory",
+  "tr": ""
+ },{
   "en": "A specific session or set of sessions",
   "tr": "Une session spécifique ou un ensemble de sessions"
+ },{
+  "en": "Abbreviated day name",
+  "tr": ""
  },{
   "en": "Abbreviated month name",
   "tr": "Nom abrégé du mois"
@@ -148,15 +154,6 @@
   "en": "Activate the tab after hovering",
   "tr": "Activer l'onglet après le survol"
  },{
-  "en": "Add",
-  "tr": "Ajouter"
- },{
-  "en": "Add All",
-  "tr": "Ajouter tout"
- },{
-  "en": "Add Command",
-  "tr": "Ajouter une commande"
- },{
   "en": "Add Group",
   "tr": "Ajouter un groupe"
  },{
@@ -192,6 +189,9 @@
  },{
   "en": "All tabs",
   "tr": "Tous les onglets"
+ },{
+  "en": "Allow",
+  "tr": ""
  },{
   "en": "Alternate column background color",
   "tr": "Autre couleur d'arrière-plan de la colonne"
@@ -241,6 +241,9 @@
   "en": "Application",
   "tr": "Application"
  },{
+  "en": "Application Directory",
+  "tr": ""
+ },{
   "en": "Are you sure you want to delete %1 selected items?",
   "tr": "Êtes-vous sûr de vouloir supprimer %1 éléments sélectionnés ?"
  },{
@@ -255,6 +258,9 @@
  },{
   "en": "Arguments",
   "tr": "Arguments"
+ },{
+  "en": "Ask",
+  "tr": ""
  },{
   "en": "At Caret",
   "tr": "Au curseur"
@@ -313,11 +319,11 @@
   "en": "Auto login next time",
   "tr": "Connexion automatique la prochaine fois"
  },{
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": ""
+ },{
   "en": "Automatic",
   "tr": "Automatique"
- },{
-  "en": "automatic",
-  "tr": "automatique"
  },{
   "en": "Automatic authentication methods",
   "tr": "Méthodes d'authentification automatique"
@@ -327,6 +333,12 @@
  },{
   "en": "Automatically detect indentation",
   "tr": "Détecter automatiquement l'indentation"
+ },{
+  "en": "Automatically fix invalid path characters",
+  "tr": ""
+ },{
+  "en": "Automatically open at startup",
+  "tr": ""
  },{
   "en": "Automatically trim the padding",
   "tr": "Couper automatiquement le rembourrage"
@@ -508,6 +520,9 @@
   "en": "Choose a default editor",
   "tr": "Choisissez un éditeur par défaut"
  },{
+  "en": "Choose Profiles Directory",
+  "tr": ""
+ },{
   "en": "Ciphers",
   "tr": "Chiffres"
  },{
@@ -574,6 +589,9 @@
   "en": "Close Window",
   "tr": "Fermer la fenêtre"
  },{
+  "en": "Closed",
+  "tr": ""
+ },{
   "en": "Color",
   "tr": "Couleur"
  },{
@@ -630,6 +648,9 @@
  },{
   "en": "Connection failed, jump server \\\"%1\\\" does not exist.",
   "ht": "Connexion erronnée, le serveur relais \\\"%1\\\" n'éxiste pas."
+ },{
+  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "tr": ""
  },{
   "en": "Context",
   "tr": "Le contexte"
@@ -697,6 +718,9 @@
   "en": "Count",
   "tr": "Compter"
  },{
+  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Create Directory",
   "tr": "Créer le répertoire"
  },{
@@ -712,11 +736,17 @@
   "en": "Critical",
   "tr": "Critique"
  },{
+  "en": "Ctrl+Click to follow link",
+  "tr": ""
+ },{
   "en": "Current Item",
   "ht": "Element courant"
  },{
   "en": "Current Session",
   "tr": "Session actuelle"
+ },{
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": ""
  },{
   "en": "Custom",
   "tr": "Personnalisé"
@@ -757,8 +787,14 @@
   "en": "default",
   "tr": "défaut"
  },{
+  "en": "Default directory creation permissions",
+  "tr": ""
+ },{
   "en": "Default editor",
   "tr": "Éditeur par défaut"
+ },{
+  "en": "Default file creation permissions",
+  "tr": ""
  },{
   "en": "Default Font",
   "tr": "Police par défaut"
@@ -777,6 +813,9 @@
  },{
   "en": "DemiBold",
   "tr": "Demi-Bold"
+ },{
+  "en": "Description",
+  "tr": ""
  },{
   "en": "Destination Host",
   "tr": "Hôte de destination"
@@ -811,6 +850,12 @@
   "en": "Do you want to close the current session?",
   "tr": "Voulez-vous fermer la session en cours ?"
  },{
+  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "tr": ""
+ },{
+  "en": "Do you want to remove the selected sessions?",
+  "tr": ""
+ },{
   "en": "Document",
   "tr": "Document"
  },{
@@ -841,17 +886,20 @@
   "en": "Duplicate",
   "tr": "Dupliquer"
  },{
-  "en": "Duplicate Command",
-  "tr": "Commande en double"
- },{
   "en": "Duplicate tab",
   "ht": "Copier l'onglet"
  },{
   "en": "Duplicate View",
   "tr": "Vue en double"
  },{
+  "en": "Dynamic",
+  "tr": ""
+ },{
   "en": "Dynamic forwarding",
   "tr": "Transfert dynamique"
+ },{
+  "en": "Dynamic port allocation",
+  "tr": ""
  },{
   "en": "Echo every character entered",
   "tr": "Faites écho à chaque caractère entré"
@@ -1087,6 +1135,9 @@
   "en": "Font weight",
   "tr": "Poids de la police"
  },{
+  "en": "Forbit",
+  "tr": ""
+ },{
   "en": "Forest Green",
   "tr": "Vert forêt"
  },{
@@ -1098,6 +1149,9 @@
  },{
   "en": "Found",
   "tr": "Trouvé"
+ },{
+  "en": "Full day name",
+  "tr": ""
  },{
   "en": "Full month name",
   "tr": "Nom complet du mois"
@@ -1228,6 +1282,9 @@
   "en": "History",
   "tr": "Histoire"
  },{
+  "en": "Home Directory",
+  "tr": ""
+ },{
   "en": "Home Of Line",
   "tr": "Accueil de la ligne"
  },{
@@ -1245,9 +1302,6 @@
  },{
   "en": "Hours in 24 format",
   "tr": "Heures au format 24"
- },{
-  "en": "Http proxy",
-  "tr": "Proxy HTTP"
  },{
   "en": "Huge File",
   "tr": "Fichier énorme"
@@ -1302,6 +1356,9 @@
  },{
   "en": "Information",
   "tr": "Informations"
+ },{
+  "en": "Initial modes",
+  "tr": ""
  },{
   "en": "Insert",
   "tr": "Insérer"
@@ -1365,9 +1422,6 @@
  },{
   "en": "Jump server \\\"%1\\\" is missing or corrupt.",
   "ht": "Serveur relais \\\"%1\\\" est manquant ou corrompu"
- },{
-  "en": "Jump servers",
-  "tr": "Serveurs de saut"
  },{
   "en": "Key Exchange",
   "tr": "Échange de clés"
@@ -1480,8 +1534,14 @@
   "en": "Listen Port",
   "tr": "Port d'écoute"
  },{
+  "en": "Listening Port",
+  "tr": ""
+ },{
   "en": "Ln %1 Ch %2",
   "ht": "Li %1 Ca %2"
+ },{
+  "en": "Local",
+  "tr": ""
  },{
   "en": "Local forwarding",
   "tr": "Renvoi local"
@@ -1675,9 +1735,6 @@
   "en": "Mouse Tracking",
   "tr": "Suivi de la souris"
  },{
-  "en": "Move Down",
-  "tr": "Descendre"
- },{
   "en": "Move event",
   "tr": "Déplacer l'événement"
  },{
@@ -1686,9 +1743,6 @@
  },{
   "en": "Move To Group",
   "tr": "Déplacer vers le groupe"
- },{
-  "en": "Move Up",
-  "tr": "Déplacer vers le haut"
  },{
   "en": "Multiple Caret",
   "tr": "Curseur multiple"
@@ -1713,6 +1767,9 @@
  },{
   "en": "New Line",
   "tr": "Nouvelle ligne"
+ },{
+  "en": "New Line Mode (LNM)",
+  "tr": ""
  },{
   "en": "New link",
   "tr": "Nouveau lien"
@@ -1801,9 +1858,6 @@
   "en": "No outline available",
   "tr": "Pas de plan disponible"
  },{
-  "en": "No proxy",
-  "tr": "Pas de proxy"
- },{
   "en": "No session",
   "tr": "Pas de session"
  },{
@@ -1845,6 +1899,9 @@
  },{
   "en": "Nowhere",
   "tr": "Nulle part"
+ },{
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": ""
  },{
   "en": "Octal",
   "tr": "Octal"
@@ -1908,6 +1965,9 @@
  },{
   "en": "Open jump server failed!",
   "tr": "Échec du serveur de saut ouvert !"
+ },{
+  "en": "Open link",
+  "tr": ""
  },{
   "en": "Open Log File",
   "tr": "Ouvrir le fichier journal"
@@ -2044,6 +2104,9 @@
   "en": "Please make sure you remember the Master Password you have set.",
   "tr": "Assurez-vous de vous souvenir du mot de passe principal que vous avez défini."
  },{
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": ""
+ },{
   "en": "Port",
   "tr": "Port"
  },{
@@ -2143,6 +2206,9 @@
   "en": "Proxy",
   "tr": "Procuration"
  },{
+  "en": "Proxy Command",
+  "tr": ""
+ },{
   "en": "Proxy Host",
   "tr": "Hôte proxy"
  },{
@@ -2227,6 +2293,9 @@
   "en": "Redo %1 Actions",
   "tr": "Rétablir %1 actions"
  },{
+  "en": "Redo List",
+  "tr": ""
+ },{
   "en": "Refresh",
   "tr": "Actualiser"
  },{
@@ -2241,6 +2310,9 @@
  },{
   "en": "Reload With Encoding",
   "tr": "Recharger avec encodage"
+ },{
+  "en": "Remote",
+  "tr": ""
  },{
   "en": "Remote forwarding",
   "tr": "Renvoi à distance"
@@ -2257,14 +2329,8 @@
   "en": "remove",
   "tr": "supprime"
  },{
-  "en": "Remove All",
-  "tr": "Tout supprimer"
- },{
   "en": "Remove Blank Lines",
   "tr": "Supprimer les lignes vides"
- },{
-  "en": "Remove Command",
-  "tr": "Supprimer la commande"
  },{
   "en": "Remove Duplicate Lines",
   "tr": "Supprimer les lignes en double"
@@ -2277,6 +2343,9 @@
  },{
   "en": "Remove Sender",
   "tr": "Supprimer l'automate"
+ },{
+  "en": "Remove sessions",
+  "tr": ""
  },{
   "en": "Removing",
   "tr": "Supression"
@@ -2331,6 +2400,9 @@
  },{
   "en": "Resuming",
   "tr": "Reprise"
+ },{
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": ""
  },{
   "en": "Right click",
   "tr": "Clic droit"
@@ -2527,8 +2599,14 @@
   "en": "session",
   "tr": "session"
  },{
+  "en": "Session Color",
+  "tr": ""
+ },{
   "en": "Session Group",
   "tr": "Groupe de session"
+ },{
+  "en": "Session Icon",
+  "tr": ""
  },{
   "en": "Session Log",
   "tr": "Journal de session"
@@ -2680,9 +2758,6 @@
   "en": "Skip",
   "tr": "Sauter"
  },{
-  "en": "Socks v5 proxy",
-  "tr": "Socks v5 proxy"
- },{
   "en": "Soft Reset",
   "tr": "Réinitialisation logicielle"
  },{
@@ -2766,6 +2841,12 @@
  },{
   "en": "Stash",
   "tr": "Cachette"
+ },{
+  "en": "Stash List",
+  "tr": ""
+ },{
+  "en": "Status",
+  "tr": ""
  },{
   "en": "Status Bar",
   "tr": "Barre d'état"
@@ -2917,6 +2998,9 @@
   "en": "The key combination (%1) is not a command.",
   "tr": "La combinaison de touches(%1) n'est pas une commande."
  },{
+  "en": "The login is canceled.",
+  "tr": ""
+ },{
   "en": "The lrzsz is not detected. Please install lrzsz first.",
   "tr": "Le lrzsz n'est pas détecté. Veuillez d'abord installer lrzsz."
  },{
@@ -2926,8 +3010,20 @@
   "en": "The password confirmation does not match.",
   "tr": "La confirmation du mot de passe ne correspond pas."
  },{
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": ""
+ },{
+  "en": "The selected directory does not exist.",
+  "tr": ""
+ },{
   "en": "The server canceled the transmission.",
   "tr": "Le serveur a annulé la transmission."
+ },{
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": ""
  },{
   "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
   "tr": "La session est <b>déconnectée</b>, appuyez sur <b>Entrée</b> pour vous reconnecter."
@@ -2944,6 +3040,9 @@
   "en": "Thin",
   "tr": "Mince"
  },{
+  "en": "This link type is not supported",
+  "tr": ""
+ },{
   "en": "Threshold for huge file",
   "tr": "Seuil pour les fichiers volumineux"
  },{
@@ -2958,6 +3057,9 @@
  },{
   "en": "Timestamp of lines",
   "tr": "Horodatage des lignes"
+ },{
+  "en": "Timezone",
+  "tr": ""
  },{
   "en": "To Inverse Case",
   "tr": "Pour inverser la casse"
@@ -2992,14 +3094,14 @@
   "en": "To Word Start",
   "tr": "Vers le début du mot"
  },{
-  "en": "Toggle",
-  "ht": "Basculer"
- },{
   "en": "Toggle Fold",
   "tr": "Basculer le pli"
  },{
   "en": "Tool",
   "tr": "Outil"
+ },{
+  "en": "Tool Bar",
+  "tr": ""
  },{
   "en": "Toolbar",
   "tr": "Barre d'outils"
@@ -3052,6 +3154,9 @@
   "en": "Trust this host",
   "tr": "Faites confiance à cet hôte"
  },{
+  "en": "Tunnel Settings",
+  "tr": ""
+ },{
   "en": "Tunnels",
   "tr": "Tunnels"
  },{
@@ -3075,6 +3180,9 @@
  },{
   "en": "Undo %1 Actions",
   "tr": "Annuler %1 actions"
+ },{
+  "en": "Undo List",
+  "tr": ""
  },{
   "en": "Unfold",
   "tr": "Déplier"
@@ -3145,6 +3253,9 @@
   "en": "Use system line ending",
   "tr": "Utiliser la fin de ligne du système"
  },{
+  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
+  "tr": ""
+ },{
   "en": "Use this as the default and do not ask again",
   "tr": "Utilisez ceci par défaut et ne demandez plus"
  },{
@@ -3153,6 +3264,9 @@
  },{
   "en": "Username echo mode",
   "tr": "Mode d'écho du nom d'utilisateur"
+ },{
+  "en": "UTC time zone",
+  "tr": ""
  },{
   "en": "Value",
   "tr": "Valeur"
@@ -3171,6 +3285,12 @@
  },{
   "en": "Waiting",
   "tr": "Attendre"
+ },{
+  "en": "Waiting to close",
+  "tr": ""
+ },{
+  "en": "Waiting to open",
+  "tr": ""
  },{
   "en": "Warning",
   "tr": "Avertissement"
@@ -3192,6 +3312,12 @@
  },{
   "en": "When session is authenticating",
   "tr": "Lorsque la session s'authentifie"
+ },{
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": ""
+ },{
+  "en": "When the remote wants to read the clipboard",
+  "tr": ""
  },{
   "en": "When window is resized",
   "tr": "Lorsque la fenêtre est redimensionnée"
@@ -3229,6 +3355,9 @@
   "en": "Window opacity",
   "tr": "Opacité de la fenêtre"
  },{
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": ""
+ },{
   "en": "Windows Manager",
   "tr": "Gestionnaire Windows"
  },{
@@ -3241,11 +3370,17 @@
   "en": "Word Separators",
   "tr": "Séparateurs de mots"
  },{
+  "en": "Word Separators For Alternate Screen",
+  "tr": ""
+ },{
   "en": "Word Wrap",
   "tr": "Renvoi à la ligne"
  },{
   "en": "Working directory",
   "tr": "Répertoire de travail"
+ },{
+  "en": "Working Directory",
+  "tr": ""
  },{
   "en": "Wrap",
   "tr": "Envelopper"
@@ -3358,190 +3493,94 @@
   "en": "[Windows list is empty]",
   "tr": "[La liste Windows est vide]"
  },{
-  "en": "A specific directory",
+  "en": "Additional parameters for VcXsrv",
   "tr": ""
  },{
-  "en": "Abbreviated day name",
+  "en": "Advanced",
   "tr": ""
  },{
-  "en": "Allow",
+  "en": "Buffer Characters",
   "tr": ""
  },{
-  "en": "Application Directory",
+  "en": "Buffer Lines",
   "tr": ""
  },{
-  "en": "Ask",
+  "en": "Clipboard",
   "tr": ""
  },{
-  "en": "Auto Wrap Mode (DECAWM)",
+  "en": "Connect Time",
   "tr": ""
  },{
-  "en": "Automatically fix invalid path characters",
+  "en": "Delay",
   "tr": ""
  },{
-  "en": "Automatically open at startup",
+  "en": "Display number",
   "tr": ""
  },{
-  "en": "Choose Profiles Directory",
+  "en": "Display",
   "tr": ""
  },{
-  "en": "Closed",
+  "en": "Elapsed Time",
   "tr": ""
  },{
-  "en": "Connection failed, the session \\\"%1\\\" does not exist.",
+  "en": "Enable the clipboard",
   "tr": ""
  },{
-  "en": "Create a new \\\"/.wind\\\" directory in the selected directory.",
+  "en": "Extensions",
   "tr": ""
  },{
-  "en": "Ctrl+Click to follow link",
+  "en": "Grab special Windows keys like Alt-Tab",
   "tr": ""
  },{
-  "en": "Cursor Keys mode (DECCKM)",
+  "en": "Keyboard layout",
   "tr": ""
  },{
-  "en": "Default directory creation permissions",
+  "en": "Keyboard model",
   "tr": ""
  },{
-  "en": "Default file creation permissions",
+  "en": "Not available",
   "tr": ""
  },{
-  "en": "Description",
+  "en": "Profiles Directory",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions and binding tunnels?",
+  "en": "Server IP",
   "tr": ""
  },{
-  "en": "Do you want to remove the selected sessions?",
+  "en": "Show the tray icon",
   "tr": ""
  },{
-  "en": "Dynamic port allocation",
+  "en": "SOCKS 5 address length is invalid.",
   "tr": ""
  },{
-  "en": "Dynamic",
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Forbit",
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Full day name",
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
   "tr": ""
  },{
-  "en": "Home Directory",
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
   "tr": ""
  },{
-  "en": "Initial modes",
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
   "tr": ""
  },{
-  "en": "Listening Port",
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
   "tr": ""
  },{
-  "en": "Local",
+  "en": "Tunnels will be refreshed after closing the dialog",
   "tr": ""
  },{
-  "en": "Menu",
+  "en": "Window mode",
   "tr": ""
  },{
-  "en": "New Line Mode (LNM)",
+  "en": "X Server Settings",
   "tr": ""
  },{
-  "en": "Numeric keypad mode (DECNKM)",
-  "tr": ""
- },{
-  "en": "Open link",
-  "tr": ""
- },{
-  "en": "Please select your profile directory that will be used to store user preferences.",
-  "tr": ""
- },{
-  "en": "Proxy Command",
-  "tr": ""
- },{
-  "en": "Proxy command",
-  "tr": ""
- },{
-  "en": "Redo List",
-  "tr": ""
- },{
-  "en": "Refresh tunnels after closing the dialog",
-  "tr": ""
- },{
-  "en": "Remote",
-  "tr": ""
- },{
-  "en": "Remove sessions",
-  "tr": ""
- },{
-  "en": "Reverse Screen Mode (DECSCNM)",
-  "tr": ""
- },{
-  "en": "Session Color",
-  "tr": ""
- },{
-  "en": "Session Icon",
-  "tr": ""
- },{
-  "en": "Stash List",
-  "tr": ""
- },{
-  "en": "Status",
-  "tr": ""
- },{
-  "en": "The login is canceled.",
-  "tr": ""
- },{
-  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
-  "tr": ""
- },{
-  "en": "The selected directory does not exist.",
-  "tr": ""
- },{
-  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
-  "tr": ""
- },{
-  "en": "This link type is not supported",
-  "tr": ""
- },{
-  "en": "Timezone",
-  "tr": ""
- },{
-  "en": "Tool Bar",
-  "tr": ""
- },{
-  "en": "Tunnel Settings",
-  "tr": ""
- },{
-  "en": "Undo List",
-  "tr": ""
- },{
-  "en": "Use the existed \\\".wind\\\" directory in the selected directory.",
-  "tr": ""
- },{
-  "en": "UTC time zone",
-  "tr": ""
- },{
-  "en": "Waiting to close",
-  "tr": ""
- },{
-  "en": "Waiting to open",
-  "tr": ""
- },{
-  "en": "When the remote wants to overwrite the clipboard",
-  "tr": ""
- },{
-  "en": "When the remote wants to read the clipboard",
-  "tr": ""
- },{
-  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
-  "tr": ""
- },{
-  "en": "Word Separators For Alternate Screen",
-  "tr": ""
- },{
-  "en": "Working Directory",
+  "en": "X Server",
   "tr": ""
  }
  ]

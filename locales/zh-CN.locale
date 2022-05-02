@@ -3580,6 +3580,21 @@
  },{
   "en": "X Server",
   "tr": "X Server"
+ },{
+  "en": "Global proxy",
+  "tr": "全局代理"
+ },{
+  "en": "Menu",
+  "tr": "菜单"
+ },{
+  "en": "Proxy command",
+  "tr": "代理命令"
+ },{
+  "en": "Step",
+  "tr": "步骤"
+ },{
+  "en": "System proxy",
+  "tr": "系统代理"
  }
  ]
 }

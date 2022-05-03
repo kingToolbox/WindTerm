@@ -392,7 +392,7 @@
   "tr": "闪烁块"
  },{
   "en": "blinking line",
-  "tr": "闪烁竖线"
+  "tr": "闪烁行"
  },{
   "en": "blinking rectangle",
   "tr": "闪烁矩形"
@@ -1408,7 +1408,7 @@
   "tr": "加入频道D"
  },{
   "en": "Join Lines",
-  "tr": "连接线"
+  "tr": "加入线"
  },{
   "en": "Joined",
   "tr": "加入"
@@ -1480,10 +1480,10 @@
   "tr": "左侧分组"
  },{
   "en": "Light",
-  "tr": "光"
+  "tr": "亮"
  },{
   "en": "Line",
-  "tr": "竖线"
+  "tr": "行"
  },{
   "en": "line",
   "tr": "行"

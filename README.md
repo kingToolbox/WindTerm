@@ -366,7 +366,7 @@ DIGEdit is the text component of WindTerm.
 - SSH Agent Forwaring (Postponed to a later version )
 - Search in sessions. (Postponed to a later version )
 
-Download: [WindTerm 2.4.1](https://github.com/kingToolbox/WindTerm/releases/tag/2.4) (2022-4-28)
+Download: [WindTerm 2.4.1](https://github.com/kingToolbox/WindTerm/releases/tag/2.4.0) (2022-4-28)
 Download: [WindTerm 2.5.0_Prerelease_1](https://github.com/kingToolbox/WindTerm/releases/tag/2.5-prerelease) (2022-5-18)
 
 **Roadmap of version 2.x:**

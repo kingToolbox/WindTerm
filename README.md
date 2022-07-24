@@ -66,7 +66,7 @@ DigeWhite Theme:
 - **Supports Windows, MacOS and Linux.**
 - **Supports Multilingual User Interface.**
 - Supports Unicode 13.
-- Session dialog and session tree. [Intro Video](https://kingtoolbox.github.io/2022/04/12/free_type_mode/)
+- Session dialog and session tree. [Intro Video](https://kingtoolbox.github.io/2020/01/22/manage-sessions/)
 - **Auto Completion.** [Intro Video](https://kingtoolbox.github.io/tags/auto-completion/)
 - **Free Type Mode.** [Intro Video](https://kingtoolbox.github.io/2022/04/12/free_type_mode/)
 - **Focus Mode.** [Intro Video](https://kingtoolbox.github.io/2021/06/28/ui_focus_mode/)

@@ -52,7 +52,7 @@ DigeWhite Theme:
 - Supports SSH auto execution when session authenticated.
 - Supports SSH ControlMaster.
 - Supports SSH ProxyCommand or ProxyJump. [Intro Video](https://kingtoolbox.github.io/2021/03/11/proxycommand/)
-- Supports SSH agent forwarding. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent_forwarding/)
+- Supports SSH agent. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent/)
 - Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
 - Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
@@ -66,7 +66,8 @@ DigeWhite Theme:
 - **Supports Windows, MacOS and Linux.**
 - **Supports Multilingual User Interface.**
 - Supports Unicode 13.
-- Session dialog and session tree.
+- Session dialog and session tree. [Intro Video](https://kingtoolbox.github.io/2022/04/12/free_type_mode/)
+- **Auto Completion.** [Intro Video](https://kingtoolbox.github.io/tags/auto-completion/)
 - **Free Type Mode.** [Intro Video](https://kingtoolbox.github.io/2022/04/12/free_type_mode/)
 - **Focus Mode.** [Intro Video](https://kingtoolbox.github.io/2021/06/28/ui_focus_mode/)
 - **Sync Input.** [Intro Video](https://kingtoolbox.github.io/2021/05/27/sync-input/)
@@ -354,20 +355,19 @@ DIGEdit is the text component of WindTerm.
 
   1~2 weeks
 
-# Roadmap of v2.5 (Late-May, for reference only)
-- **New memory allocator and manager and garbage collector**
+# Roadmap of v2.6 (Late-August, for reference only)
+- **Resolve issues as much as possible**
 - Improved Filer
 - Improved Transfer
 - Improved Quickbar
-- **SSH Agent**
-- **Automatic Completion**
-- **Command Snippet** [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488)
+- SSH Agent Forwaring
+- New memory allocator and manager and garbage collector (Postponed to a later version )
+- Command Snippet [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488)  (Postponed to a later version )
 - SSH GSSAPI Authentication (Postponed to a later version )
-- SSH Agent Forwaring (Postponed to a later version )
-- Search in sessions. (Postponed to a later version )
+- SSH Agent (Postponed to a later version )
+- Search in sessions (Postponed to a later version )
 
-Download: [WindTerm 2.4.1](https://github.com/kingToolbox/WindTerm/releases/tag/2.4.0) (2022-4-28)
-Download: [WindTerm 2.5.0_Prerelease_1](https://github.com/kingToolbox/WindTerm/releases/tag/2.5-prerelease) (2022-5-18)
+Download: [WindTerm 2.5.0](https://github.com/kingToolbox/WindTerm/releases/tag/2.5.0) (2022-7-24)
 
 **Roadmap of version 2.x:**
 - External tools

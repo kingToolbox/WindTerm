@@ -390,3 +390,12 @@ v0.x | Basic | Basic framework and basic features, but complete a high-performan
 v1.x | Manual | Perfect features and can be used by most developers in their daily work | Finished | Spring of 2020 ~ Winter of 2020 
 **v2.x** | **Semi automatic** | **Through triggers, macros, events, notifications and so on, developers can be assisted to complete some operations.** | **Developing** | **Spring of 2021 ~ Summer of 2022**
 v3.x | Fully automatic | Through plugins, scripts, machine learning and so on, automatically operating with achieving non-attended | Planning | Summer of 2022 ~ Winter of 2023
+
+# Acknowledgement
+|            | Contribution  |
+| ---------- | ------------- |
+| [EvoWebFrance](https://github.com/EvoWebFrance) | French translation |
+| [kvnklk](https://github.com/kvnklk) | German translation |
+| [Lemonawa](https://github.com/Lemonawa) | Simplified Chinese translation |
+| [LuxNegra](https://github.com/LuxNegra) | French translation |
+| [MosamXu](https://github.com/MosamXu) | Simplified Chinese translation |

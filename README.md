@@ -5,6 +5,11 @@ _Hello WindTerm :rose:, hello world!_
 
 **We're just beginning! If you want a high performance text editor, you can try [WindEdit](https://www.github.com/kingToolbox/WindEdit/).**
 
+
+
+
+
+哈哈哈哈哈哈哈
 # License
 **Completely FREE for commercial and non-commercial use without limitations.**
 **All released source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**

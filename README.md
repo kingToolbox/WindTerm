@@ -47,12 +47,13 @@ DigeWhite Theme:
 
 # Features
 
-### SSH, Telnet, Tcp, Shell, Serial
+### SSH, Telnet, Tcp, Shell, Serial, Tmux
 - SSH v2, Telnet, Raw Tcp, Serial, Shell protocols implemented. [Intro Video](https://kingtoolbox.github.io/2020/01/22/new-session/)
 - Supports SSH auto execution when session authenticated.
 - Supports SSH ControlMaster.
 - Supports SSH ProxyCommand or ProxyJump. [Intro Video](https://kingtoolbox.github.io/2021/03/11/proxycommand/)
 - Supports SSH agent. [Intro Video](https://kingtoolbox.github.io/2020/08/22/ssh_agent/)
+- Supports SSH agent forwarding.
 - Supports SSH auto login with password, public-key, keyboard-interactive, gssapi-with-mic. [Intro Video](https://kingtoolbox.github.io/2020/01/23/auto-login/)
 - Supports X11 forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/x11_forwarding/)
 - Supports direct/local port forwarding, reverse/remote port forwarding and dynamic port forwarding. [Intro Video](https://kingtoolbox.github.io/2020/07/21/port_forwarding/)
@@ -62,6 +63,7 @@ DigeWhite Theme:
 - Supports Windows Cmd, PowerShell and Cmd, PowerShell as administrator.
 - Supports Linux bash, zsh, powershell core and so on.
 - Supports MacOS bash, zsh, powershell core and so on.
+- **Supports `tmux integration`**. [Intro Video](https://kingtoolbox.github.io/2025/01/05/tmux-integration/)
 ### GUI
 - **Supports Windows, MacOS and Linux.**
 - **Supports Multilingual User Interface.**
@@ -355,19 +357,15 @@ DIGEdit is the text component of WindTerm.
 
   1~2 weeks
 
-# Roadmap of v2.6 (Late-August, for reference only)
+# Roadmap of v2.7 (January 2025, for reference only)
 - **Resolve issues as much as possible**
-- Improved Filer
-- Improved Transfer
-- Improved Quickbar
 - SSH Agent Forwaring
-- New memory allocator and manager and garbage collector (Postponed to a later version )
+- Tmux integration
 - Command Snippet [Description](https://github.com/kingToolbox/WindTerm/issues/239#issuecomment-951934488)  (Postponed to a later version )
 - SSH GSSAPI Authentication (Postponed to a later version )
-- SSH Agent (Postponed to a later version )
 - Search in sessions (Postponed to a later version )
 
-Download: [WindTerm 2.5.0](https://github.com/kingToolbox/WindTerm/releases/tag/2.5.0) (2022-7-24)
+Download: [WindTerm 2.7.0 Prerelease 2](https://github.com/kingToolbox/WindTerm/releases/tag/2.7-prerelease-2) (2025-1-11)
 
 **Roadmap of version 2.x:**
 - External tools

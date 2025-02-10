@@ -351,13 +351,13 @@ DIGEdit is the text component of WindTerm.
 
 **Release cycle:**
 
-  4-8 weeks.
+  2-3 months.
   
 **Prerelease cycle:**
 
-  1~2 weeks
+  4~6 weeks
 
-# Roadmap of v2.7 (January 2025, for reference only)
+# Roadmap of v2.7 (February 2025, for reference only)
 - **Resolve issues as much as possible**
 - SSH Agent Forwaring
 - Tmux integration
@@ -365,7 +365,7 @@ DIGEdit is the text component of WindTerm.
 - SSH GSSAPI Authentication (Postponed to a later version )
 - Search in sessions (Postponed to a later version )
 
-Download: [WindTerm 2.7.0 Prerelease 2](https://github.com/kingToolbox/WindTerm/releases/tag/2.7-prerelease-2) (2025-1-11)
+Download: [WindTerm 2.7.0 Prerelease 3](https://github.com/kingToolbox/WindTerm/releases/tag/2.7-prerelease-3) (2025-2-10)
 
 **Roadmap of version 2.x:**
 - External tools

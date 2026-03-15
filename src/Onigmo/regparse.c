@@ -2411,6 +2411,7 @@ fetch_range_quantifier(UChar** src, UChar* end, OnigToken* tok, ScanEnv* env)
   PFETCH(c);
   if (IS_SYNTAX_OP(env->syntax, ONIG_SYN_OP_ESC_BRACE_INTERVAL)) {
     if (c != MC_ESC(env->syntax)) goto invalid;
+    if (PEND) goto invalid;
     PFETCH(c);
   }
   if (c != '}') goto invalid;
@@ -2601,6 +2602,10 @@ fetch_name_with_level(OnigCodePoint start_code, UChar** src, UChar* end,
       int level;
       int flag = (c == '-' ? -1 : 1);
 
+      if (PEND) {
+        r = ONIGERR_INVALID_CHAR_IN_GROUP_NAME;
+        goto end;
+      }
       PFETCH(c);
       if (! ONIGENC_IS_CODE_DIGIT(enc, c)) goto err;
       PUNFETCH;
@@ -2609,9 +2614,11 @@ fetch_name_with_level(OnigCodePoint start_code, UChar** src, UChar* end,
       *rlevel = (level * flag);
       exist_level = 1;
 
-      PFETCH(c);
-      if (c == end_code)
-	goto end;
+      if (!PEND) {
+        PFETCH(c);
+        if (c == end_code)
+	        goto end;
+      }
     }
 
   err:
@@ -3020,6 +3027,7 @@ fetch_token_in_cc(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 
     case 'p':
     case 'P':
+      if (PEND) break;
       c2 = PPEEK;
       if (c2 == '{' &&
 	  IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_P_BRACE_CHAR_PROPERTY)) {
@@ -3027,7 +3035,7 @@ fetch_token_in_cc(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 	tok->type = TK_CHAR_PROPERTY;
 	tok->u.prop.not = (c == 'P' ? 1 : 0);
 
-	if (IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_P_BRACE_CIRCUMFLEX_NOT)) {
+	if (!PEND && IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_P_BRACE_CIRCUMFLEX_NOT)) {
 	  PFETCH(c2);
 	  if (c2 == '^') {
 	    tok->u.prop.not = (tok->u.prop.not == 0 ? 1 : 0);
@@ -3567,7 +3575,7 @@ fetch_token(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 
 #ifdef USE_NAMED_GROUP
     case 'k':
-      if (IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_K_NAMED_BACKREF)) {
+      if (!PEND && IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_K_NAMED_BACKREF)) {
 	PFETCH(c);
 	if (c == '<' || c == '\'') {
 	  r = fetch_named_backref_token(c, tok, &p, end, env);
@@ -3582,7 +3590,7 @@ fetch_token(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 #if defined(USE_SUBEXP_CALL) || defined(USE_NAMED_GROUP)
     case 'g':
 #ifdef USE_NAMED_GROUP
-      if (IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_G_BRACE_BACKREF)) {
+      if (!PEND && IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_G_BRACE_BACKREF)) {
 	PFETCH(c);
 	if (c == '{') {
 	  r = fetch_named_backref_token(c, tok, &p, end, env);
@@ -3593,7 +3601,7 @@ fetch_token(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
       }
 #endif
 #ifdef USE_SUBEXP_CALL
-      if (IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_G_SUBEXP_CALL)) {
+      if (!PEND && IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_G_SUBEXP_CALL)) {
 	PFETCH(c);
 	if (c == '<' || c == '\'') {
 	  int gnum = -1, rel = 0;
@@ -3646,7 +3654,7 @@ fetch_token(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 	tok->type = TK_CHAR_PROPERTY;
 	tok->u.prop.not = (c == 'P' ? 1 : 0);
 
-	if (IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_P_BRACE_CIRCUMFLEX_NOT)) {
+	if (!PEND && IS_SYNTAX_OP2(syn, ONIG_SYN_OP2_ESC_P_BRACE_CIRCUMFLEX_NOT)) {
 	  PFETCH(c);
 	  if (c == '^') {
 	    tok->u.prop.not = (tok->u.prop.not == 0 ? 1 : 0);
@@ -3861,6 +3869,7 @@ fetch_token(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 	  PFETCH_READY;
 
 	  PINC;     /* skip 'P' */
+    if (PEND) return ONIGERR_UNDEFINED_GROUP_OPTION;
 	  PFETCH(c);
 	  if (c == '=') {       /* (?P=name): backref */
 	    r = fetch_named_backref_token((OnigCodePoint )'(', tok, &p, end, env);
@@ -3879,7 +3888,6 @@ fetch_token(OnigToken* tok, UChar** src, UChar* end, ScanEnv* env)
 	    tok->u.call.rel      = 0;
 	    break;
 	  }
-	  PUNFETCH;
 	}
 #endif /* USE_CAPITAL_P_NAMED_GROUP */
         PUNFETCH;
@@ -4802,7 +4810,7 @@ parse_enclose(Node** np, OnigToken* tok, int term, UChar** src, UChar* end,
 
 #ifdef USE_CAPITAL_P_NAMED_GROUP
     case 'P':   /* (?P<name>...) */
-      if (IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_QMARK_CAPITAL_P_NAMED_GROUP)) {
+      if (!PEND && IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_QMARK_CAPITAL_P_NAMED_GROUP)) {
 	PFETCH(c);
 	if (c == '<') goto named_group1;
       }
@@ -4812,6 +4820,7 @@ parse_enclose(Node** np, OnigToken* tok, int term, UChar** src, UChar* end,
 #endif
 
     case '<':   /* look behind (?<=...), (?<!...) */
+      if (PEND) return ONIGERR_END_PATTERN_WITH_UNMATCHED_PARENTHESIS;
       PFETCH(c);
       if (c == '=')
 	*np = onig_node_new_anchor(ANCHOR_LOOK_BEHIND);
@@ -4862,7 +4871,7 @@ parse_enclose(Node** np, OnigToken* tok, int term, UChar** src, UChar* end,
     case '@':
       if (IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_ATMARK_CAPTURE_HISTORY)) {
 #ifdef USE_NAMED_GROUP
-	if (IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_QMARK_LT_NAMED_GROUP)) {
+	if (!PEND && IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_QMARK_LT_NAMED_GROUP)) {
 	  PFETCH(c);
 	  if (c == '<' || c == '\'') {
 	    list_capture = 1;
@@ -4891,7 +4900,7 @@ parse_enclose(Node** np, OnigToken* tok, int term, UChar** src, UChar* end,
       break;
 
     case '(':   /* conditional expression: (?(cond)yes), (?(cond)yes|no) */
-      if (IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_QMARK_LPAREN_CONDITION)) {
+      if (!PEND && IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_QMARK_LPAREN_CONDITION)) {
 	UChar *name = NULL;
 	UChar *name_end;
 	PFETCH(c);
@@ -4918,8 +4927,8 @@ parse_enclose(Node** np, OnigToken* tok, int term, UChar** src, UChar* end,
 	  name = p;
 	  r = fetch_name((OnigCodePoint )c, &p, end, &name_end, env, &num, 0);
 	  if (r < 0) return r;
-	  PFETCH(c);
-	  if (c != ')') return ONIGERR_UNDEFINED_GROUP_OPTION;
+	  if (!PPEEK_IS(')')) return ONIGERR_UNDEFINED_GROUP_OPTION;
+	  PINC;
 
 	  nums = onig_name_to_group_numbers(env->reg, name, name_end, &backs);
 	  if (nums <= 0) {
@@ -4960,7 +4969,7 @@ parse_enclose(Node** np, OnigToken* tok, int term, UChar** src, UChar* end,
 #endif
 
     case '^':   /* loads default options */
-      if (IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_OPTION_PERL)) {
+      if (!PEND && IS_SYNTAX_OP2(env->syntax, ONIG_SYN_OP2_OPTION_PERL)) {
 	/* d-imsx */
 	ONOFF(option, ONIG_OPTION_ASCII_RANGE, 1);
 	ONOFF(option, ONIG_OPTION_IGNORECASE, 1);

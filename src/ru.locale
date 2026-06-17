@@ -1,0 +1,5667 @@
+{
+ "language": "Russian - Русский",
+ "layoutDirection": "LeftToRight",
+ "contributors": [],
+ "translations": [
+ {
+  "en": "${Scheme} Tools",
+  "tr": "Инструменты ${Scheme}"
+ },
+ {
+  "en": "%1 %2 is not supported by %3.",
+  "tr": "%1%2 не поддерживается %3."
+ },
+ {
+  "en": "%1 copied",
+  "tr": "%1 скопировано"
+ },
+ {
+  "en": "%1 downloaded",
+  "tr": "%1 загружено"
+ },
+ {
+  "en": "%1 File",
+  "tr": "Файл %1"
+ },
+ {
+  "en": "%1 item failed",
+  "tr": "Ошибка для %1 элемента"
+ },
+ {
+  "en": "%1 items",
+  "tr": "%1 элементов"
+ },
+ {
+  "en": "%1 items failed",
+  "tr": "Ошибка для %1 элементов"
+ },
+ {
+  "en": "%1 items/s",
+  "tr": "%1 элементов/с"
+ },
+ {
+  "en": "%1 of %2",
+  "tr": "%1 из %2"
+ },
+ {
+  "en": "%1 removed",
+  "tr": "%1 удалено"
+ },
+ {
+  "en": "%1 this %2",
+  "tr": "%1 это %2"
+ },
+ {
+  "en": "%1 uploaded",
+  "tr": "%1 загружено на сервер"
+ },
+ {
+  "en": "%1/%2 Speed: %3",
+  "tr": "%1/%2 Скорость: %3"
+ },
+ {
+  "en": "%1: %2 failed password attempts.",
+  "tr": "%1: %2 неудачных попыток ввода пароля."
+ },
+ {
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is <b>NOT</b> allowed for large file.",
+  "tr": "%1<br>Был <b>изменён</b> и <b>перезагружен</b>, отмена <b>НЕ</b> поддерживается для больших файлов."
+ },
+ {
+  "en": "%1<br>Has <b>changed</b> and <b>reloaded</b>, undo is allowed.",
+  "tr": "%1<br>Был <b>изменён</b> и <b>перезагружен</b>, отмена возможна."
+ },
+ {
+  "en": "%1<br>Has <b>changed</b>, Do you want to reload it?",
+  "tr": "%1<br>Был <b>изменён</b>. Перезагрузить?"
+ },
+ {
+  "en": "%1<br>Has been <b>moved or deleted</b>.",
+  "tr": "%1<br>Был <b>перемещён или удалён</b>."
+ },
+ {
+  "en": "(%1) was pressed. Waiting for more keys",
+  "tr": "Нажата (%1). Ожидание дополнительных клавиш"
+ },
+ {
+  "en": "1 Char",
+  "tr": "1 символ"
+ },
+ {
+  "en": "16 Columns",
+  "tr": "16 столбцов"
+ },
+ {
+  "en": "2 Chars",
+  "tr": "2 символа"
+ },
+ {
+  "en": "24 Columns",
+  "tr": "24 столбца"
+ },
+ {
+  "en": "32 Columns",
+  "tr": "32 столбца"
+ },
+ {
+  "en": "4 Chars",
+  "tr": "4 символа"
+ },
+ {
+  "en": "8 Chars",
+  "tr": "8 символов"
+ },
+ {
+  "en": "8 Columns",
+  "tr": "8 столбцов"
+ },
+ {
+  "en": "A Master Password is used to protect sensitive information like SSH passwords.",
+  "tr": "Главный пароль используется для защиты конфиденциальной информации, например паролей SSH."
+ },
+ {
+  "en": "A remote file has been modified.\nDo you want to upload this file back to the server?",
+  "tr": "Удалённый файл был изменён.\nОтправить этот файл обратно на сервер?"
+ },
+ {
+  "en": "A specific session or set of sessions",
+  "tr": "Конкретная сессия или набор сессий"
+ },
+ {
+  "en": "Abbreviated month name",
+  "tr": "Сокращённое название месяца"
+ },
+ {
+  "en": "Abbreviated weekday name",
+  "tr": "Сокращённое название дня недели"
+ },
+ {
+  "en": "Accept local connections only",
+  "tr": "Принимать только локальные подключения"
+ },
+ {
+  "en": "Accessed",
+  "tr": "Доступ"
+ },
+ {
+  "en": "Activate multiple carets",
+  "tr": "Активировать несколько кареток"
+ },
+ {
+  "en": "Activate Next Selection",
+  "tr": "Активировать следующее выделение"
+ },
+ {
+  "en": "Activate Next View",
+  "tr": "Активировать следующее представление"
+ },
+ {
+  "en": "Activate Previous Selection",
+  "tr": "Активировать предыдущее выделение"
+ },
+ {
+  "en": "Activate Previous View",
+  "tr": "Активировать предыдущее представление"
+ },
+ {
+  "en": "Activate the left tab",
+  "tr": "Активировать левую вкладку"
+ },
+ {
+  "en": "Activate the previously selected tab",
+  "tr": "Активировать ранее выбранную вкладку"
+ },
+ {
+  "en": "Activate the right tab",
+  "tr": "Активировать правую вкладку"
+ },
+ {
+  "en": "Activate the tab after closing",
+  "tr": "Активировать вкладку после закрытия"
+ },
+ {
+  "en": "Activate the tab after hovering",
+  "tr": "Активировать вкладку при наведении"
+ },
+ {
+  "en": "Add Group",
+  "tr": "Добавить группу"
+ },
+ {
+  "en": "Add Sender",
+  "tr": "Добавить отправителя"
+ },
+ {
+  "en": "Add Tab",
+  "tr": "Добавить вкладку"
+ },
+ {
+  "en": "Adjust the window rows and columns",
+  "tr": "Настроить строки и столбцы окна"
+ },
+ {
+  "en": "Advanced Sort",
+  "tr": "Расширенная сортировка"
+ },
+ {
+  "en": "Agent",
+  "tr": "Агент"
+ },
+ {
+  "en": "Agent authentication failed, please try another method",
+  "tr": "Ошибка аутентификации агента, попробуйте другой метод"
+ },
+ {
+  "en": "All",
+  "tr": "Все"
+ },
+ {
+  "en": "All %1 sessions will be deleted.\nDo you want to continue importing sessions?",
+  "tr": "Все сессии %1 будут удалены.\nПродолжить импорт сессий?"
+ },
+ {
+  "en": "All session output",
+  "tr": "Весь вывод сессии"
+ },
+ {
+  "en": "All Sessions",
+  "tr": "Все сессии"
+ },
+ {
+  "en": "All tabs",
+  "tr": "Все вкладки"
+ },
+ {
+  "en": "Alternate column background color",
+  "tr": "Альтернативный цвет фона столбцов"
+ },
+ {
+  "en": "Alternate line background color",
+  "tr": "Альтернативный цвет фона строк"
+ },
+ {
+  "en": "Always On Top",
+  "tr": "Поверх всех окон"
+ },
+ {
+  "en": "Always on top",
+  "tr": "Поверх всех окон"
+ },
+ {
+  "en": "An error occurred when attempting to read from the %1 process.",
+  "tr": "Ошибка при попытке чтения из процесса %1."
+ },
+ {
+  "en": "An error occurred when attempting to write to the %1 process.",
+  "tr": "Ошибка при попытке записи в процесс %1."
+ },
+ {
+  "en": "An unknown error occurred in %1 process.",
+  "tr": "Неизвестная ошибка в процессе %1."
+ },
+ {
+  "en": "ANSI to OEM",
+  "tr": "ANSI в OEM"
+ },
+ {
+  "en": "Answer back",
+  "tr": "Ответить"
+ },
+ {
+  "en": "Any",
+  "tr": "Любой"
+ },
+ {
+  "en": "Anything Palette",
+  "tr": "Универсальная палитра"
+ },
+ {
+  "en": "Anywhere",
+  "tr": "Везде"
+ },
+ {
+  "en": "Appearance",
+  "tr": "Внешний вид"
+ },
+ {
+  "en": "Append",
+  "tr": "Добавить"
+ },
+ {
+  "en": "Append log file",
+  "tr": "Дописывать в файл журнала"
+ },
+ {
+  "en": "Application",
+  "tr": "Приложение"
+ },
+ {
+  "en": "Are you sure you want to delete %1 selected items?",
+  "tr": "Вы уверены, что хотите удалить %1 выбранных элементов?"
+ },
+ {
+  "en": "Are you sure you want to delete item <b>%1</b>?",
+  "tr": "Вы уверены, что хотите удалить элемент <b>%1</b>?"
+ },
+ {
+  "en": "Are you sure you want to reload the current file and lose the changes made in WindEdit?",
+  "tr": "Вы уверены, что хотите перезагрузить текущий файл и потерять изменения, сделанные в WindEdit?"
+ },
+ {
+  "en": "Are you sure you want to stop the current sender?",
+  "tr": "Вы уверены, что хотите остановить текущего отправителя?"
+ },
+ {
+  "en": "Arguments",
+  "tr": "Аргументы"
+ },
+ {
+  "en": "At Caret",
+  "tr": "В позиции каретки"
+ },
+ {
+  "en": "At End",
+  "tr": "В конце"
+ },
+ {
+  "en": "At Start",
+  "tr": "В начале"
+ },
+ {
+  "en": "Attempt gssapi-with-mic authentication",
+  "tr": "Попробовать аутентификацию gssapi-with-mic"
+ },
+ {
+  "en": "Attempt keyboard-interactive authentication",
+  "tr": "Попробовать интерактивную аутентификацию с клавиатуры"
+ },
+ {
+  "en": "Attempt pageant authentication",
+  "tr": "Попробовать аутентификацию Pageant"
+ },
+ {
+  "en": "Attempt password authentication",
+  "tr": "Попробовать аутентификацию по паролю"
+ },
+ {
+  "en": "Attempt public-key authentication",
+  "tr": "Попробовать аутентификацию по открытому ключу"
+ },
+ {
+  "en": "Attempt ssh-agent authentication",
+  "tr": "Попробовать аутентификацию ssh-agent"
+ },
+ {
+  "en": "Authenticated with partial success, please continue another method.",
+  "tr": "Частичная аутентификация, попробуйте другой метод."
+ },
+ {
+  "en": "Authenticating by %1",
+  "tr": "Аутентификация с помощью %1"
+ },
+ {
+  "en": "Authenticating by %1 and %2",
+  "tr": "Аутентификация с помощью %1 и %2"
+ },
+ {
+  "en": "Authentication",
+  "tr": "Аутентификация"
+ },
+ {
+  "en": "Authentication denied, please try again.",
+  "tr": "В аутентификации отказано, попробуйте снова."
+ },
+ {
+  "en": "Auto Close HTML/XML Tags",
+  "tr": "Автозакрытие тегов HTML/XML"
+ },
+ {
+  "en": "Auto login",
+  "tr": "Автоматический вход"
+ },
+ {
+  "en": "Auto login failed, please try again.",
+  "tr": "Автоматический вход не удался, попробуйте снова."
+ },
+ {
+  "en": "Auto login next time",
+  "tr": "Автоматический вход в следующий раз"
+ },
+ {
+  "en": "Automatic",
+  "tr": "Автоматически"
+ },
+ {
+  "en": "Automatic authentication methods",
+  "tr": "Методы автоматической аутентификации"
+ },
+ {
+  "en": "Automatically copy selection",
+  "tr": "Автоматически копировать выделенное"
+ },
+ {
+  "en": "Automatically detect indentation",
+  "tr": "Автоматически определять отступы"
+ },
+ {
+  "en": "Automatically trim the padding",
+  "tr": "Автоматически обрезать отступы"
+ },
+ {
+  "en": "Background marker",
+  "tr": "Фоновый маркер"
+ },
+ {
+  "en": "Backspace",
+  "tr": "Backspace"
+ },
+ {
+  "en": "Backspace sends",
+  "tr": "Backspace отправляет"
+ },
+ {
+  "en": "Backward",
+  "tr": "Назад"
+ },
+ {
+  "en": "Bars",
+  "tr": "Полосы"
+ },
+ {
+  "en": "Baud Rate",
+  "tr": "Скорость в бодах"
+ },
+ {
+  "en": "Beep When Finished",
+  "tr": "Сигнал по завершении"
+ },
+ {
+  "en": "Binary",
+  "tr": "Двоичный"
+ },
+ {
+  "en": "Binary base",
+  "tr": "Двоичное основание"
+ },
+ {
+  "en": "Binary columns",
+  "tr": "Двоичные столбцы"
+ },
+ {
+  "en": "Binary devision columns",
+  "tr": "Столбцы двоичного деления"
+ },
+ {
+  "en": "Binary grouped characters",
+  "tr": "Сгруппированные двоичные символы"
+ },
+ {
+  "en": "Black",
+  "tr": "Чёрный"
+ },
+ {
+  "en": "Blink",
+  "tr": "Мигание"
+ },
+ {
+  "en": "blinking block",
+  "tr": "мигающий блок"
+ },
+ {
+  "en": "blinking line",
+  "tr": "мигающая линия"
+ },
+ {
+  "en": "blinking rectangle",
+  "tr": "мигающий прямоугольник"
+ },
+ {
+  "en": "blinking underLine",
+  "tr": "мигающее подчёркивание"
+ },
+ {
+  "en": "Block",
+  "tr": "Блок"
+ },
+ {
+  "en": "block",
+  "tr": "блок"
+ },
+ {
+  "en": "Bold",
+  "tr": "Жирный"
+ },
+ {
+  "en": "Bold type indicates fixed-width fonts",
+  "tr": "Жирным выделены моноширинные шрифты"
+ },
+ {
+  "en": "Bottom Docks",
+  "tr": "Нижние панели"
+ },
+ {
+  "en": "Bottom Group",
+  "tr": "Нижняя группа"
+ },
+ {
+  "en": "Browse",
+  "tr": "Обзор"
+ },
+ {
+  "en": "Browse Directory",
+  "tr": "Выбрать каталог"
+ },
+ {
+  "en": "Browse File",
+  "tr": "Выбрать файл"
+ },
+ {
+  "en": "Browser",
+  "tr": "Браузер"
+ },
+ {
+  "en": "Build",
+  "tr": "Сборка"
+ },
+ {
+  "en": "By",
+  "tr": "По"
+ },
+ {
+  "en": "Calculating",
+  "tr": "Вычисление"
+ },
+ {
+  "en": "Cannot find suitable program to open file:\n%1\nTry use default editor to open it.",
+  "tr": "Не удаётся найти подходящую программу для открытия файла:\n%1\nПопробуйте открыть его редактором по умолчанию."
+ },
+ {
+  "en": "Cannot make directory %1.",
+  "tr": "Не удаётся создать каталог %1."
+ },
+ {
+  "en": "Cannot make file %1.",
+  "tr": "Не удаётся создать файл %1."
+ },
+ {
+  "en": "Cannot make link %1.",
+  "tr": "Не удаётся создать ссылку %1."
+ },
+ {
+  "en": "Cannot remove the directory %1.",
+  "tr": "Не удаётся удалить каталог %1."
+ },
+ {
+  "en": "Cancel",
+  "tr": "Отмена"
+ },
+ {
+  "en": "Cancel Build",
+  "tr": "Отменить сборку"
+ },
+ {
+  "en": "Cancel Selection",
+  "tr": "Отменить выделение"
+ },
+ {
+  "en": "Caret",
+  "tr": "Каретка"
+ },
+ {
+  "en": "Caret Style",
+  "tr": "Стиль каретки"
+ },
+ {
+  "en": "Carriage Return",
+  "tr": "Возврат каретки (CR)"
+ },
+ {
+  "en": "Cdup",
+  "tr": "Cdup"
+ },
+ {
+  "en": "Change Master Password",
+  "tr": "Изменить главный пароль"
+ },
+ {
+  "en": "Change master password",
+  "tr": "Изменить главный пароль"
+ },
+ {
+  "en": "Change the master password failed.",
+  "tr": "Не удалось изменить главный пароль."
+ },
+ {
+  "en": "Change the tab title",
+  "tr": "Изменить заголовок вкладки"
+ },
+ {
+  "en": "Changed",
+  "tr": "Изменён"
+ },
+ {
+  "en": "Channel",
+  "tr": "Канал"
+ },
+ {
+  "en": "Char",
+  "tr": "Символ"
+ },
+ {
+  "en": "Char Left",
+  "tr": "На символ влево"
+ },
+ {
+  "en": "Char Right",
+  "tr": "На символ вправо"
+ },
+ {
+  "en": "Character spacing",
+  "tr": "Межсимвольный интервал"
+ },
+ {
+  "en": "character width",
+  "tr": "ширина символа"
+ },
+ {
+  "en": "Charset",
+  "tr": "Кодировка"
+ },
+ {
+  "en": "Choose a default editor",
+  "tr": "Выбрать редактор по умолчанию"
+ },
+ {
+  "en": "Ciphers",
+  "tr": "Шифры"
+ },
+ {
+  "en": "Ciphers order",
+  "tr": "Порядок шифров"
+ },
+ {
+  "en": "Clear",
+  "tr": "Очистить"
+ },
+ {
+  "en": "Clear All",
+  "tr": "Очистить всё"
+ },
+ {
+  "en": "Clear Recent Urls",
+  "tr": "Очистить недавние URL"
+ },
+ {
+  "en": "Clear Screen",
+  "tr": "Очистить экран"
+ },
+ {
+  "en": "Clear Scrollback",
+  "tr": "Очистить буфер прокрутки"
+ },
+ {
+  "en": "Clear Sender",
+  "tr": "Очистить отправителя"
+ },
+ {
+  "en": "Click event",
+  "tr": "Событие клика"
+ },
+ {
+  "en": "Close",
+  "tr": "Закрыть"
+ },
+ {
+  "en": "Close All Views",
+  "tr": "Закрыть все представления"
+ },
+ {
+  "en": "Close All Views But Active",
+  "tr": "Закрыть все представления, кроме активного"
+ },
+ {
+  "en": "Close All Views To The Right",
+  "tr": "Закрыть все представления справа"
+ },
+ {
+  "en": "Close And Exit",
+  "tr": "Закрыть и выйти"
+ },
+ {
+  "en": "Close Channel",
+  "tr": "Закрыть канал"
+ },
+ {
+  "en": "Close Dock",
+  "tr": "Закрыть панель"
+ },
+ {
+  "en": "Close Group",
+  "tr": "Закрыть группу"
+ },
+ {
+  "en": "Close Session",
+  "tr": "Закрыть сессию"
+ },
+ {
+  "en": "Close Tab",
+  "tr": "Закрыть вкладку"
+ },
+ {
+  "en": "Close tab",
+  "tr": "Закрыть вкладку"
+ },
+ {
+  "en": "Close View",
+  "tr": "Закрыть представление"
+ },
+ {
+  "en": "Close Window",
+  "tr": "Закрыть окно"
+ },
+ {
+  "en": "Color",
+  "tr": "Цвет"
+ },
+ {
+  "en": "Column Edit",
+  "tr": "Редактирование столбцов"
+ },
+ {
+  "en": "Column Marker",
+  "tr": "Маркер столбца"
+ },
+ {
+  "en": "Columns",
+  "tr": "Столбцы"
+ },
+ {
+  "en": "columns",
+  "tr": "столбцы"
+ },
+ {
+  "en": "Command",
+  "tr": "Команда"
+ },
+ {
+  "en": "Command Palette",
+  "tr": "Палитра команд"
+ },
+ {
+  "en": "Comment",
+  "tr": "Комментарий"
+ },
+ {
+  "en": "Comment Selection",
+  "tr": "Закомментировать выделение"
+ },
+ {
+  "en": "Comment Selection (Block Mode)",
+  "tr": "Закомментировать выделение (блочный режим)"
+ },
+ {
+  "en": "Comment Selection (Line Mode)",
+  "tr": "Закомментировать выделение (построчный режим)"
+ },
+ {
+  "en": "Complete Word",
+  "tr": "Дополнить слово"
+ },
+ {
+  "en": "Config",
+  "tr": "Конфигурация"
+ },
+ {
+  "en": "Confirm Password",
+  "tr": "Подтверждение пароля"
+ },
+ {
+  "en": "Confirm password",
+  "tr": "Подтвердите пароль"
+ },
+ {
+  "en": "Connect",
+  "tr": "Подключиться"
+ },
+ {
+  "en": "Connection",
+  "tr": "Подключение"
+ },
+ {
+  "en": "Context",
+  "tr": "Контекст"
+ },
+ {
+  "en": "Continue",
+  "tr": "Продолжить"
+ },
+ {
+  "en": "Convert CRLF and LF to CR",
+  "tr": "Преобразовать CRLF и LF в CR"
+ },
+ {
+  "en": "Convert tab to spaces",
+  "tr": "Преобразовать табуляцию в пробелы"
+ },
+ {
+  "en": "copied",
+  "tr": "скопировано"
+ },
+ {
+  "en": "Copy",
+  "tr": "Копировать"
+ },
+ {
+  "en": "copy",
+  "tr": "копировать"
+ },
+ {
+  "en": "Copy File Name",
+  "tr": "Копировать имя файла"
+ },
+ {
+  "en": "Copy File Path",
+  "tr": "Копировать путь к файлу"
+ },
+ {
+  "en": "Copy Output",
+  "tr": "Копировать вывод"
+ },
+ {
+  "en": "Copy Session Name",
+  "tr": "Копировать имя сессии"
+ },
+ {
+  "en": "Copy Session Url",
+  "tr": "Копировать URL сессии"
+ },
+ {
+  "en": "Copy To Terminal",
+  "tr": "Копировать в терминал"
+ },
+ {
+  "en": "Count",
+  "tr": "Количество"
+ },
+ {
+  "en": "Create Directory",
+  "tr": "Создать каталог"
+ },
+ {
+  "en": "Create File",
+  "tr": "Создать файл"
+ },
+ {
+  "en": "Create Link",
+  "tr": "Создать ссылку"
+ },
+ {
+  "en": "Created",
+  "tr": "Создан"
+ },
+ {
+  "en": "Critical",
+  "tr": "Критический"
+ },
+ {
+  "en": "Current Session",
+  "tr": "Текущая сессия"
+ },
+ {
+  "en": "Custom",
+  "tr": "Пользовательский"
+ },
+ {
+  "en": "Custom Opacity",
+  "tr": "Пользовательская прозрачность"
+ },
+ {
+  "en": "Customize",
+  "tr": "Настроить"
+ },
+ {
+  "en": "Cut",
+  "tr": "Вырезать"
+ },
+ {
+  "en": "Dark Cyan",
+  "tr": "Тёмно-циановый"
+ },
+ {
+  "en": "Data",
+  "tr": "Данные"
+ },
+ {
+  "en": "Data Bits",
+  "tr": "Биты данных"
+ },
+ {
+  "en": "Datetime format",
+  "tr": "Формат даты и времени"
+ },
+ {
+  "en": "Day of month",
+  "tr": "День месяца"
+ },
+ {
+  "en": "Debug Mode",
+  "tr": "Режим отладки"
+ },
+ {
+  "en": "Decrease Line Indent",
+  "tr": "Уменьшить отступ строки"
+ },
+ {
+  "en": "Deep Pink",
+  "tr": "Тёмно-розовый"
+ },
+ {
+  "en": "default",
+  "tr": "по умолчанию"
+ },
+ {
+  "en": "Default Font",
+  "tr": "Шрифт по умолчанию"
+ },
+ {
+  "en": "Default line ending",
+  "tr": "Окончание строк по умолчанию"
+ },
+ {
+  "en": "Delete",
+  "tr": "Удалить"
+ },
+ {
+  "en": "Delete sends",
+  "tr": "Удалить отправки"
+ },
+ {
+  "en": "DemiBold",
+  "tr": "Полужирный"
+ },
+ {
+  "en": "Destination Host",
+  "tr": "Хост назначения"
+ },
+ {
+  "en": "Destination Port",
+  "tr": "Порт назначения"
+ },
+ {
+  "en": "Dir",
+  "tr": "Каталог"
+ },
+ {
+  "en": "dir",
+  "tr": "каталог"
+ },
+ {
+  "en": "Directory",
+  "tr": "Каталог"
+ },
+ {
+  "en": "Directory Link",
+  "tr": "Ссылка на каталог"
+ },
+ {
+  "en": "Disable Nagle's algorithm (TCP_NODELAY option)",
+  "tr": "Отключить алгоритм Нейгла (опция TCP_NODELAY)"
+ },
+ {
+  "en": "Disconnect Session",
+  "tr": "Отключить сессию"
+ },
+ {
+  "en": "Disk",
+  "tr": "Диск"
+ },
+ {
+  "en": "Do not echo characters",
+  "tr": "Не эхо-символы"
+ },
+ {
+  "en": "Do you want to close the current session?",
+  "tr": "Закрыть текущую сессию?"
+ },
+ {
+  "en": "Document",
+  "tr": "Документ"
+ },
+ {
+  "en": "Don't show this message again",
+  "tr": "Больше не показывать это сообщение"
+ },
+ {
+  "en": "Double click",
+  "tr": "Двойной клик"
+ },
+ {
+  "en": "Double click event",
+  "tr": "Событие двойного клика"
+ },
+ {
+  "en": "Download",
+  "tr": "Скачать"
+ },
+ {
+  "en": "download",
+  "tr": "скачать"
+ },
+ {
+  "en": "Download directory",
+  "tr": "Каталог загрузок"
+ },
+ {
+  "en": "downloaded",
+  "tr": "скачано"
+ },
+ {
+  "en": "Drop Selection",
+  "tr": "Отбросить выделение"
+ },
+ {
+  "en": "Duplicate",
+  "tr": "Дублировать"
+ },
+ {
+  "en": "Duplicate View",
+  "tr": "Дублировать представление"
+ },
+ {
+  "en": "Dynamic forwarding",
+  "tr": "Динамическая пересылка"
+ },
+ {
+  "en": "Echo every character entered",
+  "tr": "Эхо каждого вводимого символа"
+ },
+ {
+  "en": "Echo every character when editing",
+  "tr": "Эхо каждого символа при редактировании"
+ },
+ {
+  "en": "Echo random characters",
+  "tr": "Эхо случайных символов"
+ },
+ {
+  "en": "Edit",
+  "tr": "Редактировать"
+ },
+ {
+  "en": "Editor",
+  "tr": "Редактор"
+ },
+ {
+  "en": "editor",
+  "tr": "редактор"
+ },
+ {
+  "en": "Editor Settings",
+  "tr": "Настройки редактора"
+ },
+ {
+  "en": "Elapsed",
+  "tr": "Прошло"
+ },
+ {
+  "en": "Elide left",
+  "tr": "Сокращать слева"
+ },
+ {
+  "en": "Elide middle",
+  "tr": "Сокращать в середине"
+ },
+ {
+  "en": "Elide right",
+  "tr": "Сокращать справа"
+ },
+ {
+  "en": "Empty",
+  "tr": "Пусто"
+ },
+ {
+  "en": "Enable command mode",
+  "tr": "Включить командный режим"
+ },
+ {
+  "en": "Enable local mode",
+  "tr": "Включить локальный режим"
+ },
+ {
+  "en": "Enable TCP keepalives (SO_KEEPALIVE option)",
+  "tr": "Включить TCP keepalive (опция SO_KEEPALIVE)"
+ },
+ {
+  "en": "Enable virtual spaces",
+  "tr": "Включить виртуальные пробелы"
+ },
+ {
+  "en": "End Of Document",
+  "tr": "Конец документа"
+ },
+ {
+  "en": "End Of Line",
+  "tr": "Конец строки"
+ },
+ {
+  "en": "End Of Pair",
+  "tr": "Конец пары"
+ },
+ {
+  "en": "Engine",
+  "tr": "Движок"
+ },
+ {
+  "en": "Environment Variable",
+  "tr": "Переменная окружения"
+ },
+ {
+  "en": "Environment variables",
+  "tr": "Переменные окружения"
+ },
+ {
+  "en": "Error",
+  "tr": "Ошибка"
+ },
+ {
+  "en": "Exchange Caret And Anchor",
+  "tr": "Поменять местами каретку и якорь"
+ },
+ {
+  "en": "Execute",
+  "tr": "Выполнить"
+ },
+ {
+  "en": "Execute command after authentication",
+  "tr": "Выполнить команду после аутентификации"
+ },
+ {
+  "en": "Execute command after start",
+  "tr": "Выполнить команду после запуска"
+ },
+ {
+  "en": "Execute File",
+  "tr": "Выполнить файл"
+ },
+ {
+  "en": "Exit",
+  "tr": "Выход"
+ },
+ {
+  "en": "Expand",
+  "tr": "Развернуть"
+ },
+ {
+  "en": "Expand Snippet",
+  "tr": "Развернуть сниппет"
+ },
+ {
+  "en": "Explorer",
+  "tr": "Проводник"
+ },
+ {
+  "en": "External Tools",
+  "tr": "Внешние инструменты"
+ },
+ {
+  "en": "External X display",
+  "tr": "Внешний X-дисплей"
+ },
+ {
+  "en": "ExtraBold",
+  "tr": "Сверхжирный"
+ },
+ {
+  "en": "ExtraLight",
+  "tr": "Сверхсветлый"
+ },
+ {
+  "en": "Failed to create temporary file:\n%1",
+  "tr": "Не удалось создать временный файл:\n%1"
+ },
+ {
+  "en": "Failed to open directory: %1",
+  "tr": "Не удалось открыть каталог: %1"
+ },
+ {
+  "en": "Failed to retrieve host fingerprint!",
+  "tr": "Не удалось получить отпечаток хоста!"
+ },
+ {
+  "en": "Fast",
+  "tr": "Быстро"
+ },
+ {
+  "en": "Favorites",
+  "tr": "Избранное"
+ },
+ {
+  "en": "Features",
+  "tr": "Возможности"
+ },
+ {
+  "en": "File",
+  "tr": "Файл"
+ },
+ {
+  "en": "file",
+  "tr": "файл"
+ },
+ {
+  "en": "File Link",
+  "tr": "Ссылка на файл"
+ },
+ {
+  "en": "File Name",
+  "tr": "Имя файла"
+ },
+ {
+  "en": "File name",
+  "tr": "Имя файла"
+ },
+ {
+  "en": "File Path",
+  "tr": "Путь к файлу"
+ },
+ {
+  "en": "Filer",
+  "tr": "Файловый менеджер"
+ },
+ {
+  "en": "filer",
+  "tr": "файловый менеджер"
+ },
+ {
+  "en": "Filter",
+  "tr": "Фильтр"
+ },
+ {
+  "en": "Find",
+  "tr": "Найти"
+ },
+ {
+  "en": "Find All",
+  "tr": "Найти всё"
+ },
+ {
+  "en": "Find in Files",
+  "tr": "Найти в файлах"
+ },
+ {
+  "en": "Find Next",
+  "tr": "Найти далее"
+ },
+ {
+  "en": "Find Next Selection",
+  "tr": "Найти следующее выделение"
+ },
+ {
+  "en": "Find Previous",
+  "tr": "Найти предыдущее"
+ },
+ {
+  "en": "Find Previous Selection",
+  "tr": "Найти предыдущее выделение"
+ },
+ {
+  "en": "Fingerprint",
+  "tr": "Отпечаток"
+ },
+ {
+  "en": "First nine tabs",
+  "tr": "Первые девять вкладок"
+ },
+ {
+  "en": "Float",
+  "tr": "Плавающий"
+ },
+ {
+  "en": "Flow Control",
+  "tr": "Управление потоком"
+ },
+ {
+  "en": "Focus Mode",
+  "tr": "Режим фокуса"
+ },
+ {
+  "en": "Focus Mode Settings",
+  "tr": "Настройки режима фокуса"
+ },
+ {
+  "en": "Fold",
+  "tr": "Свернуть"
+ },
+ {
+  "en": "Fold All",
+  "tr": "Свернуть всё"
+ },
+ {
+  "en": "Fold Category",
+  "tr": "Свернуть категорию"
+ },
+ {
+  "en": "Fold Inside",
+  "tr": "Свернуть внутри"
+ },
+ {
+  "en": "Folds",
+  "tr": "Свёртки"
+ },
+ {
+  "en": "Font",
+  "tr": "Шрифт"
+ },
+ {
+  "en": "Font family",
+  "tr": "Семейство шрифтов"
+ },
+ {
+  "en": "Font size",
+  "tr": "Размер шрифта"
+ },
+ {
+  "en": "Font weight",
+  "tr": "Насыщенность шрифта"
+ },
+ {
+  "en": "Forest Green",
+  "tr": "Лесной зелёный"
+ },
+ {
+  "en": "Format Selection",
+  "tr": "Форматировать выделение"
+ },
+ {
+  "en": "Found",
+  "tr": "Найдено"
+ },
+ {
+  "en": "Full month name",
+  "tr": "Полное название месяца"
+ },
+ {
+  "en": "Full Screen",
+  "tr": "Полный экран"
+ },
+ {
+  "en": "Full screen",
+  "tr": "Полноэкранный режим"
+ },
+ {
+  "en": "Full weekday name",
+  "tr": "Полное название дня недели"
+ },
+ {
+  "en": "Go Backward",
+  "tr": "Назад"
+ },
+ {
+  "en": "Go Forward",
+  "tr": "Вперёд"
+ },
+ {
+  "en": "Go to",
+  "tr": "Перейти"
+ },
+ {
+  "en": "Go to Symbol in Current View",
+  "tr": "Перейти к символу в текущем представлении"
+ },
+ {
+  "en": "Goldenrod",
+  "tr": "Золотистый"
+ },
+ {
+  "en": "Goto",
+  "tr": "Перейти"
+ },
+ {
+  "en": "Goto Address Bar",
+  "tr": "Перейти в адресную строку"
+ },
+ {
+  "en": "Goto File",
+  "tr": "Перейти к файлу"
+ },
+ {
+  "en": "Goto Position",
+  "tr": "Перейти к позиции"
+ },
+ {
+  "en": "Goto Session",
+  "tr": "Перейти к сессии"
+ },
+ {
+  "en": "Goto Symbol",
+  "tr": "Перейти к символу"
+ },
+ {
+  "en": "Group",
+  "tr": "Группа"
+ },
+ {
+  "en": "Group %1",
+  "tr": "Группа %1"
+ },
+ {
+  "en": "Groups",
+  "tr": "Группы"
+ },
+ {
+  "en": "Gssapi With Mic",
+  "tr": "Gssapi с MIC"
+ },
+ {
+  "en": "Hard Reset",
+  "tr": "Жёсткий сброс"
+ },
+ {
+  "en": "Help",
+  "tr": "Помощь"
+ },
+ {
+  "en": "Hex",
+  "tr": "Шестнадцатеричный"
+ },
+ {
+  "en": "Hex Base",
+  "tr": "Шестнадцатеричное основание"
+ },
+ {
+  "en": "Hex Columns",
+  "tr": "Шестнадцатеричные столбцы"
+ },
+ {
+  "en": "Hex Edit",
+  "tr": "Шестнадцатеричный редактор"
+ },
+ {
+  "en": "Hex Group Chars",
+  "tr": "Группировка шестнадцатеричных символов"
+ },
+ {
+  "en": "Hidden",
+  "tr": "Скрытый"
+ },
+ {
+  "en": "Hide",
+  "tr": "Скрыть"
+ },
+ {
+  "en": "Hide All",
+  "tr": "Скрыть всё"
+ },
+ {
+  "en": "Hide cursor when typing",
+  "tr": "Скрывать курсор при вводе"
+ },
+ {
+  "en": "Hide Text",
+  "tr": "Скрыть текст"
+ },
+ {
+  "en": "Highlight",
+  "tr": "Выделить"
+ },
+ {
+  "en": "Highlight Caret Line",
+  "tr": "Подсветить строку с кареткой"
+ },
+ {
+  "en": "Highlight Matching Pair",
+  "tr": "Подсветить соответствующую пару"
+ },
+ {
+  "en": "Highlight the caret line",
+  "tr": "Подсветить строку с кареткой"
+ },
+ {
+  "en": "Highlight the caret word",
+  "tr": "Подсветить слово под кареткой"
+ },
+ {
+  "en": "Highlight the current fold",
+  "tr": "Подсветить текущую свёртку"
+ },
+ {
+  "en": "Highlight the current pair",
+  "tr": "Подсветить текущую пару"
+ },
+ {
+  "en": "Highlight the incremental search",
+  "tr": "Подсветить инкрементальный поиск"
+ },
+ {
+  "en": "History",
+  "tr": "История"
+ },
+ {
+  "en": "Home Of Line",
+  "tr": "Начало строки"
+ },
+ {
+  "en": "Host",
+  "tr": "Хост"
+ },
+ {
+  "en": "Host address",
+  "tr": "Адрес хоста"
+ },
+ {
+  "en": "Host Based",
+  "tr": "На основе хоста"
+ },
+ {
+  "en": "Hours in 12 format",
+  "tr": "Часы в 12-часовом формате"
+ },
+ {
+  "en": "Hours in 24 format",
+  "tr": "Часы в 24-часовом формате"
+ },
+ {
+  "en": "Huge File",
+  "tr": "Огромный файл"
+ },
+ {
+  "en": "Icon",
+  "tr": "Иконка"
+ },
+ {
+  "en": "Identity file",
+  "tr": "Файл идентификации"
+ },
+ {
+  "en": "Identity file for authentication",
+  "tr": "Файл идентификации для аутентификации"
+ },
+ {
+  "en": "If you create a Master Password you will be asked to enter it when WindTerm retrieves saved information protected by the Master Password.",
+  "tr": "Если вы установите главный пароль, WindTerm будет запрашивать его при доступе к защищённой информации."
+ },
+ {
+  "en": "If you forget your Master Password, you will be unable to access any of the information protected by it.",
+  "tr": "Если вы забудете главный пароль, доступ к защищённой информации будет потерян."
+ },
+ {
+  "en": "Import",
+  "tr": "Импорт"
+ },
+ {
+  "en": "Import sessions",
+  "tr": "Импортировать сессии"
+ },
+ {
+  "en": "In Selection",
+  "tr": "В выделении"
+ },
+ {
+  "en": "Increase Line Indent",
+  "tr": "Увеличить отступ строки"
+ },
+ {
+  "en": "Incremental",
+  "tr": "Инкрементальный"
+ },
+ {
+  "en": "Indent",
+  "tr": "Отступ"
+ },
+ {
+  "en": "Indent guide style",
+  "tr": "Стиль направляющих отступа"
+ },
+ {
+  "en": "Indent Guides",
+  "tr": "Направляющие отступа"
+ },
+ {
+  "en": "Indent size",
+  "tr": "Размер отступа"
+ },
+ {
+  "en": "Indentation",
+  "tr": "Отступ"
+ },
+ {
+  "en": "Indian Red",
+  "tr": "Индийский красный"
+ },
+ {
+  "en": "Information",
+  "tr": "Информация"
+ },
+ {
+  "en": "Insert",
+  "tr": "Вставить"
+ },
+ {
+  "en": "Insert File",
+  "tr": "Вставить файл"
+ },
+ {
+  "en": "Insert Lines",
+  "tr": "Вставить строки"
+ },
+ {
+  "en": "Insert tab when pressing TAB key",
+  "tr": "Вставлять табуляцию при нажатии TAB"
+ },
+ {
+  "en": "Inserting and deleting whitespace follows tab stops",
+  "tr": "Вставка и удаление пробелов с учётом позиций табуляции"
+ },
+ {
+  "en": "Inserting file",
+  "tr": "Вставка файла"
+ },
+ {
+  "en": "Internal X display",
+  "tr": "Внутренний X-дисплей"
+ },
+ {
+  "en": "Interval",
+  "tr": "Интервал"
+ },
+ {
+  "en": "Invert Selection",
+  "tr": "Инвертировать выделение"
+ },
+ {
+  "en": "item failed",
+  "tr": "ошибка элемента"
+ },
+ {
+  "en": "items failed",
+  "tr": "ошибка элементов"
+ },
+ {
+  "en": "Join Channel A",
+  "tr": "Присоединиться к каналу A"
+ },
+ {
+  "en": "Join Channel B",
+  "tr": "Присоединиться к каналу B"
+ },
+ {
+  "en": "Join Channel C",
+  "tr": "Присоединиться к каналу C"
+ },
+ {
+  "en": "Join Channel D",
+  "tr": "Присоединиться к каналу D"
+ },
+ {
+  "en": "Join Lines",
+  "tr": "Объединить строки"
+ },
+ {
+  "en": "Joined",
+  "tr": "Присоединён"
+ },
+ {
+  "en": "Jump Server",
+  "tr": "Прыжковый сервер"
+ },
+ {
+  "en": "Jump server",
+  "tr": "Прыжковый сервер"
+ },
+ {
+  "en": "Key Exchange",
+  "tr": "Обмен ключами"
+ },
+ {
+  "en": "Key exchange order",
+  "tr": "Порядок обмена ключами"
+ },
+ {
+  "en": "Key re-exchange",
+  "tr": "Повторный обмен ключами"
+ },
+ {
+  "en": "Keyboard",
+  "tr": "Клавиатура"
+ },
+ {
+  "en": "Keyboard Interactive",
+  "tr": "Интерактивная клавиатура"
+ },
+ {
+  "en": "Kit Bar",
+  "tr": "Панель инструментов"
+ },
+ {
+  "en": "Known",
+  "tr": "Известный"
+ },
+ {
+  "en": "Label",
+  "tr": "Метка"
+ },
+ {
+  "en": "Language",
+  "tr": "Язык"
+ },
+ {
+  "en": "Last sessions",
+  "tr": "Последние сессии"
+ },
+ {
+  "en": "Layout",
+  "tr": "Раскладка"
+ },
+ {
+  "en": "Leading And Trailing Blanks",
+  "tr": "Начальные и конечные пробелы"
+ },
+ {
+  "en": "Leading Blanks",
+  "tr": "Начальные пробелы"
+ },
+ {
+  "en": "Leading position",
+  "tr": "Начальная позиция"
+ },
+ {
+  "en": "Leave All Channels",
+  "tr": "Покинуть все каналы"
+ },
+ {
+  "en": "Leave all channels",
+  "tr": "Покинуть все каналы"
+ },
+ {
+  "en": "Leave Channel",
+  "tr": "Покинуть канал"
+ },
+ {
+  "en": "Left Docks",
+  "tr": "Левая панель"
+ },
+ {
+  "en": "Left Group",
+  "tr": "Левая группа"
+ },
+ {
+  "en": "Light",
+  "tr": "Светлый"
+ },
+ {
+  "en": "Line",
+  "tr": "Линия"
+ },
+ {
+  "en": "line",
+  "tr": "линия"
+ },
+ {
+  "en": "line at a time",
+  "tr": "по одной строке"
+ },
+ {
+  "en": "Line Down",
+  "tr": "Строка вниз"
+ },
+ {
+  "en": "Line Ending",
+  "tr": "Окончание строки"
+ },
+ {
+  "en": "Line Endings",
+  "tr": "Окончания строк"
+ },
+ {
+  "en": "Line Feed",
+  "tr": "Перевод строки (LF)"
+ },
+ {
+  "en": "line height",
+  "tr": "высота строки"
+ },
+ {
+  "en": "Line marker",
+  "tr": "Маркер строки"
+ },
+ {
+  "en": "Line spacing",
+  "tr": "Межстрочный интервал"
+ },
+ {
+  "en": "Line Up",
+  "tr": "Строка вверх"
+ },
+ {
+  "en": "lines at a time",
+  "tr": "по несколько строк"
+ },
+ {
+  "en": "Lines of scrollback",
+  "tr": "Строки в буфере прокрутки"
+ },
+ {
+  "en": "Link",
+  "tr": "Ссылка"
+ },
+ {
+  "en": "Link to",
+  "tr": "Ссылка на"
+ },
+ {
+  "en": "List Tab",
+  "tr": "Вкладка списка"
+ },
+ {
+  "en": "Listen Port",
+  "tr": "Порт прослушивания"
+ },
+ {
+  "en": "Local forwarding",
+  "tr": "Локальная пересылка"
+ },
+ {
+  "en": "Locate Message",
+  "tr": "Найти сообщение"
+ },
+ {
+  "en": "Location",
+  "tr": "Расположение"
+ },
+ {
+  "en": "Lock Screen",
+  "tr": "Блокировка экрана"
+ },
+ {
+  "en": "Lock screen timeout",
+  "tr": "Тайм-аут блокировки экрана"
+ },
+ {
+  "en": "Lock Selection",
+  "tr": "Заблокировать выделение"
+ },
+ {
+  "en": "Log",
+  "tr": "Журнал"
+ },
+ {
+  "en": "Log all session output",
+  "tr": "Записывать весь вывод сессии"
+ },
+ {
+  "en": "Log content pattern",
+  "tr": "Шаблон содержимого журнала"
+ },
+ {
+  "en": "Log Dialog",
+  "tr": "Диалог журнала"
+ },
+ {
+  "en": "Log file",
+  "tr": "Файл журнала"
+ },
+ {
+  "en": "Log file name",
+  "tr": "Имя файла журнала"
+ },
+ {
+  "en": "Log maximum size",
+  "tr": "Максимальный размер журнала"
+ },
+ {
+  "en": "Log nothing",
+  "tr": "Ничего не логировать"
+ },
+ {
+  "en": "Log option",
+  "tr": "Параметр журнала"
+ },
+ {
+  "en": "Log options",
+  "tr": "Параметры журнала"
+ },
+ {
+  "en": "Log pattern",
+  "tr": "Шаблон журнала"
+ },
+ {
+  "en": "Log printable output",
+  "tr": "Логировать печатаемый вывод"
+ },
+ {
+  "en": "Log type",
+  "tr": "Тип журнала"
+ },
+ {
+  "en": "Log types",
+  "tr": "Типы журналов"
+ },
+ {
+  "en": "Logging",
+  "tr": "Логирование"
+ },
+ {
+  "en": "Login",
+  "tr": "Вход"
+ },
+ {
+  "en": "Login Wizard",
+  "tr": "Мастер входа"
+ },
+ {
+  "en": "Long Time/Date",
+  "tr": "Длинный формат времени/даты"
+ },
+ {
+  "en": "Look both guide",
+  "tr": "Двусторонняя направляющая"
+ },
+ {
+  "en": "Look forward guide",
+  "tr": "Направляющая вперёд"
+ },
+ {
+  "en": "MAC Hashes",
+  "tr": "Хеши MAC"
+ },
+ {
+  "en": "MAC hashes order",
+  "tr": "Порядок хешей MAC"
+ },
+ {
+  "en": "Margin Blank",
+  "tr": "Пустое поле"
+ },
+ {
+  "en": "Margin Fold",
+  "tr": "Поле свёртки"
+ },
+ {
+  "en": "Margin Number",
+  "tr": "Поле номеров"
+ },
+ {
+  "en": "Margin Symbol",
+  "tr": "Поле символов"
+ },
+ {
+  "en": "Margin Text",
+  "tr": "Текстовое поле"
+ },
+ {
+  "en": "Margin Timestamp",
+  "tr": "Поле временных меток"
+ },
+ {
+  "en": "Margins",
+  "tr": "Поля"
+ },
+ {
+  "en": "Marker style",
+  "tr": "Стиль маркера"
+ },
+ {
+  "en": "Max data before rekey (MBytes)",
+  "tr": "Макс. данных до смены ключа (МБ)"
+ },
+ {
+  "en": "Max time before rekey (Minutes)",
+  "tr": "Макс. время до смены ключа (минуты)"
+ },
+ {
+  "en": "Maximum connection timeout",
+  "tr": "Максимальный тайм-аут соединения"
+ },
+ {
+  "en": "MB",
+  "tr": "МБ"
+ },
+ {
+  "en": "Medium",
+  "tr": "Средний"
+ },
+ {
+  "en": "Medium Orchid",
+  "tr": "Средняя орхидея"
+ },
+ {
+  "en": "Medium Slate Blue",
+  "tr": "Средний грифельно-синий"
+ },
+ {
+  "en": "Menu Bar",
+  "tr": "Строка меню"
+ },
+ {
+  "en": "Merge To Group",
+  "tr": "Объединить в группу"
+ },
+ {
+  "en": "Middle click",
+  "tr": "Средний клик"
+ },
+ {
+  "en": "Middle click event",
+  "tr": "Событие среднего клика"
+ },
+ {
+  "en": "Milliseconds",
+  "tr": "Миллисекунды"
+ },
+ {
+  "en": "Minutes",
+  "tr": "Минуты"
+ },
+ {
+  "en": "minutes",
+  "tr": "минут"
+ },
+ {
+  "en": "Mismatched",
+  "tr": "Несовпадение"
+ },
+ {
+  "en": "Mode",
+  "tr": "Режим"
+ },
+ {
+  "en": "Modem waiting",
+  "tr": "Ожидание модема"
+ },
+ {
+  "en": "Modes",
+  "tr": "Режимы"
+ },
+ {
+  "en": "Modified",
+  "tr": "Изменён"
+ },
+ {
+  "en": "Modify",
+  "tr": "Изменить"
+ },
+ {
+  "en": "Modify Lines",
+  "tr": "Изменить строки"
+ },
+ {
+  "en": "Month",
+  "tr": "Месяц"
+ },
+ {
+  "en": "More",
+  "tr": "Ещё"
+ },
+ {
+  "en": "Mouse Actions",
+  "tr": "Действия мыши"
+ },
+ {
+  "en": "Mouse Tracking",
+  "tr": "Отслеживание мыши"
+ },
+ {
+  "en": "Move event",
+  "tr": "Событие перемещения"
+ },
+ {
+  "en": "Move to",
+  "tr": "Переместить в"
+ },
+ {
+  "en": "Move To Group",
+  "tr": "Переместить в группу"
+ },
+ {
+  "en": "Multiple Caret",
+  "tr": "Множественная каретка"
+ },
+ {
+  "en": "Name",
+  "tr": "Имя"
+ },
+ {
+  "en": "nesting groups",
+  "tr": "вложенные группы"
+ },
+ {
+  "en": "Never",
+  "tr": "Никогда"
+ },
+ {
+  "en": "New File",
+  "tr": "Новый файл"
+ },
+ {
+  "en": "New Line",
+  "tr": "Новая строка"
+ },
+ {
+  "en": "New password",
+  "tr": "Новый пароль"
+ },
+ {
+  "en": "New Session",
+  "tr": "Новая сессия"
+ },
+ {
+  "en": "New Window",
+  "tr": "Новое окно"
+ },
+ {
+  "en": "Next Char",
+  "tr": "Следующий символ"
+ },
+ {
+  "en": "Next Fold",
+  "tr": "Следующая свёртка"
+ },
+ {
+  "en": "Next Indentation",
+  "tr": "Следующий отступ"
+ },
+ {
+  "en": "Next Line",
+  "tr": "Следующая строка"
+ },
+ {
+  "en": "Next Message",
+  "tr": "Следующее сообщение"
+ },
+ {
+  "en": "Next Page",
+  "tr": "Следующая страница"
+ },
+ {
+  "en": "Next Pair",
+  "tr": "Следующая пара"
+ },
+ {
+  "en": "Next Paragraph",
+  "tr": "Следующий абзац"
+ },
+ {
+  "en": "Next Scope",
+  "tr": "Следующая область"
+ },
+ {
+  "en": "Next Segment End",
+  "tr": "Конец следующего сегмента"
+ },
+ {
+  "en": "Next Segment Start",
+  "tr": "Начало следующего сегмента"
+ },
+ {
+  "en": "Next Stuttered Page",
+  "tr": "Следующая страница с заиканием"
+ },
+ {
+  "en": "Next Word",
+  "tr": "Следующее слово"
+ },
+ {
+  "en": "Next Word End",
+  "tr": "Конец следующего слова"
+ },
+ {
+  "en": "Next Word Part",
+  "tr": "Следующая часть слова"
+ },
+ {
+  "en": "No",
+  "tr": "Нет"
+ },
+ {
+  "en": "No action",
+  "tr": "Нет действия"
+ },
+ {
+  "en": "No Dirs",
+  "tr": "Нет каталогов"
+ },
+ {
+  "en": "No elide",
+  "tr": "Не сокращать"
+ },
+ {
+  "en": "No file opened",
+  "tr": "Файл не открыт"
+ },
+ {
+  "en": "No filer available",
+  "tr": "Нет файлового менеджера"
+ },
+ {
+  "en": "No Files",
+  "tr": "Нет файлов"
+ },
+ {
+  "en": "No files selected to transfer.",
+  "tr": "Не выбрано файлов для передачи."
+ },
+ {
+  "en": "No item opened",
+  "tr": "Ничего не открыто"
+ },
+ {
+  "en": "No outline available",
+  "tr": "Нет структуры"
+ },
+ {
+  "en": "No session",
+  "tr": "Нет сессии"
+ },
+ {
+  "en": "No session available",
+  "tr": "Нет доступных сессий"
+ },
+ {
+  "en": "No session opened",
+  "tr": "Сессия не открыта"
+ },
+ {
+  "en": "No Sessions",
+  "tr": "Нет сессий"
+ },
+ {
+  "en": "No supported authentication methods available.",
+  "tr": "Нет поддерживаемых методов аутентификации."
+ },
+ {
+  "en": "No transfer available",
+  "tr": "Нет доступных передач"
+ },
+ {
+  "en": "No wrap",
+  "tr": "Без переноса"
+ },
+ {
+  "en": "No X display",
+  "tr": "Нет X-дисплея"
+ },
+ {
+  "en": "None",
+  "tr": "Нет"
+ },
+ {
+  "en": "None tabs",
+  "tr": "Нет вкладок"
+ },
+ {
+  "en": "Normal",
+  "tr": "Обычный"
+ },
+ {
+  "en": "Now",
+  "tr": "Сейчас"
+ },
+ {
+  "en": "Nowhere",
+  "tr": "Нигде"
+ },
+ {
+  "en": "Octal",
+  "tr": "Восьмеричный"
+ },
+ {
+  "en": "OEM to ANSI",
+  "tr": "OEM в ANSI"
+ },
+ {
+  "en": "Off",
+  "tr": "Выкл"
+ },
+ {
+  "en": "off",
+  "tr": "выкл"
+ },
+ {
+  "en": "Ok",
+  "tr": "ОК"
+ },
+ {
+  "en": "Old",
+  "tr": "Старый"
+ },
+ {
+  "en": "Old password",
+  "tr": "Старый пароль"
+ },
+ {
+  "en": "Olive",
+  "tr": "Оливковый"
+ },
+ {
+  "en": "One or more sessions are opening, \nDo you want to close the current window?",
+  "tr": "Открывается одна или несколько сессий.\nЗакрыть текущее окно?"
+ },
+ {
+  "en": "Only disk file can be reloaded!",
+  "tr": "Перезагружать можно только файлы на диске!"
+ },
+ {
+  "en": "Only indentation",
+  "tr": "Только отступы"
+ },
+ {
+  "en": "Opaque",
+  "tr": "Непрозрачный"
+ },
+ {
+  "en": "Open",
+  "tr": "Открыть"
+ },
+ {
+  "en": "open",
+  "tr": "открыть"
+ },
+ {
+  "en": "Open directory after created",
+  "tr": "Открыть каталог после создания"
+ },
+ {
+  "en": "Open directory after download",
+  "tr": "Открыть каталог после загрузки"
+ },
+ {
+  "en": "Open File",
+  "tr": "Открыть файл"
+ },
+ {
+  "en": "Open file",
+  "tr": "Открыть файл"
+ },
+ {
+  "en": "Open file after created",
+  "tr": "Открыть файл после создания"
+ },
+ {
+  "en": "Open file failed!",
+  "tr": "Не удалось открыть файл!"
+ },
+ {
+  "en": "Open jump server failed!",
+  "tr": "Не удалось открыть прыжковый сервер!"
+ },
+ {
+  "en": "Open Log File",
+  "tr": "Открыть файл журнала"
+ },
+ {
+  "en": "Open Log Folder",
+  "tr": "Открыть папку журнала"
+ },
+ {
+  "en": "Open Recent",
+  "tr": "Открыть недавние"
+ },
+ {
+  "en": "Open Selection",
+  "tr": "Открыть выделенное"
+ },
+ {
+  "en": "Open Session",
+  "tr": "Открыть сессию"
+ },
+ {
+  "en": "Open session failed!",
+  "tr": "Не удалось открыть сессию!"
+ },
+ {
+  "en": "Open target directory",
+  "tr": "Открыть целевой каталог"
+ },
+ {
+  "en": "Opened",
+  "tr": "Открыто"
+ },
+ {
+  "en": "Openssh sessions",
+  "tr": "Сессии OpenSSH"
+ },
+ {
+  "en": "Others",
+  "tr": "Другие"
+ },
+ {
+  "en": "Outline",
+  "tr": "Структура"
+ },
+ {
+  "en": "Output",
+  "tr": "Вывод"
+ },
+ {
+  "en": "Overtype",
+  "tr": "Замена"
+ },
+ {
+  "en": "Overwrite",
+  "tr": "Перезаписать"
+ },
+ {
+  "en": "Overwrite log file",
+  "tr": "Перезаписывать файл журнала"
+ },
+ {
+  "en": "Overwrite when source file newer",
+  "tr": "Перезаписывать, если исходный файл новее"
+ },
+ {
+  "en": "Overwrite when source file newer or longer",
+  "tr": "Перезаписывать, если исходный файл новее или длиннее"
+ },
+ {
+  "en": "Owner",
+  "tr": "Владелец"
+ },
+ {
+  "en": "Packet padding char",
+  "tr": "Символ заполнения пакета"
+ },
+ {
+  "en": "Packet size",
+  "tr": "Размер пакета"
+ },
+ {
+  "en": "Page",
+  "tr": "Страница"
+ },
+ {
+  "en": "page",
+  "tr": "страница"
+ },
+ {
+  "en": "Pair",
+  "tr": "Пара"
+ },
+ {
+  "en": "Panes",
+  "tr": "Панели"
+ },
+ {
+  "en": "Paragraph",
+  "tr": "Абзац"
+ },
+ {
+  "en": "Parity",
+  "tr": "Чётность"
+ },
+ {
+  "en": "Passphrase",
+  "tr": "Ключевая фраза"
+ },
+ {
+  "en": "Password",
+  "tr": "Пароль"
+ },
+ {
+  "en": "Password quality meter",
+  "tr": "Индикатор надёжности пароля"
+ },
+ {
+  "en": "Paste",
+  "tr": "Вставить"
+ },
+ {
+  "en": "Paste Dialog",
+  "tr": "Диалог вставки"
+ },
+ {
+  "en": "Paste text",
+  "tr": "Вставить текст"
+ },
+ {
+  "en": "Pause",
+  "tr": "Пауза"
+ },
+ {
+  "en": "Paused",
+  "tr": "Приостановлено"
+ },
+ {
+  "en": "Pausing",
+  "tr": "Приостановка"
+ },
+ {
+  "en": "Perform DNS lookup with proxy",
+  "tr": "Выполнять DNS-запросы через прокси"
+ },
+ {
+  "en": "Period",
+  "tr": "Период"
+ },
+ {
+  "en": "Permissions",
+  "tr": "Права доступа"
+ },
+ {
+  "en": "pixels",
+  "tr": "пиксели"
+ },
+ {
+  "en": "Please input a new name for this view",
+  "tr": "Введите новое имя для этого представления"
+ },
+ {
+  "en": "Please input master password, empty or cancel to disable",
+  "tr": "Введите главный пароль (пусто или отмена для отключения)"
+ },
+ {
+  "en": "Please input new group",
+  "tr": "Введите новую группу"
+ },
+ {
+  "en": "Please make sure you remember the Master Password you have set.",
+  "tr": "Убедитесь, что вы запомнили установленный главный пароль."
+ },
+ {
+  "en": "Port",
+  "tr": "Порт"
+ },
+ {
+  "en": "Prefer theme fonts",
+  "tr": "Предпочитать шрифты темы"
+ },
+ {
+  "en": "Preferences",
+  "tr": "Настройки"
+ },
+ {
+  "en": "Preserve",
+  "tr": "Сохранять"
+ },
+ {
+  "en": "Preview All",
+  "tr": "Предпросмотр всего"
+ },
+ {
+  "en": "Preview Symbol",
+  "tr": "Предпросмотр символа"
+ },
+ {
+  "en": "Previous Char",
+  "tr": "Предыдущий символ"
+ },
+ {
+  "en": "Previous Fold",
+  "tr": "Предыдущая свёртка"
+ },
+ {
+  "en": "Previous Indentation",
+  "tr": "Предыдущий отступ"
+ },
+ {
+  "en": "Previous Line",
+  "tr": "Предыдущая строка"
+ },
+ {
+  "en": "Previous Message",
+  "tr": "Предыдущее сообщение"
+ },
+ {
+  "en": "Previous Page",
+  "tr": "Предыдущая страница"
+ },
+ {
+  "en": "Previous Pair",
+  "tr": "Предыдущая пара"
+ },
+ {
+  "en": "Previous Paragraph",
+  "tr": "Предыдущий абзац"
+ },
+ {
+  "en": "Previous Scope",
+  "tr": "Предыдущая область"
+ },
+ {
+  "en": "Previous Segment End",
+  "tr": "Конец предыдущего сегмента"
+ },
+ {
+  "en": "Previous Segment Start",
+  "tr": "Начало предыдущего сегмента"
+ },
+ {
+  "en": "Previous Stuttered Page",
+  "tr": "Предыдущая страница с заиканием"
+ },
+ {
+  "en": "Previous Word",
+  "tr": "Предыдущее слово"
+ },
+ {
+  "en": "Previous Word End",
+  "tr": "Конец предыдущего слова"
+ },
+ {
+  "en": "Previous Word Part",
+  "tr": "Предыдущая часть слова"
+ },
+ {
+  "en": "Printable output",
+  "tr": "Печатаемый вывод"
+ },
+ {
+  "en": "Process",
+  "tr": "Процесс"
+ },
+ {
+  "en": "Process %1 crashed.",
+  "tr": "Процесс %1 аварийно завершился."
+ },
+ {
+  "en": "Process %1 failed to start.",
+  "tr": "Не удалось запустить процесс %1."
+ },
+ {
+  "en": "Process %1 timeout.",
+  "tr": "Тайм-аут процесса %1."
+ },
+ {
+  "en": "Program [Arguments]",
+  "tr": "Программа [Аргументы]"
+ },
+ {
+  "en": "Project",
+  "tr": "Проект"
+ },
+ {
+  "en": "Properties",
+  "tr": "Свойства"
+ },
+ {
+  "en": "Property",
+  "tr": "Свойство"
+ },
+ {
+  "en": "Protocol",
+  "tr": "Протокол"
+ },
+ {
+  "en": "Proxy",
+  "tr": "Прокси"
+ },
+ {
+  "en": "Proxy Host",
+  "tr": "Прокси-хост"
+ },
+ {
+  "en": "Proxy Port",
+  "tr": "Порт прокси"
+ },
+ {
+  "en": "Proxy Settings",
+  "tr": "Настройки прокси"
+ },
+ {
+  "en": "Proxy Type",
+  "tr": "Тип прокси"
+ },
+ {
+  "en": "Public Key",
+  "tr": "Открытый ключ"
+ },
+ {
+  "en": "Public Keys",
+  "tr": "Открытые ключи"
+ },
+ {
+  "en": "Public keys order",
+  "tr": "Порядок открытых ключей"
+ },
+ {
+  "en": "Putty sessions",
+  "tr": "Сессии PuTTY"
+ },
+ {
+  "en": "Query URL",
+  "tr": "URL запроса"
+ },
+ {
+  "en": "Question",
+  "tr": "Вопрос"
+ },
+ {
+  "en": "Quick",
+  "tr": "Быстрый"
+ },
+ {
+  "en": "Quick Bar",
+  "tr": "Быстрая панель"
+ },
+ {
+  "en": "Quick Commands",
+  "tr": "Быстрые команды"
+ },
+ {
+  "en": "Read Only",
+  "tr": "Только чтение"
+ },
+ {
+  "en": "Ready",
+  "tr": "Готов"
+ },
+ {
+  "en": "Real guide",
+  "tr": "Реальная направляющая"
+ },
+ {
+  "en": "Receive XModem",
+  "tr": "Принять XModem"
+ },
+ {
+  "en": "Receive YModem",
+  "tr": "Принять YModem"
+ },
+ {
+  "en": "Receive ZModem",
+  "tr": "Принять ZModem"
+ },
+ {
+  "en": "received",
+  "tr": "получено"
+ },
+ {
+  "en": "Recent",
+  "tr": "Недавние"
+ },
+ {
+  "en": "Recent Sessions",
+  "tr": "Недавние сессии"
+ },
+ {
+  "en": "Reconnect Session",
+  "tr": "Переподключиться к сессии"
+ },
+ {
+  "en": "Rectangle",
+  "tr": "Прямоугольник"
+ },
+ {
+  "en": "rectangle",
+  "tr": "прямоугольник"
+ },
+ {
+  "en": "Red",
+  "tr": "Красный"
+ },
+ {
+  "en": "Redo",
+  "tr": "Повторить"
+ },
+ {
+  "en": "Redo %1 Actions",
+  "tr": "Повторить %1 действий"
+ },
+ {
+  "en": "Refresh",
+  "tr": "Обновить"
+ },
+ {
+  "en": "Reload",
+  "tr": "Перезагрузить"
+ },
+ {
+  "en": "Reload File",
+  "tr": "Перезагрузить файл"
+ },
+ {
+  "en": "Reload With Encoding",
+  "tr": "Перезагрузить с кодировкой"
+ },
+ {
+  "en": "Remote forwarding",
+  "tr": "Удалённая пересылка"
+ },
+ {
+  "en": "Remote path",
+  "tr": "Удалённый путь"
+ },
+ {
+  "en": "Remove",
+  "tr": "Удалить"
+ },
+ {
+  "en": "remove",
+  "tr": "удалить"
+ },
+ {
+  "en": "Remove Blank Lines",
+  "tr": "Удалить пустые строки"
+ },
+ {
+  "en": "Remove Duplicate Lines",
+  "tr": "Удалить дублирующиеся строки"
+ },
+ {
+  "en": "Remove Group",
+  "tr": "Удалить группу"
+ },
+ {
+  "en": "Remove items",
+  "tr": "Удалить элементы"
+ },
+ {
+  "en": "Remove Sender",
+  "tr": "Удалить отправителя"
+ },
+ {
+  "en": "Removing",
+  "tr": "Удаление"
+ },
+ {
+  "en": "Rename",
+  "tr": "Переименовать"
+ },
+ {
+  "en": "Rename Group",
+  "tr": "Переименовать группу"
+ },
+ {
+  "en": "Rename tab",
+  "tr": "Переименовать вкладку"
+ },
+ {
+  "en": "Rename View",
+  "tr": "Переименовать представление"
+ },
+ {
+  "en": "Reopen Closed View",
+  "tr": "Открыть закрытое представление"
+ },
+ {
+  "en": "Repeat Last Command",
+  "tr": "Повторить последнюю команду"
+ },
+ {
+  "en": "Repeatedly Execute",
+  "tr": "Многократное выполнение"
+ },
+ {
+  "en": "Replace",
+  "tr": "Заменить"
+ },
+ {
+  "en": "Replace All",
+  "tr": "Заменить всё"
+ },
+ {
+  "en": "Replace in Files",
+  "tr": "Заменить в файлах"
+ },
+ {
+  "en": "Requires a restart to take affect",
+  "tr": "Требуется перезапуск для вступления в силу"
+ },
+ {
+  "en": "Reset",
+  "tr": "Сбросить"
+ },
+ {
+  "en": "Reset Character Set",
+  "tr": "Сбросить набор символов"
+ },
+ {
+  "en": "Reset Zoom",
+  "tr": "Сбросить масштаб"
+ },
+ {
+  "en": "Resume",
+  "tr": "Возобновить"
+ },
+ {
+  "en": "Resuming",
+  "tr": "Возобновление"
+ },
+ {
+  "en": "Right click",
+  "tr": "Правый клик"
+ },
+ {
+  "en": "Right click event",
+  "tr": "Событие правого клика"
+ },
+ {
+  "en": "Right Docks",
+  "tr": "Правая панель"
+ },
+ {
+  "en": "Right Group",
+  "tr": "Правая группа"
+ },
+ {
+  "en": "Roll the mouse wheel to scroll",
+  "tr": "Прокрутка колесом мыши"
+ },
+ {
+  "en": "Rows",
+  "tr": "Строки"
+ },
+ {
+  "en": "Royal Blue",
+  "tr": "Королевский синий"
+ },
+ {
+  "en": "Run Tool",
+  "tr": "Запустить инструмент"
+ },
+ {
+  "en": "Save",
+  "tr": "Сохранить"
+ },
+ {
+  "en": "Save All",
+  "tr": "Сохранить всё"
+ },
+ {
+  "en": "Save As",
+  "tr": "Сохранить как"
+ },
+ {
+  "en": "Save Copy As",
+  "tr": "Сохранить копию как"
+ },
+ {
+  "en": "Save file failed!",
+  "tr": "Не удалось сохранить файл!"
+ },
+ {
+  "en": "Save Selection As",
+  "tr": "Сохранить выделенное как"
+ },
+ {
+  "en": "Save Session",
+  "tr": "Сохранить сессию"
+ },
+ {
+  "en": "Saved automatic authentication",
+  "tr": "Сохранённая автоматическая аутентификация"
+ },
+ {
+  "en": "Scheme Tools",
+  "tr": "Инструменты схемы"
+ },
+ {
+  "en": "Scope",
+  "tr": "Область видимости"
+ },
+ {
+  "en": "Screen Locked",
+  "tr": "Экран заблокирован"
+ },
+ {
+  "en": "Scroll Left",
+  "tr": "Прокрутить влево"
+ },
+ {
+  "en": "Scroll Line Down",
+  "tr": "Прокрутить строку вниз"
+ },
+ {
+  "en": "Scroll Line Up",
+  "tr": "Прокрутить строку вверх"
+ },
+ {
+  "en": "Scroll Right",
+  "tr": "Прокрутить вправо"
+ },
+ {
+  "en": "Search",
+  "tr": "Поиск"
+ },
+ {
+  "en": "Search engine",
+  "tr": "Поисковая система"
+ },
+ {
+  "en": "Search Engine",
+  "tr": "Поисковая система"
+ },
+ {
+  "en": "Search Engines",
+  "tr": "Поисковые системы"
+ },
+ {
+  "en": "Search Online",
+  "tr": "Искать в интернете"
+ },
+ {
+  "en": "Search or enter address",
+  "tr": "Поиск или ввод адреса"
+ },
+ {
+  "en": "Searching",
+  "tr": "Поиск"
+ },
+ {
+  "en": "Seconds",
+  "tr": "Секунды"
+ },
+ {
+  "en": "seconds",
+  "tr": "секунд"
+ },
+ {
+  "en": "Security",
+  "tr": "Безопасность"
+ },
+ {
+  "en": "Segment",
+  "tr": "Сегмент"
+ },
+ {
+  "en": "Select",
+  "tr": "Выбрать"
+ },
+ {
+  "en": "Select All",
+  "tr": "Выбрать всё"
+ },
+ {
+  "en": "Select Column To",
+  "tr": "Выбрать столбец до"
+ },
+ {
+  "en": "Select directory to receive",
+  "tr": "Выберите каталог для приёма"
+ },
+ {
+  "en": "Select files to send",
+  "tr": "Выберите файлы для отправки"
+ },
+ {
+  "en": "Select Fold",
+  "tr": "Выбрать свёртку"
+ },
+ {
+  "en": "Select Snippet Backward",
+  "tr": "Выбрать сниппет назад"
+ },
+ {
+  "en": "Select Snippet Forward",
+  "tr": "Выбрать сниппет вперёд"
+ },
+ {
+  "en": "Select To",
+  "tr": "Выбрать до"
+ },
+ {
+  "en": "Selected position",
+  "tr": "Выбранная позиция"
+ },
+ {
+  "en": "Selected Sessions",
+  "tr": "Выбранные сессии"
+ },
+ {
+  "en": "Selection",
+  "tr": "Выделение"
+ },
+ {
+  "en": "Send",
+  "tr": "Отправить"
+ },
+ {
+  "en": "Send Line By Line",
+  "tr": "Отправить построчно"
+ },
+ {
+  "en": "Send Text",
+  "tr": "Отправить текст"
+ },
+ {
+  "en": "Send XModem",
+  "tr": "Отправить XModem"
+ },
+ {
+  "en": "Send YModem",
+  "tr": "Отправить YModem"
+ },
+ {
+  "en": "Send ZModem",
+  "tr": "Отправить ZModem"
+ },
+ {
+  "en": "Sender",
+  "tr": "Отправитель"
+ },
+ {
+  "en": "Sending %1 failed: %2",
+  "tr": "Ошибка отправки %1: %2"
+ },
+ {
+  "en": "Sending: %1",
+  "tr": "Отправка: %1"
+ },
+ {
+  "en": "Sends null packet to keep session alive",
+  "tr": "Отправлять нулевые пакеты для поддержания сессии"
+ },
+ {
+  "en": "sent",
+  "tr": "отправлено"
+ },
+ {
+  "en": "Serial",
+  "tr": "Последовательный порт"
+ },
+ {
+  "en": "Server",
+  "tr": "Сервер"
+ },
+ {
+  "en": "Session",
+  "tr": "Сессия"
+ },
+ {
+  "en": "session",
+  "tr": "сессия"
+ },
+ {
+  "en": "Session Group",
+  "tr": "Группа сессий"
+ },
+ {
+  "en": "Session Log",
+  "tr": "Журнал сессии"
+ },
+ {
+  "en": "Session name",
+  "tr": "Имя сессии"
+ },
+ {
+  "en": "Session Settings",
+  "tr": "Настройки сессии"
+ },
+ {
+  "en": "Sessions In All Windows",
+  "tr": "Сессии во всех окнах"
+ },
+ {
+  "en": "Sessions In Current Group",
+  "tr": "Сессии в текущей группе"
+ },
+ {
+  "en": "Sessions In Current Window",
+  "tr": "Сессии в текущем окне"
+ },
+ {
+  "en": "Sessions In Group %1",
+  "tr": "Сессии в группе %1"
+ },
+ {
+  "en": "Set Tab Color",
+  "tr": "Установить цвет вкладки"
+ },
+ {
+  "en": "Settings",
+  "tr": "Настройки"
+ },
+ {
+  "en": "SHA1",
+  "tr": "SHA1"
+ },
+ {
+  "en": "Shape",
+  "tr": "Форма"
+ },
+ {
+  "en": "Shell",
+  "tr": "Оболочка"
+ },
+ {
+  "en": "Shell sessions",
+  "tr": "Сессии оболочки"
+ },
+ {
+  "en": "Shell Sessions",
+  "tr": "Сессии оболочки"
+ },
+ {
+  "en": "Short Time/Date",
+  "tr": "Короткий формат времени/даты"
+ },
+ {
+  "en": "Show",
+  "tr": "Показать"
+ },
+ {
+  "en": "Show All",
+  "tr": "Показать всё"
+ },
+ {
+  "en": "Show All Opened and Recent Editors",
+  "tr": "Показать все открытые и недавние редакторы"
+ },
+ {
+  "en": "Show All Opened and Recent Terminals",
+  "tr": "Показать все открытые и недавние терминалы"
+ },
+ {
+  "en": "Show and Run Actions",
+  "tr": "Показать и выполнить действия"
+ },
+ {
+  "en": "Show close tab confirmation dialog",
+  "tr": "Показывать подтверждение закрытия вкладки"
+ },
+ {
+  "en": "Show close window confirmation dialog",
+  "tr": "Показывать подтверждение закрытия окна"
+ },
+ {
+  "en": "Show column markers",
+  "tr": "Показывать маркеры столбцов"
+ },
+ {
+  "en": "Show commands in alphabetical order",
+  "tr": "Показывать команды в алфавитном порядке"
+ },
+ {
+  "en": "Show current %1 property",
+  "tr": "Показать текущее свойство %1"
+ },
+ {
+  "en": "Show group commands in order",
+  "tr": "Показывать групповые команды по порядку"
+ },
+ {
+  "en": "Show group title",
+  "tr": "Показывать заголовок группы"
+ },
+ {
+  "en": "Show hidden items",
+  "tr": "Показывать скрытые элементы"
+ },
+ {
+  "en": "Show in %1",
+  "tr": "Показать в %1"
+ },
+ {
+  "en": "Show In Line End",
+  "tr": "Показать в конце строки"
+ },
+ {
+  "en": "Show In Line Start",
+  "tr": "Показать в начале строки"
+ },
+ {
+  "en": "Show In Selection",
+  "tr": "Показать в выделении"
+ },
+ {
+  "en": "Show indent guide",
+  "tr": "Показывать направляющие отступа"
+ },
+ {
+  "en": "Show line endings",
+  "tr": "Показывать окончания строк"
+ },
+ {
+  "en": "Show menu",
+  "tr": "Показывать меню"
+ },
+ {
+  "en": "Show More Tools",
+  "tr": "Показать ещё инструменты"
+ },
+ {
+  "en": "Show multiple groups",
+  "tr": "Показывать несколько групп"
+ },
+ {
+  "en": "Show paste dialog on the alternative screen",
+  "tr": "Показывать диалог вставки на альтернативном экране"
+ },
+ {
+  "en": "Show paste dialog on the main screen",
+  "tr": "Показывать диалог вставки на основном экране"
+ },
+ {
+  "en": "Show spaces and tabs",
+  "tr": "Показывать пробелы и табуляции"
+ },
+ {
+  "en": "Show Tabs",
+  "tr": "Показывать вкладки"
+ },
+ {
+  "en": "Show Text",
+  "tr": "Показать текст"
+ },
+ {
+  "en": "Show the tab number on tabs",
+  "tr": "Показывать номер вкладки"
+ },
+ {
+  "en": "Show this dialog when focus mode starts",
+  "tr": "Показывать этот диалог при входе в режим фокуса"
+ },
+ {
+  "en": "Show wrap symbols",
+  "tr": "Показывать символы переноса"
+ },
+ {
+  "en": "Shrink",
+  "tr": "Уменьшить"
+ },
+ {
+  "en": "Size",
+  "tr": "Размер"
+ },
+ {
+  "en": "Skip",
+  "tr": "Пропустить"
+ },
+ {
+  "en": "Soft Reset",
+  "tr": "Мягкий сброс"
+ },
+ {
+  "en": "Sort",
+  "tr": "Сортировать"
+ },
+ {
+  "en": "Sort Lines Case Insensitive",
+  "tr": "Сортировать строки без учёта регистра"
+ },
+ {
+  "en": "Sort Lines Case Sensitive",
+  "tr": "Сортировать строки с учётом регистра"
+ },
+ {
+  "en": "Sort Lines In Random Order",
+  "tr": "Сортировать строки в случайном порядке"
+ },
+ {
+  "en": "Sort Lines In Reverse Order",
+  "tr": "Сортировать строки в обратном порядке"
+ },
+ {
+  "en": "spaces",
+  "tr": "пробелы"
+ },
+ {
+  "en": "Spaces to Tabs",
+  "tr": "Преобразовать пробелы в табуляцию"
+ },
+ {
+  "en": "Spacing",
+  "tr": "Интервал"
+ },
+ {
+  "en": "Special",
+  "tr": "Специальный"
+ },
+ {
+  "en": "Specify the protocol when dragging and dropping files",
+  "tr": "Указывать протокол при перетаскивании файлов"
+ },
+ {
+  "en": "Speed",
+  "tr": "Скорость"
+ },
+ {
+  "en": "Split",
+  "tr": "Разделить"
+ },
+ {
+  "en": "Split Group Horizontally",
+  "tr": "Разделить группу горизонтально"
+ },
+ {
+  "en": "Split Group Vertically",
+  "tr": "Разделить группу вертикально"
+ },
+ {
+  "en": "Split Lines",
+  "tr": "Разделить строки"
+ },
+ {
+  "en": "Split Selection",
+  "tr": "Разделить выделение"
+ },
+ {
+  "en": "Split To Group",
+  "tr": "Разделить на группу"
+ },
+ {
+  "en": "Split View Horizontally",
+  "tr": "Разделить представление горизонтально"
+ },
+ {
+  "en": "Split View Vertically",
+  "tr": "Разделить представление вертикально"
+ },
+ {
+  "en": "Start",
+  "tr": "Запуск"
+ },
+ {
+  "en": "Start Of Document",
+  "tr": "Начало документа"
+ },
+ {
+  "en": "Start Of Line",
+  "tr": "Начало строки"
+ },
+ {
+  "en": "Start Of Pair",
+  "tr": "Начало пары"
+ },
+ {
+  "en": "Startup",
+  "tr": "При запуске"
+ },
+ {
+  "en": "Stash",
+  "tr": "Отложенное"
+ },
+ {
+  "en": "Status Bar",
+  "tr": "Строка состояния"
+ },
+ {
+  "en": "Stdin",
+  "tr": "Stdin"
+ },
+ {
+  "en": "Stdout",
+  "tr": "Stdout"
+ },
+ {
+  "en": "Steel Blue",
+  "tr": "Стальной синий"
+ },
+ {
+  "en": "Sticky",
+  "tr": "Липкий"
+ },
+ {
+  "en": "Stop",
+  "tr": "Остановить"
+ },
+ {
+  "en": "Stop Bits",
+  "tr": "Стоп-биты"
+ },
+ {
+  "en": "Stop loading",
+  "tr": "Остановить загрузку"
+ },
+ {
+  "en": "Stop sender",
+  "tr": "Остановить отправителя"
+ },
+ {
+  "en": "Stop Tools",
+  "tr": "Остановить инструменты"
+ },
+ {
+  "en": "Stop watching this file",
+  "tr": "Прекратить отслеживать этот файл"
+ },
+ {
+  "en": "Switch Stream And Column",
+  "tr": "Переключить поток и столбец"
+ },
+ {
+  "en": "switch to tab",
+  "tr": "переключиться на вкладку"
+ },
+ {
+  "en": "Symbols",
+  "tr": "Символы"
+ },
+ {
+  "en": "Sync channel",
+  "tr": "Синхронизировать канал"
+ },
+ {
+  "en": "Sync Edit",
+  "tr": "Синхронизация редактирования"
+ },
+ {
+  "en": "Sync Input",
+  "tr": "Синхронизация ввода"
+ },
+ {
+  "en": "Synchronizing input in channel %1",
+  "tr": "Синхронизация ввода в канале %1"
+ },
+ {
+  "en": "Syntax Schemes",
+  "tr": "Схемы синтаксиса"
+ },
+ {
+  "en": "System",
+  "tr": "Система"
+ },
+ {
+  "en": "Tab",
+  "tr": "Вкладка"
+ },
+ {
+  "en": "Tab Color",
+  "tr": "Цвет вкладки"
+ },
+ {
+  "en": "Tab Features",
+  "tr": "Возможности вкладок"
+ },
+ {
+  "en": "Tab Group",
+  "tr": "Группа вкладок"
+ },
+ {
+  "en": "Tab Index",
+  "tr": "Индекс вкладки"
+ },
+ {
+  "en": "Tab size",
+  "tr": "Размер табуляции"
+ },
+ {
+  "en": "Tab text elide mode",
+  "tr": "Режим сокращения текста вкладки"
+ },
+ {
+  "en": "Tab thumbnail radio",
+  "tr": "Эскиз вкладки"
+ },
+ {
+  "en": "Tab Title",
+  "tr": "Заголовок вкладки"
+ },
+ {
+  "en": "Tabify Selected Lines",
+  "tr": "Преобразовать выделенные строки в табуляцию"
+ },
+ {
+  "en": "Tabs",
+  "tr": "Вкладки"
+ },
+ {
+  "en": "Tabs to Spaces",
+  "tr": "Преобразовать табуляцию в пробелы"
+ },
+ {
+  "en": "Target",
+  "tr": "Цель"
+ },
+ {
+  "en": "Target folder",
+  "tr": "Целевая папка"
+ },
+ {
+  "en": "Targets",
+  "tr": "Цели"
+ },
+ {
+  "en": "TCP connection options",
+  "tr": "Параметры TCP-соединения"
+ },
+ {
+  "en": "Teal",
+  "tr": "Бирюзовый"
+ },
+ {
+  "en": "Term",
+  "tr": "Терминал"
+ },
+ {
+  "en": "Terminal",
+  "tr": "Терминал"
+ },
+ {
+  "en": "terminal",
+  "tr": "терминал"
+ },
+ {
+  "en": "Terminal Settings",
+  "tr": "Настройки терминала"
+ },
+ {
+  "en": "Text",
+  "tr": "Текст"
+ },
+ {
+  "en": "Text: %1 lines, %2 characters",
+  "tr": "Текст: %1 строк, %2 символов"
+ },
+ {
+  "en": "The % sign",
+  "tr": "Знак %"
+ },
+ {
+  "en": "The actual text to log",
+  "tr": "Фактический текст для журнала"
+ },
+ {
+  "en": "The destination folder is a subfolder of the source folder:\n%1",
+  "tr": "Целевая папка является вложенной в исходную:\n%1"
+ },
+ {
+  "en": "The document has been modified.\nDo you want to save your changes?",
+  "tr": "Документ был изменён.\nСохранить изменения?"
+ },
+ {
+  "en": "The key combination (%1) is not a command.",
+  "tr": "Комбинация клавиш (%1) не является командой."
+ },
+ {
+  "en": "The lrzsz is not detected. Please install lrzsz first.",
+  "tr": "lrzsz не обнаружен. Установите lrzsz."
+ },
+ {
+  "en": "The master password has been changed.",
+  "tr": "Главный пароль изменён."
+ },
+ {
+  "en": "The password confirmation does not match.",
+  "tr": "Пароли не совпадают."
+ },
+ {
+  "en": "The server canceled the transmission.",
+  "tr": "Сервер отменил передачу."
+ },
+ {
+  "en": "The session is <b>disconnected</b>, press <b>Enter</b> to reconnect.",
+  "tr": "Сессия <b>отключена</b>, нажмите <b>Enter</b> для переподключения."
+ },
+ {
+  "en": "The transfer was canceled because a packet was not %1 within retry limit.",
+  "tr": "Передача отменена из-за превышения лимита повторных попыток для пакета %1."
+ },
+ {
+  "en": "The transfer was canceled because the packet sequence number was wrong.",
+  "tr": "Передача отменена из-за неверного порядкового номера пакета."
+ },
+ {
+  "en": "Theme",
+  "tr": "Тема"
+ },
+ {
+  "en": "Thin",
+  "tr": "Тонкий"
+ },
+ {
+  "en": "Threshold for huge file",
+  "tr": "Порог для огромного файла"
+ },
+ {
+  "en": "Time format",
+  "tr": "Формат времени"
+ },
+ {
+  "en": "Time left",
+  "tr": "Осталось времени"
+ },
+ {
+  "en": "Timestamp of lines",
+  "tr": "Временные метки строк"
+ },
+ {
+  "en": "To Inverse Case",
+  "tr": "Инвертировать регистр"
+ },
+ {
+  "en": "To Line End",
+  "tr": "В конец строки"
+ },
+ {
+  "en": "To Line Start",
+  "tr": "В начало строки"
+ },
+ {
+  "en": "To Lower Case",
+  "tr": "В нижний регистр"
+ },
+ {
+  "en": "To MacOS 9 CR",
+  "tr": "В MacOS 9 CR"
+ },
+ {
+  "en": "To Title Case",
+  "tr": "В заглавный регистр"
+ },
+ {
+  "en": "To Unix LF",
+  "tr": "В Unix LF"
+ },
+ {
+  "en": "To Upper Case",
+  "tr": "В верхний регистр"
+ },
+ {
+  "en": "To Windows CRLF",
+  "tr": "В Windows CRLF"
+ },
+ {
+  "en": "To Word End",
+  "tr": "В конец слова"
+ },
+ {
+  "en": "To Word Start",
+  "tr": "В начало слова"
+ },
+ {
+  "en": "Toggle Fold",
+  "tr": "Переключить свёртку"
+ },
+ {
+  "en": "Tool",
+  "tr": "Инструмент"
+ },
+ {
+  "en": "Toolbar",
+  "tr": "Панель инструментов"
+ },
+ {
+  "en": "Top Group",
+  "tr": "Верхняя группа"
+ },
+ {
+  "en": "Track Text Selection In Tree",
+  "tr": "Отслеживать выделение текста в дереве"
+ },
+ {
+  "en": "Track Tree Selection In Text",
+  "tr": "Отслеживать выделение в дереве в тексте"
+ },
+ {
+  "en": "Tracking Events",
+  "tr": "Отслеживание событий"
+ },
+ {
+  "en": "Trailing Blanks",
+  "tr": "Конечные пробелы"
+ },
+ {
+  "en": "Trailing position",
+  "tr": "Конечная позиция"
+ },
+ {
+  "en": "Transfer",
+  "tr": "Передача"
+ },
+ {
+  "en": "Transfer Bar",
+  "tr": "Панель передачи"
+ },
+ {
+  "en": "Transfer Binary",
+  "tr": "Передача в бинарном режиме"
+ },
+ {
+  "en": "Transfer complete",
+  "tr": "Передача завершена"
+ },
+ {
+  "en": "Transfer incomplete",
+  "tr": "Передача не завершена"
+ },
+ {
+  "en": "Translucent",
+  "tr": "Полупрозрачный"
+ },
+ {
+  "en": "Transparent",
+  "tr": "Прозрачный"
+ },
+ {
+  "en": "Transpose",
+  "tr": "Транспонировать"
+ },
+ {
+  "en": "Trim trailing whitespace on save",
+  "tr": "Удалять конечные пробелы при сохранении"
+ },
+ {
+  "en": "Trust this host",
+  "tr": "Доверять этому хосту"
+ },
+ {
+  "en": "Tunnels",
+  "tr": "Туннели"
+ },
+ {
+  "en": "Type",
+  "tr": "Тип"
+ },
+ {
+  "en": "Type '?' to get help on the actions you can type here",
+  "tr": "Введите '?' для справки по доступным действиям"
+ },
+ {
+  "en": "Uncomment Selection",
+  "tr": "Раскомментировать выделение"
+ },
+ {
+  "en": "Underline",
+  "tr": "Подчёркнутый"
+ },
+ {
+  "en": "underLine",
+  "tr": "подчёркивание"
+ },
+ {
+  "en": "Undo",
+  "tr": "Отменить"
+ },
+ {
+  "en": "Undo %1 Actions",
+  "tr": "Отменить %1 действий"
+ },
+ {
+  "en": "Unfold",
+  "tr": "Развернуть"
+ },
+ {
+  "en": "Unfold All",
+  "tr": "Развернуть всё"
+ },
+ {
+  "en": "Unfold Category",
+  "tr": "Развернуть категорию"
+ },
+ {
+  "en": "Unfold Inside",
+  "tr": "Развернуть внутри"
+ },
+ {
+  "en": "Unify line endings on save",
+  "tr": "Унифицировать окончания строк при сохранении"
+ },
+ {
+  "en": "UnixPty",
+  "tr": "UnixPty"
+ },
+ {
+  "en": "UnixPty: shell file path must be absolute",
+  "tr": "UnixPty: путь к файлу оболочки должен быть абсолютным"
+ },
+ {
+  "en": "Unknown",
+  "tr": "Неизвестно"
+ },
+ {
+  "en": "unknown",
+  "tr": "неизвестно"
+ },
+ {
+  "en": "Untabify Selected Lines",
+  "tr": "Преобразовать табуляцию в пробелы в выделенных строках"
+ },
+ {
+  "en": "Untitled",
+  "tr": "Без имени"
+ },
+ {
+  "en": "Untrust this host",
+  "tr": "Не доверять этому хосту"
+ },
+ {
+  "en": "upload",
+  "tr": "загрузить на сервер"
+ },
+ {
+  "en": "Upload command",
+  "tr": "Команда загрузки"
+ },
+ {
+  "en": "Upload directory",
+  "tr": "Каталог загрузки на сервер"
+ },
+ {
+  "en": "uploaded",
+  "tr": "загружено на сервер"
+ },
+ {
+  "en": "URL with {q} in place of query",
+  "tr": "URL с {q} вместо запроса"
+ },
+ {
+  "en": "Use background color to erase screen",
+  "tr": "Использовать цвет фона для очистки экрана"
+ },
+ {
+  "en": "Use system line ending",
+  "tr": "Использовать системное окончание строк"
+ },
+ {
+  "en": "Use this as the default and do not ask again",
+  "tr": "Использовать по умолчанию и больше не спрашивать"
+ },
+ {
+  "en": "User",
+  "tr": "Пользователь"
+ },
+ {
+  "en": "Username echo mode",
+  "tr": "Режим отображения имени пользователя"
+ },
+ {
+  "en": "Value",
+  "tr": "Значение"
+ },
+ {
+  "en": "Variable",
+  "tr": "Переменная"
+ },
+ {
+  "en": "Verifying the server's fingerprint",
+  "tr": "Проверка отпечатка сервера"
+ },
+ {
+  "en": "View",
+  "tr": "Представление"
+ },
+ {
+  "en": "Virtual Space",
+  "tr": "Виртуальное пространство"
+ },
+ {
+  "en": "Warning",
+  "tr": "Предупреждение"
+ },
+ {
+  "en": "Wheel event",
+  "tr": "Событие колеса"
+ },
+ {
+  "en": "When destination file exists",
+  "tr": "Если файл назначения существует"
+ },
+ {
+  "en": "When pasting multiple lines",
+  "tr": "При вставке нескольких строк"
+ },
+ {
+  "en": "When remote title is changed",
+  "tr": "Когда заголовок удалённого окна изменяется"
+ },
+ {
+  "en": "When session is authenticating",
+  "tr": "Во время аутентификации сессии"
+ },
+ {
+  "en": "When window is resized",
+  "tr": "При изменении размера окна"
+ },
+ {
+  "en": "Where",
+  "tr": "Где"
+ },
+ {
+  "en": "White Spaces",
+  "tr": "Пробельные символы"
+ },
+ {
+  "en": "Whole Line",
+  "tr": "Вся строка"
+ },
+ {
+  "en": "Whole Word",
+  "tr": "Целое слово"
+ },
+ {
+  "en": "Widgets",
+  "tr": "Виджеты"
+ },
+ {
+  "en": "Width",
+  "tr": "Ширина"
+ },
+ {
+  "en": "Window",
+  "tr": "Окно"
+ },
+ {
+  "en": "Window edge",
+  "tr": "Край окна"
+ },
+ {
+  "en": "Window Opacity",
+  "tr": "Прозрачность окна"
+ },
+ {
+  "en": "Window opacity",
+  "tr": "Прозрачность окна"
+ },
+ {
+  "en": "Windows Manager",
+  "tr": "Менеджер окон"
+ },
+ {
+  "en": "Winpty-agent.exe or winpty.dll not found!.",
+  "tr": "Winpty-agent.exe или winpty.dll не найдены!"
+ },
+ {
+  "en": "Word",
+  "tr": "Слово"
+ },
+ {
+  "en": "Word Separators",
+  "tr": "Разделители слов"
+ },
+ {
+  "en": "Word Wrap",
+  "tr": "Перенос слов"
+ },
+ {
+  "en": "Working directory",
+  "tr": "Рабочая директория"
+ },
+ {
+  "en": "Wrap",
+  "tr": "Перенос"
+ },
+ {
+  "en": "Wrap by character",
+  "tr": "Перенос по символам"
+ },
+ {
+  "en": "Wrap by word",
+  "tr": "Перенос по словам"
+ },
+ {
+  "en": "Wrap column",
+  "tr": "Столбец переноса"
+ },
+ {
+  "en": "Wrap mode",
+  "tr": "Режим переноса"
+ },
+ {
+  "en": "Wrap Symbols",
+  "tr": "Символы переноса"
+ },
+ {
+  "en": "X/Y/Z Modem",
+  "tr": "X/Y/Z-модем"
+ },
+ {
+  "en": "X/Y/Z modem cannot transmit folders or files larger than 4GB: %1.",
+  "tr": "X/Y/Z-модем не может передавать папки или файлы более 4 ГБ: %1."
+ },
+ {
+  "en": "X11 authentication protocol",
+  "tr": "Протокол аутентификации X11"
+ },
+ {
+  "en": "X11 display",
+  "tr": "X11-дисплей"
+ },
+ {
+  "en": "Year in 2 digits",
+  "tr": "Год в 2-значном формате"
+ },
+ {
+  "en": "Year in 4 digits",
+  "tr": "Год в 4-значном формате"
+ },
+ {
+  "en": "Yes",
+  "tr": "Да"
+ },
+ {
+  "en": "Zero",
+  "tr": "Ноль"
+ },
+ {
+  "en": "Zoom",
+  "tr": "Масштаб"
+ },
+ {
+  "en": "Zoom In",
+  "tr": "Увеличить масштаб"
+ },
+ {
+  "en": "Zoom level",
+  "tr": "Уровень масштаба"
+ },
+ {
+  "en": "Zoom Out",
+  "tr": "Уменьшить масштаб"
+ },
+ {
+  "en": "[Crashed in %1s]",
+  "tr": "[Ошибка за %1с]"
+ },
+ {
+  "en": "[Empty]",
+  "tr": "[Пусто]"
+ },
+ {
+  "en": "[Error: %1]",
+  "tr": "[Ошибка: %1]"
+ },
+ {
+  "en": "[Finished in %1s, Exit code %2]",
+  "tr": "[Завершено за %1с, код выхода %2]"
+ },
+ {
+  "en": "[Finished in %1s]",
+  "tr": "[Завершено за %1с]"
+ },
+ {
+  "en": "[Group list is empty]",
+  "tr": "[Список групп пуст]"
+ },
+ {
+  "en": "[Navigation list is empty]",
+  "tr": "[Список навигации пуст]"
+ },
+ {
+  "en": "[No search engine]",
+  "tr": "[Нет поисковой системы]"
+ },
+ {
+  "en": "[Recent urls is empty]",
+  "tr": "[Недавние URL-адреса пусты]"
+ },
+ {
+  "en": "[Redo list is empty]",
+  "tr": "[Список повтора пуст]"
+ },
+ {
+  "en": "[Scheme list is empty]",
+  "tr": "[Список схем пуст]"
+ },
+ {
+  "en": "[Theme list is empty]",
+  "tr": "[Список тем пуст]"
+ },
+ {
+  "en": "[Toolbar list is empty]",
+  "tr": "[Список панели инструментов пуст]"
+ },
+ {
+  "en": "[Undo list is empty]",
+  "tr": "[Список отмены пуст]"
+ },
+ {
+  "en": "[User Canceled]",
+  "tr": "[Отменено пользователем]"
+ },
+ {
+  "en": "[user@]hostname",
+  "tr": "[пользователь@]имя_хоста"
+ },
+ {
+  "en": "[Windows list is empty]",
+  "tr": "[Список окон пуст]"
+ },
+ {
+  "en": "A label cannot contain any of the following characters: %1",
+  "tr": "Метка не может содержать следующие символы: %1"
+ },
+ {
+  "en": "A specific directory",
+  "tr": "Конкретный каталог"
+ },
+ {
+  "en": "Abbreviated day name",
+  "tr": "Сокращённое название дня"
+ },
+ {
+  "en": "Allow",
+  "tr": "Разрешить"
+ },
+ {
+  "en": "Application Directory",
+  "tr": "Каталог приложения"
+ },
+ {
+  "en": "Ask",
+  "tr": "Спросить"
+ },
+ {
+  "en": "Auto Wrap Mode (DECAWM)",
+  "tr": "Режим автоматического переноса (DECAWM)"
+ },
+ {
+  "en": "Automatically fix invalid path characters",
+  "tr": "Автоматически исправлять недопустимые символы пути"
+ },
+ {
+  "en": "Automatically open at startup",
+  "tr": "Автоматически открывать при запуске"
+ },
+ {
+  "en": "Average Speed",
+  "tr": "Средняя скорость"
+ },
+ {
+  "en": "Bytes",
+  "tr": "Байты"
+ },
+ {
+  "en": "Choose Profiles Directory",
+  "tr": "Выберите каталог профилей"
+ },
+ {
+  "en": "Closed",
+  "tr": "Закрыто"
+ },
+ {
+  "en": "Command Mode",
+  "tr": "Командный режим"
+ },
+ {
+  "en": "Convert",
+  "tr": "Преобразовать"
+ },
+ {
+  "en": "Ctrl+Click to follow link",
+  "tr": "Ctrl+клик для перехода по ссылке"
+ },
+ {
+  "en": "Current Item",
+  "tr": "Текущий элемент"
+ },
+ {
+  "en": "Cursor Keys mode (DECCKM)",
+  "tr": "Режим клавиш курсора (DECCKM)"
+ },
+ {
+  "en": "Default file creation permissions",
+  "tr": "Права доступа для создаваемых файлов по умолчанию"
+ },
+ {
+  "en": "Description",
+  "tr": "Описание"
+ },
+ {
+  "en": "Duplicate tab",
+  "tr": "Дублировать вкладку"
+ },
+ {
+  "en": "Dynamic",
+  "tr": "Динамический"
+ },
+ {
+  "en": "Dynamic port allocation",
+  "tr": "Динамическое выделение портов"
+ },
+ {
+  "en": "Failed items",
+  "tr": "Неудачные элементы"
+ },
+ {
+  "en": "Fixterm format",
+  "tr": "Формат Fixterm"
+ },
+ {
+  "en": "Forbit",
+  "tr": "Запретить"
+ },
+ {
+  "en": "Format",
+  "tr": "Формат"
+ },
+ {
+  "en": "Full day name",
+  "tr": "Полное название дня"
+ },
+ {
+  "en": "Hide Tabs",
+  "tr": "Скрыть вкладки"
+ },
+ {
+  "en": "Home Directory",
+  "tr": "Домашний каталог"
+ },
+ {
+  "en": "Initial modes",
+  "tr": "Начальные режимы"
+ },
+ {
+  "en": "Items",
+  "tr": "Элементы"
+ },
+ {
+  "en": "Listening Port",
+  "tr": "Порт прослушивания"
+ },
+ {
+  "en": "Ln %1 Ch %2",
+  "tr": "Стр %1 Ст %2"
+ },
+ {
+  "en": "Local",
+  "tr": "Локальный"
+ },
+ {
+  "en": "Local Mode",
+  "tr": "Локальный режим"
+ },
+ {
+  "en": "Modified other keys sends",
+  "tr": "Изменённые клавиши отправляют"
+ },
+ {
+  "en": "New Line Mode (LNM)",
+  "tr": "Режим новой строки (LNM)"
+ },
+ {
+  "en": "Normal Mode",
+  "tr": "Обычный режим"
+ },
+ {
+  "en": "Numeric keypad mode (DECNKM)",
+  "tr": "Режим цифровой клавиатуры (DECNKM)"
+ },
+ {
+  "en": "Open link",
+  "tr": "Открыть ссылку"
+ },
+ {
+  "en": "Please select your profile directory that will be used to store user preferences.",
+  "tr": "Выберите каталог профиля для хранения пользовательских настроек."
+ },
+ {
+  "en": "Proxy Command",
+  "tr": "Команда прокси"
+ },
+ {
+  "en": "Redo List",
+  "tr": "Список повтора"
+ },
+ {
+  "en": "Remote",
+  "tr": "Удалённый"
+ },
+ {
+  "en": "Remote Mode",
+  "tr": "Удалённый режим"
+ },
+ {
+  "en": "Remove sessions",
+  "tr": "Удалить сессии"
+ },
+ {
+  "en": "Reverse Screen Mode (DECSCNM)",
+  "tr": "Режим инвертированного экрана (DECSCNM)"
+ },
+ {
+  "en": "Session Color",
+  "tr": "Цвет сессии"
+ },
+ {
+  "en": "Session Icon",
+  "tr": "Иконка сессии"
+ },
+ {
+  "en": "Spaces",
+  "tr": "Пробелы"
+ },
+ {
+  "en": "Standard",
+  "tr": "Стандартный"
+ },
+ {
+  "en": "Stash List",
+  "tr": "Список отложенного"
+ },
+ {
+  "en": "Status",
+  "tr": "Статус"
+ },
+ {
+  "en": "Tab Size",
+  "tr": "Размер табуляции"
+ },
+ {
+  "en": "Target directory",
+  "tr": "Целевой каталог"
+ },
+ {
+  "en": "The login is canceled.",
+  "tr": "Вход отменён."
+ },
+ {
+  "en": "The remote wants to overwrite the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": "Удалённая сторона хочет перезаписать буфер обмена.<br/>Это действие может быть небезопасным. Продолжить?"
+ },
+ {
+  "en": "The remote wants to read the clipboard.<br/>This action may be unsafe. Do you want to continue?",
+  "tr": "Удалённая сторона хочет прочитать буфер обмена.<br/>Это действие может быть небезопасным. Продолжить?"
+ },
+ {
+  "en": "The selected directory does not exist.",
+  "tr": "Выбранный каталог не существует."
+ },
+ {
+  "en": "The session is <b>disconnected</b>, all related tunnels will be closed.",
+  "tr": "Сессия <b>отключена</b>, все связанные туннели будут закрыты."
+ },
+ {
+  "en": "This link type is not supported",
+  "tr": "Этот тип ссылки не поддерживается"
+ },
+ {
+  "en": "Time elapsed",
+  "tr": "Прошло времени"
+ },
+ {
+  "en": "Timezone",
+  "tr": "Часовой пояс"
+ },
+ {
+  "en": "Tool Bar",
+  "tr": "Панель инструментов"
+ },
+ {
+  "en": "Tunnel Settings",
+  "tr": "Настройки туннелей"
+ },
+ {
+  "en": "Undo List",
+  "tr": "Список отмены"
+ },
+ {
+  "en": "Unit",
+  "tr": "Единица"
+ },
+ {
+  "en": "UTC time zone",
+  "tr": "Часовой пояс UTC"
+ },
+ {
+  "en": "Waiting to close",
+  "tr": "Ожидание закрытия"
+ },
+ {
+  "en": "Waiting to open",
+  "tr": "Ожидание открытия"
+ },
+ {
+  "en": "When the remote wants to overwrite the clipboard",
+  "tr": "Когда удалённая сторона хочет перезаписать буфер обмена"
+ },
+ {
+  "en": "When the remote wants to read the clipboard",
+  "tr": "Когда удалённая сторона хочет прочитать буфер обмена"
+ },
+ {
+  "en": "Window %1×%2",
+  "tr": "Окно %1×%2"
+ },
+ {
+  "en": "Windows 10 version below 19H1 (build 18309) is not supported.",
+  "tr": "Windows 10 версии ниже 19H1 (сборка 18309) не поддерживается."
+ },
+ {
+  "en": "Word Separators For Alternate Screen",
+  "tr": "Разделители слов для альтернативного экрана"
+ },
+ {
+  "en": "Working Directory",
+  "tr": "Рабочий каталог"
+ },
+ {
+  "en": "XTerm format",
+  "tr": "Формат XTerm"
+ },
+ {
+  "en": "Additional parameters for VcXsrv",
+  "tr": "Дополнительные параметры для VcXsrv"
+ },
+ {
+  "en": "Advanced",
+  "tr": "Дополнительно"
+ },
+ {
+  "en": "Buffer Characters",
+  "tr": "Буфер символов"
+ },
+ {
+  "en": "Buffer Lines",
+  "tr": "Буфер строк"
+ },
+ {
+  "en": "Clipboard",
+  "tr": "Буфер обмена"
+ },
+ {
+  "en": "Connect Time",
+  "tr": "Время подключения"
+ },
+ {
+  "en": "Delay",
+  "tr": "Задержка"
+ },
+ {
+  "en": "Display number",
+  "tr": "Номер дисплея"
+ },
+ {
+  "en": "Display",
+  "tr": "Дисплей"
+ },
+ {
+  "en": "Elapsed Time",
+  "tr": "Прошедшее время"
+ },
+ {
+  "en": "Enable the clipboard",
+  "tr": "Включить буфер обмена"
+ },
+ {
+  "en": "Extensions",
+  "tr": "Расширения"
+ },
+ {
+  "en": "Grab special Windows keys like Alt-Tab",
+  "tr": "Захватывать специальные клавиши Windows, например Alt+Tab"
+ },
+ {
+  "en": "Keyboard layout",
+  "tr": "Раскладка клавиатуры"
+ },
+ {
+  "en": "Keyboard model",
+  "tr": "Модель клавиатуры"
+ },
+ {
+  "en": "Not available",
+  "tr": "Недоступно"
+ },
+ {
+  "en": "Profiles Directory",
+  "tr": "Каталог профилей"
+ },
+ {
+  "en": "Server IP",
+  "tr": "IP-адрес сервера"
+ },
+ {
+  "en": "Show the tray icon",
+  "tr": "Показывать значок в системном трее"
+ },
+ {
+  "en": "SOCKS 5 address length is invalid.",
+  "tr": "Некорректная длина адреса SOCKS 5."
+ },
+ {
+  "en": "SOCKS 5 handshake request is invalid (requested length: %1).",
+  "tr": "Некорректный запрос рукопожатия SOCKS 5 (запрошена длина: %1)."
+ },
+ {
+  "en": "SOCKS 5 handshake request is invalid (requested version: %1).",
+  "tr": "Некорректный запрос рукопожатия SOCKS 5 (запрошена версия: %1)."
+ },
+ {
+  "en": "SOCKS 5 request is invalid (requested length: %1).",
+  "tr": "Некорректный запрос SOCKS 5 (запрошена длина: %1)."
+ },
+ {
+  "en": "SOCKS 5 request is invalid (requested version: %1).",
+  "tr": "Некорректный запрос SOCKS 5 (запрошена версия: %1)."
+ },
+ {
+  "en": "SOCKS 5 request is not supported (requested address type: %1).",
+  "tr": "Запрос SOCKS 5 не поддерживается (запрошенный тип адреса: %1)."
+ },
+ {
+  "en": "SOCKS 5 request is not supported (requested command: %1).",
+  "tr": "Запрос SOCKS 5 не поддерживается (запрошенная команда: %1)."
+ },
+ {
+  "en": "Tunnels will be refreshed after closing the dialog",
+  "tr": "Туннели будут обновлены после закрытия диалога"
+ },
+ {
+  "en": "Window mode",
+  "tr": "Режим окна"
+ },
+ {
+  "en": "X Server Settings",
+  "tr": "Настройки X-сервера"
+ },
+ {
+  "en": "X Server",
+  "tr": "X-сервер"
+ },
+ {
+  "en": "8-bit characters",
+  "tr": "8-битные символы"
+ },
+ {
+  "en": "Add All",
+  "tr": "Добавить все"
+ },
+ {
+  "en": "Add",
+  "tr": "Добавить"
+ },
+ {
+  "en": "Alt modifier key sends",
+  "tr": "Клавиша Alt отправляет"
+ },
+ {
+  "en": "Are you sure you want to discard the pending changes?",
+  "tr": "Отменить несохранённые изменения?"
+ },
+ {
+  "en": "Authentication failed, please connect again.",
+  "tr": "Ошибка аутентификации, подключитесь заново."
+ },
+ {
+  "en": "Automatic authentication",
+  "tr": "Автоматическая аутентификация"
+ },
+ {
+  "en": "Automatically complete commands with",
+  "tr": "Автоматически дополнять команды с"
+ },
+ {
+  "en": "Beep using the PC speaker",
+  "tr": "Использовать динамик ПК для звукового сигнала"
+ },
+ {
+  "en": "Bell styles",
+  "tr": "Стили сигнала"
+ },
+ {
+  "en": "Capacity",
+  "tr": "Ёмкость"
+ },
+ {
+  "en": "Characters preceded by ESC",
+  "tr": "Символы с префиксом ESC"
+ },
+ {
+  "en": "characters",
+  "tr": "символов"
+ },
+ {
+  "en": "Command History",
+  "tr": "История команд"
+ },
+ {
+  "en": "Command Name",
+  "tr": "Имя команды"
+ },
+ {
+  "en": "Command Option",
+  "tr": "Опция команды"
+ },
+ {
+  "en": "Command Parameter",
+  "tr": "Параметр команды"
+ },
+ {
+  "en": "Complete History",
+  "tr": "Полная история"
+ },
+ {
+  "en": "Completion list height",
+  "tr": "Высота списка автодополнения"
+ },
+ {
+  "en": "Completion",
+  "tr": "Автодополнение"
+ },
+ {
+  "en": "Connection failed, jump server \"%1\" does not exist.",
+  "tr": "Ошибка подключения: прыжковый сервер \"%1\" не существует."
+ },
+ {
+  "en": "Connection failed, the session \"%1\" does not exist.",
+  "tr": "Ошибка подключения: сессия \"%1\" не существует."
+ },
+ {
+  "en": "Copy Command",
+  "tr": "Копировать команду"
+ },
+ {
+  "en": "Create a new \".wind\" directory in the selected directory.",
+  "tr": "Создать новый каталог \".wind\" в выбранной директории."
+ },
+ {
+  "en": "Days to keep history",
+  "tr": "Сколько дней хранить историю"
+ },
+ {
+  "en": "Default Session Settings",
+  "tr": "Настройки сессии по умолчанию"
+ },
+ {
+  "en": "Duplicate Session",
+  "tr": "Дублировать сессию"
+ },
+ {
+  "en": "Duplicate SSH Channel",
+  "tr": "Дублировать SSH-канал"
+ },
+ {
+  "en": "Edit Default Settings",
+  "tr": "Редактировать настройки по умолчанию"
+ },
+ {
+  "en": "Enable auto completion",
+  "tr": "Включить автодополнение"
+ },
+ {
+  "en": "Failed to remove command history, please try again later.",
+  "tr": "Не удалось удалить историю команд, попробуйте позже."
+ },
+ {
+  "en": "Find %1 in \"%2\"",
+  "tr": "Найти %1 в \"%2\""
+ },
+ {
+  "en": "Global proxy",
+  "tr": "Глобальный прокси"
+ },
+ {
+  "en": "History Commands",
+  "tr": "Команды истории"
+ },
+ {
+  "en": "History size",
+  "tr": "Размер истории"
+ },
+ {
+  "en": "Http proxy",
+  "tr": "HTTP-прокси"
+ },
+ {
+  "en": "Ignore bells received more than once within",
+  "tr": "Игнорировать сигналы, полученные чаще чем раз в"
+ },
+ {
+  "en": "Ignore",
+  "tr": "Игнорировать"
+ },
+ {
+  "en": "IntelliSense",
+  "tr": "IntelliSense"
+ },
+ {
+  "en": "Jump server \"%1\" is missing or corrupt.",
+  "tr": "Прыжковый сервер \"%1\" отсутствует или повреждён."
+ },
+ {
+  "en": "Jump servers",
+  "tr": "Прыжковые серверы"
+ },
+ {
+  "en": "Locale environment variables",
+  "tr": "Локальные переменные окружения"
+ },
+ {
+  "en": "Menu",
+  "tr": "Меню"
+ },
+ {
+  "en": "Meta modifier key sends",
+  "tr": "Клавиша Meta отправляет"
+ },
+ {
+  "en": "Move Down",
+  "tr": "Вниз"
+ },
+ {
+  "en": "Move Up",
+  "tr": "Вверх"
+ },
+ {
+  "en": "Mute",
+  "tr": "Без звука"
+ },
+ {
+  "en": "No proxy",
+  "tr": "Без прокси"
+ },
+ {
+  "en": "Play the custom sound",
+  "tr": "Воспроизвести пользовательский звук"
+ },
+ {
+  "en": "Preselect the best match",
+  "tr": "Предварительно выбирать лучшее совпадение"
+ },
+ {
+  "en": "Preview of replace %1 with %3 in \"%2\"",
+  "tr": "Предпросмотр замены %1 на %3 в \"%2\""
+ },
+ {
+  "en": "Proxy command",
+  "tr": "Команда прокси"
+ },
+ {
+  "en": "Reconnect",
+  "tr": "Переподключиться"
+ },
+ {
+  "en": "Remember this step",
+  "tr": "Запомнить этот шаг"
+ },
+ {
+  "en": "Remove All",
+  "tr": "Удалить всё"
+ },
+ {
+  "en": "Replace %1 with %3 in \"%2\"",
+  "tr": "Заменить %1 на %3 в \"%2\""
+ },
+ {
+  "en": "rows",
+  "tr": "строк"
+ },
+ {
+  "en": "Save command history to disk",
+  "tr": "Сохранять историю команд на диск"
+ },
+ {
+  "en": "Saved command history",
+  "tr": "Сохранённая история команд"
+ },
+ {
+  "en": "Session \"%1\" is missing or corrupt.",
+  "tr": "Сессия \"%1\" отсутствует или повреждена."
+ },
+ {
+  "en": "Socks v5 proxy",
+  "tr": "Прокси SOCKS v5"
+ },
+ {
+  "en": "Start completion after entering",
+  "tr": "Начинать дополнение после ввода"
+ },
+ {
+  "en": "Step",
+  "tr": "Шаг"
+ },
+ {
+  "en": "Storage",
+  "tr": "Хранилище"
+ },
+ {
+  "en": "System proxy",
+  "tr": "Системный прокси"
+ },
+ {
+  "en": "The authentication has been removed.",
+  "tr": "Аутентификация удалена."
+ },
+ {
+  "en": "The changes will be applied to NEW and all EXISTING sessions. Do you want to continue?",
+  "tr": "Изменения будут применены к НОВЫМ и всем СУЩЕСТВУЮЩИМ сессиям. Продолжить?"
+ },
+ {
+  "en": "The command history has been removed.",
+  "tr": "История команд удалена."
+ },
+ {
+  "en": "The directory %1 does not exist or is not accessible. Please select another.",
+  "tr": "Каталог %1 не существует или недоступен. Выберите другой."
+ },
+ {
+  "en": "Use the existed \".wind\" directory in the selected directory.",
+  "tr": "Использовать существующий каталог \".wind\" в выбранной директории."
+ },
+ {
+  "en": "A name should be less than 255 characters and cannot contain any of the following characters:\\n%1",
+  "tr": "Имя должно быть короче 255 символов и не содержать следующие символы:\\n%1"
+ },
+ {
+  "en": "Account",
+  "tr": "Учётная запись"
+ },
+ {
+  "en": "Action",
+  "tr": "Действие"
+ },
+ {
+  "en": "Actions",
+  "tr": "Действия"
+ },
+ {
+  "en": "Add Action",
+  "tr": "Добавить действие"
+ },
+ {
+  "en": "Add mark",
+  "tr": "Добавить метку"
+ },
+ {
+  "en": "Add Separator",
+  "tr": "Добавить разделитель"
+ },
+ {
+  "en": "After connection",
+  "tr": "После подключения"
+ },
+ {
+  "en": "After disconnection",
+  "tr": "После отключения"
+ },
+ {
+  "en": "all systems",
+  "tr": "все системы"
+ },
+ {
+  "en": "Ansi Black",
+  "tr": "ANSI чёрный"
+ },
+ {
+  "en": "Ansi Blue",
+  "tr": "ANSI синий"
+ },
+ {
+  "en": "Ansi Bright Black",
+  "tr": "ANSI ярко-чёрный"
+ },
+ {
+  "en": "Ansi Bright Blue",
+  "tr": "ANSI ярко-синий"
+ },
+ {
+  "en": "Ansi Bright Cyan",
+  "tr": "ANSI ярко-циановый"
+ },
+ {
+  "en": "Ansi Bright Green",
+  "tr": "ANSI ярко-зелёный"
+ },
+ {
+  "en": "Ansi Bright Magenta",
+  "tr": "ANSI ярко-пурпурный"
+ },
+ {
+  "en": "Ansi Bright Red",
+  "tr": "ANSI ярко-красный"
+ },
+ {
+  "en": "Ansi Bright White",
+  "tr": "ANSI ярко-белый"
+ },
+ {
+  "en": "Ansi Bright Yellow",
+  "tr": "ANSI ярко-жёлтый"
+ },
+ {
+  "en": "Ansi Cyan",
+  "tr": "ANSI циановый"
+ },
+ {
+  "en": "Ansi Green",
+  "tr": "ANSI зелёный"
+ },
+ {
+  "en": "Ansi Magenta",
+  "tr": "ANSI пурпурный"
+ },
+ {
+  "en": "Ansi Red",
+  "tr": "ANSI красный"
+ },
+ {
+  "en": "Ansi White",
+  "tr": "ANSI белый"
+ },
+ {
+  "en": "Ansi Yellow",
+  "tr": "ANSI жёлтый"
+ },
+ {
+  "en": "Applet Bar",
+  "tr": "Панель апплетов"
+ },
+ {
+  "en": "Application is trying to decrypt proxy password.",
+  "tr": "Приложение пытается расшифровать пароль прокси."
+ },
+ {
+  "en": "Application is trying to display the saved authentication.",
+  "tr": "Приложение пытается отобразить сохранённую аутентификацию."
+ },
+ {
+  "en": "Application is trying to encrypt proxy password.",
+  "tr": "Приложение пытается зашифровать пароль прокси."
+ },
+ {
+  "en": "Auto Sync Terminal Folder",
+  "tr": "Автосинхронизация папки терминала"
+ },
+ {
+  "en": "Automatically Sync Terminal Folder",
+  "tr": "Автоматически синхронизировать папку терминала"
+ },
+ {
+  "en": "Background Color",
+  "tr": "Цвет фона"
+ },
+ {
+  "en": "Before connection",
+  "tr": "До подключения"
+ },
+ {
+  "en": "Before disconnection",
+  "tr": "До отключения"
+ },
+ {
+  "en": "Bundle Link",
+  "tr": "Ссылка на комплект"
+ },
+ {
+  "en": "Bundle",
+  "tr": "Комплект"
+ },
+ {
+  "en": "Cannot found",
+  "tr": "Не найдено"
+ },
+ {
+  "en": "Cannot list directory",
+  "tr": "Не удаётся вывести список каталога"
+ },
+ {
+  "en": "Cannot make directory",
+  "tr": "Не удаётся создать каталог"
+ },
+ {
+  "en": "Cannot remove the directory",
+  "tr": "Не удаётся удалить каталог"
+ },
+ {
+  "en": "Cannot set permissions for the directory",
+  "tr": "Не удаётся установить права для каталога"
+ },
+ {
+  "en": "Challenge",
+  "tr": "Запрос"
+ },
+ {
+  "en": "Click the key to prevent further changes.",
+  "tr": "Нажмите на ключ, чтобы запретить изменения."
+ },
+ {
+  "en": "Click the lock to make changes.",
+  "tr": "Нажмите на замок, чтобы разрешить изменения."
+ },
+ {
+  "en": "Command+Click to execute command",
+  "tr": "Command+клик для выполнения команды"
+ },
+ {
+  "en": "Command+Click to follow link",
+  "tr": "Command+клик для перехода по ссылке"
+ },
+ {
+  "en": "Command+Click to send text",
+  "tr": "Command+клик для отправки текста"
+ },
+ {
+  "en": "Copy Directory Name To Terminal",
+  "tr": "Копировать имя каталога в терминал"
+ },
+ {
+  "en": "Copy Directory Name",
+  "tr": "Копировать имя каталога"
+ },
+ {
+  "en": "Copy Directory Path To Terminal",
+  "tr": "Копировать путь к каталогу в терминал"
+ },
+ {
+  "en": "Copy Directory Path",
+  "tr": "Копировать путь к каталогу"
+ },
+ {
+  "en": "Copy From",
+  "tr": "Копировать из"
+ },
+ {
+  "en": "Copy Names To Terminal",
+  "tr": "Копировать имена в терминал"
+ },
+ {
+  "en": "Copy Names",
+  "tr": "Копировать имена"
+ },
+ {
+  "en": "Copy Paths To Terminal",
+  "tr": "Копировать пути в терминал"
+ },
+ {
+  "en": "Copy Paths",
+  "tr": "Копировать пути"
+ },
+ {
+  "en": "Copy text if selected, otherwise paste text",
+  "tr": "Копировать при выделении, иначе вставить текст"
+ },
+ {
+  "en": "Copy To",
+  "tr": "Копировать в"
+ },
+ {
+  "en": "Create",
+  "tr": "Создать"
+ },
+ {
+  "en": "Ctrl+Click to execute command",
+  "tr": "Ctrl+клик для выполнения команды"
+ },
+ {
+  "en": "Ctrl+Click to send text",
+  "tr": "Ctrl+клик для отправки текста"
+ },
+ {
+  "en": "Custom Link",
+  "tr": "Пользовательская ссылка"
+ },
+ {
+  "en": "Custom link",
+  "tr": "Пользовательская ссылка"
+ },
+ {
+  "en": "Custom Menu",
+  "tr": "Пользовательское меню"
+ },
+ {
+  "en": "Custom menu",
+  "tr": "Пользовательское меню"
+ },
+ {
+  "en": "Cyan",
+  "tr": "Циан"
+ },
+ {
+  "en": "Date Modified",
+  "tr": "Дата изменения"
+ },
+ {
+  "en": "Default Editor",
+  "tr": "Редактор по умолчанию"
+ },
+ {
+  "en": "Default folder creation permissions",
+  "tr": "Права доступа для создаваемых папок по умолчанию"
+ },
+ {
+  "en": "Disabled",
+  "tr": "Отключено"
+ },
+ {
+  "en": "Do you want to remove the selected %1 sessions and binding tunnels?",
+  "tr": "Удалить выбранные %1 сессии и связанные туннели?"
+ },
+ {
+  "en": "Do you want to remove the selected %1 sessions?",
+  "tr": "Удалить выбранные %1 сессии?"
+ },
+ {
+  "en": "Do you want to remove the selected commands?",
+  "tr": "Удалить выбранные команды?"
+ },
+ {
+  "en": "Do you want to remove the selected onekeys?",
+  "tr": "Удалить выбранные OneKey?"
+ },
+ {
+  "en": "Do you want to remove the selected triggers?",
+  "tr": "Удалить выбранные триггеры?"
+ },
+ {
+  "en": "Do you want to remove the selected tunnels?",
+  "tr": "Удалить выбранные туннели?"
+ },
+ {
+  "en": "Duplicate SSH channel",
+  "tr": "Дублировать SSH-канал"
+ },
+ {
+  "en": "E.g.",
+  "tr": "Напр."
+ },
+ {
+  "en": "Edit Color",
+  "tr": "Редактировать цвет"
+ },
+ {
+  "en": "Enable Symbol Preview",
+  "tr": "Включить предпросмотр символов"
+ },
+ {
+  "en": "Enter a challenge and response.",
+  "tr": "Введите запрос и ответ."
+ },
+ {
+  "en": "Enter a name for the new %1.",
+  "tr": "Введите имя для нового %1."
+ },
+ {
+  "en": "Enter a new name for \"%1\".",
+  "tr": "Введите новое имя для \"%1\"."
+ },
+ {
+  "en": "Enter a string to wait for and a text to be sent.",
+  "tr": "Введите строку ожидания и текст для отправки."
+ },
+ {
+  "en": "Enter your master password to allow this",
+  "tr": "Введите главный пароль для разрешения"
+ },
+ {
+  "en": "Event: after connection",
+  "tr": "Событие: после подключения"
+ },
+ {
+  "en": "Event: after disconnectionEvent: before connectionEvent: before disconnection",
+  "tr": "Событие: после отключения\nСобытие: до подключения\nСобытие: до отключения"
+ },
+ {
+  "en": "Expect",
+  "tr": "Ожидать"
+ },
+ {
+  "en": "Failed to create folder.",
+  "tr": "Не удалось создать папку."
+ },
+ {
+  "en": "Failed to start \"%1\". Error code: %2.",
+  "tr": "Не удалось запустить \"%1\". Код ошибки: %2."
+ },
+ {
+  "en": "Goto Next Command",
+  "tr": "К следующей команде"
+ },
+ {
+  "en": "Goto Previous Command",
+  "tr": "К предыдущей команде"
+ },
+ {
+  "en": "Gray",
+  "tr": "Серый"
+ },
+ {
+  "en": "Green",
+  "tr": "Зелёный"
+ },
+ {
+  "en": "Hide console window",
+  "tr": "Скрывать окно консоли"
+ },
+ {
+  "en": "Highlight Text",
+  "tr": "Выделить текст"
+ },
+ {
+  "en": "Highlight text",
+  "tr": "Выделить текст"
+ },
+ {
+  "en": "Identity File",
+  "tr": "Файл идентификации"
+ },
+ {
+  "en": "items found",
+  "tr": "элементов найдено"
+ },
+ {
+  "en": "Keyboard interactive",
+  "tr": "Интерактивная клавиатура"
+ },
+ {
+  "en": "Line %1: %2",
+  "tr": "Строка %1: %2"
+ },
+ {
+  "en": "Line Color",
+  "tr": "Цвет линии"
+ },
+ {
+  "en": "Line Style",
+  "tr": "Стиль линии"
+ },
+ {
+  "en": "Login Wizard is trying to decrypt the OneKey \"%1\".",
+  "tr": "Мастер входа пытается расшифровать OneKey \"%1\"."
+ },
+ {
+  "en": "Login Wizard is trying to enable auto login.",
+  "tr": "Мастер входа пытается включить автоматический вход."
+ },
+ {
+  "en": "Manage Triggers",
+  "tr": "Управление триггерами"
+ },
+ {
+  "en": "Mark Color",
+  "tr": "Цвет метки"
+ },
+ {
+  "en": "Mark Style",
+  "tr": "Стиль метки"
+ },
+ {
+  "en": "Match Case",
+  "tr": "С учётом регистра"
+ },
+ {
+  "en": "Match Whole Word",
+  "tr": "Только целые слова"
+ },
+ {
+  "en": "Match",
+  "tr": "Совпадение"
+ },
+ {
+  "en": "Move To",
+  "tr": "Переместить в"
+ },
+ {
+  "en": "New Directory",
+  "tr": "Новый каталог"
+ },
+ {
+  "en": "New Link",
+  "tr": "Новая ссылка"
+ },
+ {
+  "en": "Next",
+  "tr": "Далее"
+ },
+ {
+  "en": "No action available",
+  "tr": "Нет доступных действий"
+ },
+ {
+  "en": "No onekey available",
+  "tr": "Нет доступных OneKey"
+ },
+ {
+  "en": "No saved authentication.",
+  "tr": "Нет сохранённой аутентификации."
+ },
+ {
+  "en": "No sound available",
+  "tr": "Нет доступных звуков"
+ },
+ {
+  "en": "No system available",
+  "tr": "Нет доступных систем"
+ },
+ {
+  "en": "No text mark available",
+  "tr": "Нет доступных текстовых меток"
+ },
+ {
+  "en": "No trigger available",
+  "tr": "Нет доступных триггеров"
+ },
+ {
+  "en": "Not enough memory to read this file.",
+  "tr": "Недостаточно памяти для чтения этого файла."
+ },
+ {
+  "en": "OneKey Manager is trying to modify the onekey settings.",
+  "tr": "Менеджер OneKey пытается изменить настройки OneKey."
+ },
+ {
+  "en": "OneKey Manager",
+  "tr": "Менеджер OneKey"
+ },
+ {
+  "en": "OneKey",
+  "tr": "OneKey"
+ },
+ {
+  "en": "OneKeys",
+  "tr": "OneKey"
+ },
+ {
+  "en": "Open hyperlink",
+  "tr": "Открыть гиперссылку"
+ },
+ {
+  "en": "Open With Default Editor",
+  "tr": "Открыть редактором по умолчанию"
+ },
+ {
+  "en": "Optional",
+  "tr": "Необязательно"
+ },
+ {
+  "en": "Orange",
+  "tr": "Оранжевый"
+ },
+ {
+  "en": "Paste Selected Text",
+  "tr": "Вставить выделенный текст"
+ },
+ {
+  "en": "Pattern",
+  "tr": "Шаблон"
+ },
+ {
+  "en": "Play Sound",
+  "tr": "Проиграть звук"
+ },
+ {
+  "en": "Play sound",
+  "tr": "Проиграть звук"
+ },
+ {
+  "en": "Preserve original file modification time",
+  "tr": "Сохранять время изменения исходного файла"
+ },
+ {
+  "en": "Preserve original folder modification time",
+  "tr": "Сохранять время изменения исходной папки"
+ },
+ {
+  "en": "Purple",
+  "tr": "Пурпурный"
+ },
+ {
+  "en": "Remove commands",
+  "tr": "Удалить команды"
+ },
+ {
+  "en": "Remove mark",
+  "tr": "Удалить метку"
+ },
+ {
+  "en": "Remove onekeys",
+  "tr": "Удалить OneKey"
+ },
+ {
+  "en": "Remove triggers",
+  "tr": "Удалить триггеры"
+ },
+ {
+  "en": "Remove tunnels",
+  "tr": "Удалить туннели"
+ },
+ {
+  "en": "Requires server support",
+  "tr": "Требуется поддержка сервера"
+ },
+ {
+  "en": "Response",
+  "tr": "Ответ"
+ },
+ {
+  "en": "Royalblue",
+  "tr": "Королевский синий"
+ },
+ {
+  "en": "Rules",
+  "tr": "Правила"
+ },
+ {
+  "en": "Run Command",
+  "tr": "Выполнить команду"
+ },
+ {
+  "en": "Run command",
+  "tr": "Выполнить команду"
+ },
+ {
+  "en": "Save In OneKeys",
+  "tr": "Сохранить в OneKeys"
+ },
+ {
+  "en": "Script",
+  "tr": "Скрипт"
+ },
+ {
+  "en": "Select an identity file for the %1 system.",
+  "tr": "Выберите файл идентификации для системы %1."
+ },
+ {
+  "en": "Select Command",
+  "tr": "Выбрать команду"
+ },
+ {
+  "en": "Select Copy Folder",
+  "tr": "Выбрать папку для копирования"
+ },
+ {
+  "en": "Select Copy Items",
+  "tr": "Выбрать элементы для копирования"
+ },
+ {
+  "en": "Select Download Folder",
+  "tr": "Выбрать папку для загрузки"
+ },
+ {
+  "en": "Select Upload Items",
+  "tr": "Выбрать элементы для загрузки"
+ },
+ {
+  "en": "Send after text match and next command prompt",
+  "tr": "Отправить после совпадения текста и следующего приглашения"
+ },
+ {
+  "en": "Send after text match and next line break",
+  "tr": "Отправить после совпадения текста и следующего перевода строки"
+ },
+ {
+  "en": "Send after text match",
+  "tr": "Отправить после совпадения текста"
+ },
+ {
+  "en": "Send Condition",
+  "tr": "Условие отправки"
+ },
+ {
+  "en": "Send Later",
+  "tr": "Отправить позже"
+ },
+ {
+  "en": "Send text",
+  "tr": "Отправить текст"
+ },
+ {
+  "en": "separator",
+  "tr": "разделитель"
+ },
+ {
+  "en": "Session Triggers",
+  "tr": "Триггеры сессии"
+ },
+ {
+  "en": "Sessions",
+  "tr": "Сессии"
+ },
+ {
+  "en": "Set Default Editor",
+  "tr": "Установить редактор по умолчанию"
+ },
+ {
+  "en": "Set OneKey",
+  "tr": "Установить OneKey"
+ },
+ {
+  "en": "Sftp",
+  "tr": "SFTP"
+ },
+ {
+  "en": "Show Hidden Items",
+  "tr": "Показать скрытые элементы"
+ },
+ {
+  "en": "Show Tooltip",
+  "tr": "Показать подсказку"
+ },
+ {
+  "en": "Show tooltip",
+  "tr": "Показать подсказку"
+ },
+ {
+  "en": "Sound Duration",
+  "tr": "Длительность звука"
+ },
+ {
+  "en": "Sound Name",
+  "tr": "Название звука"
+ },
+ {
+  "en": "Sound",
+  "tr": "Звук"
+ },
+ {
+  "en": "SSH",
+  "tr": "SSH"
+ },
+ {
+  "en": "Style",
+  "tr": "Стиль"
+ },
+ {
+  "en": "Sync Terminal Folder",
+  "tr": "Синхронизировать папку терминала"
+ },
+ {
+  "en": "Sysmon",
+  "tr": "Sysmon"
+ },
+ {
+  "en": "Target Sessions",
+  "tr": "Целевые сессии"
+ },
+ {
+  "en": "Target Systems",
+  "tr": "Целевые системы"
+ },
+ {
+  "en": "Test",
+  "tr": "Тест"
+ },
+ {
+  "en": "Text Color",
+  "tr": "Цвет текста"
+ },
+ {
+  "en": "Text Marks",
+  "tr": "Текстовые метки"
+ },
+ {
+  "en": "Text Mark",
+  "tr": "Текстовая метка"
+ },
+ {
+  "en": "The command \"%1\" of trigger \"%2\" cannot be performed.\\nPlease check the trigger configuration and try again.",
+  "tr": "Команда \"%1\" триггера \"%2\" не может быть выполнена.\\nПроверьте настройки триггера и попробуйте снова."
+ },
+ {
+  "en": "The session %1 is trying to decrypt data for auto login.",
+  "tr": "Сессия %1 пытается расшифровать данные для автоматического входа."
+ },
+ {
+  "en": "Tooltip",
+  "tr": "Подсказка"
+ },
+ {
+  "en": "Triggers",
+  "tr": "Триггеры"
+ },
+ {
+  "en": "trigger",
+  "tr": "триггер"
+ },
+ {
+  "en": "Unauthorized to view authentication.",
+  "tr": "Недостаточно прав для просмотра аутентификации."
+ },
+ {
+  "en": "Unknown error.",
+  "tr": "Неизвестная ошибка."
+ },
+ {
+  "en": "Upload File",
+  "tr": "Загрузить файл"
+ },
+ {
+  "en": "Upload To Current Folder",
+  "tr": "Загрузить в текущую папку"
+ },
+ {
+  "en": "Use Regular Expression",
+  "tr": "Использовать регулярное выражение"
+ },
+ {
+  "en": "Username",
+  "tr": "Имя пользователя"
+ },
+ {
+  "en": "Yellow",
+  "tr": "Жёлтый"
+ },
+ {
+  "en": "Enable copy on selection",
+  "tr": "Включить копирование при выделении"
+ }
+ ]
+}

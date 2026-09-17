@@ -1,0 +1,93 @@
+# CI for the WindTerm SDK on macOS.
+#
+# Builds the open source WindTerm libraries natively for Apple Silicon and
+# publishes a .pkg installer to this project's generic package registry.
+#
+# Requires a macOS arm64 runner: pkgbuild and productbuild only exist there.
+# Adjust the tags below to match the runner registered on this instance
+# (Settings > CI/CD > Runners).
+
+stages:
+  - build
+  - publish
+
+variables:
+  PACKAGE_NAME: "windterm-sdk"
+  # Homebrew on Apple Silicon. Qt, OpenSSL and Boost are found through it.
+  HOMEBREW_PREFIX: "/opt/homebrew"
+  GIT_SUBMODULE_STRATEGY: none
+
+.macos_arm64:
+  tags:
+    - macos
+    - arm64
+  before_script:
+    - export PATH="${HOMEBREW_PREFIX}/bin:${PATH}"
+    - export CMAKE_PREFIX_PATH="${HOMEBREW_PREFIX}"
+    - |
+      missing=""
+      for tool in cmake pkgbuild productbuild; do
+        command -v "$tool" >/dev/null 2>&1 || missing="${missing} ${tool}"
+      done
+      if [ -n "${missing}" ]; then
+        echo "Missing required tools:${missing}"
+        echo "Install them on the runner: brew install cmake  (pkgbuild/productbuild ship with the Xcode command line tools)"
+        exit 1
+      fi
+    - |
+      # Qt, OpenSSL and Boost are build dependencies of the Qt targets.
+      for formula in qt openssl@3 boost; do
+        if [ ! -d "${HOMEBREW_PREFIX}/opt/${formula}" ]; then
+          echo "Missing dependency '${formula}'. Install it on the runner: brew install ${formula}"
+          exit 1
+        fi
+      done
+    - sw_vers
+    - uname -m
+    - cmake --version | head -1
+
+build:macos:arm64:
+  extends: .macos_arm64
+  stage: build
+  script:
+    - |
+      if [ -n "${CI_COMMIT_TAG}" ]; then
+        VERSION="${CI_COMMIT_TAG#v}"
+      else
+        BASE="$(sed -n 's/.*VERSION \([0-9][0-9.]*\)$/\1/p' CMakeLists.txt | head -1)"
+        VERSION="${BASE:-0.0.0}+${CI_COMMIT_SHORT_SHA}"
+      fi
+      echo "PKG_VERSION=${VERSION}" > build.env
+      echo "Building version ${VERSION}"
+      ./scripts/build-pkg.sh --arch arm64 --build-type Release --version "${VERSION}"
+    - ls -lh dist/
+  artifacts:
+    name: "windterm-sdk-macos-arm64-${CI_COMMIT_SHORT_SHA}"
+    paths:
+      - dist/
+    expire_in: 30 days
+    reports:
+      dotenv: build.env
+
+# Uploads the installer to this project's generic package registry, where it
+# stays addressable by version instead of expiring with the job artifacts.
+publish:package-registry:
+  extends: .macos_arm64
+  stage: publish
+  needs:
+    - job: build:macos:arm64
+      artifacts: true
+  before_script: []
+  script:
+    - PKG_FILE="$(ls dist/*.pkg | head -1)"
+    - test -n "${PKG_FILE}" || { echo "No .pkg found in dist/"; exit 1; }
+    - echo "Uploading $(basename "${PKG_FILE}") as ${PACKAGE_NAME}/${PKG_VERSION}"
+    - |
+      curl --fail-with-body --silent --show-error \
+        --header "JOB-TOKEN: ${CI_JOB_TOKEN}" \
+        --upload-file "${PKG_FILE}" \
+        "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/${PACKAGE_NAME}/${PKG_VERSION}/$(basename "${PKG_FILE}")"
+    - echo "Available at ${CI_PROJECT_URL}/-/packages"
+  rules:
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

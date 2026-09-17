@@ -23,6 +23,20 @@ WindTerm is a **partial** open source project, and the source will be gradually 
 
 Open source code includes, but is not limited to, the classes that can be used independently, such as functional, algorithms, gui widgets, etc., as well as functional libraries, such as network, protocols, etc., as well as all types that require open source according to the license.
 
+## Building the open source libraries on macOS (Apple Silicon)
+
+The published code is the reusable part of WindTerm, not the application, so it
+builds into an SDK rather than into `WindTerm.app`:
+
+```bash
+brew install cmake qt openssl@3 boost
+CMAKE_PREFIX_PATH=/opt/homebrew ./scripts/build-pkg.sh --arch arm64
+```
+
+This produces `dist/WindTerm-SDK-<version>-macOS-arm64.pkg`, with every library
+built natively for arm64. See [docs/macos-build.md](docs/macos-build.md) for
+the options, the universal2 build, and the portability fixes this needed.
+
 # Issues and feature requests
 
 Any issues and feature requests are welcome.

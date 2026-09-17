@@ -1,0 +1,36 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+set(WindTerm_QT_VERSION_MAJOR @WINDTERM_QT_VERSION_MAJOR@)
+set(WindTerm_HAS_UTILITY @WINDTERM_HAS_UTILITY@)
+set(WindTerm_HAS_WIDGETS @WINDTERM_HAS_WIDGETS@)
+
+if(WindTerm_QT_VERSION_MAJOR)
+	set(_windterm_qt_components Core)
+
+	if(WindTerm_HAS_UTILITY AND WindTerm_QT_VERSION_MAJOR GREATER_EQUAL 6)
+		# WindTerm::utility reaches QPasswordDigestor, which moved from QtCore
+		# to QtNetwork in Qt 6.
+		list(APPEND _windterm_qt_components Network)
+	endif()
+	if(WindTerm_HAS_WIDGETS)
+		list(APPEND _windterm_qt_components Widgets)
+	endif()
+
+	find_dependency(Qt${WindTerm_QT_VERSION_MAJOR} COMPONENTS ${_windterm_qt_components})
+	unset(_windterm_qt_components)
+endif()
+
+if(WindTerm_HAS_UTILITY)
+	# WindTerm::utility exposes Boost::thread and links OpenSSL::Crypto.
+	if(POLICY CMP0167)
+		cmake_policy(SET CMP0167 NEW)
+	endif()
+	find_dependency(Boost COMPONENTS thread)
+	find_dependency(OpenSSL)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/WindTermTargets.cmake")
+
+check_required_components(WindTerm)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  productbuild distribution for the WindTerm SDK installer.
+
+  This installs the open source WindTerm libraries and headers, not the
+  WindTerm application: the application's source is not part of this
+  repository.
+-->
+<installer-gui-script minSpecVersion="2">
+    <title>WindTerm SDK</title>
+    <organization>dev.oronui</organization>
+    <options customize="never" require-scripts="false" hostArchitectures="arm64,x86_64"/>
+
+    <!-- arm64 requires macOS 11; the libraries are built for 12.0 or later. -->
+    <volume-check>
+        <allowed-os-versions>
+            <os-version min="12.0"/>
+        </allowed-os-versions>
+    </volume-check>
+
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <license file="LICENSE.txt" mime-type="text/plain"/>
+
+    <pkg-ref id="dev.oronui.windterm.sdk"/>
+
+    <choices-outline>
+        <line choice="default">
+            <line choice="dev.oronui.windterm.sdk"/>
+        </line>
+    </choices-outline>
+
+    <choice id="default"/>
+    <choice id="dev.oronui.windterm.sdk" visible="false">
+        <pkg-ref id="dev.oronui.windterm.sdk"/>
+    </choice>
+
+    <pkg-ref id="dev.oronui.windterm.sdk" version="0" onConclusion="none">windterm-sdk-component.pkg</pkg-ref>
+</installer-gui-script>

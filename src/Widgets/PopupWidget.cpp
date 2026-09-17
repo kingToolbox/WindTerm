@@ -18,13 +18,13 @@
 
 #include <QAction>
 #include <QApplication>
-#include <QDesktopWidget>
+#include <QGuiApplication>
 #include <QMouseEvent>
+#include <QPropertyAnimation>
+#include <QScreen>
 #include <QStyle>
 #include <QToolButton>
 #include <QVBoxLayout>
-
-#include <private/qeffects_p.h>
 
 #define TRIANGLE_HEIGHT 18
 
@@ -56,7 +56,32 @@ PopupWidget::~PopupWidget() {
 		button->setChecked(false);
 	}
 	// Kill any running effect
-	qFadeEffect(0);
+	stopFade();
+}
+
+void PopupWidget::startFadeIn(int duration) {
+	stopFade();
+
+	setWindowOpacity(0.0);
+
+	m_fadeAnimation = new QPropertyAnimation(this, "windowOpacity", this);
+	m_fadeAnimation->setDuration(duration);
+	m_fadeAnimation->setStartValue(0.0);
+	m_fadeAnimation->setEndValue(1.0);
+	m_fadeAnimation->setEasingCurve(QEasingCurve::OutQuad);
+	// Not DeleteWhenStopped: that schedules a deleteLater() on stop(), which
+	// would race the explicit teardown in stopFade(). The animation is
+	// parented to this widget and dies with it instead.
+	m_fadeAnimation->start();
+}
+
+void PopupWidget::stopFade() {
+	if (m_fadeAnimation) {
+		m_fadeAnimation->stop();
+		m_fadeAnimation->deleteLater();
+		m_fadeAnimation = nullptr;
+	}
+	setWindowOpacity(1.0);
 }
 
 void PopupWidget::createLayout() {
@@ -78,7 +103,7 @@ bool PopupWidget::eventFilter(QObject *watched, QEvent *event) {
 						hasMenuAncestor = true;
 						break;
 					}
-				} while (widget = widget->parentWidget());
+				} while ((widget = widget->parentWidget()) != nullptr);
 
 				if (hasMenuAncestor == false) {
 					close();
@@ -112,7 +137,8 @@ bool PopupWidget::eventFilter(QObject *watched, QEvent *event) {
 	case QEvent::MouseButtonPress: {
 		if (QMouseEvent *mouseEvent = dynamic_cast<QMouseEvent *>(event)) {
 			do {
-				QPoint globalPos = mouseEvent->globalPos();
+				// globalPos() is deprecated since Qt 6.0.
+				QPoint globalPos = mouseEvent->globalPosition().toPoint();
 
 				if (rect().contains(mapFromGlobal(globalPos)))
 					break;
@@ -162,7 +188,10 @@ void PopupWidget::show(Area hArea, Area vArea) {
 
 		QPoint pos = parent->mapToGlobal(QPoint());
 		QRect rect = parent->rect();
-		QRect screenRect = QApplication::desktop()->availableGeometry(this);
+		// QDesktopWidget was removed in Qt 6; the widget's own QScreen is the
+		// direct replacement and is also more correct on mixed-DPI setups.
+		const QScreen *widgetScreen = screen() ? screen() : QGuiApplication::primaryScreen();
+		QRect screenRect = widgetScreen ? widgetScreen->availableGeometry() : QRect();
 
 		int topMargin = style()->pixelMetric(QStyle::PM_LayoutTopMargin);
 		int bottomMargin = style()->pixelMetric(QStyle::PM_LayoutBottomMargin);
@@ -220,7 +249,7 @@ void PopupWidget::show(Area hArea, Area vArea) {
 		move(newPos);
 		QWidget::show();
 
-		qFadeEffect(this, 200);
+		startFadeIn(200);
 		qApp->installEventFilter(this);
 	}
 }

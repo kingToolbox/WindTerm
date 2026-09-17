@@ -19,7 +19,7 @@
 
 #include <QObject>
 
-#include "Public/Spin.h"
+#include "Spin.h"
 
 class QWinEventNotifier;
 

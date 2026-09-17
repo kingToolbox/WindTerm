@@ -19,6 +19,8 @@
 #ifdef Q_OS_WIN
 	#include <windows.h>
 	#include <QWinEventNotifier>
+#else
+	#include <string.h>
 #endif // Q_OS_WIN
 
 Pty::Pty()
@@ -62,6 +64,7 @@ void Pty::installWinProcessEventNotifier(void *handle) {
 #endif
 
 void Pty::setErrorCode(int errorCode) {
+#ifdef Q_OS_WIN
 	constexpr int bufferLength = 512;
 	wchar_t buffer[bufferLength];
 
@@ -69,6 +72,11 @@ void Pty::setErrorCode(int errorCode) {
 				  LANG_NEUTRAL, buffer, bufferLength, NULL);
 
 	QString lastError = QString::fromWCharArray(buffer);
+#else
+	// The method is declared cross-platform but the body was Win32-only, so
+	// it never compiled anywhere else. On Unix the code is an errno value.
+	QString lastError = QString::fromLocal8Bit(strerror(errorCode));
+#endif
 	setErrorString(lastError);
 
 	m_errorCode = errorCode;

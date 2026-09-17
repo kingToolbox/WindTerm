@@ -20,6 +20,9 @@
 #pragma once
 
 #include <QFrame>
+#include <QPointer>
+
+class QPropertyAnimation;
 
 class PopupWidget : public QFrame
 {
@@ -40,8 +43,16 @@ private:
 	bool eventFilter(QObject *watched, QEvent *event) override;
 	void mousePressEvent(QMouseEvent *event) override;
 
+	// Replaces qFadeEffect() from QtWidgets' private qeffects_p.h: same
+	// behaviour, public API only, so the build does not depend on Qt's
+	// private headers being installed or on their layout staying stable.
+	void startFadeIn(int duration);
+	void stopFade();
+
 private:
 	Q_DISABLE_COPY(PopupWidget)
+
+	QPointer<QPropertyAnimation> m_fadeAnimation;
 };
 
 #endif // POPUPWIDGET_H

@@ -16,8 +16,15 @@
 
 #include "Cryptographic.h"
 
+#include <QtGlobal>
+
 #include <QByteArray>
-#include <qpassworddigestor.h>
+// QPasswordDigestor lives in QtCore up to Qt 5 and moved to QtNetwork in Qt 6.
+#if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)
+	#include <QtNetwork/QPasswordDigestor>
+#else
+	#include <QtCore/QPasswordDigestor>
+#endif
 #include <QRandomGenerator>
 
 #include "openssl/evp.h"

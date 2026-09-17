@@ -20,7 +20,6 @@ variables:
 .macos_arm64:
   tags:
     - macos
-    - arm64
   before_script:
     - export PATH="${HOMEBREW_PREFIX}/bin:${PATH}"
     - export CMAKE_PREFIX_PATH="${HOMEBREW_PREFIX}"

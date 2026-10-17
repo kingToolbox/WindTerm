@@ -167,7 +167,7 @@ QByteArray WinPty::readAll() {
 bool WinPty::resizeWindow(qint16 rows, qint16 columns) {
 	bool success = true;
 
-	if (rows != m_rows && columns != m_columns) {
+	if (rows != m_rows || columns != m_columns) {
 		success = m_ptyHandler ? winpty_set_size(m_ptyHandler, columns, rows, nullptr) : false;
 
 		if (success) {

@@ -201,7 +201,7 @@ QByteArray ConPty::readAll() {
 bool ConPty::resizeWindow(qint16 rows, qint16 columns) {
 	bool success = true;
 
-	if (rows != m_rows && columns != m_columns) {
+	if (rows != m_rows || columns != m_columns) {
 #if COMPILE_CONPTY_ENABLED
 		HRESULT hr = (m_ptyHandler != INVALID_HANDLE_VALUE)
 				   ? ResizePseudoConsole(m_ptyHandler, { columns, rows })
@@ -209,8 +209,8 @@ bool ConPty::resizeWindow(qint16 rows, qint16 columns) {
 		success = (hr == S_OK) ? true : false;
 #endif
 		if (success) {
-			rows = m_rows;
-			columns = m_columns;
+			m_rows = rows;
+			m_columns = columns;
 		}
 	}
 	Q_ASSERT(success);
